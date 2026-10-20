@@ -1,0 +1,23 @@
+{
+ "patterns": [
+  {
+   "id": "pt_onegai",
+   "frame": "〜をお願いします",
+   "en": "~, please (asking for something)",
+   "fills": [
+    {
+     "jp": "お水",
+     "en": "water"
+    },
+    {
+     "jp": "お会計",
+     "en": "the bill"
+    },
+    {
+     "jp": "メニュー",
+     "en": "the menu"
+    }
+   ]
+  }
+ ]
+}

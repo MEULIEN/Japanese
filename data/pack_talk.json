@@ -1,0 +1,123 @@
+{
+ "domain": "talk",
+ "status": "draft",
+ "sources": [
+  "JMdict/EDRDG dictionary entry — to be confirmed per item before status becomes verified"
+ ],
+ "items": [
+  {
+   "id": "t_sumimasen",
+   "jp": "すみません",
+   "kana": "すみません",
+   "romaji": "sumimasen",
+   "en": "excuse me (getting attention) / sorry",
+   "tier": 1,
+   "say_when": "Getting someone's attention, or a light apology.",
+   "status": "verified",
+   "sources": [
+    "CARLA, Univ. of Minnesota (archive.carla.umn.edu): すみません 'excuse me' — getting attention",
+    "Portland State Univ. textbook Beginning Japanese for Professionals (pdx.edu): すみません thank you, I'm sorry — checked 2026-10-20"
+   ]
+  },
+  {
+   "id": "t_arigato",
+   "jp": "ありがとうございます",
+   "kana": "ありがとうございます",
+   "romaji": "arigatō gozaimasu",
+   "en": "thank you",
+   "tier": 1
+  },
+  {
+   "id": "t_kore",
+   "jp": "これをください",
+   "kana": "これをください",
+   "romaji": "kore o kudasai",
+   "en": "this one, please",
+   "tier": 1,
+   "kind": "phrase",
+   "say_when": "Pointing at an item you want."
+  },
+  {
+   "id": "t_mouichido",
+   "jp": "もう一度お願いします",
+   "kana": "もういちどおねがいします",
+   "romaji": "mō ichido onegai shimasu",
+   "en": "one more time, please",
+   "tier": 1,
+   "kind": "phrase",
+   "say_when": "You did not catch what was said. Keeps the conversation going instead of freezing."
+  },
+  {
+   "id": "t_yukkuri",
+   "jp": "ゆっくり話してください",
+   "kana": "ゆっくりはなしてください",
+   "romaji": "yukkuri hanashite kudasai",
+   "en": "please speak slowly",
+   "tier": 1,
+   "kind": "phrase"
+  },
+  {
+   "id": "t_korenani",
+   "jp": "これは何ですか",
+   "kana": "これはなんですか",
+   "romaji": "kore wa nan desu ka",
+   "en": "what is this?",
+   "tier": 1,
+   "kind": "phrase",
+   "say_when": "Point and ask when you do not know a word."
+  },
+  {
+   "id": "t_nihongode",
+   "jp": "〜は日本語で何ですか",
+   "kana": "〜はにほんごでなんですか",
+   "romaji": "~ wa nihongo de nan desu ka",
+   "en": "what is ~ in Japanese?",
+   "tier": 2,
+   "kind": "pattern",
+   "say_when": "Stuck on a word? Say the English word in the slot."
+  },
+  {
+   "id": "t_suito_ireru",
+   "jp": "水筒にお水を入れてもらえますか",
+   "kana": "すいとうにおみずをいれてもらえますか",
+   "romaji": "suitō ni omizu o irete moraemasu ka",
+   "en": "could you fill my water bottle with water?",
+   "tier": 3,
+   "kind": "phrase",
+   "note": "Believed natural and polite, but ask a native speaker or find a trusted source before promoting to verified."
+  },
+  {
+   "id": "t_otearai_doko",
+   "jp": "お手洗いはどこですか",
+   "kana": "おてあらいはどこですか",
+   "romaji": "otearai wa doko desu ka",
+   "en": "where is the toilet?",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Tatoeba example sentence 'Where's the washroom?' shown on tangorin.com (CC BY 2.0); お手洗い per JMdict — checked 2026-10-20"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_koko_meshiagaru",
+   "jp": "ここで召し上がりますか、それともお持ち帰りですか",
+   "kana": "ここでめしあがりますか、それともおもちかえりですか",
+   "romaji": "koko de meshiagarimasu ka, soretomo omochikaeri desu ka",
+   "en": "is it for here, or to go?",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Tatoeba example sentence via japandict.com (JMdict 1770030 entry) — checked 2026-10-20"
+   ],
+   "kind": "heard",
+   "say_when": "Listening practice: a polite question you may hear at a counter.",
+   "links": [
+    {
+     "id": "f_mochikaeri",
+     "rel": "contains お持ち帰り (takeout)"
+    }
+   ]
+  }
+ ]
+}

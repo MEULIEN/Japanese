@@ -1,0 +1,75 @@
+{
+ "domain": "grocery",
+ "status": "draft",
+ "sources": [
+  "pending"
+ ],
+ "items": [
+  {
+   "id": "g_shomi",
+   "jp": "賞味期限",
+   "kana": "しょうみきげん",
+   "romaji": "shōmi kigen",
+   "en": "best-before date (taste/quality; not a safety deadline)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "MAFF (maff.go.jp/j/syokuiku/kodomo_navi/featured/abc2.html) — checked 2026-10-20",
+    "Kanagawa Prefecture (pref.kanagawa.jp/docs/e8z/cnt/f6576/p1085364.html) — checked 2026-10-20",
+    "Edogawa City bulletin with furigana (city.edogawa.tokyo.jp) — checked 2026-10-20"
+   ],
+   "links": [
+    {
+     "id": "g_shohi",
+     "rel": "contrast: quality date vs safety date"
+    }
+   ],
+   "note": "Official guidance: the date until the unopened food keeps its quality and tastes good if stored as labelled; it can still be eaten shortly after. Once opened, eat it soon whatever the date."
+  },
+  {
+   "id": "g_shohi",
+   "jp": "消費期限",
+   "kana": "しょうひきげん",
+   "romaji": "shōhi kigen",
+   "en": "use-by date (safe-to-eat deadline)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "MAFF (maff.go.jp/j/syokuiku/kodomo_navi/featured/abc2.html) — checked 2026-10-20",
+    "Kanagawa Prefecture (pref.kanagawa.jp/docs/e8z/cnt/f6576/p1085364.html) — checked 2026-10-20",
+    "Edogawa City bulletin with furigana (city.edogawa.tokyo.jp) — checked 2026-10-20"
+   ],
+   "links": [
+    {
+     "id": "g_shomi",
+     "rel": "contrast: safety date vs quality date"
+    }
+   ],
+   "note": "Official guidance: the date until the unopened food is safe if stored as labelled. Do not eat it after this date. Once opened, eat it soon."
+  },
+  {
+   "id": "g_zeikomi",
+   "jp": "税込",
+   "kana": "ぜいこみ",
+   "romaji": "zeikomi",
+   "en": "tax included (price)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "JMdict entry 1596250 (EDRDG) via japandict.com: 税込 / 税込み 【ぜいこみ】 including tax (of a price) — checked 2026-10-20"
+   ]
+  },
+  {
+   "id": "g_waribiki",
+   "jp": "割引",
+   "kana": "わりびき",
+   "romaji": "waribiki",
+   "en": "discount",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "JMdict entry 1606950 (EDRDG) via japandict.com: 割引 【わりびき】 discount, reduction, rebate — checked 2026-10-20"
+   ]
+  }
+ ]
+}

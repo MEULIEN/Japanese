@@ -1,0 +1,140 @@
+{
+ "schema": 1,
+ "note": "status 'draft' = written from general knowledge, NOT yet source-checked. Only 'verified' items are shown when Settings > Show drafts is off. Promote an item to 'verified' only after checking an official/trustworthy source and listing it in sources.",
+ "packs": [
+  "pack_signs.json",
+  "pack_places.json",
+  "pack_food.json",
+  "pack_talk.json",
+  "pack_drive.json",
+  "pack_grocery.json"
+ ],
+ "domains": [
+  {
+   "id": "signs",
+   "name": "Signs & kanji",
+   "icon": "🪧",
+   "can_do": [
+    {
+     "en": "Find the exit and the entrance",
+     "needs": [
+      "s_deguchi",
+      "s_iriguchi"
+     ]
+    },
+    {
+     "en": "Know if a shop is open or still preparing",
+     "needs": [
+      "s_eigyochu",
+      "s_junbichu"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "places",
+   "name": "Kyoto places",
+   "icon": "⛩️",
+   "can_do": [
+    {
+     "en": "Recognise Kyoto Station and the main central areas",
+     "needs": [
+      "p_kyotoeki",
+      "p_shijo",
+      "p_kawaramachi"
+     ]
+    },
+    {
+     "en": "Read the main Karasuma Line subway station names",
+     "needs": [
+      "p_kyotoeki",
+      "p_shijo",
+      "p_gojo",
+      "p_karasuma_oike"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "food",
+   "name": "Food & ordering",
+   "icon": "🍜",
+   "can_do": [
+    {
+     "en": "Ask for the menu and the bill",
+     "needs": [
+      "f_menu",
+      "f_okaikei"
+     ]
+    },
+    {
+     "en": "Understand order, takeout and the bill",
+     "needs": [
+      "f_chumon",
+      "f_mochikaeri",
+      "f_okaikei"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "talk",
+   "name": "Talking & getting unstuck",
+   "icon": "💬",
+   "can_do": [
+    {
+     "en": "Ask someone to repeat slowly and say you don't know a word",
+     "needs": [
+      "t_mouichido",
+      "t_yukkuri",
+      "t_nihongode"
+     ]
+    },
+    {
+     "en": "Ask where the toilet is",
+     "needs": [
+      "t_otearai_doko"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "drive",
+   "name": "Driving & road signs",
+   "icon": "🚗",
+   "can_do": [
+    {
+     "en": "Read stop, slow-down and one-way signs",
+     "needs": [
+      "d_ichiji",
+      "d_jokoo",
+      "d_ippo"
+     ]
+    },
+    {
+     "en": "Spot no-parking, no-overtaking and no-U-turn signs",
+     "needs": [
+      "d_chusha",
+      "d_oikoshi",
+      "d_tenkai"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "grocery",
+   "name": "Grocery & shopping",
+   "icon": "🛒",
+   "can_do": [
+    {
+     "en": "Read date labels and price tags (best-before, use-by, tax included)",
+     "needs": [
+      "g_shomi",
+      "g_shohi",
+      "g_zeikomi"
+     ]
+    }
+   ]
+  }
+ ]
+}

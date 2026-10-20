@@ -1,0 +1,24 @@
+{
+ "prompts": [
+  {
+   "id": "x1",
+   "situation_en": "You are at a counter and cannot remember the word for something you want.",
+   "blocked_en": "the word you want",
+   "tips": [
+    "t_korenani",
+    "t_nihongode",
+    "t_sumimasen"
+   ]
+  },
+  {
+   "id": "x2",
+   "situation_en": "Someone answers you quickly and you only caught a few sounds.",
+   "blocked_en": "what they just said",
+   "tips": [
+    "t_mouichido",
+    "t_yukkuri",
+    "t_sumimasen"
+   ]
+  }
+ ]
+}

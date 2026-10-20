@@ -1,0 +1,149 @@
+{
+ "domain": "signs",
+ "status": "draft",
+ "sources": [
+  "JMdict/EDRDG dictionary entry — to be confirmed per item before status becomes verified"
+ ],
+ "items": [
+  {
+   "id": "s_deguchi",
+   "jp": "出口",
+   "kana": "でぐち",
+   "romaji": "deguchi",
+   "en": "exit",
+   "tier": 1,
+   "parts": [
+    {
+     "jp": "出",
+     "en": "go out"
+    },
+    {
+     "jp": "口",
+     "en": "mouth / opening"
+    }
+   ],
+   "links": [
+    {
+     "id": "s_iriguchi",
+     "rel": "opposite — both end in 口 (opening)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "JMdict entry 1338850 (EDRDG) via japandict.com: でぐち, exit — checked 2026-10-20",
+    "MLIT road-sign list (道路標識一覧) uses 出口 on expressway exit signs"
+   ]
+  },
+  {
+   "id": "s_iriguchi",
+   "jp": "入口",
+   "kana": "いりぐち",
+   "romaji": "iriguchi",
+   "en": "entrance",
+   "tier": 1,
+   "parts": [
+    {
+     "jp": "入",
+     "en": "enter"
+    },
+    {
+     "jp": "口",
+     "en": "mouth / opening"
+    }
+   ],
+   "links": [
+    {
+     "id": "s_deguchi",
+     "rel": "opposite — both end in 口 (opening)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "JMdict (EDRDG) via jisho.org: 入口 【いりぐち】 entrance — checked 2026-10-20",
+    "MLIT road-sign list uses 入口 on expressway entrance signs"
+   ],
+   "note": "Other readings exist (いりくち, はいりぐち); いりぐち is the one taught here."
+  },
+  {
+   "id": "s_eki",
+   "jp": "駅",
+   "kana": "えき",
+   "romaji": "eki",
+   "en": "station",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "JMdict entry 1175140 (EDRDG) via japandict.com / manga-kotoba.com: 駅 【えき】 railway station — checked 2026-10-20"
+   ]
+  },
+  {
+   "id": "s_tomare",
+   "jp": "止まれ",
+   "kana": "とまれ",
+   "romaji": "tomare",
+   "en": "stop (road sign)",
+   "tier": 1,
+   "note": "Reading とまれ and sign wording seen in Japanese car-media articles citing the Road Traffic Act art. 43; the official sign name is 一時停止 (MLIT). Needs an official page before verifying. Road-paint 止まれ is a non-statutory marking."
+  },
+  {
+   "id": "s_kinen",
+   "jp": "禁煙",
+   "kana": "きんえん",
+   "romaji": "kin'en",
+   "en": "no smoking (on a sign); also: quitting smoking",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "JMdict-based entries (tangorin.com, kanshudo.com): 禁煙 【きんえん】 No Smoking (on a sign); also abstaining from / quitting smoking — checked 2026-10-20"
+   ]
+  },
+  {
+   "id": "s_eigyochu",
+   "jp": "営業中",
+   "kana": "えいぎょうちゅう",
+   "romaji": "eigyōchū",
+   "en": "open (for business)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_junbichu",
+     "rel": "both end in 中 (in progress / during)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "JMdict-based entries (romajidesu.com, nihongomaster.com): 営業中 【えいぎょうちゅう】 open (e.g. store) — checked 2026-10-20"
+   ]
+  },
+  {
+   "id": "s_junbichu",
+   "jp": "準備中",
+   "kana": "じゅんびちゅう",
+   "romaji": "junbichū",
+   "en": "preparing (not open yet)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_eigyochu",
+     "rel": "both end in 中 (in progress / during)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "JMdict entry 100319 via YuJisho (dict.devio.at): 準備中 【じゅんびちゅう】 in preparation; (shop) not yet open for business — checked 2026-10-20"
+   ]
+  },
+  {
+   "id": "s_otearai",
+   "jp": "お手洗い",
+   "kana": "おてあらい",
+   "romaji": "otearai",
+   "en": "toilet / restroom",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "JMdict-based entries (tangorin.com, jpdb.io): お手洗い 【おてあらい】 toilet; restroom; lavatory; bathroom — checked 2026-10-20"
+   ]
+  }
+ ]
+}
