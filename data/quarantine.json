@@ -1,0 +1,117 @@
+{
+ "note": "NOT loaded by the app (absent from index.json packs). Items held here failed source verification; each lists why. Promote back into a pack only after an authoritative source confirms the exact wording, reading and meaning.",
+ "generated": "2026-10-20",
+ "items": [
+  {
+   "domain": "signs",
+   "id": "s_tomare",
+   "jp": "止まれ",
+   "kana": "とまれ",
+   "romaji": "tomare",
+   "en": "stop (road sign)",
+   "tier": 1,
+   "note": "Reading とまれ and sign wording seen in Japanese car-media articles citing the Road Traffic Act art. 43; the official sign name is 一時停止 (MLIT). Needs an official page before verifying. Road-paint 止まれ is a non-statutory marking.",
+   "quarantine_reason": "Road-sign text 止まれ. Per policy, road signs must cite an official Japanese traffic authority, not a dictionary. Pending official source.",
+   "from_pack": "pack_signs.json"
+  },
+  {
+   "domain": "places",
+   "id": "p_kawaramachi",
+   "jp": "河原町",
+   "kana": "かわらまち",
+   "romaji": "Kawaramachi",
+   "en": "Kawaramachi (central Kyoto shopping area)",
+   "tier": 2,
+   "quarantine_reason": "Generic dictionary 河原町 gives reading かわはらちょう (a place in Tottori), NOT the Kyoto reading かわらまち. Needs an official Kyoto/transit source before promotion — do not guess the reading.",
+   "from_pack": "pack_places.json"
+  },
+  {
+   "domain": "places",
+   "id": "p_gion",
+   "jp": "祇園",
+   "kana": "ぎおん",
+   "romaji": "Gion",
+   "en": "Gion (historic district of Kyoto)",
+   "tier": 2,
+   "quarantine_reason": "祇園: reading ぎおん is only indirectly supported (via 祇園祭) and the district sense is a Wikipedia tag. Per place-name policy, needs an official Kyoto source.",
+   "from_pack": "pack_places.json"
+  },
+  {
+   "domain": "talk",
+   "id": "t_kore",
+   "jp": "これをください",
+   "kana": "これをください",
+   "romaji": "kore o kudasai",
+   "en": "this one, please",
+   "tier": 1,
+   "kind": "phrase",
+   "say_when": "Pointing at an item you want.",
+   "quarantine_reason": "これ = \"this; this one\" (JMdict); stored meaning \"this one, please\" adds \"please\" the source does not support. Needs rephrasing or a phrase-level source.",
+   "from_pack": "pack_talk.json"
+  },
+  {
+   "domain": "talk",
+   "id": "t_mouichido",
+   "jp": "もう一度お願いします",
+   "kana": "もういちどおねがいします",
+   "romaji": "mō ichido onegai shimasu",
+   "en": "one more time, please",
+   "tier": 1,
+   "kind": "phrase",
+   "say_when": "You did not catch what was said. Keeps the conversation going instead of freezing.",
+   "quarantine_reason": "Constructed request. JMdict verifies もう一度 (\"once more; again\") but not the full もう一度お願いします. Needs a learner/grammar source for the whole phrase.",
+   "from_pack": "pack_talk.json"
+  },
+  {
+   "domain": "talk",
+   "id": "t_yukkuri",
+   "jp": "ゆっくり話してください",
+   "kana": "ゆっくりはなしてください",
+   "romaji": "yukkuri hanashite kudasai",
+   "en": "please speak slowly",
+   "tier": 1,
+   "kind": "phrase",
+   "quarantine_reason": "Constructed sentence. JMdict verifies ゆっくり (\"slowly\") but not ゆっくり話してください as a whole.",
+   "from_pack": "pack_talk.json"
+  },
+  {
+   "domain": "talk",
+   "id": "t_korenani",
+   "jp": "これは何ですか",
+   "kana": "これはなんですか",
+   "romaji": "kore wa nan desu ka",
+   "en": "what is this?",
+   "tier": 1,
+   "kind": "phrase",
+   "say_when": "Point and ask when you do not know a word.",
+   "quarantine_reason": "Textbook sentence これは何ですか — no single dictionary entry covers the whole sentence. Needs a phrase-level source.",
+   "from_pack": "pack_talk.json"
+  },
+  {
+   "domain": "talk",
+   "id": "t_nihongode",
+   "jp": "〜は日本語で何ですか",
+   "kana": "〜はにほんごでなんですか",
+   "romaji": "~ wa nihongo de nan desu ka",
+   "en": "what is ~ in Japanese?",
+   "tier": 2,
+   "kind": "pattern",
+   "say_when": "Stuck on a word? Say the English word in the slot.",
+   "quarantine_reason": "Frame 〜は日本語で何ですか — components are verifiable, the whole frame needs a grammar/learner source.",
+   "from_pack": "pack_talk.json"
+  },
+  {
+   "domain": "talk",
+   "id": "t_suito_ireru",
+   "jp": "水筒にお水を入れてもらえますか",
+   "kana": "すいとうにおみずをいれてもらえますか",
+   "romaji": "suitō ni omizu o irete moraemasu ka",
+   "en": "could you fill my water bottle with water?",
+   "tier": 3,
+   "kind": "phrase",
+   "note": "Believed natural and polite, but ask a native speaker or find a trusted source before promoting to verified.",
+   "quarantine_reason": "Long constructed request 水筒に水を入れてもらえますか — needs native/usage confirmation of naturalness and politeness.",
+   "from_pack": "pack_talk.json"
+  }
+ ]
+}

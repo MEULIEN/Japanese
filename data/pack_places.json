@@ -53,22 +53,6 @@
    ]
   },
   {
-   "id": "p_kawaramachi",
-   "jp": "河原町",
-   "kana": "かわらまち",
-   "romaji": "Kawaramachi",
-   "en": "Kawaramachi (central Kyoto shopping area)",
-   "tier": 2
-  },
-  {
-   "id": "p_gion",
-   "jp": "祇園",
-   "kana": "ぎおん",
-   "romaji": "Gion",
-   "en": "Gion (historic district of Kyoto)",
-   "tier": 2
-  },
-  {
    "id": "p_gojo",
    "jp": "五条",
    "kana": "ごじょう",

@@ -40,8 +40,7 @@
      "en": "Recognise Kyoto Station and the main central areas",
      "needs": [
       "p_kyotoeki",
-      "p_shijo",
-      "p_kawaramachi"
+      "p_shijo"
      ]
     },
     {
@@ -82,14 +81,6 @@
    "name": "Talking & getting unstuck",
    "icon": "💬",
    "can_do": [
-    {
-     "en": "Ask someone to repeat slowly and say you don't know a word",
-     "needs": [
-      "t_mouichido",
-      "t_yukkuri",
-      "t_nihongode"
-     ]
-    },
     {
      "en": "Ask where the toilet is",
      "needs": [

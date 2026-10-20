@@ -124,22 +124,16 @@ function applyThemeSettings(value) {
 /* ============================================================
    Michi 道 — daily Japanese for living in Kyoto
    Vanilla JS, no build step. Renders into #app, delegated clicks.
-   Content lives in data/*.json (see README.md for the schema).
+   All scheduling / mastery / session logic lives in engine.js (pure,
+   tested in tests/engine.test.js); this file is the UI + persistence
+   shell around it. Content lives in data/*.json (see README.md).
    ============================================================ */
+const E = window.MichiEngine;
 const LS_KEY = 'michi_v1';
-const BOX_DAYS = { 1: 0, 2: 1, 3: 3, 4: 7, 5: 14, 6: 30 };
-const MAX_BOX = 6, KNOWN_BOX = 3;
-// Recommended day: 3 short sessions (~40 min total, none over 15) + 1 optional weekly long one (40 min).
-const PLAN = {
-  morning: { icon: '🌅', cls: 'morning', name: 'Learn', min: 15, desc: 'Guess first, then learn up to 5 new items', newMax: 5, reviewMax: 5 },
-  midday:  { icon: '☀️', cls: 'free', name: 'Recall', min: 8, desc: 'Quick retrieval of what you learned', newMax: 0, reviewMax: 10 },
-  evening: { icon: '🌙', cls: 'evening', name: 'Speak & Flex', min: 15, desc: 'Say it aloud, memory round, get-unstuck drill', newMax: 0, reviewMax: 8, flex: 1, span: true },
-  weekly:  { icon: '🚶', cls: 'test', name: 'Kyoto Walk', min: 40, desc: 'Weekly long session: wide review, 3 drills', newMax: 3, reviewMax: 20, flex: 3, span: true },
-  mini:    { icon: '⚡', cls: 'free', name: 'Minimum day', min: 5, desc: 'Tired? 5 minutes still counts as a kept day', newMax: 0, reviewMax: 6 }
-};
-const REQ = ['id', 'jp', 'kana', 'en', 'domain', 'tier', 'status', 'sources'];
+const PLAN = E.PLAN;
+const KNOWN_BOX = E.KNOWN_BOX;
 
-const D = { domains: [], items: [], byId: {}, flex: [], patterns: [] };
+const D = { domains: [], items: [], byId: {}, flex: [], patterns: [], skipped: [] };
 let S = loadState();
 const V = { view: 'loading', p: {}, tab: 'all' };
 let SE = null;   // active session
@@ -148,74 +142,48 @@ const $app = document.getElementById('app');
 
 /* ---------- utils ---------- */
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
-const pad = n => String(n).padStart(2, '0');
-const ds = d => d.getFullYear() + '-' + pad(d.getMonth() + 1) + '-' + pad(d.getDate());
-const today = () => ds(new Date());
-function addDays(s, n) { const [y, m, d] = s.split('-').map(Number); return ds(new Date(y, m - 1, d + n)); }
-function shuffle(a) { a = a.slice(); for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; }
+const today = E.today;
+const addDays = E.addDays;
+const shuffle = E.shuffle;
 const pct = (n, d) => d ? Math.round(100 * n / d) : 0;
-function blank() { return { items: {}, days: {}, hooks: {}, settings: { theme: 'light', background: null, shade: null, drafts: true }, span: 0, flex: 0 }; }
-function loadState() { try { const r = JSON.parse(localStorage.getItem(LS_KEY)); if (r && r.items) { const b = blank(); return Object.assign(b, r, { settings: Object.assign(b.settings, r.settings || {}) }); } } catch (e) { } return blank(); }
+const hasSpeech = () => typeof window !== 'undefined' && 'speechSynthesis' in window;
+// Settings no longer carries a "drafts" flag — the curriculum is verified-only,
+// with no toggle to admit unverified material (see loadData / data provenance).
+function blank() { return { items: {}, days: {}, hooks: {}, settings: { theme: 'light', background: null, shade: null }, span: 0, flex: 0 }; }
+function loadState() { try { const r = JSON.parse(localStorage.getItem(LS_KEY)); if (r && r.items) { const b = blank(); const s = Object.assign(b, r, { settings: Object.assign(b.settings, r.settings || {}) }); delete s.settings.drafts; return s; } } catch (e) { } return blank(); }
 function save() { try { localStorage.setItem(LS_KEY, JSON.stringify(S)); } catch (e) { } }
 
-/* ---------- data ---------- */
+/* ---------- data (verified-only load) ---------- */
 async function getJson(p) { const r = await fetch(p, { cache: 'no-cache' }); if (!r.ok) throw new Error(p); return r.json(); }
 async function loadData() {
   const idx = await getJson('data/index.json');
   D.domains = idx.domains;
+  const seen = new Set();
   for (const f of idx.packs) {
     try {
       const p = await getJson('data/' + f);
       for (const raw of p.items) {
-        const it = Object.assign({ domain: p.domain, status: p.status, sources: p.sources }, raw);
-        const miss = REQ.filter(k => it[k] == null || it[k] === '' || (k === 'sources' && !it.sources.length));
-        if (miss.length || D.byId[it.id] || !['draft', 'verified'].includes(it.status)) { console.warn('Skipped item', it.id, miss); continue; }
-        D.items.push(it); D.byId[it.id] = it;
+        const res = E.prepareItem(raw, p, seen);
+        if (res.skip) { D.skipped.push({ id: raw.id, why: res.skip }); console.warn('Skipped item', raw.id, res.skip); continue; }
+        seen.add(res.item.id); D.items.push(res.item); D.byId[res.item.id] = res.item;
       }
     } catch (e) { console.warn('Pack failed', f, e); }
   }
   try { D.flex = (await getJson('data/flex.json')).prompts; } catch (e) { }
   try { D.patterns = (await getJson('data/patterns.json')).patterns; } catch (e) { }
 }
-const live = () => D.items.filter(i => i.status === 'verified' || S.settings.drafts);
-const box = id => S.items[id] ? S.items[id].box : 0;
-const isKnown = i => box(i.id) >= KNOWN_BOX;
+const live = () => D.items;                       // already verified-only after load
+const box = id => E.boxOf(S.items, id);
+const isKnown = i => E.isKnown(S.items, i.id);
+const isKnownId = id => E.isKnown(S.items, id);
 
-/* ---------- spaced repetition (Leitner boxes, expanding gaps) ---------- */
-function grade(id, g) {
-  const r = S.items[id] || (S.items[id] = { box: 1, due: today(), reps: 0, lapses: 0 });
-  r.reps++;
-  if (g === 'again') { r.box = 1; r.lapses++; r.due = today(); }
-  else { r.box = Math.min(MAX_BOX, r.box + (g === 'easy' ? 2 : 1)); r.due = addDays(today(), BOX_DAYS[r.box]); }
-  save();
-}
-function tierOpen(t) { // a tier opens once 80% of the previous tier has been introduced
-  if (t <= 1) return true;
-  const prev = live().filter(i => i.tier === t - 1);
-  return !prev.length || prev.filter(i => S.items[i.id]).length / prev.length >= 0.8;
-}
-function pickNew(n) { // lowest tier first, rotating across domains so topics interleave
-  const by = {};
-  live().filter(i => !S.items[i.id] && tierOpen(i.tier)).sort((a, b) => a.tier - b.tier).forEach(i => (by[i.domain] = by[i.domain] || []).push(i));
-  const lists = Object.values(by), out = [];
-  while (out.length < n && lists.some(l => l.length)) for (const l of lists) if (l.length && out.length < n) out.push(l.shift());
-  return out;
-}
-function dueItems(n) {
-  const t = today(), r = S.items;
-  return live().filter(i => r[i.id] && r[i.id].due <= t).sort((a, b) => r[a.id].due.localeCompare(r[b.id].due) || r[a.id].box - r[b.id].box).slice(0, n);
-}
-function modeFor(i) { const b = box(i.id); return b <= 1 || !('speechSynthesis' in window) && b === 2 ? 'read' : b === 2 ? 'listen' : 'say'; }
-function choices(i) {
-  const o = live().filter(x => x.id !== i.id && x.en !== i.en);
-  const pool = shuffle(o.filter(x => x.domain === i.domain)).concat(shuffle(o.filter(x => x.domain !== i.domain)));
-  const seen = new Set([i.en]), out = [i.en];
-  for (const x of pool) { if (out.length >= 4) break; if (!seen.has(x.en)) { seen.add(x.en); out.push(x.en); } }
-  return shuffle(out);
-}
+/* ---------- spaced repetition (thin wrappers over engine) ---------- */
+function grade(id, g, mode) { S.items[id] = E.gradeRecord(S.items[id], g, today(), mode); save(); }
+function modeFor(i) { return E.modeFor(S.items, i.id, hasSpeech()); }
+function choices(i) { return E.choices(live(), i); }
 function speak(t) {
   try {
-    const u = new SpeechSynthesisUtterance(t.replace(/〜/g, ''));
+    const u = new SpeechSynthesisUtterance(String(t).replace(/〜/g, ''));
     u.lang = 'ja-JP'; u.rate = 0.85;
     const v = speechSynthesis.getVoices().find(v => /^ja/i.test((v.lang || '').replace('_', '-')));
     if (v) u.voice = v;
@@ -224,25 +192,20 @@ function speak(t) {
 }
 
 /* ---------- sessions ---------- */
-function buildSession(kind) {
-  const q = [], stats = { total: 0, correct: 0, newCount: 0, flex: 0 };
-  if (kind === 'flexdrill') {
-    shuffle(D.flex).slice(0, 3).forEach(f => q.push({ step: 'flex', f }));
-  } else {
-    const P = PLAN[kind], fresh = pickNew(P.newMax);
-    let rev = dueItems(P.reviewMax);
-    if (kind === 'mini' && !rev.length) rev = live().filter(i => S.items[i.id]).sort((a, b) => box(a.id) - box(b.id)).slice(0, P.reviewMax);
-    stats.newCount = fresh.length;
-    fresh.forEach(i => q.push({ step: 'pretest', item: i }, { step: 'teach', item: i }));
-    q.push(...shuffle([...fresh.map(i => ({ step: 'quiz', item: i, mode: 'read', isNew: true })), ...rev.map(i => ({ step: 'quiz', item: i, mode: modeFor(i) }))]));
-    if (D.flex.length) for (let k = 0; k < (P.flex || 0); k++) q.push({ step: 'flex', f: D.flex[Math.floor(Math.random() * D.flex.length)] });
-    if (P.span) q.push({ step: 'span' });
-  }
-  return { kind, queue: q, i: 0, stats, st: {}, cache: {} };
+function buildQueue(kind) {
+  return E.buildSession(kind, { live: live(), items: S.items, flex: D.flex, hasSpeech: hasSpeech(), today: today() });
 }
+const EMPTY_MSG = {
+  'nothing-learned': 'Nothing to recall yet — start with the Learn session.',
+  'nothing-due': "You're all caught up — nothing is due right now. Come back later, or do a Learn session.",
+  'no-flex': 'No get-unstuck drills are available yet.',
+  'unknown-kind': 'That session is unavailable.'
+};
 function startSession(kind) {
-  SP = null; SE = buildSession(kind);
-  if (!SE.queue.length) { go('home', { empty: true }); return; }
+  SP = null;
+  const built = buildQueue(kind);
+  if (!built.queue.length) { go('home', { empty: true, reason: built.reason }); return; }
+  SE = { kind, queue: built.queue, i: 0, stats: built.stats, st: {}, cache: {}, startTs: Date.now(), est: E.estimateMinutes(built.queue) };
   go('session');
 }
 const cur = () => SE.queue[SE.i];
@@ -265,28 +228,35 @@ function render() {
   const tabbed = ['home', 'library', 'train', 'settings'].includes(V.view);
   $app.innerHTML = (f ? f() : '<div class="screen"><p>Loading…</p></div>') + (tabbed ? `<nav class="tabbar">${TABS.map(([v, g, l]) => `<button class="tabbar-btn ${V.view === v ? 'active' : ''}" data-action="go" data-view="${v}"><span class="t-glyph">${g}</span><span class="t-label">${l}</span></button>`).join('')}</nav>` : '');
   window.scrollTo(0, 0);
+  // Give the typed-answer box focus so production practice needs no extra tap.
+  const ti = $app.querySelector('.type-input:not([disabled])'); if (ti) { try { ti.focus(); } catch (e) { } }
 }
 const topbar = (t, back) => `<div class="topbar">${back ? '<button class="back" data-action="back">‹ Back</button>' : '<span class="spacer"></span>'}<span class="title">${esc(t)}</span><span class="spacer"></span></div>`;
 const sayBtn = k => `<button class="btn ghost" data-action="say" data-say="${esc(k)}" aria-label="Play audio">🔊</button>`;
-const badge = i => `<span class="badge">${esc((D.domains.find(d => d.id === i.domain) || {}).name || i.domain)}</span>${i.status === 'draft' ? ' <span class="badge">DRAFT · unverified</span>' : ''}`;
+const badge = i => `<span class="badge">${esc((D.domains.find(d => d.id === i.domain) || {}).name || i.domain)}</span>`;
 const bar = p => `<div class="progress-track"><div class="progress-fill" style="width:${p}%"></div></div>`;
 
 function renderHome() {
   const t = today(), day = S.days[t] || { kinds: [] }, its = live(), k = its.filter(isKnown).length;
   const week = Array.from({ length: 7 }, (_, x) => S.days[addDays(t, x - 6)] ? 1 : 0);
   const doms = D.domains.map(d => { const L = its.filter(i => i.domain === d.id), n = L.filter(isKnown).length; return L.length ? `<div style="display:flex;justify-content:space-between;font-size:.92rem;margin-top:10px"><span>${d.icon || ''} ${esc(d.name)}</span><span>${n}/${L.length}</span></div>${bar(pct(n, L.length))}` : ''; }).join('');
-  const can = D.domains.flatMap(d => (d.can_do || []).filter(c => c.needs.every(id => D.byId[id] && live().includes(D.byId[id]))).map(c => `<div style="margin:6px 0">${c.needs.every(id => box(id) >= KNOWN_BOX) ? '✅' : '⬜'} ${esc(c.en)}</div>`)).join('');
+  const can = D.domains.flatMap(d => (d.can_do || []).filter(c => c.needs.every(id => D.byId[id])).map(c => `<div style="margin:6px 0">${c.needs.every(isKnownId) ? '✅' : '⬜'} ${esc(c.en)}</div>`)).join('');
   const tomorrow = its.filter(i => S.items[i.id] && S.items[i.id].due <= addDays(t, 1)).length;
-  const card = key => { const P = PLAN[key], done = day.kinds.includes(key); return `<button class="session-card ${P.cls} ${done ? 'done' : ''}" data-action="start" data-kind="${key}"><span class="icon">${P.icon}</span><span class="body"><div class="name">${P.name} · ${P.min} min</div><div class="desc">${P.desc}</div></span>${done ? '<span class="check">✓ Done</span>' : '<span class="chev">›</span>'}</button>`; };
+  const emptyMsg = V.p.empty ? (EMPTY_MSG[V.p.reason] || 'Nothing to practise right now.') : '';
+  const card = key => {
+    const P = PLAN[key], done = day.kinds.includes(key);
+    const est = E.estimateMinutes(buildQueue(key).queue);   // honest, from the real queue
+    return `<button class="session-card ${P.cls} ${done ? 'done' : ''}" data-action="start" data-kind="${key}"><span class="icon">${P.icon}</span><span class="body"><div class="name">${P.name} · ~${est} min</div><div class="desc">${esc(P.desc)}</div></span>${done ? '<span class="check">✓ Done</span>' : '<span class="chev">›</span>'}</button>`;
+  };
   return `<div class="screen">
     <div class="hero"><div class="eyebrow">Michi · 道</div><h1 class="greeting">こんにちは</h1>
     <p class="sub">Three short sessions beat one long one. Missed a day? Nothing is lost — just carry on.</p></div>
-    ${V.p.empty ? '<p class="settings-hint">Nothing to practise yet — try the Learn session first.</p>' : ''}
+    ${emptyMsg ? `<p class="settings-hint">${esc(emptyMsg)}</p>` : ''}
     <div class="streak-row"><span class="streak-flame">🌱</span><div><div class="num">${week.reduce((a, b) => a + b, 0)} of 7</div><div class="label">days practised this week</div></div>
     <div class="dots">${week.map(w => `<span class="dot ${w ? 'filled' : ''}"></span>`).join('')}</div></div>
     <div class="session-cards">${['morning', 'midday', 'evening'].map(card).join('')}${card('weekly')}${card('mini')}</div>
     <div class="settings-section"><h3>Kyoto readiness</h3>
-      <p class="settings-hint">${k} of ${its.length} items recalled reliably (correct after a gap). ${tomorrow} due by tomorrow.</p>${bar(pct(k, its.length))}${doms}</div>
+      <p class="settings-hint">${k} of ${its.length} items recalled reliably — mature in the schedule <b>and</b> produced unaided at least once (not just recognised). ${tomorrow} due by tomorrow.</p>${bar(pct(k, its.length))}${doms}</div>
     ${can ? `<div class="settings-section"><h3>I can now…</h3>${can}</div>` : ''}</div>`;
 }
 
@@ -295,7 +265,7 @@ function renderLibrary() {
   const L = its.filter(i => V.tab === 'all' || i.domain === V.tab);
   return `<div class="screen">${topbar('Words')}
     <div class="tab-row">${tabs.map(t => `<button class="tab ${V.tab === t.id ? 'active' : ''}" data-action="tab" data-id="${t.id}">${esc(t.name)}</button>`).join('')}</div>
-    <div class="word-list">${L.map(i => `<div class="word-row" data-action="detail" data-id="${i.id}" style="cursor:pointer"><span class="kanji">${esc(i.jp)}</span><span class="info"><div class="kana">${esc(i.kana)} · ${esc(i.romaji || '')}</div><div class="meaning">${esc(i.en)}</div></span><span class="mastery">${S.items[i.id] ? '●'.repeat(Math.min(box(i.id), 5)) : '○'}</span></div>`).join('') || '<div class="empty-state">No items.</div>'}</div></div>`;
+    <div class="word-list">${L.map(i => `<div class="word-row" data-action="detail" data-id="${i.id}" style="cursor:pointer"><span class="kanji">${esc(i.jp)}</span><span class="info"><div class="kana">${esc(i.kana)} · ${esc(i.romaji || '')}</div><div class="meaning">${esc(i.en)}</div></span><span class="mastery">${S.items[i.id] ? (isKnown(i) ? '★' : '') + '●'.repeat(Math.min(box(i.id), 5)) : '○'}</span></div>`).join('') || '<div class="empty-state">No items.</div>'}</div></div>`;
 }
 function itemBody(i) {
   const parts = (i.parts || []).map(p => `<span class="chip">${esc(p.jp)} = ${esc(p.en)}</span>`).join(' ');
@@ -320,13 +290,14 @@ function renderPatterns() {
   ${D.patterns.map(p => `<div class="prompt-card"><div class="kanji" style="font-size:1.6rem">${esc(p.frame)}</div><div class="meaning">${esc(p.en)}</div>${p.fills.map(f => `<div style="margin-top:8px">${esc(f.jp)}${esc(p.frame.replace('〜', ''))} — ${esc(f.en)}</div>`).join('')}</div>`).join('') || '<div class="empty-state">No patterns yet.</div>'}</div>`;
 }
 
-/* memory round: watch a sequence of words, tap them back in order */
+/* memory round: watch a sequence of words, tap them back in order.
+   Sequence length and distractors adapt to how many items are learned
+   (engine.spanSetup) — no fixed 6-item requirement. */
+function spanPool() { return live().filter(i => S.items[i.id]); }
 function spanStart(n) {
-  const pool = live().filter(i => S.items[i.id]);
-  if (pool.length < 6) { SP = { phase: 'need' }; return render(); }
-  n = Math.min(n || 3, 9, pool.length); const pick = shuffle(pool), seq = pick.slice(0, n);
-  SP = { n, seq, grid: shuffle(seq.concat(pick.slice(n, n + 3))), phase: 'show', k: 0, picks: [] };
-  render(); setTimeout(spanTick, 700);
+  const sp = E.spanSetup(spanPool(), n || 3, Math.random);
+  if (!sp) { SP = { phase: 'need' }; return render(); }
+  SP = sp; render(); setTimeout(spanTick, 700);
 }
 function spanTick() {
   const s = SP, el = document.getElementById('span-show');
@@ -337,12 +308,12 @@ function spanTick() {
 function spanBody(inSess) {
   const s = SP, cont = inSess ? '<button class="btn ghost" data-action="next">Continue →</button>' : '';
   if (!s) return `<div class="prompt-card"><div class="meaning">Watch the words appear, then tap them back in the same order. It trains working memory using the words you are learning.</div></div><div class="action-row"><button class="btn primary" data-action="span-go">Start</button>${cont}</div>`;
-  if (s.phase === 'need') return `<div class="prompt-card"><div class="meaning">Learn at least 6 items first, then come back.</div></div>${cont}`;
+  if (s.phase === 'need') return `<div class="prompt-card"><div class="meaning">Learn at least ${E.SPAN_MIN} items first, then come back — the round uses the words you already know.</div></div>${cont || '<div class="action-row"><button class="btn primary" data-action="back">OK</button></div>'}`;
   if (s.phase === 'show') return `<div class="prompt-card"><div class="meaning">Remember the order (${s.n} words)</div><div class="kanji" id="span-show">…</div></div>`;
   if (s.phase === 'recall') return `<p class="settings-hint">Tap in the order shown (${s.picks.length}/${s.n})</p><div class="choice-grid">${s.grid.map(i => `<button class="choice-btn ${s.picks.includes(i.id) ? 'correct' : ''}" ${s.picks.includes(i.id) ? 'disabled' : ''} data-action="span-pick" data-id="${i.id}">${esc(i.kana)}</button>`).join('')}</div>`;
   const win = s.phase === 'win';
   return `<div class="prompt-card"><div class="kanji">${win ? '✓' : '✗'}</div><div class="meaning">${win ? `Perfect — ${s.n} in order!` : `Your span this round: ${s.n - 1}`} · Best: ${S.span}</div>${win ? '' : `<div class="settings-hint">Answer: ${s.seq.map(i => esc(i.kana)).join(' → ')}</div>`}</div>
-    <div class="action-row"><button class="btn primary" data-action="span-go" data-n="${win ? Math.min(s.n + 1, 9) : Math.max(3, s.n - 1)}">${win ? 'Next: ' + Math.min(s.n + 1, 9) : 'Try again'}</button>${cont}</div>`;
+    <div class="action-row"><button class="btn primary" data-action="span-go" data-n="${win ? Math.min(s.n + 1, E.SPAN_MAX) : Math.max(2, s.n - 1)}">${win ? 'Next: ' + Math.min(s.n + 1, E.SPAN_MAX) : 'Try again'}</button>${cont}</div>`;
 }
 function renderSpanView() { return `<div class="screen">${topbar('Memory round', true)}${spanBody(false)}</div>`; }
 
@@ -358,13 +329,20 @@ function renderSession() {
   } else if (c.step === 'teach') {
     body = itemBody(i) + '<div class="action-row"><button class="btn primary" data-action="next">Got it →</button></div>';
   } else if (c.step === 'quiz') {
+    const tag = c.delayed ? '<div class="settings-hint">Quick check — you saw this earlier in the session.</div>' : '';
     if (c.mode === 'say') {
-      body = `<div class="prompt-card"><div class="meaning">Say this in Japanese, out loud:</div><div class="kanji" style="font-size:1.5rem">${esc(i.en)}</div>${st.rev ? `<div class="kanji">${esc(i.jp)}</div><div class="kana">${esc(i.kana)} · ${esc(i.romaji || '')}</div>` : ''}</div>` +
+      body = `<div class="prompt-card"><div class="meaning">Say this in Japanese, out loud:</div><div class="kanji" style="font-size:1.5rem">${esc(i.en)}</div>${st.rev ? `<div class="kanji">${esc(i.jp)}</div><div class="kana">${esc(i.kana)} · ${esc(i.romaji || '')}</div>` : ''}</div>${tag}` +
         (!st.rev ? '<div class="action-row"><button class="btn primary" data-action="reveal">Reveal</button></div>'
           : `<div class="action-row">${sayBtn(i.kana)}<button class="btn again" data-action="grade" data-g="again">Again</button><button class="btn good" data-action="grade" data-g="good">Good</button><button class="btn easy" data-action="grade" data-g="easy">Easy</button></div><p class="settings-hint">Be honest — "Again" is what makes it stick.</p>`);
+    } else if (c.mode === 'type') {
+      const ty = st.typed;
+      body = `<div class="prompt-card"><div class="meaning">Type this in Japanese (kana or rōmaji):</div><div class="kanji" style="font-size:1.4rem">${esc(i.en)}</div>${ty ? `<div class="kana" style="margin-top:8px">${ty.ok ? '✓ correct' : '✗ — answer:'} ${esc(i.jp)} · ${esc(i.kana)}</div>${!ty.ok && ty.input ? `<div class="settings-hint">You typed: ${esc(ty.input)}</div>` : ''}` : ''}</div>${tag}` +
+        (!ty ? `<input class="recall-input type-input" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="type here, then Check">
+          <div class="action-row"><button class="btn primary" data-action="check-type">Check</button><button class="btn ghost" data-action="skip-type">Don't know</button></div>`
+          : `<div class="action-row">${sayBtn(i.kana)}<button class="btn primary" data-action="next">Next →</button></div>`);
     } else {
       const opts = SE.cache[SE.i] = SE.cache[SE.i] || choices(i);
-      body = `<div class="prompt-card">${c.mode === 'listen' ? `<div class="meaning">What did you hear?</div><div class="action-row">${sayBtn(i.kana)}</div>` : `<div class="meaning">What does this mean?</div><div class="kanji">${esc(i.jp)}</div>`}${st.ans ? `<div class="kana">${esc(i.jp)} · ${esc(i.kana)}</div>` : ''}</div>
+      body = `<div class="prompt-card">${c.mode === 'listen' ? `<div class="meaning">What did you hear?</div><div class="action-row">${sayBtn(i.kana)}</div>` : `<div class="meaning">What does this mean?</div><div class="kanji">${esc(i.jp)}</div>`}${st.ans ? `<div class="kana">${esc(i.jp)} · ${esc(i.kana)}</div>` : ''}</div>${tag}
         <div class="choice-grid">${opts.map((o, x) => `<button class="choice-btn ${st.ans ? (o === i.en ? 'correct' : o === st.ans.pick ? 'incorrect' : '') : ''}" ${st.ans ? 'disabled' : ''} data-action="choice" data-x="${x}">${esc(o)}</button>`).join('')}</div>` +
         (st.ans ? '<div class="action-row"><button class="btn primary" data-action="next">Next →</button></div>' : '');
     }
@@ -380,23 +358,31 @@ function renderSession() {
 }
 function renderSummary() {
   const st = SE.stats, its = live(), k = its.filter(isKnown).length, tom = its.filter(i => S.items[i.id] && S.items[i.id].due <= addDays(today(), 1)).length;
+  const actual = Math.max(1, Math.round((Date.now() - (SE.startTs || Date.now())) / 60000));
   return `<div class="screen"><div class="summary-hero"><div class="big">よくできました</div><div class="cap">Session complete</div></div>
     <div class="summary-grid"><div class="box"><div class="n">${st.newCount}</div><div class="l">new</div></div><div class="box"><div class="n">${st.total}</div><div class="l">reviewed</div></div><div class="box"><div class="n">${pct(st.correct, st.total)}%</div><div class="l">accuracy</div></div></div>
-    <p class="settings-hint" style="text-align:center">Reliably recalled so far: ${k} of ${its.length}. Due by tomorrow: ${tom}.</p>
+    <p class="settings-hint" style="text-align:center">Estimated ~${SE.est || '?'} min · you took ${actual} min. Reliably recalled so far: ${k} of ${its.length}. Due by tomorrow: ${tom}.</p>
     <div class="action-row"><button class="btn primary" data-action="go" data-view="home">Back to today</button></div></div>`;
 }
 function renderSettings() {
   const s = S.settings;
   return `<div class="screen">${topbar('Settings')}
   <div class="settings-section"><h3>Theme</h3><div class="chip-row">${['light', 'dark'].map(t => `<button class="chip ${s.theme === t ? 'on' : ''}" data-action="theme" data-t="${t}">${t}</button>`).join('')}</div></div>
-  <div class="settings-section"><h3>Content</h3><div class="chip-row"><button class="chip ${s.drafts ? 'on' : ''}" data-action="drafts">Show unverified drafts</button></div>
-  <p class="settings-hint">Drafts are written but not yet source-checked. Turn off to study only verified items.</p></div>
+  <div class="settings-section"><h3>Content</h3><p class="settings-hint">Every item shown has been checked against a listed source — there is no unverified mode. ${live().length} verified items.</p></div>
   <div class="settings-section"><h3>Backup</h3><p class="settings-hint">Your progress lives only on this device. Export a backup now and then.</p>
   <div class="action-row"><button class="btn ghost" data-action="export">Export</button><label class="btn ghost">Import<input id="imp" type="file" accept="application/json" hidden></label></div></div>
   <div class="settings-section"><h3>Reset</h3><button class="btn again" data-action="reset">Erase all progress</button></div></div>`;
 }
 
 /* ---------- events ---------- */
+function submitType() {
+  const c = cur(); if (!c || c.step !== 'quiz' || c.mode !== 'type' || SE.st.typed) return;
+  const inp = $app.querySelector('.type-input');
+  const val = inp ? inp.value : '';
+  const ok = E.acceptAnswer(val, c.item);
+  grade(c.item.id, ok ? 'good' : 'again', 'type'); SE.stats.total++; if (ok) SE.stats.correct++; else requeue(c);
+  SE.st.typed = { input: val, ok }; render();
+}
 $app.addEventListener('click', e => {
   const el = e.target.closest('[data-action]'); if (!el) return;
   const d = el.dataset, c = SE && V.view === 'session' ? cur() : null;
@@ -404,20 +390,22 @@ $app.addEventListener('click', e => {
     case 'go': go(d.view); break;
     case 'tab': V.tab = d.id; render(); break;
     case 'detail': go('detail', { id: d.id }); break;
-    case 'back': go(V.view === 'detail' ? 'library' : V.view === 'session' || V.view === 'span' || V.view === 'patterns' ? (V.view === 'session' ? 'home' : 'train') : 'home'); break;
+    case 'back': go(V.view === 'detail' ? 'library' : V.view === 'session' ? 'home' : (V.view === 'span' || V.view === 'patterns') ? 'train' : 'home'); break;
     case 'start': startSession(d.kind); break;
     case 'say': speak(d.say); break;
     case 'pre': SE.st.pre = d.v; render(); break;
-    case 'skip-known': { const id = c.item.id; grade(id, 'easy'); SE.stats.newCount--; SE.queue = SE.queue.filter((q, x) => x <= SE.i || !(q.item && q.item.id === id)); advance(); break; }
+    case 'skip-known': { const id = c.item.id; grade(id, 'easy', 'read'); SE.stats.newCount--; SE.queue = SE.queue.filter((q, x) => x <= SE.i || !(q.item && q.item.id === id)); advance(); break; }
     case 'next': advance(); break;
     case 'reveal': SE.st.rev = true; render(); break;
+    case 'check-type': submitType(); break;
+    case 'skip-type': { grade(c.item.id, 'again', 'type'); SE.stats.total++; requeue(c); SE.st.typed = { input: '', ok: false }; render(); break; }
     case 'choice': {
       if (SE.st.ans) break;
       const pick = SE.cache[SE.i][+d.x], ok = pick === c.item.en;
-      grade(c.item.id, ok ? 'good' : 'again'); SE.stats.total++; if (ok) SE.stats.correct++; else requeue(c);
+      grade(c.item.id, ok ? 'good' : 'again', c.mode); SE.stats.total++; if (ok) SE.stats.correct++; else requeue(c);
       SE.st.ans = { pick }; render(); break;
     }
-    case 'grade': grade(c.item.id, d.g); SE.stats.total++; if (d.g !== 'again') SE.stats.correct++; else requeue(c); advance(); break;
+    case 'grade': grade(c.item.id, d.g, c.mode); SE.stats.total++; if (d.g !== 'again') SE.stats.correct++; else requeue(c); advance(); break;
     case 'flex-done': if (d.ok === '1') S.flex++; save(); SE.stats.flex++; advance(); break;
     case 'span-open': SP = null; go('span'); break;
     case 'span-go': spanStart(d.n ? +d.n : 3); break;
@@ -428,14 +416,16 @@ $app.addEventListener('click', e => {
       render(); break;
     }
     case 'theme': S.settings.theme = d.t; S.settings.background = null; S.settings.shade = null; save(); applyThemeSettings(S.settings); render(); break;
-    case 'drafts': S.settings.drafts = !S.settings.drafts; save(); render(); break;
     case 'export': { const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([JSON.stringify(S)], { type: 'application/json' })); a.download = 'michi-backup-' + today() + '.json'; a.click(); break; }
     case 'reset': if (confirm('Erase all progress on this device?')) { S = blank(); save(); applyThemeSettings(S.settings); go('home'); } break;
   }
 });
+$app.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && e.target && e.target.classList && e.target.classList.contains('type-input')) { e.preventDefault(); submitType(); }
+});
 $app.addEventListener('change', e => {
   if (e.target.dataset && e.target.dataset.hook) { S.hooks[e.target.dataset.hook] = e.target.value.trim(); save(); }
-  if (e.target.id === 'imp' && e.target.files[0]) e.target.files[0].text().then(t => { const r = JSON.parse(t); if (!r || !r.items) throw 0; S = Object.assign(blank(), r); save(); applyThemeSettings(S.settings); go('home'); }).catch(() => alert('That file is not a Michi backup.'));
+  if (e.target.id === 'imp' && e.target.files[0]) e.target.files[0].text().then(t => { const r = JSON.parse(t); if (!r || !r.items) throw 0; S = Object.assign(blank(), r); delete S.settings.drafts; save(); applyThemeSettings(S.settings); go('home'); }).catch(() => alert('That file is not a Michi backup.'));
 });
 
 (async () => {

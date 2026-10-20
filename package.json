@@ -1,0 +1,15 @@
+{
+  "name": "michi",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Michi 道 — offline daily-Japanese PWA for living in Kyoto. The app itself needs NO build step and NO npm; this file only powers the dev test suite.",
+  "scripts": {
+    "test": "node tests/engine.test.js && node tests/dom.test.js",
+    "test:engine": "node tests/engine.test.js",
+    "test:dom": "node tests/dom.test.js",
+    "audit": "python scripts/audit.py"
+  },
+  "devDependencies": {
+    "jsdom": "^30.1.3"
+  }
+}

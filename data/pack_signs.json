@@ -77,15 +77,6 @@
    ]
   },
   {
-   "id": "s_tomare",
-   "jp": "止まれ",
-   "kana": "とまれ",
-   "romaji": "tomare",
-   "en": "stop (road sign)",
-   "tier": 1,
-   "note": "Reading とまれ and sign wording seen in Japanese car-media articles citing the Road Traffic Act art. 43; the official sign name is 一時停止 (MLIT). Needs an official page before verifying. Road-paint 止まれ is a non-statutory marking."
-  },
-  {
    "id": "s_kinen",
    "jp": "禁煙",
    "kana": "きんえん",

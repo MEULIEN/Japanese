@@ -11,7 +11,11 @@
    "kana": "おみず",
    "romaji": "omizu",
    "en": "water (polite)",
-   "tier": 1
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "JMdict/EDRDG via jisho.org API (keyword=お水): お水 【おみず】 water; (drinking) water; (glass of) water — checked 2026-10-20"
+   ]
   },
   {
    "id": "f_suito",
@@ -25,6 +29,10 @@
      "id": "f_omizu",
      "rel": "both contain 水 (water)"
     }
+   ],
+   "status": "verified",
+   "sources": [
+    "JMdict/EDRDG via jisho.org API (keyword=水筒): 水筒 【すいとう】 canteen; flask; water bottle — checked 2026-10-20"
    ]
   },
   {
@@ -33,7 +41,11 @@
    "kana": "メニュー",
    "romaji": "menyū",
    "en": "menu",
-   "tier": 1
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "JMdict/EDRDG via jisho.org API (keyword=メニュー): メニュー menu — checked 2026-10-20"
+   ]
   },
   {
    "id": "f_okaikei",
@@ -53,7 +65,11 @@
    "kana": "うどん",
    "romaji": "udon",
    "en": "udon (thick wheat noodles)",
-   "tier": 1
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "JMdict/EDRDG via jisho.org API (keyword=うどん): 饂飩 【うどん】 udon; thick Japanese wheat noodles — checked 2026-10-20"
+   ]
   },
   {
    "id": "f_mochikaeri",

@@ -20,13 +20,14 @@
       updated in place without leaving orphaned entries.
    ============================================================ */
 
-const BUILD_ID = 'v4';
+const BUILD_ID = 'v5';
 const CACHE_NAME = 'michi-' + BUILD_ID;
 
 const PRECACHE_ASSETS = [
   './',
   './index.html',
   './style.css',
+  './engine.js',
   './app.js',
   './manifest.json',
   './data/index.json',
@@ -51,6 +52,7 @@ const SHELL_PATHS = new Set([
   scopePath,
   scopePath + '/index.html',
   scopePath + '/style.css',
+  scopePath + '/engine.js',
   scopePath + '/app.js',
   scopePath + '/manifest.json',
   scopePath + '/icons/icon-180.png',

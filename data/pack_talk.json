@@ -25,66 +25,11 @@
    "kana": "ありがとうございます",
    "romaji": "arigatō gozaimasu",
    "en": "thank you",
-   "tier": 1
-  },
-  {
-   "id": "t_kore",
-   "jp": "これをください",
-   "kana": "これをください",
-   "romaji": "kore o kudasai",
-   "en": "this one, please",
    "tier": 1,
-   "kind": "phrase",
-   "say_when": "Pointing at an item you want."
-  },
-  {
-   "id": "t_mouichido",
-   "jp": "もう一度お願いします",
-   "kana": "もういちどおねがいします",
-   "romaji": "mō ichido onegai shimasu",
-   "en": "one more time, please",
-   "tier": 1,
-   "kind": "phrase",
-   "say_when": "You did not catch what was said. Keeps the conversation going instead of freezing."
-  },
-  {
-   "id": "t_yukkuri",
-   "jp": "ゆっくり話してください",
-   "kana": "ゆっくりはなしてください",
-   "romaji": "yukkuri hanashite kudasai",
-   "en": "please speak slowly",
-   "tier": 1,
-   "kind": "phrase"
-  },
-  {
-   "id": "t_korenani",
-   "jp": "これは何ですか",
-   "kana": "これはなんですか",
-   "romaji": "kore wa nan desu ka",
-   "en": "what is this?",
-   "tier": 1,
-   "kind": "phrase",
-   "say_when": "Point and ask when you do not know a word."
-  },
-  {
-   "id": "t_nihongode",
-   "jp": "〜は日本語で何ですか",
-   "kana": "〜はにほんごでなんですか",
-   "romaji": "~ wa nihongo de nan desu ka",
-   "en": "what is ~ in Japanese?",
-   "tier": 2,
-   "kind": "pattern",
-   "say_when": "Stuck on a word? Say the English word in the slot."
-  },
-  {
-   "id": "t_suito_ireru",
-   "jp": "水筒にお水を入れてもらえますか",
-   "kana": "すいとうにおみずをいれてもらえますか",
-   "romaji": "suitō ni omizu o irete moraemasu ka",
-   "en": "could you fill my water bottle with water?",
-   "tier": 3,
-   "kind": "phrase",
-   "note": "Believed natural and polite, but ask a native speaker or find a trusted source before promoting to verified."
+   "status": "verified",
+   "sources": [
+    "JMdict/EDRDG via jisho.org API (keyword=ありがとうございます): 有り難うございます 【ありがとうございます】 thank you (expression) — checked 2026-10-20"
+   ]
   },
   {
    "id": "t_otearai_doko",
