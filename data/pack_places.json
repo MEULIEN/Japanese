@@ -179,6 +179,341 @@
      "rel": "京都 + 駅 = Kyoto Station"
     }
    ]
+  },
+  {
+   "id": "p_nihon",
+   "jp": "日本",
+   "kana": "にほん",
+   "romaji": "Nihon",
+   "en": "Japan",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L4 §3 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L4 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_tokyo",
+   "jp": "東京",
+   "kana": "とうきょう",
+   "romaji": "Tōkyō",
+   "en": "Tokyo",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L4 §3 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級2 L5 (東京) — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_jinja",
+   "jp": "神社",
+   "kana": "じんじゃ",
+   "romaji": "jinja",
+   "en": "shrine",
+   "tier": 1,
+   "links": [
+    {
+     "id": "p_otera",
+     "rel": "pair: shrine / temple"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L18 §2 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級1 L6 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_otera",
+   "jp": "お寺",
+   "kana": "おてら",
+   "romaji": "otera",
+   "en": "temple",
+   "tier": 1,
+   "links": [
+    {
+     "id": "p_jinja",
+     "rel": "pair: temple / shrine"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L7 §4 and L14 §3 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級1 L6 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_koen",
+   "jp": "公園",
+   "kana": "こうえん",
+   "romaji": "kōen",
+   "en": "park",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L7 §4 and L14 §3 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級1 L6 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_shiyakusho",
+   "jp": "市役所",
+   "kana": "しやくしょ",
+   "romaji": "shiyakusho",
+   "en": "city hall",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §4 市役所まで、どうやって行きますか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_ginko",
+   "jp": "銀行",
+   "kana": "ぎんこう",
+   "romaji": "ginkō",
+   "en": "bank",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L9 §3 and L14 §4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級1 L6 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_kuko",
+   "jp": "空港",
+   "kana": "くうこう",
+   "romaji": "kūkō",
+   "en": "airport",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_gakko",
+   "jp": "学校",
+   "kana": "がっこう",
+   "romaji": "gakkō",
+   "en": "school",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L7 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_shotengai",
+   "jp": "商店街",
+   "kana": "しょうてんがい",
+   "romaji": "shōtengai",
+   "en": "shopping street",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §3 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_toori",
+   "jp": "通り",
+   "kana": "とおり",
+   "romaji": "tōri",
+   "en": "street",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §3 — checked 2026-10-22"
+   ],
+   "note": "Kyoto street names on the official visitor map end in 通 (shown as 'St.', e.g. 四条通 = Shijō St.)."
+  },
+  {
+   "id": "p_kawaramachi",
+   "jp": "河原町",
+   "kana": "かわらまち",
+   "romaji": "Kawaramachi",
+   "en": "Kawaramachi (a main street name in central Kyoto: 河原町通 = Kawaramachi St.)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "p_shijo",
+     "rel": "crosses 四条 in the shopping centre"
+    },
+    {
+     "id": "p_karasuma",
+     "rel": "neighbouring major street"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 河原町通 = 'Kawaramachi St.' — checked 2026-10-22",
+    "Kyoto City Transportation Bureau bus-stop list (city.kyoto.lg.jp/kotsu/…/teiryujo202304.pdf): written form 河原町三条 — checked 2026-10-22"
+   ],
+   "note": "Promoted from quarantine 2026-10-22. Not かわはらちょう (that is the Tottori place)."
+  },
+  {
+   "id": "p_karasuma",
+   "jp": "烏丸",
+   "kana": "からすま",
+   "romaji": "Karasuma",
+   "en": "Karasuma (a main street name in central Kyoto: 烏丸通 = Karasuma St.)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "p_karasuma_oike",
+     "rel": "烏丸 + 御池 = Karasuma-Oike"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 烏丸通 = 'Karasuma St.' — checked 2026-10-22",
+    "Kyoto City Transportation Bureau (city.kyoto.lg.jp/kotsu/): 烏丸線 line name and 烏丸御池 station — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_oike",
+   "jp": "御池",
+   "kana": "おいけ",
+   "romaji": "Oike",
+   "en": "Oike (a main street name in central Kyoto: 御池通 = Oike St.)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "p_karasuma_oike",
+     "rel": "烏丸 + 御池 = Karasuma-Oike"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 御池通 = 'Oike St.' — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_sanjo",
+   "jp": "三条",
+   "kana": "さんじょう",
+   "romaji": "Sanjō",
+   "en": "Sanjō (street name 三条通 = Sanjō St.; also Keihan/subway station names)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "p_shijo",
+     "rel": "same pattern: number + 条"
+    },
+    {
+     "id": "p_gojo",
+     "rel": "same pattern: number + 条"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 三条通 = 'Sanjo St.' — checked 2026-10-22",
+    "Kyoto City Transportation Bureau subway transfer table (www2.city.kyoto.lg.jp/somu/…/0112_8.pdf): 三条京阪 and 三条 stations — checked 2026-10-22"
+   ],
+   "note": "Kana follows the official romanisation 'Sanjo' plus the verified number+条 pattern (四条 しじょう, 五条 ごじょう)."
+  },
+  {
+   "id": "p_shichijo",
+   "jp": "七条",
+   "kana": "しちじょう",
+   "romaji": "Shichijō",
+   "en": "Shichijō (street name 七条通 = Shichijō St.)",
+   "tier": 3,
+   "links": [
+    {
+     "id": "p_shijo",
+     "rel": "same pattern: number + 条"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 七条通 = 'Shichijo St.' — checked 2026-10-22",
+    "Kyoto City Transportation Bureau subway transfer table: 京都駅—七条駅 (Keihan) listed — checked 2026-10-22"
+   ],
+   "note": "七 reads しち here (official romanisation 'Shichijo')."
+  },
+  {
+   "id": "p_hachijo",
+   "jp": "八条",
+   "kana": "はちじょう",
+   "romaji": "Hachijō",
+   "en": "Hachijō (street name 八条通 = Hachijō St.)",
+   "tier": 3,
+   "links": [
+    {
+     "id": "p_shijo",
+     "rel": "same pattern: number + 条"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 八条通 = 'Hachijo St.' — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_horikawa",
+   "jp": "堀川",
+   "kana": "ほりかわ",
+   "romaji": "Horikawa",
+   "en": "Horikawa (street name 堀川通 = Horikawa St.)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 堀川通 = 'Horikawa St.' — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_senbon",
+   "jp": "千本",
+   "kana": "せんぼん",
+   "romaji": "Senbon",
+   "en": "Senbon (street name 千本通 = Senbon St.)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 千本通 = 'Senbon St.' — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_kawabata",
+   "jp": "川端",
+   "kana": "かわばた",
+   "romaji": "Kawabata",
+   "en": "Kawabata (street name 川端通 = Kawabata St.)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 川端通 = 'Kawabata St.' — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_shirakawa",
+   "jp": "白川",
+   "kana": "しらかわ",
+   "romaji": "Shirakawa",
+   "en": "Shirakawa (street name 白川通 = Shirakawa St.)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 白川通 = 'Shirakawa St.' — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "p_kitayama",
+   "jp": "北山",
+   "kana": "きたやま",
+   "romaji": "Kitayama",
+   "en": "Kitayama (street name 北山通 = Kitayama St.; also a subway station)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 北山通 = 'Kitayama St.' — checked 2026-10-22",
+    "Kyoto City Transportation Bureau bus-stop list (city.kyoto.lg.jp/kotsu/…/noritugiteiryuujyo.pdf): 北山駅前 — checked 2026-10-22"
+   ]
   }
  ]
 }

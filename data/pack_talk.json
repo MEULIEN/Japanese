@@ -63,6 +63,963 @@
      "rel": "contains お持ち帰り (takeout)"
     }
    ]
+  },
+  {
+   "id": "t_ohayo",
+   "jp": "おはようございます",
+   "kana": "おはようございます",
+   "romaji": "ohayō gozaimasu",
+   "en": "Good morning.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §1 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_konnichiwa",
+   "jp": "こんにちは",
+   "kana": "こんにちは",
+   "romaji": "konnichiwa",
+   "en": "Good afternoon. (hello)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §1 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_konbanwa",
+   "jp": "こんばんは",
+   "kana": "こんばんは",
+   "romaji": "konbanwa",
+   "en": "Good evening.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §1 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_oyasumi",
+   "jp": "おやすみなさい",
+   "kana": "おやすみなさい",
+   "romaji": "oyasumi nasai",
+   "en": "Good night.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_jaamata",
+   "jp": "じゃあ、また",
+   "kana": "じゃあ、また",
+   "romaji": "jā, mata",
+   "en": "See you later.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_shitsurei",
+   "jp": "失礼します",
+   "kana": "しつれいします",
+   "romaji": "shitsurei shimasu",
+   "en": "Good bye. (polite)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §2 — checked 2026-10-22"
+   ],
+   "note": "Irodori glosses it as 'Good bye.'; the longer お先に失礼します means 'I'll take my leave before you.'",
+   "kind": "phrase"
+  },
+  {
+   "id": "t_osakani",
+   "jp": "お先に失礼します",
+   "kana": "おさきにしつれいします",
+   "romaji": "osaki ni shitsurei shimasu",
+   "en": "Good bye. (I'll take my leave before you.)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_otsukare",
+   "jp": "お疲れさま（でした）",
+   "kana": "おつかれさま（でした）",
+   "romaji": "otsukaresama (deshita)",
+   "en": "Good bye. (Thank you for your hard work.)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_doumo",
+   "jp": "どうも",
+   "kana": "どうも",
+   "romaji": "dōmo",
+   "en": "Thanks.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_arigato_mashita",
+   "jp": "ありがとうございました",
+   "kana": "ありがとうございました",
+   "romaji": "arigatō gozaimashita",
+   "en": "Thank you very much. (said at the end, e.g. after paying)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "t_arigato",
+     "rel": "same thanks, past form"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_doozo",
+   "jp": "どうぞ",
+   "kana": "どうぞ",
+   "romaji": "dōzo",
+   "en": "Here you go.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_iie",
+   "jp": "いいえ",
+   "kana": "いいえ",
+   "romaji": "iie",
+   "en": "no (also: You're welcome.)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §3 (You're welcome.) and L5 §3 (no) — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_gomen",
+   "jp": "ごめん",
+   "kana": "ごめん",
+   "romaji": "gomen",
+   "en": "Sorry.",
+   "tier": 2,
+   "links": [
+    {
+     "id": "t_sumimasen",
+     "rel": "fuller word: すみません"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_wakarimashita",
+   "jp": "わかりました",
+   "kana": "わかりました",
+   "romaji": "wakarimashita",
+   "en": "I understand.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §4 and L2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_omedeto",
+   "jp": "おめでとうございます",
+   "kana": "おめでとうございます",
+   "romaji": "omedetō gozaimasu",
+   "en": "Congratulations.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L1 §4 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_itadakimasu",
+   "jp": "いただきます",
+   "kana": "いただきます",
+   "romaji": "itadakimasu",
+   "en": "Thank you for the food! (polite expression said before a meal)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §5 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_hai",
+   "jp": "はい",
+   "kana": "はい",
+   "romaji": "hai",
+   "en": "yes",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_onegaishimasu",
+   "jp": "お願いします",
+   "kana": "おねがいします",
+   "romaji": "onegai shimasu",
+   "en": "Please.",
+   "tier": 1,
+   "links": [
+    {
+     "id": "t_hai_onegai",
+     "rel": "yes + please"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §1 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_hai_onegai",
+   "jp": "はい、お願いします",
+   "kana": "はい、おねがいします",
+   "romaji": "hai, onegai shimasu",
+   "en": "Yes, please.",
+   "tier": 1,
+   "links": [
+    {
+     "id": "t_ie_kekko",
+     "rel": "contrast: Yes, please / No, thank you"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "When staff offer something you do want."
+  },
+  {
+   "id": "t_ie_kekko",
+   "jp": "いえ、けっこうです",
+   "kana": "いえ、けっこうです",
+   "romaji": "ie, kekkō desu",
+   "en": "No, thank you.",
+   "tier": 1,
+   "links": [
+    {
+     "id": "t_hai_onegai",
+     "rel": "contrast: No, thank you / Yes, please"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "When staff offer something you do not want."
+  },
+  {
+   "id": "t_daijobu_desu",
+   "jp": "だいじょうぶです",
+   "kana": "だいじょうぶです",
+   "romaji": "daijōbu desu",
+   "en": "That's all right. (used when refusing something)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "A polite way to decline, e.g. a shop bag or an offer."
+  },
+  {
+   "id": "t_wakarimasen",
+   "jp": "わかりません",
+   "kana": "わかりません",
+   "romaji": "wakarimasen",
+   "en": "I do not understand.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §1 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_yoku_wakarimasen",
+   "jp": "よくわかりません",
+   "kana": "よくわかりません",
+   "romaji": "yoku wakarimasen",
+   "en": "I don't really understand.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §1 (よく = (not) really; わかりません = I do not understand.) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』入門 Can-doチェック (irodori.jpf.go.jp/assets/data/starter/pdf/X_candocheck.pdf) — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "You only caught part of what was said."
+  },
+  {
+   "id": "t_mouichido",
+   "jp": "もういちど、お願いします",
+   "kana": "もういちど、おねがいします",
+   "romaji": "mō ichido, onegai shimasu",
+   "en": "once more, please",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §1 (もういちど = once more; お願いします = Please.) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』入門 Can-doチェック (irodori.jpf.go.jp/assets/data/starter/pdf/X_candocheck.pdf) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』入門 L2 audio script (irodori.jpf.go.jp/assets/data/starter/pdf/X_L02_au.pdf) — checked 2026-10-22"
+   ],
+   "note": "Promoted from quarantine 2026-10-22: exact phrase appears in the Japan Foundation textbook (written もういちど).",
+   "kind": "phrase",
+   "say_when": "You did not catch what was said. Keeps the conversation going instead of freezing."
+  },
+  {
+   "id": "t_yukkuri_itte",
+   "jp": "もう少し、ゆっくり言ってください",
+   "kana": "もうすこし、ゆっくりいってください",
+   "romaji": "mō sukoshi, yukkuri itte kudasai",
+   "en": "Please say it a little more slowly.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 L2 audio script (irodori.jpf.go.jp/assets/data/starter/pdf/X_L02_au.pdf) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §1 (もう少し = a little; ゆっくり = slowly; 言ってください = Please say ~.) — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "Someone speaks too fast."
+  },
+  {
+   "id": "t_nihongo_dekimasu",
+   "jp": "日本語、できますか？",
+   "kana": "にほんご、できますか？",
+   "romaji": "nihongo, dekimasu ka?",
+   "en": "Can you speak Japanese?",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 Can-doチェック (irodori.jpf.go.jp/assets/data/starter/pdf/X_candocheck.pdf) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §2 (できますか？ = Can you speak it?) — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_nihongo_nanto",
+   "jp": "これは日本語で何と言いますか？",
+   "kana": "これはにほんごでなんといいますか？",
+   "romaji": "kore wa nihongo de nan to iimasu ka?",
+   "en": "What do you call this in Japanese?",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 Can-doチェック (irodori.jpf.go.jp/assets/data/starter/pdf/X_candocheck.pdf) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §3 (日本語で = in Japanese; 何と言いますか？ = What do you call it?) — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "Point at something and ask for its name — turns a freeze into a new word."
+  },
+  {
+   "id": "t_nan_desu_ka",
+   "jp": "何ですか？",
+   "kana": "なんですか？",
+   "romaji": "nan desu ka?",
+   "en": "What is it?",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "Point at something you do not know."
+  },
+  {
+   "id": "t_nan_to_iimasu",
+   "jp": "何と言いますか？",
+   "kana": "なんといいますか？",
+   "romaji": "nan to iimasu ka?",
+   "en": "What do you call it?",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_e",
+   "jp": "え？",
+   "kana": "え？",
+   "romaji": "e?",
+   "en": "Huh? / What? / Pardon?",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §3 — checked 2026-10-22"
+   ],
+   "note": "Casual; use もういちど、お願いします with strangers.",
+   "kind": "phrase"
+  },
+  {
+   "id": "t_koko_ii",
+   "jp": "ここ、いいですか？",
+   "kana": "ここ、いいですか？",
+   "romaji": "koko, ii desu ka?",
+   "en": "Can I sit here?",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "Asking to take a seat."
+  },
+  {
+   "id": "t_kore_kudasai",
+   "jp": "これ、ください",
+   "kana": "これ、ください",
+   "romaji": "kore, kudasai",
+   "en": "I'll have this.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』文法ノート (irodori.jpf.go.jp/assets/data/Grammar_all.pdf), 入門 L6 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §2 (～ください = Give me ~.) — checked 2026-10-22"
+   ],
+   "note": "Irodori's wording; replaces the quarantined これをください.",
+   "kind": "phrase",
+   "say_when": "Pointing at an item you want."
+  },
+  {
+   "id": "t_koko_de",
+   "jp": "ここで",
+   "kana": "ここで",
+   "romaji": "koko de",
+   "en": "Eat in, please.",
+   "tier": 2,
+   "links": [
+    {
+     "id": "t_teikuauto",
+     "rel": "contrast: eat in / take out"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "Answering 'for here or to go?'"
+  },
+  {
+   "id": "t_teikuauto",
+   "jp": "テイクアウトで",
+   "kana": "テイクアウトで",
+   "romaji": "teikuauto de",
+   "en": "To takeout, please.",
+   "tier": 2,
+   "links": [
+    {
+     "id": "t_koko_de",
+     "rel": "contrast: take out / eat in"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "Answering 'for here or to go?'"
+  },
+  {
+   "id": "t_ikura",
+   "jp": "これ、いくらですか？",
+   "kana": "これ、いくらですか？",
+   "romaji": "kore, ikura desu ka?",
+   "en": "How much is this?",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 lesson title; これ = this, いくら = how much (asking price) — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "Asking a price."
+  },
+  {
+   "id": "t_toire_doko",
+   "jp": "トイレはどこですか？",
+   "kana": "トイレはどこですか？",
+   "romaji": "toire wa doko desu ka?",
+   "en": "Where is the toilet?",
+   "tier": 1,
+   "links": [
+    {
+     "id": "t_otearai_doko",
+     "rel": "same question, 'お手洗い' wording"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 lesson title; トイレ = toilet, どこ = where — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_hajimemashite",
+   "jp": "はじめまして",
+   "kana": "はじめまして",
+   "romaji": "hajimemashite",
+   "en": "Hello. (said when meeting someone for the first time)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L3 §1 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_yoroshiku",
+   "jp": "（どうぞ）よろしくお願いします",
+   "kana": "（どうぞ）よろしくおねがいします",
+   "romaji": "(dōzo) yoroshiku onegai shimasu",
+   "en": "Nice to meet you.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L3 §1 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』入門 Can-doチェック (irodori.jpf.go.jp/assets/data/starter/pdf/X_candocheck.pdf) — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_dochira_kara",
+   "jp": "どちらからですか？",
+   "kana": "どちらからですか？",
+   "romaji": "dochira kara desu ka?",
+   "en": "Where are you from?",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L3 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_kara_kimashita",
+   "jp": "〜から来ました",
+   "kana": "〜からきました",
+   "romaji": "〜 kara kimashita",
+   "en": "I came from ~.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L3 §1 — checked 2026-10-22"
+   ],
+   "kind": "pattern"
+  },
+  {
+   "id": "t_sou_desu_ne",
+   "jp": "そうですね",
+   "kana": "そうですね",
+   "romaji": "sō desu ne",
+   "en": "Me, too. / I agree.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L12 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_sou_desu_ka",
+   "jp": "そうですか",
+   "kana": "そうですか",
+   "romaji": "sō desu ka",
+   "en": "I see.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L3 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_ii_desu_ne",
+   "jp": "いいですね",
+   "kana": "いいですね",
+   "romaji": "ii desu ne",
+   "en": "That's nice.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L7 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_oishii",
+   "jp": "おいしいです",
+   "kana": "おいしいです",
+   "romaji": "oishii desu",
+   "en": "It's delicious.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "Compliment the food."
+  },
+  {
+   "id": "t_tanoshimi",
+   "jp": "楽しみですね",
+   "kana": "たのしみですね",
+   "romaji": "tanoshimi desu ne",
+   "en": "I'm looking forward to it.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L12 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_mata_kondo",
+   "jp": "また今度",
+   "kana": "またこんど",
+   "romaji": "mata kondo",
+   "en": "Maybe another time.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L12 §3 — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "Softly declining an invitation."
+  },
+  {
+   "id": "t_ii_ne",
+   "jp": "いいね！",
+   "kana": "いいね！",
+   "romaji": "ii ne!",
+   "en": "That's great!",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L12 §4 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_zannen",
+   "jp": "残念です",
+   "kana": "ざんねんです",
+   "romaji": "zannen desu",
+   "en": "That's a shame.",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L12 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_moshimoshi",
+   "jp": "もしもし",
+   "kana": "もしもし",
+   "romaji": "moshi moshi",
+   "en": "Hello. (on the phone)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L10 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_misete",
+   "jp": "見せてください",
+   "kana": "みせてください",
+   "romaji": "misete kudasai",
+   "en": "Please show me ~.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §1 — checked 2026-10-22"
+   ],
+   "kind": "pattern"
+  },
+  {
+   "id": "t_kaite",
+   "jp": "書いてください",
+   "kana": "かいてください",
+   "romaji": "kaite kudasai",
+   "en": "Please write ~.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §1 — checked 2026-10-22"
+   ],
+   "kind": "pattern"
+  },
+  {
+   "id": "t_kite",
+   "jp": "来てください",
+   "kana": "きてください",
+   "romaji": "kite kudasai",
+   "en": "Please come.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L10 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_haitte",
+   "jp": "入ってください",
+   "kana": "はいってください",
+   "romaji": "haitte kudasai",
+   "en": "Please come in.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L7 §1 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_tsukatte",
+   "jp": "使ってください",
+   "kana": "つかってください",
+   "romaji": "tsukatte kudasai",
+   "en": "Please use it.",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L7 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_mattete",
+   "jp": "待っててください",
+   "kana": "まっててください",
+   "romaji": "mattete kudasai",
+   "en": "Please wait there.",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §2 — checked 2026-10-22"
+   ],
+   "kind": "phrase"
+  },
+  {
+   "id": "t_kashite",
+   "jp": "〜貸してください",
+   "kana": "〜かしてください",
+   "romaji": "〜 kashite kudasai",
+   "en": "Please lend me ~.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』文法ノート (irodori.jpf.go.jp/assets/data/Grammar_all.pdf), 入門 L6 — checked 2026-10-22"
+   ],
+   "kind": "pattern"
+  },
+  {
+   "id": "t_irasshaimase",
+   "jp": "いらっしゃいませ",
+   "kana": "いらっしゃいませ",
+   "romaji": "irasshaimase",
+   "en": "Welcome.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §2 — checked 2026-10-22"
+   ],
+   "kind": "heard",
+   "say_when": "Listening practice: Staff greeting when you enter."
+  },
+  {
+   "id": "t_oukagai",
+   "jp": "おうかがいします",
+   "kana": "おうかがいします",
+   "romaji": "oukagai shimasu",
+   "en": "Can I take your order? (polite expression)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §2 — checked 2026-10-22"
+   ],
+   "kind": "heard",
+   "say_when": "Listening practice: Staff ready to take your order."
+  },
+  {
+   "id": "t_nani_ni_nasaimasu",
+   "jp": "何になさいますか？",
+   "kana": "なにになさいますか？",
+   "romaji": "nani ni nasaimasu ka?",
+   "en": "What would you like? (polite expression)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §2 — checked 2026-10-22"
+   ],
+   "kind": "heard",
+   "say_when": "Listening practice: Staff asking for your order."
+  },
+  {
+   "id": "t_kochira_de",
+   "jp": "こちらでおめしあがりですか？",
+   "kana": "こちらでおめしあがりですか？",
+   "romaji": "kochira de omeshiagari desu ka?",
+   "en": "Would you like to eat in? (polite expression)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §2 — checked 2026-10-22"
+   ],
+   "kind": "heard",
+   "say_when": "Listening practice: Counter question at a restaurant."
+  },
+  {
+   "id": "t_omochikaeri_ne",
+   "jp": "お持ち帰りですね",
+   "kana": "おもちかえりですね",
+   "romaji": "omochikaeri desu ne",
+   "en": "That's to take out, right? (polite expression)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §2 — checked 2026-10-22"
+   ],
+   "kind": "heard",
+   "say_when": "Listening practice: Staff confirming takeout."
+  },
+  {
+   "id": "t_kashikomari",
+   "jp": "かしこまりました",
+   "kana": "かしこまりました",
+   "romaji": "kashikomarimashita",
+   "en": "Certainly. (polite expression)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §3 — checked 2026-10-22"
+   ],
+   "kind": "heard",
+   "say_when": "Listening practice: Staff acknowledging your request."
+  },
+  {
+   "id": "t_otsugi",
+   "jp": "お次の方",
+   "kana": "おつぎのかた",
+   "romaji": "otsugi no kata",
+   "en": "Next, please. (polite expression)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 — checked 2026-10-22"
+   ],
+   "kind": "heard",
+   "say_when": "Listening practice: Cashier calling the next customer."
+  },
+  {
+   "id": "t_okaikei_narimasu",
+   "jp": "お会計、〜になります",
+   "kana": "おかいけい、〜になります",
+   "romaji": "okaikei, 〜 ni narimasu",
+   "en": "The total amount is ~. (polite expression)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 — checked 2026-10-22"
+   ],
+   "kind": "heard",
+   "say_when": "Listening practice: Cashier telling you the total."
+  },
+  {
+   "id": "t_otsuke",
+   "jp": "おつけしますか？",
+   "kana": "おつけしますか？",
+   "romaji": "otsuke shimasu ka?",
+   "en": "Shall I add ~? (polite expression)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 — checked 2026-10-22"
+   ],
+   "kind": "heard",
+   "say_when": "Listening practice: Staff offering e.g. chopsticks or a straw."
+  },
+  {
+   "id": "t_tacchi_shite",
+   "jp": "タッチしてください",
+   "kana": "タッチしてください",
+   "romaji": "tacchi shite kudasai",
+   "en": "Tap your card here please.",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 — checked 2026-10-22"
+   ],
+   "kind": "heard",
+   "say_when": "Listening practice: Cashier asking you to pay by IC card."
+  },
+  {
+   "id": "t_atatame",
+   "jp": "こちら、温めますか？",
+   "kana": "こちら、あたためますか？",
+   "romaji": "kochira, atatame masu ka?",
+   "en": "Shall I warm this up?",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 lesson heading (温める = to warm up) — checked 2026-10-22"
+   ],
+   "kind": "heard",
+   "say_when": "Listening practice: convenience-store staff about a bento or snack."
   }
  ]
 }

@@ -70,6 +70,1157 @@
    "sources": [
     "JMdict entry 1606950 (EDRDG) via japandict.com: 割引 【わりびき】 discount, reduction, rebate — checked 2026-10-20"
    ]
+  },
+  {
+   "id": "g_konbini",
+   "jp": "コンビニ",
+   "kana": "コンビニ",
+   "romaji": "konbini",
+   "en": "convenience store",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_supa",
+   "jp": "スーパー",
+   "kana": "スーパー",
+   "romaji": "sūpā",
+   "en": "supermarket",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_hyakuen",
+   "jp": "100円ショップ",
+   "kana": "ひゃくえんショップ",
+   "romaji": "hyaku-en shoppu",
+   "en": "100-yen shop",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_dorassugu",
+   "jp": "ドラッグストア",
+   "kana": "ドラッグストア",
+   "romaji": "doraggu sutoa",
+   "en": "drugstore",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_depato",
+   "jp": "デパート",
+   "kana": "デパート",
+   "romaji": "depāto",
+   "en": "department store",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_homesenta",
+   "jp": "ホームセンター",
+   "kana": "ホームセンター",
+   "romaji": "hōmu sentā",
+   "en": "home improvement store",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_mooru",
+   "jp": "ショッピングモール",
+   "kana": "ショッピングモール",
+   "romaji": "shoppingu mōru",
+   "en": "shopping mall",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_shopsenta",
+   "jp": "ショッピングセンター",
+   "kana": "ショッピングセンター",
+   "romaji": "shoppingu sentā",
+   "en": "shopping center",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_en",
+   "jp": "円",
+   "kana": "えん",
+   "romaji": "en",
+   "en": "yen",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L12 §1 (～円) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L17 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_ikura",
+   "jp": "いくら",
+   "kana": "いくら",
+   "romaji": "ikura",
+   "en": "how much (asking price)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_num1",
+   "jp": "一",
+   "kana": "いち",
+   "romaji": "ichi",
+   "en": "1 (one)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 (numbers 1–10) and L4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L16 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_num2",
+   "jp": "二",
+   "kana": "に",
+   "romaji": "ni",
+   "en": "2 (two)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 (numbers 1–10) and L4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L16 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_num3",
+   "jp": "三",
+   "kana": "さん",
+   "romaji": "san",
+   "en": "3 (three)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 (numbers 1–10) and L4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L16 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_num4",
+   "jp": "四",
+   "kana": "よん",
+   "romaji": "yon",
+   "en": "4 (four)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 (numbers 1–10) and L4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L16 — reading checked 2026-10-22"
+   ],
+   "note": "Clock times use よ: 4時 = よじ (Irodori L9). Also see 四条 in the Kyoto places."
+  },
+  {
+   "id": "g_num5",
+   "jp": "五",
+   "kana": "ご",
+   "romaji": "go",
+   "en": "5 (five)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 (numbers 1–10) and L4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L16 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_num6",
+   "jp": "六",
+   "kana": "ろく",
+   "romaji": "roku",
+   "en": "6 (six)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 (numbers 1–10) and L4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L16 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_num7",
+   "jp": "七",
+   "kana": "なな",
+   "romaji": "nana",
+   "en": "7 (seven)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 (numbers 1–10) and L4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L16 — reading checked 2026-10-22"
+   ],
+   "note": "Clock times use しち: 7時 = しちじ (Irodori L9)."
+  },
+  {
+   "id": "g_num8",
+   "jp": "八",
+   "kana": "はち",
+   "romaji": "hachi",
+   "en": "8 (eight)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 (numbers 1–10) and L4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L16 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_num9",
+   "jp": "九",
+   "kana": "きゅう",
+   "romaji": "kyū",
+   "en": "9 (nine)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 (numbers 1–10) and L4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L16 — reading checked 2026-10-22"
+   ],
+   "note": "Clock times use く: 9時 = くじ (Irodori L9)."
+  },
+  {
+   "id": "g_num10",
+   "jp": "十",
+   "kana": "じゅう",
+   "romaji": "jū",
+   "en": "10 (ten)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 (numbers 1–10) and L4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L16 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_hyaku",
+   "jp": "百",
+   "kana": "ひゃく",
+   "romaji": "hyaku",
+   "en": "100 (one hundred)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L17 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_sen",
+   "jp": "千",
+   "kana": "せん",
+   "romaji": "sen",
+   "en": "1,000 (one thousand)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L17 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_man",
+   "jp": "万",
+   "kana": "まん",
+   "romaji": "man",
+   "en": "10,000 (ten thousand)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L17 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_1en",
+   "jp": "1円",
+   "kana": "いちえん",
+   "romaji": "ichi-en",
+   "en": "1 yen",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です (coin and note values) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_5en",
+   "jp": "5円",
+   "kana": "ごえん",
+   "romaji": "go-en",
+   "en": "5 yen",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です (coin and note values) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_10en",
+   "jp": "10円",
+   "kana": "じゅうえん",
+   "romaji": "jū-en",
+   "en": "10 yen",
+   "tier": 1,
+   "links": [
+    {
+     "id": "g_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です (coin and note values) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_50en",
+   "jp": "50円",
+   "kana": "ごじゅうえん",
+   "romaji": "gojū-en",
+   "en": "50 yen",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です (coin and note values) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_100en",
+   "jp": "100円",
+   "kana": "ひゃくえん",
+   "romaji": "hyaku-en",
+   "en": "100 yen",
+   "tier": 1,
+   "links": [
+    {
+     "id": "g_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です (coin and note values) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_500en",
+   "jp": "500円",
+   "kana": "ごひゃくえん",
+   "romaji": "gohyaku-en",
+   "en": "500 yen",
+   "tier": 1,
+   "links": [
+    {
+     "id": "g_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です (coin and note values) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_1000en",
+   "jp": "1,000円",
+   "kana": "せんえん",
+   "romaji": "sen-en",
+   "en": "1,000 yen",
+   "tier": 1,
+   "links": [
+    {
+     "id": "g_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です (coin and note values) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_10000en",
+   "jp": "10,000円",
+   "kana": "いちまんえん",
+   "romaji": "ichiman-en",
+   "en": "10,000 yen",
+   "tier": 1,
+   "links": [
+    {
+     "id": "g_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です (coin and note values) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_300",
+   "jp": "300",
+   "kana": "さんびゃく",
+   "romaji": "sanbyaku",
+   "en": "300 (irregular reading — learn as one chunk)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_hyaku",
+     "rel": "irregular sound change"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_600",
+   "jp": "600",
+   "kana": "ろっぴゃく",
+   "romaji": "roppyaku",
+   "en": "600 (irregular reading — learn as one chunk)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_hyaku",
+     "rel": "irregular sound change"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_800",
+   "jp": "800",
+   "kana": "はっぴゃく",
+   "romaji": "happyaku",
+   "en": "800 (irregular reading — learn as one chunk)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_hyaku",
+     "rel": "irregular sound change"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_3000",
+   "jp": "3,000",
+   "kana": "さんぜん",
+   "romaji": "sanzen",
+   "en": "3,000 (irregular reading — learn as one chunk)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_sen",
+     "rel": "irregular sound change"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_8000",
+   "jp": "8,000",
+   "kana": "はっせん",
+   "romaji": "hassen",
+   "en": "8,000 (irregular reading — learn as one chunk)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_sen",
+     "rel": "irregular sound change"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1 1,980円です — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_nijaribiki",
+   "jp": "二割引",
+   "kana": "にわりびき",
+   "romaji": "ni-waribiki",
+   "en": "20% off (〜割引 = number × 10% off)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_waribiki",
+     "rel": "a kind of 割引 (discount)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §5 割引表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_pasento",
+   "jp": "〜%引",
+   "kana": "〜パーセントびき",
+   "romaji": "〜pāsento-biki",
+   "en": "~% off (e.g. 10%引 = 10% off)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_waribiki",
+     "rel": "a kind of discount"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §5 割引表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_enbiki",
+   "jp": "〜円引",
+   "kana": "〜えんびき",
+   "romaji": "〜en-biki",
+   "en": "~ yen off (e.g. 50円引 = 50 yen off)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_waribiki",
+     "rel": "a kind of discount"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §5 割引表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_hangaku",
+   "jp": "半額",
+   "kana": "はんがく",
+   "romaji": "hangaku",
+   "en": "half price",
+   "tier": 1,
+   "links": [
+    {
+     "id": "g_waribiki",
+     "rel": "a kind of discount"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §5 割引表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_zeinuki",
+   "jp": "税抜",
+   "kana": "ぜいぬき",
+   "romaji": "zeinuki",
+   "en": "excluding tax",
+   "tier": 1,
+   "links": [
+    {
+     "id": "g_zeikomi",
+     "rel": "contrast: excl. tax vs incl. tax"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §5 割引表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_hyojikakaku",
+   "jp": "表示価格",
+   "kana": "ひょうじかかく",
+   "romaji": "hyōji kakaku",
+   "en": "list price (the price shown)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §5 割引表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_zenpin",
+   "jp": "全品",
+   "kana": "ぜんぴん",
+   "romaji": "zenpin",
+   "en": "all items",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §5 and L17 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_seeru",
+   "jp": "セール",
+   "kana": "セール",
+   "romaji": "sēru",
+   "en": "sale",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §5 割引表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_pointo",
+   "jp": "ポイントサービス",
+   "kana": "ポイントサービス",
+   "romaji": "pointo sābisu",
+   "en": "reward points",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §5 割引表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_kinitsu",
+   "jp": "〜円均一",
+   "kana": "〜えんきんいつ",
+   "romaji": "〜en kin'itsu",
+   "en": "everything at ~ yen (e.g. 50円均一)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §5 割引表示 【⑥古本屋で】 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_fukuro",
+   "jp": "袋",
+   "kana": "ふくろ",
+   "romaji": "fukuro",
+   "en": "bag",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級2 L10 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_sutoroo",
+   "jp": "ストロー",
+   "kana": "ストロー",
+   "romaji": "sutorō",
+   "en": "straw",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_kurejitto",
+   "jp": "クレジットカード",
+   "kana": "クレジットカード",
+   "romaji": "kurejitto kādo",
+   "en": "credit card",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_suica",
+   "jp": "Suica",
+   "kana": "スイカ",
+   "romaji": "suika",
+   "en": "Suica (a pre-paid card for fares and shopping)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_paypay",
+   "jp": "PayPay",
+   "kana": "ペイペイ",
+   "romaji": "peipei",
+   "en": "PayPay (QR-code electronic payment)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_tacchi",
+   "jp": "タッチする",
+   "kana": "タッチする",
+   "romaji": "tacchi suru",
+   "en": "to tap / touch (a card)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_shokuhin",
+   "jp": "食品",
+   "kana": "しょくひん",
+   "romaji": "shokuhin",
+   "en": "food (floor-guide / shelf label)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_shokuryohin",
+     "rel": "related label"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §2 フロアガイド — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_shokuryohin",
+   "jp": "食料品",
+   "kana": "しょくりょうひん",
+   "romaji": "shokuryōhin",
+   "en": "food products",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_shokuhin",
+     "rel": "related label"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §2 フロアガイド — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_seikatsu",
+   "jp": "生活用品",
+   "kana": "せいかつようひん",
+   "romaji": "seikatsu yōhin",
+   "en": "daily necessities",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §2 フロアガイド — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_kaden",
+   "jp": "家電",
+   "kana": "かでん",
+   "romaji": "kaden",
+   "en": "household appliances",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §2 フロアガイド — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_bunboogu",
+   "jp": "文房具",
+   "kana": "ぶんぼうぐ",
+   "romaji": "bunbōgu",
+   "en": "stationery",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §2 フロアガイド — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_zakka",
+   "jp": "雑貨",
+   "kana": "ざっか",
+   "romaji": "zakka",
+   "en": "sundry goods",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §2 フロアガイド — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_kagu",
+   "jp": "家具",
+   "kana": "かぐ",
+   "romaji": "kagu",
+   "en": "furniture",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §2 フロアガイド — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_keshohin",
+   "jp": "化粧品",
+   "kana": "けしょうひん",
+   "romaji": "keshōhin",
+   "en": "cosmetics",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §2 フロアガイド — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_sake",
+   "jp": "酒",
+   "kana": "さけ",
+   "romaji": "sake",
+   "en": "liquor",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_tabako",
+     "rel": "shop signs list 酒 and たばこ"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 街にある看板 【２】 and L15 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_tabako",
+   "jp": "たばこ",
+   "kana": "たばこ",
+   "romaji": "tabako",
+   "en": "tobacco / cigarette",
+   "tier": 2,
+   "links": [
+    {
+     "id": "s_kinen",
+     "rel": "related: no smoking"
+    },
+    {
+     "id": "g_sake",
+     "rel": "shop signs list たばこ and 酒"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 街にある看板 【２】 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_hikiniku",
+   "jp": "ひき肉",
+   "kana": "ひきにく",
+   "romaji": "hikiniku",
+   "en": "minced meat",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_niku",
+     "rel": "contains 肉"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §3 ひき肉200gください — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_konbu",
+   "jp": "昆布",
+   "kana": "こんぶ",
+   "romaji": "konbu",
+   "en": "kombu (kelp)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §3 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_tarako",
+   "jp": "たらこ",
+   "kana": "たらこ",
+   "romaji": "tarako",
+   "en": "tarako (cod roe)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §3 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_korokke",
+   "jp": "コロッケ",
+   "kana": "コロッケ",
+   "romaji": "korokke",
+   "en": "korokke (deep-fried side dish similar to croquettes)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §3 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_ko",
+   "jp": "〜個",
+   "kana": "〜こ",
+   "romaji": "〜ko",
+   "en": "~ items (counter for pieces)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §3 — checked 2026-10-22"
+   ],
+   "note": "Irregular: 1個 いっこ, 6個 ろっこ, 8個 はちこ/はっこ, 10個 じゅっこ."
+  },
+  {
+   "id": "g_nanko",
+   "jp": "何個",
+   "kana": "なんこ",
+   "romaji": "nan-ko",
+   "en": "how many (items)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §3 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_tsu1",
+   "jp": "一つ",
+   "kana": "ひとつ",
+   "romaji": "hitotsu",
+   "en": "one (for things)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 枝豆2つください — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_tsu2",
+   "jp": "二つ",
+   "kana": "ふたつ",
+   "romaji": "futatsu",
+   "en": "two (for things)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 枝豆2つください — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_tsu3",
+   "jp": "三つ",
+   "kana": "みっつ",
+   "romaji": "mittsu",
+   "en": "three (for things)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 枝豆2つください — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_tsu4",
+   "jp": "四つ",
+   "kana": "よっつ",
+   "romaji": "yottsu",
+   "en": "four (for things)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 枝豆2つください — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_tsu5",
+   "jp": "五つ",
+   "kana": "いつつ",
+   "romaji": "itsutsu",
+   "en": "five (for things)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 枝豆2つください — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_tsu6",
+   "jp": "六つ",
+   "kana": "むっつ",
+   "romaji": "muttsu",
+   "en": "six (for things)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 枝豆2つください — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_tsu7",
+   "jp": "七つ",
+   "kana": "ななつ",
+   "romaji": "nanatsu",
+   "en": "seven (for things)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 枝豆2つください — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_tsu8",
+   "jp": "八つ",
+   "kana": "やっつ",
+   "romaji": "yattsu",
+   "en": "eight (for things)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 枝豆2つください — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_tsu9",
+   "jp": "九つ",
+   "kana": "ここのつ",
+   "romaji": "kokonotsu",
+   "en": "nine (for things)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 枝豆2つください — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "g_ikutsu",
+   "jp": "いくつ",
+   "kana": "いくつ",
+   "romaji": "ikutsu",
+   "en": "how many (asking quantity)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 (いくつ = how many) — checked 2026-10-22"
+   ]
   }
  ]
 }

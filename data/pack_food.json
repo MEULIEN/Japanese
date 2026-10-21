@@ -94,6 +94,853 @@
    "sources": [
     "JMdict entry 1426650 (EDRDG) via tangorin.com: 注文 【ちゅうもん】 order; request — checked 2026-10-20"
    ]
+  },
+  {
+   "id": "f_mizu",
+   "jp": "水",
+   "kana": "みず",
+   "romaji": "mizu",
+   "en": "water",
+   "tier": 1,
+   "links": [
+    {
+     "id": "f_omizu",
+     "rel": "polite form is お水"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §3 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L5 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_ocha",
+   "jp": "お茶",
+   "kana": "おちゃ",
+   "romaji": "ocha",
+   "en": "tea / Japanese tea",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §3 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級1 L11 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_ryokucha",
+   "jp": "緑茶",
+   "kana": "りょくちゃ",
+   "romaji": "ryokucha",
+   "en": "green tea",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_ocha",
+     "rel": "a kind of tea"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_kocha",
+   "jp": "紅茶",
+   "kana": "こうちゃ",
+   "romaji": "kōcha",
+   "en": "black tea",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_ocha",
+     "rel": "a kind of tea"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §3 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_uroncha",
+   "jp": "ウーロン茶",
+   "kana": "ウーロンちゃ",
+   "romaji": "ūroncha",
+   "en": "oolong tea",
+   "tier": 3,
+   "links": [
+    {
+     "id": "f_ocha",
+     "rel": "a kind of tea (茶)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_koohii",
+   "jp": "コーヒー",
+   "kana": "コーヒー",
+   "romaji": "kōhī",
+   "en": "coffee",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §3 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_juusu",
+   "jp": "ジュース",
+   "kana": "ジュース",
+   "romaji": "jūsu",
+   "en": "juice",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §3 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_gyunyu",
+   "jp": "牛乳",
+   "kana": "ぎゅうにゅう",
+   "romaji": "gyūnyū",
+   "en": "milk",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級2 L3 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_biiru",
+   "jp": "ビール",
+   "kana": "ビール",
+   "romaji": "bīru",
+   "en": "beer",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §3 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_namabiiru",
+   "jp": "生ビール",
+   "kana": "なまビール",
+   "romaji": "nama bīru",
+   "en": "draft beer",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_biiru",
+     "rel": "a kind of beer"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_osake",
+   "jp": "お酒",
+   "kana": "おさけ",
+   "romaji": "osake",
+   "en": "alcohol / sake",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §3 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級1 L11 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_nihonshu",
+   "jp": "日本酒",
+   "kana": "にほんしゅ",
+   "romaji": "nihonshu",
+   "en": "sake (Japanese rice wine)",
+   "tier": 3,
+   "links": [
+    {
+     "id": "f_osake",
+     "rel": "a kind of お酒"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_shochu",
+   "jp": "焼酎",
+   "kana": "しょうちゅう",
+   "romaji": "shōchū",
+   "en": "shochu (Japanese distilled liquor)",
+   "tier": 3,
+   "links": [
+    {
+     "id": "f_osake",
+     "rel": "a kind of お酒"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_nomimono",
+   "jp": "飲み物",
+   "kana": "のみもの",
+   "romaji": "nomimono",
+   "en": "drink",
+   "tier": 1,
+   "links": [
+    {
+     "id": "f_tabemono",
+     "rel": "pair: drink / food"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L12 §1 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級1 L11 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_tabemono",
+   "jp": "食べ物",
+   "kana": "たべもの",
+   "romaji": "tabemono",
+   "en": "food",
+   "tier": 1,
+   "links": [
+    {
+     "id": "f_nomimono",
+     "rel": "pair: food / drink"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_gohan",
+   "jp": "ご飯",
+   "kana": "ごはん",
+   "romaji": "gohan",
+   "en": "cooked rice (also: a meal)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §4 (cooked rice) and L7 (food / meal) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級2 L3 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_pan",
+   "jp": "パン",
+   "kana": "パン",
+   "romaji": "pan",
+   "en": "bread",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_tamago",
+   "jp": "卵",
+   "kana": "たまご",
+   "romaji": "tamago",
+   "en": "egg",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級1 L12 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_yoguruto",
+   "jp": "ヨーグルト",
+   "kana": "ヨーグルト",
+   "romaji": "yōguruto",
+   "en": "yoghurt",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_kudamono",
+   "jp": "果物",
+   "kana": "くだもの",
+   "romaji": "kudamono",
+   "en": "fruit",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級1 L3 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_sarada",
+   "jp": "サラダ",
+   "kana": "サラダ",
+   "romaji": "sarada",
+   "en": "salad",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_misoshiru",
+   "jp": "みそ汁",
+   "kana": "みそしる",
+   "romaji": "misoshiru",
+   "en": "miso soup",
+   "tier": 1,
+   "links": [
+    {
+     "id": "f_supu",
+     "rel": "a kind of soup"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_supu",
+   "jp": "スープ",
+   "kana": "スープ",
+   "romaji": "sūpu",
+   "en": "soup",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_misoshiru",
+     "rel": "miso soup is the Japanese one"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_yasai",
+   "jp": "野菜",
+   "kana": "やさい",
+   "romaji": "yasai",
+   "en": "vegetable",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §1 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級1 L1 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_sakana",
+   "jp": "魚",
+   "kana": "さかな",
+   "romaji": "sakana",
+   "en": "fish",
+   "tier": 1,
+   "links": [
+    {
+     "id": "f_niku",
+     "rel": "pair: fish / meat"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §1 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L6 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_niku",
+   "jp": "肉",
+   "kana": "にく",
+   "romaji": "niku",
+   "en": "meat",
+   "tier": 1,
+   "links": [
+    {
+     "id": "f_sakana",
+     "rel": "pair: meat / fish"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §1 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L6 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_sashimi",
+   "jp": "刺身",
+   "kana": "さしみ",
+   "romaji": "sashimi",
+   "en": "sashimi (sliced raw fish)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_sushi",
+   "jp": "すし",
+   "kana": "すし",
+   "romaji": "sushi",
+   "en": "sushi",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_tenpura",
+   "jp": "天ぷら",
+   "kana": "てんぷら",
+   "romaji": "tenpura",
+   "en": "tempura",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_gyudon",
+   "jp": "牛丼",
+   "kana": "ぎゅうどん",
+   "romaji": "gyūdon",
+   "en": "beef bowl",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_karee",
+   "jp": "カレー",
+   "kana": "カレー",
+   "romaji": "karē",
+   "en": "curry",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_raamen",
+   "jp": "ラーメン",
+   "kana": "ラーメン",
+   "romaji": "rāmen",
+   "en": "ramen noodles",
+   "tier": 1,
+   "links": [
+    {
+     "id": "f_udon",
+     "rel": "noodle dishes"
+    },
+    {
+     "id": "f_soba",
+     "rel": "noodle dishes"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_soba",
+   "jp": "そば",
+   "kana": "そば",
+   "romaji": "soba",
+   "en": "soba noodles",
+   "tier": 1,
+   "links": [
+    {
+     "id": "f_udon",
+     "rel": "noodle dishes"
+    },
+    {
+     "id": "f_raamen",
+     "rel": "noodle dishes"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_natto",
+   "jp": "納豆",
+   "kana": "なっとう",
+   "romaji": "nattō",
+   "en": "natto (fermented soybeans)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_umeboshi",
+   "jp": "梅干し",
+   "kana": "うめぼし",
+   "romaji": "umeboshi",
+   "en": "umeboshi (pickled plum)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_wasabi",
+   "jp": "わさび",
+   "kana": "わさび",
+   "romaji": "wasabi",
+   "en": "wasabi (Japanese horseradish)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_karaage",
+   "jp": "唐揚げ",
+   "kana": "からあげ",
+   "romaji": "karaage",
+   "en": "karaage (deep-fried)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_yakitori",
+   "jp": "焼き鳥",
+   "kana": "やきとり",
+   "romaji": "yakitori",
+   "en": "yakitori (grilled chicken)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 (焼き鳥／焼鳥) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_edamame",
+   "jp": "枝豆",
+   "kana": "えだまめ",
+   "romaji": "edamame",
+   "en": "edamame (green soybeans in the pod)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_yakizakana",
+   "jp": "焼魚",
+   "kana": "やきざかな",
+   "romaji": "yakizakana",
+   "en": "grilled fish",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_sakana",
+     "rel": "contains 魚 (fish)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_hiyayakko",
+   "jp": "冷奴",
+   "kana": "ひややっこ",
+   "romaji": "hiyayakko",
+   "en": "cold tofu",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_yakiniku",
+   "jp": "焼肉",
+   "kana": "やきにく",
+   "romaji": "yakiniku",
+   "en": "yakiniku (Japanese grilled meat)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_niku",
+     "rel": "contains 肉 (meat)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L12 §3 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_izakaya",
+   "jp": "居酒屋",
+   "kana": "いざかや",
+   "romaji": "izakaya",
+   "en": "izakaya (Japanese-style pub)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §5 飲食店の看板 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_tabehodai",
+   "jp": "食べ放題",
+   "kana": "たべほうだい",
+   "romaji": "tabe-hōdai",
+   "en": "all you can eat",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_nomihodai",
+     "rel": "pair: all you can eat / drink"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L17 §4 焼肉屋 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_nomihodai",
+   "jp": "飲み放題",
+   "kana": "のみほうだい",
+   "romaji": "nomi-hōdai",
+   "en": "all you can drink",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_tabehodai",
+     "rel": "pair: all you can drink / eat"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L17 §4 焼肉屋 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_tanpin",
+   "jp": "単品",
+   "kana": "たんぴん",
+   "romaji": "tanpin",
+   "en": "single item",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_setto",
+     "rel": "contrast: single item vs set"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §1 ハンバーガー店のメニュー — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_setto",
+   "jp": "セット",
+   "kana": "セット",
+   "romaji": "setto",
+   "en": "set",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_tanpin",
+     "rel": "contrast: set vs single item"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §1 ハンバーガー店のメニュー — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_dorinku",
+   "jp": "ドリンク",
+   "kana": "ドリンク",
+   "romaji": "dorinku",
+   "en": "drink (menu section)",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_nomimono",
+     "rel": "same idea as 飲み物"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §1 ハンバーガー店のメニュー — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_dezato",
+   "jp": "デザート",
+   "kana": "デザート",
+   "romaji": "dezāto",
+   "en": "dessert",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §1 ハンバーガー店のメニュー — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_ranchi",
+   "jp": "ランチ",
+   "kana": "ランチ",
+   "romaji": "ranchi",
+   "en": "lunch",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_dinaa",
+     "rel": "pair: lunch / dinner"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 街にある看板 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_dinaa",
+   "jp": "ディナー",
+   "kana": "ディナー",
+   "romaji": "dinā",
+   "en": "dinner",
+   "tier": 2,
+   "links": [
+    {
+     "id": "f_ranchi",
+     "rel": "pair: dinner / lunch"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 街にある看板 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_ohashi",
+   "jp": "おはし",
+   "kana": "おはし",
+   "romaji": "ohashi",
+   "en": "chopsticks",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 and L16 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_oshibori",
+   "jp": "おしぼり",
+   "kana": "おしぼり",
+   "romaji": "oshibori",
+   "en": "wet hand towel",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_torizara",
+   "jp": "取り皿",
+   "kana": "とりざら",
+   "romaji": "torizara",
+   "en": "individual plate",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_supuun",
+   "jp": "スプーン",
+   "kana": "スプーン",
+   "romaji": "supūn",
+   "en": "spoon",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §4 and L10 §5 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_fooku",
+   "jp": "フォーク",
+   "kana": "フォーク",
+   "romaji": "fōku",
+   "en": "fork",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L10 §5 and L16 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "f_naifu",
+   "jp": "ナイフ",
+   "kana": "ナイフ",
+   "romaji": "naifu",
+   "en": "knife",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L10 §5 レストランで — checked 2026-10-22"
+   ]
   }
  ]
 }

@@ -5,8 +5,8 @@
    "situation_en": "You are at a counter and cannot remember the word for something you want.",
    "blocked_en": "the word you want",
    "tips": [
-    "t_korenani",
-    "t_nihongode",
+    "t_nihongo_nanto",
+    "t_nan_desu_ka",
     "t_sumimasen"
    ]
   },
@@ -16,8 +16,67 @@
    "blocked_en": "what they just said",
    "tips": [
     "t_mouichido",
-    "t_yukkuri",
+    "t_yukkuri_itte",
     "t_sumimasen"
+   ]
+  },
+  {
+   "id": "x3",
+   "situation_en": "A shop assistant says something and you only understood part of it.",
+   "blocked_en": "the rest of the sentence",
+   "tips": [
+    "t_yoku_wakarimasen",
+    "t_mouichido",
+    "t_yukkuri_itte"
+   ]
+  },
+  {
+   "id": "x4",
+   "situation_en": "You want an item on a shelf or menu but do not know its name.",
+   "blocked_en": "the name of the item",
+   "tips": [
+    "t_kore_kudasai",
+    "t_nan_desu_ka",
+    "t_onegaishimasu"
+   ]
+  },
+  {
+   "id": "x5",
+   "situation_en": "Staff offer something (a bag, a straw, a side) that you do not want.",
+   "blocked_en": "how to politely decline",
+   "tips": [
+    "t_ie_kekko",
+    "t_daijobu_desu",
+    "t_sumimasen"
+   ]
+  },
+  {
+   "id": "x6",
+   "situation_en": "You see something in a shop with no price tag.",
+   "blocked_en": "the price",
+   "tips": [
+    "t_ikura",
+    "t_sumimasen"
+   ]
+  },
+  {
+   "id": "x7",
+   "situation_en": "You cannot find the toilet or the exit.",
+   "blocked_en": "where to go",
+   "tips": [
+    "t_toire_doko",
+    "t_otearai_doko",
+    "t_sumimasen"
+   ]
+  },
+  {
+   "id": "x8",
+   "situation_en": "Someone asks whether you speak Japanese and you start to freeze.",
+   "blocked_en": "how to answer",
+   "tips": [
+    "t_nihongo_dekimasu",
+    "t_yoku_wakarimasen",
+    "t_mouichido"
    ]
   }
  ]

@@ -28,6 +28,98 @@
       "s_eigyochu",
       "s_junbichu"
      ]
+    },
+    {
+     "en": "Read warning and closure signs (danger, caution, under construction)",
+     "needs": [
+      "s_kiken",
+      "s_chui",
+      "s_kojichu"
+     ]
+    },
+    {
+     "en": "Read shop opening hours and closing days",
+     "needs": [
+      "s_eigyojikan",
+      "s_teikyubi",
+      "s_yasumi",
+      "s_nenjumukyu",
+      "s_nijuyojikan"
+     ]
+    },
+    {
+     "en": "Find the emergency exit and the toilet",
+     "needs": [
+      "s_hijoguchi",
+      "s_toire",
+      "s_keshoshitsu",
+      "s_otearai"
+     ]
+    },
+    {
+     "en": "Tell the men's and women's signs apart",
+     "needs": [
+      "s_otoko",
+      "s_onna",
+      "s_dansei",
+      "s_josei"
+     ]
+    },
+    {
+     "en": "Know whether to push or pull a door",
+     "needs": [
+      "s_osu",
+      "s_hiku"
+     ]
+    },
+    {
+     "en": "Use a station: exits, ticket gate, platform, transfer",
+     "needs": [
+      "s_higashiguchi",
+      "s_nishiguchi",
+      "s_minamiguchi",
+      "s_kitaguchi",
+      "s_kaisatsu",
+      "s_bansen",
+      "s_norikae"
+     ]
+    },
+    {
+     "en": "Know which train stops where (local vs rapid) and the final stop",
+     "needs": [
+      "s_kakueki",
+      "s_kaisoku",
+      "s_shuten"
+     ]
+    },
+    {
+     "en": "Read floor numbers in a shop or station building",
+     "needs": [
+      "s_kai",
+      "s_kai1",
+      "s_kai2",
+      "s_kai3",
+      "s_kai6",
+      "s_kai8",
+      "s_kai10"
+     ]
+    },
+    {
+     "en": "Spot paid versus free entry",
+     "needs": [
+      "s_nyujoryo",
+      "s_nyujomuryo",
+      "s_ryokin"
+     ]
+    },
+    {
+     "en": "Find vending machines, coin lockers, ATMs and smoking areas",
+     "needs": [
+      "s_jihanki",
+      "s_koin",
+      "s_atm",
+      "s_kitsuenjo"
+     ]
     }
    ]
   },
@@ -51,6 +143,43 @@
       "p_gojo",
       "p_karasuma_oike"
      ]
+    },
+    {
+     "en": "Recognise Kyoto's main streets (Karasuma, Kawaramachi, Oike, Sanjō, Shijō, Gojō)",
+     "needs": [
+      "p_karasuma",
+      "p_kawaramachi",
+      "p_oike",
+      "p_sanjo",
+      "p_shijo",
+      "p_gojo"
+     ]
+    },
+    {
+     "en": "Read the south-Kyoto number streets (Shichijō, Hachijō, Kujō, Jūjō)",
+     "needs": [
+      "p_shichijo",
+      "p_hachijo",
+      "p_kujo",
+      "p_jujo"
+     ]
+    },
+    {
+     "en": "Find a shrine, temple, park or city hall",
+     "needs": [
+      "p_jinja",
+      "p_otera",
+      "p_koen",
+      "p_shiyakusho"
+     ]
+    },
+    {
+     "en": "Find a bank, a shopping street or the airport",
+     "needs": [
+      "p_ginko",
+      "p_shotengai",
+      "p_kuko"
+     ]
     }
    ]
   },
@@ -73,6 +202,55 @@
       "f_mochikaeri",
       "f_okaikei"
      ]
+    },
+    {
+     "en": "Name common drinks",
+     "needs": [
+      "f_mizu",
+      "f_ocha",
+      "f_koohii",
+      "f_juusu",
+      "f_gyunyu",
+      "f_biiru"
+     ]
+    },
+    {
+     "en": "Recognise the noodle dishes on a menu",
+     "needs": [
+      "f_udon",
+      "f_soba",
+      "f_raamen"
+     ]
+    },
+    {
+     "en": "Read the basics of an izakaya menu",
+     "needs": [
+      "f_izakaya",
+      "f_yakitori",
+      "f_karaage",
+      "f_sashimi",
+      "f_nomihodai",
+      "f_tabehodai"
+     ]
+    },
+    {
+     "en": "Understand menu sections (set, single item, drink, dessert)",
+     "needs": [
+      "f_setto",
+      "f_tanpin",
+      "f_dorinku",
+      "f_dezato"
+     ]
+    },
+    {
+     "en": "Name meat, fish and vegetables",
+     "needs": [
+      "f_niku",
+      "f_sakana",
+      "f_yasai",
+      "f_tamago",
+      "f_kudamono"
+     ]
     }
    ]
   },
@@ -84,6 +262,69 @@
     {
      "en": "Ask where the toilet is",
      "needs": [
+      "t_otearai_doko"
+     ]
+    },
+    {
+     "en": "Greet people at any time of day",
+     "needs": [
+      "t_ohayo",
+      "t_konnichiwa",
+      "t_konbanwa",
+      "t_jaamata"
+     ]
+    },
+    {
+     "en": "Say you did not understand and ask for it again, slower",
+     "needs": [
+      "t_wakarimasen",
+      "t_yoku_wakarimasen",
+      "t_mouichido",
+      "t_yukkuri_itte"
+     ]
+    },
+    {
+     "en": "Get unstuck: ask what something is or what it is called in Japanese",
+     "needs": [
+      "t_nan_desu_ka",
+      "t_nihongo_nanto",
+      "t_nan_to_iimasu"
+     ]
+    },
+    {
+     "en": "Order, accept and decline politely",
+     "needs": [
+      "t_kore_kudasai",
+      "t_onegaishimasu",
+      "t_hai_onegai",
+      "t_ie_kekko",
+      "t_daijobu_desu"
+     ]
+    },
+    {
+     "en": "Understand what restaurant and shop staff say to you",
+     "needs": [
+      "t_irasshaimase",
+      "t_kochira_de",
+      "t_kashikomari",
+      "t_okaikei_narimasu",
+      "t_tacchi_shite"
+     ]
+    },
+    {
+     "en": "Introduce yourself and meet people",
+     "needs": [
+      "t_hajimemashite",
+      "t_yoroshiku",
+      "t_dochira_kara",
+      "t_kara_kimashita"
+     ]
+    },
+    {
+     "en": "Ask the price and where the toilet is",
+     "needs": [
+      "t_ikura",
+      "t_toire_doko",
       "t_otearai_doko"
      ]
     }
@@ -109,6 +350,30 @@
       "d_oikoshi",
       "d_tenkai"
      ]
+    },
+    {
+     "en": "Read no-entry and closed-road signs",
+     "needs": [
+      "d_shary_shinnyu",
+      "d_shary_tsuko",
+      "d_tsuko"
+     ]
+    },
+    {
+     "en": "Read pedestrian signs",
+     "needs": [
+      "d_hokosha_senyo",
+      "d_hokosha_odan",
+      "d_odan"
+     ]
+    },
+    {
+     "en": "Recognise expressway-only and direction-restricted signs",
+     "needs": [
+      "d_jidosha_senyo",
+      "d_shitei",
+      "d_ippo"
+     ]
     }
    ]
   },
@@ -123,6 +388,76 @@
       "g_shomi",
       "g_shohi",
       "g_zeikomi"
+     ]
+    },
+    {
+     "en": "Read numbers 1–10 and the big units (hundred, thousand, ten thousand)",
+     "needs": [
+      "g_num1",
+      "g_num2",
+      "g_num3",
+      "g_num4",
+      "g_num5",
+      "g_num6",
+      "g_num7",
+      "g_num8",
+      "g_num9",
+      "g_num10",
+      "g_hyaku",
+      "g_sen",
+      "g_man"
+     ]
+    },
+    {
+     "en": "Read coin and note values in yen",
+     "needs": [
+      "g_en",
+      "g_10en",
+      "g_100en",
+      "g_500en",
+      "g_1000en",
+      "g_10000en"
+     ]
+    },
+    {
+     "en": "Read discount tags (percent off, yen off, half price, tax excluded)",
+     "needs": [
+      "g_nijaribiki",
+      "g_pasento",
+      "g_enbiki",
+      "g_hangaku",
+      "g_zeinuki",
+      "g_zeikomi"
+     ]
+    },
+    {
+     "en": "Know which type of shop to go to",
+     "needs": [
+      "g_konbini",
+      "g_supa",
+      "g_dorassugu",
+      "g_hyakuen",
+      "g_depato"
+     ]
+    },
+    {
+     "en": "Pay and understand checkout words",
+     "needs": [
+      "g_fukuro",
+      "g_kurejitto",
+      "g_suica",
+      "g_tacchi"
+     ]
+    },
+    {
+     "en": "Count things when buying (one, two, three… and how many?)",
+     "needs": [
+      "g_tsu1",
+      "g_tsu2",
+      "g_tsu3",
+      "g_ko",
+      "g_nanko",
+      "g_ikutsu"
      ]
     }
    ]

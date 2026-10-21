@@ -135,6 +135,1008 @@
    "sources": [
     "JMdict-based entries (tangorin.com, jpdb.io): お手洗い 【おてあらい】 toilet; restroom; lavatory; bathroom — checked 2026-10-20"
    ]
+  },
+  {
+   "id": "s_kiken",
+   "jp": "危険",
+   "kana": "きけん",
+   "romaji": "kiken",
+   "en": "danger",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_chui",
+     "rel": "warning pair: danger / caution"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 街にある看板 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級2 L15 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_chui",
+   "jp": "注意",
+   "kana": "ちゅうい",
+   "romaji": "chūi",
+   "en": "caution",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_kiken",
+     "rel": "warning pair: caution / danger"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 街にある看板 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kojichu",
+   "jp": "工事中",
+   "kana": "こうじちゅう",
+   "romaji": "kōjichū",
+   "en": "under construction",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_eigyochu",
+     "rel": "both end in 中 (in progress / during)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 街にある看板 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_teikyubi",
+   "jp": "定休日",
+   "kana": "ていきゅうび",
+   "romaji": "teikyūbi",
+   "en": "closed every ~ (regular closing day)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_yasumi",
+     "rel": "a closed day on a shop sign"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 街にある看板 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_yasumi",
+   "jp": "休み",
+   "kana": "やすみ",
+   "romaji": "yasumi",
+   "en": "closed / day off",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_teikyubi",
+     "rel": "regular closing day"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 (休 = closed) and L9 (休み = off) — checked 2026-10-22"
+   ],
+   "note": "Irodori prints the shop-sign form as just 休 (read やすみ)."
+  },
+  {
+   "id": "s_nijuyojikan",
+   "jp": "24時間営業",
+   "kana": "にじゅうよじかんえいぎょう",
+   "romaji": "nijūyojikan eigyō",
+   "en": "open 24 hours",
+   "tier": 2,
+   "links": [
+    {
+     "id": "s_eigyochu",
+     "rel": "both contain 営業 (business)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 街にある看板 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_nenjumukyu",
+   "jp": "年中無休",
+   "kana": "ねんじゅうむきゅう",
+   "romaji": "nenjū mukyū",
+   "en": "open year round",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 街にある看板 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_eigyojikan",
+   "jp": "営業時間",
+   "kana": "えいぎょうじかん",
+   "romaji": "eigyō jikan",
+   "en": "opening hours",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_eigyochu",
+     "rel": "both contain 営業 (business)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 and L17 §4 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_uketsukejikan",
+   "jp": "受付時間",
+   "kana": "うけつけじかん",
+   "romaji": "uketsuke jikan",
+   "en": "reception hours",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 街にある看板 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_shukujitsu",
+   "jp": "祝日",
+   "kana": "しゅくじつ",
+   "romaji": "shukujitsu",
+   "en": "public holiday",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §4 (祝(日) しゅく(じつ)) — checked 2026-10-22"
+   ],
+   "note": "Irodori also lists 祭(日) さい(じつ) = public holiday on shop signs."
+  },
+  {
+   "id": "s_hijoguchi",
+   "jp": "非常口",
+   "kana": "ひじょうぐち",
+   "romaji": "hijōguchi",
+   "en": "emergency exit",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_deguchi",
+     "rel": "ends in 口 (exit)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §5 ショッピングセンターの表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_keshoshitsu",
+   "jp": "化粧室",
+   "kana": "けしょうしつ",
+   "romaji": "keshōshitsu",
+   "en": "restroom",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_otearai",
+     "rel": "another sign word for the toilet"
+    },
+    {
+     "id": "s_toire",
+     "rel": "another sign word for the toilet"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §5 ショッピングセンターの表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_toire",
+   "jp": "トイレ",
+   "kana": "トイレ",
+   "romaji": "toire",
+   "en": "toilet",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_otearai",
+     "rel": "same place, different word"
+    },
+    {
+     "id": "s_keshoshitsu",
+     "rel": "same place, different word"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L7 §1 and L14 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_osu",
+   "jp": "押す",
+   "kana": "おす",
+   "romaji": "osu",
+   "en": "to push (door sign: 押)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_hiku",
+     "rel": "opposite"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §5 (押す／押) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L15 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_hiku",
+   "jp": "引く",
+   "kana": "ひく",
+   "romaji": "hiku",
+   "en": "to pull (door sign: 引)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_osu",
+     "rel": "opposite"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §5 (引く／引) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L15 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_nobori",
+   "jp": "上り",
+   "kana": "のぼり",
+   "romaji": "nobori",
+   "en": "up",
+   "tier": 3,
+   "links": [
+    {
+     "id": "s_kudari",
+     "rel": "opposite"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §5 ショッピングセンターの表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kudari",
+   "jp": "下り",
+   "kana": "くだり",
+   "romaji": "kudari",
+   "en": "down",
+   "tier": 3,
+   "links": [
+    {
+     "id": "s_nobori",
+     "rel": "opposite"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §5 ショッピングセンターの表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_higashiguchi",
+   "jp": "東口",
+   "kana": "ひがしぐち",
+   "romaji": "higashiguchi",
+   "en": "East Exit",
+   "tier": 1,
+   "parts": [
+    {
+     "jp": "東",
+     "en": "east"
+    },
+    {
+     "jp": "口",
+     "en": "exit / opening"
+    }
+   ],
+   "links": [
+    {
+     "id": "s_deguchi",
+     "rel": "ends in 口 (exit)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §5 駅の中の表示 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L13 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_nishiguchi",
+   "jp": "西口",
+   "kana": "にしぐち",
+   "romaji": "nishiguchi",
+   "en": "West Exit",
+   "tier": 1,
+   "parts": [
+    {
+     "jp": "西",
+     "en": "west"
+    },
+    {
+     "jp": "口",
+     "en": "exit / opening"
+    }
+   ],
+   "links": [
+    {
+     "id": "s_deguchi",
+     "rel": "ends in 口 (exit)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §5 駅の中の表示 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L13 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_minamiguchi",
+   "jp": "南口",
+   "kana": "みなみぐち",
+   "romaji": "minamiguchi",
+   "en": "South Exit",
+   "tier": 1,
+   "parts": [
+    {
+     "jp": "南",
+     "en": "south"
+    },
+    {
+     "jp": "口",
+     "en": "exit / opening"
+    }
+   ],
+   "links": [
+    {
+     "id": "s_deguchi",
+     "rel": "ends in 口 (exit)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §5 駅の中の表示 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L13 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kitaguchi",
+   "jp": "北口",
+   "kana": "きたぐち",
+   "romaji": "kitaguchi",
+   "en": "North Exit",
+   "tier": 1,
+   "parts": [
+    {
+     "jp": "北",
+     "en": "north"
+    },
+    {
+     "jp": "口",
+     "en": "exit / opening"
+    }
+   ],
+   "links": [
+    {
+     "id": "s_deguchi",
+     "rel": "ends in 口 (exit)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §5 駅の中の表示 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L13 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kaisatsu",
+   "jp": "改札",
+   "kana": "かいさつ",
+   "romaji": "kaisatsu",
+   "en": "ticket gate",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_eki",
+     "rel": "a gate inside the 駅 (station)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §5 and L14 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_esukareta",
+   "jp": "エスカレーター",
+   "kana": "エスカレーター",
+   "romaji": "esukarētā",
+   "en": "escalator",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §5 駅の中の表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_erebeta",
+   "jp": "エレベーター",
+   "kana": "エレベーター",
+   "romaji": "erebētā",
+   "en": "elevator",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §5 駅の中の表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_machiaishitsu",
+   "jp": "待合室",
+   "kana": "まちあいしつ",
+   "romaji": "machiaishitsu",
+   "en": "waiting room",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §5 駅の中の表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_basunoriba",
+   "jp": "バス乗り場",
+   "kana": "バスのりば",
+   "romaji": "basu-noriba",
+   "en": "bus stop",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §5 駅の中の表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_takushinoriba",
+   "jp": "タクシー乗り場",
+   "kana": "タクシーのりば",
+   "romaji": "takushī-noriba",
+   "en": "taxi stand",
+   "tier": 3,
+   "links": [
+    {
+     "id": "s_basunoriba",
+     "rel": "same 乗り場 pattern"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §5 駅の中の表示 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_norikae",
+   "jp": "乗り換え",
+   "kana": "のりかえ",
+   "romaji": "norikae",
+   "en": "transfer (changing trains)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §2 (乗り換え／お乗り換え = transfer) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kakueki",
+   "jp": "各駅停車",
+   "kana": "かくえきていしゃ",
+   "romaji": "kakueki teisha",
+   "en": "local train (stops at every station)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_kaisoku",
+     "rel": "contrast: local vs rapid"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §1 (各駅停車／各停) — checked 2026-10-22"
+   ],
+   "note": "Often shortened to 各停 (かくてい) on boards."
+  },
+  {
+   "id": "s_kaisoku",
+   "jp": "快速",
+   "kana": "かいそく",
+   "romaji": "kaisoku",
+   "en": "express / rapid",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_kakueki",
+     "rel": "contrast: rapid vs local"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §1 ～番線ですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_shuten",
+   "jp": "終点",
+   "kana": "しゅうてん",
+   "romaji": "shūten",
+   "en": "final stop",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §2 すみません、今どこですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_bansen",
+   "jp": "〜番線",
+   "kana": "〜ばんせん",
+   "romaji": "〜bansen",
+   "en": "platform number ~",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_eki",
+     "rel": "platforms are inside the 駅"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L13 §1 (～番線 / 何番線) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kai",
+   "jp": "〜階",
+   "kana": "〜かい",
+   "romaji": "〜kai",
+   "en": "~ floor (storey)",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §2 and §3 — checked 2026-10-22"
+   ],
+   "note": "Irregular readings: 1階 いっかい, 3階 さんかい/さんがい, 6階 ろっかい, 8階 はちかい/はっかい, 10階 じゅっかい."
+  },
+  {
+   "id": "s_kai1",
+   "jp": "1階",
+   "kana": "いっかい",
+   "romaji": "ikkai",
+   "en": "1st floor",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §3 カメラは何階ですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kai2",
+   "jp": "2階",
+   "kana": "にかい",
+   "romaji": "nikai",
+   "en": "2nd floor",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §3 カメラは何階ですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kai3",
+   "jp": "3階",
+   "kana": "さんかい／さんがい",
+   "romaji": "sankai / sangai",
+   "en": "3rd floor",
+   "tier": 2,
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §3 カメラは何階ですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kai4",
+   "jp": "4階",
+   "kana": "よんかい",
+   "romaji": "yonkai",
+   "en": "4th floor",
+   "tier": 2,
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §3 カメラは何階ですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kai5",
+   "jp": "5階",
+   "kana": "ごかい",
+   "romaji": "gokai",
+   "en": "5th floor",
+   "tier": 2,
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §3 カメラは何階ですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kai6",
+   "jp": "6階",
+   "kana": "ろっかい",
+   "romaji": "rokkai",
+   "en": "6th floor",
+   "tier": 2,
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §3 カメラは何階ですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kai7",
+   "jp": "7階",
+   "kana": "ななかい",
+   "romaji": "nanakai",
+   "en": "7th floor",
+   "tier": 3,
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §3 カメラは何階ですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kai8",
+   "jp": "8階",
+   "kana": "はちかい／はっかい",
+   "romaji": "hachikai / hakkai",
+   "en": "8th floor",
+   "tier": 3,
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §3 カメラは何階ですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kai9",
+   "jp": "9階",
+   "kana": "きゅうかい",
+   "romaji": "kyūkai",
+   "en": "9th floor",
+   "tier": 3,
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §3 カメラは何階ですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kai10",
+   "jp": "10階",
+   "kana": "じゅっかい",
+   "romaji": "jukkai",
+   "en": "10th floor",
+   "tier": 3,
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L15 §3 カメラは何階ですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_nyujoryo",
+   "jp": "入場料",
+   "kana": "にゅうじょうりょう",
+   "romaji": "nyūjōryō",
+   "en": "entry fee",
+   "tier": 2,
+   "links": [
+    {
+     "id": "s_nyujomuryo",
+     "rel": "contrast: fee vs free"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L12 §1 イベントの案内 ② — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_nyujomuryo",
+   "jp": "入場無料",
+   "kana": "にゅうじょうむりょう",
+   "romaji": "nyūjō muryō",
+   "en": "free entry",
+   "tier": 2,
+   "links": [
+    {
+     "id": "s_nyujoryo",
+     "rel": "contrast: free vs fee"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L12 §1 イベントの案内 ④ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_ryokin",
+   "jp": "料金",
+   "kana": "りょうきん",
+   "romaji": "ryōkin",
+   "en": "fee / charge",
+   "tier": 2,
+   "links": [
+    {
+     "id": "s_nyujoryo",
+     "rel": "both are fees"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L17 §4 料金表 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_chushajo",
+   "jp": "駐車場",
+   "kana": "ちゅうしゃじょう",
+   "romaji": "chūshajō",
+   "en": "parking lot",
+   "tier": 1,
+   "links": [
+    {
+     "id": "d_chusha",
+     "rel": "same 駐車 (parking)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L12 §1 イベントの案内 ③ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_kitsuenjo",
+   "jp": "喫煙所",
+   "kana": "きつえんじょ",
+   "romaji": "kitsuenjo",
+   "en": "smoking room / smoking area",
+   "tier": 2,
+   "links": [
+    {
+     "id": "s_kinen",
+     "rel": "opposite: smoking area vs no smoking"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L8 §1 and L14 §1 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_infomeshon",
+   "jp": "インフォメーション",
+   "kana": "インフォメーション",
+   "romaji": "infomēshon",
+   "en": "information counter",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §2 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_jihanki",
+   "jp": "自動販売機",
+   "kana": "じどうはんばいき",
+   "romaji": "jidōhanbaiki",
+   "en": "vending machine",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §1 トイレはどこですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_koin",
+   "jp": "コインロッカー",
+   "kana": "コインロッカー",
+   "romaji": "koin rokkā",
+   "en": "coin-operated locker",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §1 トイレはどこですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_atm",
+   "jp": "ATM",
+   "kana": "エーティーエム",
+   "romaji": "ētīemu",
+   "en": "ATM (automated teller machine)",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §1 トイレはどこですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_otoko",
+   "jp": "男",
+   "kana": "おとこ",
+   "romaji": "otoko",
+   "en": "man; male (single kanji, e.g. on toilet doors)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_onna",
+     "rel": "pair: male / female"
+    },
+    {
+     "id": "s_dansei",
+     "rel": "男 + 性"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "JMdict via tangorin.com (tangorin.com/words?search=男): 男 【おとこ】 man; male — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_onna",
+   "jp": "女",
+   "kana": "おんな",
+   "romaji": "onna",
+   "en": "woman; female (single kanji, e.g. on toilet doors)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_otoko",
+     "rel": "pair: female / male"
+    },
+    {
+     "id": "s_josei",
+     "rel": "女 + 性"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "KanshuDo kanji entry for 女 (kanshudo.com): ジョ・ニョ・ニョウ; おんな woman — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_dansei",
+   "jp": "男性",
+   "kana": "だんせい",
+   "romaji": "dansei",
+   "en": "man; male (men's)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_josei",
+     "rel": "pair: men / women"
+    },
+    {
+     "id": "s_otoko",
+     "rel": "contains 男"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L8 §1 (男性 = men) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級2 L11 — reading checked 2026-10-22",
+    "JMdict via tangorin.com: 男性 【だんせい】 man; male — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "s_josei",
+   "jp": "女性",
+   "kana": "じょせい",
+   "romaji": "josei",
+   "en": "woman; female (women's)",
+   "tier": 1,
+   "links": [
+    {
+     "id": "s_dansei",
+     "rel": "pair: women / men"
+    },
+    {
+     "id": "s_onna",
+     "rel": "contains 女"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級2 L11 (女性 じょせい) — reading checked 2026-10-22",
+    "Tokyo Univ. of Foreign Studies Japanese-English usage entry for 男性 (tkgje.jp/entries/01500/01655_dansei.html): opposite 女性 (woman, female) — checked 2026-10-22"
+   ]
   }
  ]
 }

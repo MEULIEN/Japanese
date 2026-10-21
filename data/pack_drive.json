@@ -117,7 +117,8 @@
    "tier": 2,
    "status": "verified",
    "sources": [
-    "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana (pref.gunma.jp/uploaded/attachment/53721.pdf) — checked 2026-10-20"
+    "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana (pref.gunma.jp/uploaded/attachment/53721.pdf) — checked 2026-10-20",
+    "MLIT road-sign list (313) 転回禁止 (mlit.go.jp/road/sign/kentoukai/PDF/1/99_ichiran.pdf, older edition) — checked 2026-10-22"
    ]
   },
   {
@@ -131,6 +132,109 @@
    "sources": [
     "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana (pref.gunma.jp/uploaded/attachment/53721.pdf) — checked 2026-10-20",
     "MLIT road-sign list (323) — checked 2026-10-20"
+   ]
+  },
+  {
+   "id": "d_shary_tsuko",
+   "jp": "車両通行止め",
+   "kana": "しゃりょうつうこうどめ",
+   "romaji": "sharyō tsūkō-dome",
+   "en": "closed to all vehicles",
+   "tier": 2,
+   "links": [
+    {
+     "id": "d_tsuko",
+     "rel": "compare: 通行止め (road closed)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "MLIT road-sign list (skr.mlit.go.jp/road/hyousiki/h_annai/roadsign/files/dourohyousikiichiran.pdf), sign (302) 車両通行止め — checked 2026-10-22",
+    "Koriyama City (Fukushima) traffic-sign leaflet with furigana (city.koriyama.lg.jp/uploaded/attachment/2939.pdf) — reading checked 2026-10-22",
+    "Tokyo Univ. of Marine Science and Technology multilingual traffic-sign list (kaiyodai.ac.jp) — English wording checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "d_shary_shinnyu",
+   "jp": "車両進入禁止",
+   "kana": "しゃりょうしんにゅうきんし",
+   "romaji": "sharyō shinnyū kinshi",
+   "en": "no entry for vehicles",
+   "tier": 2,
+   "links": [
+    {
+     "id": "d_ippo",
+     "rel": "often at the exit end of a 一方通行 street"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "MLIT road-sign list (skr.mlit.go.jp/road/hyousiki/h_annai/roadsign/files/dourohyousikiichiran.pdf), sign (303) 車両進入禁止 — checked 2026-10-22",
+    "Koriyama City (Fukushima) traffic-sign leaflet with furigana (city.koriyama.lg.jp/uploaded/attachment/2939.pdf) — reading checked 2026-10-22",
+    "Tokyo Univ. of Marine Science and Technology multilingual traffic-sign list (kaiyodai.ac.jp) — English wording checked 2026-10-22",
+    "Nagasaki Prefectural Police leaflet (police.pref.nagasaki.jp): used at one-way street exits — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "d_shitei",
+   "jp": "指定方向外進行禁止",
+   "kana": "していほうこうがいしんこうきんし",
+   "romaji": "shitei hōkō-gai shinkō kinshi",
+   "en": "proceed only in the designated direction(s)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "MLIT road-sign list (skr.mlit.go.jp/road/hyousiki/h_annai/roadsign/files/dourohyousikiichiran.pdf), sign (311) 指定方向外進行禁止 — checked 2026-10-22",
+    "Koriyama City (Fukushima) traffic-sign leaflet with furigana (city.koriyama.lg.jp/uploaded/attachment/2939.pdf) — reading checked 2026-10-22",
+    "Tokyo Univ. of Marine Science and Technology multilingual traffic-sign list (kaiyodai.ac.jp) — English wording checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "d_hokosha_senyo",
+   "jp": "歩行者専用",
+   "kana": "ほこうしゃせんよう",
+   "romaji": "hokōsha sen'yō",
+   "en": "pedestrians only",
+   "tier": 2,
+   "status": "verified",
+   "sources": [
+    "MLIT road-sign list (skr.mlit.go.jp/road/hyousiki/h_annai/roadsign/files/dourohyousikiichiran.pdf), sign (325の4) 歩行者専用 — checked 2026-10-22",
+    "Koriyama City (Fukushima) traffic-sign leaflet with furigana (city.koriyama.lg.jp/uploaded/attachment/2939.pdf) — reading checked 2026-10-22",
+    "Tokyo Univ. of Marine Science and Technology multilingual traffic-sign list (kaiyodai.ac.jp) — English wording checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "d_jidosha_senyo",
+   "jp": "自動車専用",
+   "kana": "じどうしゃせんよう",
+   "romaji": "jidōsha sen'yō",
+   "en": "motor vehicles only (expressway-type road entrance)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "MLIT road-sign list (skr.mlit.go.jp/road/hyousiki/h_annai/roadsign/files/dourohyousikiichiran.pdf), sign (325) 自動車専用 — checked 2026-10-22",
+    "Koriyama City (Fukushima) traffic-sign leaflet with furigana (city.koriyama.lg.jp/uploaded/attachment/2939.pdf) — reading checked 2026-10-22",
+    "Nagasaki Prefectural Police leaflet (police.pref.nagasaki.jp): placed at entrances to expressways; bars pedestrians, bicycles and small motorcycles — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "d_hokosha_odan",
+   "jp": "歩行者横断禁止",
+   "kana": "ほこうしゃおうだんきんし",
+   "romaji": "hokōsha ōdan kinshi",
+   "en": "no pedestrian crossing",
+   "tier": 3,
+   "links": [
+    {
+     "id": "d_odan",
+     "rel": "contrast: crossing prohibited vs 横断歩道 (crosswalk)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "MLIT road-sign list (skr.mlit.go.jp/road/hyousiki/h_annai/roadsign/files/dourohyousikiichiran.pdf), sign (332) 歩行者横断禁止 — checked 2026-10-22",
+    "Koriyama City (Fukushima) traffic-sign leaflet with furigana (city.koriyama.lg.jp/uploaded/attachment/2939.pdf) — reading checked 2026-10-22",
+    "Tokyo Univ. of Marine Science and Technology multilingual traffic-sign list (kaiyodai.ac.jp) — English wording checked 2026-10-22"
    ]
   }
  ]

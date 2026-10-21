@@ -16,7 +16,203 @@
     {
      "jp": "メニュー",
      "en": "the menu"
+    },
+    {
+     "jp": "ホットコーヒー",
+     "en": "hot coffee"
     }
+   ]
+  },
+  {
+   "id": "pt_kudasai",
+   "frame": "〜ください",
+   "en": "~, please / give me ~ (ordering)",
+   "fills": [
+    {
+     "jp": "これ",
+     "en": "this"
+    },
+    {
+     "jp": "チーズバーガー",
+     "en": "a cheeseburger"
+    },
+    {
+     "jp": "枝豆2つ",
+     "en": "two edamame"
+    }
+   ],
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §2, §4 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』文法ノート (irodori.jpf.go.jp/assets/data/Grammar_all.pdf), 入門 L6 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』入門 Can-doチェック (irodori.jpf.go.jp/assets/data/starter/pdf/X_candocheck.pdf) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "pt_ni_shimasu",
+   "frame": "〜にします",
+   "en": "I'll have ~ (choosing)",
+   "fills": [
+    {
+     "jp": "カレー",
+     "en": "curry"
+    },
+    {
+     "jp": "肉",
+     "en": "meat"
+    }
+   ],
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L6 §3 私はカレーにします — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L6 — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "pt_wa_doko",
+   "frame": "〜はどこですか？",
+   "en": "where is ~?",
+   "fills": [
+    {
+     "jp": "お手洗い",
+     "en": "the toilet"
+    },
+    {
+     "jp": "トイレ",
+     "en": "the toilet"
+    },
+    {
+     "jp": "出口",
+     "en": "the exit"
+    },
+    {
+     "jp": "銀行",
+     "en": "the bank"
+    }
+   ],
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L14 §1 and L2 (どこ = where) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L15 ⑥ 出口はどこですか？ — reading checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 初級1 L6 ① 銀行はどこですか？ — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "pt_ikura",
+   "frame": "〜、いくらですか？",
+   "en": "how much is ~?",
+   "fills": [
+    {
+     "jp": "これ",
+     "en": "this"
+    },
+    {
+     "jp": "あのTシャツ",
+     "en": "that T-shirt"
+    }
+   ],
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §1–2 あのTシャツ、いくらですか？ — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "pt_te_kudasai",
+   "frame": "〜てください",
+   "en": "please ~ (a request)",
+   "fills": [
+    {
+     "jp": "言って",
+     "en": "say"
+    },
+    {
+     "jp": "見せて",
+     "en": "show me"
+    },
+    {
+     "jp": "書いて",
+     "en": "write"
+    },
+    {
+     "jp": "貸して",
+     "en": "lend me"
+    },
+    {
+     "jp": "来て",
+     "en": "come"
+    },
+    {
+     "jp": "入って",
+     "en": "come in"
+    },
+    {
+     "jp": "使って",
+     "en": "use"
+    }
+   ],
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §1, L7 §1–2, L10 §2 — checked 2026-10-22",
+    "Japan Foundation 『いろどり』文法ノート (irodori.jpf.go.jp/assets/data/Grammar_all.pdf), 入門 L6 — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "pt_ga_suki",
+   "frame": "〜が好きです",
+   "en": "I like ~",
+   "fills": [
+    {
+     "jp": "うどん",
+     "en": "udon"
+    },
+    {
+     "jp": "ビール",
+     "en": "beer"
+    }
+   ],
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L5 lesson title うどんが好きです; 好きです = I like it. — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L6 ③ ビールが好きです — reading checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "pt_kara_kimashita",
+   "frame": "〜から来ました",
+   "en": "I came from ~",
+   "fills": [
+    {
+     "jp": "ブラジル",
+     "en": "Brazil"
+    },
+    {
+     "jp": "タイ",
+     "en": "Thailand"
+    },
+    {
+     "jp": "ベトナム",
+     "en": "Vietnam"
+    },
+    {
+     "jp": "韓国",
+     "en": "South Korea"
+    }
+   ],
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L3 §1 (country names and ～から来ました) — checked 2026-10-22"
+   ]
+  },
+  {
+   "id": "pt_sunde",
+   "frame": "〜に住んでいます",
+   "en": "I live in ~",
+   "fills": [
+    {
+     "jp": "東京",
+     "en": "Tokyo"
+    },
+    {
+     "jp": "日本",
+     "en": "Japan"
+    }
+   ],
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L4 lesson title 東京に住んでいます; 住んでいます = live — checked 2026-10-22",
+    "Japan Foundation 『いろどり』漢字のことば (irodori.jpf.go.jp/assets/data/Kanji_all.pdf), 入門 L4 ③ 日本に住んでいます — reading checked 2026-10-22"
    ]
   }
  ]
