@@ -1,0 +1,1780 @@
+{
+ "topic": "describe",
+ "items": [
+  {
+   "id": "a_ookii",
+   "jp": "大きい",
+   "kana": "おおきい",
+   "romaji": "ōkii",
+   "en": "big; large",
+   "gloss": "big",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "大きいね。",
+     "en": "It's big.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13063899,
+      "url": "https://tatoeba.org/en/sentences/show/13063899",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "大きいね。",
+      "translation": "It's big."
+     }
+    },
+    {
+     "jp": "大きすぎる？",
+     "en": "Is it too big?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1658065,
+      "url": "https://tatoeba.org/en/sentences/show/1658065",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "大きすぎる？",
+      "translation": "Is it too big?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "大きい",
+     "matched": "大きい【おおきい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "big; large; great",
+      "loud",
+      "extensive; spacious",
+      "important; decisive; valuable"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_chiisai",
+   "jp": "小さい",
+   "kana": "ちいさい",
+   "romaji": "chiisai",
+   "en": "small; little",
+   "gloss": "small",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "小さすぎます。",
+     "en": "It's too small.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 442055,
+      "url": "https://tatoeba.org/en/sentences/show/442055",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "小さすぎます。",
+      "translation": "It's too small."
+     }
+    },
+    {
+     "jp": "手は小さいんだ。",
+     "en": "I have small hands.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11325452,
+      "url": "https://tatoeba.org/en/sentences/show/11325452",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "手は小さいんだ。",
+      "translation": "I have small hands."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "小さい",
+     "matched": "小さい【ちいさい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "small; little; tiny",
+      "slight; below average (in degree, amount, etc.); minor; small",
+      "low (e.g. sound); soft (e.g. voice)",
+      "unimportant; petty; insignificant; trifling; trivial"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_takai",
+   "jp": "高い",
+   "kana": "たかい",
+   "romaji": "takai",
+   "en": "expensive; high; tall",
+   "gloss": "expensive",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "高いですね。",
+     "en": "It’s expensive, isn’t it?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13130047,
+      "url": "https://tatoeba.org/en/sentences/show/13130047",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "高いですね。",
+      "translation": "It’s expensive, isn’t it?"
+     }
+    },
+    {
+     "jp": "高すぎる。",
+     "en": "It's too expensive.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13134440,
+      "url": "https://tatoeba.org/en/sentences/show/13134440",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "高すぎる。",
+      "translation": "It's too expensive."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "高い",
+     "matched": "高い【たかい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "high; tall",
+      "expensive; high-priced",
+      "high (level); above average (in degree, quality, etc.)",
+      "loud"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_yasui",
+   "jp": "安い",
+   "kana": "やすい",
+   "romaji": "yasui",
+   "en": "cheap; inexpensive",
+   "gloss": "cheap",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "肉が安い。",
+     "en": "The meat is cheap.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11512580,
+      "url": "https://tatoeba.org/en/sentences/show/11512580",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "肉が安い。",
+      "translation": "The meat is cheap."
+     }
+    },
+    {
+     "jp": "どっちが安いの？",
+     "en": "Which one is cheaper?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10014750,
+      "url": "https://tatoeba.org/en/sentences/show/10014750",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "どっちが安いの？",
+      "translation": "Which one is cheaper?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "安い",
+     "matched": "安い【やすい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "cheap; inexpensive",
+      "calm; peaceful; quiet"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_atsui",
+   "jp": "暑い",
+   "kana": "あつい",
+   "romaji": "atsui",
+   "en": "hot (weather)",
+   "gloss": "hot",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "note": "For weather. Hot to the touch is 熱い.",
+   "examples": [
+    {
+     "jp": "暑いですね。",
+     "en": "It's hot, isn't it?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8971861,
+      "url": "https://tatoeba.org/en/sentences/show/8971861",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "暑いですね。",
+      "translation": "It's hot, isn't it?"
+     }
+    },
+    {
+     "jp": "今日は暑い。",
+     "en": "It's hot today.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 171593,
+      "url": "https://tatoeba.org/en/sentences/show/171593",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今日は暑い。",
+      "translation": "It's hot today."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "暑い",
+     "matched": "暑い【あつい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "hot; warm; sultry; heated",
+      "passionate; impassioned; burning (desire, etc.)",
+      "on everybody's mind; on the radar; du jour; interested (gaze, etc.)"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_samui",
+   "jp": "寒い",
+   "kana": "さむい",
+   "romaji": "samui",
+   "en": "cold (weather)",
+   "gloss": "cold",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "寒いですね。",
+     "en": "It's cold, isn't it?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11041816,
+      "url": "https://tatoeba.org/en/sentences/show/11041816",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "寒いですね。",
+      "translation": "It's cold, isn't it?"
+     }
+    },
+    {
+     "jp": "外は寒い？",
+     "en": "Is it cold outside?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8699915,
+      "url": "https://tatoeba.org/en/sentences/show/8699915",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "外は寒い？",
+      "translation": "Is it cold outside?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "寒い",
+     "matched": "寒い【さむい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "cold (e.g. weather)",
+      "uninteresting (esp. joke); lame; dull; weak; corny"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_oishii",
+   "jp": "美味しい",
+   "kana": "おいしい",
+   "romaji": "oishii",
+   "en": "delicious; tasty",
+   "gloss": "delicious",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "accept": [
+    "おいしい"
+   ],
+   "examples": [
+    {
+     "jp": "美味しいです。",
+     "en": "It's delicious.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12890061,
+      "url": "https://tatoeba.org/en/sentences/show/12890061",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "美味しいです。",
+      "translation": "It's delicious."
+     }
+    },
+    {
+     "jp": "それ美味しい？",
+     "en": "Is that tasty?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11571052,
+      "url": "https://tatoeba.org/en/sentences/show/11571052",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "それ美味しい？",
+      "translation": "Is that tasty?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "美味しい",
+     "matched": "美味しい【おいしい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "good(-tasting); nice; delicious; tasty",
+      "attractive (offer, opportunity, etc.); appealing; convenient; favorable; desirable; profitable"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_tanoshii",
+   "jp": "楽しい",
+   "kana": "たのしい",
+   "romaji": "tanoshii",
+   "en": "fun; enjoyable",
+   "gloss": "fun",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "楽しかった。",
+     "en": "That was fun.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5207944,
+      "url": "https://tatoeba.org/en/sentences/show/5207944",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "楽しかった。",
+      "translation": "That was fun."
+     }
+    },
+    {
+     "jp": "楽しかった？",
+     "en": "Did you have fun?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8699991,
+      "url": "https://tatoeba.org/en/sentences/show/8699991",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "楽しかった？",
+      "translation": "Did you have fun?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "楽しい",
+     "matched": "楽しい【たのしい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "enjoyable; fun; pleasant; happy; delightful"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_isogashii",
+   "jp": "忙しい",
+   "kana": "いそがしい",
+   "romaji": "isogashii",
+   "en": "busy",
+   "gloss": "busy",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "忙しいです。",
+     "en": "I'm busy.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1683211,
+      "url": "https://tatoeba.org/en/sentences/show/1683211",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "忙しいです。",
+      "translation": "I'm busy."
+     }
+    },
+    {
+     "jp": "今は忙しい。",
+     "en": "I'm busy now.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 172628,
+      "url": "https://tatoeba.org/en/sentences/show/172628",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今は忙しい。",
+      "translation": "I'm busy now."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "忙しい",
+     "matched": "忙しい【いそがしい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "busy; occupied; hectic",
+      "restless; hurried; fidgety"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_ii",
+   "jp": "いい",
+   "kana": "いい",
+   "romaji": "ii",
+   "en": "good; nice; fine",
+   "gloss": "good",
+   "pos": "i-adj",
+   "adj_class": "ii",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "note": "Past and negative come from よい: よかった, よくない.",
+   "examples": [
+    {
+     "jp": "いい香り！",
+     "en": "It smells good!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9359908,
+      "url": "https://tatoeba.org/en/sentences/show/9359908",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いい香り！",
+      "translation": "It smells good!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いい",
+     "matched": "【いい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "good; excellent; fine; nice; pleasant; agreeable",
+      "sufficient; enough; ready; prepared",
+      "profitable (deal, business offer, etc.); beneficial",
+      "OK; all right; fine; no problem"
+     ],
+     "pos": [
+      "I-Adjective (keiyoushi) - yoi/ii class"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_atarashii",
+   "jp": "新しい",
+   "kana": "あたらしい",
+   "romaji": "atarashii",
+   "en": "new",
+   "gloss": "new",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "新しい先生ですか？",
+     "en": "Are you the new teacher?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9932160,
+      "url": "https://tatoeba.org/en/sentences/show/9932160",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "新しい先生ですか？",
+      "translation": "Are you the new teacher?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "新しい",
+     "matched": "新しい【あたらしい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "new; novel; fresh; recent; latest; up-to-date; modern"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_furui",
+   "jp": "古い",
+   "kana": "ふるい",
+   "romaji": "furui",
+   "en": "old (things, not people)",
+   "gloss": "old",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "この靴は古いです。",
+     "en": "These shoes are old.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10901734,
+      "url": "https://tatoeba.org/en/sentences/show/10901734",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "この靴は古いです。",
+      "translation": "These shoes are old."
+     }
+    },
+    {
+     "jp": "この本は古い。",
+     "en": "This book is old.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 219639,
+      "url": "https://tatoeba.org/en/sentences/show/219639",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "この本は古い。",
+      "translation": "This book is old."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "古い",
+     "matched": "古い【ふるい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "old; aged; ancient; antiquated; antique; timeworn",
+      "long; since long ago; time-honored",
+      "of the distant past; long-ago",
+      "stale; threadbare; hackneyed; corny"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_shizuka",
+   "jp": "静か",
+   "kana": "しずか",
+   "romaji": "shizuka",
+   "en": "quiet",
+   "gloss": "quiet",
+   "pos": "na-adj",
+   "adj_class": "na",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今は、静かです。",
+     "en": "It's quiet now.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9378984,
+      "url": "https://tatoeba.org/en/sentences/show/9378984",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今は、静かです。",
+      "translation": "It's quiet now."
+     }
+    },
+    {
+     "jp": "静かにしなさい。",
+     "en": "Be quiet.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2152620,
+      "url": "https://tatoeba.org/en/sentences/show/2152620",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "静かにしなさい。",
+      "translation": "Be quiet."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "静か",
+     "matched": "静か【しずか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "quiet; silent",
+      "slow; unhurried",
+      "calm; peaceful"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_benri",
+   "jp": "便利",
+   "kana": "べんり",
+   "romaji": "benri",
+   "en": "convenient; handy",
+   "gloss": "convenient",
+   "pos": "na-adj",
+   "adj_class": "na",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "大きなかばんは便利です。",
+     "en": "A big bag is convenient.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10901804,
+      "url": "https://tatoeba.org/en/sentences/show/10901804",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "大きなかばんは便利です。",
+      "translation": "A big bag is convenient."
+     }
+    },
+    {
+     "jp": "そりゃ便利だね。",
+     "en": "That's convenient, isn't it?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 205969,
+      "url": "https://tatoeba.org/en/sentences/show/205969",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "そりゃ便利だね。",
+      "translation": "That's convenient, isn't it?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "便利",
+     "matched": "便利【べんり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "convenient; handy; useful"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_suki",
+   "jp": "好き",
+   "kana": "すき",
+   "romaji": "suki",
+   "en": "liked; to like",
+   "gloss": "liked",
+   "pos": "na-adj",
+   "adj_class": "na",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "note": "X が好きです = I like X.",
+   "examples": [
+    {
+     "jp": "好きですか？",
+     "en": "Do you like it?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13220296,
+      "url": "https://tatoeba.org/en/sentences/show/13220296",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "好きですか？",
+      "translation": "Do you like it?"
+     }
+    },
+    {
+     "jp": "雨は好き？",
+     "en": "Do you like rain?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1614573,
+      "url": "https://tatoeba.org/en/sentences/show/1614573",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "雨は好き？",
+      "translation": "Do you like rain?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "好き",
+     "matched": "好き【すき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "liking; being fond of; to one's liking; to one's taste; preferred; favourite",
+      "liking (romantically); being in love with; beloved",
+      "faddism; eccentricity",
+      "as one likes; as it suits one"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_kirai",
+   "jp": "嫌い",
+   "kana": "きらい",
+   "romaji": "kirai",
+   "en": "disliked; to hate",
+   "gloss": "disliked",
+   "pos": "na-adj",
+   "adj_class": "na",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "犬が嫌い。",
+     "en": "I don't like dogs.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3557593,
+      "url": "https://tatoeba.org/en/sentences/show/3557593",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "犬が嫌い。",
+      "translation": "I don't like dogs."
+     }
+    },
+    {
+     "jp": "蚊が嫌い。",
+     "en": "I hate mosquitoes.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8823662,
+      "url": "https://tatoeba.org/en/sentences/show/8823662",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "蚊が嫌い。",
+      "translation": "I hate mosquitoes."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "嫌い",
+     "matched": "嫌い【きらい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "disliking; hating; detesting",
+      "tendency; smack (of); touch (of)",
+      "distinction; discrimination"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_kirei",
+   "jp": "きれい",
+   "kana": "きれい",
+   "romaji": "kirei",
+   "en": "pretty; beautiful; clean",
+   "gloss": "beautiful",
+   "pos": "na-adj",
+   "adj_class": "na",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "accept": [
+    "綺麗"
+   ],
+   "note": "Looks like an い-adjective but is a な-adjective.",
+   "examples": [
+    {
+     "jp": "きれいですね。",
+     "en": "It's beautiful.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13231307,
+      "url": "https://tatoeba.org/en/sentences/show/13231307",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "きれいですね。",
+      "translation": "It's beautiful."
+     }
+    },
+    {
+     "jp": "きれいな花ね！",
+     "en": "What wonderful flowers!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10028907,
+      "url": "https://tatoeba.org/en/sentences/show/10028907",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "きれいな花ね！",
+      "translation": "What wonderful flowers!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "きれい",
+     "matched": "【キレイ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "pretty; lovely; beautiful; fair",
+      "clean; clear; pure; tidy; neat",
+      "completely; entirely"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_jouzu",
+   "jp": "上手",
+   "kana": "じょうず",
+   "romaji": "jōzu",
+   "en": "skilful; good at",
+   "gloss": "good at",
+   "pos": "na-adj",
+   "adj_class": "na",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "妹は絵が上手です。",
+     "en": "My younger sister is good at drawing.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10901736,
+      "url": "https://tatoeba.org/en/sentences/show/10901736",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "妹は絵が上手です。",
+      "translation": "My younger sister is good at drawing."
+     }
+    },
+    {
+     "jp": "チェスは上手ですか？",
+     "en": "Can you play chess well?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 7947521,
+      "url": "https://tatoeba.org/en/sentences/show/7947521",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "チェスは上手ですか？",
+      "translation": "Can you play chess well?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "上手",
+     "matched": "上手【じょうず】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "skillful; skilled; proficient; good (at); adept; clever",
+      "flattery"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_yuumei",
+   "jp": "有名",
+   "kana": "ゆうめい",
+   "romaji": "yūmei",
+   "en": "famous",
+   "gloss": "famous",
+   "pos": "na-adj",
+   "adj_class": "na",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "有名な曲よ。",
+     "en": "It's a famous song.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10798019,
+      "url": "https://tatoeba.org/en/sentences/show/10798019",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "有名な曲よ。",
+      "translation": "It's a famous song."
+     }
+    },
+    {
+     "jp": "彼は有名になった。",
+     "en": "He became famous.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 99242,
+      "url": "https://tatoeba.org/en/sentences/show/99242",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "彼は有名になった。",
+      "translation": "He became famous."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "有名",
+     "matched": "有名【ゆうめい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "famous; well-known"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_genki",
+   "jp": "元気",
+   "kana": "げんき",
+   "romaji": "genki",
+   "en": "healthy; well; energetic",
+   "gloss": "well",
+   "pos": "na-adj",
+   "adj_class": "na",
+   "topic": "describe",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "元気ですか。",
+     "en": "How are you doing?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 175038,
+      "url": "https://tatoeba.org/en/sentences/show/175038",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "元気ですか。",
+      "translation": "How are you doing?"
+     }
+    },
+    {
+     "jp": "元気です。",
+     "en": "I'm fine.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3495032,
+      "url": "https://tatoeba.org/en/sentences/show/3495032",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "元気です。",
+      "translation": "I'm fine."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "元気",
+     "matched": "元気【げんき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "lively; full of spirit; energetic; vigorous; vital; spirited",
+      "healthy; well; fit; in good health"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_tsumetai",
+   "jp": "冷たい",
+   "kana": "つめたい",
+   "romaji": "tsumetai",
+   "en": "cold (to the touch)",
+   "gloss": "cold",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "note": "For drinks and things. Cold weather is 寒い.",
+   "examples": [
+    {
+     "jp": "水は冷たい？",
+     "en": "Is the water cold?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8796822,
+      "url": "https://tatoeba.org/en/sentences/show/8796822",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "水は冷たい？",
+      "translation": "Is the water cold?"
+     }
+    },
+    {
+     "jp": "床は冷たい。",
+     "en": "The floor is cold.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8615894,
+      "url": "https://tatoeba.org/en/sentences/show/8615894",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "床は冷たい。",
+      "translation": "The floor is cold."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "冷たい",
+     "matched": "冷たい【つめたい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "cold (to the touch); chilly; icy; freezing",
+      "(emotionally) cold; coldhearted; unfeeling; indifferent; unfriendly; distant"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_muzukashii",
+   "jp": "難しい",
+   "kana": "むずかしい",
+   "romaji": "muzukashii",
+   "en": "difficult",
+   "gloss": "difficult",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "難しい単語です。",
+     "en": "It's a difficult word.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12423870,
+      "url": "https://tatoeba.org/en/sentences/show/12423870",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "難しい単語です。",
+      "translation": "It's a difficult word."
+     }
+    },
+    {
+     "jp": "難しすぎる。",
+     "en": "It's too difficult.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 123196,
+      "url": "https://tatoeba.org/en/sentences/show/123196",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "難しすぎる。",
+      "translation": "It's too difficult."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "難しい",
+     "matched": "難しい【むずかしい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "difficult; hard; troublesome; complicated; serious (disease, problem, etc.)",
+      "impossible; unfeasible",
+      "fussy; particular; fastidious; hard to please; displeased",
+      "gloomy; glum; sullen; serious (look)"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_kantan",
+   "jp": "簡単",
+   "kana": "かんたん",
+   "romaji": "kantan",
+   "en": "easy; simple",
+   "gloss": "easy",
+   "pos": "na-adj",
+   "adj_class": "na",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "使うの簡単だよ。",
+     "en": "It's easy to use.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8950341,
+      "url": "https://tatoeba.org/en/sentences/show/8950341",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "使うの簡単だよ。",
+      "translation": "It's easy to use."
+     }
+    },
+    {
+     "jp": "簡単だった。",
+     "en": "It was easy.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3507431,
+      "url": "https://tatoeba.org/en/sentences/show/3507431",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "簡単だった。",
+      "translation": "It was easy."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "簡単",
+     "matched": "簡単【かんたん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "simple; easy; uncomplicated",
+      "brief; quick; light"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_omoshiroi",
+   "jp": "面白い",
+   "kana": "おもしろい",
+   "romaji": "omoshiroi",
+   "en": "interesting; funny",
+   "gloss": "interesting",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "面白かった？",
+     "en": "Was it interesting?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10899903,
+      "url": "https://tatoeba.org/en/sentences/show/10899903",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "面白かった？",
+      "translation": "Was it interesting?"
+     }
+    },
+    {
+     "jp": "面白そうね。",
+     "en": "That sounds interesting.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11548165,
+      "url": "https://tatoeba.org/en/sentences/show/11548165",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "面白そうね。",
+      "translation": "That sounds interesting."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "面白い",
+     "matched": "面白い【おもしろい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "interesting; fascinating; intriguing; enthralling",
+      "amusing; funny; comical",
+      "enjoyable; fun; entertaining; pleasant; agreeable",
+      "good; satisfactory; favourable; desirable; encouraging"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_warui",
+   "jp": "悪い",
+   "kana": "わるい",
+   "romaji": "warui",
+   "en": "bad",
+   "gloss": "bad",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "悪いですか？",
+     "en": "Is it bad?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3841989,
+      "url": "https://tatoeba.org/en/sentences/show/3841989",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "悪いですか？",
+      "translation": "Is it bad?"
+     }
+    },
+    {
+     "jp": "目が悪いの？",
+     "en": "Are your eyes bad?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9312317,
+      "url": "https://tatoeba.org/en/sentences/show/9312317",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "目が悪いの？",
+      "translation": "Are your eyes bad?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "悪い",
+     "matched": "悪い【わるい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "bad; poor; undesirable",
+      "poor (quality); inferior; insufficient",
+      "evil; sinful",
+      "ugly; not beautiful"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_amai",
+   "jp": "甘い",
+   "kana": "あまい",
+   "romaji": "amai",
+   "en": "sweet",
+   "gloss": "sweet",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "甘すぎる。",
+     "en": "Too sweet.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 7798797,
+      "url": "https://tatoeba.org/en/sentences/show/7798797",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "甘すぎる。",
+      "translation": "Too sweet."
+     }
+    },
+    {
+     "jp": "桃は甘い。",
+     "en": "Peaches are sweet.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 124149,
+      "url": "https://tatoeba.org/en/sentences/show/124149",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "桃は甘い。",
+      "translation": "Peaches are sweet."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "甘い",
+     "matched": "甘い【あまい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "sweet-tasting; sweet; sugary; sugared",
+      "fragrant (smelling); sweet (music)",
+      "lightly salted; light in salt; not spicy",
+      "indulgent; lenient; soft (on); easy-going; generous"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_hiroi",
+   "jp": "広い",
+   "kana": "ひろい",
+   "romaji": "hiroi",
+   "en": "spacious; wide",
+   "gloss": "spacious",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "広い",
+     "matched": "広い【ひろい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "spacious; vast; wide"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_semai",
+   "jp": "狭い",
+   "kana": "せまい",
+   "romaji": "semai",
+   "en": "cramped; narrow; small (room)",
+   "gloss": "cramped",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "describe",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "狭い",
+     "matched": "狭い【せまい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "narrow; confined; small; cramped",
+      "limited; narrow-minded; confining"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_heta",
+   "jp": "下手",
+   "kana": "へた",
+   "romaji": "heta",
+   "en": "unskillful; bad at",
+   "gloss": "bad at",
+   "pos": "na-adj",
+   "adj_class": "na",
+   "topic": "describe",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "下手",
+     "matched": "下手【へた】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "unskillful; poor; awkward",
+      "imprudent; untactful"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

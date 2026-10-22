@@ -34,6 +34,7 @@
 
   // Meanings that would make two options both correct ("bill" vs "the bill / check").
   function meaningsClash(a, b) {
+    if ((a.synonyms && a.synonyms.includes(b.id)) || (b.synonyms && b.synonyms.includes(a.id))) return true;
     if (norm(a.en) === norm(b.en) || norm(a.gloss) === norm(b.gloss)) return true;
     const wa = new Set(contentWords(a.gloss || a.en)), wb = contentWords(b.gloss || b.en);
     return wb.length > 0 && wb.every(w => wa.has(w));
@@ -42,7 +43,7 @@
   // Forms taught for a word, in order. A form becomes eligible for drills
   // once the learner's form-skill history shows the earlier ones.
   const VERB_STAGES = [['masu', 'masen', 'mashita', 'te'], ['nai', 'ta', 'masen_deshita', 'te_kudasai', 'tai', 'te_iru'], ['potential', 'tara', 'ba', 'volitional', 'mashou', 'te_mo_ii', 'nakereba', 'naide_kudasai', 'ta_koto'], ['passive', 'causative', 'to', 'nara', 'te_wa_ikenai', 'nakute_mo_ii', 'nakatta']];
-  const ADJ_STAGES = [['polite', 'neg', 'past'], ['neg_polite', 'past_polite', 'te', 'attributive'], ['adverb', 'past_neg', 'tara', 'ba', 'naru', 'sugiru']];
+  const ADJ_STAGES = [['polite', 'neg', 'past'], ['neg_polite', 'past_polite', 'te', 'attributive'], ['adverb', 'past_neg', 'tara', 'ba', 'naru', 'sugiru', 'sou']];
   function formStage(ctx, item) {
     const st = ctx.memory && ctx.memory[item.id] && ctx.memory[item.id].skills.form;
     if (!st) return 0;
@@ -64,7 +65,7 @@
     imperative: 'blunt command', prohibitive: "blunt \"don't!\"", ba: 'if… (ば)', tara: 'if / when… (たら)', to: 'whenever… (と)', nara: 'if it is the case… (なら)',
     te_mo_ii: 'may I / it is OK to…', te_wa_ikenai: 'must not…', nakereba: 'have to…', nakute_mo_ii: "don't have to…", ta_koto: 'have done before',
     plain: 'plain (is …)', polite: 'polite (is …)', neg: 'not … (casual)', neg_polite: 'not … (polite)', past: 'was … (casual)', past_polite: 'was … (polite)',
-    past_neg: 'was not … (casual)', adverb: 'adverb (…ly)', attributive: 'before a noun', naru: 'become …', sugiru: 'too …'
+    past_neg: 'was not … (casual)', adverb: 'adverb (…ly)', attributive: 'before a noun', naru: 'become …', sugiru: 'too …', sou: 'looks …'
   };
 
   function speechText(item) { return item.tts === 'kana' ? item.kana : item.jp; }
@@ -95,7 +96,7 @@
 
   // Other known words with the same meaning → accepted for production (validation 2).
   function synonymsInScope(item, ctx) {
-    return ctx.C.items.filter(x => x.id !== item.id && ctx.scope.has(x.id) && (norm(x.en) === norm(item.en) || norm(x.gloss) === norm(item.gloss)));
+    return ctx.C.items.filter(x => x.id !== item.id && (ctx.scope.has(x.id) || (item.synonyms || []).includes(x.id)) && ((item.synonyms || []).includes(x.id) || norm(x.en) === norm(item.en) || norm(x.gloss) === norm(item.gloss)));
   }
 
   /* ---------- generators ---------- */
@@ -170,8 +171,17 @@
   // Find the surface form of the item inside a sentence (dictionary form or
   // any conjugated form) so the blank is always exactly one word.
   function surfaceIn(item, sentence) {
-    const cands = [{ jp: item.jp, kana: item.kana, form: 'dict' }];
-    if (item.verb_class || item.adj_class) for (const f of CJ.formsFor(item)) { const r = CJ.conjugate(item, f); if (r) cands.push({ jp: r.jp, kana: r.kana, form: f }); }
+    const cands = [{ jp: item.jp, kana: item.kana, form: 'dict' }].concat((item.accept || []).filter(a => a !== item.kana).map(a => ({ jp: a, kana: item.kana, form: 'dict' })));
+    if (item.verb_class || item.adj_class) for (const f of CJ.formsFor(item)) {
+      const r = CJ.conjugate(item, f); if (!r) continue;
+      cands.push({ jp: r.jp, kana: r.kana, form: f });
+      // chained forms, e.g. 小さすぎます (すぎる → polite), 話せます (potential → polite)
+      if (CJ.DERIVED_CLASS[f]) {
+        const d = CJ.DERIVED_CLASS[f];
+        const w = d === 'i-adj' ? { jp: r.jp, kana: r.kana, adj_class: 'i' } : { jp: r.jp, kana: r.kana, verb_class: d };
+        for (const g of CJ.formsFor(w)) { const r2 = CJ.realize({ lemma: item, form: f, then: g }); if (r2) cands.push({ jp: r2.jp, kana: r2.kana, form: f + '+' + g }); }
+      }
+    }
     cands.sort((a, b) => b.jp.length - a.jp.length);           // longest match first (食べました before 食べ)
     return cands.find(c => sentence.includes(c.jp)) || null;
   }

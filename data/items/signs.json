@@ -1,0 +1,1075 @@
+{
+ "topic": "signs",
+ "items": [
+  {
+   "id": "s_deguchi",
+   "jp": "出口",
+   "kana": "でぐち",
+   "romaji": "deguchi",
+   "en": "exit",
+   "gloss": "exit",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "parts": [
+    {
+     "jp": "出",
+     "en": "go out"
+    },
+    {
+     "jp": "口",
+     "en": "mouth / opening"
+    }
+   ],
+   "links": [
+    {
+     "id": "s_iriguchi",
+     "rel": "opposite — both end in 口 (opening)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "MLIT road-sign list",
+     "note": "MLIT road-sign list (道路標識一覧) uses 出口 on expressway exit signs"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "出口",
+     "matched": "出口【でぐち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "exit; way out",
+      "outlet; vent"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_iriguchi",
+   "jp": "入口",
+   "kana": "いりぐち",
+   "romaji": "iriguchi",
+   "en": "entrance",
+   "gloss": "entrance",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "note": "Other readings exist (いりくち, はいりぐち); いりぐち is the one taught here.",
+   "parts": [
+    {
+     "jp": "入",
+     "en": "enter"
+    },
+    {
+     "jp": "口",
+     "en": "mouth / opening"
+    }
+   ],
+   "links": [
+    {
+     "id": "s_deguchi",
+     "rel": "opposite — both end in 口 (opening)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "MLIT road-sign list uses 入口 on expressway entrance signs",
+     "note": "MLIT road-sign list uses 入口 on expressway entrance signs"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "入口",
+     "matched": "入口【いりぐち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "entrance; entry; gate; approach; mouth"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_eki",
+   "jp": "駅",
+   "kana": "えき",
+   "romaji": "eki",
+   "en": "station",
+   "gloss": "station",
+   "pos": "noun",
+   "topic": "signs",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "駅に着いたよ。",
+     "en": "I arrived at the station.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 158266,
+      "url": "https://tatoeba.org/en/sentences/show/158266",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "駅に着いたよ。",
+      "translation": "I arrived at the station."
+     }
+    },
+    {
+     "jp": "あれが駅なの？",
+     "en": "Is that the station?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8720919,
+      "url": "https://tatoeba.org/en/sentences/show/8720919",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "あれが駅なの？",
+      "translation": "Is that the station?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "駅",
+     "matched": "駅【えき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "railway station; train station",
+      "staging post on a highway (in pre-modern Japan)",
+      "counter for railway stations and bus stations"
+     ],
+     "pos": [
+      "Noun",
+      "Counter"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kinen",
+   "jp": "禁煙",
+   "kana": "きんえん",
+   "romaji": "kin'en",
+   "en": "no smoking (on a sign); also: quitting smoking",
+   "gloss": "no smoking (on a sign); also: quitting smoking",
+   "pos": "sign",
+   "takes_suru": true,
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "禁煙",
+     "matched": "禁煙【きんえん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "abstaining from smoking; quitting smoking",
+      "prohibition of smoking",
+      "No Smoking; Smoking Prohibited",
+      "Smoking ban"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_eigyochu",
+   "jp": "営業中",
+   "kana": "えいぎょうちゅう",
+   "romaji": "eigyōchū",
+   "en": "open (for business)",
+   "gloss": "open (for business)",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_junbichu",
+     "rel": "both end in 中 (in progress / during)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "営業中",
+     "matched": "営業中【えいぎょうちゅう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "open (for business)"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_junbichu",
+   "jp": "準備中",
+   "kana": "じゅんびちゅう",
+   "romaji": "junbichū",
+   "en": "in preparation (shop not yet open)",
+   "gloss": "in preparation (shop not yet open)",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_eigyochu",
+     "rel": "both end in 中 (in progress / during)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "準備中",
+     "matched": "準備中【じゅんびちゅう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "in preparation; (shop) not yet open for business"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_otearai",
+   "jp": "お手洗い",
+   "kana": "おてあらい",
+   "romaji": "otearai",
+   "en": "toilet / restroom",
+   "gloss": "toilet / restroom",
+   "pos": "noun",
+   "topic": "signs",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "examples": [
+    {
+     "jp": "お手洗いはこちらです。",
+     "en": "The bathroom is this way.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10901763,
+      "url": "https://tatoeba.org/en/sentences/show/10901763",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お手洗いはこちらです。",
+      "translation": "The bathroom is this way."
+     }
+    },
+    {
+     "jp": "お手洗いは二階にあります。",
+     "en": "The bathroom is on the second floor.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10983325,
+      "url": "https://tatoeba.org/en/sentences/show/10983325",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お手洗いは二階にあります。",
+      "translation": "The bathroom is on the second floor."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お手洗い",
+     "matched": "お手洗い【おてあらい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "toilet; restroom; lavatory; bathroom"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_osu",
+   "jp": "押す",
+   "kana": "おす",
+   "romaji": "osu",
+   "en": "to push (door sign: 押)",
+   "gloss": "to push",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "押す",
+     "matched": "押す【おす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to push; to thrust; to shove",
+      "to press (down); to push (e.g. a button); to exert pressure on",
+      "to stamp (e.g. one's name); to affix (a seal)",
+      "to affix (e.g. gold leaf)"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_hiku",
+   "jp": "引く",
+   "kana": "ひく",
+   "romaji": "hiku",
+   "en": "to pull (door sign: 引)",
+   "gloss": "to pull",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "引く",
+     "matched": "引く【ひく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to pull; to tug; to lead (e.g. a horse)",
+      "to draw (attention, sympathy, etc.); to attract (e.g. interest)",
+      "to draw back (e.g. one's hand); to draw in (one's chin, stomach, etc.); to pull in",
+      "to draw (a card, mahjong tile, etc.)"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hijouguchi",
+   "jp": "非常口",
+   "kana": "ひじょうぐち",
+   "romaji": "hijōguchi",
+   "en": "emergency exit",
+   "gloss": "emergency exit",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "非常口",
+     "matched": "非常口【ひじょうぐち】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "emergency exit",
+      "Emergency exit"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_tachiirikinshi",
+   "jp": "立入禁止",
+   "kana": "たちいりきんし",
+   "romaji": "tachiiri kinshi",
+   "en": "no entry; keep out",
+   "gloss": "no entry",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "立入禁止",
+     "matched": "立入禁止【たちいりきんし】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "No Entry; No Trespassing; No Admittance; Off Limits; Keep Out; Keep Off",
+      "off-limits; restricted; forbidden"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_eigyoujikan",
+   "jp": "営業時間",
+   "kana": "えいぎょうじかん",
+   "romaji": "eigyō jikan",
+   "en": "business hours; opening hours",
+   "gloss": "opening hours",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "営業時間",
+     "matched": "営業時間【えいぎょうじかん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "business hours; opening hours; office hours"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_teikyuubi",
+   "jp": "定休日",
+   "kana": "ていきゅうび",
+   "romaji": "teikyūbi",
+   "en": "regular closing day",
+   "gloss": "regular holiday",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "定休日",
+     "matched": "定休日【ていきゅうび】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "regular holiday; fixed day off; regular closing day"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kiken",
+   "jp": "危険",
+   "kana": "きけん",
+   "romaji": "kiken",
+   "en": "danger",
+   "gloss": "danger",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "危険",
+     "matched": "危険【きけん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "danger; peril; hazard",
+      "risk",
+      "Danger"
+     ],
+     "pos": [
+      "Noun",
+      "Na-adjective (keiyodoshi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_chuui",
+   "jp": "注意",
+   "kana": "ちゅうい",
+   "romaji": "chūi",
+   "en": "caution; attention",
+   "gloss": "caution",
+   "pos": "sign",
+   "takes_suru": true,
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "注意",
+     "matched": "注意【ちゅうい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "attention; notice; heed",
+      "care; caution; precaution; looking out (for); watching out (for)",
+      "advice; warning; caution; reminder",
+      "admonishment; reprimand; telling-off"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_muryou",
+   "jp": "無料",
+   "kana": "むりょう",
+   "romaji": "muryō",
+   "en": "free (of charge)",
+   "gloss": "free of charge",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "無料",
+     "matched": "無料【むりょう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "free (of charge); gratuitous",
+      "Gratis"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_yuuryou",
+   "jp": "有料",
+   "kana": "ゆうりょう",
+   "romaji": "yūryō",
+   "en": "paid; fee charged",
+   "gloss": "paid",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "有料",
+     "matched": "有料【ゆうりょう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "fee-charging; paid; not free",
+      "toll road"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kinshi",
+   "jp": "禁止",
+   "kana": "きんし",
+   "romaji": "kinshi",
+   "en": "prohibition; ban (prohibited)",
+   "gloss": "prohibited",
+   "pos": "sign",
+   "takes_suru": true,
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "禁止",
+     "matched": "禁止【きんし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "prohibition; inhibition; ban"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_otoko",
+   "jp": "男",
+   "kana": "おとこ",
+   "romaji": "otoko",
+   "en": "man; male (e.g. toilet signs)",
+   "gloss": "men",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "男",
+     "matched": "男【おとこ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "man; male",
+      "fellow; guy; chap; bloke",
+      "male lover; boyfriend; man",
+      "manliness; manly honor; manly honour; manly reputation"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a prefix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_onna",
+   "jp": "女",
+   "kana": "おんな",
+   "romaji": "onna",
+   "en": "woman; female (e.g. toilet signs)",
+   "gloss": "women",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "女",
+     "matched": "女【おんな】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "woman; female",
+      "female lover; girlfriend; mistress; (someone's) woman"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a prefix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_heiten",
+   "jp": "閉店",
+   "kana": "へいてん",
+   "romaji": "heiten",
+   "en": "closed (shop); closing",
+   "gloss": "closed",
+   "pos": "sign",
+   "takes_suru": true,
+   "topic": "signs",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "閉店",
+     "matched": "閉店【へいてん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "closing up shop (for the day)",
+      "stopping business; going out of business"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kashikiri",
+   "jp": "貸切",
+   "kana": "かしきり",
+   "romaji": "kashikiri",
+   "en": "reserved (booked for a private party)",
+   "gloss": "reserved",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "貸切",
+     "matched": "貸切【かしきり】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "reserving (for exclusive use); (full) booking; chartering; block reservation"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_chuurinjou",
+   "jp": "駐輪場",
+   "kana": "ちゅうりんじょう",
+   "romaji": "chūrinjō",
+   "en": "bicycle parking",
+   "gloss": "bicycle parking",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "駐輪場",
+     "matched": "駐輪場【ちゅうりんじょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "parking area for bicycles; bicycle parking",
+      "Bicycle parking"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_chuushajou",
+   "jp": "駐車場",
+   "kana": "ちゅうしゃじょう",
+   "romaji": "chūshajō",
+   "en": "car park; parking lot",
+   "gloss": "parking lot",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "駐車場",
+     "matched": "駐車場【ちゅうしゃじょう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "parking lot; car park; carpark; parking garage",
+      "Parking lot"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_satsueikinshi",
+   "jp": "撮影禁止",
+   "kana": "さつえいきんし",
+   "romaji": "satsuei kinshi",
+   "en": "no photography",
+   "gloss": "no photos",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "撮影禁止",
+     "matched": "撮影禁止【さつえいきんし】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "no photographs; no photography"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_honjitsu",
+   "jp": "本日",
+   "kana": "ほんじつ",
+   "romaji": "honjitsu",
+   "en": "today (formal)",
+   "gloss": "today",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 2,
+   "use": "read",
+   "register": "formal",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "本日",
+     "matched": "本日【ほんじつ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "today; this day"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kyuugyou",
+   "jp": "休業",
+   "kana": "きゅうぎょう",
+   "romaji": "kyūgyō",
+   "en": "temporary closure; closed for business",
+   "gloss": "closed",
+   "pos": "sign",
+   "takes_suru": true,
+   "topic": "signs",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "休業",
+     "matched": "休業【きゅうぎょう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "suspension of business; temporary closure (of a store, school, etc.); shutdown; holiday"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_annaijo",
+   "jp": "案内所",
+   "kana": "あんないじょ",
+   "romaji": "annaijo",
+   "en": "information desk",
+   "gloss": "information",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "案内所",
+     "matched": "案内所【あんないじょ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "information desk"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

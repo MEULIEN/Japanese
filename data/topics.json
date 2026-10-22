@@ -1,0 +1,148 @@
+{
+ "topics": [
+  {
+   "id": "survival",
+   "name": "Survival & getting unstuck",
+   "icon": "💬",
+   "goal": "Get attention politely, say yes/no, and ask someone to repeat, slow down or explain a word",
+   "order": 1,
+   "prereq": [],
+   "patterns": []
+  },
+  {
+   "id": "restaurant",
+   "name": "Eating out",
+   "icon": "🍜",
+   "goal": "Say how many people you are, order food and drinks, ask for water and the bill, and thank the staff",
+   "order": 2,
+   "prereq": ["survival"],
+   "patterns": []
+  },
+  {
+   "id": "konbini",
+   "name": "Konbini & supermarket",
+   "icon": "🏪",
+   "goal": "Buy things, understand the cashier's questions (bag? heat it up?), pay by cash or card, and read price and date labels",
+   "order": 3,
+   "prereq": ["survival"],
+   "patterns": []
+  },
+  {
+   "id": "directions",
+   "name": "Asking the way",
+   "icon": "🧭",
+   "goal": "Ask where a place is and follow simple directions: straight, left, right, at the corner or traffic light",
+   "order": 4,
+   "prereq": ["survival"],
+   "patterns": []
+  },
+  {
+   "id": "transport",
+   "name": "Trains & buses",
+   "icon": "🚃",
+   "goal": "Buy a ticket, find the right platform or bus stop, understand 'next stop' announcements and get off at the right place",
+   "order": 5,
+   "prereq": ["survival", "directions"],
+   "patterns": []
+  },
+  {
+   "id": "intro",
+   "name": "Introducing yourself",
+   "icon": "👋",
+   "goal": "Introduce yourself: your name, where you are from, where you live and what you do, and ask the same of others",
+   "order": 6,
+   "prereq": ["survival"],
+   "patterns": []
+  },
+  {
+   "id": "time",
+   "name": "Time & days",
+   "icon": "⏰",
+   "goal": "Ask and tell the time, talk about today, tomorrow and days of the week, and understand opening hours",
+   "order": 7,
+   "prereq": ["survival"],
+   "patterns": []
+  },
+  {
+   "id": "daily",
+   "name": "Daily life",
+   "icon": "🧺",
+   "goal": "Say what you do every day and what you did: get up, go, come home, eat, study, shop, sleep",
+   "order": 8,
+   "prereq": ["time"],
+   "patterns": []
+  },
+  {
+   "id": "describe",
+   "name": "Describing things",
+   "icon": "🎨",
+   "goal": "Describe things, places and people: big or small, cheap or expensive, tasty, quiet, convenient, and say what you like",
+   "order": 9,
+   "prereq": ["survival"],
+   "patterns": []
+  },
+  {
+   "id": "home",
+   "name": "Home & landlord",
+   "icon": "🏠",
+   "goal": "Tell the landlord or management company what is broken (key, water, gas, air conditioner) and handle rubbish day",
+   "order": 10,
+   "prereq": ["survival", "describe"],
+   "patterns": []
+  },
+  {
+   "id": "friends",
+   "name": "Making friends",
+   "icon": "🍻",
+   "goal": "Invite someone out, agree on a time, swap contact details and react naturally in small talk",
+   "order": 11,
+   "prereq": ["intro", "time"],
+   "patterns": []
+  },
+  {
+   "id": "health",
+   "name": "Health & pharmacy",
+   "icon": "💊",
+   "goal": "Say where it hurts and that you have a fever or a cold, buy medicine, and call for help in an emergency",
+   "order": 12,
+   "prereq": ["survival"],
+   "patterns": []
+  },
+  {
+   "id": "signs",
+   "name": "Signs & notices",
+   "icon": "🪧",
+   "goal": "Read everyday signs: exit and entrance, push/pull, open or closed, no entry, danger, opening hours",
+   "order": 13,
+   "prereq": [],
+   "patterns": []
+  },
+  {
+   "id": "places",
+   "name": "Kyoto places",
+   "icon": "⛩️",
+   "goal": "Recognise and say Kyoto Station and the main Karasuma Line station names",
+   "order": 14,
+   "prereq": [],
+   "patterns": []
+  },
+  {
+   "id": "recovery",
+   "name": "Describing what you can't name",
+   "icon": "🧩",
+   "goal": "When you don't know a word, describe it: what it is used for, its shape or colour, what it looks like, and ask what it is called",
+   "order": 15,
+   "prereq": ["survival", "describe"],
+   "patterns": []
+  },
+  {
+   "id": "drive",
+   "name": "Road signs",
+   "icon": "🚗",
+   "goal": "Read the main Japanese road signs: stop, slow down, one-way, no parking, no U-turn, speed limit",
+   "order": 16,
+   "prereq": ["signs"],
+   "patterns": []
+  }
+ ]
+}

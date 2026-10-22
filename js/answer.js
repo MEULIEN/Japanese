@@ -94,7 +94,7 @@
     if (expected.romaji && latin) exact.push(...romajiCandidates(expected.romaji));
     // Rōmaji spells particles by sound (は→wa, を→o, へ→e); accept that
     // only for rōmaji input — typed kana must still use the right kana.
-    if (latin) exact.push(...exact.filter(K.isKana).flatMap(particleSpellings));
+    if (latin) { exact.push(...exact.filter(K.isKana).flatMap(particleSpellings)); alts.push(...alts.filter(K.isKana).flatMap(particleSpellings)); }
 
     for (const c of cands) {
       if (exact.includes(c)) return { verdict: 'correct', kind: 'exact' };

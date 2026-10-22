@@ -1,6 +1,6 @@
 {
- "note": "NOT loaded by the app (absent from index.json packs). Items held here failed source verification; each lists why. Promote back into a pack only after an authoritative source confirms the exact wording, reading and meaning.",
- "generated": "2026-10-20",
+ "note": "NOT loaded by the app (not listed in index.json). Items held here failed source verification; each lists why. Promote back into a pack only after an authoritative source confirms the exact wording, reading and meaning.",
+ "generated": "2026-10-22",
  "items": [
   {
    "domain": "signs",
@@ -46,45 +46,7 @@
    "tier": 1,
    "kind": "phrase",
    "say_when": "Pointing at an item you want.",
-   "quarantine_reason": "これ = \"this; this one\" (JMdict); stored meaning \"this one, please\" adds \"please\" the source does not support. Needs rephrasing or a phrase-level source.",
-   "from_pack": "pack_talk.json"
-  },
-  {
-   "domain": "talk",
-   "id": "t_mouichido",
-   "jp": "もう一度お願いします",
-   "kana": "もういちどおねがいします",
-   "romaji": "mō ichido onegai shimasu",
-   "en": "one more time, please",
-   "tier": 1,
-   "kind": "phrase",
-   "say_when": "You did not catch what was said. Keeps the conversation going instead of freezing.",
-   "quarantine_reason": "Constructed request. JMdict verifies もう一度 (\"once more; again\") but not the full もう一度お願いします. Needs a learner/grammar source for the whole phrase.",
-   "from_pack": "pack_talk.json"
-  },
-  {
-   "domain": "talk",
-   "id": "t_yukkuri",
-   "jp": "ゆっくり話してください",
-   "kana": "ゆっくりはなしてください",
-   "romaji": "yukkuri hanashite kudasai",
-   "en": "please speak slowly",
-   "tier": 1,
-   "kind": "phrase",
-   "quarantine_reason": "Constructed sentence. JMdict verifies ゆっくり (\"slowly\") but not ゆっくり話してください as a whole.",
-   "from_pack": "pack_talk.json"
-  },
-  {
-   "domain": "talk",
-   "id": "t_korenani",
-   "jp": "これは何ですか",
-   "kana": "これはなんですか",
-   "romaji": "kore wa nan desu ka",
-   "en": "what is this?",
-   "tier": 1,
-   "kind": "phrase",
-   "say_when": "Point and ask when you do not know a word.",
-   "quarantine_reason": "Textbook sentence これは何ですか — no single dictionary entry covers the whole sentence. Needs a phrase-level source.",
+   "quarantine_reason": "No exact Tatoeba sentence for これをください (searched 2026-10-22); added instead as x_kore_kudasai = これください (Tatoeba 8583430 \"Please give me this.\").",
    "from_pack": "pack_talk.json"
   },
   {
@@ -97,7 +59,7 @@
    "tier": 2,
    "kind": "pattern",
    "say_when": "Stuck on a word? Say the English word in the slot.",
-   "quarantine_reason": "Frame 〜は日本語で何ですか — components are verifiable, the whole frame needs a grammar/learner source.",
+   "quarantine_reason": "Frame 〜は日本語で何ですか — no phrase-level source; also searched Tatoeba for 日本語で何と言いますか / これは日本語で何と言いますか / 日本語で何て言うの (2026-10-22): no exact match.",
    "from_pack": "pack_talk.json"
   },
   {
@@ -112,6 +74,134 @@
    "note": "Believed natural and polite, but ask a native speaker or find a trusted source before promoting to verified.",
    "quarantine_reason": "Long constructed request 水筒に水を入れてもらえますか — needs native/usage confirmation of naturalness and politeness.",
    "from_pack": "pack_talk.json"
+  },
+  {
+   "id": "x_fukuro_irimasuka",
+   "jp": "袋はいりますか",
+   "kana": "ふくろはいりますか",
+   "romaji": "fukuro wa irimasu ka",
+   "en": "Do you need a bag?",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "hear",
+   "pos": "phrase",
+   "quarantine_reason": "Cashier question. No exact Tatoeba sentence for 袋はいりますか / 袋は要りますか / 袋いりますか / 袋はご入用ですか / 袋は必要ですか (2026-10-22). Words 袋 and 要る are verified separately.",
+   "status": "quarantined"
+  },
+  {
+   "id": "x_atatamemasuka",
+   "jp": "温めますか",
+   "kana": "あたためますか",
+   "romaji": "atatamemasu ka",
+   "en": "Shall I heat it up?",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "hear",
+   "pos": "phrase",
+   "quarantine_reason": "Cashier question. No exact Tatoeba sentence for 温めますか / お弁当温めますか / 温めましょうか / 温めてください (2026-10-22). The verb 温める is verified (v_atatameru, use: hear).",
+   "status": "quarantined"
+  },
+  {
+   "id": "x_zenbude_ikura",
+   "jp": "全部でいくらですか",
+   "kana": "ぜんぶでいくらですか",
+   "romaji": "zenbu de ikura desu ka",
+   "en": "How much is it altogether?",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "pos": "phrase",
+   "quarantine_reason": "No exact Tatoeba sentence for 全部でいくらですか / 全部でいくら / 全部でいくらになりますか (2026-10-22). 全部 and いくら are verified separately.",
+   "status": "quarantined"
+  },
+  {
+   "id": "x_kaado_haraemasuka",
+   "jp": "カードで払えますか",
+   "kana": "カードではらえますか",
+   "romaji": "kādo de haraemasu ka",
+   "en": "Can I pay by card?",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "pos": "phrase",
+   "quarantine_reason": "No exact Tatoeba sentence (2026-10-22); covered instead by x_kaado_tsukaemasuka カードは使えますか (Tatoeba 226472).",
+   "status": "quarantined"
+  },
+  {
+   "id": "x_netsu_arimasu",
+   "jp": "熱があります",
+   "kana": "ねつがあります",
+   "romaji": "netsu ga arimasu",
+   "en": "I have a fever.",
+   "topic": "health",
+   "tier": 1,
+   "use": "say",
+   "pos": "phrase",
+   "quarantine_reason": "No exact Tatoeba sentence for 熱があります (2026-10-22); covered by x_netsu_ga_aru 熱があるんです (Tatoeba 121901).",
+   "status": "quarantined"
+  },
+  {
+   "id": "x_kowareteimasu",
+   "jp": "壊れています",
+   "kana": "こわれています",
+   "romaji": "kowarete imasu",
+   "en": "It's broken.",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "pos": "phrase",
+   "quarantine_reason": "No exact Tatoeba sentence for 壊れています / 壊れました / 壊れてる (2026-10-22). The verb 壊れる is verified (v_kowareru); its examples include 冷蔵庫が壊れた.",
+   "status": "quarantined"
+  },
+  {
+   "id": "x_nanji_made",
+   "jp": "何時までですか",
+   "kana": "なんじまでですか",
+   "romaji": "nanji made desu ka",
+   "en": "Until what time (are you open)?",
+   "topic": "time",
+   "tier": 2,
+   "use": "say",
+   "pos": "phrase",
+   "quarantine_reason": "No exact Tatoeba sentence for 何時までですか / 何時からですか (2026-10-22).",
+   "status": "quarantined"
+  },
+  {
+   "id": "w_kocchi",
+   "jp": "こっち",
+   "kana": "こっち",
+   "romaji": "kotchi",
+   "en": "this way; here (casual)",
+   "gloss": "this way",
+   "pos": "pronoun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "register": "casual",
+   "status": "quarantined",
+   "quarantine_reason": "こっち is not the primary reading of its JMdict headword 此方 (primary: こちら); the verifier requires the primary reading. Use こちら (w_kochira) instead, or add こっち with a source that lists it on its own."
+  },
+  {
+   "id": "t_koko_meshiagaru",
+   "jp": "ここで召し上がりますか、それともお持ち帰りですか",
+   "kana": "ここでめしあがりますか、それともおもちかえりですか",
+   "romaji": "koko de meshiagarimasu ka, soretomo omochikaeri desu ka",
+   "en": "is it for here, or to go?",
+   "tier": 3,
+   "status": "quarantined",
+   "say_when": "Listening practice: a polite question you may hear at a counter.",
+   "links": [
+    {
+     "id": "f_mochikaeri",
+     "rel": "contains お持ち帰り (takeout)"
+    }
+   ],
+   "topic": "survival",
+   "pos": "phrase",
+   "use": "hear",
+   "register": "honorific",
+   "gloss": "is it for here, or to go?",
+   "quarantine_reason": "Legacy long phrase ここで召し上がりますか、それともお持ち帰りですか: no exact Tatoeba sentence found (also tried こちらでお召し上がりですか / 店内でお召し上がりですか, checked 2026-10-22). The legacy source was an indirect citation via japandict.com. Replaced in lessons by x_omochikaeri_desuka (お持ち帰りですか, Tatoeba 227101)."
   }
  ]
 }

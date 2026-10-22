@@ -410,13 +410,13 @@
     return `${topbar(KIND_TITLE[sum.kind] + ' — done')}
       <section class="summary">
         <div class="stat-row"><div><b>${sum.graded}</b><span>answered</span></div><div><b>${sum.graded ? pct(sum.correct, sum.graded) + '%' : '—'}</b><span>correct</span></div><div><b>${sum.minutes}</b><span>minutes</span></div></div>
-        ${sum.kind === 'morning' ? `<h3>New today (${sum.introduced.length})</h3>${nameList(sum.introduced)}${sum.knownBefore.length ? `<p class="muted">Already knew: ${nameList(sum.knownBefore)}</p>` : ''}` : ''}
+        ${sum.kind === 'morning' ? (() => { const fresh = sum.introduced.filter(id => !sum.knownBefore.includes(id)); return `<h3>New today (${fresh.length})</h3>${nameList(fresh)}${sum.knownBefore.length ? `<h3>Already knew (${sum.knownBefore.length})</h3><p class="muted">Shown by the quick check — recognised <i>and</i> produced unaided.</p>${nameList(sum.knownBefore)}` : ''}`; })() : ''}
         ${scheduled ? `<h3>Recalled on your own</h3>${nameList(sum.independent)}
         <h3>Needed help</h3>${nameList(sum.assisted)}` : `<p class="muted">Practice only — your review schedule and mastery are unchanged.</p>`}
         ${sum.errors.length ? `<h3>Worth more practice</h3><ul class="plain">${dedupeErrors(sum.errors).map(e => `<li><span lang="ja">${esc(item(e.item).jp)}</span> — ${esc(ERRK[e.kind] || 'missed')} (${esc((CUR.SKILLS[e.skill] || {}).name || e.skill)})</li>`).join('')}</ul>` : ''}
         ${sum.carry && sum.carry.length ? `<h3>Carried to the next morning</h3><p class="muted">Not reached this time — nothing is marked learned that you didn’t practise.</p>${nameList(sum.carry)}` : ''}
         ${rep}
-        ${scheduled ? `<h3>What comes next</h3><p>${nextDays ? 'Coming up: ' + esc(nextDays) + '. ' : ''}${esc(((sum.next && sum.next.reasons) || []).join('; '))}${sum.kind === 'morning' ? ' This evening: use today’s words in new ways (no new words).' : ''}</p>` : ''}
+        ${scheduled ? `<h3>What comes next</h3><p>${nextDays ? 'Coming up in the next two days: ' + esc(nextDays) + '. ' : ''}${esc(((sum.next && sum.next.reasons) || []).map(r => r + '. ').join(''))}${sum.kind === 'morning' ? 'This evening: use today’s words in new ways (no new words).' : ''}</p>` : ''}
         <p class="muted">Time: ${esc(time)}</p>
       </section>
       <div class="row">${btn('Back to today', 'go', 'primary', 'data-view="home" data-autofocus')}${sum.kind !== 'weekly' ? btn('Progress', 'go', 'ghost', 'data-view="progress"') : ''}</div>`;
@@ -822,9 +822,9 @@
   async function boot() {
     try {
       const index = await getJson('data/index.json');
-      const [topics, grammar, conjugation, recovery, milestones] = await Promise.all([index.topics, index.grammar, index.conjugation, index.recovery, index.milestones].map(f => f ? getJson('data/' + f).catch(() => null) : null));
+      const [topics, grammar, conjugation, recovery, milestones, synonyms] = await Promise.all([index.topics, index.grammar, index.conjugation, index.recovery, index.milestones, index.synonyms].map(f => f ? getJson('data/' + f).catch(() => null) : null));
       const itemFiles = await Promise.all(index.items.map(f => getJson('data/' + f).catch(err => { console.warn('item file failed', f, err); return null; })));
-      C = CUR.build({ index, topics, itemFiles: itemFiles.filter(Boolean), grammar, conjugation, recovery, milestones });
+      C = CUR.build({ index, topics, itemFiles: itemFiles.filter(Boolean), grammar, conjugation, recovery, milestones, synonyms });
       if (C.skipped.length) console.warn('Rejected at load (not served):', C.skipped);
       CONJ = conjugation; REC = recovery || { prompts: [], markers: {} };
     } catch (err) {

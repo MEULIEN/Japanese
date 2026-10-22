@@ -9,7 +9,7 @@ const D = path.join(__dirname, '..', 'data');
 const J = f => JSON.parse(fs.readFileSync(path.join(D, f), 'utf8'));
 const index = J('index.json');
 const itemFiles = index.items.map(J);
-const C = CUR.build({ index, topics: J(index.topics), itemFiles, grammar: J(index.grammar), conjugation: J(index.conjugation), recovery: J(index.recovery), milestones: J(index.milestones) });
+const C = CUR.build({ index, topics: J(index.topics), itemFiles, grammar: J(index.grammar), conjugation: J(index.conjugation), recovery: J(index.recovery), milestones: J(index.milestones), synonyms: J(index.synonyms) });
 const q = J('quarantine.json'); const qItems = q.items || q;
 const problems = [];
 const raw = itemFiles.flatMap(f => f.items);

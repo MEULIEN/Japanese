@@ -1,0 +1,2505 @@
+{
+ "topic": "survival",
+ "items": [
+  {
+   "id": "w_soko",
+   "jp": "そこ",
+   "kana": "そこ",
+   "romaji": "soko",
+   "en": "there; that place (near you)",
+   "gloss": "there",
+   "pos": "pronoun",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "そこ",
+     "matched": "其処【そこ】 (written in kana: そこ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "there (place relatively near listener)",
+      "there (place just mentioned); that place",
+      "then (of some incident just spoken of); that (of point just raised)",
+      "you"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_sukoshi",
+   "jp": "少し",
+   "kana": "すこし",
+   "romaji": "sukoshi",
+   "en": "a little; a few",
+   "gloss": "a little",
+   "pos": "adverb",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "少し",
+     "matched": "少し【すこし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "a little; a bit; a small amount; a few; some; slightly; somewhat",
+      "a little while; a short time; a moment; a minute",
+      "a little way; a short distance"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_ohayou",
+   "jp": "おはようございます",
+   "kana": "おはようございます",
+   "romaji": "ohayō gozaimasu",
+   "en": "good morning",
+   "gloss": "good morning",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "おはようございます",
+     "matched": "お早うございます【おはようございます】 (written in kana: おはようございます)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "good morning"
+     ],
+     "pos": [],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_konnichiwa",
+   "jp": "こんにちは",
+   "kana": "こんにちは",
+   "romaji": "konnichiwa",
+   "en": "hello; good day (daytime greeting)",
+   "gloss": "hello",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "note": "The final は is pronounced わ.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "こんにちは",
+     "matched": "今日は【こんにちは】 (written in kana: こんにちは)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "hello; good day; good afternoon"
+     ],
+     "pos": [],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_konbanwa",
+   "jp": "こんばんは",
+   "kana": "こんばんは",
+   "romaji": "konbanwa",
+   "en": "good evening",
+   "gloss": "good evening",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "note": "The final は is pronounced わ.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "こんばんは",
+     "matched": "今晩は【こんばんは】 (written in kana: こんばんは)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "good evening"
+     ],
+     "pos": [],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_sumimasen",
+   "jp": "すみません",
+   "kana": "すみません",
+   "romaji": "sumimasen",
+   "en": "excuse me (getting attention) / sorry",
+   "gloss": "excuse me",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "say_when": "Getting someone's attention, or a light apology.",
+   "examples": [
+    {
+     "jp": "すみません！",
+     "en": "Excuse me!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13174949,
+      "url": "https://tatoeba.org/en/sentences/show/13174949",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "すみません！",
+      "translation": "Excuse me!"
+     }
+    },
+    {
+     "jp": "あっ、すみません。",
+     "en": "Oh, I'm sorry.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3621704,
+      "url": "https://tatoeba.org/en/sentences/show/3621704",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "あっ、すみません。",
+      "translation": "Oh, I'm sorry."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "CARLA, Univ. of Minnesota",
+     "ref": "archive.carla.umn.edu",
+     "note": "CARLA, Univ. of Minnesota (archive.carla.umn.edu): すみません 'excuse me' — getting attention"
+    },
+    {
+     "type": "reference",
+     "name": "Portland State Univ. textbook Beginning Japanese for Professionals",
+     "ref": "pdx.edu",
+     "note": "Portland State Univ. textbook Beginning Japanese for Professionals (pdx.edu): すみません thank you, I'm sorry — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "すみません",
+     "matched": "済みません【すみません】 (written in kana: すみません)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "excuse me; pardon me; I'm sorry; I beg your pardon",
+      "thank you; you shouldn't have; it's too much"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_arigato",
+   "jp": "ありがとうございます",
+   "kana": "ありがとうございます",
+   "romaji": "arigatō gozaimasu",
+   "en": "thank you",
+   "gloss": "thank you",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "examples": [
+    {
+     "jp": "いつもありがとうございます。",
+     "en": "Thank you again for everything.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11900654,
+      "url": "https://tatoeba.org/en/sentences/show/11900654",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いつもありがとうございます。",
+      "translation": "Thank you again for everything."
+     }
+    },
+    {
+     "jp": "説明をありがとうございます。",
+     "en": "Thank you for the explanation.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8565446,
+      "url": "https://tatoeba.org/en/sentences/show/8565446",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "説明をありがとうございます。",
+      "translation": "Thank you for the explanation."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ありがとうございます",
+     "matched": "有難うございます【ありがとうございます】 (written in kana: ありがとうございます)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "thank you"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_otearai_doko",
+   "jp": "お手洗いはどこですか",
+   "kana": "おてあらいはどこですか",
+   "romaji": "otearai wa doko desu ka",
+   "en": "Where is the restroom?",
+   "gloss": "Where is the restroom?",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 227063,
+     "url": "https://tatoeba.org/en/sentences/show/227063",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "お手洗いはどこですか。",
+     "translation": "Where is the restroom?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お手洗い",
+     "matched": "お手洗い【おてあらい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "toilet; restroom; lavatory; bathroom"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どこ",
+     "matched": "何処【どこ】 (written in kana: どこ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "where; what place",
+      "how much (long, far); what extent"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_onegaishimasu",
+   "jp": "お願いします",
+   "kana": "おねがいします",
+   "romaji": "onegai shimasu",
+   "en": "please (when asking for something)",
+   "gloss": "please",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "examples": [
+    {
+     "jp": "魚をお願いします。",
+     "en": "Fish, please.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 182092,
+      "url": "https://tatoeba.org/en/sentences/show/182092",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "魚をお願いします。",
+      "translation": "Fish, please."
+     }
+    },
+    {
+     "jp": "修理お願いします。",
+     "en": "Please fix this.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13470014,
+      "url": "https://tatoeba.org/en/sentences/show/13470014",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "修理お願いします。",
+      "translation": "Please fix this."
+     }
+    }
+   ],
+   "gloss_reviewed": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お願いします",
+     "matched": "お願いします【おねがいします】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "please"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hai",
+   "jp": "はい",
+   "kana": "はい",
+   "romaji": "hai",
+   "en": "yes",
+   "gloss": "yes",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "はい",
+     "matched": "【はい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "yes; that is correct",
+      "understood; I see; OK; okay",
+      "present; here",
+      "pardon?; what's that?; come again?"
+     ],
+     "pos": [
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_iie",
+   "jp": "いいえ",
+   "kana": "いいえ",
+   "romaji": "iie",
+   "en": "no",
+   "gloss": "no",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "いいえ、知りません。",
+     "en": "No, I don't know.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 229424,
+      "url": "https://tatoeba.org/en/sentences/show/229424",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いいえ、知りません。",
+      "translation": "No, I don't know."
+     }
+    },
+    {
+     "jp": "いいえ、辛くないです。",
+     "en": "No, it's not spicy.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10901760,
+      "url": "https://tatoeba.org/en/sentences/show/10901760",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いいえ、辛くないです。",
+      "translation": "No, it's not spicy."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いいえ",
+     "matched": "【いいえ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "no",
+      "you're welcome; not at all; don't mention it"
+     ],
+     "pos": [],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_daijoubu",
+   "jp": "大丈夫",
+   "kana": "だいじょうぶ",
+   "romaji": "daijōbu",
+   "en": "all right; OK; no problem",
+   "gloss": "OK",
+   "pos": "na-adj",
+   "adj_class": "na",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "大丈夫です。",
+     "en": "I'll be fine.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2304911,
+      "url": "https://tatoeba.org/en/sentences/show/2304911",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "大丈夫です。",
+      "translation": "I'll be fine."
+     }
+    },
+    {
+     "jp": "これで大丈夫？",
+     "en": "Is this OK?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8703119,
+      "url": "https://tatoeba.org/en/sentences/show/8703119",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これで大丈夫？",
+      "translation": "Is this OK?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "大丈夫",
+     "matched": "大丈夫【だいじょうぶ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "safe; secure; sound; problem-free; without fear; all right; alright; OK; okay",
+      "certainly; surely; undoubtedly",
+      "no thanks; I'm good; that's alright",
+      "great man; fine figure of a man"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Adverb (fukushi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_wakaru",
+   "jp": "分かる",
+   "kana": "わかる",
+   "romaji": "wakaru",
+   "en": "to understand",
+   "gloss": "to understand",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "accept": [
+    "わかる"
+   ],
+   "examples": [
+    {
+     "jp": "分かりますか？",
+     "en": "Do you understand it?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3507395,
+      "url": "https://tatoeba.org/en/sentences/show/3507395",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "分かりますか？",
+      "translation": "Do you understand it?"
+     }
+    },
+    {
+     "jp": "分からない。",
+     "en": "I don't understand.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 494509,
+      "url": "https://tatoeba.org/en/sentences/show/494509",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "分からない。",
+      "translation": "I don't understand."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "分かる",
+     "matched": "分かる【わかる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to understand; to comprehend; to grasp; to see; to get; to follow",
+      "to become clear; to be known; to be discovered; to be realized (realised); to be found out; to make sense",
+      "I know!; I think so too!"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_chotto",
+   "jp": "ちょっと",
+   "kana": "ちょっと",
+   "romaji": "chotto",
+   "en": "a little; a bit",
+   "gloss": "a little",
+   "pos": "adverb",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "もうちょっと。",
+     "en": "A little more.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 194395,
+      "url": "https://tatoeba.org/en/sentences/show/194395",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "もうちょっと。",
+      "translation": "A little more."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ちょっと",
+     "matched": "【チョット】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "a little; a bit; slightly",
+      "just a minute; for a moment; briefly",
+      "somewhat; rather; fairly; pretty; quite",
+      "(not) easily; (not) readily"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Expressions (phrases, clauses, etc.)",
+      "Suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mouichido",
+   "jp": "もう一度",
+   "kana": "もういちど",
+   "romaji": "mō ichido",
+   "en": "once more; again",
+   "gloss": "once more",
+   "pos": "adverb",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "もう一度言って。",
+     "en": "Say that again.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3506687,
+      "url": "https://tatoeba.org/en/sentences/show/3506687",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "もう一度言って。",
+      "translation": "Say that again."
+     }
+    },
+    {
+     "jp": "もう一度しましょう！",
+     "en": "Let's do it again.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9930502,
+      "url": "https://tatoeba.org/en/sentences/show/9930502",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "もう一度しましょう！",
+      "translation": "Let's do it again."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "もう一度",
+     "matched": "もう一度【もういちど】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "once more; again"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_yukkuri",
+   "jp": "ゆっくり",
+   "kana": "ゆっくり",
+   "romaji": "yukkuri",
+   "en": "slowly",
+   "gloss": "slowly",
+   "pos": "adverb",
+   "takes_suru": true,
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ごゆっくりどうぞ。",
+     "en": "Please take your time.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10914911,
+      "url": "https://tatoeba.org/en/sentences/show/10914911",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ごゆっくりどうぞ。",
+      "translation": "Please take your time."
+     }
+    },
+    {
+     "jp": "ゆっくり食べて。",
+     "en": "Eat slowly.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5241324,
+      "url": "https://tatoeba.org/en/sentences/show/5241324",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ゆっくり食べて。",
+      "translation": "Eat slowly."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ゆっくり",
+     "matched": "【ゆっくり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "slowly; unhurriedly; without haste; leisurely; at one's leisure",
+      "easily (e.g. in time); well; sufficiently; amply; with time to spare",
+      "well (e.g. sleep); comfortably"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Adverb taking the 'to' particle",
+      "Suru verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_nihongo",
+   "jp": "日本語",
+   "kana": "にほんご",
+   "romaji": "nihongo",
+   "en": "Japanese (language)",
+   "gloss": "Japanese",
+   "pos": "noun",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "日本語を話せます。",
+     "en": "I can speak Japanese.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13174522,
+      "url": "https://tatoeba.org/en/sentences/show/13174522",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "日本語を話せます。",
+      "translation": "I can speak Japanese."
+     }
+    },
+    {
+     "jp": "日本語、難しいね。",
+     "en": "Japanese is hard, isn't it?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10127771,
+      "url": "https://tatoeba.org/en/sentences/show/10127771",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "日本語、難しいね。",
+      "translation": "Japanese is hard, isn't it?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "日本語",
+     "matched": "日本語【にほんご】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Japanese (language)",
+      "Japanese language"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_eigo",
+   "jp": "英語",
+   "kana": "えいご",
+   "romaji": "eigo",
+   "en": "English (language)",
+   "gloss": "English",
+   "pos": "noun",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "英語を話せます。",
+     "en": "I can speak English.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13661162,
+      "url": "https://tatoeba.org/en/sentences/show/13661162",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "英語を話せます。",
+      "translation": "I can speak English."
+     }
+    },
+    {
+     "jp": "英語の先生です。",
+     "en": "I am an English teacher.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 947657,
+      "url": "https://tatoeba.org/en/sentences/show/947657",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "英語の先生です。",
+      "translation": "I am an English teacher."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "英語",
+     "matched": "英語【えいご】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "English (language)",
+      "English language"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_nani",
+   "jp": "何",
+   "kana": "なに",
+   "romaji": "nani",
+   "en": "what",
+   "gloss": "what",
+   "pos": "question",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "note": "Read なん before です, の and counters (何ですか).",
+   "examples": [
+    {
+     "jp": "何を食べた？",
+     "en": "What did you eat?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13513550,
+      "url": "https://tatoeba.org/en/sentences/show/13513550",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何を食べた？",
+      "translation": "What did you eat?"
+     }
+    },
+    {
+     "jp": "今何してる？",
+     "en": "What are you doing now?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10906691,
+      "url": "https://tatoeba.org/en/sentences/show/10906691",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今何してる？",
+      "translation": "What are you doing now?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何",
+     "matched": "何【なに】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "what",
+      "you-know-what; that thing",
+      "whatsit; whachamacallit; what's-his-name; what's-her-name",
+      "penis; (one's) thing; dick"
+     ],
+     "pos": [
+      "Pronoun",
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kore",
+   "jp": "これ",
+   "kana": "これ",
+   "romaji": "kore",
+   "en": "this (one, near me)",
+   "gloss": "this",
+   "pos": "pronoun",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "これいる？",
+     "en": "Do you need this?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12206264,
+      "url": "https://tatoeba.org/en/sentences/show/12206264",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これいる？",
+      "translation": "Do you need this?"
+     }
+    },
+    {
+     "jp": "これ使う？",
+     "en": "Are you going to use this?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11682462,
+      "url": "https://tatoeba.org/en/sentences/show/11682462",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これ使う？",
+      "translation": "Are you going to use this?"
+     }
+    }
+   ],
+   "gloss_reviewed": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "これ",
+     "matched": "此れ【これ】 (written in kana: これ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "this; this one",
+      "this person",
+      "now; this point (in time)",
+      "here"
+     ],
+     "pos": [
+      "Pronoun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_sore",
+   "jp": "それ",
+   "kana": "それ",
+   "romaji": "sore",
+   "en": "that (one, near you)",
+   "gloss": "that",
+   "pos": "pronoun",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "それ本当？",
+     "en": "Is that true?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3488459,
+      "url": "https://tatoeba.org/en/sentences/show/3488459",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "それ本当？",
+      "translation": "Is that true?"
+     }
+    },
+    {
+     "jp": "それ好き？",
+     "en": "Do you like it?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9106549,
+      "url": "https://tatoeba.org/en/sentences/show/9106549",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "それ好き？",
+      "translation": "Do you like it?"
+     }
+    }
+   ],
+   "gloss_reviewed": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "それ",
+     "matched": "其れ【それ】 (written in kana: それ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "that; it",
+      "then; that point (in time); that time",
+      "there",
+      "you"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_are",
+   "jp": "あれ",
+   "kana": "あれ",
+   "romaji": "are",
+   "en": "that (one, over there)",
+   "gloss": "that over there",
+   "pos": "pronoun",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "あれを見て！",
+     "en": "Look at that!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3506637,
+      "url": "https://tatoeba.org/en/sentences/show/3506637",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "あれを見て！",
+      "translation": "Look at that!"
+     }
+    },
+    {
+     "jp": "何だあれは？",
+     "en": "What's that?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 591213,
+      "url": "https://tatoeba.org/en/sentences/show/591213",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何だあれは？",
+      "translation": "What's that?"
+     }
+    }
+   ],
+   "gloss_reviewed": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "あれ",
+     "matched": "彼【あれ】 (written in kana: あれ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "that; that thing",
+      "that person",
+      "then; that time",
+      "that place (over there)"
+     ],
+     "pos": [
+      "Pronoun",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_doko",
+   "jp": "どこ",
+   "kana": "どこ",
+   "romaji": "doko",
+   "en": "where",
+   "gloss": "where",
+   "pos": "question",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "卵はどこ。",
+     "en": "Where are the eggs?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10666328,
+      "url": "https://tatoeba.org/en/sentences/show/10666328",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "卵はどこ。",
+      "translation": "Where are the eggs?"
+     }
+    },
+    {
+     "jp": "家はどこ？",
+     "en": "Where's your house?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3508034,
+      "url": "https://tatoeba.org/en/sentences/show/3508034",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "家はどこ？",
+      "translation": "Where's your house?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どこ",
+     "matched": "何処【どこ】 (written in kana: どこ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "where; what place",
+      "how much (long, far); what extent"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_koko",
+   "jp": "ここ",
+   "kana": "ここ",
+   "romaji": "koko",
+   "en": "here; this place",
+   "gloss": "here",
+   "pos": "pronoun",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ここどこ？",
+     "en": "What is this place?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3491563,
+      "url": "https://tatoeba.org/en/sentences/show/3491563",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ここどこ？",
+      "translation": "What is this place?"
+     }
+    },
+    {
+     "jp": "ここだよ。",
+     "en": "I'm here.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11294942,
+      "url": "https://tatoeba.org/en/sentences/show/11294942",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ここだよ。",
+      "translation": "I'm here."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ここ",
+     "matched": "此処【ここ】 (written in kana: ここ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "here; this place",
+      "this point; here; now",
+      "these past ... (e.g. three years); these last ...",
+      "the next ... (e.g. few days); these next ..."
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kudasai",
+   "jp": "ください",
+   "kana": "ください",
+   "romaji": "kudasai",
+   "en": "please give me; please (do)",
+   "gloss": "please give me",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "examples": [
+    {
+     "jp": "塩ください。",
+     "en": "The salt, please.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1678503,
+      "url": "https://tatoeba.org/en/sentences/show/1678503",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "塩ください。",
+      "translation": "The salt, please."
+     }
+    },
+    {
+     "jp": "入ってください！",
+     "en": "Come in.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9101656,
+      "url": "https://tatoeba.org/en/sentences/show/9101656",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "入ってください！",
+      "translation": "Come in."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ください",
+     "matched": "下さい【ください】 (written in kana: ください)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "please (give me)",
+      "please (do for me)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_gomennasai",
+   "jp": "ごめんなさい",
+   "kana": "ごめんなさい",
+   "romaji": "gomen nasai",
+   "en": "I'm sorry",
+   "gloss": "sorry",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "本当にごめんなさい。",
+     "en": "I'm really sorry.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3621720,
+      "url": "https://tatoeba.org/en/sentences/show/3621720",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "本当にごめんなさい。",
+      "translation": "I'm really sorry."
+     }
+    },
+    {
+     "jp": "遅刻してごめんなさい。",
+     "en": "Sorry I'm late.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 808701,
+      "url": "https://tatoeba.org/en/sentences/show/808701",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "遅刻してごめんなさい。",
+      "translation": "Sorry I'm late."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ごめんなさい",
+     "matched": "御免なさい【ごめんなさい】 (written in kana: ごめんなさい)",
+     "common": false,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "I'm sorry; my apologies; excuse me; pardon me"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_hanasu",
+   "jp": "話す",
+   "kana": "はなす",
+   "romaji": "hanasu",
+   "en": "to speak; to talk",
+   "gloss": "to speak",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今、話せる？",
+     "en": "Can we talk now?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10690223,
+      "url": "https://tatoeba.org/en/sentences/show/10690223",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今、話せる？",
+      "translation": "Can we talk now?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "話す",
+     "matched": "話す【はなす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to talk; to speak; to converse; to chat",
+      "to tell; to explain; to narrate; to mention; to describe; to discuss",
+      "to speak (a language)"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_aru",
+   "jp": "ある",
+   "kana": "ある",
+   "romaji": "aru",
+   "en": "to be; to exist; to have (things)",
+   "gloss": "there is",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "note": "For things and plants. For people and animals use いる.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ある",
+     "matched": "有る【ある】 (written in kana: ある)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to be; to exist; to live",
+      "to have",
+      "to be located",
+      "to be equipped with"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending (irregular verb)",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_toire",
+   "jp": "トイレ",
+   "kana": "トイレ",
+   "romaji": "toire",
+   "en": "toilet; restroom",
+   "gloss": "the toilet",
+   "pos": "noun",
+   "topic": "survival",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "トイレはどこですか？",
+     "en": "Where is the bathroom?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11906435,
+      "url": "https://tatoeba.org/en/sentences/show/11906435",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "トイレはどこですか？",
+      "translation": "Where is the bathroom?"
+     }
+    },
+    {
+     "jp": "トイレに行きたい。",
+     "en": "I want to go to the bathroom.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9308406,
+      "url": "https://tatoeba.org/en/sentences/show/9308406",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "トイレに行きたい。",
+      "translation": "I want to go to the bathroom."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "トイレ",
+     "matched": "【トイレ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "toilet; restroom; bathroom; lavatory",
+      "going to the toilet; relieving oneself"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_tasukete",
+   "jp": "助けて",
+   "kana": "たすけて",
+   "romaji": "tasukete",
+   "en": "help!; save me!",
+   "gloss": "help!",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "助けてください。",
+     "en": "Please help me.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1039551,
+      "url": "https://tatoeba.org/en/sentences/show/1039551",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "助けてください。",
+      "translation": "Please help me."
+     }
+    },
+    {
+     "jp": "誰か助けて。",
+     "en": "Somebody help me.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2529055,
+      "url": "https://tatoeba.org/en/sentences/show/2529055",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "誰か助けて。",
+      "translation": "Somebody help me."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "助けて",
+     "matched": "助けて【たすけて】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "help!"
+     ],
+     "pos": [],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ikura",
+   "jp": "いくら",
+   "kana": "いくら",
+   "romaji": "ikura",
+   "en": "how much (price)",
+   "gloss": "how much",
+   "pos": "question",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いくら",
+     "matched": "幾ら【いくら】 (written in kana: いくら)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "how much",
+      "something over; and something; -odd",
+      "however (much); no matter how"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Noun, used as a suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_mouichido",
+   "jp": "もう一度お願いします",
+   "kana": "もういちどおねがいします",
+   "romaji": "mō ichido onegai shimasu",
+   "en": "Could you say that again?",
+   "gloss": "Could you say that again?",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "You did not catch what was said. Keeps the conversation going instead of freezing.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 214165,
+     "url": "https://tatoeba.org/en/sentences/show/214165",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "もう一度お願いします。",
+     "translation": "Could you say that again?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "もう一度",
+     "matched": "もう一度【もういちど】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "once more; again"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お願いします",
+     "matched": "お願いします【おねがいします】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "please"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_yukkuri",
+   "jp": "ゆっくり話してください",
+   "kana": "ゆっくりはなしてください",
+   "romaji": "yukkuri hanashite kudasai",
+   "en": "Please speak slowly.",
+   "gloss": "Please speak slowly.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 8795518,
+     "url": "https://tatoeba.org/en/sentences/show/8795518",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "ゆっくり話してください。",
+     "translation": "Please speak slowly."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ゆっくり",
+     "matched": "【ゆっくり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "slowly; unhurriedly; without haste; leisurely; at one's leisure",
+      "easily (e.g. in time); well; sufficiently; amply; with time to spare",
+      "well (e.g. sleep); comfortably"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Adverb taking the 'to' particle",
+      "Suru verb"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "話す",
+     "matched": "話す【はなす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to talk; to speak; to converse; to chat",
+      "to tell; to explain; to narrate; to mention; to describe; to discuss",
+      "to speak (a language)"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ください",
+     "matched": "下さい【ください】 (written in kana: ください)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "please (give me)",
+      "please (do for me)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_korenani",
+   "jp": "これは何ですか",
+   "kana": "これはなんですか",
+   "romaji": "kore wa nan desu ka",
+   "en": "What is this?",
+   "gloss": "What is this?",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Point and ask when you do not know a word.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 344924,
+     "url": "https://tatoeba.org/en/sentences/show/344924",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "これは何ですか。",
+     "translation": "What is this?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "これ",
+     "matched": "此れ【これ】 (written in kana: これ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "this; this one",
+      "this person",
+      "now; this point (in time)",
+      "here"
+     ],
+     "pos": [
+      "Pronoun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何",
+     "matched": "何【なに】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "what",
+      "you-know-what; that thing",
+      "whatsit; whachamacallit; what's-his-name; what's-her-name",
+      "penis; (one's) thing; dick"
+     ],
+     "pos": [
+      "Pronoun",
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_toire_doko",
+   "jp": "トイレはどこですか",
+   "kana": "トイレはどこですか",
+   "romaji": "toire wa doko desu ka",
+   "en": "Where is the toilet?",
+   "gloss": "Where is the toilet?",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 201726,
+     "url": "https://tatoeba.org/en/sentences/show/201726",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "トイレはどこですか。",
+     "translation": "Where is the toilet?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "トイレ",
+     "matched": "【トイレ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "toilet; restroom; bathroom; lavatory",
+      "going to the toilet; relieving oneself"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どこ",
+     "matched": "何処【どこ】 (written in kana: どこ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "where; what place",
+      "how much (long, far); what extent"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_wakarimasen",
+   "jp": "分かりません",
+   "kana": "わかりません",
+   "romaji": "wakarimasen",
+   "en": "I don't understand.",
+   "gloss": "I don't understand.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "accept": [
+    "わかりません"
+   ],
+   "note": "Also means \"I don't know\".",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 349070,
+     "url": "https://tatoeba.org/en/sentences/show/349070",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "分かりません。",
+     "translation": "I don't understand."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "分かる",
+     "matched": "分かる【わかる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to understand; to comprehend; to grasp; to see; to get; to follow",
+      "to become clear; to be known; to be discovered; to be realized (realised); to be found out; to make sense",
+      "I know!; I think so too!"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_wakarimashita",
+   "jp": "分かりました",
+   "kana": "わかりました",
+   "romaji": "wakarimashita",
+   "en": "I see. (Understood.)",
+   "gloss": "I see. (Understood.)",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "accept": [
+    "わかりました"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 3495036,
+     "url": "https://tatoeba.org/en/sentences/show/3495036",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "分かりました。",
+     "translation": "I see."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "分かる",
+     "matched": "分かる【わかる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to understand; to comprehend; to grasp; to see; to get; to follow",
+      "to become clear; to be known; to be discovered; to be realized (realised); to be found out; to make sense",
+      "I know!; I think so too!"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_eigo_hanasemasuka",
+   "jp": "英語を話せますか",
+   "kana": "えいごをはなせますか",
+   "romaji": "eigo o hanasemasu ka",
+   "en": "Can you speak English?",
+   "gloss": "Can you speak English?",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 189023,
+     "url": "https://tatoeba.org/en/sentences/show/189023",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "英語を話せますか。",
+     "translation": "Can you speak English?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "英語",
+     "matched": "英語【えいご】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "English (language)",
+      "English language"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "話す",
+     "matched": "話す【はなす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to talk; to speak; to converse; to chat",
+      "to tell; to explain; to narrate; to mention; to describe; to discuss",
+      "to speak (a language)"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_chotto_matte",
+   "jp": "ちょっと待ってください",
+   "kana": "ちょっとまってください",
+   "romaji": "chotto matte kudasai",
+   "en": "Please wait a moment.",
+   "gloss": "Please wait a moment.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10901614,
+     "url": "https://tatoeba.org/en/sentences/show/10901614",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "ちょっと待ってください。",
+     "translation": "Please wait a moment."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ちょっと",
+     "matched": "【チョット】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "a little; a bit; slightly",
+      "just a minute; for a moment; briefly",
+      "somewhat; rather; fairly; pretty; quite",
+      "(not) easily; (not) readily"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Expressions (phrases, clauses, etc.)",
+      "Suffix"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "待つ",
+     "matched": "待つ【まつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to wait",
+      "to await; to look forward to; to anticipate",
+      "to depend on; to need"
+     ],
+     "pos": [
+      "Godan verb with 'tsu' ending",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ください",
+     "matched": "下さい【ください】 (written in kana: ください)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "please (give me)",
+      "please (do for me)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_daijoubu_desu",
+   "jp": "大丈夫です",
+   "kana": "だいじょうぶです",
+   "romaji": "daijōbu desu",
+   "en": "I'll be fine; it's OK.",
+   "gloss": "I'll be fine; it's OK.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "note": "Also a polite \"no, thank you\" when offered something (Tatoeba lists both translations).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2304911,
+     "url": "https://tatoeba.org/en/sentences/show/2304911",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "大丈夫です。",
+     "translation": "I'll be fine."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "大丈夫",
+     "matched": "大丈夫【だいじょうぶ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "safe; secure; sound; problem-free; without fear; all right; alright; OK; okay",
+      "certainly; surely; undoubtedly",
+      "no thanks; I'm good; that's alright",
+      "great man; fine figure of a man"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Adverb (fukushi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_mouichido_itte",
+   "jp": "もう一度言ってください",
+   "kana": "もういちどいってください",
+   "romaji": "mō ichido itte kudasai",
+   "en": "Please say it again.",
+   "gloss": "Please say it again.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 4562480,
+     "url": "https://tatoeba.org/en/sentences/show/4562480",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "もう一度言ってください。",
+     "translation": "Please say it again."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "もう一度",
+     "matched": "もう一度【もういちど】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "once more; again"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "言う",
+     "matched": "言う【いう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to say; to utter; to declare",
+      "to name; to call",
+      "to go (e.g. \"the alarm went ping\"); to make a noise"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ください",
+     "matched": "下さい【ください】 (written in kana: ください)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "please (give me)",
+      "please (do for me)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_kore_kudasai",
+   "jp": "これください",
+   "kana": "これください",
+   "romaji": "kore kudasai",
+   "en": "Please give me this. (I'll take this.)",
+   "gloss": "Please give me this. (I'll take this.)",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Pointing at an item you want (shop, menu).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 8583430,
+     "url": "https://tatoeba.org/en/sentences/show/8583430",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "これください。",
+     "translation": "Please give me this."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "これ",
+     "matched": "此れ【これ】 (written in kana: これ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "this; this one",
+      "this person",
+      "now; this point (in time)",
+      "here"
+     ],
+     "pos": [
+      "Pronoun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ください",
+     "matched": "下さい【ください】 (written in kana: ください)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "please (give me)",
+      "please (do for me)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

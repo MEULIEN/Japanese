@@ -229,8 +229,9 @@
       const byDate = {};
       for (const u of up) (byDate[u.st.due] = byDate[u.st.due] || new Set()).add(u.item.id);
       const reasons = [];
-      const lapsed = up.filter(u => (u.st.lapses || 0) > 0).length;
-      if (lapsed) reasons.push(lapsed === 1 ? '1 of them was missed before, so it comes back sooner' : lapsed + ' of them were missed before, so they come back sooner');
+      const items = new Set(up.map(u => u.item.id));
+      const lapsed = new Set(up.filter(u => (u.st.lapses || 0) > 0).map(u => u.item.id)).size;   // count words, not skills
+      if (lapsed) reasons.push(lapsed === 1 ? '1 of these words was missed before, so it comes back sooner' : lapsed + ' of these ' + items.size + ' words were missed before, so they come back sooner');
       return { byDate: Object.fromEntries(Object.entries(byDate).map(([d, s2]) => [d, s2.size])), reasons };
     }
 

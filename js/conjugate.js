@@ -172,7 +172,9 @@
     ba:          (B) => add(B.stem, 'ければ'),
     tara:        (B) => add(B.stem, 'かったら'),
     naru:        (B) => add(B.stem, 'くなる'),
-    sugiru:      (B) => add(B.stem, 'すぎる')
+    sugiru:      (B) => add(B.stem, 'すぎる'),
+    // "looks …" (appearance). いい → よさそう (not よそう).
+    sou:         (B) => B.cls === 'ii' ? add(B.stem, 'さそう') : add(B.stem, 'そう')
   };
   const I_ALT = {
     neg_polite: (B) => [add(B.stem, 'くありません')],
@@ -192,7 +194,8 @@
     ba:          (B) => add(B.stem, 'なら'),
     tara:        (B) => add(B.stem, 'だったら'),
     naru:        (B) => add(B.stem, 'になる'),
-    sugiru:      (B) => add(B.stem, 'すぎる')
+    sugiru:      (B) => add(B.stem, 'すぎる'),
+    sou:         (B) => add(B.stem, 'そう')
   };
   const NA_ALT = {
     neg: (B) => [add(B.stem, 'ではない')],

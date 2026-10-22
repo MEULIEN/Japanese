@@ -21,7 +21,7 @@ const SHELL = ['./', './index.html', './style.css', './manifest.json',
 async function dataFiles() {
   const r = await fetch('./data/index.json', { cache: 'no-cache' });
   const idx = await r.json();
-  return [idx.topics, idx.grammar, idx.conjugation, idx.recovery, idx.milestones].concat(idx.items || []).filter(Boolean).map(f => './data/' + f);
+  return [idx.topics, idx.grammar, idx.conjugation, idx.recovery, idx.milestones, idx.synonyms].concat(idx.items || []).filter(Boolean).map(f => './data/' + f);
 }
 self.addEventListener('install', event => {
   event.waitUntil((async () => {

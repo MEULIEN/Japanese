@@ -1,0 +1,445 @@
+{
+ "topic": "places",
+ "items": [
+  {
+   "id": "p_kyotoeki",
+   "jp": "京都駅",
+   "kana": "きょうとえき",
+   "romaji": "Kyōto-eki",
+   "en": "Kyoto Station",
+   "gloss": "Kyoto Station",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "s_eki",
+     "rel": "ends in 駅 (station)"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "京都駅へ行く道を教えてくれませんか。",
+     "en": "Will you tell me the way to Kyoto Station?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 181625,
+      "url": "https://tatoeba.org/en/sentences/show/181625",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "京都駅へ行く道を教えてくれませんか。",
+      "translation": "Will you tell me the way to Kyoto Station?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Station-name readings agree in two lists",
+     "ref": "mapion.co.jp",
+     "note": "Station-name readings agree in two lists: Mapion (mapion.co.jp, Kyoto Municipal Subway Karasuma Line) and rosen-zu.net — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Written form appears on Kyoto City maps",
+     "ref": "city.kyoto.lg.jp",
+     "note": "Written form appears on Kyoto City maps (city.kyoto.lg.jp)"
+    },
+    {
+     "type": "dictionary",
+     "name": "駅 = JMdict 1175140",
+     "note": "駅 = JMdict 1175140"
+    }
+   ]
+  },
+  {
+   "id": "p_shijo",
+   "jp": "四条",
+   "kana": "しじょう",
+   "romaji": "Shijō",
+   "en": "Shijō (central Kyoto street/area; also a subway station)",
+   "gloss": "Shijō (central Kyoto street/area; also a subway station)",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "p_gojo",
+     "rel": "same pattern: number + 条 (四 four, 五 five)"
+    },
+    {
+     "id": "p_kujo",
+     "rel": "same pattern: number + 条 (四 four, 九 nine)"
+    },
+    {
+     "id": "p_jujo",
+     "rel": "same pattern: number + 条 (四 four, 十 ten)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Station-name readings agree in two lists",
+     "ref": "mapion.co.jp",
+     "note": "Station-name readings agree in two lists: Mapion (mapion.co.jp, Kyoto Municipal Subway Karasuma Line) and rosen-zu.net — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Written form appears on Kyoto City maps",
+     "ref": "city.kyoto.lg.jp",
+     "note": "Written form appears on Kyoto City maps (city.kyoto.lg.jp)"
+    }
+   ]
+  },
+  {
+   "id": "p_gojo",
+   "jp": "五条",
+   "kana": "ごじょう",
+   "romaji": "Gojō",
+   "en": "Gojō (Karasuma Line station)",
+   "gloss": "Gojō (Karasuma Line station)",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "p_shijo",
+     "rel": "same pattern: number + 条 (五 five, 四 four)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Station-name readings agree in two lists",
+     "ref": "mapion.co.jp",
+     "note": "Station-name readings agree in two lists: Mapion (mapion.co.jp, Kyoto Municipal Subway Karasuma Line) and rosen-zu.net — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Written form appears on Kyoto City maps",
+     "ref": "city.kyoto.lg.jp",
+     "note": "Written form appears on Kyoto City maps (city.kyoto.lg.jp)"
+    }
+   ]
+  },
+  {
+   "id": "p_kujo",
+   "jp": "九条",
+   "kana": "くじょう",
+   "romaji": "Kujō",
+   "en": "Kujō (Karasuma Line station)",
+   "gloss": "Kujō (Karasuma Line station)",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "p_shijo",
+     "rel": "same pattern: number + 条 (九 nine, 四 four)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Station-name readings agree in two lists",
+     "ref": "mapion.co.jp",
+     "note": "Station-name readings agree in two lists: Mapion (mapion.co.jp, Kyoto Municipal Subway Karasuma Line) and rosen-zu.net — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Written form appears on Kyoto City maps",
+     "ref": "city.kyoto.lg.jp",
+     "note": "Written form appears on Kyoto City maps (city.kyoto.lg.jp)"
+    }
+   ]
+  },
+  {
+   "id": "p_jujo",
+   "jp": "十条",
+   "kana": "じゅうじょう",
+   "romaji": "Jūjō",
+   "en": "Jūjō (Karasuma Line station)",
+   "gloss": "Jūjō (Karasuma Line station)",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "p_shijo",
+     "rel": "same pattern: number + 条 (十 ten, 四 four)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Station-name readings agree in two lists",
+     "ref": "mapion.co.jp",
+     "note": "Station-name readings agree in two lists: Mapion (mapion.co.jp, Kyoto Municipal Subway Karasuma Line) and rosen-zu.net — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Written form appears on Kyoto City maps",
+     "ref": "city.kyoto.lg.jp",
+     "note": "Written form appears on Kyoto City maps (city.kyoto.lg.jp)"
+    }
+   ]
+  },
+  {
+   "id": "p_karasuma_oike",
+   "jp": "烏丸御池",
+   "kana": "からすまおいけ",
+   "romaji": "Karasuma-Oike",
+   "en": "Karasuma-Oike (subway station where two lines meet)",
+   "gloss": "Karasuma-Oike (subway station where two lines meet)",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Station-name readings agree in two lists",
+     "ref": "mapion.co.jp",
+     "note": "Station-name readings agree in two lists: Mapion (mapion.co.jp, Kyoto Municipal Subway Karasuma Line) and rosen-zu.net — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Written form appears on Kyoto City maps",
+     "ref": "city.kyoto.lg.jp",
+     "note": "Written form appears on Kyoto City maps (city.kyoto.lg.jp)"
+    }
+   ]
+  },
+  {
+   "id": "p_marutamachi",
+   "jp": "丸太町",
+   "kana": "まるたまち",
+   "romaji": "Marutamachi",
+   "en": "Marutamachi (Karasuma Line station)",
+   "gloss": "Marutamachi (Karasuma Line station)",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Station-name readings agree in two lists",
+     "ref": "mapion.co.jp",
+     "note": "Station-name readings agree in two lists: Mapion (mapion.co.jp, Kyoto Municipal Subway Karasuma Line) and rosen-zu.net — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Written form appears on Kyoto City maps",
+     "ref": "city.kyoto.lg.jp",
+     "note": "Written form appears on Kyoto City maps (city.kyoto.lg.jp)"
+    }
+   ]
+  },
+  {
+   "id": "p_imadegawa",
+   "jp": "今出川",
+   "kana": "いまでがわ",
+   "romaji": "Imadegawa",
+   "en": "Imadegawa (Karasuma Line station)",
+   "gloss": "Imadegawa (Karasuma Line station)",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Station-name readings agree in two lists",
+     "ref": "mapion.co.jp",
+     "note": "Station-name readings agree in two lists: Mapion (mapion.co.jp, Kyoto Municipal Subway Karasuma Line) and rosen-zu.net — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Written form appears on Kyoto City maps",
+     "ref": "city.kyoto.lg.jp",
+     "note": "Written form appears on Kyoto City maps (city.kyoto.lg.jp)"
+    }
+   ]
+  },
+  {
+   "id": "p_kitaoji",
+   "jp": "北大路",
+   "kana": "きたおおじ",
+   "romaji": "Kitaōji",
+   "en": "Kitaōji (Karasuma Line station)",
+   "gloss": "Kitaōji (Karasuma Line station)",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Station-name readings agree in two lists",
+     "ref": "mapion.co.jp",
+     "note": "Station-name readings agree in two lists: Mapion (mapion.co.jp, Kyoto Municipal Subway Karasuma Line) and rosen-zu.net — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Written form appears on Kyoto City maps",
+     "ref": "city.kyoto.lg.jp",
+     "note": "Written form appears on Kyoto City maps (city.kyoto.lg.jp)"
+    }
+   ]
+  },
+  {
+   "id": "p_kyoto",
+   "jp": "京都",
+   "kana": "きょうと",
+   "romaji": "Kyōto",
+   "en": "Kyoto",
+   "gloss": "Kyoto",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "p_kyotoeki",
+     "rel": "京都 + 駅 = Kyoto Station"
+    }
+   ],
+   "examples": [
+    {
+     "jp": "私は京都の出身です。",
+     "en": "I'm from Kyoto.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 191812,
+      "url": "https://tatoeba.org/en/sentences/show/191812",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "私は京都の出身です。",
+      "translation": "I'm from Kyoto."
+     }
+    },
+    {
+     "jp": "いつ京都に着いたの？",
+     "en": "When did you get to Kyoto?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9135829,
+      "url": "https://tatoeba.org/en/sentences/show/9135829",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いつ京都に着いたの？",
+      "translation": "When did you get to Kyoto?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Station-name readings agree in two lists",
+     "ref": "mapion.co.jp",
+     "note": "Station-name readings agree in two lists: Mapion (mapion.co.jp, Kyoto Municipal Subway Karasuma Line) and rosen-zu.net — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Written form appears on Kyoto City maps",
+     "ref": "city.kyoto.lg.jp",
+     "note": "Written form appears on Kyoto City maps (city.kyoto.lg.jp)"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "京都",
+     "matched": "京都【きょうと】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Kyoto (city, prefecture)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

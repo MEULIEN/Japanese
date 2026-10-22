@@ -1,0 +1,2203 @@
+{
+ "topic": "konbini",
+ "items": [
+  {
+   "id": "w_fukuro",
+   "jp": "袋",
+   "kana": "ふくろ",
+   "romaji": "fukuro",
+   "en": "bag; sack",
+   "gloss": "a bag",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "shop_item",
+    "thing"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "袋は要らないよ。",
+     "en": "I don't need a bag.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10911426,
+      "url": "https://tatoeba.org/en/sentences/show/10911426",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "袋は要らないよ。",
+      "translation": "I don't need a bag."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "袋",
+     "matched": "袋【ふくろ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "bag; sack; pouch",
+      "skin of an orange (and other like fruits)",
+      "dead end",
+      "plot of land surrounded by water"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_reji",
+   "jp": "レジ",
+   "kana": "レジ",
+   "romaji": "reji",
+   "en": "cash register; checkout",
+   "gloss": "the checkout",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "place"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "レジはどこですか？",
+     "en": "Where is the cash register?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12461960,
+      "url": "https://tatoeba.org/en/sentences/show/12461960",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "レジはどこですか？",
+      "translation": "Where is the cash register?"
+     }
+    },
+    {
+     "jp": "レジでお願いします。",
+     "en": "Please pay at the register.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 192355,
+      "url": "https://tatoeba.org/en/sentences/show/192355",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "レジでお願いします。",
+      "translation": "Please pay at the register."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "レジ",
+     "matched": "【レジ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "(cash) register",
+      "checkout (counter); cashier",
+      "Rezh (Russia); Reg"
+     ],
+     "pos": [
+      "Noun",
+      "Place"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_atatameru",
+   "jp": "温める",
+   "kana": "あたためる",
+   "romaji": "atatameru",
+   "en": "to warm up; to heat",
+   "gloss": "to heat up",
+   "pos": "verb",
+   "verb_class": "ichidan",
+   "topic": "konbini",
+   "obj": [
+    "food"
+   ],
+   "tier": 1,
+   "use": "hear",
+   "note": "Staff ask 温めますか? (\"Shall I heat it up?\") for bento.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "温める",
+     "matched": "温める【あたためる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "to warm (up); to heat (up)",
+      "to sit on (an idea, plan, etc.); to keep to oneself; to nurse; to mull over",
+      "to renew (an old friendship)",
+      "to take for oneself"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_genkin",
+   "jp": "現金",
+   "kana": "げんきん",
+   "romaji": "genkin",
+   "en": "cash",
+   "gloss": "cash",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "現金で支払います。",
+     "en": "I'll pay in cash.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13183806,
+      "url": "https://tatoeba.org/en/sentences/show/13183806",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "現金で支払います。",
+      "translation": "I'll pay in cash."
+     }
+    },
+    {
+     "jp": "現金でも大丈夫ですか？",
+     "en": "Can I pay by cash?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11890833,
+      "url": "https://tatoeba.org/en/sentences/show/11890833",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "現金でも大丈夫ですか？",
+      "translation": "Can I pay by cash?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "現金",
+     "matched": "現金【げんきん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "cash; ready money; money on hand; currency",
+      "mercenary; self-interested; calculating",
+      "Cash"
+     ],
+     "pos": [
+      "Noun",
+      "Na-adjective (keiyodoshi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_reshiito",
+   "jp": "レシート",
+   "kana": "レシート",
+   "romaji": "reshīto",
+   "en": "receipt",
+   "gloss": "the receipt",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "thing"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "レシートをください。",
+     "en": "Please give me a receipt.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10647275,
+      "url": "https://tatoeba.org/en/sentences/show/10647275",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "レシートをください。",
+      "translation": "Please give me a receipt."
+     }
+    },
+    {
+     "jp": "レシートはいりません。",
+     "en": "I don't need a receipt.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12024147,
+      "url": "https://tatoeba.org/en/sentences/show/12024147",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "レシートはいりません。",
+      "translation": "I don't need a receipt."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "レシート",
+     "matched": "【レシート】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "receipt; cash-register slip"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_nedan",
+   "jp": "値段",
+   "kana": "ねだん",
+   "romaji": "nedan",
+   "en": "price",
+   "gloss": "the price",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "値段はいくらですか。",
+     "en": "What is the price?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 127127,
+      "url": "https://tatoeba.org/en/sentences/show/127127",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "値段はいくらですか。",
+      "translation": "What is the price?"
+     }
+    },
+    {
+     "jp": "値段が高すぎです。",
+     "en": "It's too expensive.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 127134,
+      "url": "https://tatoeba.org/en/sentences/show/127134",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "値段が高すぎです。",
+      "translation": "It's too expensive."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "値段",
+     "matched": "値段【ねだん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n3"
+     ],
+     "senses": [
+      "price; cost"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_en",
+   "jp": "円",
+   "kana": "えん",
+   "romaji": "en",
+   "en": "yen",
+   "gloss": "yen",
+   "pos": "counter",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "５０円です。",
+     "en": "It's 50 yen.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 235179,
+      "url": "https://tatoeba.org/en/sentences/show/235179",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "５０円です。",
+      "translation": "It's 50 yen."
+     }
+    },
+    {
+     "jp": "千円で足りる？",
+     "en": "Is a thousand yen enough?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8733219,
+      "url": "https://tatoeba.org/en/sentences/show/8733219",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "千円で足りる？",
+      "translation": "Is a thousand yen enough?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "円",
+     "matched": "円【えん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "yen (currency of Japan)",
+      "circle",
+      "圓"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_zenbu",
+   "jp": "全部",
+   "kana": "ぜんぶ",
+   "romaji": "zenbu",
+   "en": "all; everything",
+   "gloss": "everything",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "note": "全部で = in total",
+   "examples": [
+    {
+     "jp": "それで全部？",
+     "en": "Is that everything?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3507409,
+      "url": "https://tatoeba.org/en/sentences/show/3507409",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "それで全部？",
+      "translation": "Is that everything?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "全部",
+     "matched": "全部【ぜんぶ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "all; entire; whole; altogether"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kaado",
+   "jp": "カード",
+   "kana": "カード",
+   "romaji": "kādo",
+   "en": "card (e.g. credit card)",
+   "gloss": "card",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "カードで支払えますか。",
+     "en": "Can I pay by credit card?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 226473,
+      "url": "https://tatoeba.org/en/sentences/show/226473",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "カードで支払えますか。",
+      "translation": "Can I pay by credit card?"
+     }
+    },
+    {
+     "jp": "カード使えますか？",
+     "en": "May I use a credit card?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 993938,
+      "url": "https://tatoeba.org/en/sentences/show/993938",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "カード使えますか？",
+      "translation": "May I use a credit card?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "カード",
+     "matched": "【カード】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "card (information, filing, etc.)",
+      "card (greetings, congratulations, etc.)",
+      "(Western) playing cards",
+      "credit card; debit card"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_bentou",
+   "jp": "弁当",
+   "kana": "べんとう",
+   "romaji": "bentō",
+   "en": "bento; boxed meal",
+   "gloss": "a bento",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "駅で弁当を買った。",
+     "en": "I bought a box lunch at the station.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 188944,
+      "url": "https://tatoeba.org/en/sentences/show/188944",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "駅で弁当を買った。",
+      "translation": "I bought a box lunch at the station."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "弁当",
+     "matched": "弁当【べんとう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "bento; Japanese box lunch",
+      "Bento"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_onigiri",
+   "jp": "おにぎり",
+   "kana": "おにぎり",
+   "romaji": "onigiri",
+   "en": "rice ball",
+   "gloss": "a rice ball",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "おにぎりを食べたことはありますか？",
+     "en": "Have you ever eaten an onigiri?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10618057,
+      "url": "https://tatoeba.org/en/sentences/show/10618057",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "おにぎりを食べたことはありますか？",
+      "translation": "Have you ever eaten an onigiri?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "おにぎり",
+     "matched": "お握り【おにぎり】 (written in kana: おにぎり)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "onigiri; rice ball (often triangular, sometimes with a filling and wrapped in nori)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_pan",
+   "jp": "パン",
+   "kana": "パン",
+   "romaji": "pan",
+   "en": "bread",
+   "gloss": "bread",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "パン買ったよ。",
+     "en": "I bought some bread.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8933576,
+      "url": "https://tatoeba.org/en/sentences/show/8933576",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "パン買ったよ。",
+      "translation": "I bought some bread."
+     }
+    },
+    {
+     "jp": "どんなパンが好き？",
+     "en": "What kind of bread do you like?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10739232,
+      "url": "https://tatoeba.org/en/sentences/show/10739232",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "どんなパンが好き？",
+      "translation": "What kind of bread do you like?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "パン",
+     "matched": "【パン】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "bread; (sweet) pastry",
+      "staff of life; one's bread",
+      "Bread"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_gyuunyuu",
+   "jp": "牛乳",
+   "kana": "ぎゅうにゅう",
+   "romaji": "gyūnyū",
+   "en": "milk (cow's milk)",
+   "gloss": "milk",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "drink",
+    "shop_item"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "牛乳は買ったの？",
+     "en": "Did you buy milk?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9203252,
+      "url": "https://tatoeba.org/en/sentences/show/9203252",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "牛乳は買ったの？",
+      "translation": "Did you buy milk?"
+     }
+    },
+    {
+     "jp": "牛乳は残ってる？",
+     "en": "Is there any milk left?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8826464,
+      "url": "https://tatoeba.org/en/sentences/show/8826464",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "牛乳は残ってる？",
+      "translation": "Is there any milk left?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "牛乳",
+     "matched": "牛乳【ぎゅうにゅう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "(cow's) milk"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_tamago",
+   "jp": "卵",
+   "kana": "たまご",
+   "romaji": "tamago",
+   "en": "egg",
+   "gloss": "eggs",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "卵はどこ。",
+     "en": "Where are the eggs?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10666328,
+      "url": "https://tatoeba.org/en/sentences/show/10666328",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "卵はどこ。",
+      "translation": "Where are the eggs?"
+     }
+    },
+    {
+     "jp": "卵を買ったんだ。",
+     "en": "I bought some eggs.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11733648,
+      "url": "https://tatoeba.org/en/sentences/show/11733648",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "卵を買ったんだ。",
+      "translation": "I bought some eggs."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "卵",
+     "matched": "卵【たまご】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "eggs; egg; spawn; roe",
+      "(hen's) egg",
+      "a ... in the making; future (lawyer, doctor, etc.); budding ...",
+      "beginning; origin; infancy"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_yasai",
+   "jp": "野菜",
+   "kana": "やさい",
+   "romaji": "yasai",
+   "en": "vegetable",
+   "gloss": "vegetables",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "好きな野菜は何ですか？",
+     "en": "What's your favorite vegetable?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2759288,
+      "url": "https://tatoeba.org/en/sentences/show/2759288",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "好きな野菜は何ですか？",
+      "translation": "What's your favorite vegetable?"
+     }
+    },
+    {
+     "jp": "野菜、高くなったね。",
+     "en": "Vegetables got more expensive.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11875873,
+      "url": "https://tatoeba.org/en/sentences/show/11875873",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "野菜、高くなったね。",
+      "translation": "Vegetables got more expensive."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "野菜",
+     "matched": "野菜【やさい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "vegetable",
+      "marijuana; cannabis",
+      "Vegetable"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kudamono",
+   "jp": "果物",
+   "kana": "くだもの",
+   "romaji": "kudamono",
+   "en": "fruit",
+   "gloss": "fruit",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "果物",
+     "matched": "果物【くだもの】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "fruit"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_niku",
+   "jp": "肉",
+   "kana": "にく",
+   "romaji": "niku",
+   "en": "meat",
+   "gloss": "meat",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "肉が安い。",
+     "en": "The meat is cheap.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11512580,
+      "url": "https://tatoeba.org/en/sentences/show/11512580",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "肉が安い。",
+      "translation": "The meat is cheap."
+     }
+    },
+    {
+     "jp": "お肉、うまそう。",
+     "en": "The meat looks good.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10212604,
+      "url": "https://tatoeba.org/en/sentences/show/10212604",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お肉、うまそう。",
+      "translation": "The meat looks good."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "肉",
+     "matched": "肉【にく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "flesh",
+      "meat",
+      "flesh (of a fruit); pulp",
+      "the physical body (as opposed to the spirit); flesh"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_sakana",
+   "jp": "魚",
+   "kana": "さかな",
+   "romaji": "sakana",
+   "en": "fish",
+   "gloss": "fish",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "魚を食べる。",
+     "en": "I eat fish.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 6828205,
+      "url": "https://tatoeba.org/en/sentences/show/6828205",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "魚を食べる。",
+      "translation": "I eat fish."
+     }
+    },
+    {
+     "jp": "魚、美味しい？",
+     "en": "Is the fish good?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11831398,
+      "url": "https://tatoeba.org/en/sentences/show/11831398",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "魚、美味しい？",
+      "translation": "Is the fish good?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "魚",
+     "matched": "魚【さかな】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "fish"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kasa",
+   "jp": "傘",
+   "kana": "かさ",
+   "romaji": "kasa",
+   "en": "umbrella",
+   "gloss": "an umbrella",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "shop_item",
+    "thing"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "傘は持ってきた？",
+     "en": "Did you bring an umbrella with you?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10726329,
+      "url": "https://tatoeba.org/en/sentences/show/10726329",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "傘は持ってきた？",
+      "translation": "Did you bring an umbrella with you?"
+     }
+    },
+    {
+     "jp": "傘を買った。",
+     "en": "I bought an umbrella.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8582297,
+      "url": "https://tatoeba.org/en/sentences/show/8582297",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "傘を買った。",
+      "translation": "I bought an umbrella."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "傘",
+     "matched": "傘【かさ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "umbrella; parasol",
+      "something shaped like an umbrella or a conical hat; shade (of a lamp); mushroom cap; pileus",
+      "Umbrella"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_denchi",
+   "jp": "電池",
+   "kana": "でんち",
+   "romaji": "denchi",
+   "en": "battery (dry cell)",
+   "gloss": "batteries",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "shop_item",
+    "thing"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電池",
+     "matched": "電池【でんち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "battery; cell",
+      "Battery (electricity)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_kau",
+   "jp": "買う",
+   "kana": "かう",
+   "romaji": "kau",
+   "en": "to buy",
+   "gloss": "to buy",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "konbini",
+   "obj": [
+    "shop_item",
+    "food",
+    "drink"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "何買ったの？",
+     "en": "What did you buy?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3552893,
+      "url": "https://tatoeba.org/en/sentences/show/3552893",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何買ったの？",
+      "translation": "What did you buy?"
+     }
+    },
+    {
+     "jp": "薬は買ったの？",
+     "en": "Did you buy the medicine?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11512514,
+      "url": "https://tatoeba.org/en/sentences/show/11512514",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "薬は買ったの？",
+      "translation": "Did you buy the medicine?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "買う",
+     "matched": "買う【かう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to buy; to purchase",
+      "to value (highly); to think highly of; to have a high opinion of; to appreciate; to recognize",
+      "to incur (someone's anger, displeasure, etc.); to elicit (e.g. sneers); to invite (e.g. scorn); to evoke; to arouse; to win (someone's favour)",
+      "to accept; to take on; to take up"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_iru_need",
+   "jp": "要る",
+   "kana": "いる",
+   "romaji": "iru",
+   "en": "to need; to want",
+   "gloss": "to need",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "accept": [
+    "いる"
+   ],
+   "note": "Often written いる. いりません = \"I don't need it (no thanks)\". Godan, unlike いる \"to be\".",
+   "examples": [
+    {
+     "jp": "これ要ります？",
+     "en": "Do you need this?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11041810,
+      "url": "https://tatoeba.org/en/sentences/show/11041810",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これ要ります？",
+      "translation": "Do you need this?"
+     }
+    },
+    {
+     "jp": "両方要るよ。",
+     "en": "We need both.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10714063,
+      "url": "https://tatoeba.org/en/sentences/show/10714063",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "両方要るよ。",
+      "translation": "We need both."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "要る",
+     "matched": "要る【いる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to be needed; to be necessary; to be required; to be wanted; to need; to want"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hangaku",
+   "jp": "半額",
+   "kana": "はんがく",
+   "romaji": "hangaku",
+   "en": "half price",
+   "gloss": "half price",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "半額",
+     "matched": "半額【はんがく】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "half the amount (of money); half price; half fare"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mise",
+   "jp": "店",
+   "kana": "みせ",
+   "romaji": "mise",
+   "en": "shop; store; restaurant",
+   "gloss": "the shop",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "お店、開いてる？",
+     "en": "Is the store open?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13885240,
+      "url": "https://tatoeba.org/en/sentences/show/13885240",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お店、開いてる？",
+      "translation": "Is the store open?"
+     }
+    },
+    {
+     "jp": "そのお店はどこ？",
+     "en": "Where is that store?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8607027,
+      "url": "https://tatoeba.org/en/sentences/show/8607027",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "そのお店はどこ？",
+      "translation": "Where is that store?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "店",
+     "matched": "店【みせ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "store; shop; establishment; restaurant"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_suupaa",
+   "jp": "スーパー",
+   "kana": "スーパー",
+   "romaji": "sūpā",
+   "en": "supermarket",
+   "gloss": "the supermarket",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "近くにスーパーはありますか？",
+     "en": "Is there a supermarket nearby?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8747091,
+      "url": "https://tatoeba.org/en/sentences/show/8747091",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "近くにスーパーはありますか？",
+      "translation": "Is there a supermarket nearby?"
+     }
+    },
+    {
+     "jp": "スーパーに寄ってきます。",
+     "en": "I'm going to drop by the supermarket.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 215060,
+      "url": "https://tatoeba.org/en/sentences/show/215060",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "スーパーに寄ってきます。",
+      "translation": "I'm going to drop by the supermarket."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "スーパー",
+     "matched": "【スーパー】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "supermarket",
+      "subtitles; telop",
+      "superheterodyne",
+      "super"
+     ],
+     "pos": [
+      "Noun",
+      "Noun or verb acting prenominally",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_konbini",
+   "jp": "コンビニ",
+   "kana": "コンビニ",
+   "romaji": "konbini",
+   "en": "convenience store",
+   "gloss": "the convenience store",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ちょっとコンビニ行ってくるね。",
+     "en": "I'm going to the convenience store.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3335510,
+      "url": "https://tatoeba.org/en/sentences/show/3335510",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ちょっとコンビニ行ってくるね。",
+      "translation": "I'm going to the convenience store."
+     }
+    },
+    {
+     "jp": "コンビニの近くに住んでるんだ。",
+     "en": "I live close to a convenience store.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11198732,
+      "url": "https://tatoeba.org/en/sentences/show/11198732",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "コンビニの近くに住んでるんだ。",
+      "translation": "I live close to a convenience store."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "コンビニ",
+     "matched": "【コンビニ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "convenience store"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_harau",
+   "jp": "払う",
+   "kana": "はらう",
+   "romaji": "harau",
+   "en": "to pay",
+   "gloss": "to pay",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "私が払います。",
+     "en": "I'll pay.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 167425,
+      "url": "https://tatoeba.org/en/sentences/show/167425",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "私が払います。",
+      "translation": "I'll pay."
+     }
+    },
+    {
+     "jp": "払いました。",
+     "en": "I paid.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8405192,
+      "url": "https://tatoeba.org/en/sentences/show/8405192",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "払いました。",
+      "translation": "I paid."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "払う",
+     "matched": "払う【はらう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to pay (e.g. money, bill)",
+      "to brush off; to wipe away; to clear away; to dust off; to cut off (e.g. branches)",
+      "to drive away (e.g. one's competitors)",
+      "to sell off (something unneeded); to dispose of"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_urikire",
+   "jp": "売り切れ",
+   "kana": "うりきれ",
+   "romaji": "urikire",
+   "en": "sold out",
+   "gloss": "sold out",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "売り切れ",
+     "matched": "売り切れ【うりきれ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "sold-out"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_supuun",
+   "jp": "スプーン",
+   "kana": "スプーン",
+   "romaji": "supūn",
+   "en": "spoon",
+   "gloss": "a spoon",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "thing",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "スプーンをいただけますか。",
+     "en": "Could I have a spoon?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 214525,
+      "url": "https://tatoeba.org/en/sentences/show/214525",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "スプーンをいただけますか。",
+      "translation": "Could I have a spoon?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "スプーン",
+     "matched": "【スプーン】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "spoon",
+      "spoon lure",
+      "Spoon"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_shomi",
+   "jp": "賞味期限",
+   "kana": "しょうみきげん",
+   "romaji": "shōmi kigen",
+   "en": "best-before date (taste/quality; not a safety deadline)",
+   "gloss": "best-before date (taste/quality; not a safety deadline)",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "read",
+   "note": "Official guidance: the date until the unopened food keeps its quality and tastes good if stored as labelled; it can still be eaten shortly after. Once opened, eat it soon whatever the date.",
+   "links": [
+    {
+     "id": "g_shohi",
+     "rel": "contrast: quality date vs safety date"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "MAFF",
+     "ref": "maff.go.jp/j/syokuiku/kodomo_navi/featured/abc2.html",
+     "note": "MAFF (maff.go.jp/j/syokuiku/kodomo_navi/featured/abc2.html) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Kanagawa Prefecture",
+     "ref": "pref.kanagawa.jp/docs/e8z/cnt/f6576/p1085364.html",
+     "note": "Kanagawa Prefecture (pref.kanagawa.jp/docs/e8z/cnt/f6576/p1085364.html) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Edogawa City bulletin with furigana",
+     "ref": "city.edogawa.tokyo.jp",
+     "note": "Edogawa City bulletin with furigana (city.edogawa.tokyo.jp) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "賞味期限",
+     "matched": "賞味期限【しょうみきげん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "best-before date (on food); use-by date; expiry date; expiration date",
+      "Shelf life"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_shohi",
+   "jp": "消費期限",
+   "kana": "しょうひきげん",
+   "romaji": "shōhi kigen",
+   "en": "use-by date (safe-to-eat deadline)",
+   "gloss": "use-by date (safe-to-eat deadline)",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "read",
+   "note": "Official guidance: the date until the unopened food is safe if stored as labelled. Do not eat it after this date. Once opened, eat it soon.",
+   "links": [
+    {
+     "id": "g_shomi",
+     "rel": "contrast: safety date vs quality date"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "MAFF",
+     "ref": "maff.go.jp/j/syokuiku/kodomo_navi/featured/abc2.html",
+     "note": "MAFF (maff.go.jp/j/syokuiku/kodomo_navi/featured/abc2.html) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Kanagawa Prefecture",
+     "ref": "pref.kanagawa.jp/docs/e8z/cnt/f6576/p1085364.html",
+     "note": "Kanagawa Prefecture (pref.kanagawa.jp/docs/e8z/cnt/f6576/p1085364.html) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "Edogawa City bulletin with furigana",
+     "ref": "city.edogawa.tokyo.jp",
+     "note": "Edogawa City bulletin with furigana (city.edogawa.tokyo.jp) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "消費期限",
+     "matched": "消費期限【しょうひきげん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "expiry date (esp. on food); expiration date; use-by date"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_zeikomi",
+   "jp": "税込",
+   "kana": "ぜいこみ",
+   "romaji": "zeikomi",
+   "en": "tax included (price)",
+   "gloss": "tax included (price)",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "税込",
+     "matched": "税込【ぜいこみ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "including tax (of a price); pretax (income or profits); before tax"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_waribiki",
+   "jp": "割引",
+   "kana": "わりびき",
+   "romaji": "waribiki",
+   "en": "discount",
+   "gloss": "discount",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "割引",
+     "matched": "割引【わりびき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "discount; reduction; rebate",
+      "tenths discounted; tenths reduced"
+     ],
+     "pos": [
+      "Noun",
+      "Counter"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_ikura_desuka",
+   "jp": "いくらですか",
+   "kana": "いくらですか",
+   "romaji": "ikura desu ka",
+   "en": "How much is it?",
+   "gloss": "How much is it?",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 5332,
+     "url": "https://tatoeba.org/en/sentences/show/5332",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "いくらですか？",
+     "translation": "How much is it?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いくら",
+     "matched": "幾ら【いくら】 (written in kana: いくら)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "how much",
+      "something over; and something; -odd",
+      "however (much); no matter how"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Noun, used as a suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_kore_ikura",
+   "jp": "これはいくらですか",
+   "kana": "これはいくらですか",
+   "romaji": "kore wa ikura desu ka",
+   "en": "How much does this cost?",
+   "gloss": "How much does this cost?",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 432825,
+     "url": "https://tatoeba.org/en/sentences/show/432825",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "これはいくらですか。",
+     "translation": "How much does this cost?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "これ",
+     "matched": "此れ【これ】 (written in kana: これ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "this; this one",
+      "this person",
+      "now; this point (in time)",
+      "here"
+     ],
+     "pos": [
+      "Pronoun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いくら",
+     "matched": "幾ら【いくら】 (written in kana: いくら)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "how much",
+      "something over; and something; -odd",
+      "however (much); no matter how"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Noun, used as a suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_kaado_tsukaemasuka",
+   "jp": "カードは使えますか",
+   "kana": "カードはつかえますか",
+   "romaji": "kādo wa tsukaemasu ka",
+   "en": "Can I pay with a credit card?",
+   "gloss": "Can I pay with a credit card?",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 226472,
+     "url": "https://tatoeba.org/en/sentences/show/226472",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "カードは使えますか。",
+     "translation": "Can I pay with a credit card?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "カード",
+     "matched": "【カード】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "card (information, filing, etc.)",
+      "card (greetings, congratulations, etc.)",
+      "(Western) playing cards",
+      "credit card; debit card"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "使う",
+     "matched": "使う【つかう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to use (a tool, method, etc.); to make use of; to put to use",
+      "to use (a person, animal, puppet, etc.); to employ; to handle; to manage; to manipulate",
+      "to use (time, money, etc.); to spend; to consume",
+      "to use (language); to speak"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_kaado_de",
+   "jp": "カードでお願いします",
+   "kana": "カードでおねがいします",
+   "romaji": "kādo de onegai shimasu",
+   "en": "Charge it, please. (By card, please.)",
+   "gloss": "Charge it, please. (By card, please.)",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 226474,
+     "url": "https://tatoeba.org/en/sentences/show/226474",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "カードでお願いします。",
+     "translation": "Charge it, please."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "カード",
+     "matched": "【カード】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "card (information, filing, etc.)",
+      "card (greetings, congratulations, etc.)",
+      "(Western) playing cards",
+      "credit card; debit card"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お願いします",
+     "matched": "お願いします【おねがいします】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "please"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_irimasen",
+   "jp": "いりません",
+   "kana": "いりません",
+   "romaji": "irimasen",
+   "en": "I don't need it. (No thanks.)",
+   "gloss": "I don't need it. (No thanks.)",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Refusing a bag, receipt, chopsticks etc.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 1754451,
+     "url": "https://tatoeba.org/en/sentences/show/1754451",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "いりません。",
+     "translation": "I don't need it."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "要る",
+     "matched": "要る【いる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to be needed; to be necessary; to be required; to be wanted; to need; to want"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

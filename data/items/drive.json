@@ -1,0 +1,378 @@
+{
+ "topic": "drive",
+ "items": [
+  {
+   "id": "d_ichiji",
+   "jp": "一時停止",
+   "kana": "いちじていし",
+   "romaji": "ichiji teishi",
+   "en": "stop (the official name of the stop sign)",
+   "gloss": "stop (the official name of the stop sign)",
+   "pos": "sign",
+   "takes_suru": true,
+   "topic": "drive",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_tomare",
+     "rel": "the sign face says 止まれ"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana",
+     "ref": "pref.gunma.jp/uploaded/attachment/53721.pdf",
+     "note": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana (pref.gunma.jp/uploaded/attachment/53721.pdf) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "MLIT road-sign list, sign",
+     "ref": "skr.mlit.go.jp",
+     "note": "MLIT road-sign list, sign (330) 一時停止 (skr.mlit.go.jp) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "一時停止",
+     "matched": "一時停止【いちじていし】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "suspension; pause; temporary halt; moratorium",
+      "stopping (at an intersection, railway crossing, etc.)",
+      "Stop sign"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "d_jokoo",
+   "jp": "徐行",
+   "kana": "じょこう",
+   "romaji": "jokō",
+   "en": "go slowly (slow-down sign)",
+   "gloss": "go slowly (slow-down sign)",
+   "pos": "sign",
+   "takes_suru": true,
+   "topic": "drive",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "MLIT road-sign list",
+     "note": "MLIT road-sign list (329) 徐行 — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "徐行",
+     "matched": "徐行【じょこう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "going slowly (esp. to enable a vehicle to stop immediately); going at a reduced speed; slowing down; reducing speed"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "d_chusha",
+   "jp": "駐車禁止",
+   "kana": "ちゅうしゃきんし",
+   "romaji": "chūsha kinshi",
+   "en": "no parking",
+   "gloss": "no parking",
+   "pos": "sign",
+   "topic": "drive",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_kinen",
+     "rel": "both end in 禁 (prohibited)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana",
+     "ref": "pref.gunma.jp/uploaded/attachment/53721.pdf",
+     "note": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana (pref.gunma.jp/uploaded/attachment/53721.pdf) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "MLIT road-sign list",
+     "note": "MLIT road-sign list (316) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "駐車禁止",
+     "matched": "駐車禁止【ちゅうしゃきんし】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "No Parking; Parking Prohibited",
+      "prohibition of parking; parking ban"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "d_ippo",
+   "jp": "一方通行",
+   "kana": "いっぽうつうこう",
+   "romaji": "ippō tsūkō",
+   "en": "one-way street (traffic only in the arrow direction)",
+   "gloss": "one-way street (traffic only in the arrow direction)",
+   "pos": "sign",
+   "topic": "drive",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana",
+     "ref": "pref.gunma.jp/uploaded/attachment/53721.pdf",
+     "note": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana (pref.gunma.jp/uploaded/attachment/53721.pdf) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "MLIT road-sign list",
+     "note": "MLIT road-sign list (326) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "一方通行",
+     "matched": "一方通行【いっぽうつうこう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "one-way traffic",
+      "one-way (e.g. communication); one-sided",
+      "One-way traffic"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "d_tsuko",
+   "jp": "通行止め",
+   "kana": "つうこうどめ",
+   "romaji": "tsūkō-dome",
+   "en": "road closed",
+   "gloss": "road closed",
+   "pos": "sign",
+   "topic": "drive",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "MLIT road-sign list",
+     "note": "MLIT road-sign list (301) 通行止め — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "通行止め",
+     "matched": "通行止め【つうこうどめ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "closure (of a road); suspension of traffic",
+      "Road Closed; No Through Road; closed to traffic"
+     ],
+     "pos": [
+      "Noun",
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "d_odan",
+   "jp": "横断歩道",
+   "kana": "おうだんほどう",
+   "romaji": "ōdan hodō",
+   "en": "pedestrian crossing",
+   "gloss": "pedestrian crossing",
+   "pos": "sign",
+   "topic": "drive",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana",
+     "ref": "pref.gunma.jp/uploaded/attachment/53721.pdf",
+     "note": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana (pref.gunma.jp/uploaded/attachment/53721.pdf) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "MLIT road-sign list",
+     "note": "MLIT road-sign list (407) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "横断歩道",
+     "matched": "横断歩道【おうだんほどう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "pedestrian crossing; crosswalk",
+      "Pedestrian crossing"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "d_oikoshi",
+   "jp": "追越し禁止",
+   "kana": "おいこしきんし",
+   "romaji": "oikoshi kinshi",
+   "en": "no overtaking (no passing)",
+   "gloss": "no overtaking (no passing)",
+   "pos": "sign",
+   "topic": "drive",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana",
+     "ref": "pref.gunma.jp/uploaded/attachment/53721.pdf",
+     "note": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana (pref.gunma.jp/uploaded/attachment/53721.pdf) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "MLIT road-sign list",
+     "note": "MLIT road-sign list (314の2) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    }
+   ]
+  },
+  {
+   "id": "d_tenkai",
+   "jp": "転回禁止",
+   "kana": "てんかいきんし",
+   "romaji": "tenkai kinshi",
+   "en": "no U-turn",
+   "gloss": "no U-turn",
+   "pos": "sign",
+   "topic": "drive",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana",
+     "ref": "pref.gunma.jp/uploaded/attachment/53721.pdf",
+     "note": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana (pref.gunma.jp/uploaded/attachment/53721.pdf) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    }
+   ]
+  },
+  {
+   "id": "d_saiko",
+   "jp": "最高速度",
+   "kana": "さいこうそくど",
+   "romaji": "saikō sokudo",
+   "en": "maximum speed (speed-limit sign)",
+   "gloss": "maximum speed (speed-limit sign)",
+   "pos": "sign",
+   "topic": "drive",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana",
+     "ref": "pref.gunma.jp/uploaded/attachment/53721.pdf",
+     "note": "Gunma Prefecture / Maebashi Police traffic-sign poster with furigana (pref.gunma.jp/uploaded/attachment/53721.pdf) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "official",
+     "name": "MLIT road-sign list",
+     "note": "MLIT road-sign list (323) — checked 2026-10-20",
+     "checked": "2026-10-20"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "最高速度",
+     "matched": "最高速度【さいこうそくど】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "top speed; maximum speed",
+      "Speed limits by country"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

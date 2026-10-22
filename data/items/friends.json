@@ -1,0 +1,1590 @@
+{
+ "topic": "friends",
+ "items": [
+  {
+   "id": "x_otsukaresama",
+   "jp": "お疲れ様",
+   "kana": "おつかれさま",
+   "romaji": "otsukaresama",
+   "en": "thank you for your hard work (greeting to colleagues)",
+   "gloss": "thanks for your hard work",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "note": "In polite speech: お疲れ様です.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お疲れ様",
+     "matched": "お疲れ様【おつかれさま】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "thank you (for your hard work); good work",
+      "see you; goodbye; goodnight"
+     ],
+     "pos": [],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_tomodachi",
+   "jp": "友達",
+   "kana": "ともだち",
+   "romaji": "tomodachi",
+   "en": "friend",
+   "gloss": "a friend",
+   "pos": "noun",
+   "topic": "friends",
+   "tags": [
+    "person"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "友達が欲しい。",
+     "en": "I want a friend.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8603625,
+      "url": "https://tatoeba.org/en/sentences/show/8603625",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "友達が欲しい。",
+      "translation": "I want a friend."
+     }
+    },
+    {
+     "jp": "友達にならない？",
+     "en": "Want to be my friend?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 6576395,
+      "url": "https://tatoeba.org/en/sentences/show/6576395",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "友達にならない？",
+      "translation": "Want to be my friend?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "友達",
+     "matched": "友達【ともだち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "friend; companion"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_issho",
+   "jp": "一緒に",
+   "kana": "いっしょに",
+   "romaji": "issho ni",
+   "en": "together",
+   "gloss": "together",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "一緒に行こうか？",
+     "en": "Do you want to go together?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2233211,
+      "url": "https://tatoeba.org/en/sentences/show/2233211",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "一緒に行こうか？",
+      "translation": "Do you want to go together?"
+     }
+    },
+    {
+     "jp": "一緒に来て。",
+     "en": "Come with me.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10741288,
+      "url": "https://tatoeba.org/en/sentences/show/10741288",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "一緒に来て。",
+      "translation": "Come with me."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "一緒に",
+     "matched": "一緒に【いっしょに】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "together (with)",
+      "at the same time",
+      "in one lump; in the same category"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_eiga",
+   "jp": "映画",
+   "kana": "えいが",
+   "romaji": "eiga",
+   "en": "movie; film",
+   "gloss": "a movie",
+   "pos": "noun",
+   "topic": "friends",
+   "tags": [
+    "hobby"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "映画に行くの？",
+     "en": "Are you going to a movie?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 189331,
+      "url": "https://tatoeba.org/en/sentences/show/189331",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "映画に行くの？",
+      "translation": "Are you going to a movie?"
+     }
+    },
+    {
+     "jp": "好きな映画は何？",
+     "en": "What are your favorite movies?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8617324,
+      "url": "https://tatoeba.org/en/sentences/show/8617324",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "好きな映画は何？",
+      "translation": "What are your favorite movies?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "映画",
+     "matched": "映画【えいが】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "movie; film; motion picture",
+      "Film"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_renrakusaki",
+   "jp": "連絡先",
+   "kana": "れんらくさき",
+   "romaji": "renrakusaki",
+   "en": "contact details",
+   "gloss": "contact details",
+   "pos": "noun",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "連絡先を交換しようよ。",
+     "en": "Let's exchange contact details!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12324531,
+      "url": "https://tatoeba.org/en/sentences/show/12324531",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "連絡先を交換しようよ。",
+      "translation": "Let's exchange contact details!"
+     }
+    },
+    {
+     "jp": "これが私の連絡先です。",
+     "en": "This is my contact information.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12976361,
+      "url": "https://tatoeba.org/en/sentences/show/12976361",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これが私の連絡先です。",
+      "translation": "This is my contact information."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "連絡先",
+     "matched": "連絡先【れんらくさき】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "contact information (address, phone number, etc.)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mata",
+   "jp": "また",
+   "kana": "また",
+   "romaji": "mata",
+   "en": "again; also",
+   "gloss": "again",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "また後で。",
+     "en": "See you later!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 195443,
+      "url": "https://tatoeba.org/en/sentences/show/195443",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "また後で。",
+      "translation": "See you later!"
+     }
+    },
+    {
+     "jp": "また雨だ。",
+     "en": "It's raining again.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 195467,
+      "url": "https://tatoeba.org/en/sentences/show/195467",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "また雨だ。",
+      "translation": "It's raining again."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "また",
+     "matched": "又【また】 (written in kana: また)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "again; once more; once again; another time; some other time",
+      "also; too; as well; likewise",
+      "on the other hand; while",
+      "and; in addition; besides; moreover; furthermore"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Conjunction",
+      "Prefix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kondo",
+   "jp": "今度",
+   "kana": "こんど",
+   "romaji": "kondo",
+   "en": "next time; this time; soon",
+   "gloss": "next time",
+   "pos": "noun",
+   "topic": "friends",
+   "tags": [
+    "time"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今度はいつ会えるの？",
+     "en": "When can we see each other again?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 941193,
+      "url": "https://tatoeba.org/en/sentences/show/941193",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今度はいつ会えるの？",
+      "translation": "When can we see each other again?"
+     }
+    },
+    {
+     "jp": "今度また誘ってよ。",
+     "en": "How about a rain check?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 172084,
+      "url": "https://tatoeba.org/en/sentences/show/172084",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今度また誘ってよ。",
+      "translation": "How about a rain check?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "今度",
+     "matched": "今度【こんど】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "this time; now",
+      "next time; another time; shortly; soon",
+      "recently; lately; the other day"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_hima",
+   "jp": "暇",
+   "kana": "ひま",
+   "romaji": "hima",
+   "en": "free (time); not busy",
+   "gloss": "free",
+   "pos": "na-adj",
+   "adj_class": "na",
+   "takes_suru": true,
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "暇ですか？",
+     "en": "Are you free?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 6537568,
+      "url": "https://tatoeba.org/en/sentences/show/6537568",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "暇ですか？",
+      "translation": "Are you free?"
+     }
+    },
+    {
+     "jp": "今暇です。",
+     "en": "I'm free now.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1115084,
+      "url": "https://tatoeba.org/en/sentences/show/1115084",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今暇です。",
+      "translation": "I'm free now."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "暇",
+     "matched": "暇【ひま】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "spare time; free time; leisure",
+      "time (it takes to do something); time required",
+      "time off; leave; vacation; holiday",
+      "dismissal; firing; severance; divorce"
+     ],
+     "pos": [
+      "Noun",
+      "Na-adjective (keiyodoshi)",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hontou",
+   "jp": "本当",
+   "kana": "ほんとう",
+   "romaji": "hontō",
+   "en": "truth; really",
+   "gloss": "really",
+   "pos": "noun",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "note": "本当? / 本当ですか = really?",
+   "examples": [
+    {
+     "jp": "本当ですか。",
+     "en": "Really?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1585501,
+      "url": "https://tatoeba.org/en/sentences/show/1585501",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "本当ですか。",
+      "translation": "Really?"
+     }
+    },
+    {
+     "jp": "本当だよ！",
+     "en": "It's true!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 628692,
+      "url": "https://tatoeba.org/en/sentences/show/628692",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "本当だよ！",
+      "translation": "It's true!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "本当",
+     "matched": "本当【ほんとう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "truth; reality; actuality; fact",
+      "proper; right; correct; official",
+      "genuine; authentic; real; natural; veritable"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_au",
+   "jp": "会う",
+   "kana": "あう",
+   "romaji": "au",
+   "en": "to meet; to see (a person)",
+   "gloss": "to meet",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "note": "Takes に: 友達に会う.",
+   "examples": [
+    {
+     "jp": "今夜会える？",
+     "en": "Can you meet tonight?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1465210,
+      "url": "https://tatoeba.org/en/sentences/show/1465210",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今夜会える？",
+      "translation": "Can you meet tonight?"
+     }
+    },
+    {
+     "jp": "会いたい。",
+     "en": "I want to see you.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 157454,
+      "url": "https://tatoeba.org/en/sentences/show/157454",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "会いたい。",
+      "translation": "I want to see you."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "会う",
+     "matched": "会う【あう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to meet; to encounter; to see",
+      "to have an accident; to have a bad experience"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_asobu",
+   "jp": "遊ぶ",
+   "kana": "あそぶ",
+   "romaji": "asobu",
+   "en": "to hang out; to play; to have fun",
+   "gloss": "to hang out",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "一緒に遊ぼう。",
+     "en": "Let's play together.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10608951,
+      "url": "https://tatoeba.org/en/sentences/show/10608951",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "一緒に遊ぼう。",
+      "translation": "Let's play together."
+     }
+    },
+    {
+     "jp": "遊びたい！",
+     "en": "I want to play.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11965862,
+      "url": "https://tatoeba.org/en/sentences/show/11965862",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "遊びたい！",
+      "translation": "I want to play."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "遊ぶ",
+     "matched": "遊ぶ【あそぶ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to play (games, sports); to enjoy oneself; to have a good time",
+      "to mess about (with alcohol, gambling, philandery, etc.)",
+      "to be idle; to do nothing; to be unused",
+      "to meet up (with friends); to hang out"
+     ],
+     "pos": [
+      "Godan verb with 'bu' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_shiru",
+   "jp": "知る",
+   "kana": "しる",
+   "romaji": "shiru",
+   "en": "to know; to find out",
+   "gloss": "to know",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "note": "Know = 知っています; don't know = 知りません.",
+   "examples": [
+    {
+     "jp": "知ってるよ。",
+     "en": "I know.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13344749,
+      "url": "https://tatoeba.org/en/sentences/show/13344749",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "知ってるよ。",
+      "translation": "I know."
+     }
+    },
+    {
+     "jp": "知らない。",
+     "en": "I don't know.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4710,
+      "url": "https://tatoeba.org/en/sentences/show/4710",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "知らない。",
+      "translation": "I don't know."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "知る",
+     "matched": "知る【しる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to know; to be aware (of); to be conscious (of); to learn (of); to find out; to discover",
+      "to sense; to feel; to notice; to realize",
+      "to understand; to comprehend; to grasp; to appreciate",
+      "to remember; to be familiar with; to be acquainted with"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_nomikai",
+   "jp": "飲み会",
+   "kana": "のみかい",
+   "romaji": "nomikai",
+   "en": "drinking party; get-together",
+   "gloss": "a drinking party",
+   "pos": "noun",
+   "topic": "friends",
+   "tags": [
+    "activity"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "飲み会",
+     "matched": "飲み会【のみかい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "drinking party; get-together (usu. involving alcoholic drinks)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kanpai",
+   "jp": "乾杯",
+   "kana": "かんぱい",
+   "romaji": "kanpai",
+   "en": "cheers! (toast)",
+   "gloss": "cheers",
+   "pos": "expression",
+   "takes_suru": true,
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "乾杯",
+     "matched": "乾杯【かんぱい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "cheers; bottoms-up; prosit",
+      "toast; drink (in honor or celebration of someone or something)",
+      "drinking one's glass dry",
+      "Toast (honor)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_denwa",
+   "jp": "電話",
+   "kana": "でんわ",
+   "romaji": "denwa",
+   "en": "telephone; phone call",
+   "gloss": "a phone call",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "電話するよ。",
+     "en": "I'll phone you.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3583337,
+      "url": "https://tatoeba.org/en/sentences/show/3583337",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "電話するよ。",
+      "translation": "I'll phone you."
+     }
+    },
+    {
+     "jp": "後で電話して！",
+     "en": "Call me later.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 874000,
+      "url": "https://tatoeba.org/en/sentences/show/874000",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "後で電話して！",
+      "translation": "Call me later."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電話",
+     "matched": "電話【でんわ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "telephone call; phone call",
+      "telephone (device); phone",
+      "Telephony"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_bangou",
+   "jp": "番号",
+   "kana": "ばんごう",
+   "romaji": "bangō",
+   "en": "number",
+   "gloss": "number",
+   "pos": "noun",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "電話番号を教えて。",
+     "en": "Can you give me your phone number?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 124619,
+      "url": "https://tatoeba.org/en/sentences/show/124619",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "電話番号を教えて。",
+      "translation": "Can you give me your phone number?"
+     }
+    },
+    {
+     "jp": "番号が違いますよ。",
+     "en": "You have the wrong number.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 121175,
+      "url": "https://tatoeba.org/en/sentences/show/121175",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "番号が違いますよ。",
+      "translation": "You have the wrong number."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "番号",
+     "matched": "番号【ばんごう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "number; series of digits"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ongaku",
+   "jp": "音楽",
+   "kana": "おんがく",
+   "romaji": "ongaku",
+   "en": "music",
+   "gloss": "music",
+   "pos": "noun",
+   "topic": "friends",
+   "tags": [
+    "hobby"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "音楽が好きです。",
+     "en": "I like music.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13254283,
+      "url": "https://tatoeba.org/en/sentences/show/13254283",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "音楽が好きです。",
+      "translation": "I like music."
+     }
+    },
+    {
+     "jp": "音楽を聴きたい？",
+     "en": "Do you want to listen to music?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9608080,
+      "url": "https://tatoeba.org/en/sentences/show/9608080",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "音楽を聴きたい？",
+      "translation": "Do you want to listen to music?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "音楽",
+     "matched": "音楽【おんがく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "music",
+      "Music"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_shashin",
+   "jp": "写真",
+   "kana": "しゃしん",
+   "romaji": "shashin",
+   "en": "photo; photograph",
+   "gloss": "a photo",
+   "pos": "noun",
+   "topic": "friends",
+   "tags": [
+    "hobby"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "写真見せて。",
+     "en": "Show me the photo.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2231002,
+      "url": "https://tatoeba.org/en/sentences/show/2231002",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "写真見せて。",
+      "translation": "Show me the photo."
+     }
+    },
+    {
+     "jp": "写真は見た？",
+     "en": "Did you see the picture?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10630203,
+      "url": "https://tatoeba.org/en/sentences/show/10630203",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "写真は見た？",
+      "translation": "Did you see the picture?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "写真",
+     "matched": "写真【しゃしん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "photograph; photo; picture; photography",
+      "moving picture; movie",
+      "Photography"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ryokou",
+   "jp": "旅行",
+   "kana": "りょこう",
+   "romaji": "ryokō",
+   "en": "trip; travel",
+   "gloss": "a trip",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "friends",
+   "tags": [
+    "hobby",
+    "activity"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "旅行は好き？",
+     "en": "Do you like traveling?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3309201,
+      "url": "https://tatoeba.org/en/sentences/show/3309201",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "旅行は好き？",
+      "translation": "Do you like traveling?"
+     }
+    },
+    {
+     "jp": "旅行どうでした？",
+     "en": "How was your trip?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4751196,
+      "url": "https://tatoeba.org/en/sentences/show/4751196",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "旅行どうでした？",
+      "translation": "How was your trip?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "旅行",
+     "matched": "旅行【りょこう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "travel; trip; journey; excursion; tour",
+      "Travel"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kafe",
+   "jp": "カフェ",
+   "kana": "カフェ",
+   "romaji": "kafe",
+   "en": "café",
+   "gloss": "a café",
+   "pos": "noun",
+   "topic": "friends",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "カフェがありますか。",
+     "en": "Is there a cafe?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 226240,
+      "url": "https://tatoeba.org/en/sentences/show/226240",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "カフェがありますか。",
+      "translation": "Is there a cafe?"
+     }
+    },
+    {
+     "jp": "カフェはもう閉まってるよ。",
+     "en": "The cafe is already closed.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11737665,
+      "url": "https://tatoeba.org/en/sentences/show/11737665",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "カフェはもう閉まってるよ。",
+      "translation": "The cafe is already closed."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "カフェ",
+     "matched": "【カフェ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "café; cafe; coffeehouse",
+      "hostess bar (serving western alcoholic beverages; Taisho and Showa period)",
+      "Café"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_izakaya",
+   "jp": "居酒屋",
+   "kana": "いざかや",
+   "romaji": "izakaya",
+   "en": "izakaya; Japanese pub",
+   "gloss": "an izakaya",
+   "pos": "noun",
+   "topic": "friends",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "居酒屋",
+     "matched": "居酒屋【いざかや】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "izakaya; tavern, bar, etc. that also serves various dishes and snacks",
+      "Izakaya"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_matsuri",
+   "jp": "祭り",
+   "kana": "まつり",
+   "romaji": "matsuri",
+   "en": "festival",
+   "gloss": "a festival",
+   "pos": "noun",
+   "topic": "friends",
+   "tags": [
+    "activity"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "祭り",
+     "matched": "祭り【まつり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "festival; feast; matsuri",
+      "harassment by an Internet pitchfork mob; online shaming; flaming",
+      "galore (as in \"goals galore\"); frenzy; mania",
+      "Japanese festivals"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a suffix",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_yakusoku",
+   "jp": "約束",
+   "kana": "やくそく",
+   "romaji": "yakusoku",
+   "en": "promise; plans; appointment",
+   "gloss": "plans",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "friends",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "約束",
+     "matched": "約束【やくそく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "promise; agreement; arrangement; one's word; contract; pact",
+      "appointment; engagement; date",
+      "convention; rule",
+      "destiny; fate"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_jaane",
+   "jp": "じゃあね",
+   "kana": "じゃあね",
+   "romaji": "jā ne",
+   "en": "see you; bye (casual)",
+   "gloss": "see you",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "casual",
+   "examples": [
+    {
+     "jp": "じゃあね！",
+     "en": "See you later!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 778284,
+      "url": "https://tatoeba.org/en/sentences/show/778284",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "じゃあね！",
+      "translation": "See you later!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "じゃあね",
+     "matched": "【じゃあね】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "see you; bye; ciao"
+     ],
+     "pos": [],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_matane",
+   "jp": "またね",
+   "kana": "またね",
+   "romaji": "mata ne",
+   "en": "See you later!",
+   "gloss": "See you later!",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "casual",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 360557,
+     "url": "https://tatoeba.org/en/sentences/show/360557",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "またね！",
+     "translation": "See you later!"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "また",
+     "matched": "又【また】 (written in kana: また)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "again; once more; once again; another time; some other time",
+      "also; too; as well; likewise",
+      "on the other hand; while",
+      "and; in addition; besides; moreover; furthermore"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Conjunction",
+      "Prefix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_issho_ikimasenka",
+   "jp": "一緒に行きませんか",
+   "kana": "いっしょにいきませんか",
+   "romaji": "issho ni ikimasen ka",
+   "en": "Won't you come with me?",
+   "gloss": "Won't you come with me?",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "A polite invitation: ~ませんか = \"won't you ~?\"",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 190530,
+     "url": "https://tatoeba.org/en/sentences/show/190530",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "一緒に行きませんか。",
+     "translation": "Won't you come with me?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "一緒に",
+     "matched": "一緒に【いっしょに】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "together (with)",
+      "at the same time",
+      "in one lump; in the same category"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "行く",
+     "matched": "行く【いく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to go; to move (towards); to head (towards); to leave (for)",
+      "to move through; to travel across; to walk along (e.g. a road)",
+      "to go (well, badly, etc.); to proceed; to turn out; to get along",
+      "to do (in a particular way); to go (with; a choice); to try"
+     ],
+     "pos": [
+      "Godan verb - Iku/Yuku special class",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_nani_shiteru",
+   "jp": "何してるの",
+   "kana": "なにしてるの",
+   "romaji": "nani shiteru no",
+   "en": "What are you doing?",
+   "gloss": "What are you doing?",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "casual",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 4704,
+     "url": "https://tatoeba.org/en/sentences/show/4704",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "何してるの？",
+     "translation": "What are you doing?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何",
+     "matched": "何【なに】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "what",
+      "you-know-what; that thing",
+      "whatsit; whachamacallit; what's-his-name; what's-her-name",
+      "penis; (one's) thing; dick"
+     ],
+     "pos": [
+      "Pronoun",
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "する",
+     "matched": "為る【する】 (written in kana: する)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to do; to carry out; to perform",
+      "to cause to become; to make (into); to turn (into)",
+      "to serve as; to act as; to work as",
+      "to wear (clothes, a facial expression, etc.)"
+     ],
+     "pos": [
+      "Suru verb - included",
+      "Intransitive verb",
+      "Transitive verb",
+      "Suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

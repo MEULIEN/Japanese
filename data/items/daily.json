@@ -1,0 +1,1908 @@
+{
+ "topic": "daily",
+ "items": [
+  {
+   "id": "v_iku",
+   "jp": "行く",
+   "kana": "いく",
+   "romaji": "iku",
+   "en": "to go",
+   "gloss": "to go",
+   "pos": "verb",
+   "verb_class": "iku",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "行きたい。",
+     "en": "I want to go.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13243133,
+      "url": "https://tatoeba.org/en/sentences/show/13243133",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "行きたい。",
+      "translation": "I want to go."
+     }
+    },
+    {
+     "jp": "すぐ行くよ！",
+     "en": "Coming!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11508925,
+      "url": "https://tatoeba.org/en/sentences/show/11508925",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "すぐ行くよ！",
+      "translation": "Coming!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "行く",
+     "matched": "行く【いく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to go; to move (towards); to head (towards); to leave (for)",
+      "to move through; to travel across; to walk along (e.g. a road)",
+      "to go (well, badly, etc.); to proceed; to turn out; to get along",
+      "to do (in a particular way); to go (with; a choice); to try"
+     ],
+     "pos": [
+      "Godan verb - Iku/Yuku special class",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_kuru",
+   "jp": "来る",
+   "kana": "くる",
+   "romaji": "kuru",
+   "en": "to come",
+   "gloss": "to come",
+   "pos": "verb",
+   "verb_class": "kuru",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "すぐ来て。",
+     "en": "Come soon.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 7429277,
+      "url": "https://tatoeba.org/en/sentences/show/7429277",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "すぐ来て。",
+      "translation": "Come soon."
+     }
+    },
+    {
+     "jp": "誰か来る。",
+     "en": "Someone's coming.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11610218,
+      "url": "https://tatoeba.org/en/sentences/show/11610218",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "誰か来る。",
+      "translation": "Someone's coming."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "来る",
+     "matched": "来る【くる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to come (spatially or temporally); to approach; to arrive",
+      "to come back; to do ... and come back",
+      "to come to be; to become; to get; to grow; to continue",
+      "to come from; to be caused by; to derive from"
+     ],
+     "pos": [
+      "Kuru verb - special class",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_suru",
+   "jp": "する",
+   "kana": "する",
+   "romaji": "suru",
+   "en": "to do",
+   "gloss": "to do",
+   "pos": "verb",
+   "verb_class": "suru",
+   "topic": "daily",
+   "obj": [
+    "activity"
+   ],
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "する",
+     "matched": "為る【する】 (written in kana: する)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to do; to carry out; to perform",
+      "to cause to become; to make (into); to turn (into)",
+      "to serve as; to act as; to work as",
+      "to wear (clothes, a facial expression, etc.)"
+     ],
+     "pos": [
+      "Suru verb - included",
+      "Intransitive verb",
+      "Transitive verb",
+      "Suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_benkyousuru",
+   "jp": "勉強する",
+   "kana": "べんきょうする",
+   "romaji": "benkyō suru",
+   "en": "to study",
+   "gloss": "to study",
+   "pos": "verb",
+   "verb_class": "suru",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "勉強してるの？",
+     "en": "Are you studying?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9495578,
+      "url": "https://tatoeba.org/en/sentences/show/9495578",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "勉強してるの？",
+      "translation": "Are you studying?"
+     }
+    },
+    {
+     "jp": "勉強したくない。",
+     "en": "I don't want to study.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12528432,
+      "url": "https://tatoeba.org/en/sentences/show/12528432",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "勉強したくない。",
+      "translation": "I don't want to study."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "勉強する",
+     "matched": "勉強【べんきょう】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "study",
+      "diligence; working hard",
+      "experience; knowledge; lesson (for the future)",
+      "discount; price reduction"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_miru",
+   "jp": "見る",
+   "kana": "みる",
+   "romaji": "miru",
+   "en": "to see; to look at; to watch",
+   "gloss": "to watch",
+   "pos": "verb",
+   "verb_class": "ichidan",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "アニメ見る？",
+     "en": "Do you watch anime?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13250220,
+      "url": "https://tatoeba.org/en/sentences/show/13250220",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "アニメ見る？",
+      "translation": "Do you watch anime?"
+     }
+    },
+    {
+     "jp": "これ見てよ！",
+     "en": "Look at this.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10974601,
+      "url": "https://tatoeba.org/en/sentences/show/10974601",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これ見てよ！",
+      "translation": "Look at this."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "見る",
+     "matched": "見る【みる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to see; to look; to watch; to view; to observe",
+      "to examine; to look over; to assess; to check; to judge",
+      "to look after; to attend to; to take care of; to keep an eye on",
+      "to experience; to meet with (misfortune, success, etc.)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_okiru",
+   "jp": "起きる",
+   "kana": "おきる",
+   "romaji": "okiru",
+   "en": "to get up; to wake up",
+   "gloss": "to get up",
+   "pos": "verb",
+   "verb_class": "ichidan",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "いつ起きたの？",
+     "en": "When did you get up?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9041860,
+      "url": "https://tatoeba.org/en/sentences/show/9041860",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いつ起きたの？",
+      "translation": "When did you get up?"
+     }
+    },
+    {
+     "jp": "起きてるよ。",
+     "en": "I'm awake.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1233800,
+      "url": "https://tatoeba.org/en/sentences/show/1233800",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "起きてるよ。",
+      "translation": "I'm awake."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "起きる",
+     "matched": "起きる【おきる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to get up; to rise; to blaze up (fire)",
+      "to wake up; to be awake; to stay awake",
+      "to occur (usu. of unfavourable incidents); to happen; to take place"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_neru",
+   "jp": "寝る",
+   "kana": "ねる",
+   "romaji": "neru",
+   "en": "to sleep; to go to bed",
+   "gloss": "to sleep",
+   "pos": "verb",
+   "verb_class": "ichidan",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "よく寝た？",
+     "en": "Did you sleep well?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10125459,
+      "url": "https://tatoeba.org/en/sentences/show/10125459",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "よく寝た？",
+      "translation": "Did you sleep well?"
+     }
+    },
+    {
+     "jp": "早く寝た。",
+     "en": "I went to bed early.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8613816,
+      "url": "https://tatoeba.org/en/sentences/show/8613816",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "早く寝た。",
+      "translation": "I went to bed early."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "寝る",
+     "matched": "寝る【ねる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to sleep (lying down)",
+      "to go to bed; to lie in bed",
+      "to lie down",
+      "to sleep (with someone, i.e. have intercourse)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_kiru",
+   "jp": "着る",
+   "kana": "きる",
+   "romaji": "kiru",
+   "en": "to wear; to put on (clothes)",
+   "gloss": "to wear",
+   "pos": "verb",
+   "verb_class": "ichidan",
+   "topic": "daily",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "着る",
+     "matched": "着る【きる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to wear (from the shoulders down); to put on",
+      "to take (the blame, responsibility); to bear"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_kaeru",
+   "jp": "帰る",
+   "kana": "かえる",
+   "romaji": "kaeru",
+   "en": "to go home; to return",
+   "gloss": "to go home",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "家に帰るの？",
+     "en": "Are you going home?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8699812,
+      "url": "https://tatoeba.org/en/sentences/show/8699812",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "家に帰るの？",
+      "translation": "Are you going home?"
+     }
+    },
+    {
+     "jp": "今から帰る？",
+     "en": "Are you going back now?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4521738,
+      "url": "https://tatoeba.org/en/sentences/show/4521738",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今から帰る？",
+      "translation": "Are you going back now?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "帰る",
+     "matched": "帰る【かえる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to return; to come home; to go home; to go back",
+      "to leave (of a guest, customer, etc.)",
+      "to get home; to get to home plate"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_hairu",
+   "jp": "入る",
+   "kana": "はいる",
+   "romaji": "hairu",
+   "en": "to enter; to go in",
+   "gloss": "to go in",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "note": "お風呂に入る = to take a bath.",
+   "examples": [
+    {
+     "jp": "入りますか？",
+     "en": "Are you going in?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 6619665,
+      "url": "https://tatoeba.org/en/sentences/show/6619665",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "入りますか？",
+      "translation": "Are you going in?"
+     }
+    },
+    {
+     "jp": "中に入ったら？",
+     "en": "Why don't you come inside?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12484355,
+      "url": "https://tatoeba.org/en/sentences/show/12484355",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "中に入ったら？",
+      "translation": "Why don't you come inside?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "入る",
+     "matched": "入る【はいる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to enter; to come in; to go in; to get in; to arrive",
+      "to join (a club, company, etc.); to enter (a university, the army, etc.); to enroll (in); to go into (e.g. politics); to get into",
+      "to be contained (in); to be included (in); to be inside (e.g. a box); to come under (a heading); to belong (in a category)",
+      "to (be able to) fit (in a container, building, etc.); to be (able to be) held; to be (able to be) accommodated"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_matsu",
+   "jp": "待つ",
+   "kana": "まつ",
+   "romaji": "matsu",
+   "en": "to wait",
+   "gloss": "to wait",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "待てますか？",
+     "en": "Can you wait?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10335477,
+      "url": "https://tatoeba.org/en/sentences/show/10335477",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "待てますか？",
+      "translation": "Can you wait?"
+     }
+    },
+    {
+     "jp": "何待ってるの？",
+     "en": "What are you waiting for?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3552424,
+      "url": "https://tatoeba.org/en/sentences/show/3552424",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何待ってるの？",
+      "translation": "What are you waiting for?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "待つ",
+     "matched": "待つ【まつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to wait",
+      "to await; to look forward to; to anticipate",
+      "to depend on; to need"
+     ],
+     "pos": [
+      "Godan verb with 'tsu' ending",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_motsu",
+   "jp": "持つ",
+   "kana": "もつ",
+   "romaji": "motsu",
+   "en": "to hold; to carry; to have",
+   "gloss": "to have",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "これ持って。",
+     "en": "Hold this.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11093841,
+      "url": "https://tatoeba.org/en/sentences/show/11093841",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これ持って。",
+      "translation": "Hold this."
+     }
+    },
+    {
+     "jp": "辞書持ってる？",
+     "en": "Do you have a dictionary?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12160583,
+      "url": "https://tatoeba.org/en/sentences/show/12160583",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "辞書持ってる？",
+      "translation": "Do you have a dictionary?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "持つ",
+     "matched": "持つ【もつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to hold (in one's hand); to take; to carry",
+      "to possess; to have; to own",
+      "to maintain; to keep",
+      "to last; to be durable; to keep; to survive"
+     ],
+     "pos": [
+      "Godan verb with 'tsu' ending",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_kaku",
+   "jp": "書く",
+   "kana": "かく",
+   "romaji": "kaku",
+   "en": "to write",
+   "gloss": "to write",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "手紙は書いたの？",
+     "en": "Did you write a letter?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12674138,
+      "url": "https://tatoeba.org/en/sentences/show/12674138",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "手紙は書いたの？",
+      "translation": "Did you write a letter?"
+     }
+    },
+    {
+     "jp": "何書いてるの？",
+     "en": "What are you writing?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3552889,
+      "url": "https://tatoeba.org/en/sentences/show/3552889",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何書いてるの？",
+      "translation": "What are you writing?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "書く",
+     "matched": "書く【かく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to write; to compose; to pen",
+      "to draw; to paint"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_kiku",
+   "jp": "聞く",
+   "kana": "きく",
+   "romaji": "kiku",
+   "en": "to hear; to listen; to ask",
+   "gloss": "to listen",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "値段聞いた？",
+     "en": "Did you ask the price?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2290110,
+      "url": "https://tatoeba.org/en/sentences/show/2290110",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "値段聞いた？",
+      "translation": "Did you ask the price?"
+     }
+    },
+    {
+     "jp": "聞いてた？",
+     "en": "Were you listening?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8692060,
+      "url": "https://tatoeba.org/en/sentences/show/8692060",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "聞いてた？",
+      "translation": "Were you listening?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "聞く",
+     "matched": "聞く【きく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to hear",
+      "to listen (e.g. to music)",
+      "to ask; to enquire; to query",
+      "to hear about; to hear of; to learn of"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_yomu",
+   "jp": "読む",
+   "kana": "よむ",
+   "romaji": "yomu",
+   "en": "to read",
+   "gloss": "to read",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "これ読んだ？",
+     "en": "Did you read this?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12453522,
+      "url": "https://tatoeba.org/en/sentences/show/12453522",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これ読んだ？",
+      "translation": "Did you read this?"
+     }
+    },
+    {
+     "jp": "何読んでるの？",
+     "en": "What are you reading?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2871761,
+      "url": "https://tatoeba.org/en/sentences/show/2871761",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何読んでるの？",
+      "translation": "What are you reading?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "読む",
+     "matched": "読む【よむ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to read",
+      "to recite (e.g. a sutra); to chant",
+      "to predict; to guess; to forecast; to read (someone's thoughts); to see (e.g. into someone's heart); to divine",
+      "to pronounce; to read (e.g. a kanji)"
+     ],
+     "pos": [
+      "Godan verb with 'mu' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_oyogu",
+   "jp": "泳ぐ",
+   "kana": "およぐ",
+   "romaji": "oyogu",
+   "en": "to swim",
+   "gloss": "to swim",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "daily",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "泳ぐ",
+     "matched": "泳ぐ【およぐ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to swim",
+      "to struggle through (a crowd)",
+      "to make one's way through the world; to get along (in life)",
+      "to totter; to lose one's balance"
+     ],
+     "pos": [
+      "Godan verb with 'gu' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_shinu",
+   "jp": "死ぬ",
+   "kana": "しぬ",
+   "romaji": "shinu",
+   "en": "to die",
+   "gloss": "to die",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "daily",
+   "tier": 3,
+   "use": "say",
+   "lesson": false,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "死ぬ",
+     "matched": "死ぬ【しぬ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to die; to pass away",
+      "to lose spirit; to lose vigor; to look dead",
+      "to cease; to stop"
+     ],
+     "pos": [
+      "Godan verb with 'nu' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_tsukuru",
+   "jp": "作る",
+   "kana": "つくる",
+   "romaji": "tsukuru",
+   "en": "to make; to cook",
+   "gloss": "to make",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "daily",
+   "obj": [
+    "food"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "夕飯、作るね。",
+     "en": "I'll make dinner.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12461975,
+      "url": "https://tatoeba.org/en/sentences/show/12461975",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "夕飯、作るね。",
+      "translation": "I'll make dinner."
+     }
+    },
+    {
+     "jp": "何作ってるの？",
+     "en": "What are you making?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3552880,
+      "url": "https://tatoeba.org/en/sentences/show/3552880",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何作ってるの？",
+      "translation": "What are you making?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "作る",
+     "matched": "作る【つくる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to make; to produce; to manufacture; to build; to construct",
+      "to prepare (food); to brew (alcohol)",
+      "to raise; to grow; to cultivate; to train",
+      "to till"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kaimono",
+   "jp": "買い物",
+   "kana": "かいもの",
+   "romaji": "kaimono",
+   "en": "shopping",
+   "gloss": "shopping",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "daily",
+   "tags": [
+    "activity"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "毎朝買い物をします。",
+     "en": "I go shopping every morning.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1478780,
+      "url": "https://tatoeba.org/en/sentences/show/1478780",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "毎朝買い物をします。",
+      "translation": "I go shopping every morning."
+     }
+    },
+    {
+     "jp": "買い物に行ってくる。",
+     "en": "I'm going shopping.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11256176,
+      "url": "https://tatoeba.org/en/sentences/show/11256176",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "買い物に行ってくる。",
+      "translation": "I'm going shopping."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "買い物",
+     "matched": "買い物【かいもの】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "shopping; purchased goods",
+      "Shopping"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ryouri",
+   "jp": "料理",
+   "kana": "りょうり",
+   "romaji": "ryōri",
+   "en": "cooking; cuisine",
+   "gloss": "cooking",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "daily",
+   "tags": [
+    "activity",
+    "hobby"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "料理は苦手です。",
+     "en": "I'm not good at cooking.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10540385,
+      "url": "https://tatoeba.org/en/sentences/show/10540385",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "料理は苦手です。",
+      "translation": "I'm not good at cooking."
+     }
+    },
+    {
+     "jp": "料理は得意？",
+     "en": "Are you a good cook?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8796775,
+      "url": "https://tatoeba.org/en/sentences/show/8796775",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "料理は得意？",
+      "translation": "Are you a good cook?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "料理",
+     "matched": "料理【りょうり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "cooking; cookery; cuisine; food; dish",
+      "dealing with (skillfully); handling (well); managing",
+      "Cuisine"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_souji",
+   "jp": "掃除",
+   "kana": "そうじ",
+   "romaji": "sōji",
+   "en": "cleaning",
+   "gloss": "cleaning",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "daily",
+   "tags": [
+    "activity"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今日部屋の掃除をした？",
+     "en": "Did you clean your room today?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 872707,
+      "url": "https://tatoeba.org/en/sentences/show/872707",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今日部屋の掃除をした？",
+      "translation": "Did you clean your room today?"
+     }
+    },
+    {
+     "jp": "掃除、手伝ってよ。",
+     "en": "Help me clean up.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10553461,
+      "url": "https://tatoeba.org/en/sentences/show/10553461",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "掃除、手伝ってよ。",
+      "translation": "Help me clean up."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "掃除",
+     "matched": "掃除【そうじ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "cleaning; sweeping; dusting; scrubbing",
+      "Cleanliness"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_sentaku",
+   "jp": "洗濯",
+   "kana": "せんたく",
+   "romaji": "sentaku",
+   "en": "washing; laundry",
+   "gloss": "laundry",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "daily",
+   "tags": [
+    "activity"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今日は、洗濯した？",
+     "en": "Did you do your laundry today?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11795601,
+      "url": "https://tatoeba.org/en/sentences/show/11795601",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今日は、洗濯した？",
+      "translation": "Did you do your laundry today?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "洗濯",
+     "matched": "洗濯【せんたく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "washing; laundry",
+      "relaxation; rejuvenation; melting away (of worries, fatigue, etc.)",
+      "Laundry"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_sanpo",
+   "jp": "散歩",
+   "kana": "さんぽ",
+   "romaji": "sanpo",
+   "en": "walk; stroll",
+   "gloss": "a walk",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "daily",
+   "tags": [
+    "activity",
+    "hobby"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "散歩しませんか？",
+     "en": "Do you want to take a walk?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8649693,
+      "url": "https://tatoeba.org/en/sentences/show/8649693",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "散歩しませんか？",
+      "translation": "Do you want to take a walk?"
+     }
+    },
+    {
+     "jp": "散歩をした。",
+     "en": "I went for a walk.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 169326,
+      "url": "https://tatoeba.org/en/sentences/show/169326",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "散歩をした。",
+      "translation": "I went for a walk."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "散歩",
+     "matched": "散歩【さんぽ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "walk; stroll",
+      "Strolling"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ofuro",
+   "jp": "お風呂",
+   "kana": "おふろ",
+   "romaji": "ofuro",
+   "en": "bath",
+   "gloss": "a bath",
+   "pos": "noun",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "毎日お風呂に入るよ。",
+     "en": "I bathe every day.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12146793,
+      "url": "https://tatoeba.org/en/sentences/show/12146793",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "毎日お風呂に入るよ。",
+      "translation": "I bathe every day."
+     }
+    },
+    {
+     "jp": "お風呂沸いてる？",
+     "en": "Is the bath ready?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 226694,
+      "url": "https://tatoeba.org/en/sentences/show/226694",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お風呂沸いてる？",
+      "translation": "Is the bath ready?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お風呂",
+     "matched": "お風呂【おふろ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "bath"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_asagohan",
+   "jp": "朝ご飯",
+   "kana": "あさごはん",
+   "romaji": "asagohan",
+   "en": "breakfast",
+   "gloss": "breakfast",
+   "pos": "noun",
+   "topic": "daily",
+   "tags": [
+    "food"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今日はもう朝ご飯食べた？",
+     "en": "Have you eaten breakfast today?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11153051,
+      "url": "https://tatoeba.org/en/sentences/show/11153051",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今日はもう朝ご飯食べた？",
+      "translation": "Have you eaten breakfast today?"
+     }
+    },
+    {
+     "jp": "朝ご飯は何がいい？",
+     "en": "What do you want for breakfast?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2225443,
+      "url": "https://tatoeba.org/en/sentences/show/2225443",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "朝ご飯は何がいい？",
+      "translation": "What do you want for breakfast?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "朝ご飯",
+     "matched": "朝ご飯【あさごはん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "breakfast"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hirugohan",
+   "jp": "昼ご飯",
+   "kana": "ひるごはん",
+   "romaji": "hirugohan",
+   "en": "lunch",
+   "gloss": "lunch",
+   "pos": "noun",
+   "topic": "daily",
+   "tags": [
+    "food"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "お昼ご飯、何がいい？",
+     "en": "What do you want for lunch?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10077664,
+      "url": "https://tatoeba.org/en/sentences/show/10077664",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お昼ご飯、何がいい？",
+      "translation": "What do you want for lunch?"
+     }
+    },
+    {
+     "jp": "もうお昼ご飯は食べました。",
+     "en": "I have already eaten lunch.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1276119,
+      "url": "https://tatoeba.org/en/sentences/show/1276119",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "もうお昼ご飯は食べました。",
+      "translation": "I have already eaten lunch."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "昼ご飯",
+     "matched": "昼ご飯【ひるごはん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "lunch; midday meal"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_bangohan",
+   "jp": "晩ご飯",
+   "kana": "ばんごはん",
+   "romaji": "bangohan",
+   "en": "dinner; evening meal",
+   "gloss": "dinner",
+   "pos": "noun",
+   "topic": "daily",
+   "tags": [
+    "food"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "晩ご飯は何？",
+     "en": "What's for dinner?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2385251,
+      "url": "https://tatoeba.org/en/sentences/show/2385251",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "晩ご飯は何？",
+      "translation": "What's for dinner?"
+     }
+    },
+    {
+     "jp": "晩ご飯は食べた？",
+     "en": "Have you had dinner?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8996889,
+      "url": "https://tatoeba.org/en/sentences/show/8996889",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "晩ご飯は食べた？",
+      "translation": "Have you had dinner?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "晩ご飯",
+     "matched": "晩ご飯【ばんごはん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "dinner; evening meal"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ie",
+   "jp": "家",
+   "kana": "いえ",
+   "romaji": "ie",
+   "en": "house; home",
+   "gloss": "home",
+   "pos": "noun",
+   "topic": "daily",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "note": "Also read うち (one's home).",
+   "examples": [
+    {
+     "jp": "家にいる。",
+     "en": "I'm at home.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4864642,
+      "url": "https://tatoeba.org/en/sentences/show/4864642",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "家にいる。",
+      "translation": "I'm at home."
+     }
+    },
+    {
+     "jp": "大きな家ね。",
+     "en": "It's a big house.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13089110,
+      "url": "https://tatoeba.org/en/sentences/show/13089110",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "大きな家ね。",
+      "translation": "It's a big house."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "家",
+     "matched": "家【いえ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "house; residence; dwelling; home",
+      "family; household",
+      "lineage; family name"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hon",
+   "jp": "本",
+   "kana": "ほん",
+   "romaji": "hon",
+   "en": "book",
+   "gloss": "a book",
+   "pos": "noun",
+   "topic": "daily",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "いい本だ。",
+     "en": "It's a good book.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4561578,
+      "url": "https://tatoeba.org/en/sentences/show/4561578",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いい本だ。",
+      "translation": "It's a good book."
+     }
+    },
+    {
+     "jp": "あなたの本？",
+     "en": "Is the book yours?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11029625,
+      "url": "https://tatoeba.org/en/sentences/show/11029625",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "あなたの本？",
+      "translation": "Is the book yours?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "本",
+     "matched": "本【ほん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "book; volume; script",
+      "this; present; current; ... in question; ... at issue",
+      "main; head; principal",
+      "real; genuine; regular; proper"
+     ],
+     "pos": [
+      "Noun",
+      "Prefix",
+      "Counter"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_tadaima",
+   "jp": "ただいま",
+   "kana": "ただいま",
+   "romaji": "tadaima",
+   "en": "I'm home; I'm back",
+   "gloss": "I'm home",
+   "pos": "expression",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ただいま",
+     "matched": "只今【ただいま】 (written in kana: ただいま)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "I'm home!; I'm back!; it's me!",
+      "now; at present; at the moment",
+      "just now; a moment ago",
+      "at once; right away; in a minute; shortly; soon"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_ittekimasu",
+   "jp": "行ってきます",
+   "kana": "いってきます",
+   "romaji": "itte kimasu",
+   "en": "I'm off; see you later (said when leaving home)",
+   "gloss": "I'm off",
+   "pos": "expression",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "行ってきます",
+     "matched": "行ってきます【いってきます】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "I'm off (and will be back later); see you later"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

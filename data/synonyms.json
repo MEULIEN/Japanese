@@ -1,0 +1,13 @@
+{
+ "about": "Groups of items that are interchangeable answers to a meaning→Japanese prompt. Reviewed by hand against the JMdict senses recorded on each item. Used two ways: (1) a typed answer from the same group is accepted (with a note naming the word being practised); (2) members of a group are never used as each other's distractors. Register differences are noted; meaningful distinctions (暑い/辛い, 寒い/冷たい, そこ/あそこ) are deliberately NOT grouped.",
+ "groups": [
+  { "ids": ["s_otearai", "w_toire"], "note": "お手洗い is a little more polite; both mean toilet/restroom." },
+  { "ids": ["t_otearai_doko", "x_toire_doko"], "note": "Same question; お手洗い is a little more polite." },
+  { "ids": ["x_ikura_desuka", "x_kore_ikura"], "note": "これは only makes the 'this' explicit." },
+  { "ids": ["t_mouichido", "x_mouichido_itte"], "note": "Both ask someone to repeat." },
+  { "ids": ["w_ban", "w_yoru"], "note": "Both evening/night; 夜 is the everyday word, 晩 a little more 'evening'." },
+  { "ids": ["t_sumimasen", "w_gomennasai"], "note": "Both apologise; ごめんなさい is more personal/casual and not used to get attention." },
+  { "ids": ["w_chikaku", "w_kinjo"], "note": "Both can mean the neighbourhood / nearby." },
+  { "ids": ["w_hiru", "w_hirugohan"], "note": "昼 is commonly used to mean lunch (昼ご飯)." }
+ ]
+}

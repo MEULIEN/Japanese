@@ -91,6 +91,11 @@
       if (!C.byTopic[it.topic]) { C.byTopic[it.topic] = [it]; if (!C.topicById[it.topic]) { const t = { id: it.topic, name: it.topic, icon: '•', order: 999, prereq: [], patterns: [] }; C.topics.push(t); C.topicById[t.id] = t; } }
       for (const tag of it.tags || []) (C.byTag[tag] = C.byTag[tag] || []).push(it);
     }
+    // Interchangeable answers (reviewed groups in synonyms.json).
+    for (const grp of (docs.synonyms && docs.synonyms.groups) || []) {
+      const ids = grp.ids.filter(id => C.byId[id]);
+      for (const id of ids) C.byId[id].synonyms = Array.from(new Set((C.byId[id].synonyms || []).concat(ids.filter(x => x !== id))));
+    }
     for (const g of (docs.grammar && docs.grammar.patterns) || []) {
       if (g.status !== 'verified' || !g.sources || !g.sources.length) { C.skipped.push({ id: g.id, why: 'pattern-not-verified' }); continue; }
       C.grammar.push(g); C.grammarById[g.id] = g;

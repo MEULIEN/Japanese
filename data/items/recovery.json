@@ -1,0 +1,1052 @@
+{
+ "topic": "recovery",
+ "items": [
+  {
+   "id": "w_mono",
+   "jp": "もの",
+   "kana": "もの",
+   "romaji": "mono",
+   "en": "thing; object",
+   "gloss": "thing",
+   "pos": "noun",
+   "topic": "recovery",
+   "tier": 1,
+   "use": "say",
+   "accept": [
+    "物"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "もの",
+     "matched": "【モノ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "thing; object; article; stuff; substance",
+      "one's things; possessions; property; belongings",
+      "things; something; anything; everything; nothing",
+      "quality"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a suffix",
+      "Prefix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_tsukau",
+   "jp": "使う",
+   "kana": "つかう",
+   "romaji": "tsukau",
+   "en": "to use",
+   "gloss": "to use",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "recovery",
+   "obj": [
+    "thing"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "何に使うの？",
+     "en": "What will you use it for?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 187729,
+      "url": "https://tatoeba.org/en/sentences/show/187729",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何に使うの？",
+      "translation": "What will you use it for?"
+     }
+    },
+    {
+     "jp": "使い方教えて。",
+     "en": "Tell me how to use it.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11609867,
+      "url": "https://tatoeba.org/en/sentences/show/11609867",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "使い方教えて。",
+      "translation": "Tell me how to use it."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "使う",
+     "matched": "使う【つかう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to use (a tool, method, etc.); to make use of; to put to use",
+      "to use (a person, animal, puppet, etc.); to employ; to handle; to manage; to manipulate",
+      "to use (time, money, etc.); to spend; to consume",
+      "to use (language); to speak"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_dougu",
+   "jp": "道具",
+   "kana": "どうぐ",
+   "romaji": "dōgu",
+   "en": "tool; utensil",
+   "gloss": "a tool",
+   "pos": "noun",
+   "topic": "recovery",
+   "tags": [
+    "thing"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "それを開ける道具が必要です。",
+     "en": "We need a tool to open it with.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 204616,
+      "url": "https://tatoeba.org/en/sentences/show/204616",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "それを開ける道具が必要です。",
+      "translation": "We need a tool to open it with."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "道具",
+     "matched": "道具【どうぐ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "tool; implement; instrument; utensil; apparatus; device",
+      "means",
+      "furniture",
+      "Tool"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_basho",
+   "jp": "場所",
+   "kana": "ばしょ",
+   "romaji": "basho",
+   "en": "place; location",
+   "gloss": "place",
+   "pos": "noun",
+   "topic": "recovery",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "場所教えて。",
+     "en": "Tell me where it is.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10906700,
+      "url": "https://tatoeba.org/en/sentences/show/10906700",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "場所教えて。",
+      "translation": "Tell me where it is."
+     }
+    },
+    {
+     "jp": "この場所が好きだ！",
+     "en": "I love this place!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10247035,
+      "url": "https://tatoeba.org/en/sentences/show/10247035",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "この場所が好きだ！",
+      "translation": "I love this place!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "場所",
+     "matched": "場所【ばしょ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "place; location; spot; position; area",
+      "room; space",
+      "sumo tournament"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_iro",
+   "jp": "色",
+   "kana": "いろ",
+   "romaji": "iro",
+   "en": "colour",
+   "gloss": "colour",
+   "pos": "noun",
+   "topic": "recovery",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "何色なの？",
+     "en": "What colour is it?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10157830,
+      "url": "https://tatoeba.org/en/sentences/show/10157830",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何色なの？",
+      "translation": "What colour is it?"
+     }
+    },
+    {
+     "jp": "色を選んで。",
+     "en": "Pick a color.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9930183,
+      "url": "https://tatoeba.org/en/sentences/show/9930183",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "色を選んで。",
+      "translation": "Pick a color."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "色",
+     "matched": "色【いろ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "colour; color; hue; tint; tinge; shade",
+      "complexion; skin colour; skin color",
+      "look (on one's face); expression",
+      "appearance; air; feeling"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_katachi",
+   "jp": "形",
+   "kana": "かたち",
+   "romaji": "katachi",
+   "en": "shape; form",
+   "gloss": "shape",
+   "pos": "noun",
+   "topic": "recovery",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "examples": [
+    {
+     "jp": "林檎の形は丸い。",
+     "en": "An apple is round in shape.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 77791,
+      "url": "https://tatoeba.org/en/sentences/show/77791",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "林檎の形は丸い。",
+      "translation": "An apple is round in shape."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "形",
+     "matched": "形【かたち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n3"
+     ],
+     "senses": [
+      "(physical) form; shape; figure",
+      "visage; (facial) features; appearance (of a person); figure; looks",
+      "form (as opposed to substance); manner (of action); style; (outward) appearance",
+      "(resultant) state; situation; condition; form"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_imi",
+   "jp": "意味",
+   "kana": "いみ",
+   "romaji": "imi",
+   "en": "meaning",
+   "gloss": "meaning",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "recovery",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "これどういう意味？",
+     "en": "What does this mean?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2970717,
+      "url": "https://tatoeba.org/en/sentences/show/2970717",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これどういう意味？",
+      "translation": "What does this mean?"
+     }
+    },
+    {
+     "jp": "意味がわからない。",
+     "en": "I don't understand what it means.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11340563,
+      "url": "https://tatoeba.org/en/sentences/show/11340563",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "意味がわからない。",
+      "translation": "I don't understand what it means."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "意味",
+     "matched": "意味【いみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "meaning; significance; sense",
+      "Meaning (linguistics)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_tatoeba",
+   "jp": "例えば",
+   "kana": "たとえば",
+   "romaji": "tatoeba",
+   "en": "for example",
+   "gloss": "for example",
+   "pos": "adverb",
+   "topic": "recovery",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "例えば、猫や犬のような動物が好きです。",
+     "en": "I like animals, for example, cats and dogs.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 162131,
+      "url": "https://tatoeba.org/en/sentences/show/162131",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "例えば、猫や犬のような動物が好きです。",
+      "translation": "I like animals, for example, cats and dogs."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "例えば",
+     "matched": "例えば【たとえば】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "for example; for instance; e.g."
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_niru",
+   "jp": "似る",
+   "kana": "にる",
+   "romaji": "niru",
+   "en": "to resemble; to look like",
+   "gloss": "to resemble",
+   "pos": "verb",
+   "verb_class": "ichidan",
+   "topic": "recovery",
+   "tier": 2,
+   "use": "say",
+   "note": "Used as 〜に似ている (it looks like ~).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "似る",
+     "matched": "似る【にる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to resemble; to look like; to be like; to be alike; to be similar; to take after"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_nanika",
+   "jp": "何か",
+   "kana": "なにか",
+   "romaji": "nanika",
+   "en": "something",
+   "gloss": "something",
+   "pos": "pronoun",
+   "topic": "recovery",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "何か飲む？",
+     "en": "Do you want something to drink?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 890127,
+      "url": "https://tatoeba.org/en/sentences/show/890127",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何か飲む？",
+      "translation": "Do you want something to drink?"
+     }
+    },
+    {
+     "jp": "何か言った？",
+     "en": "Did you say something?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10176373,
+      "url": "https://tatoeba.org/en/sentences/show/10176373",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何か言った？",
+      "translation": "Did you say something?"
+     }
+    }
+   ],
+   "gloss_reviewed": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何か",
+     "matched": "何か【なにか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "something; some; any",
+      "somehow; for some reason",
+      "(so) what (are you trying to say)?; what (do you mean)?"
+     ],
+     "pos": [
+      "Pronoun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mitai",
+   "jp": "みたい",
+   "kana": "みたい",
+   "romaji": "mitai",
+   "en": "like; similar to; seems",
+   "gloss": "like",
+   "pos": "expression",
+   "topic": "recovery",
+   "tier": 2,
+   "use": "say",
+   "note": "X みたい = like X.",
+   "examples": [
+    {
+     "jp": "雪みたい。",
+     "en": "It looks like snow.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 628655,
+      "url": "https://tatoeba.org/en/sentences/show/628655",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "雪みたい。",
+      "translation": "It looks like snow."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "みたい",
+     "matched": "【みたい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "-like; sort of; similar to; resembling"
+     ],
+     "pos": [
+      "Suffix",
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kanji_feel",
+   "jp": "感じ",
+   "kana": "かんじ",
+   "romaji": "kanji",
+   "en": "feeling; impression; sort of",
+   "gloss": "feeling",
+   "pos": "noun",
+   "topic": "recovery",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "いい感じ。",
+     "en": "Sounds good.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11574658,
+      "url": "https://tatoeba.org/en/sentences/show/11574658",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いい感じ。",
+      "translation": "Sounds good."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "感じ",
+     "matched": "感じ【かんじ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "feeling; sense; impression"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_tabemono",
+   "jp": "食べ物",
+   "kana": "たべもの",
+   "romaji": "tabemono",
+   "en": "food",
+   "gloss": "food",
+   "pos": "noun",
+   "topic": "recovery",
+   "tags": [
+    "food"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "好きな食べ物は？",
+     "en": "What's your favorite food?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3114647,
+      "url": "https://tatoeba.org/en/sentences/show/3114647",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "好きな食べ物は？",
+      "translation": "What's your favorite food?"
+     }
+    },
+    {
+     "jp": "食べ物はありますか？",
+     "en": "Do you have food?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11588949,
+      "url": "https://tatoeba.org/en/sentences/show/11588949",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "食べ物はありますか？",
+      "translation": "Do you have food?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "食べ物",
+     "matched": "食べ物【たべもの】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "food"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kikai",
+   "jp": "機械",
+   "kana": "きかい",
+   "romaji": "kikai",
+   "en": "machine",
+   "gloss": "a machine",
+   "pos": "noun",
+   "topic": "recovery",
+   "tags": [
+    "thing"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "この機械は壊れている。",
+     "en": "This machine is broken.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1529750,
+      "url": "https://tatoeba.org/en/sentences/show/1529750",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "この機械は壊れている。",
+      "translation": "This machine is broken."
+     }
+    },
+    {
+     "jp": "この機械が動かないんだ。",
+     "en": "This machine won't work.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12635530,
+      "url": "https://tatoeba.org/en/sentences/show/12635530",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "この機械が動かないんだ。",
+      "translation": "This machine won't work."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "機械",
+     "matched": "機械【きかい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "machine; mechanism",
+      "instrument; appliance; apparatus",
+      "Machine"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_shurui",
+   "jp": "種類",
+   "kana": "しゅるい",
+   "romaji": "shurui",
+   "en": "kind; type",
+   "gloss": "kind",
+   "pos": "noun",
+   "topic": "recovery",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "種類",
+     "matched": "種類【しゅるい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "variety; kind; type; category",
+      "counter for kinds, species, etc."
+     ],
+     "pos": [
+      "Noun",
+      "Counter"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_iu",
+   "jp": "言う",
+   "kana": "いう",
+   "romaji": "iu",
+   "en": "to say; to call (something)",
+   "gloss": "to say",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "recovery",
+   "tier": 1,
+   "use": "say",
+   "note": "何と言いますか = what do you call it?",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "言う",
+     "matched": "言う【いう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to say; to utter; to declare",
+      "to name; to call",
+      "to go (e.g. \"the alarm went ping\"); to make a noise"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kotoba",
+   "jp": "言葉",
+   "kana": "ことば",
+   "romaji": "kotoba",
+   "en": "word; language",
+   "gloss": "word",
+   "pos": "noun",
+   "topic": "recovery",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "言葉",
+     "matched": "言葉【ことば】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "language; dialect",
+      "word; phrase; expression; term",
+      "speech; (manner of) speaking; (use of) language",
+      "words; remark; statement; comment"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_chigau",
+   "jp": "違う",
+   "kana": "ちがう",
+   "romaji": "chigau",
+   "en": "to differ; to be wrong",
+   "gloss": "to be different",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "recovery",
+   "tier": 2,
+   "use": "say",
+   "note": "違います = that's not right / no.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "違う",
+     "matched": "違う【ちがう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to differ (from); to be different; to be distinct; to be unlike; to vary; to disagree (with)",
+      "to be wrong; to be incorrect; to be mistaken",
+      "to become abnormal; to go wrong",
+      "isn't it?; wasn't it?"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Intransitive verb",
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ookisa",
+   "jp": "大きさ",
+   "kana": "おおきさ",
+   "romaji": "ōkisa",
+   "en": "size",
+   "gloss": "size",
+   "pos": "noun",
+   "topic": "recovery",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "大きさ",
+     "matched": "大きさ【おおきさ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "size; dimensions; volume"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_naka",
+   "jp": "中",
+   "kana": "なか",
+   "romaji": "naka",
+   "en": "inside; in",
+   "gloss": "inside",
+   "pos": "noun",
+   "topic": "recovery",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "中",
+     "matched": "中【なか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "inside; interior",
+      "among; within",
+      "middle; center; centre",
+      "during; while; middle; midst; amid"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_soto",
+   "jp": "外",
+   "kana": "そと",
+   "romaji": "soto",
+   "en": "outside",
+   "gloss": "outside",
+   "pos": "noun",
+   "topic": "recovery",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "外",
+     "matched": "外【そと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "outside; exterior",
+      "the open (air)",
+      "other place; somewhere else; outside one's group (family, company, etc.)",
+      "To"
+     ],
+     "pos": [
+      "Noun",
+      "Place"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

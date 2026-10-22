@@ -1,0 +1,1573 @@
+{
+ "topic": "home",
+ "items": [
+  {
+   "id": "w_heya",
+   "jp": "部屋",
+   "kana": "へや",
+   "romaji": "heya",
+   "en": "room; apartment",
+   "gloss": "the room",
+   "pos": "noun",
+   "topic": "home",
+   "tags": [
+    "place"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "私の部屋です。",
+     "en": "This is my room.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13507688,
+      "url": "https://tatoeba.org/en/sentences/show/13507688",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "私の部屋です。",
+      "translation": "This is my room."
+     }
+    },
+    {
+     "jp": "部屋は何階ですか？",
+     "en": "What floor is my room on?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11065678,
+      "url": "https://tatoeba.org/en/sentences/show/11065678",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "部屋は何階ですか？",
+      "translation": "What floor is my room on?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "部屋",
+     "matched": "部屋【へや】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "room; chamber",
+      "apartment; flat; pad",
+      "stable",
+      "Room"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kagi",
+   "jp": "鍵",
+   "kana": "かぎ",
+   "romaji": "kagi",
+   "en": "key; lock",
+   "gloss": "the key",
+   "pos": "noun",
+   "topic": "home",
+   "tags": [
+    "thing"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "これ、誰の鍵？",
+     "en": "Whose key is this?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11469097,
+      "url": "https://tatoeba.org/en/sentences/show/11469097",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これ、誰の鍵？",
+      "translation": "Whose key is this?"
+     }
+    },
+    {
+     "jp": "窓の鍵しめた？",
+     "en": "Did you lock the windows?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12047505,
+      "url": "https://tatoeba.org/en/sentences/show/12047505",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "窓の鍵しめた？",
+      "translation": "Did you lock the windows?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "鍵",
+     "matched": "鍵【かぎ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "key",
+      "lock",
+      "key (to a problem, success, etc.); clue",
+      "Key (lock)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ooya",
+   "jp": "大家",
+   "kana": "おおや",
+   "romaji": "ōya",
+   "en": "landlord; landlady",
+   "gloss": "the landlord",
+   "pos": "noun",
+   "topic": "home",
+   "tags": [
+    "person"
+   ],
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "大家",
+     "matched": "大家【おおや】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "landlord; landlady"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kanrigaisha",
+   "jp": "管理会社",
+   "kana": "かんりがいしゃ",
+   "romaji": "kanrigaisha",
+   "en": "property management company",
+   "gloss": "the management company",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "管理会社",
+     "matched": "管理会社【かんりがいしゃ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "maintenance company; management company",
+      "proprietary company"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kanrinin",
+   "jp": "管理人",
+   "kana": "かんりにん",
+   "romaji": "kanrinin",
+   "en": "building manager; caretaker",
+   "gloss": "the building manager",
+   "pos": "noun",
+   "topic": "home",
+   "tags": [
+    "person"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "管理人",
+     "matched": "管理人【かんりにん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "administrator; janitor; manager; concierge; caretaker; superintendent; supervisor",
+      "custodian; executor"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_kowareru",
+   "jp": "壊れる",
+   "kana": "こわれる",
+   "romaji": "kowareru",
+   "en": "to break; to be broken",
+   "gloss": "to break",
+   "pos": "verb",
+   "verb_class": "ichidan",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "note": "壊れています = it is broken.",
+   "examples": [
+    {
+     "jp": "冷蔵庫が壊れた。",
+     "en": "Our fridge broke.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12462062,
+      "url": "https://tatoeba.org/en/sentences/show/12462062",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "冷蔵庫が壊れた。",
+      "translation": "Our fridge broke."
+     }
+    },
+    {
+     "jp": "何か壊れたの？",
+     "en": "Is anything broken?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8719335,
+      "url": "https://tatoeba.org/en/sentences/show/8719335",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何か壊れたの？",
+      "translation": "Is anything broken?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "壊れる",
+     "matched": "壊れる【こわれる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to be broken; to break; to fall apart; to collapse; to be destroyed; to be damaged",
+      "to break (down); to stop working",
+      "to fall through (of a plan, deal, etc.); to collapse; to break down (of a relationship, negotiations, etc.); to be broken off; to be ruined (of an atmosphere, one's image, etc.)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mizumore",
+   "jp": "水漏れ",
+   "kana": "みずもれ",
+   "romaji": "mizumore",
+   "en": "water leak",
+   "gloss": "a water leak",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "蛇口が水漏れしてるんです。",
+     "en": "The faucet is leaking.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9518947,
+      "url": "https://tatoeba.org/en/sentences/show/9518947",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "蛇口が水漏れしてるんです。",
+      "translation": "The faucet is leaking."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "水漏れ",
+     "matched": "水漏れ【みずもれ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "(water) leak"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_shuuri",
+   "jp": "修理",
+   "kana": "しゅうり",
+   "romaji": "shūri",
+   "en": "repair",
+   "gloss": "a repair",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "修理お願いします。",
+     "en": "Please repair this.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13470014,
+      "url": "https://tatoeba.org/en/sentences/show/13470014",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "修理お願いします。",
+      "translation": "Please repair this."
+     }
+    },
+    {
+     "jp": "私の車は修理中です。",
+     "en": "My car is under repair.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 163423,
+      "url": "https://tatoeba.org/en/sentences/show/163423",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "私の車は修理中です。",
+      "translation": "My car is under repair."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "修理",
+     "matched": "修理【しゅうり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "repair; mending; fixing; servicing"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_denki",
+   "jp": "電気",
+   "kana": "でんき",
+   "romaji": "denki",
+   "en": "electricity; (electric) light",
+   "gloss": "the electricity",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "電気がつきません。",
+     "en": "The light doesn't work.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 124858,
+      "url": "https://tatoeba.org/en/sentences/show/124858",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "電気がつきません。",
+      "translation": "The light doesn't work."
+     }
+    },
+    {
+     "jp": "電気つけて。",
+     "en": "Turn on the lights.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9637316,
+      "url": "https://tatoeba.org/en/sentences/show/9637316",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "電気つけて。",
+      "translation": "Turn on the lights."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電気",
+     "matched": "電気【でんき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "electricity",
+      "(electric) light",
+      "Electricity"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_gasu",
+   "jp": "ガス",
+   "kana": "ガス",
+   "romaji": "gasu",
+   "en": "gas (for cooking/heating)",
+   "gloss": "the gas",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ガスは止めた？",
+     "en": "Did you turn off the gas?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3416687,
+      "url": "https://tatoeba.org/en/sentences/show/3416687",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ガスは止めた？",
+      "translation": "Did you turn off the gas?"
+     }
+    },
+    {
+     "jp": "ガスの臭いがする。",
+     "en": "I smell gas.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3507321,
+      "url": "https://tatoeba.org/en/sentences/show/3507321",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ガスの臭いがする。",
+      "translation": "I smell gas."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ガス",
+     "matched": "瓦斯【ガス】 (written in kana: ガス)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "gas (as a fuel)",
+      "gas (state of matter)",
+      "poison gas",
+      "dense fog; thick fog"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_eakon",
+   "jp": "エアコン",
+   "kana": "エアコン",
+   "romaji": "eakon",
+   "en": "air conditioner",
+   "gloss": "the air conditioner",
+   "pos": "noun",
+   "topic": "home",
+   "tags": [
+    "thing"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "エアコンが故障しています。",
+     "en": "The air conditioner doesn't work.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 228047,
+      "url": "https://tatoeba.org/en/sentences/show/228047",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "エアコンが故障しています。",
+      "translation": "The air conditioner doesn't work."
+     }
+    },
+    {
+     "jp": "そのエアコン壊れてるよ。",
+     "en": "The air conditioner is broken.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8612416,
+      "url": "https://tatoeba.org/en/sentences/show/8612416",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "そのエアコン壊れてるよ。",
+      "translation": "The air conditioner is broken."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "エアコン",
+     "matched": "【エアコン】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "air conditioner; air conditioning; aircon"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "a_urusai",
+   "jp": "うるさい",
+   "kana": "うるさい",
+   "romaji": "urusai",
+   "en": "noisy; loud; annoying",
+   "gloss": "noisy",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "エアコンの音がうるさいんです。",
+     "en": "The air conditioner makes too much noise.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10824361,
+      "url": "https://tatoeba.org/en/sentences/show/10824361",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "エアコンの音がうるさいんです。",
+      "translation": "The air conditioner makes too much noise."
+     }
+    },
+    {
+     "jp": "近所の人って、うるさい？",
+     "en": "Are the neighbours noisy?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12059158,
+      "url": "https://tatoeba.org/en/sentences/show/12059158",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "近所の人って、うるさい？",
+      "translation": "Are the neighbours noisy?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "うるさい",
+     "matched": "煩い【うるさい】 (written in kana: うるさい)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "noisy; loud",
+      "annoying; troublesome; tiresome; persistent; importunate",
+      "fussy; finicky; picky; particular; nagging; fastidious; bossy",
+      "shut up; be quiet"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_gomi",
+   "jp": "ごみ",
+   "kana": "ごみ",
+   "romaji": "gomi",
+   "en": "rubbish; garbage",
+   "gloss": "the rubbish",
+   "pos": "noun",
+   "topic": "home",
+   "tags": [
+    "thing"
+   ],
+   "tier": 1,
+   "use": "say",
+   "accept": [
+    "ゴミ"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ごみ",
+     "matched": "【ゴミ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "rubbish; trash; garbage; refuse; litter"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_yachin",
+   "jp": "家賃",
+   "kana": "やちん",
+   "romaji": "yachin",
+   "en": "rent",
+   "gloss": "the rent",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "家賃は月いくらですか。",
+     "en": "How much is the rent per month?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 186913,
+      "url": "https://tatoeba.org/en/sentences/show/186913",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "家賃は月いくらですか。",
+      "translation": "How much is the rent per month?"
+     }
+    },
+    {
+     "jp": "家賃は払った？",
+     "en": "Have you paid the rent?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2945228,
+      "url": "https://tatoeba.org/en/sentences/show/2945228",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "家賃は払った？",
+      "translation": "Have you paid the rent?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "家賃",
+     "matched": "家賃【やちん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "rent"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_suidou",
+   "jp": "水道",
+   "kana": "すいどう",
+   "romaji": "suidō",
+   "en": "water supply; tap water",
+   "gloss": "the water supply",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "水道がないんです。",
+     "en": "There's no running water.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10682357,
+      "url": "https://tatoeba.org/en/sentences/show/10682357",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "水道がないんです。",
+      "translation": "There's no running water."
+     }
+    },
+    {
+     "jp": "水道が断水しました。",
+     "en": "The water has been cut off.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2265621,
+      "url": "https://tatoeba.org/en/sentences/show/2265621",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "水道が断水しました。",
+      "translation": "The water has been cut off."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "水道",
+     "matched": "水道【すいどう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "water supply; water service; waterworks; tap water",
+      "channel; strait",
+      "water course; waterway",
+      "Suidou"
+     ],
+     "pos": [
+      "Noun",
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_oyu",
+   "jp": "お湯",
+   "kana": "おゆ",
+   "romaji": "oyu",
+   "en": "hot water",
+   "gloss": "hot water",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ポットにお湯はありますか？",
+     "en": "Is there any hot water in the pot?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 196234,
+      "url": "https://tatoeba.org/en/sentences/show/196234",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ポットにお湯はありますか？",
+      "translation": "Is there any hot water in the pot?"
+     }
+    },
+    {
+     "jp": "お湯を全部使わないで。",
+     "en": "Don't use all the hot water.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 226793,
+      "url": "https://tatoeba.org/en/sentences/show/226793",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お湯を全部使わないで。",
+      "translation": "Don't use all the hot water."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お湯",
+     "matched": "お湯【おゆ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "hot water",
+      "hot bath"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_doa",
+   "jp": "ドア",
+   "kana": "ドア",
+   "romaji": "doa",
+   "en": "door",
+   "gloss": "the door",
+   "pos": "noun",
+   "topic": "home",
+   "tags": [
+    "thing"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ドアを閉めて。",
+     "en": "Close the door.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 201780,
+      "url": "https://tatoeba.org/en/sentences/show/201780",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ドアを閉めて。",
+      "translation": "Close the door."
+     }
+    },
+    {
+     "jp": "ドアを開けて。",
+     "en": "Open the door.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 201801,
+      "url": "https://tatoeba.org/en/sentences/show/201801",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ドアを開けて。",
+      "translation": "Open the door."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ドア",
+     "matched": "【ドア】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "door"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mado",
+   "jp": "窓",
+   "kana": "まど",
+   "romaji": "mado",
+   "en": "window",
+   "gloss": "the window",
+   "pos": "noun",
+   "topic": "home",
+   "tags": [
+    "thing"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "窓",
+     "matched": "窓【まど】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "window",
+      "Window"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_reizouko",
+   "jp": "冷蔵庫",
+   "kana": "れいぞうこ",
+   "romaji": "reizōko",
+   "en": "refrigerator",
+   "gloss": "the fridge",
+   "pos": "noun",
+   "topic": "home",
+   "tags": [
+    "thing"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "冷蔵庫",
+     "matched": "冷蔵庫【れいぞうこ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "refrigerator; fridge",
+      "Refrigerator"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_sentakuki",
+   "jp": "洗濯機",
+   "kana": "せんたくき",
+   "romaji": "sentakuki",
+   "en": "washing machine",
+   "gloss": "the washing machine",
+   "pos": "noun",
+   "topic": "home",
+   "tags": [
+    "thing"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "洗濯機",
+     "matched": "洗濯機【せんたくき】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "washing machine; (clothes) washer",
+      "Washing machine"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_apaato",
+   "jp": "アパート",
+   "kana": "アパート",
+   "romaji": "apāto",
+   "en": "apartment (building)",
+   "gloss": "the apartment",
+   "pos": "noun",
+   "topic": "home",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "アパートを借りたいです。",
+     "en": "I want to rent an apartment.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9808965,
+      "url": "https://tatoeba.org/en/sentences/show/9808965",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "アパートを借りたいです。",
+      "translation": "I want to rent an apartment."
+     }
+    },
+    {
+     "jp": "いいアパートね。",
+     "en": "This is a great apartment.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 229463,
+      "url": "https://tatoeba.org/en/sentences/show/229463",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いいアパートね。",
+      "translation": "This is a great apartment."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "アパート",
+     "matched": "【アパート】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "apartment building; apartment block; apartment house",
+      "apartment",
+      "Apartment"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_dasu",
+   "jp": "出す",
+   "kana": "だす",
+   "romaji": "dasu",
+   "en": "to take out; to put out (e.g. rubbish)",
+   "gloss": "to put out",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "home",
+   "obj": [
+    "thing"
+   ],
+   "tier": 1,
+   "use": "say",
+   "note": "ごみを出す = to put out the rubbish.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "出す",
+     "matched": "出す【だす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to take out; to get out",
+      "to put out; to reveal; to show",
+      "to submit (e.g. thesis); to turn in",
+      "to publish; to make public"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb",
+      "Suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kinjo",
+   "jp": "近所",
+   "kana": "きんじょ",
+   "romaji": "kinjo",
+   "en": "neighbourhood",
+   "gloss": "the neighbourhood",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "近所の者なんですが。",
+     "en": "We're your neighbors.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12303627,
+      "url": "https://tatoeba.org/en/sentences/show/12303627",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "近所の者なんですが。",
+      "translation": "We're your neighbors."
+     }
+    },
+    {
+     "jp": "彼は近所に住んでいる。",
+     "en": "He lives in the neighborhood.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11104623,
+      "url": "https://tatoeba.org/en/sentences/show/11104623",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "彼は近所に住んでいる。",
+      "translation": "He lives in the neighborhood."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "近所",
+     "matched": "近所【きんじょ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "neighbourhood; neighborhood; vicinity",
+      "Kinjo"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Place"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kaji",
+   "jp": "火事",
+   "kana": "かじ",
+   "romaji": "kaji",
+   "en": "fire (a building on fire)",
+   "gloss": "a fire",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "火事だ！逃げろ！",
+     "en": "Fire! Run!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 186701,
+      "url": "https://tatoeba.org/en/sentences/show/186701",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "火事だ！逃げろ！",
+      "translation": "Fire! Run!"
+     }
+    },
+    {
+     "jp": "火事があったの？",
+     "en": "Was there a fire?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8705975,
+      "url": "https://tatoeba.org/en/sentences/show/8705975",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "火事があったの？",
+      "translation": "Was there a fire?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "火事",
+     "matched": "火事【かじ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "fire; conflagration"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hikkoshi",
+   "jp": "引っ越し",
+   "kana": "ひっこし",
+   "romaji": "hikkoshi",
+   "en": "moving house",
+   "gloss": "the move",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "home",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "引っ越し",
+     "matched": "引っ越し【ひっこし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "moving (dwelling, office, etc.); changing residence",
+      "Hikkoshi"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Place"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_keiyaku",
+   "jp": "契約",
+   "kana": "けいやく",
+   "romaji": "keiyaku",
+   "en": "contract",
+   "gloss": "the contract",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "home",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "契約",
+     "matched": "契約【けいやく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "contract; compact; agreement",
+      "Contract"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_moyasugomi",
+   "jp": "燃やすごみ",
+   "kana": "もやすごみ",
+   "romaji": "moyasu gomi",
+   "en": "burnable rubbish (Kyoto City category)",
+   "gloss": "burnable rubbish",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "燃やすごみ",
+     "matched": "燃やすごみ【もやすごみ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "burnable garbage; burnable waste"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_moerugomi",
+   "jp": "燃えるごみ",
+   "kana": "もえるごみ",
+   "romaji": "moeru gomi",
+   "en": "burnable rubbish",
+   "gloss": "burnable rubbish",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "燃えるごみ",
+     "matched": "燃えるごみ【もえるごみ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "burnable garbage; burnable waste"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_oyu_demasen",
+   "jp": "お湯が出ません",
+   "kana": "おゆがでません",
+   "romaji": "oyu ga demasen",
+   "en": "There's no hot water.",
+   "gloss": "There's no hot water.",
+   "pos": "phrase",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 226801,
+     "url": "https://tatoeba.org/en/sentences/show/226801",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "お湯が出ません。",
+     "translation": "There's no hot water."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お湯",
+     "matched": "お湯【おゆ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "hot water",
+      "hot bath"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "出る",
+     "matched": "出る【でる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to leave; to exit; to go out; to come out; to get out",
+      "to leave (on a journey); to depart; to start out; to set out",
+      "to move forward",
+      "to come to; to get to; to lead to; to reach"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_kagi_nakushita",
+   "jp": "鍵をなくした",
+   "kana": "かぎをなくした",
+   "romaji": "kagi o nakushita",
+   "en": "I've lost my key.",
+   "gloss": "I've lost my key.",
+   "pos": "phrase",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "register": "casual",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10588147,
+     "url": "https://tatoeba.org/en/sentences/show/10588147",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "鍵をなくした。",
+     "translation": "I've lost my key."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "鍵",
+     "matched": "鍵【かぎ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "key",
+      "lock",
+      "key (to a problem, success, etc.); clue",
+      "Key (lock)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

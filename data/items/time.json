@@ -1,0 +1,2057 @@
+{
+ "topic": "time",
+ "items": [
+  {
+   "id": "w_kyou",
+   "jp": "今日",
+   "kana": "きょう",
+   "romaji": "kyō",
+   "en": "today",
+   "gloss": "today",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今日は何する？",
+     "en": "What are you going to do today?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8823015,
+      "url": "https://tatoeba.org/en/sentences/show/8823015",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今日は何する？",
+      "translation": "What are you going to do today?"
+     }
+    },
+    {
+     "jp": "今日って暇？",
+     "en": "Are you free today?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8749239,
+      "url": "https://tatoeba.org/en/sentences/show/8749239",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今日って暇？",
+      "translation": "Are you free today?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "今日",
+     "matched": "今日【きょう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "today; this day",
+      "these days; recently; nowadays"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ashita",
+   "jp": "明日",
+   "kana": "あした",
+   "romaji": "ashita",
+   "en": "tomorrow",
+   "gloss": "tomorrow",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "examples": [
+    {
+     "jp": "また明日。",
+     "en": "See you again tomorrow.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 195390,
+      "url": "https://tatoeba.org/en/sentences/show/195390",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "また明日。",
+      "translation": "See you again tomorrow."
+     }
+    },
+    {
+     "jp": "明日会える？",
+     "en": "Can we meet tomorrow?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10655766,
+      "url": "https://tatoeba.org/en/sentences/show/10655766",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "明日会える？",
+      "translation": "Can we meet tomorrow?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "明日",
+     "matched": "明日【あした】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "tomorrow",
+      "near future"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kinou",
+   "jp": "昨日",
+   "kana": "きのう",
+   "romaji": "kinō",
+   "en": "yesterday",
+   "gloss": "yesterday",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "昨日は暑かった？",
+     "en": "Was it hot yesterday?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8729229,
+      "url": "https://tatoeba.org/en/sentences/show/8729229",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "昨日は暑かった？",
+      "translation": "Was it hot yesterday?"
+     }
+    },
+    {
+     "jp": "昨日何時に寝た？",
+     "en": "What time did you go to bed yesterday?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3395375,
+      "url": "https://tatoeba.org/en/sentences/show/3395375",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "昨日何時に寝た？",
+      "translation": "What time did you go to bed yesterday?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "昨日",
+     "matched": "昨日【きのう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "yesterday"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ima",
+   "jp": "今",
+   "kana": "いま",
+   "romaji": "ima",
+   "en": "now",
+   "gloss": "now",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今何してる？",
+     "en": "What are you doing now?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10906691,
+      "url": "https://tatoeba.org/en/sentences/show/10906691",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今何してる？",
+      "translation": "What are you doing now?"
+     }
+    },
+    {
+     "jp": "今着いたの？",
+     "en": "Did you just arrive?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9732827,
+      "url": "https://tatoeba.org/en/sentences/show/9732827",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今着いたの？",
+      "translation": "Did you just arrive?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "今",
+     "matched": "今【いま】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "now; the present time; just now; soon; immediately",
+      "another; more"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_nanji",
+   "jp": "何時",
+   "kana": "なんじ",
+   "romaji": "nanji",
+   "en": "what time",
+   "gloss": "what time",
+   "pos": "question",
+   "topic": "time",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "examples": [
+    {
+     "jp": "何時ですか？",
+     "en": "What time is it?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5804556,
+      "url": "https://tatoeba.org/en/sentences/show/5804556",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何時ですか？",
+      "translation": "What time is it?"
+     }
+    },
+    {
+     "jp": "何時に出る？",
+     "en": "What time are you leaving?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5762757,
+      "url": "https://tatoeba.org/en/sentences/show/5762757",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何時に出る？",
+      "translation": "What time are you leaving?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何時",
+     "matched": "何時【なんじ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "what time; which hour"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_gozen",
+   "jp": "午前",
+   "kana": "ごぜん",
+   "romaji": "gozen",
+   "en": "morning; a.m.",
+   "gloss": "a.m.",
+   "pos": "noun",
+   "topic": "time",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "午前８時です。",
+     "en": "It’s 8:00 am.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9755627,
+      "url": "https://tatoeba.org/en/sentences/show/9755627",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "午前８時です。",
+      "translation": "It’s 8:00 am."
+     }
+    },
+    {
+     "jp": "午前中は家にいます。",
+     "en": "I'll be at home in the morning.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10580046,
+      "url": "https://tatoeba.org/en/sentences/show/10580046",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "午前中は家にいます。",
+      "translation": "I'll be at home in the morning."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "午前",
+     "matched": "午前【ごぜん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "morning; a.m."
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_gogo",
+   "jp": "午後",
+   "kana": "ごご",
+   "romaji": "gogo",
+   "en": "afternoon; p.m.",
+   "gloss": "p.m.",
+   "pos": "noun",
+   "topic": "time",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "午後二時です。",
+     "en": "It's 2:00 p.m.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 174380,
+      "url": "https://tatoeba.org/en/sentences/show/174380",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "午後二時です。",
+      "translation": "It's 2:00 p.m."
+     }
+    },
+    {
+     "jp": "午後って空いてる？",
+     "en": "Are you free in the afternoon?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9007673,
+      "url": "https://tatoeba.org/en/sentences/show/9007673",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "午後って空いてる？",
+      "translation": "Are you free in the afternoon?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "午後",
+     "matched": "午後【ごご】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "afternoon; p.m."
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mainichi",
+   "jp": "毎日",
+   "kana": "まいにち",
+   "romaji": "mainichi",
+   "en": "every day",
+   "gloss": "every day",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "毎日、走ります。",
+     "en": "I run every day.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5289421,
+      "url": "https://tatoeba.org/en/sentences/show/5289421",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "毎日、走ります。",
+      "translation": "I run every day."
+     }
+    },
+    {
+     "jp": "勉強は毎日してる？",
+     "en": "Do you study every day?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10125595,
+      "url": "https://tatoeba.org/en/sentences/show/10125595",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "勉強は毎日してる？",
+      "translation": "Do you study every day?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "毎日",
+     "matched": "毎日【まいにち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "every day; daily",
+      "Every Single Day (band)"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_shuumatsu",
+   "jp": "週末",
+   "kana": "しゅうまつ",
+   "romaji": "shūmatsu",
+   "en": "weekend",
+   "gloss": "the weekend",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "週末は休みです。",
+     "en": "I'm off on weekends.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11906460,
+      "url": "https://tatoeba.org/en/sentences/show/11906460",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "週末は休みです。",
+      "translation": "I'm off on weekends."
+     }
+    },
+    {
+     "jp": "週末どうだった？",
+     "en": "How was your weekend?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1006914,
+      "url": "https://tatoeba.org/en/sentences/show/1006914",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "週末どうだった？",
+      "translation": "How was your weekend?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "週末",
+     "matched": "週末【しゅうまつ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "weekend",
+      "Workweek and weekend"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_getsuyoubi",
+   "jp": "月曜日",
+   "kana": "げつようび",
+   "romaji": "getsuyōbi",
+   "en": "Monday",
+   "gloss": "Monday",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "月曜日です。",
+     "en": "It's Monday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 175603,
+      "url": "https://tatoeba.org/en/sentences/show/175603",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "月曜日です。",
+      "translation": "It's Monday."
+     }
+    },
+    {
+     "jp": "月曜日でいい？",
+     "en": "Is Monday OK?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8703102,
+      "url": "https://tatoeba.org/en/sentences/show/8703102",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "月曜日でいい？",
+      "translation": "Is Monday OK?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "月曜日",
+     "matched": "月曜日【げつようび】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "Monday",
+      "Monday"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kayoubi",
+   "jp": "火曜日",
+   "kana": "かようび",
+   "romaji": "kayōbi",
+   "en": "Tuesday",
+   "gloss": "Tuesday",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今日は火曜日です。",
+     "en": "Today is Tuesday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11332317,
+      "url": "https://tatoeba.org/en/sentences/show/11332317",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今日は火曜日です。",
+      "translation": "Today is Tuesday."
+     }
+    },
+    {
+     "jp": "火曜日はお暇ですか。",
+     "en": "Are you free on Tuesday?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 186643,
+      "url": "https://tatoeba.org/en/sentences/show/186643",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "火曜日はお暇ですか。",
+      "translation": "Are you free on Tuesday?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "火曜日",
+     "matched": "火曜日【かようび】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "Tuesday",
+      "Tuesday"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_suiyoubi",
+   "jp": "水曜日",
+   "kana": "すいようび",
+   "romaji": "suiyōbi",
+   "en": "Wednesday",
+   "gloss": "Wednesday",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今日は水曜日です。",
+     "en": "Today is Wednesday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1458037,
+      "url": "https://tatoeba.org/en/sentences/show/1458037",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今日は水曜日です。",
+      "translation": "Today is Wednesday."
+     }
+    },
+    {
+     "jp": "水曜日は仕事があります。",
+     "en": "I have work on Wednesday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1600587,
+      "url": "https://tatoeba.org/en/sentences/show/1600587",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "水曜日は仕事があります。",
+      "translation": "I have work on Wednesday."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "水曜日",
+     "matched": "水曜日【すいようび】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "Wednesday",
+      "Wednesday"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mokuyoubi",
+   "jp": "木曜日",
+   "kana": "もくようび",
+   "romaji": "mokuyōbi",
+   "en": "Thursday",
+   "gloss": "Thursday",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今日は木曜日です。",
+     "en": "Today is Thursday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2670479,
+      "url": "https://tatoeba.org/en/sentences/show/2670479",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今日は木曜日です。",
+      "translation": "Today is Thursday."
+     }
+    },
+    {
+     "jp": "昨日は木曜日だった。",
+     "en": "Yesterday was Thursday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 169944,
+      "url": "https://tatoeba.org/en/sentences/show/169944",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "昨日は木曜日だった。",
+      "translation": "Yesterday was Thursday."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "木曜日",
+     "matched": "木曜日【もくようび】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "Thursday",
+      "Thursday"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kinyoubi",
+   "jp": "金曜日",
+   "kana": "きんようび",
+   "romaji": "kin'yōbi",
+   "en": "Friday",
+   "gloss": "Friday",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "金曜日はどうですか？",
+     "en": "How about Friday?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9776974,
+      "url": "https://tatoeba.org/en/sentences/show/9776974",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "金曜日はどうですか？",
+      "translation": "How about Friday?"
+     }
+    },
+    {
+     "jp": "今日って、金曜日？",
+     "en": "Is today Friday?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8689105,
+      "url": "https://tatoeba.org/en/sentences/show/8689105",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今日って、金曜日？",
+      "translation": "Is today Friday?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "金曜日",
+     "matched": "金曜日【きんようび】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "Friday",
+      "Friday"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_doyoubi",
+   "jp": "土曜日",
+   "kana": "どようび",
+   "romaji": "doyōbi",
+   "en": "Saturday",
+   "gloss": "Saturday",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "土曜日はやってますか？",
+     "en": "Are you open on Saturday?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8804519,
+      "url": "https://tatoeba.org/en/sentences/show/8804519",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "土曜日はやってますか？",
+      "translation": "Are you open on Saturday?"
+     }
+    },
+    {
+     "jp": "今日は土曜日です。",
+     "en": "Today is Saturday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 171533,
+      "url": "https://tatoeba.org/en/sentences/show/171533",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今日は土曜日です。",
+      "translation": "Today is Saturday."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "土曜日",
+     "matched": "土曜日【どようび】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "Saturday",
+      "Saturday"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_nichiyoubi",
+   "jp": "日曜日",
+   "kana": "にちようび",
+   "romaji": "nichiyōbi",
+   "en": "Sunday",
+   "gloss": "Sunday",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "日曜日は暇です。",
+     "en": "I'm free on Sunday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1054565,
+      "url": "https://tatoeba.org/en/sentences/show/1054565",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "日曜日は暇です。",
+      "translation": "I'm free on Sunday."
+     }
+    },
+    {
+     "jp": "明日は日曜日です。",
+     "en": "Tomorrow is Sunday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 80407,
+      "url": "https://tatoeba.org/en/sentences/show/80407",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "明日は日曜日です。",
+      "translation": "Tomorrow is Sunday."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "日曜日",
+     "matched": "日曜日【にちようび】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "Sunday",
+      "Sunday"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_asa",
+   "jp": "朝",
+   "kana": "あさ",
+   "romaji": "asa",
+   "en": "morning",
+   "gloss": "the morning",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "朝の八時です。",
+     "en": "It's eight o'clock in the morning.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 126233,
+      "url": "https://tatoeba.org/en/sentences/show/126233",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "朝の八時です。",
+      "translation": "It's eight o'clock in the morning."
+     }
+    },
+    {
+     "jp": "もう朝なの？",
+     "en": "Is it morning already?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8719697,
+      "url": "https://tatoeba.org/en/sentences/show/8719697",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "もう朝なの？",
+      "translation": "Is it morning already?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "朝",
+     "matched": "朝【あさ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "morning",
+      "breakfast",
+      "Morning"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hiru",
+   "jp": "昼",
+   "kana": "ひる",
+   "romaji": "hiru",
+   "en": "noon; daytime; lunch",
+   "gloss": "noon",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "お昼ですよ。",
+     "en": "It's lunch time.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 226829,
+      "url": "https://tatoeba.org/en/sentences/show/226829",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お昼ですよ。",
+      "translation": "It's lunch time."
+     }
+    },
+    {
+     "jp": "昼からです。",
+     "en": "I'm starting at noon.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11156780,
+      "url": "https://tatoeba.org/en/sentences/show/11156780",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "昼からです。",
+      "translation": "I'm starting at noon."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "昼",
+     "matched": "昼【ひる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "noon; midday",
+      "daytime",
+      "lunch",
+      "Daylight"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ban",
+   "jp": "晩",
+   "kana": "ばん",
+   "romaji": "ban",
+   "en": "evening; night",
+   "gloss": "the evening",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "明日の晩はどう？",
+     "en": "What about tomorrow night?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12698696,
+      "url": "https://tatoeba.org/en/sentences/show/12698696",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "明日の晩はどう？",
+      "translation": "What about tomorrow night?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "晩",
+     "matched": "晩【ばん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "evening; night",
+      "dinner; evening meal",
+      "counter for nights"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Counter"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_yoru",
+   "jp": "夜",
+   "kana": "よる",
+   "romaji": "yoru",
+   "en": "night; evening",
+   "gloss": "night",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "夜何してたの？",
+     "en": "What did you do at night?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1442740,
+      "url": "https://tatoeba.org/en/sentences/show/1442740",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "夜何してたの？",
+      "translation": "What did you do at night?"
+     }
+    },
+    {
+     "jp": "もう夜だよ。",
+     "en": "It's already nighttime.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 14077112,
+      "url": "https://tatoeba.org/en/sentences/show/14077112",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "もう夜だよ。",
+      "translation": "It's already nighttime."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "夜",
+     "matched": "夜【よる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "night; evening",
+      "dinner",
+      "Night"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_jikan",
+   "jp": "時間",
+   "kana": "じかん",
+   "romaji": "jikan",
+   "en": "time; hour(s)",
+   "gloss": "time",
+   "pos": "noun",
+   "topic": "time",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "時間ある？",
+     "en": "Is there time?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 7809264,
+      "url": "https://tatoeba.org/en/sentences/show/7809264",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "時間ある？",
+      "translation": "Is there time?"
+     }
+    },
+    {
+     "jp": "時間がない。",
+     "en": "There's no time.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2633830,
+      "url": "https://tatoeba.org/en/sentences/show/2633830",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "時間がない。",
+      "translation": "There's no time."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "時間",
+     "matched": "時間【じかん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "time",
+      "hour",
+      "period; class; lesson",
+      "Time"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_han",
+   "jp": "半",
+   "kana": "はん",
+   "romaji": "han",
+   "en": "half; half past",
+   "gloss": "half past",
+   "pos": "noun",
+   "topic": "time",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "4時半です。",
+     "en": "It's half past four.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11960470,
+      "url": "https://tatoeba.org/en/sentences/show/11960470",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "4時半です。",
+      "translation": "It's half past four."
+     }
+    },
+    {
+     "jp": "今は２時半だよ。",
+     "en": "It's 2:30 now.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12485601,
+      "url": "https://tatoeba.org/en/sentences/show/12485601",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今は２時半だよ。",
+      "translation": "It's 2:30 now."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "半",
+     "matched": "半【はん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "half; semi-; partial",
+      "half-past",
+      "odd number",
+      "han (unit of land area, approx. 595.8 m^2)"
+     ],
+     "pos": [
+      "Noun, used as a prefix",
+      "Noun",
+      "Noun, used as a suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ji",
+   "jp": "時",
+   "kana": "じ",
+   "romaji": "ji",
+   "en": "o'clock",
+   "gloss": "o'clock",
+   "pos": "counter",
+   "topic": "time",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "examples": [
+    {
+     "jp": "もう５時？",
+     "en": "Is it five already?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8831965,
+      "url": "https://tatoeba.org/en/sentences/show/8831965",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "もう５時？",
+      "translation": "Is it five already?"
+     }
+    },
+    {
+     "jp": "3時はどう？",
+     "en": "How about at three o'clock?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13028923,
+      "url": "https://tatoeba.org/en/sentences/show/13028923",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "3時はどう？",
+      "translation": "How about at three o'clock?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "時",
+     "matched": "時【じ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "hour; o'clock",
+      "(specified) time; when ...; during ..."
+     ],
+     "pos": [
+      "Suffix",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_itsu",
+   "jp": "いつ",
+   "kana": "いつ",
+   "romaji": "itsu",
+   "en": "when",
+   "gloss": "when",
+   "pos": "question",
+   "topic": "time",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "夕飯いつ？",
+     "en": "When's dinner?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9032609,
+      "url": "https://tatoeba.org/en/sentences/show/9032609",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "夕飯いつ？",
+      "translation": "When's dinner?"
+     }
+    },
+    {
+     "jp": "いつ出る？",
+     "en": "When are we leaving?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5762758,
+      "url": "https://tatoeba.org/en/sentences/show/5762758",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いつ出る？",
+      "translation": "When are we leaving?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いつ",
+     "matched": "何時【いつ】 (written in kana: いつ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "when; at what time; how soon",
+      "normal times; ordinary days"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_raishuu",
+   "jp": "来週",
+   "kana": "らいしゅう",
+   "romaji": "raishū",
+   "en": "next week",
+   "gloss": "next week",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "来週帰ります。",
+     "en": "I'm coming back next week.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1879941,
+      "url": "https://tatoeba.org/en/sentences/show/1879941",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "来週帰ります。",
+      "translation": "I'm coming back next week."
+     }
+    },
+    {
+     "jp": "また来週！",
+     "en": "See you next week!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 195383,
+      "url": "https://tatoeba.org/en/sentences/show/195383",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "また来週！",
+      "translation": "See you next week!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "来週",
+     "matched": "来週【らいしゅう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "next week"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_konshuu",
+   "jp": "今週",
+   "kana": "こんしゅう",
+   "romaji": "konshū",
+   "en": "this week",
+   "gloss": "this week",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今週は忙しい？",
+     "en": "Are you busy this week?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8749689,
+      "url": "https://tatoeba.org/en/sentences/show/8749689",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今週は忙しい？",
+      "translation": "Are you busy this week?"
+     }
+    },
+    {
+     "jp": "今週は無理だよ。",
+     "en": "I can't do that this week.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13115774,
+      "url": "https://tatoeba.org/en/sentences/show/13115774",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今週は無理だよ。",
+      "translation": "I can't do that this week."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "今週",
+     "matched": "今週【こんしゅう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "this week"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_senshuu",
+   "jp": "先週",
+   "kana": "せんしゅう",
+   "romaji": "senshū",
+   "en": "last week",
+   "gloss": "last week",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "先週は雪でした。",
+     "en": "It snowed last week.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10570974,
+      "url": "https://tatoeba.org/en/sentences/show/10570974",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "先週は雪でした。",
+      "translation": "It snowed last week."
+     }
+    },
+    {
+     "jp": "先週って、忙しかった？",
+     "en": "Were you busy last week?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8692223,
+      "url": "https://tatoeba.org/en/sentences/show/8692223",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "先週って、忙しかった？",
+      "translation": "Were you busy last week?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "先週",
+     "matched": "先週【せんしゅう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "last week; the week before"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_konban",
+   "jp": "今晩",
+   "kana": "こんばん",
+   "romaji": "konban",
+   "en": "this evening; tonight",
+   "gloss": "tonight",
+   "pos": "noun",
+   "topic": "time",
+   "tags": [
+    "time"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今晩来ませんか？",
+     "en": "Why don't you come over tonight?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2076508,
+      "url": "https://tatoeba.org/en/sentences/show/2076508",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今晩来ませんか？",
+      "translation": "Why don't you come over tonight?"
+     }
+    },
+    {
+     "jp": "今晩は予定がある？",
+     "en": "What are you doing tonight?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 171224,
+      "url": "https://tatoeba.org/en/sentences/show/171224",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今晩は予定がある？",
+      "translation": "What are you doing tonight?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "今晩",
+     "matched": "今晩【こんばん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "tonight; this evening"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_sugu",
+   "jp": "すぐ",
+   "kana": "すぐ",
+   "romaji": "sugu",
+   "en": "immediately; right away; soon",
+   "gloss": "right away",
+   "pos": "adverb",
+   "topic": "time",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "すぐ戻る。",
+     "en": "I'll be back soon.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3557602,
+      "url": "https://tatoeba.org/en/sentences/show/3557602",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "すぐ戻る。",
+      "translation": "I'll be back soon."
+     }
+    },
+    {
+     "jp": "もうすぐ夏ね。",
+     "en": "It's almost summer.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11957721,
+      "url": "https://tatoeba.org/en/sentences/show/11957721",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "もうすぐ夏ね。",
+      "translation": "It's almost summer."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "すぐ",
+     "matched": "直ぐ【すぐ】 (written in kana: すぐ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "immediately; at once; right away; directly",
+      "soon; before long; shortly",
+      "easily; readily; without difficulty",
+      "right (near); nearby; just (handy)"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun",
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mada",
+   "jp": "まだ",
+   "kana": "まだ",
+   "romaji": "mada",
+   "en": "still; (not) yet",
+   "gloss": "not yet",
+   "pos": "adverb",
+   "topic": "time",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "まだ忙しい？",
+     "en": "Are you still busy?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8845007,
+      "url": "https://tatoeba.org/en/sentences/show/8845007",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "まだ忙しい？",
+      "translation": "Are you still busy?"
+     }
+    },
+    {
+     "jp": "まだ仕事中？",
+     "en": "Are you still at work?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8768245,
+      "url": "https://tatoeba.org/en/sentences/show/8768245",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "まだ仕事中？",
+      "translation": "Are you still at work?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "まだ",
+     "matched": "未だ【まだ】 (written in kana: まだ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "still; as yet; only",
+      "(not) yet",
+      "more; (more) still",
+      "at least; comparatively; relatively"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_ima_nanji",
+   "jp": "今何時ですか",
+   "kana": "いまなんじですか",
+   "romaji": "ima nanji desu ka",
+   "en": "What time is it now?",
+   "gloss": "What time is it now?",
+   "pos": "phrase",
+   "topic": "time",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 172923,
+     "url": "https://tatoeba.org/en/sentences/show/172923",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "今、何時ですか。",
+     "translation": "What time is it now?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "今",
+     "matched": "今【いま】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "now; the present time; just now; soon; immediately",
+      "another; more"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何時",
+     "matched": "何時【なんじ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "what time; which hour"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

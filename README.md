@@ -1,51 +1,120 @@
-# Michi 道 — daily Japanese for living in Kyoto
+# Michi 道 — Japanese for everyday life in Kyoto
 
-Static PWA (GitHub Pages, **no build step, no npm to run**): `index.html`, `engine.js`, `app.js`, `style.css`, `sw.js`, `manifest.json`, `scripts/bump-version.sh`. All learning/scheduling logic lives in **`engine.js`** (pure, no DOM/network) so it can be unit-tested; `app.js` is the UI shell around it. Run the bump script before each push so phones update.
+An offline-first web app (PWA) for reaching practical, spoken Japanese quickly:
+recalling words without freezing, understanding what people say, reading signs
+and labels, and getting unstuck when a word won't come.
 
-**Dev tooling (not needed to run the app):** `npm test` runs the engine unit tests (`tests/engine.test.js`, Node) and the DOM end-to-end tests (`tests/dom.test.js`, jsdom — `npm install` first). `python scripts/audit.py` validates data + provenance and regenerates `VERIFICATION_LOG.md`.
+No build step and no server code: it is static files. Node is only needed for the
+developer tools (tests, curriculum verification).
 
-## Recommended rhythm (for poor memory + low motivation)
-Evidence-based principles (spacing, retrieval practice, short sessions, sleep between sessions) point to **several short sessions rather than one long one**. There is no single proven "optimal" number, so this is a recommendation, not a fact:
+## Launch
 
-| Slot | Length | What happens |
+```bash
+python -m http.server 8080        # any static file server works
+# open http://localhost:8080/  (on a phone: http://<your-PC-IP>:8080/)
+```
+After the first visit the service worker stores the app **and every curriculum
+file**, so it then works with no network. On a phone use *Add to Home Screen*.
+A plain `file://` open won't register the service worker (no offline cache).
+
+Developer tools: `npm install`, then
+- `npm test` — unit, engine, speech and curriculum-data tests (Node, no browser)
+- `npm run test:e2e` — end-to-end tests in real Chrome with phone emulation (needs Chrome or Edge installed; `CHROME_PATH` to override)
+- `npm run audit` — validates provenance and regenerates `VERIFICATION_LOG.md`
+- `npm run build:index` — regenerates `data/index.json` after adding a topic file
+- `scripts/bump-version.sh` — bump the cache stamp before deploying
+
+## The daily structure
+
+| | What it is | Changes your schedule? |
 |---|---|---|
-| Morning · Learn | 15 min | Pre-test ("do you know this?"), teach up to 5 new items, retrieve them, a few reviews |
-| Midday · Recall | 8 min | Reviews only (listen/read/say) |
-| Evening · Speak & Flex | 15 min | Say-aloud reviews, 1 get-unstuck drill, 1 memory round |
-| Weekly · Kyoto Walk | 40 min | Wide review + 3 drills (never above your 1 h limit) |
-| Minimum day | 5 min | Counts as a kept day when you are tired |
+| **Daily Morning** | Picks the next topic, runs a short diagnostic **on this lesson's words only**, teaches what you don't know (in chunks), practises it in varied ways, mixes in due reviews, and ends with a delayed "can you still produce it?" check. | yes |
+| **Daily Evening** | **No new words.** Re-uses the morning's words in different exercises (productive first: sentences, typing, speaking, forms, listening) plus due older reviews. | yes |
+| **Recall** | Your own study: weakest words first, or by topic, in the direction you choose (meaning→Japanese, kanji→reading, reading→kanji, listening, context, conjugation, explain-it-simply). Endless. | **no** |
+| **Training** | Open-ended practice: mixed, rapid recall, conjugation, listening, sentences, memory span, category switching, rebuild-later, **get unstuck** (describe a word you can't remember, with graduated hints). | **no** |
+| **Weekly** | Unlocks **Sunday 00:00 in your time zone** (Settings). A broad assessment of everything since the last one plus at-risk older words, across skills, with real-life milestone checks. A missed Sunday stays available until done. | yes |
 
-About 40 min/day. If life only allows two slots, keep Morning + Evening.
+Plus **Conjugation** (interactive reference: groups → ending patterns → forms →
+meaning, usage, nuance, register, mistakes, contrasts, examples) and **Progress**.
 
-## Techniques built in
-Spaced repetition (Leitner boxes, 0 → 30 days) · pre-testing · self-generated hooks (you write your own memory story) · links between items (shared kanji, opposites) · interleaving domains · get-unstuck drill (finding another way when a word is missing) · pattern lab (one frame, many words).
+## Nothing is a fixed quantity
 
-**Recognition → production ladder.** An item climbs through four exercise types as it matures: `read` (box 1, see Japanese → choose meaning) → `listen` (box 2, hear it → choose meaning) → `type` (box 3, see English → **type** the reading) → `say` (box 4+, say it aloud, self-grade). Typed/spoken answers are *production*; a four-choice tap is only *recognition*.
+There are no hard-coded question counts, lesson lengths, pair counts or
+repetition counts. Each session is sized from:
+- the minutes you have (Settings; defaults 20 / 15 / 40),
+- **your own median time** per exercise type (priors only until there is history),
+- how many skills are due and how much they matter,
+- your recent accuracy (struggling → fewer new words),
+- and what verified, eligible material exists.
 
-**Honest mastery.** The home screen's "recalled reliably" count and the "I can now…" checkboxes require an item to be both mature in the schedule **and** produced unaided at least once — recognition alone never marks something known.
+A morning aims for roughly 7–14 new words as a *preference*, shrinking for hard
+topics or a heavy review load and growing (up to a safeguard) for easy ones, but
+it never pads with words from another topic. What doesn't fit is **carried
+forward explicitly**, never marked learned. Mistakes get bounded extra practice
+(a different exercise for the same skill, after a gap; per-item and per-session
+caps). Typos are feedback, not failures. All tunable safeguards are in
+`js/policy.js`, separate from curriculum data, each documented.
 
-**Honest duration.** Each session card shows `~N min` computed from the *actual* cards in the queue, not a fixed label; the summary reports the time you actually took. New items also get a within-session **delayed retrieval** (tested again after a gap) so a lesson is substantive without busy-work.
+## How memory is modelled
 
-**Memory round** adapts to how many items you've learned (works from 3 items; no fixed 6-item gate) and never duplicates a word to pad the grid.
+`js/srs.js` implements **FSRS-4.5** (the open scheduler used by Anki) with its
+published default parameters. It runs separately for each **(word, skill)**
+pair: recognition, listening, kanji reading, typed recall, speaking, conjugation,
+use in context. So recognising a word never counts as being able to say it.
+Grades are derived from evidence: wrong or "don't know" → Again; correct only
+after a strong hint → Again; typo, vowel-length slip or light hint → Hard;
+correct unaided → Good; correct production clearly faster than *your own*
+usual time → Easy. Multiple choice can never earn Easy.
 
-Motivation: "days practised this week" instead of a fragile streak, can-do checkboxes, readiness bars per domain, capped review sizes so a missed week never becomes a mountain.
+**Isolation of Recall/Training** is enforced in the data layer (`js/store.js`):
+the official memory is written only by `recordScheduled()`, which throws if
+called from a practice mode; practice is written by `recordPractice()`, which
+only receives the separate `practice` store. Tests freeze the official memory
+and run whole Recall and Training sessions to prove nothing changes.
 
-## Data format (`data/`)
-- `index.json`: list of packs, domains, and `can_do` goals (each lists the item ids needed).
-- `pack_*.json`: `{domain, status, sources, items:[…]}`. Pack values are defaults for each item.
-- Item: `id, jp, kana, romaji, en, tier(1-3), kind(word|phrase|pattern), parts[], links[{id,rel}], say_when, note, status, sources[], alt[]` (`alt` = extra acceptable typed answers).
-- `flex.json`: get-unstuck prompts (tips point to item ids). `patterns.json`: frames with fills.
-- `quarantine.json`: items that **failed verification**, each with a `quarantine_reason`. **Not referenced by `index.json`, so the app never loads it.**
-- Items missing a required field, with a duplicate id, or not `verified` are skipped at load (see browser console) and flagged by the audit.
+## Voices (audio)
 
-## Accuracy rule — verified only, no toggle
-The app serves **verified items only**. There is no setting to show unverified material (the old "Show unverified drafts" toggle has been removed). An item is served only after it has been checked against an official or trustworthy source and that exact source is listed in its `sources`. Nothing is promoted from memory; anything that cannot be confirmed is moved to `quarantine.json` with a reason, not guessed.
+The app uses the device's own Japanese speech engine (Web Speech API), so audio
+works offline when an **on-device** Japanese voice is installed. Settings lists
+only voices that really exist on the device, with a sample button, a speed
+control, and on-device/online labels. Online voices are never chosen
+automatically. Tested here on Windows with Chrome 155: Microsoft Ayumi, Haruka,
+Sayaka (female) and Ichiro (male). To get good offline voices:
+- **iPhone/iPad:** Settings → Accessibility → Spoken Content → Voices → Japanese → *Kyoko (Enhanced)* / *Otoya (Enhanced)*
+- **Android:** Settings → System → Languages → Text-to-speech → Google → Install voice data → Japanese
+- **Windows:** Settings → Time & language → Speech → Add voices → Japanese
+- **Mac:** System Settings → Accessibility → Spoken Content → System voice → Manage voices → Japanese
 
-A *trustworthy source* is not the same as a *supported claim*: the cited source must support the item's actual wording, reading and meaning. (Example caught this build: the generic dictionary reads 河原町 as かわはらちょう — a place in Tottori — not the Kyoto かわらまち, so it stays quarantined pending an official Kyoto/transit source.)
+No voice? Listening exercises are replaced by reading ones automatically.
 
-Current state: **41 verified items served, 9 quarantined.** `VERIFICATION_LOG.md` lists every served item with its sources and every quarantined item with why it failed; regenerate it and validate everything with `python scripts/audit.py` (fails if anything unverified is served or provenance is missing). Source strength varies (official pages, JMdict/EDRDG dictionaries, university materials); each item's `sources` says which was used.
+## Content and verification
 
-The audio is the phone's synthetic Japanese voice reading the kana, not a native recording.
+Content is in `data/` (schema: `data/SCHEMA.md`); learner state is in the
+browser. **Only verified items are served.** Vocabulary is checked against
+JMdict (EDRDG) with `scripts/verify_jmdict.js`, which requires the exact written
+form and its *primary* reading, records what the dictionary says, and takes
+verb/adjective classes from the dictionary's part of speech. Phrases and
+patterns need real usage evidence (Tatoeba sentences, CC BY 2.0 FR) or an
+official or grammar reference. Constructed example sentences are labelled as
+such. Anything unverifiable is in `data/quarantine.json` with a reason, and is
+never loaded. See `VERIFICATION_LOG.md`.
 
-## Not built yet
-Scenario dialogues with branching, kanji stroke/radical views, native audio, place-name map links, speech recognition.
+## Data, backup, migration
+
+Progress is stored in `localStorage` (`michi_v2`, written as one atomic document
+after every answer, with a rolling previous copy for automatic recovery).
+Progress from the old version (`michi_v1`) is migrated automatically: Leitner
+boxes map to equivalent FSRS stability, production history is kept, and nothing
+is marked mastered that wasn't produced before. A byte-identical copy of the old
+data is kept (`michi_v1_backup`), downloadable and restorable from Settings.
+An interrupted lesson resumes where you left it.
+
+## Code map
+
+`js/policy.js` tunable safeguards · `js/calendar.js` local dates and the Sunday unlock ·
+`js/kana.js`, `js/answer.js` answer checking · `js/conjugate.js` conjugation rules ·
+`js/srs.js` FSRS · `js/curriculum.js` loading and validation · `js/exercises.js`
+exercise generators and validation · `js/planner.js` session planning and
+adaptation · `js/store.js` state, migration and isolation · `js/progress.js`
+analytics · `js/speech.js` voices · `js/engine.js` the single façade used by
+the UI and the tests · `js/app.js` UI.

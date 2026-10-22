@@ -1,0 +1,1435 @@
+{
+ "topic": "intro",
+ "items": [
+  {
+   "id": "x_kochirakoso",
+   "jp": "こちらこそ",
+   "kana": "こちらこそ",
+   "romaji": "kochira koso",
+   "en": "it is I who should say so; likewise (nice to meet you too)",
+   "gloss": "likewise",
+   "pos": "expression",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "こちらこそ",
+     "matched": "【こちらこそ】",
+     "common": false,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "it is I who should say so"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_namae",
+   "jp": "名前",
+   "kana": "なまえ",
+   "romaji": "namae",
+   "en": "name",
+   "gloss": "name",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "お名前は？",
+     "en": "May I have your name?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 226572,
+      "url": "https://tatoeba.org/en/sentences/show/226572",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お名前は？",
+      "translation": "May I have your name?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "名前",
+     "matched": "名前【なまえ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "name",
+      "given name; first name",
+      "Name"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_watashi",
+   "jp": "私",
+   "kana": "わたし",
+   "romaji": "watashi",
+   "en": "I; me",
+   "gloss": "I",
+   "pos": "pronoun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "examples": [
+    {
+     "jp": "私ですか？",
+     "en": "Me?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13611135,
+      "url": "https://tatoeba.org/en/sentences/show/13611135",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "私ですか？",
+      "translation": "Me?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "私",
+     "matched": "私【わたし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "I; me"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_shusshin",
+   "jp": "出身",
+   "kana": "しゅっしん",
+   "romaji": "shusshin",
+   "en": "one's origin; where one is from",
+   "gloss": "where I am from",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "カナダ出身です。",
+     "en": "I'm from Canada.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13356104,
+      "url": "https://tatoeba.org/en/sentences/show/13356104",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "カナダ出身です。",
+      "translation": "I'm from Canada."
+     }
+    },
+    {
+     "jp": "札幌の出身です。",
+     "en": "I'm from Sapporo.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 169558,
+      "url": "https://tatoeba.org/en/sentences/show/169558",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "札幌の出身です。",
+      "translation": "I'm from Sapporo."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "出身",
+     "matched": "出身【しゅっしん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "one's origin (e.g. city, country, parentage, school)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_shigoto",
+   "jp": "仕事",
+   "kana": "しごと",
+   "romaji": "shigoto",
+   "en": "work; job",
+   "gloss": "work",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "intro",
+   "tags": [
+    "activity"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "仕事はどう？",
+     "en": "How's work?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3488321,
+      "url": "https://tatoeba.org/en/sentences/show/3488321",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "仕事はどう？",
+      "translation": "How's work?"
+     }
+    },
+    {
+     "jp": "今日は仕事？",
+     "en": "Are you working today?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11491611,
+      "url": "https://tatoeba.org/en/sentences/show/11491611",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今日は仕事？",
+      "translation": "Are you working today?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "仕事",
+     "matched": "仕事【しごと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "work; job; labor; labour; business; task; assignment; occupation; employment",
+      "work",
+      "Work"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_gakusei",
+   "jp": "学生",
+   "kana": "がくせい",
+   "romaji": "gakusei",
+   "en": "student",
+   "gloss": "a student",
+   "pos": "noun",
+   "topic": "intro",
+   "tags": [
+    "person"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "学生です。",
+     "en": "I'm a student.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10756859,
+      "url": "https://tatoeba.org/en/sentences/show/10756859",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "学生です。",
+      "translation": "I'm a student."
+     }
+    },
+    {
+     "jp": "学生ですか？",
+     "en": "Are you a student?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13172383,
+      "url": "https://tatoeba.org/en/sentences/show/13172383",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "学生ですか？",
+      "translation": "Are you a student?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "学生",
+     "matched": "学生【がくせい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "student (esp. a university student)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_sumu",
+   "jp": "住む",
+   "kana": "すむ",
+   "romaji": "sumu",
+   "en": "to live (in a place)",
+   "gloss": "to live",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "note": "Usually 〜に住んでいます = I live in ~.",
+   "examples": [
+    {
+     "jp": "どこに住んでるの？",
+     "en": "Where do you live?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10637540,
+      "url": "https://tatoeba.org/en/sentences/show/10637540",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "どこに住んでるの？",
+      "translation": "Where do you live?"
+     }
+    },
+    {
+     "jp": "ここに住んでるの？",
+     "en": "Do you live here?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2666713,
+      "url": "https://tatoeba.org/en/sentences/show/2666713",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ここに住んでるの？",
+      "translation": "Do you live here?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "住む",
+     "matched": "住む【すむ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to live (of humans); to reside; to inhabit; to dwell; to abide"
+     ],
+     "pos": [
+      "Godan verb with 'mu' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_shumi",
+   "jp": "趣味",
+   "kana": "しゅみ",
+   "romaji": "shumi",
+   "en": "hobby",
+   "gloss": "hobby",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "趣味は何ですか。",
+     "en": "What's your hobby?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 148465,
+      "url": "https://tatoeba.org/en/sentences/show/148465",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "趣味は何ですか。",
+      "translation": "What's your hobby?"
+     }
+    },
+    {
+     "jp": "趣味は読書です。",
+     "en": "My hobby is reading.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 536751,
+      "url": "https://tatoeba.org/en/sentences/show/536751",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "趣味は読書です。",
+      "translation": "My hobby is reading."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "趣味",
+     "matched": "趣味【しゅみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "hobby; pastime",
+      "tastes; preference; liking",
+      "Hobby"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_hajimemashite",
+   "jp": "はじめまして",
+   "kana": "はじめまして",
+   "romaji": "hajimemashite",
+   "en": "nice to meet you (first greeting)",
+   "gloss": "nice to meet you",
+   "pos": "expression",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "はじめまして。",
+     "en": "Nice to meet you.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9699149,
+      "url": "https://tatoeba.org/en/sentences/show/9699149",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "はじめまして。",
+      "translation": "Nice to meet you."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "はじめまして",
+     "matched": "初めまして【はじめまして】 (written in kana: はじめまして)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "nice to meet you; I'm glad to make your acquaintance; how do you do?"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_yoroshiku",
+   "jp": "よろしくお願いします",
+   "kana": "よろしくおねがいします",
+   "romaji": "yoroshiku onegai shimasu",
+   "en": "please treat me well; I look forward to working with you (said when introducing yourself)",
+   "gloss": "please treat me well",
+   "pos": "expression",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "examples": [
+    {
+     "jp": "よろしくお願いします！",
+     "en": "Please treat me well!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3326557,
+      "url": "https://tatoeba.org/en/sentences/show/3326557",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "よろしくお願いします！",
+      "translation": "Please treat me well!"
+     }
+    },
+    {
+     "jp": "どうぞよろしくお願いします。",
+     "en": "I'm looking forward to working with you.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10918370,
+      "url": "https://tatoeba.org/en/sentences/show/10918370",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "どうぞよろしくお願いします。",
+      "translation": "I'm looking forward to working with you."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "よろしくお願いします",
+     "matched": "よろしくお願いします【よろしくおねがいします】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "please remember me; please help me; please treat me well; I look forward to working with you",
+      "please do; please take care of"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kuni",
+   "jp": "国",
+   "kana": "くに",
+   "romaji": "kuni",
+   "en": "country",
+   "gloss": "country",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "国",
+     "matched": "国【くに】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "country; state",
+      "region",
+      "national government; central government",
+      "home (i.e. hometown, home country)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kaishain",
+   "jp": "会社員",
+   "kana": "かいしゃいん",
+   "romaji": "kaishain",
+   "en": "company employee; office worker",
+   "gloss": "an office worker",
+   "pos": "noun",
+   "topic": "intro",
+   "tags": [
+    "person"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "会社員です。",
+     "en": "I'm an office worker.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3326577,
+      "url": "https://tatoeba.org/en/sentences/show/3326577",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "会社員です。",
+      "translation": "I'm an office worker."
+     }
+    },
+    {
+     "jp": "私は会社員です。",
+     "en": "I'm an office worker.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 157955,
+      "url": "https://tatoeba.org/en/sentences/show/157955",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "私は会社員です。",
+      "translation": "I'm an office worker."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "会社員",
+     "matched": "会社員【かいしゃいん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "company employee; office worker; white-collar worker"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kazoku",
+   "jp": "家族",
+   "kana": "かぞく",
+   "romaji": "kazoku",
+   "en": "family",
+   "gloss": "family",
+   "pos": "noun",
+   "topic": "intro",
+   "tags": [
+    "person"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "何人家族ですか。",
+     "en": "How many people are in your family?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 187368,
+      "url": "https://tatoeba.org/en/sentences/show/187368",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何人家族ですか。",
+      "translation": "How many people are in your family?"
+     }
+    },
+    {
+     "jp": "家族は４人です。",
+     "en": "We are a family of four.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 186941,
+      "url": "https://tatoeba.org/en/sentences/show/186941",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "家族は４人です。",
+      "translation": "We are a family of four."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "家族",
+     "matched": "家族【かぞく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "family",
+      "Family"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_nihon",
+   "jp": "日本",
+   "kana": "にほん",
+   "romaji": "nihon",
+   "en": "Japan",
+   "gloss": "Japan",
+   "pos": "noun",
+   "topic": "intro",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "日本が好きですか？",
+     "en": "Do you like Japan?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13753496,
+      "url": "https://tatoeba.org/en/sentences/show/13753496",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "日本が好きですか？",
+      "translation": "Do you like Japan?"
+     }
+    },
+    {
+     "jp": "日本へようこそ！",
+     "en": "Welcome to Japan!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13753497,
+      "url": "https://tatoeba.org/en/sentences/show/13753497",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "日本へようこそ！",
+      "translation": "Welcome to Japan!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "日本",
+     "matched": "日本【にほん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "Japan",
+      "Japan"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kaisha",
+   "jp": "会社",
+   "kana": "かいしゃ",
+   "romaji": "kaisha",
+   "en": "company; office",
+   "gloss": "the office",
+   "pos": "noun",
+   "topic": "intro",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "まだ会社なの？",
+     "en": "Are you still at the office?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9119450,
+      "url": "https://tatoeba.org/en/sentences/show/9119450",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "まだ会社なの？",
+      "translation": "Are you still at the office?"
+     }
+    },
+    {
+     "jp": "明日会社でね。",
+     "en": "See you tomorrow in the office.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 80318,
+      "url": "https://tatoeba.org/en/sentences/show/80318",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "明日会社でね。",
+      "translation": "See you tomorrow in the office."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "会社",
+     "matched": "会社【かいしゃ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "company; corporation; firm",
+      "one's workplace",
+      "Company"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_daigaku",
+   "jp": "大学",
+   "kana": "だいがく",
+   "romaji": "daigaku",
+   "en": "university",
+   "gloss": "the university",
+   "pos": "noun",
+   "topic": "intro",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "大学",
+     "matched": "大学【だいがく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "university; college",
+      "former imperial university of Japan (established under the ritsuryō system for the training of government administrators)",
+      "the Great Learning (one of the Four Books)",
+      "University"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_sensei",
+   "jp": "先生",
+   "kana": "せんせい",
+   "romaji": "sensei",
+   "en": "teacher; doctor",
+   "gloss": "teacher",
+   "pos": "noun",
+   "topic": "intro",
+   "tags": [
+    "person"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "私は先生です。",
+     "en": "I'm a teacher.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 155469,
+      "url": "https://tatoeba.org/en/sentences/show/155469",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "私は先生です。",
+      "translation": "I'm a teacher."
+     }
+    },
+    {
+     "jp": "先生なの？",
+     "en": "Are you a teacher?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10624307,
+      "url": "https://tatoeba.org/en/sentences/show/10624307",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "先生なの？",
+      "translation": "Are you a teacher?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "先生",
+     "matched": "先生【せんせい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "teacher; instructor; master",
+      "sensei; title or form of address for a teacher, master, doctor, lawyer, etc.",
+      "intimate or teasing form of address",
+      "one's elder"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a suffix",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_hataraku",
+   "jp": "働く",
+   "kana": "はたらく",
+   "romaji": "hataraku",
+   "en": "to work",
+   "gloss": "to work",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "まだ働いてます。",
+     "en": "I'm still working.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9634381,
+      "url": "https://tatoeba.org/en/sentences/show/9634381",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "まだ働いてます。",
+      "translation": "I'm still working."
+     }
+    },
+    {
+     "jp": "いつ働いてるの？",
+     "en": "When do you work?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 228623,
+      "url": "https://tatoeba.org/en/sentences/show/228623",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いつ働いてるの？",
+      "translation": "When do you work?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "働く",
+     "matched": "働く【はたらく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to work; to labor; to labour",
+      "to function; to operate; to be effective; to work (i.e. ... works); to come into play",
+      "to commit (e.g. a crime); to perpetrate; to do; to act; to practise; to practice",
+      "to be conjugated"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kochira",
+   "jp": "こちら",
+   "kana": "こちら",
+   "romaji": "kochira",
+   "en": "this person; this way (polite)",
+   "gloss": "this (person)",
+   "pos": "pronoun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "examples": [
+    {
+     "jp": "こちらは母です。",
+     "en": "This is my mother.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 373214,
+      "url": "https://tatoeba.org/en/sentences/show/373214",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "こちらは母です。",
+      "translation": "This is my mother."
+     }
+    },
+    {
+     "jp": "こちらへどうぞ。",
+     "en": "This way, please.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1483688,
+      "url": "https://tatoeba.org/en/sentences/show/1483688",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "こちらへどうぞ。",
+      "translation": "This way, please."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "こちら",
+     "matched": "此方【こちら】 (written in kana: こちら)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "this way; this direction",
+      "here",
+      "this (one)",
+      "I; me; we; us"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_gaikokujin",
+   "jp": "外国人",
+   "kana": "がいこくじん",
+   "romaji": "gaikokujin",
+   "en": "foreigner; foreign citizen",
+   "gloss": "a foreigner",
+   "pos": "noun",
+   "topic": "intro",
+   "tags": [
+    "person"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "外国人",
+     "matched": "外国人【がいこくじん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "foreigner; foreign citizen; foreign national; alien; non-Japanese",
+      "Alien (law)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hito",
+   "jp": "人",
+   "kana": "ひと",
+   "romaji": "hito",
+   "en": "person; people",
+   "gloss": "person",
+   "pos": "noun",
+   "topic": "intro",
+   "tags": [
+    "person"
+   ],
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "examples": [
+    {
+     "jp": "あの人誰？",
+     "en": "Who is that person?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 230689,
+      "url": "https://tatoeba.org/en/sentences/show/230689",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "あの人誰？",
+      "translation": "Who is that person?"
+     }
+    },
+    {
+     "jp": "いい人よね？",
+     "en": "He's a good person, isn't he?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12022691,
+      "url": "https://tatoeba.org/en/sentences/show/12022691",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いい人よね？",
+      "translation": "He's a good person, isn't he?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "人",
+     "matched": "人【ひと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "person; someone; somebody",
+      "human beings; mankind; man; people; humans",
+      "human (Homo sapiens)",
+      "(other) people; others"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_doko_kara",
+   "jp": "どこから来ましたか",
+   "kana": "どこからきましたか",
+   "romaji": "doko kara kimashita ka",
+   "en": "Where are you from?",
+   "gloss": "Where are you from?",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 5323,
+     "url": "https://tatoeba.org/en/sentences/show/5323",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "どこから来ましたか？",
+     "translation": "Where are you from?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どこ",
+     "matched": "何処【どこ】 (written in kana: どこ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "where; what place",
+      "how much (long, far); what extent"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "来る",
+     "matched": "来る【くる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to come (spatially or temporally); to approach; to arrive",
+      "to come back; to do ... and come back",
+      "to come to be; to become; to get; to grow; to continue",
+      "to come from; to be caused by; to derive from"
+     ],
+     "pos": [
+      "Kuru verb - special class",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_onamae",
+   "jp": "お名前は何ですか",
+   "kana": "おなまえはなんですか",
+   "romaji": "onamae wa nan desu ka",
+   "en": "What's your name?",
+   "gloss": "What's your name?",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 12889995,
+     "url": "https://tatoeba.org/en/sentences/show/12889995",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "お名前は何ですか？",
+     "translation": "What's your name?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "名前",
+     "matched": "名前【なまえ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "name",
+      "given name; first name",
+      "Name"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何",
+     "matched": "何【なに】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "what",
+      "you-know-what; that thing",
+      "whatsit; whachamacallit; what's-his-name; what's-her-name",
+      "penis; (one's) thing; dick"
+     ],
+     "pos": [
+      "Pronoun",
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_oshigoto",
+   "jp": "お仕事は何ですか",
+   "kana": "おしごとはなんですか",
+   "romaji": "oshigoto wa nan desu ka",
+   "en": "What do you do? (What is your job?)",
+   "gloss": "What do you do? (What is your job?)",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 227125,
+     "url": "https://tatoeba.org/en/sentences/show/227125",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "お仕事は何ですか。",
+     "translation": "What do you do?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "仕事",
+     "matched": "仕事【しごと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "work; job; labor; labour; business; task; assignment; occupation; employment",
+      "work",
+      "Work"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何",
+     "matched": "何【なに】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "what",
+      "you-know-what; that thing",
+      "whatsit; whachamacallit; what's-his-name; what's-her-name",
+      "penis; (one's) thing; dick"
+     ],
+     "pos": [
+      "Pronoun",
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

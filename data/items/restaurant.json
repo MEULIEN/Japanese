@@ -1,0 +1,2453 @@
+{
+ "topic": "restaurant",
+ "items": [
+  {
+   "id": "f_omizu",
+   "jp": "お水",
+   "kana": "おみず",
+   "romaji": "omizu",
+   "en": "water (polite)",
+   "gloss": "water",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "お水はいかがですか？",
+     "en": "Would you like some water?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12286960,
+      "url": "https://tatoeba.org/en/sentences/show/12286960",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お水はいかがですか？",
+      "translation": "Would you like some water?"
+     }
+    },
+    {
+     "jp": "お水を一杯ください。",
+     "en": "Please give me a glass of water.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 143724,
+      "url": "https://tatoeba.org/en/sentences/show/143724",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お水を一杯ください。",
+      "translation": "Please give me a glass of water."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お水",
+     "matched": "お水【おみず】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "water; (drinking) water; (glass of) water",
+      "night entertainment business; nightlife worker; hostess",
+      "racy; titillating; sexy; suggestive"
+     ],
+     "pos": [
+      "Noun",
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_suito",
+   "jp": "水筒",
+   "kana": "すいとう",
+   "romaji": "suitō",
+   "en": "water bottle (flask)",
+   "gloss": "a water bottle",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "tier": 3,
+   "use": "say",
+   "links": [
+    {
+     "id": "f_omizu",
+     "rel": "both contain 水 (water)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "水筒",
+     "matched": "水筒【すいとう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "canteen; flask; water bottle; thermos",
+      "Canteen (bottle)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_menu",
+   "jp": "メニュー",
+   "kana": "メニュー",
+   "romaji": "menyū",
+   "en": "menu",
+   "gloss": "the menu",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "thing",
+    "orderable"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "英語のメニューはありますか？",
+     "en": "Do you have an English menu?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3549484,
+      "url": "https://tatoeba.org/en/sentences/show/3549484",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "英語のメニューはありますか？",
+      "translation": "Do you have an English menu?"
+     }
+    },
+    {
+     "jp": "メニューをいただけますか。",
+     "en": "May I have the menu, please?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 194614,
+      "url": "https://tatoeba.org/en/sentences/show/194614",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "メニューをいただけますか。",
+      "translation": "May I have the menu, please?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "メニュー",
+     "matched": "【メニュー】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "menu",
+      "schedule; program; programme; course; services",
+      "menu"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_okaikei",
+   "jp": "お会計",
+   "kana": "おかいけい",
+   "romaji": "okaikei",
+   "en": "the bill / check at a restaurant (polite)",
+   "gloss": "the bill",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "examples": [
+    {
+     "jp": "お会計はレジでお願いします。",
+     "en": "Please pay the cashier.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 227370,
+      "url": "https://tatoeba.org/en/sentences/show/227370",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お会計はレジでお願いします。",
+      "translation": "Please pay the cashier."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お会計",
+     "matched": "お会計【おかいけい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "bill (at a restaurant); check"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_udon",
+   "jp": "うどん",
+   "kana": "うどん",
+   "romaji": "udon",
+   "en": "udon (thick wheat noodles)",
+   "gloss": "udon",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "うどんでも食べませんか？",
+     "en": "Would you like to eat some udon?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1771715,
+      "url": "https://tatoeba.org/en/sentences/show/1771715",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "うどんでも食べませんか？",
+      "translation": "Would you like to eat some udon?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "うどん",
+     "matched": "饂飩【うどん】 (written in kana: うどん)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "udon; thick Japanese wheat noodles"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_mochikaeri",
+   "jp": "持ち帰り",
+   "kana": "もちかえり",
+   "romaji": "mochikaeri",
+   "en": "takeout / takeaway (food)",
+   "gloss": "takeout",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "持ち帰りにしよう。",
+     "en": "Let's get takeout.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8613814,
+      "url": "https://tatoeba.org/en/sentences/show/8613814",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "持ち帰りにしよう。",
+      "translation": "Let's get takeout."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "持ち帰り",
+     "matched": "持ち帰り【もちかえり】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "takeout (food); take-out; takeaway; carry-out; to-go"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_chumon",
+   "jp": "注文",
+   "kana": "ちゅうもん",
+   "romaji": "chūmon",
+   "en": "order; request (e.g. a food order)",
+   "gloss": "an order",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ご注文をどうぞ。",
+     "en": "May I have your order, please?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 217060,
+      "url": "https://tatoeba.org/en/sentences/show/217060",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ご注文をどうぞ。",
+      "translation": "May I have your order, please?"
+     }
+    },
+    {
+     "jp": "何か注文しよう。",
+     "en": "Let's order something.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11883177,
+      "url": "https://tatoeba.org/en/sentences/show/11883177",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何か注文しよう。",
+      "translation": "Let's order something."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "注文",
+     "matched": "注文【ちゅうもん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "order (for an item)",
+      "request; demand; condition"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_tennai",
+   "jp": "店内",
+   "kana": "てんない",
+   "romaji": "tennai",
+   "en": "inside the shop (eat in)",
+   "gloss": "eat in",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "hear",
+   "note": "店内でお召し上がりですか: \"Will you eat in?\"",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "店内",
+     "matched": "店内【てんない】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "inside of a store (restaurant, café, etc.); store interior; on the premises"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hitotsu",
+   "jp": "一つ",
+   "kana": "ひとつ",
+   "romaji": "hitotsu",
+   "en": "one (thing)",
+   "gloss": "one",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "一つ選んで。",
+     "en": "Choose one.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3488273,
+      "url": "https://tatoeba.org/en/sentences/show/3488273",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "一つ選んで。",
+      "translation": "Choose one."
+     }
+    },
+    {
+     "jp": "一つ残ってるよ。",
+     "en": "There's one left.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12593288,
+      "url": "https://tatoeba.org/en/sentences/show/12593288",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "一つ残ってるよ。",
+      "translation": "There's one left."
+     }
+    }
+   ],
+   "gloss_reviewed": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "一つ",
+     "matched": "一つ【ひとつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "one",
+      "for one thing",
+      "only",
+      "(not) even"
+     ],
+     "pos": [
+      "Numeric",
+      "Noun",
+      "Adverb (fukushi)",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_futatsu",
+   "jp": "二つ",
+   "kana": "ふたつ",
+   "romaji": "futatsu",
+   "en": "two (things)",
+   "gloss": "two",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "二つだけだったよ。",
+     "en": "There were only two.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10880137,
+      "url": "https://tatoeba.org/en/sentences/show/10880137",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "二つだけだったよ。",
+      "translation": "There were only two."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "二つ",
+     "matched": "二つ【ふたつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "two"
+     ],
+     "pos": [
+      "Numeric"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mittsu",
+   "jp": "三つ",
+   "kana": "みっつ",
+   "romaji": "mittsu",
+   "en": "three (things)",
+   "gloss": "three",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "これを三つください。",
+     "en": "Please give me three of these.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 217647,
+      "url": "https://tatoeba.org/en/sentences/show/217647",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これを三つください。",
+      "translation": "Please give me three of these."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "三つ",
+     "matched": "三つ【みっつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "three",
+      "three years of age"
+     ],
+     "pos": [
+      "Numeric",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hitori",
+   "jp": "一人",
+   "kana": "ひとり",
+   "romaji": "hitori",
+   "en": "one person; alone",
+   "gloss": "one person",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "一人旅です。",
+     "en": "I'm traveling alone.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10157813,
+      "url": "https://tatoeba.org/en/sentences/show/10157813",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "一人旅です。",
+      "translation": "I'm traveling alone."
+     }
+    },
+    {
+     "jp": "一人で大丈夫？",
+     "en": "Will you be OK alone?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12296300,
+      "url": "https://tatoeba.org/en/sentences/show/12296300",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "一人で大丈夫？",
+      "translation": "Will you be OK alone?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "一人",
+     "matched": "一人【ひとり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "one person",
+      "being alone; being by oneself",
+      "being single; being unmarried",
+      "by oneself; alone"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_futari",
+   "jp": "二人",
+   "kana": "ふたり",
+   "romaji": "futari",
+   "en": "two people",
+   "gloss": "two people",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "二人は友達なの？",
+     "en": "Are you two friends?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8748152,
+      "url": "https://tatoeba.org/en/sentences/show/8748152",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "二人は友達なの？",
+      "translation": "Are you two friends?"
+     }
+    },
+    {
+     "jp": "二人とも、大丈夫？",
+     "en": "Are you two OK?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3495531,
+      "url": "https://tatoeba.org/en/sentences/show/3495531",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "二人とも、大丈夫？",
+      "translation": "Are you two OK?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "二人",
+     "matched": "二人【ふたり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "two persons; two people; pair; couple"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_osusume",
+   "jp": "おすすめ",
+   "kana": "おすすめ",
+   "romaji": "osusume",
+   "en": "recommendation",
+   "gloss": "recommendation",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "おすすめはどれですか？",
+     "en": "Which one do you recommend?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12945969,
+      "url": "https://tatoeba.org/en/sentences/show/12945969",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "おすすめはどれですか？",
+      "translation": "Which one do you recommend?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "おすすめ",
+     "matched": "【オススメ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "recommendation; advice; suggestion; encouragement"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hashi",
+   "jp": "箸",
+   "kana": "はし",
+   "romaji": "hashi",
+   "en": "chopsticks",
+   "gloss": "chopsticks",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "thing",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "examples": [
+    {
+     "jp": "お箸が苦手なの。",
+     "en": "I'm not very good with chopsticks.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9696343,
+      "url": "https://tatoeba.org/en/sentences/show/9696343",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お箸が苦手なの。",
+      "translation": "I'm not very good with chopsticks."
+     }
+    },
+    {
+     "jp": "箸の使い方が分かりません。",
+     "en": "I don't know how to use chopsticks.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10574153,
+      "url": "https://tatoeba.org/en/sentences/show/10574153",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "箸の使い方が分かりません。",
+      "translation": "I don't know how to use chopsticks."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "箸",
+     "matched": "箸【はし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "chopsticks",
+      "Chopsticks"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_yoyaku",
+   "jp": "予約",
+   "kana": "よやく",
+   "romaji": "yoyaku",
+   "en": "reservation; booking",
+   "gloss": "a reservation",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "予約してあります。",
+     "en": "I have a reservation.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2213120,
+      "url": "https://tatoeba.org/en/sentences/show/2213120",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "予約してあります。",
+      "translation": "I have a reservation."
+     }
+    },
+    {
+     "jp": "予約はできますか。",
+     "en": "Can I make a reservation?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 78979,
+      "url": "https://tatoeba.org/en/sentences/show/78979",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "予約はできますか。",
+      "translation": "Can I make a reservation?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "予約",
+     "matched": "予約【よやく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "reservation; appointment; booking; advance order",
+      "contract; subscription; pledge",
+      "programming (e.g. a device); setting (e.g. a timer)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_seki",
+   "jp": "席",
+   "kana": "せき",
+   "romaji": "seki",
+   "en": "seat",
+   "gloss": "a seat",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "席は予約したの？",
+     "en": "Did you reserve a table?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9752668,
+      "url": "https://tatoeba.org/en/sentences/show/9752668",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "席は予約したの？",
+      "translation": "Did you reserve a table?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "席",
+     "matched": "席【せき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "seat",
+      "location (of a gathering, etc.); place",
+      "position; post"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_itadakimasu",
+   "jp": "いただきます",
+   "kana": "いただきます",
+   "romaji": "itadakimasu",
+   "en": "thank you for the meal (said before eating)",
+   "gloss": "thanks for the meal (before eating)",
+   "pos": "expression",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "頂きます。",
+     "en": "Bon appétit!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 915990,
+      "url": "https://tatoeba.org/en/sentences/show/915990",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "頂きます。",
+      "translation": "Bon appétit!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いただきます",
+     "matched": "頂きます【いただきます】 (written in kana: いただきます)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "thank you (for the meal just served); I receive (this meal)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "accept": [
+    "頂きます"
+   ]
+  },
+  {
+   "id": "x_gochisousama",
+   "jp": "ごちそうさまでした",
+   "kana": "ごちそうさまでした",
+   "romaji": "gochisōsama deshita",
+   "en": "thank you for the meal (said after eating)",
+   "gloss": "thanks for the meal",
+   "pos": "expression",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ごちそうさまでした。",
+     "en": "Thanks for the meal.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10100070,
+      "url": "https://tatoeba.org/en/sentences/show/10100070",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ごちそうさまでした。",
+      "translation": "Thanks for the meal."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ごちそうさまでした",
+     "matched": "ご馳走様でした【ごちそうさまでした】 (written in kana: ごちそうさまでした)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "thank you for the meal; that was a delicious meal; what a wonderful meal"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_karai",
+   "jp": "辛い",
+   "kana": "からい",
+   "romaji": "karai",
+   "en": "spicy; hot (taste)",
+   "gloss": "spicy",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "note": "辛い can also be read つらい (painful); in food it is からい.",
+   "examples": [
+    {
+     "jp": "辛すぎる。",
+     "en": "It's too spicy.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12003557,
+      "url": "https://tatoeba.org/en/sentences/show/12003557",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "辛すぎる。",
+      "translation": "It's too spicy."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "辛い",
+     "matched": "辛い【からい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "spicy; hot",
+      "salty",
+      "harsh (criticism); severe (punishment); strict",
+      "painful; bitter; difficult; tough"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_nomimono",
+   "jp": "飲み物",
+   "kana": "のみもの",
+   "romaji": "nomimono",
+   "en": "drink; beverage",
+   "gloss": "a drink",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "飲み物が欲しいですか？",
+     "en": "Would you like something to drink?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10951064,
+      "url": "https://tatoeba.org/en/sentences/show/10951064",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "飲み物が欲しいですか？",
+      "translation": "Would you like something to drink?"
+     }
+    },
+    {
+     "jp": "お飲み物はいかが？",
+     "en": "Would you like something to drink?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 227408,
+      "url": "https://tatoeba.org/en/sentences/show/227408",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お飲み物はいかが？",
+      "translation": "Would you like something to drink?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "飲み物",
+     "matched": "飲み物【のみもの】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "drink; beverage"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ocha",
+   "jp": "お茶",
+   "kana": "おちゃ",
+   "romaji": "ocha",
+   "en": "tea (green tea)",
+   "gloss": "tea",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable",
+    "shop_item"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "お茶が飲みたい。",
+     "en": "I want to have some tea.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3455875,
+      "url": "https://tatoeba.org/en/sentences/show/3455875",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お茶が飲みたい。",
+      "translation": "I want to have some tea."
+     }
+    },
+    {
+     "jp": "お茶は飲みません。",
+     "en": "I never drink tea.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12698822,
+      "url": "https://tatoeba.org/en/sentences/show/12698822",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お茶は飲みません。",
+      "translation": "I never drink tea."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お茶",
+     "matched": "お茶【おちゃ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "tea (esp. green or barley)",
+      "tea break; teatime",
+      "tea ceremony"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_gohan",
+   "jp": "ご飯",
+   "kana": "ごはん",
+   "romaji": "gohan",
+   "en": "cooked rice; meal",
+   "gloss": "rice",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ご飯は食べた？",
+     "en": "Did you eat?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11257980,
+      "url": "https://tatoeba.org/en/sentences/show/11257980",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ご飯は食べた？",
+      "translation": "Did you eat?"
+     }
+    },
+    {
+     "jp": "ご飯はあるの？",
+     "en": "Do you have rice?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10049463,
+      "url": "https://tatoeba.org/en/sentences/show/10049463",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ご飯はあるの？",
+      "translation": "Do you have rice?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ご飯",
+     "matched": "ご飯【ごはん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "cooked rice",
+      "meal"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_biiru",
+   "jp": "ビール",
+   "kana": "ビール",
+   "romaji": "bīru",
+   "en": "beer",
+   "gloss": "beer",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable",
+    "shop_item"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ビールって好き？",
+     "en": "Do you like beer?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11554754,
+      "url": "https://tatoeba.org/en/sentences/show/11554754",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ビールって好き？",
+      "translation": "Do you like beer?"
+     }
+    },
+    {
+     "jp": "ビール飲む？",
+     "en": "Do you want to drink some beer?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11388430,
+      "url": "https://tatoeba.org/en/sentences/show/11388430",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ビール飲む？",
+      "translation": "Do you want to drink some beer?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ビール",
+     "matched": "【ビール】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "beer",
+      "Biel (Switzerland); Bir (India); Beal; Beale; Bier",
+      "Beer"
+     ],
+     "pos": [
+      "Noun",
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_koohii",
+   "jp": "コーヒー",
+   "kana": "コーヒー",
+   "romaji": "kōhī",
+   "en": "coffee",
+   "gloss": "coffee",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable",
+    "shop_item"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "コーヒーはどう？",
+     "en": "How about some coffee?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1274165,
+      "url": "https://tatoeba.org/en/sentences/show/1274165",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "コーヒーはどう？",
+      "translation": "How about some coffee?"
+     }
+    },
+    {
+     "jp": "コーヒー、飲む？",
+     "en": "Do you want to have some coffee?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10630513,
+      "url": "https://tatoeba.org/en/sentences/show/10630513",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "コーヒー、飲む？",
+      "translation": "Do you want to have some coffee?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "コーヒー",
+     "matched": "珈琲【コーヒー】 (written in kana: コーヒー)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "coffee",
+      "Coffee"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ramen",
+   "jp": "ラーメン",
+   "kana": "ラーメン",
+   "romaji": "rāmen",
+   "en": "ramen; Chinese-style noodles",
+   "gloss": "ramen",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ラーメン食べたい。",
+     "en": "I want to eat ramen.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3635276,
+      "url": "https://tatoeba.org/en/sentences/show/3635276",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ラーメン食べたい。",
+      "translation": "I want to eat ramen."
+     }
+    },
+    {
+     "jp": "今度ラーメン行こう。",
+     "en": "Let's go out for some ramen sometime soon.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9483347,
+      "url": "https://tatoeba.org/en/sentences/show/9483347",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今度ラーメン行こう。",
+      "translation": "Let's go out for some ramen sometime soon."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ラーメン",
+     "matched": "拉麺【ラーメン】 (written in kana: ラーメン)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "ramen; Chinese-style noodles",
+      "Lamian"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_sushi",
+   "jp": "寿司",
+   "kana": "すし",
+   "romaji": "sushi",
+   "en": "sushi",
+   "gloss": "sushi",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "寿司が好きです。",
+     "en": "I like sushi.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 882485,
+      "url": "https://tatoeba.org/en/sentences/show/882485",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "寿司が好きです。",
+      "translation": "I like sushi."
+     }
+    },
+    {
+     "jp": "寿司は好きですか。",
+     "en": "Do you like sushi?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 148358,
+      "url": "https://tatoeba.org/en/sentences/show/148358",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "寿司は好きですか。",
+      "translation": "Do you like sushi?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "寿司",
+     "matched": "寿司【すし】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "sushi; range of dishes made with vinegared rice combined with fish, vegetables, egg, etc.",
+      "Sushi"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_teishoku",
+   "jp": "定食",
+   "kana": "ていしょく",
+   "romaji": "teishoku",
+   "en": "set meal",
+   "gloss": "a set meal",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "日替わり定食にしませんか。",
+     "en": "How about getting the special of the day?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 122849,
+      "url": "https://tatoeba.org/en/sentences/show/122849",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "日替わり定食にしませんか。",
+      "translation": "How about getting the special of the day?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "定食",
+     "matched": "定食【ていしょく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "set meal; special (of the day)",
+      "Table d'hôte"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_taberu",
+   "jp": "食べる",
+   "kana": "たべる",
+   "romaji": "taberu",
+   "en": "to eat",
+   "gloss": "to eat",
+   "pos": "verb",
+   "verb_class": "ichidan",
+   "topic": "restaurant",
+   "obj": [
+    "food"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "何食べたい？",
+     "en": "What do you want to eat?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3466602,
+      "url": "https://tatoeba.org/en/sentences/show/3466602",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何食べたい？",
+      "translation": "What do you want to eat?"
+     }
+    },
+    {
+     "jp": "これ食べる？",
+     "en": "Would you like to eat this?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12206268,
+      "url": "https://tatoeba.org/en/sentences/show/12206268",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これ食べる？",
+      "translation": "Would you like to eat this?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "食べる",
+     "matched": "食べる【たべる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to eat",
+      "to live on (e.g. a salary); to live off; to subsist on"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_nomu",
+   "jp": "飲む",
+   "kana": "のむ",
+   "romaji": "nomu",
+   "en": "to drink; to take (medicine)",
+   "gloss": "to drink",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "restaurant",
+   "obj": [
+    "drink"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "何か飲む？",
+     "en": "Do you want something to drink?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 890127,
+      "url": "https://tatoeba.org/en/sentences/show/890127",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何か飲む？",
+      "translation": "Do you want something to drink?"
+     }
+    },
+    {
+     "jp": "お薬飲んだ？",
+     "en": "Have you taken your medicine yet?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 237356,
+      "url": "https://tatoeba.org/en/sentences/show/237356",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お薬飲んだ？",
+      "translation": "Have you taken your medicine yet?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "飲む",
+     "matched": "飲む【のむ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to drink; to swallow; to take (medicine)",
+      "to smoke (tobacco)",
+      "to swallow up; to engulf",
+      "to suppress (one's anger, bitter feelings, etc.); to keep down; to hold back; to swallow (one's tears); to catch (one's breath)"
+     ],
+     "pos": [
+      "Godan verb with 'mu' ending",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_irasshaimase",
+   "jp": "いらっしゃいませ",
+   "kana": "いらっしゃいませ",
+   "romaji": "irasshaimase",
+   "en": "welcome (said by shop staff)",
+   "gloss": "welcome",
+   "pos": "expression",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "hear",
+   "register": "honorific",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いらっしゃいませ",
+     "matched": "【いらっしゃいませ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "welcome"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_irassharu",
+   "jp": "いらっしゃる",
+   "kana": "いらっしゃる",
+   "romaji": "irassharu",
+   "en": "to come; to go; to be (honorific)",
+   "gloss": "to come (honorific)",
+   "pos": "verb",
+   "verb_class": "aru-honorific",
+   "topic": "restaurant",
+   "tier": 3,
+   "use": "hear",
+   "register": "honorific",
+   "lesson": false,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いらっしゃる",
+     "matched": "【いらっしゃる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to come; to go; to be (somewhere)",
+      "to be (doing)"
+     ],
+     "pos": [
+      "Godan verb - -aru special class",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_oshibori",
+   "jp": "おしぼり",
+   "kana": "おしぼり",
+   "romaji": "oshibori",
+   "en": "wet hand towel (given at restaurants)",
+   "gloss": "a wet towel",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "thing",
+    "orderable"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "おしぼり",
+     "matched": "お絞り【おしぼり】 (written in kana: おしぼり)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "wet towel (supplied at table); hot, moistened hand towel"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_tabehoudai",
+   "jp": "食べ放題",
+   "kana": "たべほうだい",
+   "romaji": "tabehōdai",
+   "en": "all-you-can-eat",
+   "gloss": "all-you-can-eat",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "食べ放題",
+     "matched": "食べ放題【たべほうだい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "all-you-can-eat; eating as much as one likes",
+      "Buffet"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_nomihoudai",
+   "jp": "飲み放題",
+   "kana": "のみほうだい",
+   "romaji": "nomihōdai",
+   "en": "all-you-can-drink",
+   "gloss": "all-you-can-drink",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "飲み放題",
+     "matched": "飲み放題【のみほうだい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "all you can drink; bottomless cup"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_okawari",
+   "jp": "お代わり",
+   "kana": "おかわり",
+   "romaji": "okawari",
+   "en": "second helping; refill",
+   "gloss": "a refill",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "水のお代わりを下さい。",
+     "en": "I would like some more water.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 143796,
+      "url": "https://tatoeba.org/en/sentences/show/143796",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "水のお代わりを下さい。",
+      "translation": "I would like some more water."
+     }
+    },
+    {
+     "jp": "お茶のお代わりはいかがですか？",
+     "en": "Would you like some more tea?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11114950,
+      "url": "https://tatoeba.org/en/sentences/show/11114950",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お茶のお代わりはいかがですか？",
+      "translation": "Would you like some more tea?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お代わり",
+     "matched": "お代わり【おかわり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "another helping; second helping; seconds; refill",
+      "other paw!"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_okaikei_onegai",
+   "jp": "お会計お願いします",
+   "kana": "おかいけいおねがいします",
+   "romaji": "okaikei onegai shimasu",
+   "en": "The bill, please.",
+   "gloss": "The bill, please.",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 1014812,
+     "url": "https://tatoeba.org/en/sentences/show/1014812",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "お会計お願いします。",
+     "translation": "The bill, please."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お会計",
+     "matched": "お会計【おかいけい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "bill (at a restaurant); check"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お願いします",
+     "matched": "お願いします【おねがいします】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "please"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_nanmeisama",
+   "jp": "何名様ですか",
+   "kana": "なんめいさまですか",
+   "romaji": "nanmei-sama desu ka",
+   "en": "How many people are in your party?",
+   "gloss": "How many people are in your party?",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Staff ask this at the door. Answer with the number of people (一人, 二人) or hold up fingers.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 4694697,
+     "url": "https://tatoeba.org/en/sentences/show/4694697",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "何名様ですか。",
+     "translation": "How many people are in your party?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何",
+     "matched": "何【なに】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "what",
+      "you-know-what; that thing",
+      "whatsit; whachamacallit; what's-his-name; what's-her-name",
+      "penis; (one's) thing; dick"
+     ],
+     "pos": [
+      "Pronoun",
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_osusume_nan",
+   "jp": "おすすめは何ですか",
+   "kana": "おすすめはなんですか",
+   "romaji": "osusume wa nan desu ka",
+   "en": "What do you recommend?",
+   "gloss": "What do you recommend?",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 227687,
+     "url": "https://tatoeba.org/en/sentences/show/227687",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "おすすめは何ですか。",
+     "translation": "What do you recommend?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "おすすめ",
+     "matched": "【オススメ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "recommendation; advice; suggestion; encouragement"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何",
+     "matched": "何【なに】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "what",
+      "you-know-what; that thing",
+      "whatsit; whachamacallit; what's-his-name; what's-her-name",
+      "penis; (one's) thing; dick"
+     ],
+     "pos": [
+      "Pronoun",
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_omizu_kudasai",
+   "jp": "お水をください",
+   "kana": "おみずをください",
+   "romaji": "omizu o kudasai",
+   "en": "Water, please.",
+   "gloss": "Water, please.",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 227004,
+     "url": "https://tatoeba.org/en/sentences/show/227004",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "お水をください。",
+     "translation": "Water, please."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お水",
+     "matched": "お水【おみず】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "water; (drinking) water; (glass of) water",
+      "night entertainment business; nightlife worker; hostess",
+      "racy; titillating; sexy; suggestive"
+     ],
+     "pos": [
+      "Noun",
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ください",
+     "matched": "下さい【ください】 (written in kana: ください)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "please (give me)",
+      "please (do for me)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_menu_kudasai",
+   "jp": "メニューをください",
+   "kana": "メニューをください",
+   "romaji": "menyū o kudasai",
+   "en": "The menu, please.",
+   "gloss": "The menu, please.",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 12890046,
+     "url": "https://tatoeba.org/en/sentences/show/12890046",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "メニューをください。",
+     "translation": "The menu, please."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "メニュー",
+     "matched": "【メニュー】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "menu",
+      "schedule; program; programme; course; services",
+      "menu"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ください",
+     "matched": "下さい【ください】 (written in kana: ください)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "please (give me)",
+      "please (do for me)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_gochuumon",
+   "jp": "ご注文はお決まりですか",
+   "kana": "ごちゅうもんはおきまりですか",
+   "romaji": "go-chūmon wa okimari desu ka",
+   "en": "Are you ready to order?",
+   "gloss": "Are you ready to order?",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "hear",
+   "register": "honorific",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 217064,
+     "url": "https://tatoeba.org/en/sentences/show/217064",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "ご注文はお決まりですか？",
+     "translation": "Are you ready to order?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "注文",
+     "matched": "注文【ちゅうもん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "order (for an item)",
+      "request; demand; condition"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_oishikatta",
+   "jp": "美味しかったです",
+   "kana": "おいしかったです",
+   "romaji": "oishikatta desu",
+   "en": "It was delicious.",
+   "gloss": "It was delicious.",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "accept": [
+    "おいしかったです"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 11643291,
+     "url": "https://tatoeba.org/en/sentences/show/11643291",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "美味しかったです。",
+     "translation": "It was delicious."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "美味しい",
+     "matched": "美味しい【おいしい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "good(-tasting); nice; delicious; tasty",
+      "attractive (offer, opportunity, etc.); appealing; convenient; favorable; desirable; profitable"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_omochikaeri_desuka",
+   "jp": "お持ち帰りですか",
+   "kana": "おもちかえりですか",
+   "romaji": "omochikaeri desu ka",
+   "en": "Is it to go?",
+   "gloss": "Is it to go?",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 227101,
+     "url": "https://tatoeba.org/en/sentences/show/227101",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "お持ち帰りですか。",
+     "translation": "Is it to go?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "持ち帰り",
+     "matched": "持ち帰り【もちかえり】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "takeout (food); take-out; takeaway; carry-out; to-go"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

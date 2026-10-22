@@ -13,7 +13,7 @@ const A = require('../js/answer.js');
 const D = path.join(__dirname, '..', 'data');
 const J = f => JSON.parse(fs.readFileSync(path.join(D, f), 'utf8'));
 const index = J('index.json');
-const docs = { index, topics: J(index.topics), itemFiles: index.items.map(J), grammar: J(index.grammar), conjugation: J(index.conjugation), recovery: J(index.recovery), milestones: J(index.milestones) };
+const docs = { index, topics: J(index.topics), itemFiles: index.items.map(J), grammar: J(index.grammar), conjugation: J(index.conjugation), recovery: J(index.recovery), milestones: J(index.milestones), synonyms: J(index.synonyms) };
 const C = CUR.build(docs);
 const raw = docs.itemFiles.flatMap(f => f.items.map(i => Object.assign({ topic: f.topic }, i)));
 const quarantine = J('quarantine.json');
@@ -103,7 +103,11 @@ test('every exercise that can be generated for every item passes validation (ans
 test('example sentences: every one contains its word and carries a real usage source', () => {
   let n = 0;
   for (const it of C.items) for (const e of it.examples) {
-    assert.ok(X.surfaceIn(it, e.jp), `${it.id}: example does not contain the word: ${e.jp}`);
+    // The word must appear: as itself / a conjugated form (usable for cloze),
+    // or as its verb/adjective stem inside a compound (使い方, お急ぎ) — those
+    // are shown as examples but never turned into fill-the-gap questions.
+    const stem = it.verb_class ? (CJ.conjugate(it, 'masu').jp.replace(/ます$/, '')) : it.adj_class === 'i' ? it.jp.slice(0, -1) : it.jp;
+    assert.ok(X.surfaceIn(it, e.jp) || e.jp.includes(stem), `${it.id}: example does not contain the word: ${e.jp}`);
     assert.ok(e.source && (e.source.url || e.source.id), it.id + ' example source');
     n++;
   }
@@ -135,6 +139,16 @@ test('milestones: every required item exists; every step is an assessable (item,
       assert.ok(m.needs.includes(s.item), m.id + ' step item not in needs');
     }
   }
+});
+
+test('synonym groups: real items, never each other’s distractors, accepted as typed answers', () => {
+  for (const g of docs.synonyms.groups) for (const id of g.ids) assert.ok(C.byId[id], 'synonym id ' + id);
+  const g = { C, rng: Math.random, scope: new Set(C.items.map(i => i.id)), audio: true, memory: {}, optionCount: 4 };
+  const a = C.byId['s_otearai'], b = C.byId['w_toire'];
+  for (let k = 0; k < 30; k++) { const c = X.G.pick(a, g); if (c) assert.ok(!c.options.includes(b.jp), 'synonym used as distractor'); }
+  const t = X.G.type(C.byId['t_otearai_doko'], g);
+  assert.strictEqual(X.grade(t, { text: 'トイレはどこですか' }, g).verdict, 'correct');
+  assert.strictEqual(X.grade(t, { text: 'toire wa doko desu ka' }, g).verdict, 'correct');
 });
 
 run('data: verified curriculum, provenance, generated exercises');

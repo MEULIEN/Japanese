@@ -1,0 +1,1741 @@
+{
+ "topic": "directions",
+ "items": [
+  {
+   "id": "w_migi",
+   "jp": "右",
+   "kana": "みぎ",
+   "romaji": "migi",
+   "en": "right (direction)",
+   "gloss": "right",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "駅は右側です。",
+     "en": "The station is on the right.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11726744,
+      "url": "https://tatoeba.org/en/sentences/show/11726744",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "駅は右側です。",
+      "translation": "The station is on the right."
+     }
+    },
+    {
+     "jp": "右に曲がって。",
+     "en": "Turn right.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5253130,
+      "url": "https://tatoeba.org/en/sentences/show/5253130",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "右に曲がって。",
+      "translation": "Turn right."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "右",
+     "matched": "右【みぎ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "right; right-hand side",
+      "right hand",
+      "the above (in a piece of vertical writing); above-mentioned",
+      "the right (wing); rightist"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hidari",
+   "jp": "左",
+   "kana": "ひだり",
+   "romaji": "hidari",
+   "en": "left (direction)",
+   "gloss": "left",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "左に曲がって。",
+     "en": "Turn left.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5253128,
+      "url": "https://tatoeba.org/en/sentences/show/5253128",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "左に曲がって。",
+      "translation": "Turn left."
+     }
+    },
+    {
+     "jp": "左側通行です。",
+     "en": "Keep to the left.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9477577,
+      "url": "https://tatoeba.org/en/sentences/show/9477577",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "左側通行です。",
+      "translation": "Keep to the left."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "左",
+     "matched": "左【ひだり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "left; left-hand side",
+      "left hand",
+      "the left (wing); leftist",
+      "fondness for alcohol; drinker"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_massugu",
+   "jp": "まっすぐ",
+   "kana": "まっすぐ",
+   "romaji": "massugu",
+   "en": "straight (ahead)",
+   "gloss": "straight ahead",
+   "pos": "adverb",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "まっすぐ前を見てください。",
+     "en": "Look straight ahead.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 195363,
+      "url": "https://tatoeba.org/en/sentences/show/195363",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "まっすぐ前を見てください。",
+      "translation": "Look straight ahead."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "まっすぐ",
+     "matched": "真っ直ぐ【まっすぐ】 (written in kana: まっすぐ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "straight (ahead); direct; upright; erect",
+      "straightforward; honest; frank"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Adverb (fukushi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_magaru",
+   "jp": "曲がる",
+   "kana": "まがる",
+   "romaji": "magaru",
+   "en": "to turn (a corner)",
+   "gloss": "to turn",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "そこを右に曲がって。",
+     "en": "Turn right there.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 213566,
+      "url": "https://tatoeba.org/en/sentences/show/213566",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "そこを右に曲がって。",
+      "translation": "Turn right there."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "曲がる",
+     "matched": "曲がる【まがる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to bend; to curve; to warp; to wind; to twist",
+      "to turn",
+      "to be awry; to be askew; to be crooked"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kado",
+   "jp": "角",
+   "kana": "かど",
+   "romaji": "kado",
+   "en": "corner (of a street)",
+   "gloss": "the corner",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "note": "角 is also read つの (horn) and かく (angle); for street corners it is かど.",
+   "examples": [
+    {
+     "jp": "そこの角ですよ。",
+     "en": "It's at the corner.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 213634,
+      "url": "https://tatoeba.org/en/sentences/show/213634",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "そこの角ですよ。",
+      "translation": "It's at the corner."
+     }
+    },
+    {
+     "jp": "次の角を右に曲がって。",
+     "en": "Turn right at the next corner.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10601542,
+      "url": "https://tatoeba.org/en/sentences/show/10601542",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "次の角を右に曲がって。",
+      "translation": "Turn right at the next corner."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "角",
+     "matched": "角【かど】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "corner; edge",
+      "(street) corner; turning",
+      "rough edges (of one's character, words, etc.); abrasiveness; harshness; sharpness"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_shingou",
+   "jp": "信号",
+   "kana": "しんごう",
+   "romaji": "shingō",
+   "en": "traffic light",
+   "gloss": "the traffic light",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "最初の信号を右に。",
+     "en": "Turn right at the first traffic light.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9518577,
+      "url": "https://tatoeba.org/en/sentences/show/9518577",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "最初の信号を右に。",
+      "translation": "Turn right at the first traffic light."
+     }
+    },
+    {
+     "jp": "信号青になったよ。",
+     "en": "The light turned green.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3589613,
+      "url": "https://tatoeba.org/en/sentences/show/3589613",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "信号青になったよ。",
+      "translation": "The light turned green."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "信号",
+     "matched": "信号【しんごう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "signal; signalling; signaling",
+      "traffic light; traffic signal",
+      "Signal"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_chikaku",
+   "jp": "近く",
+   "kana": "ちかく",
+   "romaji": "chikaku",
+   "en": "near; nearby; neighbourhood",
+   "gloss": "nearby",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "家はこの近くなの？",
+     "en": "Is your house near here?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8755530,
+      "url": "https://tatoeba.org/en/sentences/show/8755530",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "家はこの近くなの？",
+      "translation": "Is your house near here?"
+     }
+    },
+    {
+     "jp": "近くにいる？",
+     "en": "Are you nearby?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12962651,
+      "url": "https://tatoeba.org/en/sentences/show/12962651",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "近くにいる？",
+      "translation": "Are you nearby?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "近く",
+     "matched": "近く【ちかく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "near; neighbourhood; neighborhood; vicinity",
+      "nearly (e.g. \"it took nearly one year\"); close to",
+      "shortly; soon"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Adverb (fukushi)",
+      "Noun, used as a suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_chikai",
+   "jp": "近い",
+   "kana": "ちかい",
+   "romaji": "chikai",
+   "en": "near; close",
+   "gloss": "close",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "近い",
+     "matched": "近い【ちかい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "near; close; short (distance)",
+      "close (in time); soon",
+      "close (relationship); friendly; intimate",
+      "closely related"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_tooi",
+   "jp": "遠い",
+   "kana": "とおい",
+   "romaji": "tōi",
+   "en": "far",
+   "gloss": "far",
+   "pos": "i-adj",
+   "adj_class": "i",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ここから遠いの？",
+     "en": "Is it far from here?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5055,
+      "url": "https://tatoeba.org/en/sentences/show/5055",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ここから遠いの？",
+      "translation": "Is it far from here?"
+     }
+    },
+    {
+     "jp": "遠すぎるわ。",
+     "en": "It's too far.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3506566,
+      "url": "https://tatoeba.org/en/sentences/show/3506566",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "遠すぎるわ。",
+      "translation": "It's too far."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "遠い",
+     "matched": "遠い【とおい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "far; distant; far away; a long way off; in the distance",
+      "distant (past); remote (in time); remote; far-removed (in time)",
+      "distant (relationship or kinship); having little to do (with someone)",
+      "far (from something else in quality, degree, etc.); not similar; way off"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_michi",
+   "jp": "道",
+   "kana": "みち",
+   "romaji": "michi",
+   "en": "road; street; way",
+   "gloss": "the road",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "道を渡った。",
+     "en": "I crossed the street.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10151278,
+      "url": "https://tatoeba.org/en/sentences/show/10151278",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "道を渡った。",
+      "translation": "I crossed the street."
+     }
+    },
+    {
+     "jp": "道間違えたかな？",
+     "en": "Am I on the wrong road?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3479881,
+      "url": "https://tatoeba.org/en/sentences/show/3479881",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "道間違えたかな？",
+      "translation": "Am I on the wrong road?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "道",
+     "matched": "道【みち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "road; path; street; lane; passage",
+      "route; way",
+      "distance; journey",
+      "road (e.g. to victory); course"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_chizu",
+   "jp": "地図",
+   "kana": "ちず",
+   "romaji": "chizu",
+   "en": "map",
+   "gloss": "a map",
+   "pos": "noun",
+   "topic": "directions",
+   "tags": [
+    "thing"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "地図が要ります。",
+     "en": "I need a map.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 450691,
+      "url": "https://tatoeba.org/en/sentences/show/450691",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "地図が要ります。",
+      "translation": "I need a map."
+     }
+    },
+    {
+     "jp": "地図が買いたいんだ。",
+     "en": "I'd like to buy a map.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10762877,
+      "url": "https://tatoeba.org/en/sentences/show/10762877",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "地図が買いたいんだ。",
+      "translation": "I'd like to buy a map."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "地図",
+     "matched": "地図【ちず】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "map; atlas; chart; plan",
+      "Map"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mae",
+   "jp": "前",
+   "kana": "まえ",
+   "romaji": "mae",
+   "en": "front; in front of",
+   "gloss": "in front",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "前",
+     "matched": "前【まえ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "in front (of); before (e.g. a building)",
+      "before; earlier; previously; prior; ago; (minutes) to (the hour)",
+      "(the) front; frontal part; fore; head (e.g. of a line)",
+      "forward; ahead"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Adverb (fukushi)",
+      "Suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ushiro",
+   "jp": "後ろ",
+   "kana": "うしろ",
+   "romaji": "ushiro",
+   "en": "back; behind",
+   "gloss": "behind",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "木の後ろだよ。",
+     "en": "It's behind the tree.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11065770,
+      "url": "https://tatoeba.org/en/sentences/show/11065770",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "木の後ろだよ。",
+      "translation": "It's behind the tree."
+     }
+    },
+    {
+     "jp": "後ろに座るかも。",
+     "en": "I may sit in the back.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8596226,
+      "url": "https://tatoeba.org/en/sentences/show/8596226",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "後ろに座るかも。",
+      "translation": "I may sit in the back."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "後ろ",
+     "matched": "後ろ【うしろ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "back; behind; rear"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_tonari",
+   "jp": "隣",
+   "kana": "となり",
+   "romaji": "tonari",
+   "en": "next to; next door",
+   "gloss": "next to",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "郵便局はすぐ隣です。",
+     "en": "The post office is right next door.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11505782,
+      "url": "https://tatoeba.org/en/sentences/show/11505782",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "郵便局はすぐ隣です。",
+      "translation": "The post office is right next door."
+     }
+    },
+    {
+     "jp": "隣に座って。",
+     "en": "Come sit next to me.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8553951,
+      "url": "https://tatoeba.org/en/sentences/show/8553951",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "隣に座って。",
+      "translation": "Come sit next to me."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "隣",
+     "matched": "隣【となり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "next (to); adjoining; adjacent",
+      "house next door; neighbouring house; next-door neighbour; next-door neighbor"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kousaten",
+   "jp": "交差点",
+   "kana": "こうさてん",
+   "romaji": "kōsaten",
+   "en": "intersection; crossing",
+   "gloss": "the intersection",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "次の交差点を右に曲がってください。",
+     "en": "Please turn right at the next intersection.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4147403,
+      "url": "https://tatoeba.org/en/sentences/show/4147403",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "次の交差点を右に曲がってください。",
+      "translation": "Please turn right at the next intersection."
+     }
+    },
+    {
+     "jp": "交差点で事故があった。",
+     "en": "There was an accident at the intersection.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1502280,
+      "url": "https://tatoeba.org/en/sentences/show/1502280",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "交差点で事故があった。",
+      "translation": "There was an accident at the intersection."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "交差点",
+     "matched": "交差点【こうさてん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "crossing; intersection",
+      "Intersection (road)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_aruku",
+   "jp": "歩く",
+   "kana": "あるく",
+   "romaji": "aruku",
+   "en": "to walk",
+   "gloss": "to walk",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "歩いて帰るの？",
+     "en": "Are you walking home?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8722372,
+      "url": "https://tatoeba.org/en/sentences/show/8722372",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "歩いて帰るの？",
+      "translation": "Are you walking home?"
+     }
+    },
+    {
+     "jp": "まだ歩ける？",
+     "en": "Are you able to keep walking?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11263416,
+      "url": "https://tatoeba.org/en/sentences/show/11263416",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "まだ歩ける？",
+      "translation": "Are you able to keep walking?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "歩く",
+     "matched": "歩く【あるく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to walk"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kita",
+   "jp": "北",
+   "kana": "きた",
+   "romaji": "kita",
+   "en": "north",
+   "gloss": "north",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "北って、どっち？",
+     "en": "Which direction is north?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11589034,
+      "url": "https://tatoeba.org/en/sentences/show/11589034",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "北って、どっち？",
+      "translation": "Which direction is north?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "北",
+     "matched": "北【きた】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "north",
+      "the North; northern territories",
+      "North Korea",
+      "north wind"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_minami",
+   "jp": "南",
+   "kana": "みなみ",
+   "romaji": "minami",
+   "en": "south",
+   "gloss": "south",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "私の家は南向きです。",
+     "en": "My house faces to the south.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 164302,
+      "url": "https://tatoeba.org/en/sentences/show/164302",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "私の家は南向きです。",
+      "translation": "My house faces to the south."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "南",
+     "matched": "南【みなみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "south",
+      "South"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_higashi",
+   "jp": "東",
+   "kana": "ひがし",
+   "romaji": "higashi",
+   "en": "east",
+   "gloss": "east",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "東はどの方向なの？",
+     "en": "What direction is east?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4562324,
+      "url": "https://tatoeba.org/en/sentences/show/4562324",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "東はどの方向なの？",
+      "translation": "What direction is east?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "東",
+     "matched": "東【ひがし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "east"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_nishi",
+   "jp": "西",
+   "kana": "にし",
+   "romaji": "nishi",
+   "en": "west",
+   "gloss": "west",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "太陽は西に沈みます。",
+     "en": "The sun sets in the west.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 138094,
+      "url": "https://tatoeba.org/en/sentences/show/138094",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "太陽は西に沈みます。",
+      "translation": "The sun sets in the west."
+     }
+    },
+    {
+     "jp": "駅はホテルの西側です。",
+     "en": "The station is to the west of the hotel.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9407249,
+      "url": "https://tatoeba.org/en/sentences/show/9407249",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "駅はホテルの西側です。",
+      "translation": "The station is to the west of the hotel."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "西",
+     "matched": "西【にし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "west",
+      "West"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_ue",
+   "jp": "上",
+   "kana": "うえ",
+   "romaji": "ue",
+   "en": "above; up; on top",
+   "gloss": "above",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "上",
+     "matched": "上【うえ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "above; over; up",
+      "top; summit; upper part; head (e.g. of a staircase)",
+      "surface; on (top of)",
+      "the above (in a piece of writing); earlier part"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_shita",
+   "jp": "下",
+   "kana": "した",
+   "romaji": "shita",
+   "en": "below; down; under",
+   "gloss": "below",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "下",
+     "matched": "下【した】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "below; down; under; younger (e.g. daughter)",
+      "bottom",
+      "beneath; underneath",
+      "just after; right after"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Noun, used as a prefix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mukou",
+   "jp": "向こう",
+   "kana": "むこう",
+   "romaji": "mukō",
+   "en": "over there; the other side",
+   "gloss": "over there",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "向こう",
+     "matched": "向こう【むこう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "opposite side; other side",
+      "over there; ahead; beyond; (in the) distance; far away; far off",
+      "destination; there (somewhere distant, esp. abroad)",
+      "the other party; the other side"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hashi_bridge",
+   "jp": "橋",
+   "kana": "はし",
+   "romaji": "hashi",
+   "en": "bridge",
+   "gloss": "the bridge",
+   "pos": "noun",
+   "topic": "directions",
+   "tags": [
+    "place"
+   ],
+   "tier": 3,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "橋",
+     "matched": "橋【はし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "bridge",
+      "Bridge"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_michi_mayou",
+   "jp": "迷う",
+   "kana": "まよう",
+   "romaji": "mayou",
+   "en": "to get lost; to be unsure",
+   "gloss": "to get lost",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "note": "道に迷う = to lose one's way",
+   "examples": [
+    {
+     "jp": "道に迷ったようだ。",
+     "en": "I seem to be lost.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 123615,
+      "url": "https://tatoeba.org/en/sentences/show/123615",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "道に迷ったようだ。",
+      "translation": "I seem to be lost."
+     }
+    },
+    {
+     "jp": "迷っていた。",
+     "en": "I was lost.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2570383,
+      "url": "https://tatoeba.org/en/sentences/show/2570383",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "迷っていた。",
+      "translation": "I was lost."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "迷う",
+     "matched": "迷う【まよう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "to lose one's way; to get lost; to go astray",
+      "to waver; to hesitate; to vacillate; to be of two minds (about); to be unable to make up one's mind; to not know what to do; to be at a loss; to be puzzled; to be perplexed",
+      "to be captivated (by); to be infatuated (with); to be charmed (by); to be carried away (by); to be blinded (by); to be lost (in); to lose oneself (to)",
+      "to linger (of a departed soul); to be restless in one's grave; to be unable to rest in peace"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_asoko",
+   "jp": "あそこ",
+   "kana": "あそこ",
+   "romaji": "asoko",
+   "en": "there; over there; that place",
+   "gloss": "over there",
+   "pos": "pronoun",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "あそこ",
+     "matched": "【アソコ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "there; over there; that place; yonder; you-know-where",
+      "genitals; private parts; nether regions",
+      "that far; that much; that point"
+     ],
+     "pos": [
+      "Pronoun",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_eki_doko",
+   "jp": "駅はどこですか",
+   "kana": "えきはどこですか",
+   "romaji": "eki wa doko desu ka",
+   "en": "Where is the station?",
+   "gloss": "Where is the station?",
+   "pos": "phrase",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 188894,
+     "url": "https://tatoeba.org/en/sentences/show/188894",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "駅はどこですか。",
+     "translation": "Where is the station?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "駅",
+     "matched": "駅【えき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "railway station; train station",
+      "staging post on a highway (in pre-modern Japan)",
+      "counter for railway stations and bus stations"
+     ],
+     "pos": [
+      "Noun",
+      "Counter"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どこ",
+     "matched": "何処【どこ】 (written in kana: どこ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "where; what place",
+      "how much (long, far); what extent"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_migi_magatte",
+   "jp": "右に曲がってください",
+   "kana": "みぎにまがってください",
+   "romaji": "migi ni magatte kudasai",
+   "en": "Please turn right.",
+   "gloss": "Please turn right.",
+   "pos": "phrase",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Directions you hear, or tell a taxi driver.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2349244,
+     "url": "https://tatoeba.org/en/sentences/show/2349244",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "右に曲がってください。",
+     "translation": "Please turn right."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "右",
+     "matched": "右【みぎ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "right; right-hand side",
+      "right hand",
+      "the above (in a piece of vertical writing); above-mentioned",
+      "the right (wing); rightist"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "曲がる",
+     "matched": "曲がる【まがる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to bend; to curve; to warp; to wind; to twist",
+      "to turn",
+      "to be awry; to be askew; to be crooked"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ください",
+     "matched": "下さい【ください】 (written in kana: ください)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "please (give me)",
+      "please (do for me)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_hidari_magatte",
+   "jp": "左に曲がってください",
+   "kana": "ひだりにまがってください",
+   "romaji": "hidari ni magatte kudasai",
+   "en": "Please turn to the left.",
+   "gloss": "Please turn to the left.",
+   "pos": "phrase",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 13152284,
+     "url": "https://tatoeba.org/en/sentences/show/13152284",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "左に曲がってください。",
+     "translation": "Please turn to the left."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "左",
+     "matched": "左【ひだり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "left; left-hand side",
+      "left hand",
+      "the left (wing); leftist",
+      "fondness for alcohol; drinker"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "曲がる",
+     "matched": "曲がる【まがる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to bend; to curve; to warp; to wind; to twist",
+      "to turn",
+      "to be awry; to be askew; to be crooked"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ください",
+     "matched": "下さい【ください】 (written in kana: ください)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "please (give me)",
+      "please (do for me)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_michi_mayotta",
+   "jp": "道に迷ってしまいました",
+   "kana": "みちにまよってしまいました",
+   "romaji": "michi ni mayotte shimaimashita",
+   "en": "I'm lost.",
+   "gloss": "I'm lost.",
+   "pos": "phrase",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 123603,
+     "url": "https://tatoeba.org/en/sentences/show/123603",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "道に迷ってしまいました。",
+     "translation": "I'm lost."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "道",
+     "matched": "道【みち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "road; path; street; lane; passage",
+      "route; way",
+      "distance; journey",
+      "road (e.g. to victory); course"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "迷う",
+     "matched": "迷う【まよう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "to lose one's way; to get lost; to go astray",
+      "to waver; to hesitate; to vacillate; to be of two minds (about); to be unable to make up one's mind; to not know what to do; to be at a loss; to be puzzled; to be perplexed",
+      "to be captivated (by); to be infatuated (with); to be charmed (by); to be carried away (by); to be blinded (by); to be lost (in); to lose oneself (to)",
+      "to linger (of a departed soul); to be restless in one's grave; to be unable to rest in peace"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1608 @@
+{
+ "topic": "transport",
+ "items": [
+  {
+   "id": "w_densha",
+   "jp": "電車",
+   "kana": "でんしゃ",
+   "romaji": "densha",
+   "en": "train",
+   "gloss": "the train",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "transport"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "電車で行きます。",
+     "en": "I'll go by train.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13115757,
+      "url": "https://tatoeba.org/en/sentences/show/13115757",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "電車で行きます。",
+      "translation": "I'll go by train."
+     }
+    },
+    {
+     "jp": "電車は混んでた？",
+     "en": "Was the train crowded?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8739887,
+      "url": "https://tatoeba.org/en/sentences/show/8739887",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "電車は混んでた？",
+      "translation": "Was the train crowded?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電車",
+     "matched": "電車【でんしゃ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "train; electric train",
+      "Electric multiple unit"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_basu",
+   "jp": "バス",
+   "kana": "バス",
+   "romaji": "basu",
+   "en": "bus",
+   "gloss": "the bus",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "transport"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "バスで行こう。",
+     "en": "Let's go by bus.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 198193,
+      "url": "https://tatoeba.org/en/sentences/show/198193",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "バスで行こう。",
+      "translation": "Let's go by bus."
+     }
+    },
+    {
+     "jp": "バスは混んでた？",
+     "en": "Was the bus crowded?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8840767,
+      "url": "https://tatoeba.org/en/sentences/show/8840767",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "バスは混んでた？",
+      "translation": "Was the bus crowded?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "バス",
+     "matched": "【バス】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "bus",
+      "bus",
+      "Bath (Britain); Basse; Buss"
+     ],
+     "pos": [
+      "Noun",
+      "Place"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_chikatetsu",
+   "jp": "地下鉄",
+   "kana": "ちかてつ",
+   "romaji": "chikatetsu",
+   "en": "subway; underground",
+   "gloss": "the subway",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "transport"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "地下鉄に乗ろう。",
+     "en": "Let's take the subway.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 127015,
+      "url": "https://tatoeba.org/en/sentences/show/127015",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "地下鉄に乗ろう。",
+      "translation": "Let's take the subway."
+     }
+    },
+    {
+     "jp": "地下鉄はほぼ毎日乗ってるよ。",
+     "en": "I take the subway almost every day.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11706810,
+      "url": "https://tatoeba.org/en/sentences/show/11706810",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "地下鉄はほぼ毎日乗ってるよ。",
+      "translation": "I take the subway almost every day."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "地下鉄",
+     "matched": "地下鉄【ちかてつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "subway; metro; underground (railway)",
+      "Rapid transit"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kippu",
+   "jp": "切符",
+   "kana": "きっぷ",
+   "romaji": "kippu",
+   "en": "ticket",
+   "gloss": "a ticket",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "もう切符は買ったの？",
+     "en": "Have you bought your ticket already?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11561678,
+      "url": "https://tatoeba.org/en/sentences/show/11561678",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "もう切符は買ったの？",
+      "translation": "Have you bought your ticket already?"
+     }
+    },
+    {
+     "jp": "切符持ってますか？",
+     "en": "Do you have a ticket?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1256367,
+      "url": "https://tatoeba.org/en/sentences/show/1256367",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "切符持ってますか？",
+      "translation": "Do you have a ticket?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "切符",
+     "matched": "切符【きっぷ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "ticket",
+      "Ticket"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_noru",
+   "jp": "乗る",
+   "kana": "のる",
+   "romaji": "noru",
+   "en": "to get on; to ride",
+   "gloss": "to ride",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "transport",
+   "tier": 1,
+   "use": "say",
+   "note": "Takes に: 電車に乗る.",
+   "examples": [
+    {
+     "jp": "車に乗って。",
+     "en": "Get into the car.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 149077,
+      "url": "https://tatoeba.org/en/sentences/show/149077",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "車に乗って。",
+      "translation": "Get into the car."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "乗る",
+     "matched": "乗る【のる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to get on (train, plane, bus, ship, etc.); to get in; to board; to take; to embark",
+      "to get on (e.g. a footstool); to step on; to jump on; to sit on; to mount",
+      "to reach; to go over; to pass",
+      "to follow; to stay (on track); to go with (the times, etc.)"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_oriru",
+   "jp": "降りる",
+   "kana": "おりる",
+   "romaji": "oriru",
+   "en": "to get off",
+   "gloss": "to get off",
+   "pos": "verb",
+   "verb_class": "ichidan",
+   "topic": "transport",
+   "tier": 1,
+   "use": "say",
+   "note": "Takes を: 電車を降りる / 次で降りる.",
+   "examples": [
+    {
+     "jp": "降りますか？",
+     "en": "Are you getting off?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 901501,
+      "url": "https://tatoeba.org/en/sentences/show/901501",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "降りますか？",
+      "translation": "Are you getting off?"
+     }
+    },
+    {
+     "jp": "終点で降りて。",
+     "en": "Get off at the last stop.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11895783,
+      "url": "https://tatoeba.org/en/sentences/show/11895783",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "終点で降りて。",
+      "translation": "Get off at the last stop."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "降りる",
+     "matched": "降りる【おりる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to descend (e.g. a mountain); to go down; to come down",
+      "to alight (e.g. from bus); to get off; to disembark; to dismount",
+      "to step down; to retire; to give up; to quit; to fold",
+      "to be granted; to be issued; to be given"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_norikae",
+   "jp": "乗り換え",
+   "kana": "のりかえ",
+   "romaji": "norikae",
+   "en": "transfer; change (trains)",
+   "gloss": "a transfer",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "transport",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "乗り換えは必要ですか。",
+     "en": "Do I need to transfer?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 146179,
+      "url": "https://tatoeba.org/en/sentences/show/146179",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "乗り換えは必要ですか。",
+      "translation": "Do I need to transfer?"
+     }
+    },
+    {
+     "jp": "次の駅で乗り換えます。",
+     "en": "We'll change trains at the next station.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 150313,
+      "url": "https://tatoeba.org/en/sentences/show/150313",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "次の駅で乗り換えます。",
+      "translation": "We'll change trains at the next station."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "乗り換え",
+     "matched": "乗り換え【のりかえ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "transfer (trains, buses, etc.); change; connection",
+      "switch (to another ideology, party, system, method, etc.); change; conversion",
+      "switching (stock)",
+      "chromosomal crossover; crossing over"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_bansen",
+   "jp": "番線",
+   "kana": "ばんせん",
+   "romaji": "bansen",
+   "en": "platform number; track number",
+   "gloss": "track",
+   "pos": "counter",
+   "topic": "transport",
+   "tier": 2,
+   "use": "hear",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "番線",
+     "matched": "番線【ばんせん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "track number; platform number",
+      "wire gauge"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_tsugi",
+   "jp": "次",
+   "kana": "つぎ",
+   "romaji": "tsugi",
+   "en": "next",
+   "gloss": "next",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "次の駅は、どこ？",
+     "en": "What's the next station?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9979543,
+      "url": "https://tatoeba.org/en/sentences/show/9979543",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "次の駅は、どこ？",
+      "translation": "What's the next station?"
+     }
+    },
+    {
+     "jp": "次はいつ会える？",
+     "en": "When can we see each other again?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11029405,
+      "url": "https://tatoeba.org/en/sentences/show/11029405",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "次はいつ会える？",
+      "translation": "When can we see each other again?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "次",
+     "matched": "次【つぎ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "next; following; subsequent",
+      "stage; station"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_shuuten",
+   "jp": "終点",
+   "kana": "しゅうてん",
+   "romaji": "shūten",
+   "en": "last stop; terminus",
+   "gloss": "the last stop",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 2,
+   "use": "hear",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "終点",
+     "matched": "終点【しゅうてん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "terminus; last stop (e.g. train)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kaisatsu",
+   "jp": "改札",
+   "kana": "かいさつ",
+   "romaji": "kaisatsu",
+   "en": "ticket gate",
+   "gloss": "the ticket gate",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "transport",
+   "tags": [
+    "place"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "改札",
+     "matched": "改札【かいさつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "examination of tickets",
+      "ticket gate; ticket barrier",
+      "Paid area"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_katamichi",
+   "jp": "片道",
+   "kana": "かたみち",
+   "romaji": "katamichi",
+   "en": "one way (ticket)",
+   "gloss": "one way",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "片道",
+     "matched": "片道【かたみち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "one-way (trip)",
+      "one-way ticket"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_oufuku",
+   "jp": "往復",
+   "kana": "おうふく",
+   "romaji": "ōfuku",
+   "en": "round trip; return (ticket)",
+   "gloss": "round trip",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "transport",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "往復",
+     "matched": "往復【おうふく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "making a round trip; going and returning; coming and going",
+      "round-trip ticket; return ticket",
+      "correspondence; exchanging (of letters)",
+      "keeping company (with); socializing; visiting each other"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_basutei",
+   "jp": "バス停",
+   "kana": "バスてい",
+   "romaji": "basutei",
+   "en": "bus stop",
+   "gloss": "the bus stop",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "あれはバス停です。",
+     "en": "That's a bus stop.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 229745,
+      "url": "https://tatoeba.org/en/sentences/show/229745",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "あれはバス停です。",
+      "translation": "That's a bus stop."
+     }
+    },
+    {
+     "jp": "バス停まで徒歩10分です。",
+     "en": "It's a ten minutes walk to the bus stop.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1036815,
+      "url": "https://tatoeba.org/en/sentences/show/1036815",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "バス停まで徒歩10分です。",
+      "translation": "It's a ten minutes walk to the bus stop."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "バス停",
+     "matched": "バス停【バスてい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "bus stop"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_takushii",
+   "jp": "タクシー",
+   "kana": "タクシー",
+   "romaji": "takushī",
+   "en": "taxi",
+   "gloss": "a taxi",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "transport"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "タクシーを呼んで。",
+     "en": "Call a taxi.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11535697,
+      "url": "https://tatoeba.org/en/sentences/show/11535697",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "タクシーを呼んで。",
+      "translation": "Call a taxi."
+     }
+    },
+    {
+     "jp": "タクシー来たわよ。",
+     "en": "The taxi is here.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11574812,
+      "url": "https://tatoeba.org/en/sentences/show/11574812",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "タクシー来たわよ。",
+      "translation": "The taxi is here."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "タクシー",
+     "matched": "【タクシー】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "taxi",
+      "Taxicab"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_jitensha",
+   "jp": "自転車",
+   "kana": "じてんしゃ",
+   "romaji": "jitensha",
+   "en": "bicycle",
+   "gloss": "a bicycle",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "transport"
+   ],
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "自転車は乗れますか？",
+     "en": "Can you ride a bicycle?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12148165,
+      "url": "https://tatoeba.org/en/sentences/show/12148165",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "自転車は乗れますか？",
+      "translation": "Can you ride a bicycle?"
+     }
+    },
+    {
+     "jp": "自転車が壊れた。",
+     "en": "My bicycle broke.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10774760,
+      "url": "https://tatoeba.org/en/sentences/show/10774760",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "自転車が壊れた。",
+      "translation": "My bicycle broke."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "自転車",
+     "matched": "自転車【じてんしゃ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "bicycle; bike",
+      "Bicycle"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_shinkansen",
+   "jp": "新幹線",
+   "kana": "しんかんせん",
+   "romaji": "shinkansen",
+   "en": "Shinkansen; bullet train",
+   "gloss": "the Shinkansen",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "transport"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "新幹線",
+     "matched": "新幹線【しんかんせん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "Shinkansen; bullet train",
+      "Shinkansen",
+      "Shinkansen"
+     ],
+     "pos": [
+      "Noun",
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_unchin",
+   "jp": "運賃",
+   "kana": "うんちん",
+   "romaji": "unchin",
+   "en": "fare",
+   "gloss": "the fare",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "運賃",
+     "matched": "運賃【うんちん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "(passenger) fare",
+      "freight rates; shipping expenses",
+      "Fare"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_futsuu",
+   "jp": "普通",
+   "kana": "ふつう",
+   "romaji": "futsū",
+   "en": "local train (stops at every station); normal",
+   "gloss": "local train",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 2,
+   "use": "read",
+   "note": "On train boards 普通 = local (all stops).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "普通",
+     "matched": "普通【ふつう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "normal; ordinary; regular; usual; common; average",
+      "normally; ordinarily; usually; generally; commonly",
+      "local train; train that stops at every station",
+      "Normality (behavior)"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Na-adjective (keiyodoshi)",
+      "Adverb (fukushi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kyuukou",
+   "jp": "急行",
+   "kana": "きゅうこう",
+   "romaji": "kyūkō",
+   "en": "express (train)",
+   "gloss": "express",
+   "pos": "noun",
+   "takes_suru": true,
+   "topic": "transport",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "急行",
+     "matched": "急行【きゅうこう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "hurrying (to somewhere); rushing; hastening",
+      "express (train)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Noun which may take the genitive case particle 'no'",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_kaisoku",
+   "jp": "快速",
+   "kana": "かいそく",
+   "romaji": "kaisoku",
+   "en": "rapid (train)",
+   "gloss": "rapid train",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "快速",
+     "matched": "快速【かいそく】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "high speed; rapidity",
+      "rapid-service train (not as fast as express); rapid train"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_mamonaku",
+   "jp": "まもなく",
+   "kana": "まもなく",
+   "romaji": "mamonaku",
+   "en": "soon; shortly",
+   "gloss": "shortly",
+   "pos": "adverb",
+   "topic": "transport",
+   "tier": 2,
+   "use": "hear",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "まもなく",
+     "matched": "間もなく【まもなく】 (written in kana: まもなく)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "soon; shortly; before long; in a short time; in a little while",
+      "having no time to ...; with no time to ..."
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_hoomu",
+   "jp": "ホーム",
+   "kana": "ホーム",
+   "romaji": "hōmu",
+   "en": "platform (station)",
+   "gloss": "the platform",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "place"
+   ],
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "4番ホームはどこですか？",
+     "en": "Where can I find platform number four?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11992656,
+      "url": "https://tatoeba.org/en/sentences/show/11992656",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "4番ホームはどこですか？",
+      "translation": "Where can I find platform number four?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ホーム",
+     "matched": "【ホーム】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "platform"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_isogu",
+   "jp": "急ぐ",
+   "kana": "いそぐ",
+   "romaji": "isogu",
+   "en": "to hurry",
+   "gloss": "to hurry",
+   "pos": "verb",
+   "verb_class": "godan",
+   "topic": "transport",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "お急ぎですか？",
+     "en": "Are you in a hurry?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3454115,
+      "url": "https://tatoeba.org/en/sentences/show/3454115",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お急ぎですか？",
+      "translation": "Are you in a hurry?"
+     }
+    },
+    {
+     "jp": "急いでるの？",
+     "en": "Are you in a rush?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8738148,
+      "url": "https://tatoeba.org/en/sentences/show/8738148",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "急いでるの？",
+      "translation": "Are you in a rush?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "急ぐ",
+     "matched": "急ぐ【いそぐ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to hurry; to rush; to hasten; to make something happen sooner"
+     ],
+     "pos": [
+      "Godan verb with 'gu' ending",
+      "Intransitive verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_deru",
+   "jp": "出る",
+   "kana": "でる",
+   "romaji": "deru",
+   "en": "to leave; to go out; to depart",
+   "gloss": "to leave",
+   "pos": "verb",
+   "verb_class": "ichidan",
+   "topic": "transport",
+   "tier": 1,
+   "use": "say",
+   "note": "Takes を for the place left: 駅を出る.",
+   "examples": [
+    {
+     "jp": "いつ出る？",
+     "en": "When are we leaving?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5762758,
+      "url": "https://tatoeba.org/en/sentences/show/5762758",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "いつ出る？",
+      "translation": "When are we leaving?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "出る",
+     "matched": "出る【でる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to leave; to exit; to go out; to come out; to get out",
+      "to leave (on a journey); to depart; to start out; to set out",
+      "to move forward",
+      "to come to; to get to; to lead to; to reach"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_shiteiseki",
+   "jp": "指定席",
+   "kana": "していせき",
+   "romaji": "shiteiseki",
+   "en": "reserved seat",
+   "gloss": "a reserved seat",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "指定席",
+     "matched": "指定席【していせき】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "reserved seat"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "w_jiyuuseki",
+   "jp": "自由席",
+   "kana": "じゆうせき",
+   "romaji": "jiyūseki",
+   "en": "unreserved seat",
+   "gloss": "an unreserved seat",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "自由席",
+     "matched": "自由席【じゆうせき】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "unreserved seat; non-reserved seat"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_kippu_doko",
+   "jp": "切符はどこで買えますか",
+   "kana": "きっぷはどこでかえますか",
+   "romaji": "kippu wa doko de kaemasu ka",
+   "en": "Where can I buy a ticket?",
+   "gloss": "Where can I buy a ticket?",
+   "pos": "phrase",
+   "topic": "transport",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2533670,
+     "url": "https://tatoeba.org/en/sentences/show/2533670",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "切符はどこで買えますか。",
+     "translation": "Where can I buy a ticket?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "切符",
+     "matched": "切符【きっぷ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "ticket",
+      "Ticket"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どこ",
+     "matched": "何処【どこ】 (written in kana: どこ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "where; what place",
+      "how much (long, far); what extent"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "買う",
+     "matched": "買う【かう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to buy; to purchase",
+      "to value (highly); to think highly of; to have a high opinion of; to appreciate; to recognize",
+      "to incur (someone's anger, displeasure, etc.); to elicit (e.g. sneers); to invite (e.g. scorn); to evoke; to arouse; to win (someone's favour)",
+      "to accept; to take on; to take up"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_tsugi_oriru",
+   "jp": "次の駅で降ります",
+   "kana": "つぎのえきでおります",
+   "romaji": "tsugi no eki de orimasu",
+   "en": "I'm getting off at the next station.",
+   "gloss": "I'm getting off at the next station.",
+   "pos": "phrase",
+   "topic": "transport",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 150316,
+     "url": "https://tatoeba.org/en/sentences/show/150316",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "次の駅で降ります。",
+     "translation": "I'm getting off at the next station."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "次",
+     "matched": "次【つぎ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "next; following; subsequent",
+      "stage; station"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "駅",
+     "matched": "駅【えき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "railway station; train station",
+      "staging post on a highway (in pre-modern Japan)",
+      "counter for railway stations and bus stations"
+     ],
+     "pos": [
+      "Noun",
+      "Counter"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "降りる",
+     "matched": "降りる【おりる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to descend (e.g. a mountain); to go down; to come down",
+      "to alight (e.g. from bus); to get off; to disembark; to dismount",
+      "to step down; to retire; to give up; to quit; to fold",
+      "to be granted; to be issued; to be given"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "x_takushii_yonde",
+   "jp": "タクシーを呼んでください",
+   "kana": "タクシーをよんでください",
+   "romaji": "takushī o yonde kudasai",
+   "en": "Please call a taxi.",
+   "gloss": "Please call a taxi.",
+   "pos": "phrase",
+   "topic": "transport",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 13256543,
+     "url": "https://tatoeba.org/en/sentences/show/13256543",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "タクシーを呼んでください。",
+     "translation": "Please call a taxi."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "タクシー",
+     "matched": "【タクシー】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "taxi",
+      "Taxicab"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "呼ぶ",
+     "matched": "呼ぶ【よぶ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to call out (to); to call; to invoke",
+      "to summon (a doctor, etc.)",
+      "to invite",
+      "to designate; to name; to brand"
+     ],
+     "pos": [
+      "Godan verb with 'bu' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ください",
+     "matched": "下さい【ください】 (written in kana: ください)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "please (give me)",
+      "please (do for me)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}
