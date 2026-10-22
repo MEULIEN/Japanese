@@ -1,0 +1,1067 @@
+{
+ "topic": "recovery-hints",
+ "items": [
+  {
+   "id": "h_ame",
+   "jp": "雨",
+   "kana": "あめ",
+   "en": "rain",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "雨",
+     "matched": "雨【あめ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "rain",
+      "rainy day; rainy weather",
+      "the November suit (in hanafuda)",
+      "Rain"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_hi",
+   "jp": "日",
+   "kana": "ひ",
+   "en": "day",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "日",
+     "matched": "日【ひ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "day; days",
+      "sun; sunshine; sunlight",
+      "(the) day; daytime; daylight",
+      "date; deadline"
+     ],
+     "pos": [
+      "Noun",
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_nagai",
+   "jp": "長い",
+   "kana": "ながい",
+   "en": "long",
+   "adj_class": "i",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "長い",
+     "matched": "長い【ながい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "long (distance, length)",
+      "long (time); protracted; prolonged"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_mono",
+   "jp": "物",
+   "kana": "もの",
+   "en": "thing",
+   "lookup": "物",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "物",
+     "matched": "物【もの】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "thing; object; article; stuff; substance",
+      "one's things; possessions; property; belongings",
+      "things; something; anything; everything; nothing",
+      "quality"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a suffix",
+      "Prefix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_tokoro",
+   "jp": "所",
+   "kana": "ところ",
+   "en": "place",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "所",
+     "matched": "所【ところ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "place; spot; scene; site",
+      "address",
+      "district; area; locality",
+      "one's house"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_hito",
+   "jp": "人",
+   "kana": "ひと",
+   "en": "person",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "人",
+     "matched": "人【ひと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "person; someone; somebody",
+      "human beings; mankind; man; people; humans",
+      "human (Homo sapiens)",
+      "(other) people; others"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_tsukau",
+   "jp": "使う",
+   "kana": "つかう",
+   "en": "to use",
+   "verb_class": "godan",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "使う",
+     "matched": "使う【つかう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to use (a tool, method, etc.); to make use of; to put to use",
+      "to use (a person, animal, puppet, etc.); to employ; to handle; to manage; to manipulate",
+      "to use (time, money, etc.); to spend; to consume",
+      "to use (language); to speak"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_kiru",
+   "jp": "切る",
+   "kana": "きる",
+   "en": "to cut",
+   "verb_class": "godan",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "切る",
+     "matched": "切る【きる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to cut; to cut through; to perform (surgery)",
+      "to sever (connections, ties)",
+      "to turn off (e.g. the light)",
+      "to terminate (e.g. a conversation); to hang up (the phone); to disconnect"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb",
+      "Suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_kami",
+   "jp": "紙",
+   "kana": "かみ",
+   "en": "paper",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "紙",
+     "matched": "紙【かみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "paper",
+      "Paper"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_dougu",
+   "jp": "道具",
+   "kana": "どうぐ",
+   "en": "tool",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "道具",
+     "matched": "道具【どうぐ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "tool; implement; instrument; utensil; apparatus; device",
+      "means",
+      "furniture",
+      "Tool"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_kusuri",
+   "jp": "薬",
+   "kana": "くすり",
+   "en": "medicine",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "薬",
+     "matched": "薬【くすり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "medicine; pharmaceuticals; (legal) drugs; pill; ointment; salve",
+      "efficacious chemical (gunpowder, pesticide, etc.)",
+      "(pottery) glaze",
+      "(illegal) drug; narcotic"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_kau",
+   "jp": "買う",
+   "kana": "かう",
+   "en": "to buy",
+   "verb_class": "godan",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "買う",
+     "matched": "買う【かう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to buy; to purchase",
+      "to value (highly); to think highly of; to have a high opinion of; to appreciate; to recognize",
+      "to incur (someone's anger, displeasure, etc.); to elicit (e.g. sneers); to invite (e.g. scorn); to evoke; to arouse; to win (someone's favour)",
+      "to accept; to take on; to take up"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_tegami",
+   "jp": "手紙",
+   "kana": "てがみ",
+   "en": "letter",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "手紙",
+     "matched": "手紙【てがみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "letter; note",
+      "Letter (message)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_dasu",
+   "jp": "出す",
+   "kana": "だす",
+   "en": "to send; to take out",
+   "verb_class": "godan",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "出す",
+     "matched": "出す【だす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to take out; to get out",
+      "to put out; to reveal; to show",
+      "to submit (e.g. thesis); to turn in",
+      "to publish; to make public"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb",
+      "Suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_gomi",
+   "jp": "ごみ",
+   "kana": "ごみ",
+   "en": "rubbish; garbage",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ごみ",
+     "matched": "【ゴミ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "rubbish; trash; garbage; refuse; litter"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_ireru",
+   "jp": "入れる",
+   "kana": "いれる",
+   "en": "to put in",
+   "verb_class": "ichidan",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "入れる",
+     "matched": "入れる【いれる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to put in; to let in; to take in; to bring in; to insert; to install (e.g. software); to set (a jewel, etc.); to ink in (e.g. tattoo)",
+      "to admit; to accept; to employ; to hire",
+      "to accept; to comply; to grant; to adopt (a policy, etc.); to take (advice, etc.); to listen to; to pay attention to",
+      "to include"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_fukuro",
+   "jp": "袋",
+   "kana": "ふくろ",
+   "en": "bag",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "袋",
+     "matched": "袋【ふくろ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "bag; sack; pouch",
+      "skin of an orange (and other like fruits)",
+      "dead end",
+      "plot of land surrounded by water"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_heya",
+   "jp": "部屋",
+   "kana": "へや",
+   "en": "room",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "部屋",
+     "matched": "部屋【へや】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "room; chamber",
+      "apartment; flat; pad",
+      "stable",
+      "Room"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_kasu",
+   "jp": "貸す",
+   "kana": "かす",
+   "en": "to lend; to rent out",
+   "verb_class": "godan",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "貸す",
+     "matched": "貸す【かす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to lend; to loan",
+      "to rent out; to hire out",
+      "to hand (over); to give"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_daidokoro",
+   "jp": "台所",
+   "kana": "だいどころ",
+   "en": "kitchen",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "台所",
+     "matched": "台所【だいどころ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "kitchen",
+      "financial situation; finances",
+      "Kitchen"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_ookii",
+   "jp": "大きい",
+   "kana": "おおきい",
+   "en": "big",
+   "adj_class": "i",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "大きい",
+     "matched": "大きい【おおきい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "big; large; great",
+      "loud",
+      "extensive; spacious",
+      "important; decisive; valuable"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_tsumetai",
+   "jp": "冷たい",
+   "kana": "つめたい",
+   "en": "cold (to the touch)",
+   "adj_class": "i",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "冷たい",
+     "matched": "冷たい【つめたい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "cold (to the touch); chilly; icy; freezing",
+      "(emotionally) cold; coldhearted; unfeeling; indifferent; unfriendly; distant"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_hako",
+   "jp": "箱",
+   "kana": "はこ",
+   "en": "box",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "箱",
+     "matched": "箱【はこ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "box; case; chest; package; pack; crate",
+      "car (of a train, etc.)",
+      "shamisen case; shamisen",
+      "public building; community building"
+     ],
+     "pos": [
+      "Noun",
+      "Suffix",
+      "Counter",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_tabemono",
+   "jp": "食べ物",
+   "kana": "たべもの",
+   "en": "food",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "食べ物",
+     "matched": "食べ物【たべもの】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "food"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_okane",
+   "jp": "お金",
+   "kana": "おかね",
+   "en": "money",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お金",
+     "matched": "お金【おかね】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "money"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_en",
+   "jp": "円",
+   "kana": "えん",
+   "en": "yen",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "円",
+     "matched": "円【えん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "yen (currency of Japan)",
+      "circle",
+      "圓"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_kaeru2",
+   "jp": "変える",
+   "kana": "かえる",
+   "en": "to change",
+   "verb_class": "ichidan",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "変える",
+     "matched": "変える【かえる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to change; to alter; to transform; to convert; to turn; to vary",
+      "to reform; to revise; to amend"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_ha",
+   "jp": "歯",
+   "kana": "は",
+   "en": "tooth",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "歯",
+     "matched": "歯【は】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "tooth; teeth",
+      "tooth (of a comb, saw, etc.); cog",
+      "support (of a geta)",
+      "Human tooth"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_isha",
+   "jp": "医者",
+   "kana": "いしゃ",
+   "en": "doctor",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "医者",
+     "matched": "医者【いしゃ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "doctor; physician"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_etto",
+   "jp": "えっと",
+   "kana": "えっと",
+   "en": "um; let me see",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "えっと",
+     "matched": "【えっと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "let me see; well; errr ...; uhh ..."
+     ],
+     "pos": [],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_imi",
+   "jp": "意味",
+   "kana": "いみ",
+   "en": "meaning",
+   "takes_suru": true,
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "意味",
+     "matched": "意味【いみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "meaning; significance; sense",
+      "Meaning (linguistics)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_iro",
+   "jp": "色",
+   "kana": "いろ",
+   "en": "colour",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "色",
+     "matched": "色【いろ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "colour; color; hue; tint; tinge; shade",
+      "complexion; skin colour; skin color",
+      "look (on one's face); expression",
+      "appearance; air; feeling"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_katachi",
+   "jp": "形",
+   "kana": "かたち",
+   "en": "shape",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "形",
+     "matched": "形【かたち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n3"
+     ],
+     "senses": [
+      "(physical) form; shape; figure",
+      "visage; (facial) features; appearance (of a person); figure; looks",
+      "form (as opposed to substance); manner (of action); style; (outward) appearance",
+      "(resultant) state; situation; condition; form"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_kuroi",
+   "jp": "黒い",
+   "kana": "くろい",
+   "en": "black",
+   "adj_class": "i",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "黒い",
+     "matched": "黒い【くろい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "black",
+      "dark; blackish; sun-tanned (skin)",
+      "suspicious; criminal; illicit",
+      "darkened and dirty; sooty; covered in dirt"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_marui",
+   "jp": "丸い",
+   "kana": "まるい",
+   "en": "round",
+   "adj_class": "i",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "丸い",
+     "matched": "丸い【まるい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "round; circular; spherical",
+      "curved; smooth",
+      "harmonious; calm; peaceful; amiable; amicable"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  },
+  {
+   "id": "h_chiisai",
+   "jp": "小さい",
+   "kana": "ちいさい",
+   "en": "small",
+   "adj_class": "i",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "小さい",
+     "matched": "小さい【ちいさい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "small; little; tiny",
+      "slight; below average (in degree, amount, etc.); minor; small",
+      "low (e.g. sound); soft (e.g. voice)",
+      "unimportant; petty; insignificant; trifling; trivial"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "status": "verified"
+  }
+ ]
+}

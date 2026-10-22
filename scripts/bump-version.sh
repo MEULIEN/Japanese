@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# Bumps the Qotoba build stamp so the next push is treated as a new release:
+# Bumps the Michi build stamp so the next push is treated as a new release:
 # the service worker installs, purges the old cache, and every connected
 # browser/PWA home-screen user gets the update on their next visit.
 #

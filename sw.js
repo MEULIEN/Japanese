@@ -1,124 +1,57 @@
 /* ============================================================
-   Michi — service worker
-
-   Deployment / cache strategy
-   ----------------------------
-   1. `BUILD_ID` version bump. Every deploy bumps the cache name so
-      the old cache is purged during `activate`. Kept explicit and
-      automatic: `scripts/bump-version.sh` rewrites it before a push,
-      and index.html/manifest reference the same stamp via `?v=`.
-   2. Navigation + app shell (index.html, app.js, style.css,
-      manifest.json, icons): NETWORK-FIRST with `cache: 'no-cache'`.
-      This revalidates against GitHub Pages on every load, so the
-      site's 10-minute HTTP cache never serves a stale shell — a push
-      is visible on the next visit without clearing caches or
-      reinstalling the app. Falls back to cache when offline.
-   3. Data files: also NETWORK-FIRST, so a content correction reaches
-      the learner on the next visit (accuracy matters more than speed here).
-   4. Cache keys are normalised (query strings like `?v=4` stripped),
-      so versioned asset URLs still resolve offline and the SW can be
-      updated in place without leaving orphaned entries.
+   Michi — service worker (offline-first)
+   ------------------------------------------------------------
+   Install: precache the app shell AND every data file listed in
+   data/index.json, so the whole curriculum works offline after the first
+   visit (the list is read from the index, never hard-coded, so adding a
+   topic file needs no change here).
+   Fetch: network-first with a short timeout for same-origin files, so a
+   content correction reaches the learner on the next online visit; when
+   offline (or slow), the cached copy is served. Query strings (?v=) are
+   ignored for cache keys. Bump BUILD_ID (scripts/bump-version.sh) per deploy.
    ============================================================ */
+const BUILD_ID = 'v6';
+const CACHE = 'michi-' + BUILD_ID;
+const SHELL = ['./', './index.html', './style.css', './manifest.json',
+  './js/policy.js', './js/calendar.js', './js/kana.js', './js/answer.js', './js/conjugate.js', './js/srs.js',
+  './js/curriculum.js', './js/exercises.js', './js/planner.js', './js/store.js', './js/progress.js', './js/speech.js',
+  './js/engine.js', './js/app.js',
+  './icons/icon-180.png', './icons/icon-192.png', './icons/icon-512.png', './data/index.json'];
 
-const BUILD_ID = 'v5';
-const CACHE_NAME = 'michi-' + BUILD_ID;
-
-const PRECACHE_ASSETS = [
-  './',
-  './index.html',
-  './style.css',
-  './engine.js',
-  './app.js',
-  './manifest.json',
-  './data/index.json',
-  './data/flex.json',
-  './data/patterns.json',
-  './data/pack_signs.json',
-  './data/pack_places.json',
-  './data/pack_food.json',
-  './data/pack_talk.json',
-  './data/pack_drive.json',
-  './data/pack_grocery.json',
-  './icons/icon-180.png',
-  './icons/icon-192.png',
-  './icons/icon-512.png'
-];
-
-// Relative paths resolved against the SW scope, so this also works when
-// the app is hosted under a sub-path (github.io/<repo>/).
-const scopeUrl = new URL(self.registration.scope);
-const scopePath = scopeUrl.pathname.replace(/\/$/, '') || '/';
-const SHELL_PATHS = new Set([
-  scopePath,
-  scopePath + '/index.html',
-  scopePath + '/style.css',
-  scopePath + '/engine.js',
-  scopePath + '/app.js',
-  scopePath + '/manifest.json',
-  scopePath + '/icons/icon-180.png',
-  scopePath + '/icons/icon-192.png',
-  scopePath + '/icons/icon-512.png'
-]);
-const DATA_PATHS = new Set(PRECACHE_ASSETS
-  .filter(p => p.startsWith('./data/'))
-  .map(p => new URL(p, self.registration.scope).pathname));
-
-// Strip ?v= cache-busters so cached and requested URLs always line up.
-function cacheKey(request) {
-  const url = new URL(request.url);
-  url.search = '';
-  return url.href;
+async function dataFiles() {
+  const r = await fetch('./data/index.json', { cache: 'no-cache' });
+  const idx = await r.json();
+  return [idx.topics, idx.grammar, idx.conjugation, idx.recovery, idx.milestones].concat(idx.items || []).filter(Boolean).map(f => './data/' + f);
 }
-
-self.addEventListener('install', (event) => {
-  event.waitUntil(
-    caches.open(CACHE_NAME)
-      .then((cache) => cache.addAll(PRECACHE_ASSETS))
-      .then(() => self.skipWaiting())
-  );
+self.addEventListener('install', event => {
+  event.waitUntil((async () => {
+    const cache = await caches.open(CACHE);
+    await cache.addAll(SHELL);
+    await cache.addAll(await dataFiles());
+    await self.skipWaiting();
+  })());
 });
-
-self.addEventListener('activate', (event) => {
-  event.waitUntil(
-    caches.keys()
-      .then((keys) => Promise.all(keys.filter((k) => k !== CACHE_NAME).map((k) => caches.delete(k))))
-      .then(() => self.clients.claim())
-  );
+self.addEventListener('activate', event => {
+  event.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k => k !== CACHE).map(k => caches.delete(k)))).then(() => self.clients.claim()));
 });
-
-self.addEventListener('message', (event) => {
-  if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
-});
-
-async function handleRequest(request) {
-  const url = new URL(request.url);
-  if (url.origin !== self.location.origin) return fetch(request);
-  const key = cacheKey(request);
-  const isNavigate = request.mode === 'navigate';
-  const isShell = SHELL_PATHS.has(url.pathname) || DATA_PATHS.has(url.pathname);
-  
-  if (isNavigate || isShell) {
+const keyOf = req => { const u = new URL(req.url); u.search = ''; return u.href; };
+function timeout(ms) { return new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), ms)); }
+self.addEventListener('fetch', event => {
+  const req = event.request;
+  if (req.method !== 'GET') return;
+  const url = new URL(req.url);
+  if (url.origin !== self.location.origin) return;           // the app makes no cross-origin requests
+  event.respondWith((async () => {
+    const cache = await caches.open(CACHE);
     try {
-      const response = await fetch(request, { cache: 'no-cache' });
-      if (response && response.status === 200) {
-        const copy = response.clone();
-        const cache = await caches.open(CACHE_NAME);
-        cache.put(key, copy);
-      }
-      return response;
-    } catch (err) {
-      const cached = await caches.match(key);
-      if (cached) return cached;
-      const fallback = await caches.match(scopePath + '/index.html');
-      if (fallback) return fallback;
-      return caches.match(scopePath);
+      const res = await Promise.race([fetch(req, { cache: 'no-cache' }), timeout(4000)]);
+      if (res && res.ok) cache.put(keyOf(req), res.clone());
+      return res;
+    } catch (e) {
+      const hit = await cache.match(keyOf(req));
+      if (hit) return hit;
+      if (req.mode === 'navigate') return (await cache.match(new URL('./index.html', self.registration.scope).href)) || Response.error();
+      return Response.error();
     }
-  }
-
-  return fetch(request);
-}
-
-self.addEventListener('fetch', (event) => {
-  if (event.request.method !== 'GET') return;
-  event.respondWith(handleRequest(event.request));
+  })());
 });

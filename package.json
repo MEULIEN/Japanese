@@ -2,14 +2,19 @@
   "name": "michi",
   "version": "1.0.0",
   "private": true,
-  "description": "Michi 道 — offline daily-Japanese PWA for living in Kyoto. The app itself needs NO build step and NO npm; this file only powers the dev test suite.",
+  "description": "Michi 道 — offline Japanese for life in Kyoto. The app needs NO build step and NO npm; this file only powers the dev tooling.",
   "scripts": {
-    "test": "node tests/engine.test.js && node tests/dom.test.js",
+    "test": "node tests/core.test.js && node tests/speech.test.js && node tests/engine.test.js && node tests/data.test.js",
+    "test:core": "node tests/core.test.js",
     "test:engine": "node tests/engine.test.js",
-    "test:dom": "node tests/dom.test.js",
-    "audit": "python scripts/audit.py"
+    "test:data": "node tests/data.test.js",
+    "test:e2e": "node tests/e2e.js",
+    "test:all": "npm test && node tests/e2e.js",
+    "audit": "node scripts/audit.js",
+    "build:index": "node scripts/build_index.js"
   },
   "devDependencies": {
-    "jsdom": "^30.1.3"
+    "jsdom": "^30.1.3",
+    "puppeteer-core": "^24.43.1"
   }
 }
