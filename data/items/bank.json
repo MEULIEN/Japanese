@@ -1,0 +1,2367 @@
+{
+ "topic": "bank",
+ "items": [
+  {
+   "id": "s_atm",
+   "jp": "ATM",
+   "kana": "エーティーエム",
+   "romaji": "ētīemu",
+   "en": "ATM (automated teller machine)",
+   "gloss": "ATM",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "read",
+   "note": "Written in Latin letters (read エーティーエム).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "ATM【エーティーエム】 ATM (automated teller machine)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_ginko",
+   "jp": "銀行",
+   "kana": "ぎんこう",
+   "romaji": "ginkō",
+   "en": "bank",
+   "gloss": "bank",
+   "pos": "noun",
+   "topic": "bank",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L9",
+     "activity": 3,
+     "entry": "銀行【ぎんこう】 bank",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "銀行【ぎんこう】 bank",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "銀行",
+     "matched": "銀行【ぎんこう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "bank; banking institution",
+      "Bank"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_okane",
+   "jp": "お金",
+   "kana": "おかね",
+   "romaji": "okane",
+   "en": "money",
+   "gloss": "money",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "お金がない。",
+     "en": "I don't have any money.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13511293,
+      "url": "https://tatoeba.org/en/sentences/show/13511293",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お金がない。",
+      "translation": "I don't have any money."
+     }
+    },
+    {
+     "jp": "お金ある？",
+     "en": "Do you have any money?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1174232,
+      "url": "https://tatoeba.org/en/sentences/show/1174232",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お金ある？",
+      "translation": "Do you have any money?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L8",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L8",
+     "activity": 2,
+     "entry": "お金【おかね】 money",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L9",
+     "activity": 3,
+     "entry": "お金【おかね】 money",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お金",
+     "matched": "お金【おかね】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "money"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_kouza",
+   "jp": "口座",
+   "kana": "こうざ",
+   "romaji": "kōza",
+   "en": "(bank) account",
+   "gloss": "(bank) account",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "口座を開きたいのですが。",
+     "en": "I'd like to open an account.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 173906,
+      "url": "https://tatoeba.org/en/sentences/show/173906",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "口座を開きたいのですが。",
+      "translation": "I'd like to open an account."
+     }
+    },
+    {
+     "jp": "どの口座に振り込めばいいの？",
+     "en": "Whose account should I transfer the money to?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12037968,
+      "url": "https://tatoeba.org/en/sentences/show/12037968",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "どの口座に振り込めばいいの？",
+      "translation": "Whose account should I transfer the money to?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "口座",
+     "matched": "口座【こうざ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "account (e.g. bank)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_kouzabangou",
+   "jp": "口座番号",
+   "kana": "こうざばんごう",
+   "romaji": "kōzabangō",
+   "en": "account number",
+   "gloss": "account number",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "口座番号はこれなんだけど。",
+     "en": "Here's my account number.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 173904,
+      "url": "https://tatoeba.org/en/sentences/show/173904",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "口座番号はこれなんだけど。",
+      "translation": "Here's my account number."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "口座番号",
+     "matched": "口座番号【こうざばんごう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "account number (bank, etc.)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_tsuuchou",
+   "jp": "通帳",
+   "kana": "つうちょう",
+   "romaji": "tsūchō",
+   "en": "bankbook; passbook",
+   "gloss": "bankbook",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "通帳",
+     "matched": "通帳【つうちょう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "passbook; bankbook"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_kyasshukaado",
+   "jp": "キャッシュカード",
+   "kana": "キャッシュカード",
+   "romaji": "kyasshukādo",
+   "en": "cash card (bank card)",
+   "gloss": "cash card",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "キャッシュカード【キャッシュカード】 cash card",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "キャッシュカード",
+     "matched": "【キャッシュカード】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "cash card; ATM card",
+      "ATM card"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_anshoubangou",
+     "rel": "used together: card + PIN at the ATM"
+    }
+   ]
+  },
+  {
+   "id": "b_anshoubangou",
+   "jp": "暗証番号",
+   "kana": "あんしょうばんごう",
+   "romaji": "anshōbangō",
+   "en": "PIN (personal identification number)",
+   "gloss": "PIN",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "暗証番号を忘れちゃった！",
+     "en": "I forgot my PIN number!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 539561,
+      "url": "https://tatoeba.org/en/sentences/show/539561",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "暗証番号を忘れちゃった！",
+      "translation": "I forgot my PIN number!"
+     }
+    },
+    {
+     "jp": "暗証番号を入力してください。",
+     "en": "Please enter your PIN.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10063868,
+      "url": "https://tatoeba.org/en/sentences/show/10063868",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "暗証番号を入力してください。",
+      "translation": "Please enter your PIN."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "暗証番号【あんしょうばんごう】 personal identification number (PIN)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "暗証番号",
+     "matched": "暗証番号【あんしょうばんごう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "personal identification number; PIN; password number",
+      "Personal identification number"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_kyasshukaado",
+     "rel": "used together: card + PIN at the ATM"
+    }
+   ]
+  },
+  {
+   "id": "b_furikomi",
+   "jp": "振込",
+   "kana": "ふりこみ",
+   "romaji": "furikomi",
+   "en": "bank transfer; payment into an account",
+   "gloss": "bank transfer",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "振込",
+     "matched": "振込【ふりこみ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "payment made via bank deposit transfer",
+      "discarding a tile that becomes another player's winning tile",
+      "Wire transfer"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_furikae",
+     "rel": "contrast: 振込 = paying money into an account (JMdict: payment made via bank deposit transfer); 振替 = moving money between accounts, usually your own (JMdict)"
+    },
+    {
+     "id": "b_furikomu",
+     "rel": "noun / verb: 振込 → 振り込む (to pay into an account)"
+    }
+   ]
+  },
+  {
+   "id": "b_furikomu",
+   "jp": "振り込む",
+   "kana": "ふりこむ",
+   "romaji": "furikomu",
+   "en": "to transfer money (into an account); to pay into an account",
+   "gloss": "to transfer money",
+   "pos": "verb",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "振り込む",
+     "matched": "振り込む【ふりこむ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "to make a payment via bank deposit transfer",
+      "to discard another player's winning tile"
+     ],
+     "pos": [
+      "Godan verb with 'mu' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_furikomi",
+     "rel": "noun / verb: 振込 → 振り込む (to pay into an account)"
+    }
+   ]
+  },
+  {
+   "id": "b_furikae",
+   "jp": "振替",
+   "kana": "ふりかえ",
+   "romaji": "furikae",
+   "en": "transfer (between accounts); switching",
+   "gloss": "transfer",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "振替",
+     "matched": "振替【ふりかえ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "transfer; switching over; change",
+      "money transfer (usu. between accounts held by the same person)",
+      "postal transfer"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_furikomi",
+     "rel": "contrast: 振替 = money transfer, usually between your own accounts (JMdict); 振込 = paying money into an account, e.g. someone else's (JMdict)"
+    },
+    {
+     "id": "b_kouzafurikae",
+     "rel": "related: 口座振替 = direct debit from your account"
+    }
+   ]
+  },
+  {
+   "id": "b_kouzafurikae",
+   "jp": "口座振替",
+   "kana": "こうざふりかえ",
+   "romaji": "kōzafurikae",
+   "en": "automatic debit from a bank account; account transfer",
+   "gloss": "automatic debit from a bank account",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "口座振替",
+     "matched": "口座振替【こうざふりかえ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "direct debit; account-to-account transfer"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_furikae",
+     "rel": "related: 口座振替 = direct debit from your account"
+    }
+   ]
+  },
+  {
+   "id": "b_yokin",
+   "jp": "預金",
+   "kana": "よきん",
+   "romaji": "yokin",
+   "en": "deposit; bank account; savings (in a bank)",
+   "gloss": "deposit",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "預金したいのですが。",
+     "en": "I want to deposit some money.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 78927,
+      "url": "https://tatoeba.org/en/sentences/show/78927",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "預金したいのですが。",
+      "translation": "I want to deposit some money."
+     }
+    },
+    {
+     "jp": "今、預金っていくらぐらいある？",
+     "en": "How much money is in your bank account right now?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12000754,
+      "url": "https://tatoeba.org/en/sentences/show/12000754",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今、預金っていくらぐらいある？",
+      "translation": "How much money is in your bank account right now?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "預金",
+     "matched": "預金【よきん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "deposit; bank account",
+      "Deposit account"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_chokin",
+     "rel": "contrast: 預金 = money deposited in a bank; a bank account (JMdict); 貯金 = putting money aside; savings in general (JMdict)"
+    }
+   ]
+  },
+  {
+   "id": "b_chokin",
+   "jp": "貯金",
+   "kana": "ちょきん",
+   "romaji": "chokin",
+   "en": "savings; saving money",
+   "gloss": "savings",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "貯金したい。",
+     "en": "I want to save money.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11052243,
+      "url": "https://tatoeba.org/en/sentences/show/11052243",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "貯金したい。",
+      "translation": "I want to save money."
+     }
+    },
+    {
+     "jp": "老後のために貯金してるよ。",
+     "en": "I'm saving up for my old age.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10617778,
+      "url": "https://tatoeba.org/en/sentences/show/10617778",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "老後のために貯金してるよ。",
+      "translation": "I'm saving up for my old age."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "貯金",
+     "matched": "貯金【ちょきん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "putting money aside; savings; deposit (e.g. in a bank)",
+      "accumulated surplus of wins; wins in the bank"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_yokin",
+     "rel": "contrast: 貯金 = putting money aside; savings (JMdict); 預金 = deposit; bank account (JMdict)"
+    }
+   ]
+  },
+  {
+   "id": "b_azukeire",
+   "jp": "預け入れ",
+   "kana": "あずけいれ",
+   "romaji": "azukeire",
+   "en": "deposit (of money); depositing",
+   "gloss": "deposit",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "預け入れ",
+     "matched": "預け入れ【あずけいれ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "deposit"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_hikidashi",
+     "rel": "opposite on the ATM menu: お預け入れ = deposit, お引き出し = withdrawal"
+    },
+    {
+     "id": "b_azukeru",
+     "rel": "noun / verb: 預け入れ ← 預ける (to deposit)"
+    }
+   ]
+  },
+  {
+   "id": "b_azukeru",
+   "jp": "預ける",
+   "kana": "あずける",
+   "romaji": "azukeru",
+   "en": "to deposit; to leave (in someone's keeping)",
+   "gloss": "to deposit",
+   "pos": "verb",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "荷物を預けることができますか。",
+     "en": "Could I check my bags?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 186533,
+      "url": "https://tatoeba.org/en/sentences/show/186533",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "荷物を預けることができますか。",
+      "translation": "Could I check my bags?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "預ける【あずける】 to leave",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "預ける",
+     "matched": "預ける【あずける】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "to leave (in someone's keeping); to put (in someone's care); to place (in someone's custody); to entrust (someone) with; to deposit",
+      "to put (someone) in charge of; to leave (a matter) in someone's hands; to let (someone) decide",
+      "to lean on; to put one's weight on"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_azukeire",
+     "rel": "noun / verb: 預け入れ ← 預ける (to deposit)"
+    }
+   ]
+  },
+  {
+   "id": "b_hikidashi",
+   "jp": "引き出し",
+   "kana": "ひきだし",
+   "romaji": "hikidashi",
+   "en": "withdrawal (of money)",
+   "gloss": "withdrawal",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 1,
+   "use": "read",
+   "note": "ATM screens show お引き出し (Irodori 初級2 L14). The same word also means \"drawer\".",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L8",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L8",
+     "activity": 3,
+     "entry": "引き出し【ひきだし】 drawer",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "引き出し",
+     "matched": "引き出し【ひきだし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "drawer",
+      "withdrawal (of money from an account)",
+      "variety of knowledge and experience useful for handling things impromptu"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_azukeire",
+     "rel": "opposite on the ATM menu: お引き出し = withdrawal, お預け入れ = deposit"
+    },
+    {
+     "id": "b_hikidasu",
+     "rel": "noun / verb: 引き出し ← 引き出す (to withdraw)"
+    }
+   ]
+  },
+  {
+   "id": "b_hikidasu",
+   "jp": "引き出す",
+   "kana": "ひきだす",
+   "romaji": "hikidasu",
+   "en": "to withdraw (money)",
+   "gloss": "to withdraw",
+   "pos": "verb",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "引き出す",
+     "matched": "引き出す【ひきだす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "to pull out; to take out; to draw out",
+      "to lead out (e.g. a horse from a stable); to summon (e.g. to court); to bring (e.g. someone to the negotiating table); to drag",
+      "to withdraw (money); to draw",
+      "to bring out (talent, potential, beauty, flavour, etc.); to extract (information, the truth, etc.); to get (e.g. an answer out of someone); to obtain (e.g. a result); to elicit; to draw (a conclusion); to derive (e.g. pleasure)"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_orosu",
+     "rel": "same meaning, different source: 引き出す / お引き出し is the word on ATM screens (Irodori 初級2 L14); 下ろす also has the sense “to withdraw (money)” (JMdict)"
+    },
+    {
+     "id": "b_hikidashi",
+     "rel": "noun / verb: 引き出し ← 引き出す (to withdraw)"
+    }
+   ]
+  },
+  {
+   "id": "b_orosu",
+   "jp": "下ろす",
+   "kana": "おろす",
+   "romaji": "orosu",
+   "en": "to withdraw (money from an account)",
+   "gloss": "to withdraw",
+   "pos": "verb",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "say_when": "Common verb for taking money out of an account (JMdict sense: to withdraw money), e.g. お金を下ろす.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "下ろす",
+     "matched": "下ろす【おろす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "to take down; to bring down; to lower (a hand, flag, shutter, etc.); to drop (an anchor, curtain, etc.); to let down (hair); to launch (a boat)",
+      "to drop off (a passenger); to let off; to unload (goods, a truck, etc.); to offload; to discharge",
+      "to withdraw (money)",
+      "to use for the first time; to wear for the first time"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_hikidasu",
+     "rel": "same meaning: 下ろす = to withdraw money (JMdict); ATM screens show お引き出し (Irodori 初級2 L14)"
+    }
+   ]
+  },
+  {
+   "id": "b_zandaka",
+   "jp": "残高",
+   "kana": "ざんだか",
+   "romaji": "zandaka",
+   "en": "balance (of an account)",
+   "gloss": "balance",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "残高を知りたいのですが。",
+     "en": "I'd like to find out my bank balance.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 169279,
+      "url": "https://tatoeba.org/en/sentences/show/169279",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "残高を知りたいのですが。",
+      "translation": "I'd like to find out my bank balance."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "残高",
+     "matched": "残高【ざんだか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "(bank) balance; remainder"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_tesuuryou",
+   "jp": "手数料",
+   "kana": "てすうりょう",
+   "romaji": "tesūryō",
+   "en": "fee; handling charge; commission",
+   "gloss": "fee",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "手数料はいくらですか。",
+     "en": "How much is the handling charge?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 148530,
+      "url": "https://tatoeba.org/en/sentences/show/148530",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "手数料はいくらですか。",
+      "translation": "How much is the handling charge?"
+     }
+    },
+    {
+     "jp": "手数料はかかりますか。",
+     "en": "Is there a fee?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 148529,
+      "url": "https://tatoeba.org/en/sentences/show/148529",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "手数料はかかりますか。",
+      "translation": "Is there a fee?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "手数料",
+     "matched": "手数料【てすうりょう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "(handling) fee; charge (e.g. for a cancellation); commission; brokerage",
+      "Commission (remuneration)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_kingaku",
+   "jp": "金額",
+   "kana": "きんがく",
+   "romaji": "kingaku",
+   "en": "amount of money",
+   "gloss": "amount of money",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "金額【きんがく】 amount",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "金額",
+     "matched": "金額【きんがく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "amount of money; sum"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_ryougae",
+   "jp": "両替",
+   "kana": "りょうがえ",
+   "romaji": "ryōgae",
+   "en": "money exchange; changing money",
+   "gloss": "money exchange",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "両替したいんですが。",
+     "en": "I'd like to change some money.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 77982,
+      "url": "https://tatoeba.org/en/sentences/show/77982",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "両替したいんですが。",
+      "translation": "I'd like to change some money."
+     }
+    },
+    {
+     "jp": "両替はどこでできますか？",
+     "en": "Where can I exchange money?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10647172,
+      "url": "https://tatoeba.org/en/sentences/show/10647172",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "両替はどこでできますか？",
+      "translation": "Where can I exchange money?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "両替（する）【りょうがえ（する）】 (to) change money",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "両替",
+     "matched": "両替【りょうがえ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "change; money exchange"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_kozeni",
+   "jp": "小銭",
+   "kana": "こぜに",
+   "romaji": "kozeni",
+   "en": "small change; coins",
+   "gloss": "small change",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "小銭をお持ちですか。",
+     "en": "Do you have any small change?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 146927,
+      "url": "https://tatoeba.org/en/sentences/show/146927",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "小銭をお持ちですか。",
+      "translation": "Do you have any small change?"
+     }
+    },
+    {
+     "jp": "小銭持ってないわ。",
+     "en": "I don't have any change.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10068788,
+      "url": "https://tatoeba.org/en/sentences/show/10068788",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "小銭持ってないわ。",
+      "translation": "I don't have any change."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "小銭",
+     "matched": "小銭【こぜに】",
+     "common": false,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "small change; pocket change; coins",
+      "small sum of money"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_kouka",
+     "rel": "related: 小銭 = small change (coins), 硬貨 = coin (formal, on machines)"
+    }
+   ]
+  },
+  {
+   "id": "b_kouka",
+   "jp": "硬貨",
+   "kana": "こうか",
+   "romaji": "kōka",
+   "en": "coin",
+   "gloss": "coin",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "硬貨",
+     "matched": "硬貨【こうか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "coin",
+      "hard currency",
+      "Coin"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_shihei",
+     "rel": "contrast: 硬貨 = coin; 紙幣 = banknote"
+    },
+    {
+     "id": "b_kozeni",
+     "rel": "related: 小銭 = small change (coins), 硬貨 = coin (formal, on machines)"
+    }
+   ]
+  },
+  {
+   "id": "b_shihei",
+   "jp": "紙幣",
+   "kana": "しへい",
+   "romaji": "shihei",
+   "en": "paper money; banknote",
+   "gloss": "paper money",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "紙幣【しへい】 banknote",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "紙幣",
+     "matched": "紙幣【しへい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "paper money; note; bill",
+      "Banknote"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_kouka",
+     "rel": "contrast: 硬貨 = coin; 紙幣 = banknote"
+    }
+   ]
+  },
+  {
+   "id": "b_inkan",
+   "jp": "印鑑",
+   "kana": "いんかん",
+   "romaji": "inkan",
+   "en": "personal seal (inkan); stamp",
+   "gloss": "personal seal",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "ここに印鑑を押して下さい。",
+     "en": "Please put your seal here.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 828730,
+      "url": "https://tatoeba.org/en/sentences/show/828730",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ここに印鑑を押して下さい。",
+      "translation": "Please put your seal here."
+     }
+    },
+    {
+     "jp": "こちらに印鑑かサインをお願いします。",
+     "en": "Your seal or signature here, please.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3193627,
+      "url": "https://tatoeba.org/en/sentences/show/3193627",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "こちらに印鑑かサインをお願いします。",
+      "translation": "Your seal or signature here, please."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "印鑑【いんかん】 inkan (seal)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "印鑑",
+     "matched": "印鑑【いんかん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "stamp; seal"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_hanko",
+   "jp": "ハンコ",
+   "kana": "ハンコ",
+   "romaji": "hanko",
+   "en": "personal seal; stamp",
+   "gloss": "personal seal",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "note": "Also written 判子 or はんこ. Irodori writes ハンコ.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "ハンコ【ハンコ】 stamp",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "はんこ",
+     "matched": "【ハンコ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "seal (used in lieu of a signature); stamp; chop"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_honninkakunin",
+   "jp": "本人確認",
+   "kana": "ほんにんかくにん",
+   "romaji": "honninkakunin",
+   "en": "identity verification; proof of identity",
+   "gloss": "identity verification",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "hear",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "本人確認",
+     "matched": "本人確認【ほんにんかくにん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "identity verification"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_shiharai",
+   "jp": "支払い",
+   "kana": "しはらい",
+   "romaji": "shiharai",
+   "en": "payment",
+   "gloss": "payment",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "お支払いはお済みですか？",
+     "en": "Have you already paid?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12167542,
+      "url": "https://tatoeba.org/en/sentences/show/12167542",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お支払いはお済みですか？",
+      "translation": "Have you already paid?"
+     }
+    },
+    {
+     "jp": "支払いがしたかったんだ。",
+     "en": "I wanted to pay.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10565293,
+      "url": "https://tatoeba.org/en/sentences/show/10565293",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "支払いがしたかったんだ。",
+      "translation": "I wanted to pay."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "支払い",
+     "matched": "支払い【しはらい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "payment"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_soukin",
+   "jp": "送金",
+   "kana": "そうきん",
+   "romaji": "sōkin",
+   "en": "remittance; sending money",
+   "gloss": "remittance",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "送金",
+     "matched": "送金【そうきん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "remittance; sending money; transferring money",
+      "Remittance"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_kaigaisoukin",
+     "rel": "related: 海外送金 = sending money abroad"
+    }
+   ]
+  },
+  {
+   "id": "b_nyuukin",
+   "jp": "入金",
+   "kana": "にゅうきん",
+   "romaji": "nyūkin",
+   "en": "payment received; deposit (into an account)",
+   "gloss": "payment received",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 3,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "入金",
+     "matched": "入金【にゅうきん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "receipt of money; money received; receipts",
+      "depositing; deposit; payment; partial payment"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_shukkin",
+     "rel": "opposite: 入金 = money coming in; 出金 = money going out (withdrawal)"
+    }
+   ]
+  },
+  {
+   "id": "b_shukkin",
+   "jp": "出金",
+   "kana": "しゅっきん",
+   "romaji": "shukkin",
+   "en": "withdrawal (of funds); payment",
+   "gloss": "withdrawal",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 3,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "出金",
+     "matched": "出金【しゅっきん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "withdrawal (of money); payment; contribution; investment; financing"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_nyuukin",
+     "rel": "opposite: 入金 = money coming in; 出金 = money going out (withdrawal)"
+    }
+   ]
+  },
+  {
+   "id": "b_zandakashoukai",
+   "jp": "残高照会",
+   "kana": "ざんだかしょうかい",
+   "romaji": "zandakashōkai",
+   "en": "balance inquiry",
+   "gloss": "balance inquiry",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "残高照会",
+     "matched": "残高照会【ざんだかしょうかい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "balance inquiry (of a bank account)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_nyuuryoku",
+   "jp": "入力する",
+   "kana": "にゅうりょくする",
+   "romaji": "nyūryokusuru",
+   "en": "to enter (data, e.g. a PIN); to input",
+   "gloss": "to enter",
+   "pos": "verb",
+   "topic": "bank",
+   "tier": 3,
+   "use": "say",
+   "verb_class": "suru",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "入力する【にゅうりょくする】 to enter",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "入力する",
+     "matched": "入力【にゅうりょく】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "input; (data) entry; typing",
+      "Input"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_ginkouin",
+   "jp": "銀行員",
+   "kana": "ぎんこういん",
+   "romaji": "ginkōin",
+   "en": "bank clerk; bank employee",
+   "gloss": "bank clerk",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "銀行員",
+     "matched": "銀行員【ぎんこういん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "bank employee; bank staff member; bank clerk"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_kaigaisoukin",
+   "jp": "海外送金",
+   "kana": "かいがいそうきん",
+   "romaji": "kaigaisōkin",
+   "en": "overseas remittance",
+   "gloss": "overseas remittance",
+   "pos": "noun",
+   "topic": "bank",
+   "tier": 3,
+   "use": "say",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "海外送金",
+     "matched": "海外送金【かいがいそうきん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "overseas remittance"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "b_soukin",
+     "rel": "related: 海外送金 = sending money abroad"
+    }
+   ]
+  },
+  {
+   "id": "b_x_kouza_hirakitai",
+   "jp": "口座を開きたいのですが",
+   "kana": "こうざをひらきたいのですが",
+   "romaji": "kōzaohirakitainodesuga",
+   "en": "I'd like to open an account.",
+   "gloss": "I'd like to open an account.",
+   "pos": "phrase",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "At the bank counter.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 173906,
+     "url": "https://tatoeba.org/en/sentences/show/173906",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "口座を開きたいのですが。",
+     "translation": "I'd like to open an account."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "口座",
+     "matched": "口座【こうざ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "account (e.g. bank)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_x_tesuuryou_ikura",
+   "jp": "手数料はいくらですか",
+   "kana": "てすうりょうはいくらですか",
+   "romaji": "tesūryōhaikuradesuka",
+   "en": "How much is the handling charge?",
+   "gloss": "How much is the handling charge?",
+   "pos": "phrase",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 148530,
+     "url": "https://tatoeba.org/en/sentences/show/148530",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "手数料はいくらですか。",
+     "translation": "How much is the handling charge?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "手数料",
+     "matched": "手数料【てすうりょう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "(handling) fee; charge (e.g. for a cancellation); commission; brokerage",
+      "Commission (remuneration)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いくら",
+     "matched": "幾ら【いくら】 (written in kana: いくら)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "how much",
+      "something over; and something; -odd",
+      "however (much); no matter how"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Noun, used as a suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_x_tesuuryou_kakarimasu",
+   "jp": "手数料はかかりますか",
+   "kana": "てすうりょうはかかりますか",
+   "romaji": "tesūryōhakakarimasuka",
+   "en": "Is there a fee?",
+   "gloss": "Is there a fee?",
+   "pos": "phrase",
+   "topic": "bank",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 148529,
+     "url": "https://tatoeba.org/en/sentences/show/148529",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "手数料はかかりますか。",
+     "translation": "Is there a fee?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "手数料",
+     "matched": "手数料【てすうりょう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "(handling) fee; charge (e.g. for a cancellation); commission; brokerage",
+      "Commission (remuneration)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_x_zandaka_shiritai",
+   "jp": "残高を知りたいのですが",
+   "kana": "ざんだかをしりたいのですが",
+   "romaji": "zandakaoshiritainodesuga",
+   "en": "I'd like to find out my bank balance.",
+   "gloss": "I'd like to find out my bank balance.",
+   "pos": "phrase",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 169279,
+     "url": "https://tatoeba.org/en/sentences/show/169279",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "残高を知りたいのですが。",
+     "translation": "I'd like to find out my bank balance."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "残高",
+     "matched": "残高【ざんだか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "(bank) balance; remainder"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_x_ryougae_shitai",
+   "jp": "両替したいんですが",
+   "kana": "りょうがえしたいんですが",
+   "romaji": "ryōgaeshitaindesuga",
+   "en": "I'd like to change some money.",
+   "gloss": "I'd like to change some money.",
+   "pos": "phrase",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 77982,
+     "url": "https://tatoeba.org/en/sentences/show/77982",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "両替したいんですが。",
+     "translation": "I'd like to change some money."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "両替",
+     "matched": "両替【りょうがえ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "change; money exchange"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_x_yokin_shitai",
+   "jp": "預金したいのですが",
+   "kana": "よきんしたいのですが",
+   "romaji": "yokinshitainodesuga",
+   "en": "I want to deposit some money.",
+   "gloss": "I want to deposit some money.",
+   "pos": "phrase",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 78927,
+     "url": "https://tatoeba.org/en/sentences/show/78927",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "預金したいのですが。",
+     "translation": "I want to deposit some money."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "預金",
+     "matched": "預金【よきん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "deposit; bank account",
+      "Deposit account"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_x_anshou_wasureta",
+   "jp": "暗証番号を忘れちゃった",
+   "kana": "あんしょうばんごうをわすれちゃった",
+   "romaji": "anshōbangōowasurechatta",
+   "en": "I forgot my PIN!",
+   "gloss": "I forgot my PIN!",
+   "pos": "phrase",
+   "topic": "bank",
+   "tier": 2,
+   "use": "say",
+   "register": "casual",
+   "say_when": "Casual (to a friend or family).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 539561,
+     "url": "https://tatoeba.org/en/sentences/show/539561",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "暗証番号を忘れちゃった！",
+     "translation": "I forgot my PIN number!"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "暗証番号",
+     "matched": "暗証番号【あんしょうばんごう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "personal identification number; PIN; password number",
+      "Personal identification number"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_x_anshou_nyuuryoku",
+   "jp": "暗証番号を入力してください",
+   "kana": "あんしょうばんごうをにゅうりょくしてください",
+   "romaji": "anshōbangōonyūryokushitekudasai",
+   "en": "Please enter your PIN.",
+   "gloss": "Please enter your PIN.",
+   "pos": "phrase",
+   "topic": "bank",
+   "tier": 1,
+   "use": "hear",
+   "register": "polite",
+   "say_when": "ATM voice prompt or bank clerk.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10063868,
+     "url": "https://tatoeba.org/en/sentences/show/10063868",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "暗証番号を入力してください。",
+     "translation": "Please enter your PIN."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "暗証番号",
+     "matched": "暗証番号【あんしょうばんごう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "personal identification number; PIN; password number",
+      "Personal identification number"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "入力する",
+     "matched": "入力【にゅうりょく】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "input; (data) entry; typing",
+      "Input"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_x_inkan_osu",
+   "jp": "ここに印鑑を押して下さい",
+   "kana": "ここにいんかんをおしてください",
+   "romaji": "kokoniinkan'ōshitekudasai",
+   "en": "Please put your seal here.",
+   "gloss": "Please put your seal here.",
+   "pos": "phrase",
+   "topic": "bank",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 828730,
+     "url": "https://tatoeba.org/en/sentences/show/828730",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "ここに印鑑を押して下さい。",
+     "translation": "Please put your seal here."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "印鑑",
+     "matched": "印鑑【いんかん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "stamp; seal"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "b_x_inkan_ka_sain",
+   "jp": "こちらに印鑑かサインをお願いします",
+   "kana": "こちらにいんかんかサインをおねがいします",
+   "romaji": "kochiraniinkankasain'ōnegaishimasu",
+   "en": "Your seal or signature here, please.",
+   "gloss": "Your seal or signature here, please.",
+   "pos": "phrase",
+   "topic": "bank",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 3193627,
+     "url": "https://tatoeba.org/en/sentences/show/3193627",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "こちらに印鑑かサインをお願いします。",
+     "translation": "Your seal or signature here, please."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "印鑑",
+     "matched": "印鑑【いんかん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "stamp; seal"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "サイン",
+     "matched": "【サイン】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "autograph; signature",
+      "sign; signal; indication"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

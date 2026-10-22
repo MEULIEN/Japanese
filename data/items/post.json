@@ -1,0 +1,2713 @@
+{
+ "topic": "post",
+ "items": [
+  {
+   "id": "s_ryokin",
+   "jp": "料金",
+   "kana": "りょうきん",
+   "romaji": "ryōkin",
+   "en": "fee / charge",
+   "gloss": "fee",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "s_nyujoryo",
+     "rel": "both are fees"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L17",
+     "activity": 4,
+     "entry": "料金【りょうきん】 fee",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "料金",
+     "matched": "料金【りょうきん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "fee; charge; fare"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_yuubinkyoku",
+   "jp": "郵便局",
+   "kana": "ゆうびんきょく",
+   "romaji": "yūbinkyoku",
+   "en": "post office",
+   "gloss": "post office",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "郵便局はどこですか。",
+     "en": "Where is the post office?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 79171,
+      "url": "https://tatoeba.org/en/sentences/show/79171",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "郵便局はどこですか。",
+      "translation": "Where is the post office?"
+     }
+    },
+    {
+     "jp": "郵便局に行くの？",
+     "en": "Are you going to the post office?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8771777,
+      "url": "https://tatoeba.org/en/sentences/show/8771777",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "郵便局に行くの？",
+      "translation": "Are you going to the post office?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L6",
+     "activity": 1,
+     "entry": "郵便局【ゆうびんきょく】 post office",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "郵便局【ゆうびんきょく】 post office",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "郵便局",
+     "matched": "郵便局【ゆうびんきょく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "post office",
+      "Post office"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_yuubin",
+   "jp": "郵便",
+   "kana": "ゆうびん",
+   "romaji": "yūbin",
+   "en": "mail; postal service",
+   "gloss": "mail",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "郵便が届いた。",
+     "en": "The mail has arrived.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 79187,
+      "url": "https://tatoeba.org/en/sentences/show/79187",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "郵便が届いた。",
+      "translation": "The mail has arrived."
+     }
+    },
+    {
+     "jp": "郵便は昼前に来る。",
+     "en": "The mail arrives before noon.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 79184,
+      "url": "https://tatoeba.org/en/sentences/show/79184",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "郵便は昼前に来る。",
+      "translation": "The mail arrives before noon."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "郵便",
+     "matched": "郵便【ゆうびん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "mail service; postal service; mail; post",
+      "mail; postal matter; postal items",
+      "Mail"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_posuto",
+   "jp": "ポスト",
+   "kana": "ポスト",
+   "romaji": "posuto",
+   "en": "postbox; mailbox",
+   "gloss": "postbox",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "place"
+   ],
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "ポストはどこにありますか。",
+     "en": "Where is the mailbox?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 196278,
+      "url": "https://tatoeba.org/en/sentences/show/196278",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ポストはどこにありますか。",
+      "translation": "Where is the mailbox?"
+     }
+    },
+    {
+     "jp": "この辺にポストってある？",
+     "en": "Is there a mailbox near here?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9576750,
+      "url": "https://tatoeba.org/en/sentences/show/9576750",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "この辺にポストってある？",
+      "translation": "Is there a mailbox near here?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L7",
+     "activity": 2,
+     "entry": "ポスト【ポスト】 mailbox",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ポスト",
+     "matched": "【ポスト】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "postbox; mailbox; mail box; pillar box",
+      "post; position",
+      "post (e.g. goalpost)",
+      "post (on a blog, social media, etc.)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Noun or verb acting prenominally"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_tegami",
+   "jp": "手紙",
+   "kana": "てがみ",
+   "romaji": "tegami",
+   "en": "letter",
+   "gloss": "letter",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "手紙書いてね。",
+     "en": "Write me sometime, OK?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 148547,
+      "url": "https://tatoeba.org/en/sentences/show/148547",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "手紙書いてね。",
+      "translation": "Write me sometime, OK?"
+     }
+    },
+    {
+     "jp": "手紙、読んだよ。",
+     "en": "I read your letter.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12142995,
+      "url": "https://tatoeba.org/en/sentences/show/12142995",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "手紙、読んだよ。",
+      "translation": "I read your letter."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L7",
+     "activity": 2,
+     "entry": "手紙【てがみ】 letter",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "手紙",
+     "matched": "手紙【てがみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "letter; note",
+      "Letter (message)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_hagaki",
+   "jp": "はがき",
+   "kana": "はがき",
+   "romaji": "hagaki",
+   "en": "postcard",
+   "gloss": "postcard",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "はがきを送ってよ。",
+     "en": "Send me a postcard.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2204224,
+      "url": "https://tatoeba.org/en/sentences/show/2204224",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "はがきを送ってよ。",
+      "translation": "Send me a postcard."
+     }
+    },
+    {
+     "jp": "このはがきを日本に送りたいのですが。",
+     "en": "I want to send this postcard to Japan.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 223381,
+      "url": "https://tatoeba.org/en/sentences/show/223381",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "このはがきを日本に送りたいのですが。",
+      "translation": "I want to send this postcard to Japan."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "はがき",
+     "matched": "【ハガキ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "postcard",
+      "memo; note; card"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_fuutou",
+   "jp": "封筒",
+   "kana": "ふうとう",
+   "romaji": "fūtō",
+   "en": "envelope",
+   "gloss": "envelope",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "封筒がいる。",
+     "en": "I need an envelope.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1278062,
+      "url": "https://tatoeba.org/en/sentences/show/1278062",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "封筒がいる。",
+      "translation": "I need an envelope."
+     }
+    },
+    {
+     "jp": "封筒に切手をはります。",
+     "en": "I will stick a stamp on the envelope.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10961264,
+      "url": "https://tatoeba.org/en/sentences/show/10961264",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "封筒に切手をはります。",
+      "translation": "I will stick a stamp on the envelope."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L7",
+     "activity": 2,
+     "entry": "封筒【ふうとう】 envelope",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "封筒",
+     "matched": "封筒【ふうとう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "envelope",
+      "Envelope"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_kitte",
+   "jp": "切手",
+   "kana": "きって",
+   "romaji": "kitte",
+   "en": "postage stamp",
+   "gloss": "postage stamp",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "切手はどこで買える？",
+     "en": "Where can I get stamps?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10815068,
+      "url": "https://tatoeba.org/en/sentences/show/10815068",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "切手はどこで買える？",
+      "translation": "Where can I get stamps?"
+     }
+    },
+    {
+     "jp": "切手を買ってこなくちゃ。",
+     "en": "I need to get a stamp.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9832622,
+      "url": "https://tatoeba.org/en/sentences/show/9832622",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "切手を買ってこなくちゃ。",
+      "translation": "I need to get a stamp."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "切手",
+     "matched": "切手【きって】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "stamp (postage)",
+      "merchandise certificate",
+      "Postage stamp"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_nimotsu",
+   "jp": "荷物",
+   "kana": "にもつ",
+   "romaji": "nimotsu",
+   "en": "luggage; package; parcel",
+   "gloss": "luggage",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "荷物が届いた。",
+     "en": "A package has arrived.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12074612,
+      "url": "https://tatoeba.org/en/sentences/show/12074612",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "荷物が届いた。",
+      "translation": "A package has arrived."
+     }
+    },
+    {
+     "jp": "荷物は届きましたか。",
+     "en": "Has the shipment arrived yet?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 186544,
+      "url": "https://tatoeba.org/en/sentences/show/186544",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "荷物は届きましたか。",
+      "translation": "Has the shipment arrived yet?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "荷物",
+     "matched": "荷物【にもつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "luggage; baggage; package",
+      "burden",
+      "payload (of a packet, cell, etc.)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_kozutsumi",
+     "rel": "related: 小包 = parcel (postal); 荷物 = package / luggage (general)"
+    }
+   ]
+  },
+  {
+   "id": "po_kozutsumi",
+   "jp": "小包",
+   "kana": "こづつみ",
+   "romaji": "kozutsumi",
+   "en": "parcel; package",
+   "gloss": "parcel",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "日本に小包を送りたいのですが。",
+     "en": "I want to send a parcel to Japan.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 122695,
+      "url": "https://tatoeba.org/en/sentences/show/122695",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "日本に小包を送りたいのですが。",
+      "translation": "I want to send a parcel to Japan."
+     }
+    },
+    {
+     "jp": "この小包を書留にしたいのですが。",
+     "en": "I'd like to have this parcel registered.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 221136,
+      "url": "https://tatoeba.org/en/sentences/show/221136",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "この小包を書留にしたいのですが。",
+      "translation": "I'd like to have this parcel registered."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "小包【こづつみ】 small parcel",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "小包",
+     "matched": "小包【こづつみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "parcel; package"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_nimotsu",
+     "rel": "related: 小包 = parcel (postal); 荷物 = package / luggage (general)"
+    }
+   ]
+  },
+  {
+   "id": "po_takuhaibin",
+   "jp": "宅配便",
+   "kana": "たくはいびん",
+   "romaji": "takuhaibin",
+   "en": "home delivery service; parcel delivery",
+   "gloss": "home delivery service",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "宅配便【たくはいびん】 parcel delivery service",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "宅配便",
+     "matched": "宅配便【たくはいびん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "express home delivery service",
+      "express home delivery parcel (box, etc.)",
+      "Courier"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_kakitome",
+   "jp": "書留",
+   "kana": "かきとめ",
+   "romaji": "kakitome",
+   "en": "registered mail",
+   "gloss": "registered mail",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "これを書留でお願いします。",
+     "en": "I'd like to send this by registered mail.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 217635,
+      "url": "https://tatoeba.org/en/sentences/show/217635",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これを書留でお願いします。",
+      "translation": "I'd like to send this by registered mail."
+     }
+    },
+    {
+     "jp": "これを書留で送りたいのですが。",
+     "en": "I'd like to send this by registered mail.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1397528,
+      "url": "https://tatoeba.org/en/sentences/show/1397528",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これを書留で送りたいのですが。",
+      "translation": "I'd like to send this by registered mail."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "書留【かきとめ】 registered mail",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "書留",
+     "matched": "書留【かきとめ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "registered mail; registered post; registration (of mail)",
+      "(putting on) record; writing down; noting down; registry"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_sokutatsu",
+     "rel": "contrast: 書留 = registered mail (JMdict); 速達 = express / special delivery (JMdict) — different services, can be combined"
+    }
+   ]
+  },
+  {
+   "id": "po_sokutatsu",
+   "jp": "速達",
+   "kana": "そくたつ",
+   "romaji": "sokutatsu",
+   "en": "express mail; special delivery",
+   "gloss": "express mail",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "速達でお願いします。",
+     "en": "Please send it by special delivery.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9049842,
+      "url": "https://tatoeba.org/en/sentences/show/9049842",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "速達でお願いします。",
+      "translation": "Please send it by special delivery."
+     }
+    },
+    {
+     "jp": "速達で送ってください。",
+     "en": "Please send it by express mail.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 139695,
+      "url": "https://tatoeba.org/en/sentences/show/139695",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "速達で送ってください。",
+      "translation": "Please send it by express mail."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "速達",
+     "matched": "速達【そくたつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "express; special delivery"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_kakitome",
+     "rel": "contrast: 速達 = express / special delivery (JMdict); 書留 = registered mail (JMdict)"
+    }
+   ]
+  },
+  {
+   "id": "po_koukuubin",
+   "jp": "航空便",
+   "kana": "こうくうびん",
+   "romaji": "kōkūbin",
+   "en": "airmail",
+   "gloss": "airmail",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "これを航空便で出してください。",
+     "en": "Send this by airmail.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 217651,
+      "url": "https://tatoeba.org/en/sentences/show/217651",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これを航空便で出してください。",
+      "translation": "Send this by airmail."
+     }
+    },
+    {
+     "jp": "航空便だといくらかかりますか。",
+     "en": "What's the airmail rate?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 173435,
+      "url": "https://tatoeba.org/en/sentences/show/173435",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "航空便だといくらかかりますか。",
+      "translation": "What's the airmail rate?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "航空便",
+     "matched": "航空便【こうくうびん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "airmail; air mail",
+      "air service; air transport (of goods)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_funabin",
+     "rel": "contrast: 航空便 = airmail; 船便 = sea (surface) mail"
+    }
+   ]
+  },
+  {
+   "id": "po_funabin",
+   "jp": "船便",
+   "kana": "ふなびん",
+   "romaji": "funabin",
+   "en": "sea mail; surface mail",
+   "gloss": "sea mail",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "船便",
+     "matched": "船便【ふなびん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "surface mail (by ship); sea mail",
+      "ferry service; steamer service"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_koukuubin",
+     "rel": "contrast: 航空便 = airmail; 船便 = sea (surface) mail"
+    }
+   ]
+  },
+  {
+   "id": "po_okuru",
+   "jp": "送る",
+   "kana": "おくる",
+   "romaji": "okuru",
+   "en": "to send (a thing)",
+   "gloss": "to send",
+   "pos": "verb",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "obj": [
+    "thing"
+   ],
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "きのう母に荷物を送りました。",
+     "en": "I sent my mother a package yesterday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10899655,
+      "url": "https://tatoeba.org/en/sentences/show/10899655",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "きのう母に荷物を送りました。",
+      "translation": "I sent my mother a package yesterday."
+     }
+    },
+    {
+     "jp": "速達で送ってください。",
+     "en": "Please send it by express mail.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 139695,
+      "url": "https://tatoeba.org/en/sentences/show/139695",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "速達で送ってください。",
+      "translation": "Please send it by express mail."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L6",
+     "activity": 3,
+     "entry": "送る【おくる】 to take someone home",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "送る【おくる】 to send",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "送る",
+     "matched": "送る【おくる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to send; to dispatch; to forward; to transmit; to ship; to remit",
+      "to see (someone) off; to escort; to accompany; to take",
+      "to bid farewell to (the departed); to say goodbye to; to bury",
+      "to spend (time); to pass; to lead (a life); to live"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_uketoru",
+     "rel": "opposite: 送る = send; 受け取る = receive"
+    }
+   ]
+  },
+  {
+   "id": "po_todoku",
+   "jp": "届く",
+   "kana": "とどく",
+   "romaji": "todoku",
+   "en": "to arrive; to be delivered",
+   "gloss": "to arrive",
+   "pos": "verb",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "今週末までには届くはずです。",
+     "en": "You should receive them by the end of the week.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 148142,
+      "url": "https://tatoeba.org/en/sentences/show/148142",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "今週末までには届くはずです。",
+      "translation": "You should receive them by the end of the week."
+     }
+    },
+    {
+     "jp": "荷物が届いた。",
+     "en": "A package has arrived.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12074612,
+      "url": "https://tatoeba.org/en/sentences/show/12074612",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "荷物が届いた。",
+      "translation": "A package has arrived."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 3,
+     "entry": "届く【とどく】 to be handed in",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L12",
+     "activity": 1,
+     "entry": "届く【とどく】 to be delivered",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "届く",
+     "matched": "届く【とどく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "to reach; to touch; to get to; to carry (of sound)",
+      "to be delivered; to arrive",
+      "to be attentive; to be scrupulous; to be thorough",
+      "to be realized (of a desire); to be fulfilled; to get through (to someone); to be appreciated; to make an impression"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_uketoru",
+   "jp": "受け取る",
+   "kana": "うけとる",
+   "romaji": "uketoru",
+   "en": "to receive; to accept",
+   "gloss": "to receive",
+   "pos": "verb",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "どこで荷物を受け取るのですか。",
+     "en": "Where can I pick up my baggage?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 237496,
+      "url": "https://tatoeba.org/en/sentences/show/237496",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "どこで荷物を受け取るのですか。",
+      "translation": "Where can I pick up my baggage?"
+     }
+    },
+    {
+     "jp": "お手紙を受け取りました。",
+     "en": "I received your letter.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 227075,
+      "url": "https://tatoeba.org/en/sentences/show/227075",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お手紙を受け取りました。",
+      "translation": "I received your letter."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "受け取る【うけとる】 to receive",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "受け取る",
+     "matched": "受け取る【うけとる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "to receive; to get; to accept",
+      "to take (someone's words or behaviour); to interpret; to understand"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_okuru",
+     "rel": "opposite: 送る = send; 受け取る = receive"
+    }
+   ]
+  },
+  {
+   "id": "po_souryou",
+   "jp": "送料",
+   "kana": "そうりょう",
+   "romaji": "sōryō",
+   "en": "postage; shipping fee",
+   "gloss": "postage",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L12",
+     "activity": 1,
+     "entry": "送料【そうりょう】 shipping cost",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "送料",
+     "matched": "送料【そうりょう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "postage; carriage; shipping charge"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_haitatsu",
+   "jp": "配達",
+   "kana": "はいたつ",
+   "romaji": "haitatsu",
+   "en": "delivery",
+   "gloss": "delivery",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "配達は有料ですか。",
+     "en": "Do you charge for delivery?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 121524,
+      "url": "https://tatoeba.org/en/sentences/show/121524",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "配達は有料ですか。",
+      "translation": "Do you charge for delivery?"
+     }
+    },
+    {
+     "jp": "日曜日に配達していますか。",
+     "en": "Do you deliver on Sundays?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 122150,
+      "url": "https://tatoeba.org/en/sentences/show/122150",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "日曜日に配達していますか。",
+      "translation": "Do you deliver on Sundays?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "配達",
+     "matched": "配達【はいたつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "delivery"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_saihaitatsu",
+     "rel": "related: 再配達 = delivery again (after you were out)"
+    }
+   ]
+  },
+  {
+   "id": "po_saihaitatsu",
+   "jp": "再配達",
+   "kana": "さいはいたつ",
+   "romaji": "saihaitatsu",
+   "en": "redelivery",
+   "gloss": "redelivery",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "再配達【さいはいたつ】 redelivery",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "再配達",
+     "matched": "再配達【さいはいたつ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "redelivery"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_haitatsu",
+     "rel": "related: 再配達 = delivery again (after you were out)"
+    },
+    {
+     "id": "po_fuzai",
+     "rel": "related: you were 不在 (out) → ask for 再配達"
+    }
+   ]
+  },
+  {
+   "id": "po_fuzai",
+   "jp": "不在",
+   "kana": "ふざい",
+   "romaji": "fuzai",
+   "en": "absence (not being at home)",
+   "gloss": "absence",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L9",
+     "activity": 3,
+     "entry": "不在【ふざい】 absent",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "不在／ご不在【ふざい／ごふざい】 absence",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "不在",
+     "matched": "不在【ふざい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "absence",
+      "disregard; indifference"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Noun, used as a suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_saihaitatsu",
+     "rel": "related: you were 不在 (out) → ask for 再配達"
+    }
+   ]
+  },
+  {
+   "id": "po_tsuiseki",
+   "jp": "追跡",
+   "kana": "ついせき",
+   "romaji": "tsuiseki",
+   "en": "tracking; pursuit",
+   "gloss": "tracking",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "追跡",
+     "matched": "追跡【ついせき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "chase; pursuit; tracking; stalking",
+      "following up; tracing"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Japan Post: よくあるご質問（配達・受け取り）",
+     "url": "https://www.post.japanpost.jp/question/delivery-pickup/category01.html",
+     "quote": "荷物の追跡サービスを利用したところ、「お問い合わせ番号が見つかりません。」と表示されました。",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_atena",
+   "jp": "宛名",
+   "kana": "あてな",
+   "romaji": "atena",
+   "en": "name and address (of the recipient)",
+   "gloss": "name and address",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "宛名",
+     "matched": "宛名【あてな】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "name and address (on an envelope, etc.); (addressee's) name; addressee"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_juusho",
+     "rel": "related: 宛名 = the recipient's name and address written on the item"
+    }
+   ]
+  },
+  {
+   "id": "po_juusho",
+   "jp": "住所",
+   "kana": "じゅうしょ",
+   "romaji": "jūsho",
+   "en": "address (residence)",
+   "gloss": "address",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "住所はどこなの？",
+     "en": "What is your address?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10946676,
+      "url": "https://tatoeba.org/en/sentences/show/10946676",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "住所はどこなの？",
+      "translation": "What is your address?"
+     }
+    },
+    {
+     "jp": "これが住所です。",
+     "en": "Here's the address.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 218870,
+      "url": "https://tatoeba.org/en/sentences/show/218870",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "これが住所です。",
+      "translation": "Here's the address."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 4,
+     "entry": "住所【じゅうしょ】 address",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "住所",
+     "matched": "住所【じゅうしょ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "address (of a home, business, etc.); residence; domicile",
+      "Address (geography)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_atena",
+     "rel": "related: 宛名 = the recipient's name and address written on the item"
+    }
+   ]
+  },
+  {
+   "id": "po_yuubinbangou",
+   "jp": "郵便番号",
+   "kana": "ゆうびんばんごう",
+   "romaji": "yūbinbangō",
+   "en": "postal code; zip code",
+   "gloss": "postal code",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "封書には郵便番号を書かないと。",
+     "en": "You have to write the postcode on the envelope.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11700281,
+      "url": "https://tatoeba.org/en/sentences/show/11700281",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "封書には郵便番号を書かないと。",
+      "translation": "You have to write the postcode on the envelope."
+     }
+    },
+    {
+     "jp": "郵便番号って、なに？",
+     "en": "What is a postal code?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11741580,
+      "url": "https://tatoeba.org/en/sentences/show/11741580",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "郵便番号って、なに？",
+      "translation": "What is a postal code?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "郵便番号【ゆうびんばんごう】 zip code",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "郵便番号",
+     "matched": "郵便番号【ゆうびんばんごう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "postal code",
+      "Postal code"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_denpyou",
+   "jp": "伝票",
+   "kana": "でんぴょう",
+   "romaji": "denpyō",
+   "en": "slip (e.g. shipping label)",
+   "gloss": "slip",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "伝票【でんぴょう】 slip",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "伝票",
+     "matched": "伝票【でんぴょう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "chit; slip; ticket; voucher"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_madoguchi",
+   "jp": "窓口",
+   "kana": "まどぐち",
+   "romaji": "madoguchi",
+   "en": "counter; window (at an office)",
+   "gloss": "counter",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "place"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "窓口【まどぐち】 window / counter",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "窓口",
+     "matched": "窓口【まどぐち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "counter; window; teller window; ticket window",
+      "contact person; point of contact"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_chakubarai",
+   "jp": "着払い",
+   "kana": "ちゃくばらい",
+   "romaji": "chakubarai",
+   "en": "cash on delivery; recipient pays",
+   "gloss": "cash on delivery",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "着払い【ちゃくばらい】 cash on delivery",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "着払い",
+     "matched": "着払い【ちゃくばらい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "payment on delivery; cash on delivery; COD",
+      "Collect on delivery"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_motobarai",
+     "rel": "contrast: 着払い = the recipient pays on delivery; 元払い = the sender prepays (JMdict)"
+    }
+   ]
+  },
+  {
+   "id": "po_motobarai",
+   "jp": "元払い",
+   "kana": "もとばらい",
+   "romaji": "motobarai",
+   "en": "prepaid shipping (sender pays)",
+   "gloss": "prepaid shipping",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "元払い【もとばらい】 prepayment",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "元払い",
+     "matched": "元払い【もとばらい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "prepayment (of postage, shipping, etc.)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_chakubarai",
+     "rel": "contrast: 元払い = sender prepays the shipping (JMdict); 着払い = the recipient pays on delivery"
+    }
+   ]
+  },
+  {
+   "id": "po_hokankigen",
+   "jp": "保管期限",
+   "kana": "ほかんきげん",
+   "romaji": "hokankigen",
+   "en": "storage deadline (holding period)",
+   "gloss": "storage deadline",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "保管期限【ほかんきげん】 storage deadline",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_omosa",
+   "jp": "重さ",
+   "kana": "おもさ",
+   "romaji": "omosa",
+   "en": "weight",
+   "gloss": "weight",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "この箱の重さはどれくらいあるの？",
+     "en": "How heavy is this box?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11719817,
+      "url": "https://tatoeba.org/en/sentences/show/11719817",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "この箱の重さはどれくらいあるの？",
+      "translation": "How heavy is this box?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L12",
+     "activity": 2,
+     "entry": "重さ【おもさ】 weight",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "重さ",
+     "matched": "重さ【おもさ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "weight",
+      "Weight"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_nakami",
+   "jp": "中身",
+   "kana": "なかみ",
+   "romaji": "nakami",
+   "en": "contents",
+   "gloss": "contents",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "中身は何なの？",
+     "en": "What's inside?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8553922,
+      "url": "https://tatoeba.org/en/sentences/show/8553922",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "中身は何なの？",
+      "translation": "What's inside?"
+     }
+    },
+    {
+     "jp": "箱の中身は何？",
+     "en": "What's in the box?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3320916,
+      "url": "https://tatoeba.org/en/sentences/show/3320916",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "箱の中身は何？",
+      "translation": "What's in the box?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "中身【なかみ】 content",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "中身",
+     "matched": "中身【なかみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "contents; interior; filling",
+      "substance; content",
+      "(sword) blade"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_waremono",
+   "jp": "割れ物",
+   "kana": "われもの",
+   "romaji": "waremono",
+   "en": "fragile item; breakables",
+   "gloss": "fragile item",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "割れ物",
+     "matched": "割れ物【われもの】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "fragile item; broken article"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_sashidashinin",
+   "jp": "差出人",
+   "kana": "さしだしにん",
+   "romaji": "sashidashinin",
+   "en": "sender",
+   "gloss": "sender",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "差出人【さしだしにん】 sender",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "差出人",
+     "matched": "差出人【さしだしにん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "sender (e.g. of mail)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_uketorinin",
+     "rel": "opposite: 差出人 = sender; 受取人 = recipient"
+    }
+   ]
+  },
+  {
+   "id": "po_uketorinin",
+   "jp": "受取人",
+   "kana": "うけとりにん",
+   "romaji": "uketorinin",
+   "en": "recipient",
+   "gloss": "recipient",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "受取人",
+     "matched": "受取人【うけとりにん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "recipient (e.g. of mail); addressee; payee; beneficiary"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "po_sashidashinin",
+     "rel": "opposite: 差出人 = sender; 受取人 = recipient"
+    }
+   ]
+  },
+  {
+   "id": "po_haitatsubi",
+   "jp": "配達日",
+   "kana": "はいたつび",
+   "romaji": "haitatsubi",
+   "en": "delivery date",
+   "gloss": "delivery date",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "配達日【はいたつび】 delivery date",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_kokusai",
+   "jp": "国際",
+   "kana": "こくさい",
+   "romaji": "kokusai",
+   "en": "international",
+   "gloss": "international",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "国際【こくさい】 international",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "国際",
+     "matched": "国際【こくさい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "international",
+      "diplomatic intercourse",
+      "International"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_fuzairenrakuhyou",
+   "jp": "不在連絡票",
+   "kana": "ふざいれんらくひょう",
+   "romaji": "fuzairenrakuhyō",
+   "en": "missed-delivery notice (slip left when you were out)",
+   "gloss": "missed-delivery notice",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Japan Post: よくあるご質問（配達・受け取り）",
+     "url": "https://www.post.japanpost.jp/question/delivery-pickup/category01.html",
+     "quote": "点字の不在連絡票など",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "不在／ご不在【ふざい／ごふざい】 absence",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "連絡票【れんらくひょう】 notice",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_otoiawasebangou",
+   "jp": "お問い合わせ番号",
+   "kana": "おといあわせばんごう",
+   "romaji": "otoiawasebangō",
+   "en": "tracking number (inquiry number)",
+   "gloss": "tracking number",
+   "pos": "noun",
+   "topic": "post",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Japan Post: 郵便追跡サービス",
+     "url": "https://trackings.post.japanpost.jp/services/srv/search/input",
+     "quote": "お問い合わせ番号を入力してください。 例（書留,ゆうパック…",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Japan Post: よくあるご質問（配達・受け取り）",
+     "url": "https://www.post.japanpost.jp/question/delivery-pickup/category01.html",
+     "quote": "「お問い合わせ番号が見つかりません。」と表示されました。",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "問い合わせ",
+     "matched": "問い合わせ【といあわせ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "inquiry; query; enquiry"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_x_kakitome_onegai",
+   "jp": "これを書留でお願いします",
+   "kana": "これをかきとめでおねがいします",
+   "romaji": "koreokakitomedeonegaishimasu",
+   "en": "I'd like to send this by registered mail.",
+   "gloss": "I'd like to send this by registered mail.",
+   "pos": "phrase",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 217635,
+     "url": "https://tatoeba.org/en/sentences/show/217635",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "これを書留でお願いします。",
+     "translation": "I'd like to send this by registered mail."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "書留",
+     "matched": "書留【かきとめ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "registered mail; registered post; registration (of mail)",
+      "(putting on) record; writing down; noting down; registry"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_x_sokutatsu_onegai",
+   "jp": "速達でお願いします",
+   "kana": "そくたつでおねがいします",
+   "romaji": "sokutatsudeonegaishimasu",
+   "en": "Please send it by special delivery.",
+   "gloss": "Please send it by special delivery.",
+   "pos": "phrase",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 9049842,
+     "url": "https://tatoeba.org/en/sentences/show/9049842",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "速達でお願いします。",
+     "translation": "Please send it by special delivery."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "速達",
+     "matched": "速達【そくたつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "express; special delivery"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_x_koukuubin_dashite",
+   "jp": "これを航空便で出してください",
+   "kana": "これをこうくうびんでだしてください",
+   "romaji": "koreokōkūbindedashitekudasai",
+   "en": "Send this by airmail, please.",
+   "gloss": "Send this by airmail, please.",
+   "pos": "phrase",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 217651,
+     "url": "https://tatoeba.org/en/sentences/show/217651",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "これを航空便で出してください。",
+     "translation": "Send this by airmail."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "航空便",
+     "matched": "航空便【こうくうびん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "airmail; air mail",
+      "air service; air transport (of goods)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_x_funabin_dashite",
+   "jp": "船便で出してください",
+   "kana": "ふなびんでだしてください",
+   "romaji": "funabindedashitekudasai",
+   "en": "Send this by sea mail, please.",
+   "gloss": "Send this by sea mail, please.",
+   "pos": "phrase",
+   "topic": "post",
+   "tier": 3,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 141052,
+     "url": "https://tatoeba.org/en/sentences/show/141052",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "船便で出してください。",
+     "translation": "Send this by sea mail."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "船便",
+     "matched": "船便【ふなびん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "surface mail (by ship); sea mail",
+      "ferry service; steamer service"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_x_ikura_kakarimasu",
+   "jp": "いくらかかりますか",
+   "kana": "いくらかかりますか",
+   "romaji": "ikurakakarimasuka",
+   "en": "How much will it cost?",
+   "gloss": "How much will it cost?",
+   "pos": "phrase",
+   "topic": "post",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Asking the price of sending something (or any service).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 11582490,
+     "url": "https://tatoeba.org/en/sentences/show/11582490",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "いくらかかりますか？",
+     "translation": "How much do I have to pay for it?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いくら",
+     "matched": "幾ら【いくら】 (written in kana: いくら)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "how much",
+      "something over; and something; -odd",
+      "however (much); no matter how"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Noun, used as a suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_x_koukuubin_ikura",
+   "jp": "航空便だといくらかかりますか",
+   "kana": "こうくうびんだといくらかかりますか",
+   "romaji": "kōkūbindatoikurakakarimasuka",
+   "en": "What's the airmail rate?",
+   "gloss": "What's the airmail rate?",
+   "pos": "phrase",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 173435,
+     "url": "https://tatoeba.org/en/sentences/show/173435",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "航空便だといくらかかりますか。",
+     "translation": "What's the airmail rate?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "航空便",
+     "matched": "航空便【こうくうびん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "airmail; air mail",
+      "air service; air transport (of goods)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_x_nimotsu_todokimashitaka",
+   "jp": "荷物は届きましたか",
+   "kana": "にもつはとどきましたか",
+   "romaji": "nimotsuhatodokimashitaka",
+   "en": "Has the package arrived?",
+   "gloss": "Has the package arrived?",
+   "pos": "phrase",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 186544,
+     "url": "https://tatoeba.org/en/sentences/show/186544",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "荷物は届きましたか。",
+     "translation": "Has the shipment arrived yet?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "荷物",
+     "matched": "荷物【にもつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "luggage; baggage; package",
+      "burden",
+      "payload (of a packet, cell, etc.)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "届く",
+     "matched": "届く【とどく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "to reach; to touch; to get to; to carry (of sound)",
+      "to be delivered; to arrive",
+      "to be attentive; to be scrupulous; to be thorough",
+      "to be realized (of a desire); to be fulfilled; to get through (to someone); to be appreciated; to make an impression"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "po_x_sain",
+   "jp": "ここにサインしてください",
+   "kana": "ここにサインしてください",
+   "romaji": "kokonisainshitekudasai",
+   "en": "Please sign here.",
+   "gloss": "Please sign here.",
+   "pos": "phrase",
+   "topic": "post",
+   "tier": 1,
+   "use": "hear",
+   "register": "polite",
+   "say_when": "When you receive registered mail or a parcel.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 224485,
+     "url": "https://tatoeba.org/en/sentences/show/224485",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "ここにサインしてください。",
+     "translation": "Please sign here."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "サイン",
+     "matched": "【サイン】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "autograph; signature",
+      "sign; signal; indication"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

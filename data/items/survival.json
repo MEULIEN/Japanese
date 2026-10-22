@@ -97,7 +97,19 @@
      ],
      "pos": [],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 1,
+     "entry": "おはよう（ございます）【おはよう（ございます）】 Good morning.",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_ohayo"
    ]
   },
   {
@@ -129,7 +141,19 @@
      ],
      "pos": [],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 1,
+     "entry": "こんにちは【こんにちは】 Good afternoon.",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_konnichiwa"
    ]
   },
   {
@@ -161,7 +185,19 @@
      ],
      "pos": [],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 1,
+     "entry": "こんばんは【こんばんは】 Good evening.",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_konbanwa"
    ]
   },
   {
@@ -428,7 +464,19 @@
       "Expressions (phrases, clauses, etc.)"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "お願いします【おねがいします】 Please.",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_onegaishimasu"
    ]
   },
   {
@@ -463,7 +511,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 2,
+     "entry": "はい【はい】 yes",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_hai"
    ]
   },
   {
@@ -526,7 +586,19 @@
      ],
      "pos": [],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 3,
+     "entry": "いいえ【いいえ】 You're welcome.",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_iie"
    ]
   },
   {
@@ -1665,7 +1737,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 1,
+     "entry": "トイレ【トイレ】 toilet",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_toire"
    ]
   },
   {
@@ -1760,7 +1844,19 @@
       "Noun, used as a suffix"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "いくら【いくら】 how much (asking price)",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "g_ikura"
    ]
   },
   {
@@ -2045,6 +2141,9 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_toire_doko"
    ]
   },
   {
@@ -2095,7 +2194,19 @@
       "Intransitive verb"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "わかりません【わかりません】 I do not understand.",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_wakarimasen"
    ]
   },
   {
@@ -2145,7 +2256,19 @@
       "Intransitive verb"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 4,
+     "entry": "わかりました【わかりました】 I understand.",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_wakarimashita"
    ]
   },
   {
@@ -2347,7 +2470,23 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "だいじょうぶです【だいじょうぶです】 That's all right. (used when refusing something)",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_daijobu_desu"
+   ],
+   "say_when": "A polite way to decline, e.g. a shop bag or an offer.",
+   "accept": [
+    "だいじょうぶです"
    ]
   },
   {
@@ -2498,6 +2637,587 @@
       "Expressions (phrases, clauses, etc.)"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 入門 第6課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "L6",
+     "quote": "N、お願いします / N、ください — 例文: これ、ください。",
+     "checked": "2026-10-22"
+    }
+   ],
+   "aliases": [
+    "t_kore_kudasai"
+   ]
+  },
+  {
+   "id": "t_oyasumi",
+   "jp": "おやすみなさい",
+   "kana": "おやすみなさい",
+   "romaji": "oyasumi nasai",
+   "en": "Good night.",
+   "gloss": "Good night.",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 2,
+     "entry": "おやすみ（なさい）【おやすみ（なさい）】 Good night.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_jaamata",
+   "jp": "じゃあ、また",
+   "kana": "じゃあ、また",
+   "romaji": "jā, mata",
+   "en": "See you later.",
+   "gloss": "See you later.",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "register": "casual",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 2,
+     "entry": "じゃあ、また【じゃあ、また】 See you later.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_doumo",
+   "jp": "どうも",
+   "kana": "どうも",
+   "romaji": "dōmo",
+   "en": "Thanks.",
+   "gloss": "Thanks.",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 3,
+     "entry": "どうも【どうも】 Thanks.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_doozo",
+   "jp": "どうぞ",
+   "kana": "どうぞ",
+   "romaji": "dōzo",
+   "en": "Here you go.",
+   "gloss": "Here you go.",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 3,
+     "entry": "どうぞ【どうぞ】 Here you go.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_gomen",
+   "jp": "ごめん",
+   "kana": "ごめん",
+   "romaji": "gomen",
+   "en": "Sorry.",
+   "gloss": "Sorry.",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "register": "casual",
+   "links": [
+    {
+     "id": "t_sumimasen",
+     "rel": "fuller word: すみません"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 3,
+     "entry": "ごめん【ごめん】 Sorry.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_omedeto",
+   "jp": "おめでとうございます",
+   "kana": "おめでとうございます",
+   "romaji": "omedetō gozaimasu",
+   "en": "Congratulations.",
+   "gloss": "Congratulations.",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 4,
+     "entry": "おめでとうございます【おめでとうございます】 Congratulations.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_yukkuri_itte",
+   "jp": "もう少しゆっくり言ってください",
+   "kana": "もうすこしゆっくりいってください",
+   "romaji": "mō sukoshi, yukkuri itte kudasai",
+   "en": "Please say it a little more slowly.",
+   "gloss": "Please say it a little more slowly.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Someone speaks too fast.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 194124,
+     "url": "https://tatoeba.org/en/sentences/show/194124",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "もう少しゆっくり言ってください。",
+     "translation": "Please speak a little more slowly."
+    }
+   ]
+  },
+  {
+   "id": "t_nihongo_dekimasu",
+   "jp": "日本語、できますか？",
+   "kana": "にほんご、できますか？",
+   "romaji": "nihongo, dekimasu ka?",
+   "en": "Can you speak Japanese?",
+   "gloss": "Can you speak Japanese?",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "quote": "2. 日本語、できますか？ (activity heading)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_nihongo_nanto",
+   "jp": "これは日本語で何と言いますか？",
+   "kana": "これはにほんごでなんといいますか？",
+   "romaji": "kore wa nihongo de nan to iimasu ka?",
+   "en": "What do you call this in Japanese?",
+   "gloss": "What do you call this in Japanese?",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Point at something and ask for its name — turns a freeze into a new word.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "quote": "3. これは日本語で何と言いますか？ (activity heading)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_nan_desu_ka",
+   "jp": "何ですか？",
+   "kana": "なんですか？",
+   "romaji": "nan desu ka?",
+   "en": "What is it?",
+   "gloss": "What is it?",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Point at something you do not know.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 3,
+     "entry": "何ですか？【なんですか？】 What is it?",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_nan_to_iimasu",
+   "jp": "何と言いますか？",
+   "kana": "なんといいますか？",
+   "romaji": "nan to iimasu ka?",
+   "en": "What do you call it?",
+   "gloss": "What do you call it?",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 3,
+     "entry": "何と言いますか？【なんといいますか？】 What do you call it?",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_e",
+   "jp": "え？",
+   "kana": "え？",
+   "romaji": "e?",
+   "en": "Huh? / What? / Pardon?",
+   "gloss": "Huh? / What? / Pardon?",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 3,
+   "use": "say",
+   "note": "Casual; use もういちど、お願いします with strangers.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 3,
+     "entry": "え？【え?】 Huh? / What? / Pardon?",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_misete",
+   "jp": "見せてください",
+   "kana": "みせてください",
+   "romaji": "misete kudasai",
+   "en": "Please show me ~.",
+   "gloss": "Please show me ~.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "見せてください【みせてください】 Please show me ～.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_kaite",
+   "jp": "書いてください",
+   "kana": "かいてください",
+   "romaji": "kaite kudasai",
+   "en": "Please write ~.",
+   "gloss": "Please write ~.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "書いてください【かいてください】 Please write ～.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_kite",
+   "jp": "来てください",
+   "kana": "きてください",
+   "romaji": "kite kudasai",
+   "en": "Please come.",
+   "gloss": "Please come.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 2,
+     "entry": "来てください【きてください】 Please come.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_haitte",
+   "jp": "入ってください",
+   "kana": "はいってください",
+   "romaji": "haitte kudasai",
+   "en": "Please come in.",
+   "gloss": "Please come in.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 1,
+     "entry": "入ってください【はいってください】 Please come in.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_tsukatte",
+   "jp": "使ってください",
+   "kana": "つかってください",
+   "romaji": "tsukatte kudasai",
+   "en": "Please use it.",
+   "gloss": "Please use it.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 3,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 2,
+     "entry": "使ってください【つかってください】 Please use it.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_mattete",
+   "jp": "待っててください",
+   "kana": "まっててください",
+   "romaji": "mattete kudasai",
+   "en": "Please wait there.",
+   "gloss": "Please wait there.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 3,
+   "use": "say",
+   "register": "casual",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "待っててください【まっててください】 Please wait there.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_kashite",
+   "jp": "〜貸してください",
+   "kana": "〜かしてください",
+   "romaji": "〜 kashite kudasai",
+   "en": "Please lend me ~.",
+   "gloss": "Please lend me ~.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文法ノート 入門 L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/Grammar_all.pdf",
+     "lesson": "L10",
+     "quote": "N、貸してください ／ ［例］すみません。はさみ、貸してください。",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 11069519,
+     "url": "https://tatoeba.org/en/sentences/show/11069519",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "辞書を貸してください。",
+     "translation": "Please lend me your dictionary."
+    }
+   ]
+  },
+  {
+   "id": "x_shoushou_omachi",
+   "jp": "少々お待ちください",
+   "kana": "しょうしょうおまちください",
+   "romaji": "shōshōomachikudasai",
+   "en": "Please wait a moment.",
+   "gloss": "Please wait a moment.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Staff at any counter (bank, post office, city hall, shops).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 8886173,
+     "url": "https://tatoeba.org/en/sentences/show/8886173",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "少々お待ちください。",
+     "translation": "Wait a moment."
+    }
+   ]
+  },
+  {
+   "id": "x_omatase",
+   "jp": "お待たせしました",
+   "kana": "おまたせしました",
+   "romaji": "omataseshimashita",
+   "en": "Sorry to have kept you waiting.",
+   "gloss": "Sorry to have kept you waiting.",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "hear",
+   "register": "polite",
+   "say_when": "Staff when they call you back to the counter.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 226907,
+     "url": "https://tatoeba.org/en/sentences/show/226907",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "お待たせしました。",
+     "translation": "I'm sorry to have kept you waiting."
+    }
+   ]
+  },
+  {
+   "id": "x_moushiwake_gozaimasen",
+   "jp": "申し訳ございません",
+   "kana": "もうしわけございません",
+   "romaji": "mōshiwakegozaimasen",
+   "en": "I am truly sorry. (very polite, staff)",
+   "gloss": "I am truly sorry. (very polite, staff)",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 2,
+   "use": "hear",
+   "register": "honorific",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 1483682,
+     "url": "https://tatoeba.org/en/sentences/show/1483682",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "申し訳ございません。",
+     "translation": "I am truly sorry."
     }
    ]
   }

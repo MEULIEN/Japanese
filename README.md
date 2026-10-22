@@ -20,6 +20,7 @@ A plain `file://` open won't register the service worker (no offline cache).
 Developer tools: `npm install`, then
 - `npm test` — unit, engine, speech and curriculum-data tests (Node, no browser)
 - `npm run test:e2e` — end-to-end tests in real Chrome with phone emulation (needs Chrome or Edge installed; `CHROME_PATH` to override)
+- `npm run test:webkit` — the typing/settings/lock checks in WebKit (Safari's engine); first run `npx playwright-core install webkit`
 - `npm run audit` — validates provenance and regenerates `VERIFICATION_LOG.md`
 - `npm run build:index` — regenerates `data/index.json` after adding a topic file
 - `scripts/bump-version.sh` — bump the cache stamp before deploying
@@ -29,13 +30,30 @@ Developer tools: `npm install`, then
 | | What it is | Changes your schedule? |
 |---|---|---|
 | **Daily Morning** | Picks the next topic, runs a short diagnostic **on this lesson's words only**, teaches what you don't know (in chunks), practises it in varied ways, mixes in due reviews, and ends with a delayed "can you still produce it?" check. | yes |
-| **Daily Evening** | **No new words.** Re-uses the morning's words in different exercises (productive first: sentences, typing, speaking, forms, listening) plus due older reviews. | yes |
+| **Daily Evening** | Opens at **12:00 local time** (enforced by the session logic, unlocks by itself). **No new words.** Re-uses the morning's words in different exercises (productive first: sentences, typing, speaking, forms, listening) plus due older reviews. | yes |
 | **Recall** | Your own study: weakest words first, or by topic, in the direction you choose (meaning→Japanese, kanji→reading, reading→kanji, listening, context, conjugation, explain-it-simply). Endless. | **no** |
 | **Training** | Open-ended practice: mixed, rapid recall, conjugation, listening, sentences, memory span, category switching, rebuild-later, **get unstuck** (describe a word you can't remember, with graduated hints). | **no** |
 | **Weekly** | Unlocks **Sunday 00:00 in your time zone** (Settings). A broad assessment of everything since the last one plus at-risk older words, across skills, with real-life milestone checks. A missed Sunday stays available until done. | yes |
 
 Plus **Conjugation** (interactive reference: groups → ending patterns → forms →
 meaning, usage, nuance, register, mistakes, contrasts, examples) and **Progress**.
+
+## Topic priorities (Settings)
+
+Choose 1–3 topics you need most (e.g. Banking, Post office, City hall) and order them.
+About three in four mornings then take new words from these (rotating 3 : 2 : 1 by rank;
+a topic's prerequisites come first and are labelled as such), the rest from other topics so
+learning stays broad. Reviews of everything you've learned are unaffected, the evening still
+adds nothing new, and Recall/Training are unchanged. The home screen says why a morning's
+topic was chosen.
+
+## Typing on a phone
+
+Tap the dashed answer box to open the keyboard (no automatic focus on touch screens — on
+iPhones that can leave the field focused with no keyboard). **Check** always submits what is
+in the box, even unconfirmed kana; only the Enter that confirms a kana→kanji conversion is
+ignored. If typing misbehaves on your device: Settings → *Typing diagnostics* shows a live
+event log under the answer box. Manual test procedure: `docs/MANUAL_PHONE_TEST.md`.
 
 ## Nothing is a fixed quantity
 

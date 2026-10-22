@@ -393,7 +393,19 @@
       "Intransitive verb"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 5,
+     "entry": "押す／押【おす】 to push",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_osu"
    ]
   },
   {
@@ -431,7 +443,19 @@
       "Intransitive verb"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 5,
+     "entry": "引く／引【ひく】 to pull",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_hiku"
    ]
   },
   {
@@ -463,7 +487,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 5,
+     "entry": "非常口【ひじょうぐち】 emergency exit",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_hijoguchi"
    ]
   },
   {
@@ -526,7 +562,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "営業時間【えいぎょうじかん】 opening hours",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_eigyojikan"
    ]
   },
   {
@@ -558,7 +606,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "定休日【ていきゅうび】 closed every ～",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_teikyubi"
    ]
   },
   {
@@ -594,7 +654,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "危険【きけん】 danger",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_kiken"
    ]
   },
   {
@@ -633,7 +705,19 @@
       "Transitive verb"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "注意【ちゅうい】 caution",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_chui"
    ]
   },
   {
@@ -775,6 +859,9 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_otoko"
    ]
   },
   {
@@ -810,6 +897,9 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_onna"
    ]
   },
   {
@@ -941,7 +1031,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L12",
+     "activity": 1,
+     "entry": "駐車場【ちゅうしゃじょう】 parking lot",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_chushajo"
    ]
   },
   {
@@ -1066,6 +1168,766 @@
      ],
      "pos": [
       "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kojichu",
+   "jp": "工事中",
+   "kana": "こうじちゅう",
+   "romaji": "kōjichū",
+   "en": "under construction",
+   "gloss": "under construction",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_eigyochu",
+     "rel": "both end in 中 (in progress / during)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "工事中【こうじちゅう】 under construction",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "工事中",
+     "matched": "工事中【こうじちゅう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "under construction"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_yasumi",
+   "jp": "休み",
+   "kana": "やすみ",
+   "romaji": "yasumi",
+   "en": "closed; day off (shop sign)",
+   "gloss": "closed",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "note": "Irodori prints the shop-sign form as just 休 (read やすみ).",
+   "links": [
+    {
+     "id": "w_teikyuubi",
+     "rel": "regular closing day"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L9",
+     "activity": 3,
+     "entry": "休み【やすみ】 off",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "休み",
+     "matched": "休み【やすみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "rest; recess; respite",
+      "vacation; holiday; absence; suspension",
+      "dormancy (of a silkworm prior to moulting)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_nijuyojikan",
+   "jp": "24時間営業",
+   "kana": "にじゅうよじかんえいぎょう",
+   "romaji": "nijūyojikan eigyō",
+   "en": "open 24 hours",
+   "gloss": "open 24 hours",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_eigyochu",
+     "rel": "both contain 営業 (business)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "24時間営業【にじゅうよじかんえいぎょう】 open 24 hours",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_nenjumukyu",
+   "jp": "年中無休",
+   "kana": "ねんじゅうむきゅう",
+   "romaji": "nenjū mukyū",
+   "en": "open year round",
+   "gloss": "open year round",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "年中無休【ねんじゅうむきゅう】 open year round",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "年中無休",
+     "matched": "年中無休【ねんじゅうむきゅう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "open every day of the year; open year-round; operating 365 days a year"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_uketsukejikan",
+   "jp": "受付時間",
+   "kana": "うけつけじかん",
+   "romaji": "uketsuke jikan",
+   "en": "reception hours",
+   "gloss": "reception hours",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "受付時間【うけつけじかん】 reception hours",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "受付時間",
+     "matched": "受付時間【うけつけじかん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "reception hours; opening hours"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_shukujitsu",
+   "jp": "祝日",
+   "kana": "しゅくじつ",
+   "romaji": "shukujitsu",
+   "en": "public holiday",
+   "gloss": "public holiday",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 2,
+   "use": "read",
+   "note": "Irodori also lists 祭(日) さい(じつ) = public holiday on shop signs.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "祝（日）【しゅく（じつ）】 public holiday",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "祝日",
+     "matched": "祝日【しゅくじつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "national holiday; public holiday",
+      "Holiday"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_keshoshitsu",
+   "jp": "化粧室",
+   "kana": "けしょうしつ",
+   "romaji": "keshōshitsu",
+   "en": "restroom",
+   "gloss": "restroom",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_otearai",
+     "rel": "another sign word for the toilet"
+    },
+    {
+     "id": "w_toire",
+     "rel": "another sign word for the toilet"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 5,
+     "entry": "化粧室【けしょうしつ】 restroom",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "化粧室",
+     "matched": "化粧室【けしょうしつ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "toilet; lavatory; powder room"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_esukareta",
+   "jp": "エスカレーター",
+   "kana": "エスカレーター",
+   "romaji": "esukarētā",
+   "en": "escalator",
+   "gloss": "escalator",
+   "pos": "noun",
+   "topic": "signs",
+   "tags": [
+    "place"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "エスカレーター【エスカレーター】 escalator",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "エスカレーター",
+     "matched": "【エスカレーター】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "escalator",
+      "Escalator"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_erebeta",
+   "jp": "エレベーター",
+   "kana": "エレベーター",
+   "romaji": "erebētā",
+   "en": "elevator",
+   "gloss": "elevator",
+   "pos": "noun",
+   "topic": "signs",
+   "tags": [
+    "place"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "エレベーター【エレベーター】 elevator",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "エレベーター",
+     "matched": "【エレベーター】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "elevator; lift",
+      "elevator",
+      "Elevator"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_nyujoryo",
+   "jp": "入場料",
+   "kana": "にゅうじょうりょう",
+   "romaji": "nyūjōryō",
+   "en": "entry fee",
+   "gloss": "entry fee",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_nyujomuryo",
+     "rel": "contrast: fee vs free"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L12",
+     "activity": 1,
+     "entry": "入場料【にゅうじょうりょう】 entry fee",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "入場料",
+     "matched": "入場料【にゅうじょうりょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "entrance fee; admission fee; admission; entrance charge; admission charge"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_nyujomuryo",
+   "jp": "入場無料",
+   "kana": "にゅうじょうむりょう",
+   "romaji": "nyūjō muryō",
+   "en": "free entry",
+   "gloss": "free entry",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_nyujoryo",
+     "rel": "contrast: free vs fee"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L12",
+     "activity": 1,
+     "entry": "入場無料【にゅうじょうむりょう】 free entry",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kitsuenjo",
+   "jp": "喫煙所",
+   "kana": "きつえんじょ",
+   "romaji": "kitsuenjo",
+   "en": "smoking room / smoking area",
+   "gloss": "smoking room",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_kinen",
+     "rel": "opposite: smoking area vs no smoking"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L8",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L8",
+     "activity": 1,
+     "entry": "喫煙所【きつえんじょ】 smoking room / smoking area",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "喫煙所【きつえんじょ】 smoking room / smoking area",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "喫煙所",
+     "matched": "喫煙所【きつえんじょ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "smoking area; smoking corner"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_infomeshon",
+   "jp": "インフォメーション",
+   "kana": "インフォメーション",
+   "romaji": "infomēshon",
+   "en": "information counter",
+   "gloss": "information counter",
+   "pos": "noun",
+   "topic": "signs",
+   "tags": [
+    "place"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "インフォメーション【インフォメーション】 information counter",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "インフォメーション",
+     "matched": "【インフォメーション】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "information"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_jihanki",
+   "jp": "自動販売機",
+   "kana": "じどうはんばいき",
+   "romaji": "jidōhanbaiki",
+   "en": "vending machine",
+   "gloss": "vending machine",
+   "pos": "noun",
+   "topic": "signs",
+   "tags": [
+    "place"
+   ],
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "自動販売機【じどうはんばいき】 vending machine",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "自動販売機",
+     "matched": "自動販売機【じどうはんばいき】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "vending machine",
+      "Vending machine"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_koin",
+   "jp": "コインロッカー",
+   "kana": "コインロッカー",
+   "romaji": "koin rokkā",
+   "en": "coin-operated locker",
+   "gloss": "coin-operated locker",
+   "pos": "noun",
+   "topic": "signs",
+   "tags": [
+    "place"
+   ],
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "コインロッカー【コインロッカー】 coin-operated locker",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "コインロッカー",
+     "matched": "【コインロッカー】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "coin-operated locker"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_dansei",
+   "jp": "男性",
+   "kana": "だんせい",
+   "romaji": "dansei",
+   "en": "man; male (men's)",
+   "gloss": "man",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_josei",
+     "rel": "pair: men / women"
+    },
+    {
+     "id": "w_otoko",
+     "rel": "contains 男"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L8",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L8",
+     "activity": 1,
+     "entry": "男性【だんせい】 men",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "男性",
+     "matched": "男性【だんせい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "man; male",
+      "masculine gender",
+      "Man"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_josei",
+   "jp": "女性",
+   "kana": "じょせい",
+   "romaji": "josei",
+   "en": "woman; female (women's)",
+   "gloss": "woman",
+   "pos": "sign",
+   "topic": "signs",
+   "tier": 1,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_dansei",
+     "rel": "pair: women / men"
+    },
+    {
+     "id": "w_onna",
+     "rel": "contains 女"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "女性【じょせい】 female",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "女性",
+     "matched": "女性【じょせい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "woman; female",
+      "feminine gender",
+      "Woman"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
      ],
      "checked": "2026-10-22"
     }

@@ -3,6 +3,8 @@
  "curriculum_version": "2026.10.22",
  "topics": "topics.json",
  "items": [
+  "items/bank.json",
+  "items/cityhall.json",
   "items/daily.json",
   "items/describe.json",
   "items/directions.json",
@@ -13,12 +15,14 @@
   "items/intro.json",
   "items/konbini.json",
   "items/places.json",
+  "items/post.json",
   "items/recovery.json",
   "items/restaurant.json",
   "items/signs.json",
   "items/survival.json",
   "items/time.json",
-  "items/transport.json"
+  "items/transport.json",
+  "items/work.json"
  ],
  "grammar": "grammar.json",
  "conjugation": "conjugation.json",

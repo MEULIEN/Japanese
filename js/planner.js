@@ -150,7 +150,13 @@
       const recent = ctx.state.sessions.filter(x => x.kind === 'morning' && x.topic && !x.legacy).slice(-P.topicPriority.window);
       const share = recent.length ? recent.filter(x => prios.includes(x.topic) || prios.includes(x.forTopic)).length / recent.length : 0;
       if (share < P.topicPriority.share || recent.length < P.topicPriority.window) {
-        for (const id of prios) {
+        // Rotate among the chosen topics weighted by rank (3 : 2 : 1): the
+        // first choice comes up most often, but none is starved.
+        const W = [3, 2, 1];
+        const lastN = ctx.state.sessions.filter(x => x.kind === 'morning' && !x.legacy).slice(-9);
+        const used = id => lastN.filter(x => x.topic === id || x.forTopic === id).length;
+        const order = prios.map((id, k) => ({ id, k, load: used(id) / W[k] })).sort((a, b) => a.load - b.load || a.k - b.k).map(x => x.id);
+        for (const id of order) {
           const t = open.find(x => x.id === id); if (!t) continue;
           if (prereqsMet(t)) return { topic: t, why: 'priority' };
           const need = (t.prereq || []).map(pid => open.find(x => x.id === pid)).find(x => x && !started(x));

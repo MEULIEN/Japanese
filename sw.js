@@ -10,7 +10,7 @@
    offline (or slow), the cached copy is served. Query strings (?v=) are
    ignored for cache keys. Bump BUILD_ID (scripts/bump-version.sh) per deploy.
    ============================================================ */
-const BUILD_ID = 'v6';
+const BUILD_ID = 'v7';
 const CACHE = 'michi-' + BUILD_ID;
 const SHELL = ['./', './index.html', './style.css', './manifest.json',
   './js/policy.js', './js/calendar.js', './js/kana.js', './js/answer.js', './js/conjugate.js', './js/srs.js',

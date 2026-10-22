@@ -491,6 +491,9 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "g_tsu1"
    ]
   },
   {
@@ -539,6 +542,9 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "g_tsu2"
    ]
   },
   {
@@ -589,6 +595,9 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "g_tsu3"
    ]
   },
   {
@@ -1005,10 +1014,22 @@
       "Expressions (phrases, clauses, etc.)"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 5,
+     "entry": "いただきます【いただきます】 Thank you for the food ! (polite expression said before a meal)",
+     "checked": "2026-10-22"
     }
    ],
    "accept": [
     "頂きます"
+   ],
+   "aliases": [
+    "t_itadakimasu"
    ]
   },
   {
@@ -1174,7 +1195,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L12",
+     "activity": 1,
+     "entry": "飲み物【のみもの】 drink",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_nomimono"
    ]
   },
   {
@@ -1246,7 +1279,19 @@
       "Intransitive verb"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "お茶【おちゃ】 tea / Japanese tea",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_ocha"
    ]
   },
   {
@@ -1313,7 +1358,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "ご飯【ごはん】 cooked rice",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_gohan"
    ]
   },
   {
@@ -1384,7 +1441,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "ビール【ビール】 beer",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_biiru"
    ]
   },
   {
@@ -1453,7 +1522,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "コーヒー【コーヒー】 coffee",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_koohii"
    ]
   },
   {
@@ -1519,7 +1600,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "ラーメン【ラーメン】 ramen noodles",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_raamen"
    ]
   },
   {
@@ -1585,7 +1678,22 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "すし【すし】 sushi",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_sushi"
+   ],
+   "accept": [
+    "すし"
    ]
   },
   {
@@ -1809,8 +1917,21 @@
       "Expressions (phrases, clauses, etc.)"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 2,
+     "entry": "いらっしゃいませ【いらっしゃいませ】 Welcome.",
+     "checked": "2026-10-22"
     }
-   ]
+   ],
+   "aliases": [
+    "t_irasshaimase"
+   ],
+   "say_when": "Listening practice: Staff greeting when you enter."
   },
   {
    "id": "v_irassharu",
@@ -1881,7 +2002,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "おしぼり【おしぼり】 wet hand towel",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_oshibori"
    ]
   },
   {
@@ -1913,7 +2046,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L17",
+     "activity": 4,
+     "entry": "食べ放題【たべほうだい】 all you can eat",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_tabehodai"
    ]
   },
   {
@@ -1944,7 +2089,19 @@
       "Noun which may take the genitive case particle 'no'"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L17",
+     "activity": 4,
+     "entry": "飲み放題【のみほうだい】 all you can drink",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_nomihodai"
    ]
   },
   {
@@ -2445,6 +2602,2254 @@
      "pos": [
       "Noun"
      ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_mizu",
+   "jp": "水",
+   "kana": "みず",
+   "romaji": "mizu",
+   "en": "water",
+   "gloss": "water",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable"
+   ],
+   "tier": 1,
+   "use": "say",
+   "links": [
+    {
+     "id": "f_omizu",
+     "rel": "polite form is お水"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "水【みず】 water",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "水",
+     "matched": "水【みず】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "water (esp. cool or cold)",
+      "fluid (esp. in an animal tissue); liquid",
+      "flood; floodwaters",
+      "water offered to wrestlers just prior to a bout"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_ryokucha",
+   "jp": "緑茶",
+   "kana": "りょくちゃ",
+   "romaji": "ryokucha",
+   "en": "green tea",
+   "gloss": "green tea",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "w_ocha",
+     "rel": "a kind of tea"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "緑茶【りょくちゃ】 green tea",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "緑茶",
+     "matched": "緑茶【りょくちゃ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "green tea; Japanese tea",
+      "Green tea"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_kocha",
+   "jp": "紅茶",
+   "kana": "こうちゃ",
+   "romaji": "kōcha",
+   "en": "black tea",
+   "gloss": "black tea",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "w_ocha",
+     "rel": "a kind of tea"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "紅茶【こうちゃ】 black tea",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "紅茶",
+     "matched": "紅茶【こうちゃ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "black tea",
+      "Black tea"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_uroncha",
+   "jp": "ウーロン茶",
+   "kana": "ウーロンちゃ",
+   "romaji": "ūroncha",
+   "en": "oolong tea",
+   "gloss": "oolong tea",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable"
+   ],
+   "tier": 3,
+   "use": "say",
+   "links": [
+    {
+     "id": "w_ocha",
+     "rel": "a kind of tea (茶)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 1,
+     "entry": "ウーロン茶【ウーロンちゃ】 oolong tea",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ウーロン茶",
+     "matched": "ウーロン茶【ウーロンちゃ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "oolong tea",
+      "Oolong"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_juusu",
+   "jp": "ジュース",
+   "kana": "ジュース",
+   "romaji": "jūsu",
+   "en": "juice",
+   "gloss": "juice",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable"
+   ],
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "ジュース【ジュース】 juice",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ジュース",
+     "matched": "【ジュース】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "juice",
+      "soft drink (usu. fruit-based); sweetened drink",
+      "Juice"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_namabiiru",
+   "jp": "生ビール",
+   "kana": "なまビール",
+   "romaji": "nama bīru",
+   "en": "draft beer",
+   "gloss": "draft beer",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "w_biiru",
+     "rel": "a kind of beer"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "生ビール【なまビール】 draft beer",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "生ビール",
+     "matched": "生ビール【なまビール】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "unpasteurized beer",
+      "Draught beer"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_osake",
+   "jp": "お酒",
+   "kana": "おさけ",
+   "romaji": "osake",
+   "en": "alcohol / sake",
+   "gloss": "alcohol",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "お酒【おさけ】 alcohol / sake",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お酒",
+     "matched": "お酒【おさけ】",
+     "common": false,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "alcohol; sake"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_nihonshu",
+   "jp": "日本酒",
+   "kana": "にほんしゅ",
+   "romaji": "nihonshu",
+   "en": "sake (Japanese rice wine)",
+   "gloss": "sake",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable"
+   ],
+   "tier": 3,
+   "use": "say",
+   "links": [
+    {
+     "id": "f_osake",
+     "rel": "a kind of お酒"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "日本酒【にほんしゅ】 sake (Japanese rice wine)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "日本酒",
+     "matched": "日本酒【にほんしゅ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "sake (rice wine); saké",
+      "Sake"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_shochu",
+   "jp": "焼酎",
+   "kana": "しょうちゅう",
+   "romaji": "shōchū",
+   "en": "shochu (Japanese distilled spirit)",
+   "gloss": "shochu",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "drink",
+    "orderable"
+   ],
+   "tier": 3,
+   "use": "say",
+   "links": [
+    {
+     "id": "f_osake",
+     "rel": "a kind of お酒"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "焼酎【しょうちゅう】 shochu (Japanese distilled liquor)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "焼酎",
+     "matched": "焼酎【しょうちゅう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "shōchū; Japanese spirit distilled from sweet potatoes, rice, etc.",
+      "Shōchū"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_yoguruto",
+   "jp": "ヨーグルト",
+   "kana": "ヨーグルト",
+   "romaji": "yōguruto",
+   "en": "yoghurt",
+   "gloss": "yoghurt",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "ヨーグルト【ヨーグルト】 yoghurt",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ヨーグルト",
+     "matched": "【ヨーグルト】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "yogurt; yoghurt",
+      "Yogurt"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_sarada",
+   "jp": "サラダ",
+   "kana": "サラダ",
+   "romaji": "sarada",
+   "en": "salad",
+   "gloss": "salad",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "サラダ【サラダ】 salad",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "サラダ",
+     "matched": "【サラダ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "salad",
+      "Salad"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_misoshiru",
+   "jp": "みそ汁",
+   "kana": "みそしる",
+   "romaji": "misoshiru",
+   "en": "miso soup",
+   "gloss": "miso soup",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 1,
+   "use": "say",
+   "links": [
+    {
+     "id": "f_supu",
+     "rel": "a kind of soup"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "みそ汁【みそしる】 miso soup",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "みそ汁",
+     "matched": "みそ汁【みそしる】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "miso soup",
+      "Miso soup"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_supu",
+   "jp": "スープ",
+   "kana": "スープ",
+   "romaji": "sūpu",
+   "en": "soup",
+   "gloss": "soup",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "f_misoshiru",
+     "rel": "miso soup is the Japanese one"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "スープ【スープ】 soup",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "スープ",
+     "matched": "【スープ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "(Western) soup",
+      "Soup"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_sashimi",
+   "jp": "刺身",
+   "kana": "さしみ",
+   "romaji": "sashimi",
+   "en": "sashimi (sliced raw fish)",
+   "gloss": "sashimi",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "刺身【さしみ】 sashimi (sliced raw fish)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "刺身",
+     "matched": "刺身【さしみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "sashimi (raw sliced fish, shellfish or crustaceans)",
+      "Sashimi"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_tenpura",
+   "jp": "天ぷら",
+   "kana": "てんぷら",
+   "romaji": "tenpura",
+   "en": "tempura",
+   "gloss": "tempura",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "天ぷら【てんぷら】 tempura",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "天ぷら",
+     "matched": "天ぷら【てんぷら】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "tempura; deep-fried fish and vegetables in a light batter",
+      "Tempura"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_gyudon",
+   "jp": "牛丼",
+   "kana": "ぎゅうどん",
+   "romaji": "gyūdon",
+   "en": "beef bowl",
+   "gloss": "beef bowl",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "牛丼【ぎゅうどん】 beef bowl",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "牛丼",
+     "matched": "牛丼【ぎゅうどん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "gyudon; rice covered with sliced beef, usu. with fried onion",
+      "Gyūdon"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_karee",
+   "jp": "カレー",
+   "kana": "カレー",
+   "romaji": "karē",
+   "en": "curry",
+   "gloss": "curry",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "カレー【カレー】 curry",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "カレー",
+     "matched": "【カレー】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "curry (esp. Japanese curry)",
+      "rice and curry"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_soba",
+   "jp": "そば",
+   "kana": "そば",
+   "romaji": "soba",
+   "en": "soba noodles",
+   "gloss": "soba noodles",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 1,
+   "use": "say",
+   "links": [
+    {
+     "id": "f_udon",
+     "rel": "noodle dishes"
+    },
+    {
+     "id": "w_ramen",
+     "rel": "noodle dishes"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "そば【そば】 soba noodles",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "そば",
+     "matched": "蕎麦【そば】 (written in kana: そば)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "buckwheat (Fagopyrum esculentum)",
+      "soba; Japanese buckwheat noodles",
+      "Chinese-style wheat noodles",
+      "Soba"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_natto",
+   "jp": "納豆",
+   "kana": "なっとう",
+   "romaji": "nattō",
+   "en": "natto (fermented soybeans)",
+   "gloss": "natto",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "納豆【なっとう】 natto (fermented soybeans)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "納豆",
+     "matched": "納豆【なっとう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "natto (fermented soybeans)",
+      "Nattō"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_umeboshi",
+   "jp": "梅干し",
+   "kana": "うめぼし",
+   "romaji": "umeboshi",
+   "en": "umeboshi (pickled plum)",
+   "gloss": "umeboshi",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "梅干し【うめぼし】 umeboshi (pickled plum)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "梅干し",
+     "matched": "梅干し【うめぼし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "umeboshi; pickled dried ume; pickled dried plum",
+      "Umeboshi"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_wasabi",
+   "jp": "わさび",
+   "kana": "わさび",
+   "romaji": "wasabi",
+   "en": "wasabi (Japanese horseradish)",
+   "gloss": "wasabi",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "わさび【わさび】 wasabi (Japanese horseradish)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "わさび",
+     "matched": "【ワサビ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "wasabi (Wasabia japonica); Japanese horseradish",
+      "horseradish (or any blend of wasabi and horseradish)",
+      "Wasabi"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_karaage",
+   "jp": "唐揚げ",
+   "kana": "からあげ",
+   "romaji": "karaage",
+   "en": "karaage (deep-fried chicken etc.)",
+   "gloss": "karaage",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "唐揚げ【からあげ】 deep-fried",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "唐揚げ",
+     "matched": "唐揚げ【からあげ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "deep-frying food lightly coated in flour or potato starch; deep-fried food (esp. chicken)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_yakitori",
+   "jp": "焼き鳥",
+   "kana": "やきとり",
+   "romaji": "yakitori",
+   "en": "yakitori (grilled chicken)",
+   "gloss": "yakitori",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "焼き鳥／焼鳥【やきとり】 yakitori (grilled chicken)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "焼き鳥",
+     "matched": "焼き鳥【やきとり】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "yakitori; chicken pieces (or sometimes beef or pork offal) grilled on a skewer",
+      "grilled and skewered bird (esp. sparrow)",
+      "failing to win a single hand during a half-game",
+      "Yakitori"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_edamame",
+   "jp": "枝豆",
+   "kana": "えだまめ",
+   "romaji": "edamame",
+   "en": "edamame (green soybeans in the pod)",
+   "gloss": "edamame",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "枝豆【えだまめ】 edamame (green soybeans in the pod)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "枝豆",
+     "matched": "枝豆【えだまめ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "edamame (green soybeans)",
+      "Edamame"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_yakizakana",
+   "jp": "焼魚",
+   "kana": "やきざかな",
+   "romaji": "yakizakana",
+   "en": "grilled fish",
+   "gloss": "grilled fish",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "w_sakana",
+     "rel": "contains 魚 (fish)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "焼魚【やきざかな】 grilled fish",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "焼魚",
+     "matched": "焼魚【やきざかな】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "grilled fish"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_hiyayakko",
+   "jp": "冷奴",
+   "kana": "ひややっこ",
+   "romaji": "hiyayakko",
+   "en": "cold tofu",
+   "gloss": "cold tofu",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "冷奴【ひややっこ】 cold tofu",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "冷奴",
+     "matched": "冷奴【ひややっこ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "cold tofu (served with condiments)",
+      "Hiyayakko"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_yakiniku",
+   "jp": "焼肉",
+   "kana": "やきにく",
+   "romaji": "yakiniku",
+   "en": "yakiniku (Japanese grilled meat)",
+   "gloss": "yakiniku",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "w_niku",
+     "rel": "contains 肉 (meat)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L12",
+     "activity": 3,
+     "entry": "焼肉【やきにく】 yakiniku (Japanese grilled meat)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "焼肉",
+     "matched": "焼肉【やきにく】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "yakiniku; Japanese dish of grilled meat similar to Korean barbecue",
+      "roasted meat; grill",
+      "Yakiniku"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_tanpin",
+   "jp": "単品",
+   "kana": "たんぴん",
+   "romaji": "tanpin",
+   "en": "single item",
+   "gloss": "single item",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "f_setto",
+     "rel": "contrast: single item vs set"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 1,
+     "entry": "単品【たんぴん】 single item",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "単品",
+     "matched": "単品【たんぴん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "individual item (i.e. not part of a set); single article",
+      "single item out of a set; one item from a set"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_setto",
+   "jp": "セット",
+   "kana": "セット",
+   "romaji": "setto",
+   "en": "set",
+   "gloss": "set",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "links": [
+    {
+     "id": "f_tanpin",
+     "rel": "contrast: set vs single item"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 1,
+     "entry": "セット【セット】 set",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "セット",
+     "matched": "【セット】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "set (of things); combo",
+      "setting up; preparing; arranging; placing; positioning; configuring; setting (e.g. an alarm)",
+      "setting (hair)",
+      "set (in tennis, volleyball, etc.)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Place"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_dorinku",
+   "jp": "ドリンク",
+   "kana": "ドリンク",
+   "romaji": "dorinku",
+   "en": "drink (menu section)",
+   "gloss": "drink",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "w_nomimono",
+     "rel": "same idea as 飲み物"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 1,
+     "entry": "ドリンク【ドリンク】 drink",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ドリンク",
+     "matched": "【ドリンク】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "drink"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_dezato",
+   "jp": "デザート",
+   "kana": "デザート",
+   "romaji": "dezāto",
+   "en": "dessert",
+   "gloss": "dessert",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "food",
+    "orderable"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 1,
+     "entry": "デザート【デザート】 dessert",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "デザート",
+     "matched": "【デザート】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "dessert",
+      "Dessert"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_ranchi",
+   "jp": "ランチ",
+   "kana": "ランチ",
+   "romaji": "ranchi",
+   "en": "lunch",
+   "gloss": "lunch",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "f_dinaa",
+     "rel": "pair: lunch / dinner"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "ランチ【ランチ】 lunch",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ランチ",
+     "matched": "【ランチ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "lunch",
+      "(Western-style) single-plate lunch set; plate lunch; lunch set"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_dinaa",
+   "jp": "ディナー",
+   "kana": "ディナー",
+   "romaji": "dinā",
+   "en": "dinner",
+   "gloss": "dinner",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "f_ranchi",
+     "rel": "pair: dinner / lunch"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "ディナー【ディナー】 dinner",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ディナー",
+     "matched": "【ディナー】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "dinner"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_ohashi",
+   "jp": "おはし",
+   "kana": "おはし",
+   "romaji": "ohashi",
+   "en": "chopsticks",
+   "gloss": "chopsticks",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "thing",
+    "orderable"
+   ],
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "おはし【おはし】 chopsticks",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "はし／おはし【はし／おはし】 chopsticks",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_torizara",
+   "jp": "取り皿",
+   "kana": "とりざら",
+   "romaji": "torizara",
+   "en": "individual plate",
+   "gloss": "individual plate",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "thing",
+    "orderable"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "取り皿【とりざら】 individual plate",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "取り皿",
+     "matched": "取り皿【とりざら】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "individual plate; single individual's small dish on which food taken from shared serving dishes is placed"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_fooku",
+   "jp": "フォーク",
+   "kana": "フォーク",
+   "romaji": "fōku",
+   "en": "fork",
+   "gloss": "fork",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "thing",
+    "orderable"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 5,
+     "entry": "フォーク【フォーク】 fork",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "フォーク【フォーク】 fork",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "フォーク",
+     "matched": "【フォーク】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "fork",
+      "forkball"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "f_naifu",
+   "jp": "ナイフ",
+   "kana": "ナイフ",
+   "romaji": "naifu",
+   "en": "knife",
+   "gloss": "knife",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tags": [
+    "thing",
+    "orderable"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 5,
+     "entry": "ナイフ【ナイフ】 knife",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ナイフ",
+     "matched": "【ナイフ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "knife",
+      "Knife"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_tsu4",
+   "jp": "四つ",
+   "kana": "よっつ",
+   "romaji": "yottsu",
+   "en": "four (for things)",
+   "gloss": "four (for things)",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "四つ",
+     "matched": "四つ【よっつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "four; 4",
+      "four years of age",
+      "ten o'clock (in the old time system)",
+      "burakumin"
+     ],
+     "pos": [
+      "Numeric",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_tsu5",
+   "jp": "五つ",
+   "kana": "いつつ",
+   "romaji": "itsutsu",
+   "en": "five (for things)",
+   "gloss": "five (for things)",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "五つ",
+     "matched": "五つ【いつつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "five",
+      "five years of age",
+      "eight o'clock (old time system)"
+     ],
+     "pos": [
+      "Numeric",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_tsu6",
+   "jp": "六つ",
+   "kana": "むっつ",
+   "romaji": "muttsu",
+   "en": "six (for things)",
+   "gloss": "six (for things)",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "六つ",
+     "matched": "六つ【むっつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "six",
+      "six years of age",
+      "six o'clock (old time system)"
+     ],
+     "pos": [
+      "Numeric",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_tsu7",
+   "jp": "七つ",
+   "kana": "ななつ",
+   "romaji": "nanatsu",
+   "en": "seven (for things)",
+   "gloss": "seven (for things)",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "七つ",
+     "matched": "七つ【ななつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "seven",
+      "seven years of age",
+      "four o'clock (old time system)"
+     ],
+     "pos": [
+      "Numeric",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_tsu8",
+   "jp": "八つ",
+   "kana": "やっつ",
+   "romaji": "yattsu",
+   "en": "eight (for things)",
+   "gloss": "eight (for things)",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "八つ",
+     "matched": "八つ【やっつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "eight",
+      "eight years of age",
+      "two o'clock (old time system)"
+     ],
+     "pos": [
+      "Numeric",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_tsu9",
+   "jp": "九つ",
+   "kana": "ここのつ",
+   "romaji": "kokonotsu",
+   "en": "nine (for things)",
+   "gloss": "nine (for things)",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "g_ikutsu",
+     "rel": "how many?"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "九つ",
+     "matched": "九つ【ここのつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "nine",
+      "nine years of age",
+      "twelve o'clock (old time system)"
+     ],
+     "pos": [
+      "Numeric",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_koko_ii",
+   "jp": "ここ、いいですか？",
+   "kana": "ここ、いいですか？",
+   "romaji": "koko, ii desu ka?",
+   "en": "Can I sit here?",
+   "gloss": "Can I sit here?",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Asking to take a seat.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 3,
+     "entry": "ここ、いいですか？【ここ、いいですか？】 Can I sit here?",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_koko_de",
+   "jp": "ここで",
+   "kana": "ここで",
+   "romaji": "koko de",
+   "en": "Eat in, please.",
+   "gloss": "Eat in, please.",
+   "pos": "expression",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "say_when": "Answering 'for here or to go?'",
+   "links": [
+    {
+     "id": "t_teikuauto",
+     "rel": "contrast: eat in / take out"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 2,
+     "entry": "ここで【ここで】 Eat in, please.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_teikuauto",
+   "jp": "テイクアウトで",
+   "kana": "テイクアウトで",
+   "romaji": "teikuauto de",
+   "en": "To takeout, please.",
+   "gloss": "To takeout, please.",
+   "pos": "expression",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "say_when": "Answering 'for here or to go?'",
+   "links": [
+    {
+     "id": "t_koko_de",
+     "rel": "contrast: take out / eat in"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 2,
+     "entry": "テイクアウトで【テイクアウトで】 To takeout, please.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_oishii",
+   "jp": "おいしいです",
+   "kana": "おいしいです",
+   "romaji": "oishii desu",
+   "en": "It's delicious.",
+   "gloss": "It's delicious.",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Compliment the food.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 3,
+     "entry": "おいしいです【おいしいです】 It's delicious.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_oukagai",
+   "jp": "おうかがいします",
+   "kana": "おうかがいします",
+   "romaji": "oukagai shimasu",
+   "en": "Can I take your order? (polite expression)",
+   "gloss": "Can I take your order? (polite expression)",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Listening practice: Staff ready to take your order.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 2,
+     "entry": "おうかがいします【おうかがいします】 Can I take your order? (polite expression)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_nani_ni_nasaimasu",
+   "jp": "何になさいますか？",
+   "kana": "なにになさいますか？",
+   "romaji": "nani ni nasaimasu ka?",
+   "en": "What would you like? (polite expression)",
+   "gloss": "What would you like? (polite expression)",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Listening practice: Staff asking for your order.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 2,
+     "entry": "何になさいますか？【なにになさいますか？】 What would you like? (polite expression)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_kochira_de",
+   "jp": "こちらでおめしあがりですか？",
+   "kana": "こちらでおめしあがりですか？",
+   "romaji": "kochira de omeshiagari desu ka?",
+   "en": "Would you like to eat in? (polite expression)",
+   "gloss": "Would you like to eat in? (polite expression)",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Listening practice: Counter question at a restaurant.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 2,
+     "entry": "こちらでおめしあがりですか？【こちらでおめしあがりですか？】 Would you like to eat in? (polite expression)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_omochikaeri_ne",
+   "jp": "お持ち帰りですね",
+   "kana": "おもちかえりですね",
+   "romaji": "omochikaeri desu ne",
+   "en": "That's to take out, right? (polite expression)",
+   "gloss": "That's to take out, right? (polite expression)",
+   "pos": "phrase",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Listening practice: Staff confirming takeout.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 2,
+     "entry": "お持ち帰りですね【おもちかえりですね】 That's to take out, right? (polite expression)",
      "checked": "2026-10-22"
     }
    ]

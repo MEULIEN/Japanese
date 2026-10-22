@@ -461,7 +461,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 2,
+     "entry": "乗り換え／お乗換え【のりかえ／おのりかえ】 transfer",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_norikae"
    ]
   },
   {
@@ -492,7 +504,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 1,
+     "entry": "～番線【～ばんせん】 platform number ～",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_bansen"
    ]
   },
   {
@@ -588,7 +612,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 2,
+     "entry": "終点【しゅうてん】 final stop",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_shuten"
    ]
   },
   {
@@ -629,7 +665,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "改札【かいさつ】 ticket gate",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_kaisatsu"
    ]
   },
   {
@@ -1081,7 +1129,19 @@
       "Noun which may take the genitive case particle 'no'"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 1,
+     "entry": "快速【かいそく】 express / rapid",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "s_kaisoku"
    ]
   },
   {
@@ -1599,6 +1659,745 @@
      ],
      "pos": [
       "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_nobori",
+   "jp": "上り",
+   "kana": "のぼり",
+   "romaji": "nobori",
+   "en": "up",
+   "gloss": "up",
+   "pos": "sign",
+   "topic": "transport",
+   "tier": 3,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_kudari",
+     "rel": "opposite"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 5,
+     "entry": "上り【のぼり】 up",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "上り",
+     "matched": "上り【のぼり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "ascent; climbing; ascending (path); climb",
+      "up-train; train heading toward the starting point of its route",
+      "upbound (esp. toward Tokyo)",
+      "upstream; uphill"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Noun, used as a prefix",
+      "Place"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kudari",
+   "jp": "下り",
+   "kana": "くだり",
+   "romaji": "kudari",
+   "en": "down",
+   "gloss": "down",
+   "pos": "sign",
+   "topic": "transport",
+   "tier": 3,
+   "use": "read",
+   "links": [
+    {
+     "id": "s_nobori",
+     "rel": "opposite"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 5,
+     "entry": "下り【くだり】 down",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "下り",
+     "matched": "下り【くだり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "down-train; train heading toward the ending point of its route",
+      "down-slope; downward going",
+      "downbound (esp. away from Tokyo)",
+      "downstream; downhill"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Noun, used as a prefix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_higashiguchi",
+   "jp": "東口",
+   "kana": "ひがしぐち",
+   "romaji": "higashiguchi",
+   "en": "East Exit",
+   "gloss": "East Exit",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "links": [
+    {
+     "id": "s_deguchi",
+     "rel": "ends in 口 (exit)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "東口【ひがしぐち】 East Exit",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "東口",
+     "matched": "東口【ひがしぐち】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "east entrance; east exit"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_nishiguchi",
+   "jp": "西口",
+   "kana": "にしぐち",
+   "romaji": "nishiguchi",
+   "en": "West Exit",
+   "gloss": "West Exit",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "links": [
+    {
+     "id": "s_deguchi",
+     "rel": "ends in 口 (exit)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "西口【にしぐち】 West Exit",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "西口",
+     "matched": "西口【にしぐち】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "west entrance; west exit"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_minamiguchi",
+   "jp": "南口",
+   "kana": "みなみぐち",
+   "romaji": "minamiguchi",
+   "en": "South Exit",
+   "gloss": "South Exit",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "links": [
+    {
+     "id": "s_deguchi",
+     "rel": "ends in 口 (exit)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "南口【みなみぐち】 South Exit",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "南口",
+     "matched": "南口【みなみぐち】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "south entrance; south exit"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kitaguchi",
+   "jp": "北口",
+   "kana": "きたぐち",
+   "romaji": "kitaguchi",
+   "en": "North Exit",
+   "gloss": "North Exit",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "links": [
+    {
+     "id": "s_deguchi",
+     "rel": "ends in 口 (exit)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "北口【きたぐち】 North Exit",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "北口",
+     "matched": "北口【きたぐち】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "north entrance; north exit"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_machiaishitsu",
+   "jp": "待合室",
+   "kana": "まちあいしつ",
+   "romaji": "machiaishitsu",
+   "en": "waiting room",
+   "gloss": "waiting room",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "待合室【まちあいしつ】 waiting room",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "待合室",
+     "matched": "待合室【まちあいしつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "waiting room",
+      "Waiting room"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_basunoriba",
+   "jp": "バス乗り場",
+   "kana": "バスのりば",
+   "romaji": "basu-noriba",
+   "en": "bus stop",
+   "gloss": "bus stop",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "バス乗り場【バスのりば】 bus stop",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "バス乗り場",
+     "matched": "バス乗り場【バスのりば】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "bus terminal; bus station"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_takushinoriba",
+   "jp": "タクシー乗り場",
+   "kana": "タクシーのりば",
+   "romaji": "takushī-noriba",
+   "en": "taxi stand",
+   "gloss": "taxi stand",
+   "pos": "noun",
+   "topic": "transport",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "links": [
+    {
+     "id": "s_basunoriba",
+     "rel": "same 乗り場 pattern"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "タクシー乗り場【タクシーのりば】 taxi stand",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "タクシー乗り場",
+     "matched": "タクシー乗り場【タクシーのりば】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "taxi rank; taxi stand"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kakueki",
+   "jp": "各駅停車",
+   "kana": "かくえきていしゃ",
+   "romaji": "kakueki teisha",
+   "en": "local train (stops at every station)",
+   "gloss": "local train",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 1,
+   "use": "hear",
+   "note": "Often shortened to 各停 (かくてい) on boards.",
+   "links": [
+    {
+     "id": "w_kaisoku",
+     "rel": "contrast: local vs rapid"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 1,
+     "entry": "各駅停車／各停【かくえきていしゃ／かくてい】 local (stopping at every station)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "各駅停車",
+     "matched": "各駅停車【かくえきていしゃ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "train that stops at every station; local train"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "tr_chaaji",
+   "jp": "チャージ",
+   "kana": "チャージ",
+   "romaji": "chāji",
+   "en": "charge; top-up (e.g. of an IC card)",
+   "gloss": "charge",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "note": "JR West's ICOCA page lists 「チャージ（入金）方法」 (how to top up).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "チャージ",
+     "matched": "【チャージ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "charge (electrical); recharging",
+      "charge (fee)",
+      "topping up (a contactless smart card); recharging",
+      "refuelling"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "JR West: ICOCA (JRおでかけネット)",
+     "url": "https://www.jr-odekake.net/icoca/",
+     "quote": "チャージ（入金） 方法",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "tr_teikiken",
+   "jp": "定期券",
+   "kana": "ていきけん",
+   "romaji": "teikiken",
+   "en": "commuter pass; season ticket",
+   "gloss": "commuter pass",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "バスの定期券はお持ちですか？",
+     "en": "Do you have a bus pass?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12957275,
+      "url": "https://tatoeba.org/en/sentences/show/12957275",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "バスの定期券はお持ちですか？",
+      "translation": "Do you have a bus pass?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "定期券",
+     "matched": "定期券【ていきけん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "commuter pass; season ticket"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "tr_seisan",
+   "jp": "精算",
+   "kana": "せいさん",
+   "romaji": "seisan",
+   "en": "fare adjustment; settlement",
+   "gloss": "fare adjustment",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 2,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "精算",
+     "matched": "精算【せいさん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "exact calculation; squaring of accounts; adjustment"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "tr_seisanki",
+     "rel": "related: 精算機 = the machine for fare adjustment"
+    },
+    {
+     "id": "tr_norikoshi",
+     "rel": "related: if you ride past your station (乗り越し), you pay the difference (精算)"
+    }
+   ]
+  },
+  {
+   "id": "tr_seisanki",
+   "jp": "精算機",
+   "kana": "せいさんき",
+   "romaji": "seisanki",
+   "en": "fare adjustment machine",
+   "gloss": "fare adjustment machine",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "精算機",
+     "matched": "精算機【せいさんき】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "fare adjustment machine; ticket adjustment machine"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "tr_seisan",
+     "rel": "related: 精算機 = the machine for fare adjustment"
+    }
+   ]
+  },
+  {
+   "id": "tr_norikoshi",
+   "jp": "乗り越し",
+   "kana": "のりこし",
+   "romaji": "norikoshi",
+   "en": "riding past one's station",
+   "gloss": "riding past one's station",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "乗り越し",
+     "matched": "乗り越し【のりこし】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "riding past (one's station)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "tr_seisan",
+     "rel": "related: if you ride past your station (乗り越し), you pay the difference (精算)"
+    }
+   ]
+  },
+  {
+   "id": "tr_kenbaiki",
+   "jp": "券売機",
+   "kana": "けんばいき",
+   "romaji": "kenbaiki",
+   "en": "ticket machine",
+   "gloss": "ticket machine",
+   "pos": "noun",
+   "topic": "transport",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "place"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L13",
+     "activity": 2,
+     "entry": "券売機【けんばいき】 ticket machine",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "券売機",
+     "matched": "券売機【けんばいき】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "ticket machine; ticket-vending machine"
+     ],
+     "pos": [
+      "Noun"
      ],
      "checked": "2026-10-22"
     }

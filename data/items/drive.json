@@ -373,6 +373,171 @@
      "checked": "2026-10-22"
     }
    ]
+  },
+  {
+   "id": "d_shary_tsuko",
+   "jp": "車両通行止め",
+   "kana": "しゃりょうつうこうどめ",
+   "romaji": "sharyō tsūkō-dome",
+   "en": "closed to all vehicles",
+   "gloss": "closed to all vehicles",
+   "pos": "sign",
+   "topic": "drive",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "d_tsuko",
+     "rel": "compare: 通行止め (road closed)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "MLIT 道路標識一覧",
+     "url": "https://www.skr.mlit.go.jp/road/hyousiki/h_annai/roadsign/files/dourohyousikiichiran.pdf",
+     "quote": "(302)車両通行止め",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Koriyama City traffic-sign leaflet (furigana)",
+     "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/2939.pdf",
+     "quote": "車両しゃりょう進入しんにゅう禁止きんし標識ひょうしき",
+     "note": "reading of 車両 (しゃりょう); 通行止め (つうこうどめ) is the verified item d_tsuko",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "d_shary_shinnyu",
+   "jp": "車両進入禁止",
+   "kana": "しゃりょうしんにゅうきんし",
+   "romaji": "sharyō shinnyū kinshi",
+   "en": "no entry for vehicles",
+   "gloss": "no entry for vehicles",
+   "pos": "sign",
+   "topic": "drive",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "d_ippo",
+     "rel": "often at the exit end of a 一方通行 street"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "MLIT 道路標識一覧",
+     "url": "https://www.skr.mlit.go.jp/road/hyousiki/h_annai/roadsign/files/dourohyousikiichiran.pdf",
+     "quote": "(303)車両進入禁止",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Koriyama City traffic-sign leaflet (furigana)",
+     "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/2939.pdf",
+     "quote": "車両しゃりょう進入しんにゅう禁止きんし標識ひょうしき",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "d_hokosha_senyo",
+   "jp": "歩行者専用",
+   "kana": "ほこうしゃせんよう",
+   "romaji": "hokōsha sen'yō",
+   "en": "pedestrians only",
+   "gloss": "pedestrians only",
+   "pos": "sign",
+   "topic": "drive",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "MLIT 道路標識一覧",
+     "url": "https://www.skr.mlit.go.jp/road/hyousiki/h_annai/roadsign/files/dourohyousikiichiran.pdf",
+     "quote": "(325の4)歩行者専用",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Koriyama City traffic-sign leaflet (furigana)",
+     "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/2939.pdf",
+     "quote": "自転車じてんしゃ及および歩行者ほこうしゃ専用せんよう道路どうろ",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "d_jidosha_senyo",
+   "jp": "自動車専用",
+   "kana": "じどうしゃせんよう",
+   "romaji": "jidōsha sen'yō",
+   "en": "motor vehicles only (expressway-type road entrance)",
+   "gloss": "motor vehicles only",
+   "pos": "sign",
+   "topic": "drive",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "MLIT 道路標識一覧",
+     "url": "https://www.skr.mlit.go.jp/road/hyousiki/h_annai/roadsign/files/dourohyousikiichiran.pdf",
+     "quote": "(325)自動車専用",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Koriyama City traffic-sign leaflet (furigana)",
+     "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/2939.pdf",
+     "quote": "専用せんよう",
+     "note": "reading of 専用; 自動車専用道路【じどうしゃせんようどうろ】 is a JMdict headword",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "d_hokosha_odan",
+   "jp": "歩行者横断禁止",
+   "kana": "ほこうしゃおうだんきんし",
+   "romaji": "hokōsha ōdan kinshi",
+   "en": "no pedestrian crossing",
+   "gloss": "no pedestrian crossing",
+   "pos": "sign",
+   "topic": "drive",
+   "tier": 3,
+   "use": "read",
+   "links": [
+    {
+     "id": "d_odan",
+     "rel": "contrast: crossing prohibited vs 横断歩道 (crosswalk)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "MLIT 道路標識一覧",
+     "url": "https://www.skr.mlit.go.jp/road/hyousiki/h_annai/roadsign/files/dourohyousikiichiran.pdf",
+     "quote": "(332)歩行者横断禁止",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Koriyama City traffic-sign leaflet (furigana)",
+     "url": "https://www.city.koriyama.lg.jp/uploaded/attachment/2939.pdf",
+     "quote": "歩行者ほこうしゃ … 横断おうだん … 禁止きんし",
+     "checked": "2026-10-22"
+    }
+   ]
   }
  ]
 }

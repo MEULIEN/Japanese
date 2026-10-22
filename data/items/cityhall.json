@@ -1,0 +1,2962 @@
+{
+ "topic": "cityhall",
+ "items": [
+  {
+   "id": "p_shiyakusho",
+   "jp": "市役所",
+   "kana": "しやくしょ",
+   "romaji": "shiyakusho",
+   "en": "city hall",
+   "gloss": "city hall",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 4,
+     "entry": "市役所【しやくしょ】 city hall",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "市役所",
+     "matched": "市役所【しやくしょ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "municipal office; council; city hall"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_kuyakusho",
+     "rel": "contrast: 市役所 = city hall; 区役所 = your ward office, where Kyoto handles moving notices"
+    }
+   ]
+  },
+  {
+   "id": "c_kuyakusho",
+   "jp": "区役所",
+   "kana": "くやくしょ",
+   "romaji": "kuyakusho",
+   "en": "ward office",
+   "gloss": "ward office",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "note": "In Kyoto, moving-in/out notices and residence certificates are handled at your ward office (区役所・支所).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "区役所",
+     "matched": "区役所【くやくしょ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "ward office; council (regional)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Kyoto City press release: 区役所・支所 市民総合窓口室戸籍住民担当 日曜臨時開所 (2026-01-28)",
+     "url": "https://www.city.kyoto.lg.jp/bunshi/cmsfiles/contents/0000349/349188/kouhou(20260128).pdf",
+     "quote": "各区役所・支所の市民総合窓口室 戸籍住民担当 … 転入等に関する一部の業務を行います。",
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "p_shiyakusho",
+     "rel": "contrast: 区役所 = ward office (Kyoto: 転入・転出・転居届 and 住民票 are handled at 区役所・支所); 市役所 = city hall"
+    }
+   ]
+  },
+  {
+   "id": "c_yakusho",
+   "jp": "役所",
+   "kana": "やくしょ",
+   "romaji": "yakusho",
+   "en": "government office; public office",
+   "gloss": "government office",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "役所【やくしょ】 city hall",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "役所",
+     "matched": "役所【やくしょ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "government office; public office",
+      "Seat of local government"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_juuminhyou",
+   "jp": "住民票",
+   "kana": "じゅうみんひょう",
+   "romaji": "jūminhyō",
+   "en": "certificate of residence",
+   "gloss": "certificate of residence",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "note": "What you ask for at the counter is a copy: 住民票の写し.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "住民票",
+     "matched": "住民票【じゅうみんひょう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "certificate of residence",
+      "Jūminhyō"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Kyoto City press release: 区役所・支所 市民総合窓口室戸籍住民担当 日曜臨時開所 (2026-01-28)",
+     "url": "https://www.city.kyoto.lg.jp/bunshi/cmsfiles/contents/0000349/349188/kouhou(20260128).pdf",
+     "quote": "証明書発行 住民票の写し、戸籍関係証明書、印鑑登録証明書など",
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_zairyuukaado",
+     "rel": "contrast: 住民票 = certificate of residence; Kyoto ward offices issue copies (住民票の写し) — 在留カード = the residence card issued to foreign residents by Immigration (ISA)"
+    }
+   ]
+  },
+  {
+   "id": "c_tennyuutodoke",
+   "jp": "転入届",
+   "kana": "てんにゅうとどけ",
+   "romaji": "tennyūtodoke",
+   "en": "moving-in notification",
+   "gloss": "moving-in notification",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "転入届",
+     "matched": "転入届【てんにゅうとどけ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "notification of moving in"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Kyoto City press release: 区役所・支所 市民総合窓口室戸籍住民担当 日曜臨時開所 (2026-01-28)",
+     "url": "https://www.city.kyoto.lg.jp/bunshi/cmsfiles/contents/0000349/349188/kouhou(20260128).pdf",
+     "quote": "住所異動 転入・転出・転居届など",
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_tenshutsutodoke",
+     "rel": "opposite: 転入届 = notice of moving in; 転出届 = notice of moving out (to another city)"
+    },
+    {
+     "id": "c_tenkyotodoke",
+     "rel": "contrast: 転居届 = moving within the same city; 転入届 = moving in from another city (JMdict: notification of moving in)"
+    }
+   ]
+  },
+  {
+   "id": "c_tenshutsutodoke",
+   "jp": "転出届",
+   "kana": "てんしゅつとどけ",
+   "romaji": "tenshutsutodoke",
+   "en": "moving-out notification",
+   "gloss": "moving-out notification",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "転出届",
+     "matched": "転出届【てんしゅつとどけ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "notification of moving out"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Kyoto City press release: 区役所・支所 市民総合窓口室戸籍住民担当 日曜臨時開所 (2026-01-28)",
+     "url": "https://www.city.kyoto.lg.jp/bunshi/cmsfiles/contents/0000349/349188/kouhou(20260128).pdf",
+     "quote": "⑴ 転出届（他市町村への住所異動）",
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_tennyuutodoke",
+     "rel": "opposite: 転入届 = notice of moving in; 転出届 = notice of moving out (to another city)"
+    }
+   ]
+  },
+  {
+   "id": "c_tenkyotodoke",
+   "jp": "転居届",
+   "kana": "てんきょとどけ",
+   "romaji": "tenkyotodoke",
+   "en": "notice of change of address",
+   "gloss": "notice of change of address",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "転居届",
+     "matched": "転居届【てんきょとどけ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "notification of one's change of address"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Kyoto City press release: 区役所・支所 市民総合窓口室戸籍住民担当 日曜臨時開所 (2026-01-28)",
+     "url": "https://www.city.kyoto.lg.jp/bunshi/cmsfiles/contents/0000349/349188/kouhou(20260128).pdf",
+     "quote": "住所異動 転入・転出・転居届など",
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_tennyuutodoke",
+     "rel": "contrast: 転居届 = moving within the same city; 転入届 = moving in from another city (JMdict: notification of moving in)"
+    }
+   ]
+  },
+  {
+   "id": "c_zairyuukaado",
+   "jp": "在留カード",
+   "kana": "ざいりゅうカード",
+   "romaji": "zairyūkādo",
+   "en": "residence card",
+   "gloss": "residence card",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "在留カード【ざいりゅうカード】 residence card",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L13",
+     "activity": 3,
+     "entry": "在留カード【ざいりゅうカード】 residence card",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "在留カード",
+     "matched": "在留カード【ざいりゅうカード】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "residence card; resident card"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Immigration Services Agency of Japan: 在留カードとは？",
+     "url": "https://www.moj.go.jp/isa/applications/procedures/whatzairyu_00001.html",
+     "quote": "在留カードは、新規の上陸許可、在留資格の変更許可や在留期間の更新許可など在留資格に係る許可の結果として我が国に中長期間在留する者として決定された者に対して交付されるもの",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Immigration Services Agency of Japan: 在留カードとは？",
+     "url": "https://www.moj.go.jp/isa/applications/procedures/whatzairyu_00001.html",
+     "quote": "在留カードには、氏名、生年月日、性別、国籍・地域、住居地、在留資格、就労の可否…",
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_juuminhyou",
+     "rel": "contrast: 在留カード = your residence card from Immigration (ISA); 住民票 = the certificate of residence you request from the ward office (住民票の写し)"
+    }
+   ]
+  },
+  {
+   "id": "c_mainanbaa",
+   "jp": "マイナンバー",
+   "kana": "マイナンバー",
+   "romaji": "mainanbā",
+   "en": "My Number (individual number)",
+   "gloss": "My Number",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "マイナンバー",
+     "matched": "【マイナンバー】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "identity number; national identification number; national identity number; personal identity number"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_mainanbaakaado",
+     "rel": "related: the number vs the card"
+    }
+   ]
+  },
+  {
+   "id": "c_mainanbaakaado",
+   "jp": "マイナンバーカード",
+   "kana": "マイナンバーカード",
+   "romaji": "mainanbākādo",
+   "en": "My Number Card (Individual Number Card)",
+   "gloss": "My Number Card",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "マイナンバーカード【マイナンバーカード】 Individual Number Card",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "マイナンバーカード",
+     "matched": "【マイナンバーカード】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "My Number Card; identity number card; individual number card"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Kyoto City press release: 区役所・支所 市民総合窓口室戸籍住民担当 日曜臨時開所 (2026-01-28)",
+     "url": "https://www.city.kyoto.lg.jp/bunshi/cmsfiles/contents/0000349/349188/kouhou(20260128).pdf",
+     "quote": "全国コンビニ等のマルチコピー機でマイナンバーカードを利用して各種証明書を取得可能です。",
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_mainanbaa",
+     "rel": "related: the number vs the card"
+    }
+   ]
+  },
+  {
+   "id": "c_kokuminkenkouhoken",
+   "jp": "国民健康保険",
+   "kana": "こくみんけんこうほけん",
+   "romaji": "kokuminkenkōhoken",
+   "en": "National Health Insurance",
+   "gloss": "National Health Insurance",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "国民健康保険",
+     "matched": "国民健康保険【こくみんけんこうほけん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "national health insurance",
+      "National Health Insurance (Japan)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_kenkouhoken",
+     "rel": "related: 国民健康保険 = the National Health Insurance scheme run by the city"
+    }
+   ]
+  },
+  {
+   "id": "c_kenkouhoken",
+   "jp": "健康保険",
+   "kana": "けんこうほけん",
+   "romaji": "kenkōhoken",
+   "en": "health insurance",
+   "gloss": "health insurance",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "健康保険",
+     "matched": "健康保険【けんこうほけん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "health insurance",
+      "Universal health care"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_kokuminkenkouhoken",
+     "rel": "related: 国民健康保険 = the National Health Insurance scheme run by the city"
+    }
+   ]
+  },
+  {
+   "id": "c_hoken",
+   "jp": "保険",
+   "kana": "ほけん",
+   "romaji": "hoken",
+   "en": "insurance",
+   "gloss": "insurance",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "保険をかけて下さい。",
+     "en": "Insure it, please.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 83245,
+      "url": "https://tatoeba.org/en/sentences/show/83245",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "保険をかけて下さい。",
+      "translation": "Insure it, please."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "保険",
+     "matched": "保険【ほけん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "insurance",
+      "guarantee; warranty",
+      "Insurance"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_hokenryou",
+     "rel": "related: 保険料 = the premium you pay"
+    }
+   ]
+  },
+  {
+   "id": "c_hokenryou",
+   "jp": "保険料",
+   "kana": "ほけんりょう",
+   "romaji": "hokenryō",
+   "en": "insurance premium",
+   "gloss": "insurance premium",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "保険料",
+     "matched": "保険料【ほけんりょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "insurance premium"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_hoken",
+     "rel": "related: 保険料 = the premium you pay"
+    }
+   ]
+  },
+  {
+   "id": "c_nenkin",
+   "jp": "年金",
+   "kana": "ねんきん",
+   "romaji": "nenkin",
+   "en": "pension",
+   "gloss": "pension",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "その老人は年金で暮らしている。",
+     "en": "The old man lives on his pension.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 206101,
+      "url": "https://tatoeba.org/en/sentences/show/206101",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "その老人は年金で暮らしている。",
+      "translation": "The old man lives on his pension."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "年金",
+     "matched": "年金【ねんきん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "annuity; pension",
+      "Pension"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_kokuminnenkin",
+     "rel": "related: 国民年金 = the National Pension"
+    }
+   ]
+  },
+  {
+   "id": "c_kokuminnenkin",
+   "jp": "国民年金",
+   "kana": "こくみんねんきん",
+   "romaji": "kokuminnenkin",
+   "en": "National Pension",
+   "gloss": "National Pension",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "国民年金",
+     "matched": "国民年金【こくみんねんきん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "national pension; government pension system",
+      "National Pension (Japan)"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_nenkin",
+     "rel": "related: 国民年金 = the National Pension"
+    }
+   ]
+  },
+  {
+   "id": "c_zeikin",
+   "jp": "税金",
+   "kana": "ぜいきん",
+   "romaji": "zeikin",
+   "en": "tax",
+   "gloss": "tax",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "税金をお支払いください。",
+     "en": "Please pay the tax.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 142480,
+      "url": "https://tatoeba.org/en/sentences/show/142480",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "税金をお支払いください。",
+      "translation": "Please pay the tax."
+     }
+    },
+    {
+     "jp": "どんな品物に税金がかかりますか。",
+     "en": "What sort of thing must I pay tax on?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 199378,
+      "url": "https://tatoeba.org/en/sentences/show/199378",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "どんな品物に税金がかかりますか。",
+      "translation": "What sort of thing must I pay tax on?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "税金",
+     "matched": "税金【ぜいきん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "tax; duty"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_juuminzei",
+     "rel": "related: 住民税 = resident (municipal) tax"
+    }
+   ]
+  },
+  {
+   "id": "c_juuminzei",
+   "jp": "住民税",
+   "kana": "じゅうみんぜい",
+   "romaji": "jūminzei",
+   "en": "resident tax",
+   "gloss": "resident tax",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "住民税",
+     "matched": "住民税【じゅうみんぜい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "municipal tax"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_zeikin",
+     "rel": "related: 住民税 = resident (municipal) tax"
+    }
+   ]
+  },
+  {
+   "id": "c_shinsei",
+   "jp": "申請",
+   "kana": "しんせい",
+   "romaji": "shinsei",
+   "en": "application; request (to an authority)",
+   "gloss": "application",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "私はビザを申請した。",
+     "en": "I applied for a visa.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2349248,
+      "url": "https://tatoeba.org/en/sentences/show/2349248",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "私はビザを申請した。",
+      "translation": "I applied for a visa."
+     }
+    },
+    {
+     "jp": "もうパスポートを申請しましたか。",
+     "en": "Have you applied for a passport yet?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 194375,
+      "url": "https://tatoeba.org/en/sentences/show/194375",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "もうパスポートを申請しましたか。",
+      "translation": "Have you applied for a passport yet?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "申請",
+     "matched": "申請【しんせい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "application; request; petition"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_todokede",
+     "rel": "contrast: 申請 = application; request (you ask for something) (JMdict); 届け出 = report; notification (you inform the office) (JMdict)"
+    }
+   ]
+  },
+  {
+   "id": "c_shinseisho",
+   "jp": "申請書",
+   "kana": "しんせいしょ",
+   "romaji": "shinseisho",
+   "en": "application form",
+   "gloss": "application form",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "この申請書にご記入ください。",
+     "en": "Please fill in this application form.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9054948,
+      "url": "https://tatoeba.org/en/sentences/show/9054948",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "この申請書にご記入ください。",
+      "translation": "Please fill in this application form."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "申請書",
+     "matched": "申請書【しんせいしょ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "written application"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_moushikomisho",
+     "rel": "related: both are application forms (申請書 = written application to an authority; 申込書 = application form)"
+    }
+   ]
+  },
+  {
+   "id": "c_moushikomisho",
+   "jp": "申込書",
+   "kana": "もうしこみしょ",
+   "romaji": "mōshikomisho",
+   "en": "application form (e.g. for a service)",
+   "gloss": "application form",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 4,
+     "entry": "申込書【もうしこみしょ】 application form",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L10",
+     "activity": 3,
+     "entry": "申込書【もうしこみしょ】 application form",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "申込書",
+     "matched": "申込書【もうしこみしょ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "(written) application; application form"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_shinseisho",
+     "rel": "related: both are application forms (申請書 = written application to an authority; 申込書 = application form)"
+    }
+   ]
+  },
+  {
+   "id": "c_koushin",
+   "jp": "更新",
+   "kana": "こうしん",
+   "romaji": "kōshin",
+   "en": "renewal; update",
+   "gloss": "renewal",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "パスポートを更新しないといけないんです。",
+     "en": "I must renew my passport.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 159120,
+      "url": "https://tatoeba.org/en/sentences/show/159120",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "パスポートを更新しないといけないんです。",
+      "translation": "I must renew my passport."
+     }
+    },
+    {
+     "jp": "先月、運転免許証を更新しました。",
+     "en": "I had my driving licence renewed last month.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1513256,
+      "url": "https://tatoeba.org/en/sentences/show/1513256",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "先月、運転免許証を更新しました。",
+      "translation": "I had my driving licence renewed last month."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "更新",
+     "matched": "更新【こうしん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "renewal; update; replacement; renovation; breaking (a record)",
+      "Koushin"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_todokede",
+   "jp": "届け出",
+   "kana": "とどけで",
+   "romaji": "todokede",
+   "en": "report; notification (to an authority)",
+   "gloss": "report",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "届け出",
+     "matched": "届け出【とどけで】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "report; notification"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_shinsei",
+     "rel": "contrast: 届け出 = report; notification (JMdict); 申請 = application; request (JMdict)"
+    }
+   ]
+  },
+  {
+   "id": "c_shorui",
+   "jp": "書類",
+   "kana": "しょるい",
+   "romaji": "shorui",
+   "en": "documents; papers",
+   "gloss": "documents",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "こちらがご依頼の書類です。",
+     "en": "Here are the documents you asked for.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8924563,
+      "url": "https://tatoeba.org/en/sentences/show/8924563",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "こちらがご依頼の書類です。",
+      "translation": "Here are the documents you asked for."
+     }
+    },
+    {
+     "jp": "私は書類に署名した。",
+     "en": "I attached my signature to the document.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 155942,
+      "url": "https://tatoeba.org/en/sentences/show/155942",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "私は書類に署名した。",
+      "translation": "I attached my signature to the document."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L9",
+     "activity": 3,
+     "entry": "書類【しょるい】 document",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "書類",
+     "matched": "書類【しょるい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "document; papers"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_shoumeisho",
+   "jp": "証明書",
+   "kana": "しょうめいしょ",
+   "romaji": "shōmeisho",
+   "en": "certificate",
+   "gloss": "certificate",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "証明書",
+     "matched": "証明書【しょうめいしょ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "certificate; credentials; testimonial"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_mibunshoumeisho",
+     "rel": "contrast: 証明書 = any certificate (JMdict); 身分証明書 = an ID document proving who you are (JMdict)"
+    }
+   ]
+  },
+  {
+   "id": "c_mibunshoumeisho",
+   "jp": "身分証明書",
+   "kana": "みぶんしょうめいしょ",
+   "romaji": "mibunshōmeisho",
+   "en": "identification papers; ID card",
+   "gloss": "identification papers",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "身分証明書はありますか？",
+     "en": "Do you have any ID?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9979567,
+      "url": "https://tatoeba.org/en/sentences/show/9979567",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "身分証明書はありますか？",
+      "translation": "Do you have any ID?"
+     }
+    },
+    {
+     "jp": "身分証明書をお願いします。",
+     "en": "May I see your ID?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10640253,
+      "url": "https://tatoeba.org/en/sentences/show/10640253",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "身分証明書をお願いします。",
+      "translation": "May I see your ID?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "身分証明書",
+     "matched": "身分証明書【みぶんしょうめいしょ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "identification papers; piece of identification; identity document; ID",
+      "Identity document"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_shoumeisho",
+     "rel": "contrast: 身分証明書 = identification papers; ID (JMdict); 証明書 = certificate in general"
+    }
+   ]
+  },
+  {
+   "id": "c_kinyuu",
+   "jp": "記入する",
+   "kana": "きにゅうする",
+   "romaji": "kinyūsuru",
+   "en": "to fill in (a form); to write in",
+   "gloss": "to fill in",
+   "pos": "verb",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "はっきりと記入してください。",
+     "en": "Write clearly, please.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9054946,
+      "url": "https://tatoeba.org/en/sentences/show/9054946",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "はっきりと記入してください。",
+      "translation": "Write clearly, please."
+     }
+    },
+    {
+     "jp": "用紙に自分の名を記入した。",
+     "en": "I filled in my name on the form.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 78862,
+      "url": "https://tatoeba.org/en/sentences/show/78862",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "用紙に自分の名を記入した。",
+      "translation": "I filled in my name on the form."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "記入する【きにゅうする】 to fill out",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "記入する",
+     "matched": "記入【きにゅう】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "entry (in a form, register, diary, etc.); filling in; filling out"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_shomei",
+   "jp": "署名",
+   "kana": "しょめい",
+   "romaji": "shomei",
+   "en": "signature",
+   "gloss": "signature",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "ご署名をお願いします。",
+     "en": "Please sign your name here.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 217130,
+      "url": "https://tatoeba.org/en/sentences/show/217130",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ご署名をお願いします。",
+      "translation": "Please sign your name here."
+     }
+    },
+    {
+     "jp": "そこに署名してください。",
+     "en": "Sign your name there.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 213653,
+      "url": "https://tatoeba.org/en/sentences/show/213653",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "そこに署名してください。",
+      "translation": "Sign your name there."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "署名",
+     "matched": "署名【しょめい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "signature; autograph",
+      "Signature"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_sain",
+     "rel": "same meaning: 署名 is the word on forms; サイン is the everyday loanword"
+    }
+   ]
+  },
+  {
+   "id": "c_shimei",
+   "jp": "氏名",
+   "kana": "しめい",
+   "romaji": "shimei",
+   "en": "full name",
+   "gloss": "full name",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L9",
+     "activity": 3,
+     "entry": "氏名【しめい】 full name",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "氏名【しめい】 full name",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "氏名",
+     "matched": "氏名【しめい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "(full) name; identity"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_seinengappi",
+   "jp": "生年月日",
+   "kana": "せいねんがっぴ",
+   "romaji": "seinengappi",
+   "en": "date of birth",
+   "gloss": "date of birth",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 4,
+     "entry": "生年月日【せいねんがっぴ】 date of birth",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "生年月日",
+     "matched": "生年月日【せいねんがっぴ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "birth date; date of birth; DOB"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_kokuseki",
+   "jp": "国籍",
+   "kana": "こくせき",
+   "romaji": "kokuseki",
+   "en": "nationality",
+   "gloss": "nationality",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 4,
+     "entry": "国籍【こくせき】 nationality",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "国籍",
+     "matched": "国籍【こくせき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "nationality; citizenship",
+      "nationality (ship, airplane, etc.); registration; flag",
+      "Nationality"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_seibetsu",
+   "jp": "性別",
+   "kana": "せいべつ",
+   "romaji": "seibetsu",
+   "en": "sex; gender",
+   "gloss": "sex",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "性別【せいべつ】 gender",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "性別",
+     "matched": "性別【せいべつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "(distinction of) sex; gender",
+      "Sex"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_furigana",
+   "jp": "フリガナ",
+   "kana": "フリガナ",
+   "romaji": "furigana",
+   "en": "furigana (reading of the name in kana, on forms)",
+   "gloss": "furigana",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "read",
+   "note": "On forms, the フリガナ line asks for the reading of your name in katakana (Irodori 初級1 L15: \"reading in katakana\").",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "フリガナ【フリガナ】 reading in katakana",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "フリガナ",
+     "matched": "【フリガナ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "furigana; kana printed above or next to kanji to indicate pronunciation",
+      "Furigana"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_bangoufuda",
+   "jp": "番号札",
+   "kana": "ばんごうふだ",
+   "romaji": "bangōfuda",
+   "en": "numbered ticket (queue number)",
+   "gloss": "numbered ticket",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "番号札をお持ちになってお待ち下さい。",
+     "en": "Please take a number and wait.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 7562244,
+      "url": "https://tatoeba.org/en/sentences/show/7562244",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "番号札をお持ちになってお待ち下さい。",
+      "translation": "Please take a number and wait."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "番号札",
+     "matched": "番号札【ばんごうふだ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "numbered tag; numbered ticket"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_tetsuzuki",
+   "jp": "手続き",
+   "kana": "てつづき",
+   "romaji": "tetsuzuki",
+   "en": "procedure; formalities",
+   "gloss": "procedure",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "手続きを説明していただけますか。",
+     "en": "Please explain the procedure.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2552498,
+      "url": "https://tatoeba.org/en/sentences/show/2552498",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "手続きを説明していただけますか。",
+      "translation": "Please explain the procedure."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L1",
+     "activity": 1,
+     "entry": "手続き【てつづき】 procedure",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L12",
+     "activity": 1,
+     "entry": "手続き【てつづき】 procedure",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "手続き",
+     "matched": "手続き【てつづき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "procedure; process; proceedings; formalities"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_hitsuyou",
+   "jp": "必要",
+   "kana": "ひつよう",
+   "romaji": "hitsuyō",
+   "en": "necessary; needed",
+   "gloss": "necessary",
+   "pos": "na-adj",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "adj_class": "na",
+   "examples": [
+    {
+     "jp": "車が必要ですか？",
+     "en": "Do you need a car?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11706800,
+      "url": "https://tatoeba.org/en/sentences/show/11706800",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "車が必要ですか？",
+      "translation": "Do you need a car?"
+     }
+    },
+    {
+     "jp": "紙が必要だ。",
+     "en": "I need some paper.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1272425,
+      "url": "https://tatoeba.org/en/sentences/show/1272425",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "紙が必要だ。",
+      "translation": "I need some paper."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L10",
+     "activity": 2,
+     "entry": "必要（な）【ひつよう（な）】 necessary",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "必要（な）【ひつよう（な）】 necessary",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "必要",
+     "matched": "必要【ひつよう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "necessary; needed; essential; indispensable",
+      "necessity; need; requirement"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_sain",
+   "jp": "サイン",
+   "kana": "サイン",
+   "romaji": "sain",
+   "en": "signature; autograph",
+   "gloss": "signature",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "ここにサインしてください。",
+     "en": "Please sign here.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 224485,
+      "url": "https://tatoeba.org/en/sentences/show/224485",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ここにサインしてください。",
+      "translation": "Please sign here."
+     }
+    },
+    {
+     "jp": "もう契約書にサインはしましたか？",
+     "en": "Have you already signed the contract?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11859916,
+      "url": "https://tatoeba.org/en/sentences/show/11859916",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "もう契約書にサインはしましたか？",
+      "translation": "Have you already signed the contract?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "サイン",
+     "matched": "【サイン】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "autograph; signature",
+      "sign; signal; indication"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "c_shomei",
+     "rel": "same meaning: 署名 is the word on forms; サイン is the everyday loanword"
+    }
+   ]
+  },
+  {
+   "id": "c_inkantouroku",
+   "jp": "印鑑登録",
+   "kana": "いんかんとうろく",
+   "romaji": "inkantōroku",
+   "en": "seal registration (registering your inkan with the city)",
+   "gloss": "seal registration",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "印鑑登録",
+     "matched": "印鑑登録【いんかんとうろく】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "registering a seal (with the local government)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Kyoto City press release: 区役所・支所 市民総合窓口室戸籍住民担当 日曜臨時開所 (2026-01-28)",
+     "url": "https://www.city.kyoto.lg.jp/bunshi/cmsfiles/contents/0000349/349188/kouhou(20260128).pdf",
+     "quote": "印鑑登録 印鑑登録・抹消など",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_juuminhyounoutsushi",
+   "jp": "住民票の写し",
+   "kana": "じゅうみんひょうのうつし",
+   "romaji": "jūminhyōnōtsushi",
+   "en": "copy of the certificate of residence",
+   "gloss": "copy of the certificate of residence",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Kyoto City press release: 区役所・支所 市民総合窓口室戸籍住民担当 日曜臨時開所 (2026-01-28)",
+     "url": "https://www.city.kyoto.lg.jp/bunshi/cmsfiles/contents/0000349/349188/kouhou(20260128).pdf",
+     "quote": "証明書発行 住民票の写し、戸籍関係証明書、印鑑登録証明書など",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "official",
+     "name": "Kyoto City press release: 区役所・支所 市民総合窓口室戸籍住民担当 日曜臨時開所 (2026-01-28)",
+     "url": "https://www.city.kyoto.lg.jp/bunshi/cmsfiles/contents/0000349/349188/kouhou(20260128).pdf",
+     "quote": "市役所証明書発行コーナーにて、住民票の写し、戸籍関係証明書等の各種証明書が土・日曜日…も午前９時から午後５時まで取得可能です。",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "住民票",
+     "matched": "住民票【じゅうみんひょう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "certificate of residence",
+      "Jūminhyō"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "写し",
+     "matched": "写し【うつし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "copy; duplicate; facsimile; transcript",
+      "cc (on e-mails); carbon copy"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_tsuuyaku",
+   "jp": "通訳",
+   "kana": "つうやく",
+   "romaji": "tsūyaku",
+   "en": "interpreter; interpretation",
+   "gloss": "interpreter",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "通訳が必要です。",
+     "en": "I need an interpreter.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13117381,
+      "url": "https://tatoeba.org/en/sentences/show/13117381",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "通訳が必要です。",
+      "translation": "I need an interpreter."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "通訳【つうやく】 interpretation",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L18",
+     "activity": 1,
+     "entry": "通訳【つうやく】 interpreter",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "通訳",
+     "matched": "通訳【つうやく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "interpretation (i.e. oral translation)",
+      "interpreter",
+      "Language interpretation"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_soudan",
+   "jp": "相談",
+   "kana": "そうだん",
+   "romaji": "sōdan",
+   "en": "consultation; discussion",
+   "gloss": "consultation",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "医者に相談しなよ。",
+     "en": "Consult a doctor.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9840950,
+      "url": "https://tatoeba.org/en/sentences/show/9840950",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "医者に相談しなよ。",
+      "translation": "Consult a doctor."
+     }
+    },
+    {
+     "jp": "私は姉に相談した。",
+     "en": "I consulted with my sister.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 156583,
+      "url": "https://tatoeba.org/en/sentences/show/156583",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "私は姉に相談した。",
+      "translation": "I consulted with my sister."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L9",
+     "activity": 4,
+     "entry": "相談【そうだん】 discussion",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "相談【そうだん】 consultation",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "相談",
+     "matched": "相談【そうだん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "consultation; discussion; discussing; asking (someone) for advice"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_kakunin",
+   "jp": "確認する",
+   "kana": "かくにんする",
+   "romaji": "kakuninsuru",
+   "en": "to check; to confirm",
+   "gloss": "to check",
+   "pos": "verb",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "確認してください。",
+     "en": "Please make sure.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9828280,
+      "url": "https://tatoeba.org/en/sentences/show/9828280",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "確認してください。",
+      "translation": "Please make sure."
+     }
+    },
+    {
+     "jp": "二度確認しました。",
+     "en": "I checked it twice.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2040907,
+      "url": "https://tatoeba.org/en/sentences/show/2040907",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "二度確認しました。",
+      "translation": "I checked it twice."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L13",
+     "activity": 3,
+     "entry": "確認する【かくにんする】 to check",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "確認する【かくにんする】 to check",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "確認する",
+     "matched": "確認【かくにん】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "confirmation; verification; validation; review; check; affirmation; identification"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_teishutsu",
+   "jp": "提出する",
+   "kana": "ていしゅつする",
+   "romaji": "teishutsusuru",
+   "en": "to submit; to turn in (e.g. documents)",
+   "gloss": "to submit",
+   "pos": "verb",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "say",
+   "obj": [
+    "thing"
+   ],
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "報告書は提出したの？",
+     "en": "Have you turned in your report?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10332779,
+      "url": "https://tatoeba.org/en/sentences/show/10332779",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "報告書は提出したの？",
+      "translation": "Have you turned in your report?"
+     }
+    },
+    {
+     "jp": "宿題を提出しなさい。",
+     "en": "Turn in your homework.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 147841,
+      "url": "https://tatoeba.org/en/sentences/show/147841",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "宿題を提出しなさい。",
+      "translation": "Turn in your homework."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "提出する【ていしゅつする】 to submit",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "提出する",
+     "matched": "提出【ていしゅつ】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "presentation (of documents); submission (of an application, report, etc.); production (e.g. of evidence); introduction (e.g. of a bill); filing; turning in"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_kigen",
+   "jp": "期限",
+   "kana": "きげん",
+   "romaji": "kigen",
+   "en": "deadline; time limit",
+   "gloss": "deadline",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "期限",
+     "matched": "期限【きげん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "term; period; time frame",
+      "time limit; deadline; cutoff (date)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_inkanshoumei",
+   "jp": "印鑑証明",
+   "kana": "いんかんしょうめい",
+   "romaji": "inkanshōmei",
+   "en": "certificate of seal registration",
+   "gloss": "certificate of seal registration",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "印鑑証明",
+     "matched": "印鑑証明【いんかんしょうめい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "certification of official registration of a seal"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_tennyuu",
+   "jp": "転入",
+   "kana": "てんにゅう",
+   "romaji": "tennyū",
+   "en": "moving in (to a new address)",
+   "gloss": "moving in",
+   "pos": "noun",
+   "topic": "cityhall",
+   "tier": 3,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "転入",
+     "matched": "転入【てんにゅう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "moving into (a city, etc.)",
+      "transfer (to a new school)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_x_mibun_onegai",
+   "jp": "身分証明書をお願いします",
+   "kana": "みぶんしょうめいしょをおねがいします",
+   "romaji": "mibunshōmeishoōnegaishimasu",
+   "en": "May I see your ID?",
+   "gloss": "May I see your ID?",
+   "pos": "phrase",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10640253,
+     "url": "https://tatoeba.org/en/sentences/show/10640253",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "身分証明書をお願いします。",
+     "translation": "May I see your ID?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "身分証明書",
+     "matched": "身分証明書【みぶんしょうめいしょ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "identification papers; piece of identification; identity document; ID",
+      "Identity document"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_x_mibun_arimasuka",
+   "jp": "身分証明書はありますか",
+   "kana": "みぶんしょうめいしょはありますか",
+   "romaji": "mibunshōmeishohaarimasuka",
+   "en": "Do you have any ID?",
+   "gloss": "Do you have any ID?",
+   "pos": "phrase",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 9979567,
+     "url": "https://tatoeba.org/en/sentences/show/9979567",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "身分証明書はありますか？",
+     "translation": "Do you have any ID?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "身分証明書",
+     "matched": "身分証明書【みぶんしょうめいしょ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "identification papers; piece of identification; identity document; ID",
+      "Identity document"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_x_nani_hitsuyou",
+   "jp": "何が必要ですか",
+   "kana": "なにがひつようですか",
+   "romaji": "nanigahitsuyōdesuka",
+   "en": "What do you need? (What is needed?)",
+   "gloss": "What do you need? (What is needed?)",
+   "pos": "phrase",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Ask the clerk what is required for a procedure.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 187898,
+     "url": "https://tatoeba.org/en/sentences/show/187898",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "何が必要ですか。",
+     "translation": "What is it that you need?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "必要",
+     "matched": "必要【ひつよう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "necessary; needed; essential; indispensable",
+      "necessity; need; requirement"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_x_koko_kaite",
+   "jp": "ここに書いて下さい",
+   "kana": "ここにかいてください",
+   "romaji": "kokonikaitekudasai",
+   "en": "Write it down here, please.",
+   "gloss": "Write it down here, please.",
+   "pos": "phrase",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 224406,
+     "url": "https://tatoeba.org/en/sentences/show/224406",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "ここに書いて下さい。",
+     "translation": "Write it down here, please."
+    }
+   ]
+  },
+  {
+   "id": "c_x_renrakusaki_kaite",
+   "jp": "連絡先をここに書いてください",
+   "kana": "れんらくさきをここにかいてください",
+   "romaji": "renrakusakiokokonikaitekudasai",
+   "en": "Please write your contact details here.",
+   "gloss": "Please write your contact details here.",
+   "pos": "phrase",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 77403,
+     "url": "https://tatoeba.org/en/sentences/show/77403",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "連絡先をここに書いてください。",
+     "translation": "Please write your contact address here."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "連絡先",
+     "matched": "連絡先【れんらくさき】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "contact information (address, phone number, etc.)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_x_shinseisho_kinyuu",
+   "jp": "この申請書にご記入ください",
+   "kana": "このしんせいしょにごきにゅうください",
+   "romaji": "konoshinseishonigokinyūkudasai",
+   "en": "Please fill in this application form.",
+   "gloss": "Please fill in this application form.",
+   "pos": "phrase",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "hear",
+   "register": "honorific",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 9054948,
+     "url": "https://tatoeba.org/en/sentences/show/9054948",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "この申請書にご記入ください。",
+     "translation": "Please fill in this application form."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "申請書",
+     "matched": "申請書【しんせいしょ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "written application"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "記入する",
+     "matched": "記入【きにゅう】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "entry (in a form, register, diary, etc.); filling in; filling out"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_x_shimei_juusho",
+   "jp": "氏名と住所をご記入ください",
+   "kana": "しめいとじゅうしょをごきにゅうください",
+   "romaji": "shimeitojūshoogokinyūkudasai",
+   "en": "Please write your name and address.",
+   "gloss": "Please write your name and address.",
+   "pos": "phrase",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "hear",
+   "register": "honorific",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 11336719,
+     "url": "https://tatoeba.org/en/sentences/show/11336719",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "氏名と住所をご記入ください。",
+     "translation": "Put down your name and address."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "氏名",
+     "matched": "氏名【しめい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "(full) name; identity"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "住所",
+     "matched": "住所【じゅうしょ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "address (of a home, business, etc.); residence; domicile",
+      "Address (geography)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "記入する",
+     "matched": "記入【きにゅう】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "entry (in a form, register, diary, etc.); filling in; filling out"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_x_seinengappi_kinyuu",
+   "jp": "生年月日をご記入ください",
+   "kana": "せいねんがっぴをごきにゅうください",
+   "romaji": "seinengappiogokinyūkudasai",
+   "en": "Please write your date of birth.",
+   "gloss": "Please write your date of birth.",
+   "pos": "phrase",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "hear",
+   "register": "honorific",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10704935,
+     "url": "https://tatoeba.org/en/sentences/show/10704935",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "生年月日をご記入ください。",
+     "translation": "Please write down your date of your birth."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "生年月日",
+     "matched": "生年月日【せいねんがっぴ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "birth date; date of birth; DOB"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "記入する",
+     "matched": "記入【きにゅう】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "entry (in a form, register, diary, etc.); filling in; filling out"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_x_bangoufuda",
+   "jp": "番号札をお持ちになってお待ち下さい",
+   "kana": "ばんごうふだをおもちになっておまちください",
+   "romaji": "bangōfudaōmochininatteomachikudasai",
+   "en": "Please take a number and wait.",
+   "gloss": "Please take a number and wait.",
+   "pos": "phrase",
+   "topic": "cityhall",
+   "tier": 2,
+   "use": "hear",
+   "register": "honorific",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 7562244,
+     "url": "https://tatoeba.org/en/sentences/show/7562244",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "番号札をお持ちになってお待ち下さい。",
+     "translation": "Please take a number and wait."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "番号札",
+     "matched": "番号札【ばんごうふだ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "numbered tag; numbered ticket"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "c_x_hikkoshi",
+   "jp": "先月引っ越しました",
+   "kana": "せんげつひっこしました",
+   "romaji": "sengetsuhikkoshimashita",
+   "en": "I moved last month.",
+   "gloss": "I moved last month.",
+   "pos": "phrase",
+   "topic": "cityhall",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 1174266,
+     "url": "https://tatoeba.org/en/sentences/show/1174266",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "先月引っ越しました。",
+     "translation": "I moved last month."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "引っ越し",
+     "matched": "引っ越し【ひっこし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "moving (dwelling, office, etc.); changing residence",
+      "Hikkoshi"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Place"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,1671 @@
+{
+ "topic": "work",
+ "items": [
+  {
+   "id": "t_shitsurei",
+   "jp": "失礼します",
+   "kana": "しつれいします",
+   "romaji": "shitsurei shimasu",
+   "en": "Good bye. (polite)",
+   "gloss": "Good bye. (polite)",
+   "pos": "expression",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "note": "Irodori glosses it as 'Good bye.'; the longer お先に失礼します means 'I'll take my leave before you.'",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 2,
+     "entry": "失礼します【しつれいします】 Goodbye.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_osakani",
+   "jp": "お先に失礼します",
+   "kana": "おさきにしつれいします",
+   "romaji": "osaki ni shitsurei shimasu",
+   "en": "Good bye. (I'll take my leave before you.)",
+   "gloss": "Good bye. (I'll take my leave before you.)",
+   "pos": "expression",
+   "topic": "work",
+   "tier": 3,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 2,
+     "entry": "お先に失礼します【おさきにしつれいします】 Goodbye. (I'll take my leave before you.)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_rirekisho",
+   "jp": "履歴書",
+   "kana": "りれきしょ",
+   "romaji": "rirekisho",
+   "en": "resume; CV (curriculum vitae)",
+   "gloss": "CV",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "履歴書を少し書き換えました。",
+     "en": "I've made some changes to my resume.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11878754,
+      "url": "https://tatoeba.org/en/sentences/show/11878754",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "履歴書を少し書き換えました。",
+      "translation": "I've made some changes to my resume."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "履歴書",
+     "matched": "履歴書【りれきしょ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "personal history document; curriculum vitae; resume",
+      "Curriculum vitae"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_mensetsu",
+   "jp": "面接",
+   "kana": "めんせつ",
+   "romaji": "mensetsu",
+   "en": "interview (e.g. job interview)",
+   "gloss": "interview",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "明日、面接なんだ。",
+     "en": "I've got an interview tomorrow.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10792724,
+      "url": "https://tatoeba.org/en/sentences/show/10792724",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "明日、面接なんだ。",
+      "translation": "I've got an interview tomorrow."
+     }
+    },
+    {
+     "jp": "面接はどうだった？",
+     "en": "How was your interview?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12440066,
+      "url": "https://tatoeba.org/en/sentences/show/12440066",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "面接はどうだった？",
+      "translation": "How was your interview?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "面接",
+     "matched": "面接【めんせつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "interview (e.g. for a job)",
+      "Job interview"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_kyuuryou",
+   "jp": "給料",
+   "kana": "きゅうりょう",
+   "romaji": "kyūryō",
+   "en": "salary; wages; pay",
+   "gloss": "salary",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "給料はいくら？",
+     "en": "What is your salary?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11878994,
+      "url": "https://tatoeba.org/en/sentences/show/11878994",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "給料はいくら？",
+      "translation": "What is your salary?"
+     }
+    },
+    {
+     "jp": "お給料は月いくらなの？",
+     "en": "What's your monthly pay?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11332109,
+      "url": "https://tatoeba.org/en/sentences/show/11332109",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お給料は月いくらなの？",
+      "translation": "What's your monthly pay?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "給料",
+     "matched": "給料【きゅうりょう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "salary; wages; pay"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "wk_jikyuu",
+     "rel": "contrast: 給料 = salary, pay in general; 時給 = hourly pay"
+    },
+    {
+     "id": "wk_kyuuyomeisai",
+     "rel": "related: 給与明細 = the slip that shows your pay"
+    }
+   ]
+  },
+  {
+   "id": "wk_jikyuu",
+   "jp": "時給",
+   "kana": "じきゅう",
+   "romaji": "jikyū",
+   "en": "hourly wage",
+   "gloss": "hourly wage",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "時給はいくら？",
+     "en": "How much is your hourly pay?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 150523,
+      "url": "https://tatoeba.org/en/sentences/show/150523",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "時給はいくら？",
+      "translation": "How much is your hourly pay?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "時給",
+     "matched": "時給【じきゅう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "hourly pay; hourly wage"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "wk_kyuuryou",
+     "rel": "contrast: 給料 = salary, pay in general; 時給 = hourly pay"
+    }
+   ]
+  },
+  {
+   "id": "wk_kyuuyomeisai",
+   "jp": "給与明細",
+   "kana": "きゅうよめいさい",
+   "romaji": "kyūyomeisai",
+   "en": "payslip",
+   "gloss": "payslip",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "給与明細",
+     "matched": "給与明細【きゅうよめいさい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "payslip"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "wk_kyuuryou",
+     "rel": "related: 給与明細 = the slip that shows your pay"
+    }
+   ]
+  },
+  {
+   "id": "wk_gensenchoushuuhyou",
+   "jp": "源泉徴収票",
+   "kana": "げんせんちょうしゅうひょう",
+   "romaji": "gensenchōshūhyō",
+   "en": "withholding tax statement (annual income and tax certificate)",
+   "gloss": "withholding tax statement",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "源泉徴収票",
+     "matched": "源泉徴収票【げんせんちょうしゅうひょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "tax certificate slip; statement of earnings; tax-income certificate"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_koyoukeiyaku",
+   "jp": "雇用契約",
+   "kana": "こようけいやく",
+   "romaji": "koyōkeiyaku",
+   "en": "employment contract",
+   "gloss": "employment contract",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "雇用契約",
+     "matched": "雇用契約【こようけいやく】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "contract of employment"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_keiyakusho",
+   "jp": "契約書",
+   "kana": "けいやくしょ",
+   "romaji": "keiyakusho",
+   "en": "contract (document)",
+   "gloss": "contract",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "もう契約書にサインはしましたか？",
+     "en": "Have you already signed the contract?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11859916,
+      "url": "https://tatoeba.org/en/sentences/show/11859916",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "もう契約書にサインはしましたか？",
+      "translation": "Have you already signed the contract?"
+     }
+    },
+    {
+     "jp": "契約書にご署名をお願いします。",
+     "en": "Please sign your name on the contract.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9134127,
+      "url": "https://tatoeba.org/en/sentences/show/9134127",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "契約書にご署名をお願いします。",
+      "translation": "Please sign your name on the contract."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "契約書",
+     "matched": "契約書【けいやくしょ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "(written) contract; agreement"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_shifuto",
+   "jp": "シフト",
+   "kana": "シフト",
+   "romaji": "shifuto",
+   "en": "(work) shift",
+   "gloss": "(work) shift",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "朝9時から夕方5時までのシフトです。",
+     "en": "I am on shift from 9am till 5pm.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12003628,
+      "url": "https://tatoeba.org/en/sentences/show/12003628",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "朝9時から夕方5時までのシフトです。",
+      "translation": "I am on shift from 9am till 5pm."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "シフト",
+     "matched": "【シフト】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "shift; move",
+      "(work) shift; work schedule",
+      "gearshift; changing gears",
+      "Shift"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_yuukyuu",
+   "jp": "有給",
+   "kana": "ゆうきゅう",
+   "romaji": "yūkyū",
+   "en": "paid leave; with pay",
+   "gloss": "paid leave",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "有給",
+     "matched": "有給【ゆうきゅう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "salaried; paid; with pay",
+      "paid vacation; paid holiday; paid leave"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "wk_yuukyuukyuuka",
+     "rel": "related: 有給 is short for 有給休暇 (paid leave)"
+    }
+   ]
+  },
+  {
+   "id": "wk_yuukyuukyuuka",
+   "jp": "有給休暇",
+   "kana": "ゆうきゅうきゅうか",
+   "romaji": "yūkyūkyūka",
+   "en": "paid leave; paid holiday",
+   "gloss": "paid leave",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "有給休暇",
+     "matched": "有給休暇【ゆうきゅうきゅうか】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "paid vacation; paid holiday; paid leave"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "wk_yuukyuu",
+     "rel": "related: 有給 is short for 有給休暇 (paid leave)"
+    }
+   ]
+  },
+  {
+   "id": "wk_shakaihoken",
+   "jp": "社会保険",
+   "kana": "しゃかいほけん",
+   "romaji": "shakaihoken",
+   "en": "social insurance",
+   "gloss": "social insurance",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "社会保険",
+     "matched": "社会保険【しゃかいほけん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "social insurance",
+      "Social insurance"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_arubaito",
+   "jp": "アルバイト",
+   "kana": "アルバイト",
+   "romaji": "arubaito",
+   "en": "part-time job",
+   "gloss": "part-time job",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "何かアルバイトはしていますか。",
+     "en": "Do you have a part-time job?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 188151,
+      "url": "https://tatoeba.org/en/sentences/show/188151",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "何かアルバイトはしていますか。",
+      "translation": "Do you have a part-time job?"
+     }
+    },
+    {
+     "jp": "コンビニでアルバイトをします。",
+     "en": "I'm going to work part-time at a convenience store.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 6828182,
+      "url": "https://tatoeba.org/en/sentences/show/6828182",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "コンビニでアルバイトをします。",
+      "translation": "I'm going to work part-time at a convenience store."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "アルバイト",
+     "matched": "【アルバイト】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "part-time job; side job",
+      "part-time worker"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_zangyou",
+   "jp": "残業",
+   "kana": "ざんぎょう",
+   "romaji": "zangyō",
+   "en": "overtime (work)",
+   "gloss": "overtime",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "残業はしたくないよ。",
+     "en": "I don't want to work overtime.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8867949,
+      "url": "https://tatoeba.org/en/sentences/show/8867949",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "残業はしたくないよ。",
+      "translation": "I don't want to work overtime."
+     }
+    },
+    {
+     "jp": "彼は週に２回残業をする。",
+     "en": "He works beyond office hours twice a week.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 104379,
+      "url": "https://tatoeba.org/en/sentences/show/104379",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "彼は週に２回残業をする。",
+      "translation": "He works beyond office hours twice a week."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L9",
+     "activity": 2,
+     "entry": "残業【ざんぎょう】 overtime",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "残業",
+     "matched": "残業【ざんぎょう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "overtime (work)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_kyuukei",
+   "jp": "休憩",
+   "kana": "きゅうけい",
+   "romaji": "kyūkei",
+   "en": "rest; break",
+   "gloss": "rest",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "休憩します。",
+     "en": "I'm taking a break.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8417386,
+      "url": "https://tatoeba.org/en/sentences/show/8417386",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "休憩します。",
+      "translation": "I'm taking a break."
+     }
+    },
+    {
+     "jp": "休憩した？",
+     "en": "Did you take a break?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13029026,
+      "url": "https://tatoeba.org/en/sentences/show/13029026",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "休憩した？",
+      "translation": "Did you take a break?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "休憩（する）【きゅうけい（する）】 (to take) a break",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "休憩",
+     "matched": "休憩【きゅうけい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "rest; break; recess; intermission"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_chikoku",
+   "jp": "遅刻する",
+   "kana": "ちこくする",
+   "romaji": "chikokusuru",
+   "en": "to be late (for work, school)",
+   "gloss": "to be late",
+   "pos": "verb",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "遅刻します。",
+     "en": "I'll be late.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2465468,
+      "url": "https://tatoeba.org/en/sentences/show/2465468",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "遅刻します。",
+      "translation": "I'll be late."
+     }
+    },
+    {
+     "jp": "仕事に遅刻した。",
+     "en": "I was late for work.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11110272,
+      "url": "https://tatoeba.org/en/sentences/show/11110272",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "仕事に遅刻した。",
+      "translation": "I was late for work."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "遅刻する【ちこくする】 to be late",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "遅刻する",
+     "matched": "遅刻【ちこく】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "lateness; tardiness; arriving late"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "wk_soutai",
+     "rel": "contrast: 遅刻 = arriving late; 早退 = leaving early"
+    }
+   ]
+  },
+  {
+   "id": "wk_soutai",
+   "jp": "早退する",
+   "kana": "そうたいする",
+   "romaji": "sōtaisuru",
+   "en": "to leave early (work, school)",
+   "gloss": "to leave early",
+   "pos": "verb",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "熱があるから早退しますね。",
+     "en": "I have a fever, so I'll leave early.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11030208,
+      "url": "https://tatoeba.org/en/sentences/show/11030208",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "熱があるから早退しますね。",
+      "translation": "I have a fever, so I'll leave early."
+     }
+    },
+    {
+     "jp": "できたら、今日は早退したいな。",
+     "en": "I would like to leave work early today if possible.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11571544,
+      "url": "https://tatoeba.org/en/sentences/show/11571544",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "できたら、今日は早退したいな。",
+      "translation": "I would like to leave work early today if possible."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "早退する【そうたいする】 to leave early",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "早退する",
+     "matched": "早退【そうたい】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "leaving early"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "wk_chikoku",
+     "rel": "contrast: 遅刻 = arriving late; 早退 = leaving early"
+    }
+   ]
+  },
+  {
+   "id": "wk_shachou",
+   "jp": "社長",
+   "kana": "しゃちょう",
+   "romaji": "shachō",
+   "en": "company president",
+   "gloss": "company president",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "社長は外出中です。",
+     "en": "The president is out now.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 149178,
+      "url": "https://tatoeba.org/en/sentences/show/149178",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "社長は外出中です。",
+      "translation": "The president is out now."
+     }
+    },
+    {
+     "jp": "社長はどこですか。",
+     "en": "Where's the president?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 149184,
+      "url": "https://tatoeba.org/en/sentences/show/149184",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "社長はどこですか。",
+      "translation": "Where's the president?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "社長【しゃちょう】 president",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "社長",
+     "matched": "社長【しゃちょう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "company president; manager; director"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_joushi",
+   "jp": "上司",
+   "kana": "じょうし",
+   "romaji": "jōshi",
+   "en": "superior; one's boss",
+   "gloss": "superior",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "彼は私の上司です。",
+     "en": "He is my boss.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 105782,
+      "url": "https://tatoeba.org/en/sentences/show/105782",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "彼は私の上司です。",
+      "translation": "He is my boss."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "上司",
+     "matched": "上司【じょうし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "(one's) superior; (one's) boss; the higher-ups",
+      "Joushi"
+     ],
+     "pos": [
+      "Noun",
+      "Place"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_douryou",
+   "jp": "同僚",
+   "kana": "どうりょう",
+   "romaji": "dōryō",
+   "en": "coworker; colleague",
+   "gloss": "coworker",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L10",
+     "activity": 1,
+     "entry": "同僚【どうりょう】 co-worker",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "同僚",
+     "matched": "同僚【どうりょう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "coworker; co-worker; colleague; associate"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_shuukin",
+   "jp": "出勤",
+   "kana": "しゅっきん",
+   "romaji": "shukkin",
+   "en": "going to work; attendance at work",
+   "gloss": "going to work",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "普段は、8時半ぐらいに出勤します。",
+     "en": "I usually get to work at about 8.30.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11700165,
+      "url": "https://tatoeba.org/en/sentences/show/11700165",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "普段は、8時半ぐらいに出勤します。",
+      "translation": "I usually get to work at about 8.30."
+     }
+    },
+    {
+     "jp": "列車で出勤しますか？",
+     "en": "Do you ride the train to work?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4635650,
+      "url": "https://tatoeba.org/en/sentences/show/4635650",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "列車で出勤しますか？",
+      "translation": "Do you ride the train to work?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "出勤",
+     "matched": "出勤【しゅっきん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "going to work; leaving for work; attendance (at work); being at work; presence (in the office); reporting for work"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_shuushoku",
+   "jp": "就職",
+   "kana": "しゅうしょく",
+   "romaji": "shūshoku",
+   "en": "finding employment; getting a job",
+   "gloss": "finding employment",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "やっと就職できたぞ！",
+     "en": "I finally got a job.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 193066,
+      "url": "https://tatoeba.org/en/sentences/show/193066",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "やっと就職できたぞ！",
+      "translation": "I finally got a job."
+     }
+    },
+    {
+     "jp": "就職の面接を受けた。",
+     "en": "I was interviewed for a job.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 148241,
+      "url": "https://tatoeba.org/en/sentences/show/148241",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "就職の面接を受けた。",
+      "translation": "I was interviewed for a job."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "就職",
+     "matched": "就職【しゅうしょく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "finding employment; getting a job"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_boshuu",
+   "jp": "募集",
+   "kana": "ぼしゅう",
+   "romaji": "boshū",
+   "en": "recruitment; (job) opening",
+   "gloss": "recruitment",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "募集【ぼしゅう】 recruiting",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "募集",
+     "matched": "募集【ぼしゅう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "recruitment; invitation; selection; advertisement; taking applications",
+      "raising (funds, donations, etc.); collection; subscription; solicitation",
+      "flotation (of shares, loans, etc.)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_oubo",
+   "jp": "応募",
+   "kana": "おうぼ",
+   "romaji": "ōbo",
+   "en": "application (e.g. for a job)",
+   "gloss": "application",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "彼は仕事に応募した。",
+     "en": "He applied for a job.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 106604,
+      "url": "https://tatoeba.org/en/sentences/show/106604",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "彼は仕事に応募した。",
+      "translation": "He applied for a job."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "応募",
+     "matched": "応募【おうぼ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "application; subscription; entry (competition, raffle, etc.); enlistment"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_moushiwake",
+   "jp": "申し訳ありません",
+   "kana": "もうしわけありません",
+   "romaji": "mōshiwakearimasen",
+   "en": "I am sorry (very polite apology)",
+   "gloss": "I am sorry",
+   "pos": "expression",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "examples": [
+    {
+     "jp": "大変申し訳ありません。",
+     "en": "I'm very sorry.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 137257,
+      "url": "https://tatoeba.org/en/sentences/show/137257",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "大変申し訳ありません。",
+      "translation": "I'm very sorry."
+     }
+    },
+    {
+     "jp": "遅刻して申し訳ありません。",
+     "en": "Please excuse me for coming late.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 126656,
+      "url": "https://tatoeba.org/en/sentences/show/126656",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "遅刻して申し訳ありません。",
+      "translation": "Please excuse me for coming late."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "申し訳ありません【もうしわけありません】 I am sorry.",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "申し訳ありません",
+     "matched": "申し訳ありません【もうしわけありません】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "I'm sorry; (it's) inexcusable",
+      "thank you very much (for help, etc.)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_kyuukatodoke",
+   "jp": "休暇届",
+   "kana": "きゅうかとどけ",
+   "romaji": "kyūkatodoke",
+   "en": "leave request form",
+   "gloss": "leave request form",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "休暇届【きゅうかとどけ】 vacation request / leave form",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_kyuuka",
+   "jp": "休暇",
+   "kana": "きゅうか",
+   "romaji": "kyūka",
+   "en": "leave; vacation; day off",
+   "gloss": "leave",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "休暇中なんですか？",
+     "en": "Are you on holiday?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8742634,
+      "url": "https://tatoeba.org/en/sentences/show/8742634",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "休暇中なんですか？",
+      "translation": "Are you on holiday?"
+     }
+    },
+    {
+     "jp": "休暇は何日間なの？",
+     "en": "How many days is your holiday?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10993811,
+      "url": "https://tatoeba.org/en/sentences/show/10993811",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "休暇は何日間なの？",
+      "translation": "How many days is your holiday?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "休暇",
+     "matched": "休暇【きゅうか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "holiday; vacation; day off; time off; leave; furlough"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_x_yasumi_ii",
+   "jp": "一日休みを取ってもいいですか",
+   "kana": "いちにちやすみをとってもいいですか",
+   "romaji": "ichinichiyasumiotottemoiidesuka",
+   "en": "May I take a day off?",
+   "gloss": "May I take a day off?",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 190259,
+     "url": "https://tatoeba.org/en/sentences/show/190259",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "一日休みを取ってもいいですか。",
+     "translation": "Do you mind if I take a day off?"
+    }
+   ]
+  },
+  {
+   "id": "wk_x_chikoku_moushiwake",
+   "jp": "遅刻して申し訳ありません",
+   "kana": "ちこくしてもうしわけありません",
+   "romaji": "chikokushitemōshiwakearimasen",
+   "en": "I am sorry for being late.",
+   "gloss": "I am sorry for being late.",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 126656,
+     "url": "https://tatoeba.org/en/sentences/show/126656",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "遅刻して申し訳ありません。",
+     "translation": "Please excuse me for coming late."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "遅刻する",
+     "matched": "遅刻【ちこく】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "lateness; tardiness; arriving late"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "申し訳ありません",
+     "matched": "申し訳ありません【もうしわけありません】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "I'm sorry; (it's) inexcusable",
+      "thank you very much (for help, etc.)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "wk_x_okurete_moushiwake",
+   "jp": "遅れて申し訳ありません",
+   "kana": "おくれてもうしわけありません",
+   "romaji": "okuretemōshiwakearimasen",
+   "en": "Sorry for being late.",
+   "gloss": "Sorry for being late.",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 126707,
+     "url": "https://tatoeba.org/en/sentences/show/126707",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "遅れて申し訳ありません。",
+     "translation": "Please pardon me for coming late."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "申し訳ありません",
+     "matched": "申し訳ありません【もうしわけありません】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "I'm sorry; (it's) inexcusable",
+      "thank you very much (for help, etc.)"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

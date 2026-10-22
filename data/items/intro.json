@@ -508,7 +508,19 @@
       "Expressions (phrases, clauses, etc.)"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "はじめまして【はじめまして】 Hello. (said when meeting someone for the first time)",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_hajimemashite"
    ]
   },
   {
@@ -570,7 +582,19 @@
       "Expressions (phrases, clauses, etc.)"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "（どうぞ）よろしくお願いします【（どうぞ）よろしくおねがいします】 Nice to meet you.",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_yoroshiku"
    ]
   },
   {
@@ -803,7 +827,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 3,
+     "entry": "日本【にほん】 Japan",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "p_nihon"
    ]
   },
   {
@@ -1427,6 +1463,56 @@
       "Noun",
       "Adverb (fukushi)"
      ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_dochira_kara",
+   "jp": "どちらからですか？",
+   "kana": "どちらからですか？",
+   "romaji": "dochira kara desu ka?",
+   "en": "Where are you from?",
+   "gloss": "Where are you from?",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 3,
+     "entry": "どちらからですか？【どちらからですか？】 Where are you from?",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_kara_kimashita",
+   "jp": "〜から来ました",
+   "kana": "〜からきました",
+   "romaji": "〜 kara kimashita",
+   "en": "I came from ~.",
+   "gloss": "I came from ~.",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "～から来ました【～からきました】 came　from ～",
      "checked": "2026-10-22"
     }
    ]

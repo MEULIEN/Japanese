@@ -1918,6 +1918,241 @@
      "checked": "2026-10-22"
     }
    ]
+  },
+  {
+   "id": "hl_monshinhyou",
+   "jp": "問診票",
+   "kana": "もんしんひょう",
+   "romaji": "monshinhyō",
+   "en": "medical questionnaire",
+   "gloss": "medical questionnaire",
+   "pos": "noun",
+   "topic": "health",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "問診票【もんしんひょう】 questionnaire",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "問診票",
+     "matched": "問診票【もんしんひょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "medical questionnaire; medical interview sheet; medical history form"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "hl_shinsatsuken",
+   "jp": "診察券",
+   "kana": "しんさつけん",
+   "romaji": "shinsatsuken",
+   "en": "patient registration card",
+   "gloss": "patient registration card",
+   "pos": "noun",
+   "topic": "health",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "診察券は要らないんですか。",
+     "en": "Don't I need my patient ID?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8623955,
+      "url": "https://tatoeba.org/en/sentences/show/8623955",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "診察券は要らないんですか。",
+      "translation": "Don't I need my patient ID?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "診察券【しんさつけん】 hospital / clinic registration card",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "診察券",
+     "matched": "診察券【しんさつけん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "patient's registration ticket"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "hl_shinsatsu",
+   "jp": "診察",
+   "kana": "しんさつ",
+   "romaji": "shinsatsu",
+   "en": "medical examination",
+   "gloss": "medical examination",
+   "pos": "noun",
+   "topic": "health",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "初めての診察ですか。",
+     "en": "Is this your first visit here?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 147557,
+      "url": "https://tatoeba.org/en/sentences/show/147557",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "初めての診察ですか。",
+      "translation": "Is this your first visit here?"
+     }
+    },
+    {
+     "jp": "診察しましょう。",
+     "en": "I'll give you a check-up.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 144771,
+      "url": "https://tatoeba.org/en/sentences/show/144771",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "診察しましょう。",
+      "translation": "I'll give you a check-up."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "診察",
+     "matched": "診察【しんさつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "medical examination; checkup; consultation",
+      "Physical examination"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "hl_shoshin",
+   "jp": "初診",
+   "kana": "しょしん",
+   "romaji": "shoshin",
+   "en": "first medical examination (first visit)",
+   "gloss": "first medical examination",
+   "pos": "noun",
+   "topic": "health",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "初診",
+     "matched": "初診【しょしん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "initial medical examination; first visit (to a doctor, clinic, hospital, etc.)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "hl_x_hokenshou_teiji",
+   "jp": "毎月初めは保険証を提示してください",
+   "kana": "まいつきはじめはほけんしょうをていじしてください",
+   "romaji": "maitsukihajimehahokenshōoteijishitekudasai",
+   "en": "Please show your insurance card at the start of each month.",
+   "gloss": "Please show your insurance card at the start of each month.",
+   "pos": "phrase",
+   "topic": "health",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10963743,
+     "url": "https://tatoeba.org/en/sentences/show/10963743",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "毎月初めは保険証を提示してください。",
+     "translation": "Please present your insurance card at the beginning of each month."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "保険証",
+     "matched": "保険証【ほけんしょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "insurance card"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
   }
  ]
 }

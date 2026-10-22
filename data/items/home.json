@@ -1568,6 +1568,678 @@
      "checked": "2026-10-22"
     }
    ]
+  },
+  {
+   "id": "h_chintai",
+   "jp": "賃貸",
+   "kana": "ちんたい",
+   "romaji": "chintai",
+   "en": "renting; rental",
+   "gloss": "renting",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "賃貸",
+     "matched": "賃貸【ちんたい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "leasing (out); renting out; hiring out; letting"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "h_shikikin",
+   "jp": "敷金",
+   "kana": "しききん",
+   "romaji": "shikikin",
+   "en": "(security) deposit",
+   "gloss": "(security) deposit",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "敷金は必要ですか。",
+     "en": "Do you require a security deposit?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 84910,
+      "url": "https://tatoeba.org/en/sentences/show/84910",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "敷金は必要ですか。",
+      "translation": "Do you require a security deposit?"
+     }
+    },
+    {
+     "jp": "２ヶ月分の敷金を入れていただきます。",
+     "en": "Please pay a deposit of two month's rent.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 235554,
+      "url": "https://tatoeba.org/en/sentences/show/235554",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "２ヶ月分の敷金を入れていただきます。",
+      "translation": "Please pay a deposit of two month's rent."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "敷金",
+     "matched": "敷金【しききん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "(security) deposit; caution money",
+      "Security deposit"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_reikin",
+     "rel": "contrast: 敷金 = (security) deposit (JMdict); 礼金 = key money, a fee paid to the landlord for rental rights (JMdict)"
+    }
+   ]
+  },
+  {
+   "id": "h_reikin",
+   "jp": "礼金",
+   "kana": "れいきん",
+   "romaji": "reikin",
+   "en": "key money (fee paid to the landlord for rental rights)",
+   "gloss": "key money",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "礼金",
+     "matched": "礼金【れいきん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "money (given as thanks); reward money; fee; recompense; remuneration; honorarium",
+      "key money; fee paid for rental rights",
+      "Key money"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_shikikin",
+     "rel": "contrast: 礼金 = key money (JMdict); 敷金 = (security) deposit (JMdict)"
+    }
+   ]
+  },
+  {
+   "id": "h_koushinryou",
+   "jp": "更新料",
+   "kana": "こうしんりょう",
+   "romaji": "kōshinryō",
+   "en": "renewal fee",
+   "gloss": "renewal fee",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "更新料",
+     "matched": "更新料【こうしんりょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "renewal charge; renewal fee"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "h_kounetsuhi",
+   "jp": "光熱費",
+   "kana": "こうねつひ",
+   "romaji": "kōnetsuhi",
+   "en": "utility costs (heating and lighting)",
+   "gloss": "utility costs",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "光熱費",
+     "matched": "光熱費【こうねつひ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "cost of fuel and lighting; cost of heat and electricity; energy bill; utility cost"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_denkidai",
+     "rel": "related: 光熱費 = utility costs: 電気代, ガス代 (and often 水道代)"
+    }
+   ]
+  },
+  {
+   "id": "h_denkidai",
+   "jp": "電気代",
+   "kana": "でんきだい",
+   "romaji": "denkidai",
+   "en": "electricity bill",
+   "gloss": "electricity bill",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "電気代が上がった。",
+     "en": "Electricity prices went up.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11495309,
+      "url": "https://tatoeba.org/en/sentences/show/11495309",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "電気代が上がった。",
+      "translation": "Electricity prices went up."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電気代",
+     "matched": "電気代【でんきだい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "electricity bill; electric bill"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_kounetsuhi",
+     "rel": "related: 光熱費 = utility costs: 電気代, ガス代 (and often 水道代)"
+    }
+   ]
+  },
+  {
+   "id": "h_gasudai",
+   "jp": "ガス代",
+   "kana": "ガスだい",
+   "romaji": "gasudai",
+   "en": "gas bill",
+   "gloss": "gas bill",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "毎月のガス代はいくらですか。",
+     "en": "How much is your monthly gas bill?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 81361,
+      "url": "https://tatoeba.org/en/sentences/show/81361",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "毎月のガス代はいくらですか。",
+      "translation": "How much is your monthly gas bill?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ガス代",
+     "matched": "ガス代【ガスだい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "gas bill",
+      "gasoline bill; petrol bill"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "h_suidoudai",
+   "jp": "水道代",
+   "kana": "すいどうだい",
+   "romaji": "suidōdai",
+   "en": "water bill",
+   "gloss": "water bill",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "水道代",
+     "matched": "水道代【すいどうだい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "water bill"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "h_fudousanya",
+   "jp": "不動産屋",
+   "kana": "ふどうさんや",
+   "romaji": "fudōsan'ya",
+   "en": "real estate agent; estate agency",
+   "gloss": "real estate agent",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "不動産屋【ふどうさんや】 real estate agent",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "不動産屋",
+     "matched": "不動産屋【ふどうさんや】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "real estate agent; realtor"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "h_teiden",
+   "jp": "停電",
+   "kana": "ていでん",
+   "romaji": "teiden",
+   "en": "power outage",
+   "gloss": "power outage",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "停電だ。",
+     "en": "The power is out.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8649651,
+      "url": "https://tatoeba.org/en/sentences/show/8649651",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "停電だ。",
+      "translation": "The power is out."
+     }
+    },
+    {
+     "jp": "停電があった。",
+     "en": "There's been a power cut.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2214207,
+      "url": "https://tatoeba.org/en/sentences/show/2214207",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "停電があった。",
+      "translation": "There's been a power cut."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "停電",
+     "matched": "停電【ていでん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "power outage; power failure; power cut; blackout",
+      "Power outage"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_dansui",
+     "rel": "related: 停電 = power cut; 断水 = water cut"
+    }
+   ]
+  },
+  {
+   "id": "h_dansui",
+   "jp": "断水",
+   "kana": "だんすい",
+   "romaji": "dansui",
+   "en": "suspension of water supply",
+   "gloss": "suspension of water supply",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 3,
+   "use": "say",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L7",
+     "activity": 1,
+     "entry": "断水（する）【だんすい（する）】 water outage　(to cut off the water)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "断水",
+     "matched": "断水【だんすい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "suspension of water supply; water outage"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_teiden",
+     "rel": "related: 停電 = power cut; 断水 = water cut"
+    }
+   ]
+  },
+  {
+   "id": "h_kaiyaku",
+   "jp": "解約",
+   "kana": "かいやく",
+   "romaji": "kaiyaku",
+   "en": "cancellation of a contract",
+   "gloss": "cancellation of a contract",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "解約",
+     "matched": "解約【かいやく】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "cancellation of a contract"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "h_keiyakukikan",
+   "jp": "契約期間",
+   "kana": "けいやくきかん",
+   "romaji": "keiyakukikan",
+   "en": "contract period",
+   "gloss": "contract period",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "契約期間",
+     "matched": "契約期間【けいやくきかん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "contract period"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "h_x_yachin_ikura",
+   "jp": "家賃は月いくらですか",
+   "kana": "やちんはつきいくらですか",
+   "romaji": "yachinhatsukiikuradesuka",
+   "en": "How much is the rent per month?",
+   "gloss": "How much is the rent per month?",
+   "pos": "phrase",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 186913,
+     "url": "https://tatoeba.org/en/sentences/show/186913",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "家賃は月いくらですか。",
+     "translation": "How much is the rent per month?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "家賃",
+     "matched": "家賃【やちん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "rent"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "h_x_shikikin_hitsuyou",
+   "jp": "敷金は必要ですか",
+   "kana": "しききんはひつようですか",
+   "romaji": "shikikinhahitsuyōdesuka",
+   "en": "Do you require a security deposit?",
+   "gloss": "Do you require a security deposit?",
+   "pos": "phrase",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 84910,
+     "url": "https://tatoeba.org/en/sentences/show/84910",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "敷金は必要ですか。",
+     "translation": "Do you require a security deposit?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "敷金",
+     "matched": "敷金【しききん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "(security) deposit; caution money",
+      "Security deposit"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "必要",
+     "matched": "必要【ひつよう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "necessary; needed; essential; indispensable",
+      "necessity; need; requirement"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
   }
  ]
 }

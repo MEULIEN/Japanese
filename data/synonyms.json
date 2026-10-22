@@ -8,6 +8,11 @@
   { "ids": ["w_ban", "w_yoru"], "note": "Both evening/night; 夜 is the everyday word, 晩 a little more 'evening'." },
   { "ids": ["t_sumimasen", "w_gomennasai"], "note": "Both apologise; ごめんなさい is more personal/casual and not used to get attention." },
   { "ids": ["w_chikaku", "w_kinjo"], "note": "Both can mean the neighbourhood / nearby." },
-  { "ids": ["w_hiru", "w_hirugohan"], "note": "昼 is commonly used to mean lunch (昼ご飯)." }
+  { "ids": ["w_hiru", "w_hirugohan"], "note": "昼 is commonly used to mean lunch (昼ご飯)." },
+  { "ids": ["b_inkan", "b_hanko"], "note": "Both are the personal seal; 印鑑 is the word on forms and at the bank, ハンコ the everyday word." },
+  { "ids": ["c_shomei", "c_sain"], "note": "Both mean signature; 署名 is the word printed on forms, サイン the everyday loanword." },
+  { "ids": ["b_hikidasu", "b_orosu"], "note": "Both: to withdraw money (JMdict). ATM screens show お引き出し (Irodori 初級2 L14)." },
+  { "ids": ["f_omizu", "f_mizu"], "note": "Both water; お水 is the polite form used when asking in a restaurant." },
+  { "ids": ["w_hashi", "f_ohashi"], "note": "Both chopsticks; おはし is the polite form (Irodori writes おはし)." }
  ]
 }

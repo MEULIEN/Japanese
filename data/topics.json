@@ -143,6 +143,42 @@
    "order": 16,
    "prereq": ["signs"],
    "patterns": []
+  },
+  {
+   "id": "bank",
+   "name": "Bank & ATM",
+   "icon": "🏦",
+   "goal": "Open an account, withdraw and deposit money at an ATM, make a transfer, and explain a problem (lost card, forgotten PIN) to bank staff",
+   "order": 17,
+   "prereq": ["survival", "konbini"],
+   "patterns": []
+  },
+  {
+   "id": "post",
+   "name": "Post office & parcels",
+   "icon": "📮",
+   "goal": "Send a letter or parcel (registered, express), buy stamps, ask the price, and get a missed delivery redelivered",
+   "order": 18,
+   "prereq": ["survival"],
+   "patterns": []
+  },
+  {
+   "id": "cityhall",
+   "name": "City hall paperwork",
+   "icon": "🏛️",
+   "goal": "Register your address, get a residence certificate, handle health insurance, pension and tax forms, and ask what document is missing",
+   "order": 19,
+   "prereq": ["survival", "intro"],
+   "patterns": []
+  },
+  {
+   "id": "work",
+   "name": "Work & employment",
+   "icon": "💼",
+   "goal": "Handle job paperwork: CV and interview, contract and pay, shifts, paid leave, and tell your workplace you will be late or absent",
+   "order": 20,
+   "prereq": ["intro", "time"],
+   "patterns": []
   }
  ]
 }

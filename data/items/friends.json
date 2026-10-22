@@ -29,7 +29,22 @@
      ],
      "pos": [],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 2,
+     "entry": "お疲れさま（でした）【おつかれさま（でした）】 Goodbye. (Thank you for your hard work.)",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_otsukare"
+   ],
+   "accept": [
+    "お疲れさま"
    ]
   },
   {
@@ -1271,7 +1286,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 5,
+     "entry": "居酒屋【いざかや】 izakaya (Japanese-style pub)",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_izakaya"
    ]
   },
   {
@@ -1582,6 +1609,206 @@
       "Transitive verb",
       "Suffix"
      ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_sou_desu_ne",
+   "jp": "そうですね",
+   "kana": "そうですね",
+   "romaji": "sō desu ne",
+   "en": "Me, too. / I agree.",
+   "gloss": "Me, too. / I agree.",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L12",
+     "activity": 2,
+     "entry": "そうですね【そうですね】 Me, too. / I agree.　(used when the speaker is agreeing with the other person)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_sou_desu_ka",
+   "jp": "そうですか",
+   "kana": "そうですか",
+   "romaji": "sō desu ka",
+   "en": "I see.",
+   "gloss": "I see.",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 3,
+     "entry": "そうですか【そうですか】 I see. (indicates that the speaker has understood what the other person is saying)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_ii_desu_ne",
+   "jp": "いいですね",
+   "kana": "いいですね",
+   "romaji": "ii desu ne",
+   "en": "That's nice.",
+   "gloss": "That's nice.",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 3,
+     "entry": "いいですね【いいですね】 That's nice.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_tanoshimi",
+   "jp": "楽しみですね",
+   "kana": "たのしみですね",
+   "romaji": "tanoshimi desu ne",
+   "en": "I'm looking forward to it.",
+   "gloss": "I'm looking forward to it.",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L12",
+     "activity": 2,
+     "entry": "楽しみですね【たのしみですね】 I'm looking forward to it.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_mata_kondo",
+   "jp": "また今度",
+   "kana": "またこんど",
+   "romaji": "mata kondo",
+   "en": "Maybe another time.",
+   "gloss": "Maybe another time.",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Softly declining an invitation.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L12",
+     "activity": 3,
+     "entry": "また今度【またこんど】 Maybe another time.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_ii_ne",
+   "jp": "いいね！",
+   "kana": "いいね！",
+   "romaji": "ii ne!",
+   "en": "That's great!",
+   "gloss": "That's great!",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 3,
+   "use": "say",
+   "register": "casual",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L12",
+     "activity": 4,
+     "entry": "いいね！【いいね！】 That's great!",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_zannen",
+   "jp": "残念です",
+   "kana": "ざんねんです",
+   "romaji": "zannen desu",
+   "en": "That's a shame.",
+   "gloss": "That's a shame.",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 3,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L12",
+     "activity": 2,
+     "entry": "残念です【ざんねんです】 That's a shame.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_moshimoshi",
+   "jp": "もしもし",
+   "kana": "もしもし",
+   "romaji": "moshi moshi",
+   "en": "Hello. (on the phone)",
+   "gloss": "Hello. (on the phone)",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 2,
+     "entry": "もしもし【もしもし】 Hello. (on the phone)",
      "checked": "2026-10-22"
     }
    ]

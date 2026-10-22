@@ -723,7 +723,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "食べ物【たべもの】 food",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_tabemono"
    ]
   },
   {

@@ -54,7 +54,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "袋【ふくろ】 bag",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "g_fukuro"
    ]
   },
   {
@@ -293,6 +305,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "k_ryoushuusho",
+     "rel": "contrast: レシート = till receipt; 領収書 = formal receipt (JMdict)"
+    }
    ]
   },
   {
@@ -420,7 +438,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L12",
+     "activity": 1,
+     "entry": "～円【～えん】 ～ yen",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "g_en"
    ]
   },
   {
@@ -709,7 +739,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "パン【パン】 bread",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_pan"
    ]
   },
   {
@@ -775,7 +817,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "牛乳【ぎゅうにゅう】 milk",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_gyunyu"
    ]
   },
   {
@@ -845,7 +899,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "卵【たまご】 egg",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_tamago"
    ]
   },
   {
@@ -914,7 +980,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 1,
+     "entry": "野菜【やさい】 vegetable",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_yasai"
    ]
   },
   {
@@ -950,7 +1028,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "果物【くだもの】 fruit",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_kudamono"
    ]
   },
   {
@@ -1020,7 +1110,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 1,
+     "entry": "肉【にく】 meat",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_niku"
    ]
   },
   {
@@ -1087,7 +1189,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 1,
+     "entry": "魚【さかな】 fish",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_sakana"
    ]
   },
   {
@@ -1364,7 +1478,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "半額【はんがく】 half price",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "g_hangaku"
    ]
   },
   {
@@ -1499,7 +1625,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "スーパー【スーパー】 supermarket",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "g_supa"
    ]
   },
   {
@@ -1563,7 +1701,19 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "コンビニ【コンビニ】 convenience store",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "g_konbini"
    ]
   },
   {
@@ -1718,7 +1868,19 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "スプーン【スプーン】 spoon",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "f_supuun"
    ]
   },
   {
@@ -2020,7 +2182,22 @@
       "Noun, used as a suffix"
      ],
      "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 入門 第16課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "L16",
+     "quote": "【これ／それ／あれ】（は）いくらですか？ — 例文: これ、いくらですか？",
+     "checked": "2026-10-22"
     }
+   ],
+   "aliases": [
+    "t_ikura"
+   ],
+   "say_when": "Asking a price.",
+   "accept": [
+    "これ、いくらですか"
    ]
   },
   {
@@ -2194,6 +2371,3097 @@
      "pos": [
       "Godan verb with 'ru' ending",
       "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_hyakuen",
+   "jp": "100円ショップ",
+   "kana": "ひゃくえんショップ",
+   "romaji": "hyaku-en shoppu",
+   "en": "100-yen shop",
+   "gloss": "100-yen shop",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "100円ショップ【ひゃくえんショップ】 100-yen shop",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_dorassugu",
+   "jp": "ドラッグストア",
+   "kana": "ドラッグストア",
+   "romaji": "doraggu sutoa",
+   "en": "drugstore",
+   "gloss": "drugstore",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "ドラッグストア【ドラッグストア】 drugstore",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ドラッグストア",
+     "matched": "【ドラッグストア】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "drugstore; pharmacy"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_depato",
+   "jp": "デパート",
+   "kana": "デパート",
+   "romaji": "depāto",
+   "en": "department store",
+   "gloss": "department store",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "デパート【デパート】 department store",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "デパート",
+     "matched": "【デパート】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "department store",
+      "department"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_homesenta",
+   "jp": "ホームセンター",
+   "kana": "ホームセンター",
+   "romaji": "hōmu sentā",
+   "en": "home improvement store",
+   "gloss": "home improvement store",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "ホームセンター【ホームセンター】 home improvement store",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ホームセンター",
+     "matched": "【ホームセンター】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "hardware store; DIY store; home improvement retailer",
+      "Hardware store"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_mooru",
+   "jp": "ショッピングモール",
+   "kana": "ショッピングモール",
+   "romaji": "shoppingu mōru",
+   "en": "shopping mall",
+   "gloss": "shopping mall",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "ショッピングモール【ショッピングモール】 shopping mall",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ショッピングモール",
+     "matched": "【ショッピングモール】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "shopping mall"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_shopsenta",
+   "jp": "ショッピングセンター",
+   "kana": "ショッピングセンター",
+   "romaji": "shoppingu sentā",
+   "en": "shopping center",
+   "gloss": "shopping center",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "ショッピングセンター【ショッピングセンター】 shopping center",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ショッピングセンター",
+     "matched": "【ショッピングセンター】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "shopping centre; shopping center; shopping mall",
+      "Shopping mall"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_num1",
+   "jp": "一",
+   "kana": "いち",
+   "romaji": "ichi",
+   "en": "1 (one)",
+   "gloss": "1",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L16",
+     "entry": "一【いち】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "1【いち】 one",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "一",
+     "matched": "一【いち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "one; 1",
+      "best",
+      "first; foremost",
+      "beginning; start"
+     ],
+     "pos": [
+      "Numeric",
+      "Prefix",
+      "Noun which may take the genitive case particle 'no'",
+      "Suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_num2",
+   "jp": "二",
+   "kana": "に",
+   "romaji": "ni",
+   "en": "2 (two)",
+   "gloss": "2",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L16",
+     "entry": "二【に】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "2【に】 two",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "二",
+     "matched": "二【に】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "two; 2"
+     ],
+     "pos": [
+      "Numeric"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_num3",
+   "jp": "三",
+   "kana": "さん",
+   "romaji": "san",
+   "en": "3 (three)",
+   "gloss": "3",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L16",
+     "entry": "三【さん】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "3【さん】 three",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "三",
+     "matched": "三【さん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "three; 3"
+     ],
+     "pos": [
+      "Numeric"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_num4",
+   "jp": "四",
+   "kana": "よん",
+   "romaji": "yon",
+   "en": "4 (four)",
+   "gloss": "4",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "note": "Clock times use よ: 4時 = よじ (Irodori L9). Also see 四条 in the Kyoto places.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L16",
+     "entry": "四【よん】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "4【よん】 four",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_num5",
+   "jp": "五",
+   "kana": "ご",
+   "romaji": "go",
+   "en": "5 (five)",
+   "gloss": "5",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L16",
+     "entry": "五【ご】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "5【ご】 five",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "五",
+     "matched": "五【ご】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "five; 5"
+     ],
+     "pos": [
+      "Numeric"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_num6",
+   "jp": "六",
+   "kana": "ろく",
+   "romaji": "roku",
+   "en": "6 (six)",
+   "gloss": "6",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L16",
+     "entry": "六【ろく】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "6【ろく】 six",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "六",
+     "matched": "六【ろく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "six; 6"
+     ],
+     "pos": [
+      "Numeric"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_num7",
+   "jp": "七",
+   "kana": "なな",
+   "romaji": "nana",
+   "en": "7 (seven)",
+   "gloss": "7",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "note": "Clock times use しち: 7時 = しちじ (Irodori L9).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L16",
+     "entry": "七【なな】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "7【なな】 seven",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_num8",
+   "jp": "八",
+   "kana": "はち",
+   "romaji": "hachi",
+   "en": "8 (eight)",
+   "gloss": "8",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L16",
+     "entry": "八【はち】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "8【はち】 eight",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "八",
+     "matched": "八【はち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "eight; 8"
+     ],
+     "pos": [
+      "Numeric"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_num9",
+   "jp": "九",
+   "kana": "きゅう",
+   "romaji": "kyū",
+   "en": "9 (nine)",
+   "gloss": "9",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "note": "Clock times use く: 9時 = くじ (Irodori L9).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L16",
+     "entry": "九【きゅう】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "9【きゅう】 nine",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "九",
+     "matched": "九【きゅう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "nine; 9"
+     ],
+     "pos": [
+      "Numeric"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_num10",
+   "jp": "十",
+   "kana": "じゅう",
+   "romaji": "jū",
+   "en": "10 (ten)",
+   "gloss": "10",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L16",
+     "entry": "十【じゅう】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "10【じゅう】 ten",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "十",
+     "matched": "十【じゅう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "ten; 10",
+      "ten years of age",
+      "book containing a collection of poems"
+     ],
+     "pos": [
+      "Numeric",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_hyaku",
+   "jp": "百",
+   "kana": "ひゃく",
+   "romaji": "hyaku",
+   "en": "100 (one hundred)",
+   "gloss": "100",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L17",
+     "entry": "百【ひゃく】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "100【ひゃく】 one hundred",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "百",
+     "matched": "百【ひゃく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "hundred; 100",
+      "Hyaku"
+     ],
+     "pos": [
+      "Numeric",
+      "Place"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_sen",
+   "jp": "千",
+   "kana": "せん",
+   "romaji": "sen",
+   "en": "1,000 (one thousand)",
+   "gloss": "1,000",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L17",
+     "entry": "千【せん】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "1000【せん】 one thousand",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "千",
+     "matched": "千【せん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "thousand; 1,000"
+     ],
+     "pos": [
+      "Numeric"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_man",
+   "jp": "万",
+   "kana": "まん",
+   "romaji": "man",
+   "en": "10,000 (ten thousand)",
+   "gloss": "10,000",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 漢字リスト（単漢字リスト）入門 L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/kanji_list.xlsx",
+     "lesson": "L17",
+     "entry": "万【まん】",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "万",
+     "matched": "万【まん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "10,000; ten thousand",
+      "myriad",
+      "everything; all",
+      "various"
+     ],
+     "pos": [
+      "Numeric",
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_1en",
+   "jp": "1円",
+   "kana": "いちえん",
+   "romaji": "ichi-en",
+   "en": "1 yen",
+   "gloss": "1 yen",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "w_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "1円【いちえん】 1 yen",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_5en",
+   "jp": "5円",
+   "kana": "ごえん",
+   "romaji": "go-en",
+   "en": "5 yen",
+   "gloss": "5 yen",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "w_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "5円【ごえん】 5 yen",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_10en",
+   "jp": "10円",
+   "kana": "じゅうえん",
+   "romaji": "jū-en",
+   "en": "10 yen",
+   "gloss": "10 yen",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "w_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "10円【じゅうえん】 10 yen",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_50en",
+   "jp": "50円",
+   "kana": "ごじゅうえん",
+   "romaji": "gojū-en",
+   "en": "50 yen",
+   "gloss": "50 yen",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "w_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "50円【ごじゅうえん】 50 yen",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_100en",
+   "jp": "100円",
+   "kana": "ひゃくえん",
+   "romaji": "hyaku-en",
+   "en": "100 yen",
+   "gloss": "100 yen",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "w_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "100円【ひゃくえん】 100 yen",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_500en",
+   "jp": "500円",
+   "kana": "ごひゃくえん",
+   "romaji": "gohyaku-en",
+   "en": "500 yen",
+   "gloss": "500 yen",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "w_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "500円【ごひゃくえん】 500 yen",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_1000en",
+   "jp": "1,000円",
+   "kana": "せんえん",
+   "romaji": "sen-en",
+   "en": "1,000 yen",
+   "gloss": "1,000 yen",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "w_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "1,000円【せんえん】 1,000 yen",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_10000en",
+   "jp": "10,000円",
+   "kana": "いちまんえん",
+   "romaji": "ichiman-en",
+   "en": "10,000 yen",
+   "gloss": "10,000 yen",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "w_en",
+     "rel": "price in yen"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "10,000円【いちまんえん】 10,000 yen",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_300",
+   "jp": "300",
+   "kana": "さんびゃく",
+   "romaji": "sanbyaku",
+   "en": "300 (irregular reading — learn as one chunk)",
+   "gloss": "300",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "g_hyaku",
+     "rel": "irregular sound change"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "300【さんびゃく】 three hundred",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_600",
+   "jp": "600",
+   "kana": "ろっぴゃく",
+   "romaji": "roppyaku",
+   "en": "600 (irregular reading — learn as one chunk)",
+   "gloss": "600",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "g_hyaku",
+     "rel": "irregular sound change"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "600【ろっぴゃく】 six hundred",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_800",
+   "jp": "800",
+   "kana": "はっぴゃく",
+   "romaji": "happyaku",
+   "en": "800 (irregular reading — learn as one chunk)",
+   "gloss": "800",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "g_hyaku",
+     "rel": "irregular sound change"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "800【はっぴゃく】 eight hundred",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_3000",
+   "jp": "3,000",
+   "kana": "さんぜん",
+   "romaji": "sanzen",
+   "en": "3,000 (irregular reading — learn as one chunk)",
+   "gloss": "3,000",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "g_sen",
+     "rel": "irregular sound change"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "3000【さんぜん】 three thousand",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_8000",
+   "jp": "8,000",
+   "kana": "はっせん",
+   "romaji": "hassen",
+   "en": "8,000 (irregular reading — learn as one chunk)",
+   "gloss": "8,000",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "g_sen",
+     "rel": "irregular sound change"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "8000【はっせん】 eight thousand",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_nijaribiki",
+   "jp": "二割引き",
+   "kana": "にわりびき",
+   "romaji": "ni-waribiki",
+   "en": "20% off (〜割引き = number × 10% off)",
+   "gloss": "20% off",
+   "pos": "sign",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "g_waribiki",
+     "rel": "a kind of 割引 (discount)"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "～割引  （二割引き）【～わりびき　（にわりびき）】 ～ × 10% off　(e.g. 20% off)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_pasento",
+   "jp": "〜％引",
+   "kana": "〜パーセントびき",
+   "romaji": "〜pāsento-biki",
+   "en": "~% off (e.g. 10%引 = 10% off)",
+   "gloss": "~% off",
+   "pos": "sign",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "g_waribiki",
+     "rel": "a kind of discount"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "～％引　（10％引）【～パーセントびき　（じゅっパーセントびき）】 ～ % off　(e.g. 10% off)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_enbiki",
+   "jp": "〜円引",
+   "kana": "〜えんびき",
+   "romaji": "〜en-biki",
+   "en": "~ yen off (e.g. 50円引 = 50 yen off)",
+   "gloss": "~ yen off",
+   "pos": "sign",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "g_waribiki",
+     "rel": "a kind of discount"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "～円引　（50円引）【～えんびき　（ごじゅうえんびき）】 ～ yen off　(e.g. 50 yen off)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_zeinuki",
+   "jp": "税抜",
+   "kana": "ぜいぬき",
+   "romaji": "zeinuki",
+   "en": "excluding tax",
+   "gloss": "excluding tax",
+   "pos": "sign",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "read",
+   "links": [
+    {
+     "id": "g_zeikomi",
+     "rel": "contrast: excl. tax vs incl. tax"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "税抜【ぜいぬき】 excluding tax",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "税抜",
+     "matched": "税抜【ぜいぬき】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "tax excluded; excluding tax"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_zenpin",
+   "jp": "全品",
+   "kana": "ぜんぴん",
+   "romaji": "zenpin",
+   "en": "all items",
+   "gloss": "all items",
+   "pos": "sign",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "全品【ぜんぴん】 all items",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L17",
+     "activity": 4,
+     "entry": "全品【ぜんぴん】 all items",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "全品",
+     "matched": "全品【ぜんぴん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "all goods"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_seeru",
+   "jp": "セール",
+   "kana": "セール",
+   "romaji": "sēru",
+   "en": "sale",
+   "gloss": "sale",
+   "pos": "sign",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "セール【セール】 sale",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "セール",
+     "matched": "【セール】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "sale",
+      "Sale (Australia); Sayle; Serre; Serres",
+      "Sale"
+     ],
+     "pos": [
+      "Noun",
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_pointo",
+   "jp": "ポイントサービス",
+   "kana": "ポイントサービス",
+   "romaji": "pointo sābisu",
+   "en": "reward points",
+   "gloss": "reward points",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "ポイントサービス【ポイントサービス】 reward points",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ポイントサービス",
+     "matched": "【ポイントサービス】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "loyalty program; rewards program"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_kinitsu",
+   "jp": "〜円均一",
+   "kana": "〜えんきんいつ",
+   "romaji": "〜en kin'itsu",
+   "en": "everything at ~ yen (e.g. 50円均一)",
+   "gloss": "everything at ~ yen",
+   "pos": "sign",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "～円均一　（50円均一）【～えんきんいつ　（ごじゅうえんきんいつ）】 everything at ～ yen　(e.g. everything at 50 yen)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_sutoroo",
+   "jp": "ストロー",
+   "kana": "ストロー",
+   "romaji": "sutorō",
+   "en": "straw",
+   "gloss": "straw",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "ストロー【ストロー】 straw",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ストロー",
+     "matched": "【ストロー】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "drinking straw",
+      "straw",
+      "Drinking straw"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_kurejitto",
+   "jp": "クレジットカード",
+   "kana": "クレジットカード",
+   "romaji": "kurejitto kādo",
+   "en": "credit card",
+   "gloss": "credit card",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "クレジットカード【クレジットカード】 credit card",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "クレジットカード",
+     "matched": "【クレジットカード】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "credit card",
+      "Credit card"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_suica",
+   "jp": "Suica",
+   "kana": "スイカ",
+   "romaji": "suika",
+   "en": "Suica (a pre-paid card for fares and shopping)",
+   "gloss": "Suica",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 3,
+   "use": "read",
+   "note": "Brand name written in Latin letters; taught for reading (signs such as payment-method stickers).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "Suica【スイカ】 Suica (a pre-paid card used to pay transportation fees, such as train and bus fares, and for shopping)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_paypay",
+   "jp": "PayPay",
+   "kana": "ペイペイ",
+   "romaji": "peipei",
+   "en": "PayPay (QR-code electronic payment)",
+   "gloss": "PayPay",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 3,
+   "use": "read",
+   "note": "Brand name written in Latin letters; taught for reading (signs such as payment-method stickers).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "PayPay【ペイペイ】 PayPay (QR-code-based electronic payment method)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_tacchi",
+   "jp": "タッチする",
+   "kana": "タッチする",
+   "romaji": "tacchi suru",
+   "en": "to tap / touch (a card)",
+   "gloss": "to tap / touch (a card)",
+   "pos": "verb",
+   "topic": "konbini",
+   "tier": 3,
+   "use": "say",
+   "verb_class": "suru",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "タッチする／タッチします【タッチする／タッチします】 to tap / touch",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "タッチする",
+     "matched": "【タッチ】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "touch; touching",
+      "being involved in",
+      "touch (of a painter, pianist, etc.); style (of writing, drawing, etc.); feel",
+      "tag"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Place"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_shokuhin",
+   "jp": "食品",
+   "kana": "しょくひん",
+   "romaji": "shokuhin",
+   "en": "food (floor-guide / shelf label)",
+   "gloss": "food",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "g_shokuryohin",
+     "rel": "related label"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "食品【しょくひん】 food",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "食品",
+     "matched": "食品【しょくひん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "food; food products; foodstuffs",
+      "Food"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_shokuryohin",
+   "jp": "食料品",
+   "kana": "しょくりょうひん",
+   "romaji": "shokuryōhin",
+   "en": "food products",
+   "gloss": "food products",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "g_shokuhin",
+     "rel": "related label"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "食料品【しょくりょうひん】 food products",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "食料品",
+     "matched": "食料品【しょくりょうひん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "foodstuff; groceries"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_seikatsu",
+   "jp": "生活用品",
+   "kana": "せいかつようひん",
+   "romaji": "seikatsu yōhin",
+   "en": "daily necessities",
+   "gloss": "daily necessities",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "生活用品【せいかつようひん】 daily necessities",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "生活用品",
+     "matched": "生活用品【せいかつようひん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "daily supplies; daily necessities; household items; housewares"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_kaden",
+   "jp": "家電",
+   "kana": "かでん",
+   "romaji": "kaden",
+   "en": "household appliances",
+   "gloss": "household appliances",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "家電【かでん】 household appliances",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "家電",
+     "matched": "家電【かでん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "household (electrical) appliances; home appliances; consumer electronics"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_bunboogu",
+   "jp": "文房具",
+   "kana": "ぶんぼうぐ",
+   "romaji": "bunbōgu",
+   "en": "stationery",
+   "gloss": "stationery",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "文房具【ぶんぼうぐ】 stationery",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "文房具",
+     "matched": "文房具【ぶんぼうぐ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "stationery",
+      "Stationery"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_zakka",
+   "jp": "雑貨",
+   "kana": "ざっか",
+   "romaji": "zakka",
+   "en": "sundry goods",
+   "gloss": "sundry goods",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "雑貨【ざっか】 sundry goods",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "雑貨",
+     "matched": "雑貨【ざっか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "miscellaneous goods; general goods; sundries"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_kagu",
+   "jp": "家具",
+   "kana": "かぐ",
+   "romaji": "kagu",
+   "en": "furniture",
+   "gloss": "furniture",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "家具【かぐ】 furniture",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "家具",
+     "matched": "家具【かぐ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "furniture",
+      "Furniture"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_keshohin",
+   "jp": "化粧品",
+   "kana": "けしょうひん",
+   "romaji": "keshōhin",
+   "en": "cosmetics",
+   "gloss": "cosmetics",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "化粧品【けしょうひん】 cosmetics",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "化粧品",
+     "matched": "化粧品【けしょうひん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "cosmetics; beauty products; toiletries; makeup",
+      "Cosmetics"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_sake",
+   "jp": "酒",
+   "kana": "さけ",
+   "romaji": "sake",
+   "en": "liquor",
+   "gloss": "liquor",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "read",
+   "links": [
+    {
+     "id": "g_tabako",
+     "rel": "shop signs list 酒 and たばこ"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "酒【さけ】 liquor",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "酒【さけ】 liquor",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "酒",
+     "matched": "酒【さけ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "alcohol; sake",
+      "Alcoholic beverage"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_tabako",
+   "jp": "たばこ",
+   "kana": "たばこ",
+   "romaji": "tabako",
+   "en": "tobacco / cigarette",
+   "gloss": "tobacco",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "shop_item"
+   ],
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "s_kinen",
+     "rel": "related: no smoking"
+    },
+    {
+     "id": "g_sake",
+     "rel": "shop signs list たばこ and 酒"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "たばこ【たばこ】 tobacco / cigarette",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "たばこ",
+     "matched": "煙草【タバコ】 (written in kana: たばこ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "tobacco; cigarette; cigar",
+      "tobacco plant (Nicotiana tabacum)",
+      "Tabaco",
+      "Tobacco"
+     ],
+     "pos": [
+      "Noun",
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_hikiniku",
+   "jp": "ひき肉",
+   "kana": "ひきにく",
+   "romaji": "hikiniku",
+   "en": "minced meat",
+   "gloss": "minced meat",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 2,
+   "use": "say",
+   "links": [
+    {
+     "id": "w_niku",
+     "rel": "contains 肉"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 3,
+     "entry": "ひき肉【ひきにく】 minced meat",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ひき肉",
+     "matched": "ひき肉【ひきにく】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "minced meat; ground meat",
+      "Ground meat"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_konbu",
+   "jp": "昆布",
+   "kana": "こんぶ",
+   "romaji": "konbu",
+   "en": "kombu (kelp)",
+   "gloss": "kombu",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 3,
+     "entry": "昆布【こんぶ】 kombu (kelp)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "昆布",
+     "matched": "昆布【こんぶ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "kombu (usu. Saccharina japonica); konbu; kelp; any edible species from the family Laminariaceae",
+      "Kombu"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_tarako",
+   "jp": "たらこ",
+   "kana": "たらこ",
+   "romaji": "tarako",
+   "en": "tarako (cod roe)",
+   "gloss": "tarako",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 3,
+     "entry": "たらこ【たらこ】 tarako (cod roe)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "たらこ",
+     "matched": "【たらこ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "Tarako (food)"
+     ],
+     "pos": [
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_korokke",
+   "jp": "コロッケ",
+   "kana": "コロッケ",
+   "romaji": "korokke",
+   "en": "korokke (deep-fried side dish similar to croquettes)",
+   "gloss": "korokke",
+   "pos": "noun",
+   "topic": "konbini",
+   "tags": [
+    "food",
+    "shop_item"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 3,
+     "entry": "コロッケ【コロッケ】 korokke (deep-fried side dish similar to croquettes)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "コロッケ",
+     "matched": "【コロッケ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "croquette",
+      "Korokke"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_ko",
+   "jp": "〜個",
+   "kana": "〜こ",
+   "romaji": "〜ko",
+   "en": "~ items (counter for pieces)",
+   "gloss": "~ items (counter for pieces)",
+   "pos": "counter",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "note": "Irregular: 1個 いっこ, 6個 ろっこ, 8個 はちこ/はっこ, 10個 じゅっこ.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 3,
+     "entry": "～個【～こ】 ～ items",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_nanko",
+   "jp": "何個",
+   "kana": "なんこ",
+   "romaji": "nan-ko",
+   "en": "how many (items)",
+   "gloss": "how many (items)",
+   "pos": "question",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 3,
+     "entry": "何個【なんこ】 how many (items)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何個",
+     "matched": "何個【なんこ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "how many pieces"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_ikutsu",
+   "jp": "いくつ",
+   "kana": "いくつ",
+   "romaji": "ikutsu",
+   "en": "how many (asking quantity)",
+   "gloss": "how many (asking quantity)",
+   "pos": "question",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "いくつ【いくつ】 how many (asking quantity)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いくつ",
+     "matched": "幾つ【いくつ】 (written in kana: いくつ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "how many",
+      "how old"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_arigato_mashita",
+   "jp": "ありがとうございました",
+   "kana": "ありがとうございました",
+   "romaji": "arigatō gozaimashita",
+   "en": "Thank you very much. (said at the end, e.g. after paying)",
+   "gloss": "Thank you very much. (said at the end, e.g. after paying)",
+   "pos": "expression",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "links": [
+    {
+     "id": "t_arigato",
+     "rel": "same thanks, past form"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "ありがとうございました【ありがとうございました】 Thank you very much. (used to say thank you at the end)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_hai_onegai",
+   "jp": "はい、お願いします",
+   "kana": "はい、おねがいします",
+   "romaji": "hai, onegai shimasu",
+   "en": "Yes, please.",
+   "gloss": "Yes, please.",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "When staff offer something you do want.",
+   "links": [
+    {
+     "id": "t_ie_kekko",
+     "rel": "contrast: Yes, please / No, thank you"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "はい、お願いします【はい、おねがいします】 Yes, please.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_ie_kekko",
+   "jp": "いえ、けっこうです",
+   "kana": "いえ、けっこうです",
+   "romaji": "ie, kekkō desu",
+   "en": "No, thank you.",
+   "gloss": "No, thank you.",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "When staff offer something you do not want.",
+   "links": [
+    {
+     "id": "t_hai_onegai",
+     "rel": "contrast: No, thank you / Yes, please"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "いえ、けっこうです【いえ、けっこうです】 No, thank you.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_kashikomari",
+   "jp": "かしこまりました",
+   "kana": "かしこまりました",
+   "romaji": "kashikomarimashita",
+   "en": "Certainly. (polite expression)",
+   "gloss": "Certainly. (polite expression)",
+   "pos": "expression",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Listening practice: Staff acknowledging your request.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 3,
+     "entry": "かしこまりました【かしこまりました】 Certainly. (polite expression)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_otsugi",
+   "jp": "お次の方",
+   "kana": "おつぎのかた",
+   "romaji": "otsugi no kata",
+   "en": "Next, please. (polite expression)",
+   "gloss": "Next, please. (polite expression)",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 3,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Listening practice: Cashier calling the next customer.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "お次の方【おつぎのかた】 Next, please. (polite expression)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_okaikei_narimasu",
+   "jp": "お会計、〜になります",
+   "kana": "おかいけい、〜になります",
+   "romaji": "okaikei, 〜 ni narimasu",
+   "en": "The total amount is ~. (polite expression)",
+   "gloss": "The total amount is ~. (polite expression)",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Listening practice: Cashier telling you the total.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "お会計、～になります【おかいけい、～になります】 The total amount is ～. (polite expression)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_otsuke",
+   "jp": "おつけしますか？",
+   "kana": "おつけしますか？",
+   "romaji": "otsuke shimasu ka?",
+   "en": "Shall I add ~? (polite expression)",
+   "gloss": "Shall I add ~? (polite expression)",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 3,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Listening practice: Staff offering e.g. chopsticks or a straw.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "おつけしますか？【おつけしますか？】 Shall I add ～ ? (polite expression)",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_tacchi_shite",
+   "jp": "タッチしてください",
+   "kana": "タッチしてください",
+   "romaji": "tacchi shite kudasai",
+   "en": "Tap your card here please.",
+   "gloss": "Tap your card here please.",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "say_when": "Listening practice: Cashier asking you to pay by IC card.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "タッチしてください【タッチしてください】 Tap your card here please.",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "t_atatame",
+   "jp": "こちら、温めますか？",
+   "kana": "こちら、あたためますか？",
+   "romaji": "kochira, atatame masu ka?",
+   "en": "Shall I warm this up?",
+   "gloss": "Shall I warm this up?",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Listening practice: convenience-store staff about a bento or snack.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L16",
+     "quote": "4. こちら、温めますか？ (activity heading)",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2806584,
+     "url": "https://tatoeba.org/en/sentences/show/2806584",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "「こちら温めますか？」「いえ、結構です」",
+     "translation": "\"Shall I heat this up?\" \"No thank you, it's fine.\""
+    }
+   ]
+  },
+  {
+   "id": "k_ryoushuusho",
+   "jp": "領収書",
+   "kana": "りょうしゅうしょ",
+   "romaji": "ryōshūsho",
+   "en": "receipt (formal, e.g. for expenses)",
+   "gloss": "receipt",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "領収書をください。",
+     "en": "Please give me a receipt.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13714023,
+      "url": "https://tatoeba.org/en/sentences/show/13714023",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "領収書をください。",
+      "translation": "Please give me a receipt."
+     }
+    },
+    {
+     "jp": "領収書は必要ないです。",
+     "en": "I don't need a receipt.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12024148,
+      "url": "https://tatoeba.org/en/sentences/show/12024148",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "領収書は必要ないです。",
+      "translation": "I don't need a receipt."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "領収書",
+     "matched": "領収書【りょうしゅうしょ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "formal receipt (of payment; oft. hand-written)",
+      "Receipt"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_reshiito",
+     "rel": "contrast: 領収書 = formal receipt (JMdict: often hand-written, e.g. for expenses); レシート = the printed till receipt"
+    }
+   ]
+  },
+  {
+   "id": "k_otsuri",
+   "jp": "お釣り",
+   "kana": "おつり",
+   "romaji": "otsuri",
+   "en": "change (money returned)",
+   "gloss": "change",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "お釣りは結構です。",
+     "en": "Keep the change.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9314777,
+      "url": "https://tatoeba.org/en/sentences/show/9314777",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "お釣りは結構です。",
+      "translation": "Keep the change."
+     }
+    },
+    {
+     "jp": "ごめん、お釣りが無い。",
+     "en": "I'm sorry, I don't have change.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5335,
+      "url": "https://tatoeba.org/en/sentences/show/5335",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ごめん、お釣りが無い。",
+      "translation": "I'm sorry, I don't have change."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お釣り",
+     "matched": "お釣り【おつり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "change (for a purchase)",
+      "toilet splashback"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "k_pointokaado",
+   "jp": "ポイントカード",
+   "kana": "ポイントカード",
+   "romaji": "pointokādo",
+   "en": "point card; loyalty card",
+   "gloss": "point card",
+   "pos": "noun",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "ポイントカードはお持ちですか？",
+     "en": "Do you have a points card?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3515218,
+      "url": "https://tatoeba.org/en/sentences/show/3515218",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "ポイントカードはお持ちですか？",
+      "translation": "Do you have a points card?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 2,
+     "entry": "ポイントカード【ポイントカード】 point card",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ポイントカード",
+     "matched": "【ポイントカード】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "point card; loyalty card; reward card"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "k_x_ryoushuusho_kudasai",
+   "jp": "領収書をください",
+   "kana": "りょうしゅうしょをください",
+   "romaji": "ryōshūshookudasai",
+   "en": "Please give me a receipt.",
+   "gloss": "Please give me a receipt.",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 13714023,
+     "url": "https://tatoeba.org/en/sentences/show/13714023",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "領収書をください。",
+     "translation": "Please give me a receipt."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "領収書",
+     "matched": "領収書【りょうしゅうしょ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "formal receipt (of payment; oft. hand-written)",
+      "Receipt"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "k_x_otsuri_desu",
+   "jp": "はい、おつりです",
+   "kana": "はい、おつりです",
+   "romaji": "hai, otsuridesu",
+   "en": "Here's your change.",
+   "gloss": "Here's your change.",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 138760,
+     "url": "https://tatoeba.org/en/sentences/show/138760",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "はい、おつりです。",
+     "translation": "Here's your change."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お釣り",
+     "matched": "お釣り【おつり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "change (for a purchase)",
+      "toilet splashback"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "k_x_pointokaado",
+   "jp": "ポイントカードはお持ちですか",
+   "kana": "ポイントカードはおもちですか",
+   "romaji": "pointokādohaomochidesuka",
+   "en": "Do you have a points card?",
+   "gloss": "Do you have a points card?",
+   "pos": "phrase",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "hear",
+   "register": "honorific",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 3515218,
+     "url": "https://tatoeba.org/en/sentences/show/3515218",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "ポイントカードはお持ちですか？",
+     "translation": "Do you have a points card?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ポイントカード",
+     "matched": "【ポイントカード】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "point card; loyalty card; reward card"
+     ],
+     "pos": [
+      "Noun"
      ],
      "checked": "2026-10-22"
     }

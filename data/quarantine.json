@@ -16,17 +16,6 @@
   },
   {
    "domain": "places",
-   "id": "p_kawaramachi",
-   "jp": "河原町",
-   "kana": "かわらまち",
-   "romaji": "Kawaramachi",
-   "en": "Kawaramachi (central Kyoto shopping area)",
-   "tier": 2,
-   "quarantine_reason": "Generic dictionary 河原町 gives reading かわはらちょう (a place in Tottori), NOT the Kyoto reading かわらまち. Needs an official Kyoto/transit source before promotion — do not guess the reading.",
-   "from_pack": "pack_places.json"
-  },
-  {
-   "domain": "places",
    "id": "p_gion",
    "jp": "祇園",
    "kana": "ぎおん",
@@ -202,6 +191,137 @@
    "register": "honorific",
    "gloss": "is it for here, or to go?",
    "quarantine_reason": "Legacy long phrase ここで召し上がりますか、それともお持ち帰りですか: no exact Tatoeba sentence found (also tried こちらでお召し上がりですか / 店内でお召し上がりですか, checked 2026-10-22). The legacy source was an indirect citation via japandict.com. Replaced in lessons by x_omochikaeri_desuka (お持ち帰りですか, Tatoeba 227101)."
+  },
+  {
+   "id": "g_hyojikakaku",
+   "jp": "表示価格",
+   "kana": "ひょうじかかく",
+   "romaji": "hyōji kakaku",
+   "en": "list price (the price shown)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L16 §5 割引表示 — checked 2026-10-22"
+   ],
+   "domain": "grocery",
+   "quarantine_reason": "表示価格 on its own is not in the Irodori list (入門 L16 §5 has only 表示価格より \"from the list price\") and has no exact JMdict entry. Needs a source for the compound.",
+   "from_pack": "origin/master:data/pack_grocery.json"
+  },
+  {
+   "id": "t_yoku_wakarimasen",
+   "jp": "よくわかりません",
+   "kana": "よくわかりません",
+   "romaji": "yoku wakarimasen",
+   "en": "I don't really understand.",
+   "tier": 1,
+   "status": "verified",
+   "sources": [
+    "Japan Foundation 『いろどり』入門 ことばリスト (irodori.jpf.go.jp/assets/data/wordlist_X.pdf), L2 §1 (よく = (not) really; わかりません = I do not understand.) — checked 2026-10-22",
+    "Japan Foundation 『いろどり』入門 Can-doチェック (irodori.jpf.go.jp/assets/data/starter/pdf/X_candocheck.pdf) — checked 2026-10-22"
+   ],
+   "kind": "phrase",
+   "say_when": "You only caught part of what was said.",
+   "domain": "talk",
+   "quarantine_reason": "No exact usage evidence: Irodori lists よく \"(not) really\" and わかりません separately (入門 L2 §1), not the phrase; Tatoeba has no stand-alone sentence. Covered by 分かりません (x_wakarimasen).",
+   "from_pack": "origin/master:data/pack_talk.json"
+  },
+  {
+   "id": "p_hachijo",
+   "jp": "八条",
+   "kana": "はちじょう",
+   "romaji": "Hachijō",
+   "en": "Hachijō (street name 八条通 = Hachijō St.)",
+   "tier": 3,
+   "links": [
+    {
+     "id": "p_shijo",
+     "rel": "same pattern: number + 条"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 八条通 = 'Hachijo St.' — checked 2026-10-22"
+   ],
+   "domain": "places",
+   "quarantine_reason": "Street name only. The cited kyoto.travel visitor-map PDF (travel_simplemap_en.pdf) no longer resolves (404), JMdict has no entry with this reading for the Kyoto street, and no station list with this name was found. Needs an official Kyoto source before promotion.",
+   "from_pack": "origin/master:data/pack_places.json"
+  },
+  {
+   "id": "p_horikawa",
+   "jp": "堀川",
+   "kana": "ほりかわ",
+   "romaji": "Horikawa",
+   "en": "Horikawa (street name 堀川通 = Horikawa St.)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 堀川通 = 'Horikawa St.' — checked 2026-10-22"
+   ],
+   "domain": "places",
+   "quarantine_reason": "Street name only. The cited kyoto.travel visitor-map PDF (travel_simplemap_en.pdf) no longer resolves (404), JMdict has no entry with this reading for the Kyoto street, and no station list with this name was found. Needs an official Kyoto source before promotion.",
+   "from_pack": "origin/master:data/pack_places.json"
+  },
+  {
+   "id": "p_senbon",
+   "jp": "千本",
+   "kana": "せんぼん",
+   "romaji": "Senbon",
+   "en": "Senbon (street name 千本通 = Senbon St.)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 千本通 = 'Senbon St.' — checked 2026-10-22"
+   ],
+   "domain": "places",
+   "quarantine_reason": "Street name only. The cited kyoto.travel visitor-map PDF (travel_simplemap_en.pdf) no longer resolves (404), JMdict has no entry with this reading for the Kyoto street, and no station list with this name was found. Needs an official Kyoto source before promotion.",
+   "from_pack": "origin/master:data/pack_places.json"
+  },
+  {
+   "id": "p_kawabata",
+   "jp": "川端",
+   "kana": "かわばた",
+   "romaji": "Kawabata",
+   "en": "Kawabata (street name 川端通 = Kawabata St.)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 川端通 = 'Kawabata St.' — checked 2026-10-22"
+   ],
+   "domain": "places",
+   "quarantine_reason": "Street name only. The cited kyoto.travel visitor-map PDF (travel_simplemap_en.pdf) no longer resolves (404), JMdict has no entry with this reading for the Kyoto street, and no station list with this name was found. Needs an official Kyoto source before promotion.",
+   "from_pack": "origin/master:data/pack_places.json"
+  },
+  {
+   "id": "p_shirakawa",
+   "jp": "白川",
+   "kana": "しらかわ",
+   "romaji": "Shirakawa",
+   "en": "Shirakawa (street name 白川通 = Shirakawa St.)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "Kyoto City Tourism Association/Convention Bureau (kyoto.travel) visitor map PDF (travel_simplemap_en.pdf), street labels — 白川通 = 'Shirakawa St.' — checked 2026-10-22"
+   ],
+   "domain": "places",
+   "quarantine_reason": "Street name only. The cited kyoto.travel visitor-map PDF (travel_simplemap_en.pdf) no longer resolves (404), JMdict has no entry with this reading for the Kyoto street, and no station list with this name was found. Needs an official Kyoto source before promotion.",
+   "from_pack": "origin/master:data/pack_places.json"
+  },
+  {
+   "id": "d_shitei",
+   "jp": "指定方向外進行禁止",
+   "kana": "していほうこうがいしんこうきんし",
+   "romaji": "shitei hōkō-gai shinkō kinshi",
+   "en": "proceed only in the designated direction(s)",
+   "tier": 3,
+   "status": "verified",
+   "sources": [
+    "MLIT road-sign list (skr.mlit.go.jp/road/hyousiki/h_annai/roadsign/files/dourohyousikiichiran.pdf), sign (311) 指定方向外進行禁止 — checked 2026-10-22",
+    "Koriyama City (Fukushima) traffic-sign leaflet with furigana (city.koriyama.lg.jp/uploaded/attachment/2939.pdf) — reading checked 2026-10-22",
+    "Tokyo Univ. of Marine Science and Technology multilingual traffic-sign list (kaiyodai.ac.jp) — English wording checked 2026-10-22"
+   ],
+   "domain": "drive",
+   "quarantine_reason": "Sign name confirmed in the MLIT sign list (311-F 指定方向外進行禁止), but no furigana source for the full reading was found (the Koriyama leaflet does not include this sign; 外 could be がい or そと). Needs a reading source.",
+   "from_pack": "origin/master:data/pack_drive.json"
   }
  ]
 }

@@ -1736,6 +1736,396 @@
      "checked": "2026-10-22"
     }
    ]
+  },
+  {
+   "id": "s_kai",
+   "jp": "〜階",
+   "kana": "〜かい",
+   "romaji": "〜kai",
+   "en": "~ floor (storey)",
+   "gloss": "~ floor (storey)",
+   "pos": "counter",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "note": "Irregular readings: 1階 いっかい, 3階 さんかい/さんがい, 6階 ろっかい, 8階 はちかい/はっかい, 10階 じゅっかい.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "～階【～かい】 ～ floor",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kai1",
+   "jp": "1階",
+   "kana": "いっかい",
+   "romaji": "ikkai",
+   "en": "1st floor",
+   "gloss": "1st floor",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "1階【いっかい】 first floor",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kai2",
+   "jp": "2階",
+   "kana": "にかい",
+   "romaji": "nikai",
+   "en": "2nd floor",
+   "gloss": "2nd floor",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "2階【にかい】 second floor",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kai3",
+   "jp": "3階",
+   "kana": "さんがい",
+   "romaji": "sangai",
+   "en": "3rd floor",
+   "gloss": "3rd floor",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "accept": [
+    "さんかい"
+   ],
+   "note": "Irodori gives both さんかい and さんがい; both are accepted.",
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "3階【さんかい／さんがい】 third floor",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kai4",
+   "jp": "4階",
+   "kana": "よんかい",
+   "romaji": "yonkai",
+   "en": "4th floor",
+   "gloss": "4th floor",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "4階【よんかい】 fourth floor",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kai5",
+   "jp": "5階",
+   "kana": "ごかい",
+   "romaji": "gokai",
+   "en": "5th floor",
+   "gloss": "5th floor",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "5階【ごかい】 fifth floor",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kai6",
+   "jp": "6階",
+   "kana": "ろっかい",
+   "romaji": "rokkai",
+   "en": "6th floor",
+   "gloss": "6th floor",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "6階【ろっかい】 sixth floor",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kai7",
+   "jp": "7階",
+   "kana": "ななかい",
+   "romaji": "nanakai",
+   "en": "7th floor",
+   "gloss": "7th floor",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 3,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "7階【ななかい】 seventh floor",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kai8",
+   "jp": "8階",
+   "kana": "はちかい",
+   "romaji": "hachikai",
+   "en": "8th floor",
+   "gloss": "8th floor",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 3,
+   "use": "say",
+   "tts": "kana",
+   "accept": [
+    "はっかい"
+   ],
+   "note": "Irodori gives both はちかい and はっかい; both are accepted.",
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "8階【はちかい／はっかい】 eighth floor",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kai9",
+   "jp": "9階",
+   "kana": "きゅうかい",
+   "romaji": "kyūkai",
+   "en": "9th floor",
+   "gloss": "9th floor",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 3,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "9階【きゅうかい】 ninth floor",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "s_kai10",
+   "jp": "10階",
+   "kana": "じゅっかい",
+   "romaji": "jukkai",
+   "en": "10th floor",
+   "gloss": "10th floor",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 3,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "s_kai",
+     "rel": "number + 階"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "10階【じゅっかい】 tenth floor",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_toori",
+   "jp": "通り",
+   "kana": "とおり",
+   "romaji": "tōri",
+   "en": "street",
+   "gloss": "street",
+   "pos": "noun",
+   "topic": "directions",
+   "tier": 2,
+   "use": "say",
+   "note": "Kyoto street names on the official visitor map end in 通 (shown as 'St.', e.g. 四条通 = Shijō St.).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "通り【とおり】 street",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "通り",
+     "matched": "通り【とおり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "street; road; avenue; thoroughfare",
+      "traffic; coming and going",
+      "flow (of water, air, etc.); passage; running",
+      "transmission (of sound); reach (of voice)"
+     ],
+     "pos": [
+      "Noun",
+      "Counter",
+      "Place"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
   }
  ]
 }

@@ -440,6 +440,576 @@
      "checked": "2026-10-22"
     }
    ]
+  },
+  {
+   "id": "p_tokyo",
+   "jp": "東京",
+   "kana": "とうきょう",
+   "romaji": "Tōkyō",
+   "en": "Tokyo",
+   "gloss": "Tokyo",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 3,
+     "entry": "東京【とうきょう】 Tokyo",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "東京",
+     "matched": "東京【とうきょう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Tokyo"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_jinja",
+   "jp": "神社",
+   "kana": "じんじゃ",
+   "romaji": "jinja",
+   "en": "shrine",
+   "gloss": "shrine",
+   "pos": "noun",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "links": [
+    {
+     "id": "p_otera",
+     "rel": "pair: shrine / temple"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "神社【じんじゃ】 shrine",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "神社",
+     "matched": "神社【じんじゃ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "Shinto shrine",
+      "Shinto shrine"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_otera",
+   "jp": "お寺",
+   "kana": "おてら",
+   "romaji": "otera",
+   "en": "temple",
+   "gloss": "temple",
+   "pos": "noun",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "links": [
+    {
+     "id": "p_jinja",
+     "rel": "pair: temple / shrine"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 4,
+     "entry": "お寺【おてら】 temple",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "お寺【おてら】 temple",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お寺",
+     "matched": "お寺【おてら】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "temple",
+      "monk"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_koen",
+   "jp": "公園",
+   "kana": "こうえん",
+   "romaji": "kōen",
+   "en": "park",
+   "gloss": "park",
+   "pos": "noun",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 4,
+     "entry": "公園【こうえん】 park",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "公園【こうえん】 park",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "公園",
+     "matched": "公園【こうえん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "(public) park",
+      "Park"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_kuko",
+   "jp": "空港",
+   "kana": "くうこう",
+   "romaji": "kūkō",
+   "en": "airport",
+   "gloss": "airport",
+   "pos": "noun",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 1,
+     "entry": "空港【くうこう】 airport",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "空港",
+     "matched": "空港【くうこう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "airport",
+      "Airport"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_gakko",
+   "jp": "学校",
+   "kana": "がっこう",
+   "romaji": "gakkō",
+   "en": "school",
+   "gloss": "school",
+   "pos": "noun",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 4,
+     "entry": "学校【がっこう】 school",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "学校",
+     "matched": "学校【がっこう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "school",
+      "Gakkou",
+      "School"
+     ],
+     "pos": [
+      "Noun",
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_shotengai",
+   "jp": "商店街",
+   "kana": "しょうてんがい",
+   "romaji": "shōtengai",
+   "en": "shopping street",
+   "gloss": "shopping street",
+   "pos": "noun",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "商店街【しょうてんがい】 shopping street",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "商店街",
+     "matched": "商店街【しょうてんがい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "shopping district; shopping street; downtown",
+      "Commercial district"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_kawaramachi",
+   "jp": "河原町",
+   "kana": "かわらまち",
+   "romaji": "Kawaramachi",
+   "en": "Kawaramachi (central Kyoto street; Hankyu terminus 京都河原町)",
+   "gloss": "Kawaramachi",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "p_shijo",
+     "rel": "crosses 四条 in the shopping centre"
+    },
+    {
+     "id": "p_karasuma",
+     "rel": "neighbouring major street"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Mapion station list — 阪急京都本線",
+     "url": "https://www.mapion.co.jp/station/ROP052007/",
+     "quote": "京都河原町駅（きょうとかわらまちえき）",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_karasuma",
+   "jp": "烏丸",
+   "kana": "からすま",
+   "romaji": "Karasuma",
+   "en": "Karasuma (central Kyoto street; Hankyu station 烏丸)",
+   "gloss": "Karasuma",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "p_karasuma_oike",
+     "rel": "烏丸 + 御池 = Karasuma-Oike"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Mapion station list — 阪急京都本線",
+     "url": "https://www.mapion.co.jp/station/ROP052007/",
+     "quote": "烏丸駅（からすまえき）",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_oike",
+   "jp": "御池",
+   "kana": "おいけ",
+   "romaji": "Oike",
+   "en": "Oike (central Kyoto street, as in 烏丸御池 and 西大路御池)",
+   "gloss": "Oike",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "links": [
+    {
+     "id": "p_karasuma_oike",
+     "rel": "烏丸 + 御池 = Karasuma-Oike"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Mapion station list — 京都市営地下鉄東西線",
+     "url": "https://www.mapion.co.jp/station/ROP035002/",
+     "quote": "烏丸御池駅（からすまおいけえき） / 西大路御池駅（にしおおじおいけえき）",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_sanjo",
+   "jp": "三条",
+   "kana": "さんじょう",
+   "romaji": "Sanjō",
+   "en": "Sanjō (central Kyoto street; Keihan station 三条)",
+   "gloss": "Sanjō",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "note": "Kana follows the official romanisation 'Sanjo' plus the verified number+条 pattern (四条 しじょう, 五条 ごじょう).",
+   "links": [
+    {
+     "id": "p_shijo",
+     "rel": "same pattern: number + 条"
+    },
+    {
+     "id": "p_gojo",
+     "rel": "same pattern: number + 条"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Mapion station list — 京阪本線",
+     "url": "https://www.mapion.co.jp/station/ROP033002/",
+     "quote": "三条駅（さんじょうえき）",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_shichijo",
+   "jp": "七条",
+   "kana": "しちじょう",
+   "romaji": "Shichijō",
+   "en": "Shichijō (Kyoto street; Keihan station 七条)",
+   "gloss": "Shichijō",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "tts": "kana",
+   "note": "七 reads しち here (official romanisation 'Shichijo').",
+   "links": [
+    {
+     "id": "p_shijo",
+     "rel": "same pattern: number + 条"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Mapion station list — 京阪本線",
+     "url": "https://www.mapion.co.jp/station/ROP033002/",
+     "quote": "七条駅（しちじょうえき）",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_kitayama",
+   "jp": "北山",
+   "kana": "きたやま",
+   "romaji": "Kitayama",
+   "en": "Kitayama (Kyoto street; Karasuma Line station 北山)",
+   "gloss": "Kitayama",
+   "pos": "place",
+   "topic": "places",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 3,
+   "use": "say",
+   "tts": "kana",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Mapion station list — 京都市営地下鉄烏丸線",
+     "url": "https://www.mapion.co.jp/station/ROP035001/",
+     "quote": "北山駅（きたやまえき）",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "北山",
+     "matched": "北山【きたやま】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "northern mountains; mountains to the north"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
   }
  ]
 }
