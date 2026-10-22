@@ -20,14 +20,14 @@
 (function () {
   'use strict';
   const ENG = window.MichiEngine, CUR = window.MichiCurriculum, CAL = window.MichiCalendar, CJ = window.MichiConjugate;
-  const X = window.MichiExercises, PR = window.MichiProgress, SP = window.MichiSpeech, SRS = window.MichiSRS, PL = window.MichiPlanner, K = window.MichiKana;
+  const KJ = window.MichiKanji, X = window.MichiExercises, PR = window.MichiProgress, SP = window.MichiSpeech, SRS = window.MichiSRS, PL = window.MichiPlanner, K = window.MichiKana;
   const $app = document.getElementById('app');
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const pct = (n, d) => d ? Math.round(100 * n / d) : 0;
 
-  let E = null, C = null, CONJ = null, REC = null;
+  let E = null, C = null, CONJ = null, REC = null, KDATA = null;
   const V = { view: 'loading', p: {}, ui: {} };      // ui: per-card transient state
-  const TABS = [['home', '今', 'Today'], ['train', '練', 'Train'], ['conj', '活', 'Conjugate'], ['progress', '進', 'Progress'], ['words', '語', 'Words']];
+  const TABS = [['home', '今', 'Today'], ['train', '練', 'Train'], ['kanji', '字', 'Kanji'], ['conj', '活', 'Conjugate'], ['progress', '進', 'Progress'], ['words', '語', 'Words']];
 
   /* ---------- theme (kept from the original app) ---------- */
   function applyTheme(s) {
@@ -75,10 +75,10 @@
   /* ---------- routing ---------- */
   function go(view, p) { V.view = view; V.p = p || {}; V.ui = {}; render(); window.scrollTo(0, 0); }
   function render() {
-    const views = { home: renderHome, train: renderTrain, conj: renderConj, conjGroup: renderConjGroup, conjForm: renderConjForm, progress: renderProgress, words: renderWords, word: renderWord, settings: renderSettings, recallSetup: renderRecallSetup, session: renderSession, summary: renderSummary, patterns: renderPatterns };
+    const views = { kanji: renderKanji, radical: renderRadical, ksession: renderKSession, ksummary: renderKSummary, home: renderHome, train: renderTrain, conj: renderConj, conjGroup: renderConjGroup, conjForm: renderConjForm, progress: renderProgress, words: renderWords, word: renderWord, settings: renderSettings, recallSetup: renderRecallSetup, session: renderSession, summary: renderSummary, patterns: renderPatterns };
     const f = views[V.view];
-    const tabbed = ['home', 'train', 'conj', 'progress', 'words', 'settings', 'conjGroup', 'conjForm', 'word', 'recallSetup', 'patterns'].includes(V.view);
-    const active = { conjGroup: 'conj', conjForm: 'conj', word: 'words', recallSetup: 'home', settings: 'home', patterns: 'train' }[V.view] || V.view;
+    const tabbed = ['home', 'train', 'kanji', 'radical', 'conj', 'progress', 'words', 'settings', 'conjGroup', 'conjForm', 'word', 'recallSetup', 'patterns'].includes(V.view);
+    const active = { radical: 'kanji', conjGroup: 'conj', conjForm: 'conj', word: 'words', recallSetup: 'home', settings: 'home', patterns: 'train' }[V.view] || V.view;
     $app.innerHTML = `<main class="screen ${tabbed ? 'with-tabs' : ''}" id="main">${f ? f() : '<p class="muted">Loading…</p>'}</main>` +
       (tabbed ? `<nav class="tabbar" aria-label="Main">${TABS.map(([v, g, l]) => `<button type="button" class="tabbar-btn ${active === v ? 'active' : ''}" data-action="go" data-view="${v}" ${active === v ? 'aria-current="page"' : ''}><span class="t-glyph" aria-hidden="true">${g}</span><span class="t-label">${l}</span></button>`).join('')}</nav>` : '');
     afterRender();
@@ -583,6 +583,123 @@
       <p class="src">${(f.sources || []).map(id => srcLabel(CONJ.sources[id])).join(' · ')}</p>`;
   }
 
+
+  /* ============================================================
+     KANJI — radicals page with its own daily lesson
+     ============================================================ */
+  const POS_EN = { 'へん': 'left side', 'つくり': 'right side', 'かんむり': 'top', 'あし': 'bottom', 'たれ': 'top-left', 'にょう': 'bottom-left wrap', 'かまえ': 'enclosure' };
+  const posText = p => p ? p.split(/[,、]\s*/).map(x => x + (POS_EN[x] ? ' (' + POS_EN[x] + ')' : '')).join(', ') : '';
+  const kunText = k => { const [a, b] = k.replace(/^-|-$/g, '').split('.'); return b ? a + '(' + b + ')' : a; };
+  const typeBadge = s => s.type === 'on' ? '<span class="rt on">音 on</span>' : s.type === 'kun' ? '<span class="rt kun">訓 kun</span>' : '<span class="rt sp">special</span>';
+  function hl(word, ch) { return esc(word).split(esc(ch)).join(`<mark>${esc(ch)}</mark>`); }
+  function sampleRow(s, ch) {
+    const how = s.type === 'special' ? 'whole-word reading' : `${esc(ch)} = <b lang="ja">${esc(s.reading)}</b>`;
+    return `<li class="ksample"><span class="kw" lang="ja">${hl(s.jp, ch)}</span> <span class="muted" lang="ja">${esc(s.kana)}</span> ${typeBadge(s)}${s.met ? ' <span class="pill done" title="met in your lessons">★ met</span>' : ''}
+      <div class="ksub">${how} · ${esc(s.en)}${s.ext ? ' <span class="src">(example: Kanji alive)</span>' : ''} ${audioOk() ? `<button type="button" class="link" data-action="say" data-say="${esc(s.jp)}" aria-label="Play">🔊</button>` : ''}</div></li>`;
+  }
+  function kanjiBlock(ch, max) {
+    const k = KDATA.kanji[ch]; if (!k) return '';
+    const sm = KJ.samplesFor(E.KI, ch, E.state).slice(0, max || 6);
+    const on = sm.filter(x => x.type === 'on').length, kun = sm.filter(x => x.type === 'kun').length;
+    return `<div class="kblock"><div class="kbig" lang="ja">${esc(ch)}</div><div class="kinfo">
+      <div><span class="rt on">音</span> <span lang="ja">${k.on.map(esc).join('・') || '—'}</span></div>
+      <div><span class="rt kun">訓</span> <span lang="ja">${k.kun.map(x => esc(kunText(x))).join('・') || '—'}</span></div>
+      <div class="muted">${esc(k.meanings.slice(0, 3).join(', '))}${k.jlpt ? ' · JLPT N' + k.jlpt : ''}</div></div>
+      <ul class="plain ksamples">${sm.map(x => sampleRow(x, ch)).join('')}</ul>
+      ${on + kun ? `<p class="muted small">In these words: ${on} on-yomi · ${kun} kun-yomi.</p>` : ''}</div>`;
+  }
+  function radicalHead(r) {
+    const vars = r.variants.filter(v => v.form || v.name);
+    return `<div class="rhead"><div class="rbig" lang="ja">${esc(r.form)}</div><div>
+      <div class="meaning">${esc(r.meaning)}</div>
+      <div lang="ja"><b>${esc(r.name || '')}</b> <span class="muted">${esc(r.nameRomaji || '')}${r.position ? ' · ' + esc(posText(r.position)) : ''}</span></div>
+      ${vars.map(v => `<div class="rvar"><span class="rvform" lang="ja">${esc(v.form || '·')}</span> <b lang="ja">${esc(v.name || '')}</b> <span class="muted">${esc(v.nameRomaji || '')}${v.position ? ' · ' + esc(posText(v.position)) : ''}</span></div>`).join('')}
+      ${r.readings ? `<div class="muted">As a kanji: 音 <span lang="ja">${r.readings.on.map(esc).join('・') || '—'}</span> · 訓 <span lang="ja">${r.readings.kun.map(x => esc(kunText(x))).join('・') || '—'}</span></div>` : ''}
+      <div class="muted small">Radical no. ${r.num} · files ${r.members.length} kanji you will meet</div></div></div>`;
+  }
+  function ruleCard(open) {
+    const R = KDATA.rule;
+    return `<details class="rule" ${open ? 'open' : ''}><summary>How is a kanji read? (音読み / 訓読み)</summary><ul class="plain">
+      <li><span class="rt on">音 on</span> ${esc(R.on)}</li><li><span class="rt kun">訓 kun</span> ${esc(R.kun)}</li><li>${esc(R.changes)}</li><li><span class="rt sp">special</span> ${esc(R.special)}</li></ul>
+      <p class="src">${srcLabel(KDATA.sources.rule)}</p></details>`;
+  }
+  function renderKanji() {
+    if (!KDATA || !E.kanji.ready()) return `${topbar('Kanji', null, settingsBtn())}<p class="banner warn">Kanji data could not be loaded.</p>`;
+    const pr = E.kanji.progress();
+    const ks = E.state.kanji;
+    const resum = E.kanji.session && !E.kanji.session.finished;
+    const next = E.KI.radicals.filter(r => !ks.memory['r:' + r.num]).slice(0, 3);
+    const learned = r => ks.memory['r:' + r.num];
+    const lessonSub = pr.doneToday ? `Done for today${pr.due ? ' · ' + pr.due + ' review' + (pr.due > 1 ? 's' : '') + ' still due — you can do another round' : ''}.`
+      : `~${E.state.settings.minutes.kanji} min · ${pr.due ? pr.due + ' review' + (pr.due > 1 ? 's' : '') + ' · ' : ''}${next.length ? 'next: ' + next.map(r => `<span lang="ja">${esc(r.form)}</span> ${esc(r.name)}`).join(', ') : 'all radicals introduced'}`;
+    return `${topbar('Kanji 字', null, settingsBtn())}
+      <p class="lead">Radicals (部首) are the building blocks kanji are sorted by. Learning them — and how each kanji is read — makes new kanji far less random. This page has its own daily lesson; it never changes your vocabulary schedule.</p>
+      ${resum ? `<div class="banner">Unfinished radical lesson. ${btn('Resume', 'k-resume', 'primary small')}</div>` : ''}
+      <button type="button" class="act big kanji ${pr.doneToday ? 'done' : 'rec'}" data-action="k-start"><span class="act-head"><span class="act-title">Today’s radicals</span>${pr.doneToday ? '<span class="pill done">✓ Done today</span>' : '<span class="pill rec">Daily lesson</span>'}</span><span class="act-sub">${lessonSub}</span></button>
+      <div class="stat-grid three"><div class="stat"><b>${pr.introduced}/${pr.total}</b><span>radicals met</span></div><div class="stat"><b>${pr.strong}</b><span>recalled on your own</span></div><div class="stat"><b>${pr.kanjiSeen}</b><span>kanji practised</span></div></div>
+      ${ruleCard(false)}
+      <h3>All radicals (in teaching order)</h3>
+      <div class="rgrid">${E.KI.radicals.map(r => `<button type="button" class="rcell ${learned(r) ? 'learned' : ''}" data-action="radical" data-num="${r.num}" aria-label="${esc(r.form)} ${esc(r.name)}: ${esc(r.meaning)}"><span class="rf" lang="ja">${esc(r.form)}</span><span class="rn" lang="ja">${esc(r.name)}</span>${learned(r) ? '<span class="rl">✓</span>' : ''}</button>`).join('')}</div>
+      <p class="src">Data: ${[KDATA.sources.kanjidic, KDATA.sources.radicals, KDATA.sources.examples].map(srcLabel).join(' · ')}</p>`;
+  }
+  function renderRadical() {
+    const r = E.KI.byNum[V.p.num]; if (!r) return '<p>Unknown radical.</p>';
+    const mem = KJ.membersFor(E.KI, r, E.state);
+    return `${topbar(r.form + ' ' + r.name, 'go-kanji')}${radicalHead(r)}${ruleCard(false)}
+      <h3>Kanji with this radical (${mem.length})</h3><p class="muted">Words you have met in lessons come first (★).</p>
+      ${mem.map(ch => kanjiBlock(ch, 6)).join('')}`;
+  }
+  /* lesson runner */
+  function renderKSession() {
+    const s = E.kanji.session, c = E.kanji.current();
+    if (!s) return '<p>No lesson running.</p>';
+    if (!c) { kFinish(); return renderKSummary(); }
+    const u = V.ui;
+    const prog = `<div class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="${s.queue.length}" aria-valuenow="${s.i}"><div style="width:${pct(s.i, s.queue.length)}%"></div></div>`;
+    const note = { review: 'Review', delayed: 'From earlier in this lesson', retry: 'Another go' }[c.phase];
+    return `${topbar('Today’s radicals', 'k-end', '<button type="button" class="icon-btn" data-action="k-end">Finish later</button>')}${prog}${note ? `<p class="phase">${note}</p>` : ''}<section class="card-stage">${kCard(c, u)}</section>`;
+  }
+  function kCard(c, u) {
+    const r = c.rad ? E.KI.byNum[c.rad] : null;
+    if (c.ex === 'kteach') {
+      const mem = KJ.membersFor(E.KI, r, E.state);
+      return `<div class="prompt teach"><div class="tag">New radical</div>${radicalHead(r)}</div>${ruleCard(!E.state.kanji.sessions.length)}
+        <h3>Kanji with ${esc(r.form)}</h3>${mem.slice(0, 4).map(ch => kanjiBlock(ch, 3)).join('')}${mem.length > 4 ? `<p class="muted">+ ${mem.length - 4} more on the radical’s page.</p>` : ''}
+        <div class="row">${btn('Got it →', 'k-ack', 'primary', 'data-autofocus')}</div>`;
+    }
+    let q;
+    if (c.ex === 'rmeaning') q = `<p class="q">What does this radical mean?</p><div class="rbig" lang="ja">${esc(KJ.radLabel(r))}</div>`;
+    else if (c.ex === 'rname') q = `<p class="q">What is this radical called?</p><div class="rbig" lang="ja">${esc(c.glyph)}</div>`;
+    else if (c.ex === 'rspot') q = `<p class="q">Which kanji is filed under this radical?</p><div class="rbig" lang="ja">${esc(KJ.radLabel(r))}</div><p class="muted" lang="ja">${esc(r.name)} — ${esc(r.meaning)}</p>`;
+    else if (c.ex === 'kread') q = `<p class="q">How is <b lang="ja">${esc(c.ch)}</b> read in this word?</p><div class="big-jp" lang="ja">${hl(c.word, c.ch)}</div><p class="muted">${esc(c.en)}</p>`;
+    else q = `<p class="q">In this word, is <b lang="ja">${esc(c.ch)}</b> read with 音読み or 訓読み?</p><div class="big-jp" lang="ja">${hl(c.word, c.ch)}</div><p lang="ja">${esc(c.kana)} <span class="muted">(${esc(c.ch)} = ${esc(c.reading)})</span></p><p class="muted">${esc(c.en)}</p>`;
+    const res = u.res;
+    const opts = c.options.map((o, k) => `<button type="button" class="choice ${res ? (k === c.correct ? 'correct' : k === u.pick ? 'incorrect' : '') : ''}" data-action="k-choose" data-k="${k}" ${res ? 'disabled' : ''} lang="ja">${esc(o)}</button>`).join('');
+    let fb = '';
+    if (res) {
+      const ok = res.verdict === 'correct';
+      let why = '';
+      if (c.ex === 'kread') why = `<p lang="ja">${esc(c.word)} = ${esc(c.kana)}. ${c.type === 'on' ? 'Here it uses the 音読み (on) — typical in compounds.' : c.type === 'kun' ? 'Here it uses the 訓読み (kun) — typical when the kanji stands alone or has okurigana.' : ''}</p>`;
+      if (c.ex === 'krule') why = `<p>${c.type === 'on' ? '音読み: ' + esc(KDATA.rule.on) : '訓読み: ' + esc(KDATA.rule.kun)}</p>`;
+      if (c.ex === 'rspot' || c.ex === 'rmeaning' || c.ex === 'rname') why = `<p lang="ja">${esc(r.form)} ${esc(r.name)} — ${esc(r.meaning)}. Kanji: ${r.members.slice(0, 8).map(esc).join(' ')}</p>`;
+      fb = `<div class="feedback ${ok ? 'good' : 'bad'}" role="status"><div class="fb-head">${ok ? '✓ Correct' : '✗ Not quite'}</div>${why}
+        <div class="row">${c.word && audioOk() ? audioBtn(c.word) : ''}${btn('Continue →', 'k-next', 'primary', 'data-autofocus')}</div></div>`;
+    }
+    return `<div class="prompt">${q}</div><div class="choices">${opts}${res ? '' : '<button type="button" class="choice dk" data-action="k-dontknow">I don’t know</button>'}</div>${fb}`;
+  }
+  function kFinish() { const sum = E.kanji.finish(); V.view = 'ksummary'; V.p = { sum }; V.ui = {}; }
+  function renderKSummary() {
+    const sum = V.p.sum || (E.kanji.session && E.kanji.session.summary);
+    if (!sum) return '';
+    const rads = sum.newRadicals.map(n => E.KI.byNum[n]).filter(Boolean);
+    const pr = E.kanji.progress();
+    return `${topbar('Radicals — done')}<section class="summary">
+      <div class="stat-row"><div><b>${sum.answered}</b><span>answered</span></div><div><b>${sum.answered ? pct(sum.correct, sum.answered) + '%' : '—'}</b><span>correct</span></div><div><b>${pr.introduced}/${pr.total}</b><span>radicals met</span></div></div>
+      ${rads.length ? `<h3>New today</h3><div class="rgrid">${rads.map(r => `<button type="button" class="rcell learned" data-action="radical" data-num="${r.num}"><span class="rf" lang="ja">${esc(r.form)}</span><span class="rn" lang="ja">${esc(r.name)}</span></button>`).join('')}</div>` : ''}
+      <p class="muted">Radicals you missed come back sooner; the ones you knew come back later. Your vocabulary schedule is unchanged.</p></section>
+      <div class="row">${btn('Back to Kanji', 'go', 'primary', 'data-view="kanji" data-autofocus')}${btn('Today', 'go', 'ghost', 'data-view="home"')}</div>`;
+  }
+
   /* ============================================================
      PROGRESS
      ============================================================ */
@@ -719,7 +836,7 @@
       <p class="muted">Choose up to 3 topics you need most. Morning lessons pick new words from these more often — other topics are still taught, and everything you’ve learned keeps being reviewed. Evening sessions never add new words.</p>
       ${prioEditor()}
       <h3>Time for each session</h3>
-      ${['morning', 'evening', 'weekly'].map(k => `<label class="field">${k[0].toUpperCase() + k.slice(1)} <input type="number" inputmode="numeric" min="3" max="${k === 'weekly' ? 90 : 60}" value="${s.minutes[k]}" data-setting="minutes.${k}"> min</label>`).join('')}
+      ${['morning', 'evening', 'weekly', 'kanji'].map(k => `<label class="field">${k[0].toUpperCase() + k.slice(1)} <input type="number" inputmode="numeric" min="3" max="${k === 'weekly' ? 90 : 60}" value="${s.minutes[k] || window.MichiPolicy.availableMinutes[k]}" data-setting="minutes.${k}"> min</label>`).join('')}
       <p class="muted">Session length follows these; how much fits is worked out from how fast you actually answer.</p>
       <h3>Time zone (for “today” and the Sunday unlock)</h3>
       <select data-setting="timeZone" aria-label="Time zone">${zones.map(z => `<option value="${esc(z)}" ${s.timeZone === z ? 'selected' : ''}>${z === 'auto' ? 'Device (' + esc(CAL.deviceZone()) + ')' : esc(z)}</option>`).join('')}</select>
@@ -745,6 +862,15 @@
     switch (d.action) {
       case 'go': e.preventDefault(); go(d.view); break;
       case 'go-conj': go('conj'); break;
+      case 'go-kanji': go('kanji'); break;
+      case 'radical': go('radical', { num: +d.num }); break;
+      case 'k-start': { const r = E.kanji.start(); if (r.error) { toast(r.error === 'all-done' ? 'All radicals introduced and nothing is due — come back tomorrow.' : 'Nothing to do right now.'); break; } go('ksession'); break; }
+      case 'k-resume': go('ksession'); break;
+      case 'k-ack': E.kanji.answer({}); E.kanji.next(); V.ui = {}; if (!E.kanji.current()) { kFinish(); } render(); window.scrollTo(0, 0); break;
+      case 'k-choose': { if (V.ui.res) break; const out = E.kanji.answer({ index: +d.k }); V.ui.pick = +d.k; V.ui.res = out && out.result; render(); break; }
+      case 'k-dontknow': { if (V.ui.res) break; const out = E.kanji.answer({ dontKnow: true }); V.ui.res = out && out.result; render(); break; }
+      case 'k-next': E.kanji.next(); V.ui = {}; if (!E.kanji.current()) kFinish(); render(); window.scrollTo(0, 0); break;
+      case 'k-end': { const s = E.kanji.session; if (s && !s.finished && s.i > 0 && !confirm('Finish now? Your answers are saved.')) break; if (s && !s.finished) kFinish(); else go('kanji'); render(); break; }
       case 'go-train': go('train'); break;
       case 'go-words': go('words', { topic: V.p.topic }); break;
       case 'home': go('home'); break;
@@ -939,11 +1065,12 @@
       C = CUR.build({ index, topics, itemFiles: itemFiles.filter(Boolean), grammar, conjugation, recovery, milestones, synonyms });
       if (C.skipped.length) console.warn('Rejected at load (not served):', C.skipped);
       CONJ = conjugation; REC = recovery || { prompts: [], markers: {} };
+      KDATA = index.kanji ? await getJson('data/' + index.kanji).catch(() => null) : null;
     } catch (err) {
       $app.innerHTML = `<main class="screen"><div class="banner warn">Could not load the lesson data (${esc(err.message)}). If this is the first launch, connect to the internet once so the app can be stored for offline use.</div></main>`;
       return;
     }
-    E = ENG.create({ C, storage: window.localStorage, audio: () => audioOk() });
+    E = ENG.create({ C, K: KDATA, storage: window.localStorage, audio: () => audioOk() });
     window.__michi = { get E() { return E; }, C };       // for debugging and end-to-end tests
     applyTheme(E.state.settings);
     if (E.resume()) { /* offered on the home screen */ }

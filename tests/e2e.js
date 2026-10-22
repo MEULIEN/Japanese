@@ -65,7 +65,12 @@ async function page(phone, opts) {
   pg.errors = errors; pg.ctx = ctx;
   return pg;
 }
-const shot = async (pg, name) => { if (SHOTS) { fs.mkdirSync(SHOTS, { recursive: true }); await pg.screenshot({ path: path.join(SHOTS, name + '.png'), fullPage: true }); } };
+const shot = async (pg, name) => {
+  if (!SHOTS) return;
+  fs.mkdirSync(SHOTS, { recursive: true });
+  try { await pg.screenshot({ path: path.join(SHOTS, name + '.png'), fullPage: true }); }
+  catch (e) { await pg.screenshot({ path: path.join(SHOTS, name + '.png') }); }   // very long pages (e.g. the word list)
+};
 const tapSel = async (pg, sel) => { const el = await pg.$(sel); assert.ok(el, 'missing ' + sel); await el.tap(); };
 
 // Layout audit of the current screen.
@@ -156,7 +161,7 @@ test('home screen: required layout, hierarchy and no layout defects (3 phone siz
     assert.ok(await pg.$('.act.weekly.locked') || await pg.$('.act.weekly'), 'weekly visible');
     await layoutAudit(pg, 'home ' + ph);
     await shot(pg, 'home-' + ph);
-    for (const v of ['train', 'conj', 'progress', 'words']) { await tapSel(pg, `.tabbar [data-view="${v}"]`); await pg.waitForSelector('.topbar'); await layoutAudit(pg, v + ' ' + ph); await shot(pg, v + '-' + ph); }
+    for (const v of ['train', 'kanji', 'conj', 'progress', 'words']) { await tapSel(pg, `.tabbar [data-view="${v}"]`); await pg.waitForSelector('.topbar'); await layoutAudit(pg, v + ' ' + ph); await shot(pg, v + '-' + ph); }
     await tapSel(pg, '.tabbar [data-view="home"]'); await tapSel(pg, '[data-view="settings"]'); await layoutAudit(pg, 'settings ' + ph); await shot(pg, 'settings-' + ph);
     assert.deepStrictEqual(pg.errors, [], 'no JS errors: ' + pg.errors.join('\n'));
     await pg.ctx.close();
@@ -365,7 +370,7 @@ test('desktop: typing still auto-focuses, Enter submits, layout has no defects',
 test('settings button: visible, labelled, at least 44x44, not overlapping, on every main tab (320 / 390 / landscape / desktop)', async () => {
   for (const ph of ['small', 'iphone', 'landscape', 'desktop']) {
     const pg = await page(ph);
-    for (const v of ['home', 'train', 'conj', 'progress', 'words']) {
+    for (const v of ['home', 'train', 'kanji', 'conj', 'progress', 'words']) {
       await pg.click(`.tabbar [data-view="${v}"]`);
       const r = await pg.$eval('.settings-btn', b => {
         const x = b.getBoundingClientRect(), t = document.querySelector('.topbar .title').getBoundingClientRect();
@@ -430,6 +435,46 @@ test('evening: locked at 11:59 with "Available from 12:00", unlocks at 12:00 wit
   await pg.ctx.close();
 });
 
+test('kanji tab: radical lesson by touch, radical page, own schedule (vocabulary untouched), layout at 320 px', async () => {
+  for (const ph of ['small', 'iphone']) {
+    const pg = await page(ph);
+    const labels = await pg.$$eval('.tabbar-btn', bs => bs.map(b => { const l = b.querySelector('.t-label'); return { t: l.textContent, clipped: l.scrollWidth > l.clientWidth + 1, w: b.getBoundingClientRect().width }; }));
+    assert.strictEqual(labels.length, 6);
+    assert.ok(labels.every(l => !l.clipped && l.w >= 44), ph + ': tab labels fit ' + JSON.stringify(labels));
+    await tapSel(pg, '.tabbar [data-view="kanji"]');
+    await pg.waitForSelector('.rgrid');
+    await layoutAudit(pg, 'kanji ' + ph); await shot(pg, 'kanji-home-' + ph);
+    const vocab = await pg.evaluate(() => JSON.stringify(window.__michi.E.state.memory));
+    await tapSel(pg, '[data-action="k-start"]'); await pg.waitForSelector('.card-stage');
+    await shot(pg, 'kanji-teach-' + ph);
+    let n = 0, seen = new Set();
+    while (n++ < 200) {
+      if (await pg.$('.summary')) break;
+      const c = await pg.evaluate(() => { const c = window.__michi.E.kanji.current(); return c && { ex: c.ex, correct: c.correct }; });
+      if (!c) break;
+      seen.add(c.ex);
+      if (await pg.$('[data-action="k-next"]')) { await tapSel(pg, '[data-action="k-next"]'); continue; }
+      if (c.ex === 'kteach') { await layoutAudit(pg, 'kanji teach ' + ph); await tapSel(pg, '[data-action="k-ack"]'); continue; }
+      await tapSel(pg, `[data-action="k-choose"][data-k="${n % 4 === 0 ? (c.correct + 1) % 3 : c.correct}"]`);
+      if (c.ex === 'kread') await shot(pg, 'kanji-read-' + ph);
+    }
+    await pg.waitForSelector('.summary');
+    await shot(pg, 'kanji-summary-' + ph);
+    assert.ok(['kteach', 'rmeaning', 'rspot', 'kread', 'krule'].every(x => seen.has(x)), 'exercise types: ' + [...seen]);
+    const after = await pg.evaluate(() => ({ vocab: JSON.stringify(window.__michi.E.state.memory), k: Object.keys(JSON.parse(localStorage.getItem('michi_v2')).kanji.memory).length }));
+    assert.strictEqual(after.vocab, vocab, 'vocabulary schedule untouched by the radical lesson');
+    assert.ok(after.k > 0, 'radical progress saved');
+    await tapSel(pg, '[data-view="kanji"]');
+    assert.ok(await pg.$('.act.kanji.done'), 'marked done for today');
+    await tapSel(pg, '.rcell.learned'); await pg.waitForSelector('.kblock');
+    await layoutAudit(pg, 'radical page ' + ph); await shot(pg, 'radical-page-' + ph);
+    const t = await pg.$eval('#main', e => e.textContent);
+    assert.match(t, /音/); assert.match(t, /訓/);
+    assert.deepStrictEqual(pg.errors, [], pg.errors.join('\n'));
+    await pg.ctx.close();
+  }
+});
+
 test('offline: after the first visit, the app, every tab and every session type work with the network off', async () => {
   const pg = await page('iphone');
   await pg.evaluate(async () => { await navigator.serviceWorker.ready; });
@@ -443,7 +488,8 @@ test('offline: after the first visit, the app, every tab and every session type 
   await tapSel(pg, '.act.morning'); await pg.waitForSelector('.card-stage'); await driveSession(pg, 0.8); await pg.waitForSelector('.summary');
   await tapSel(pg, '[data-view="home"]'); await tapSel(pg, '.act.recall'); await tapSel(pg, '[data-action="rc-start"]'); await pg.waitForSelector('.card-stage'); await driveSession(pg, 0.8, 10);
   await tapSel(pg, '.topbar [data-action="end"]'); await tapSel(pg, '[data-view="home"]');
-  for (const v of ['train', 'conj', 'progress', 'words']) { await tapSel(pg, `.tabbar [data-view="${v}"]`); await pg.waitForSelector('.topbar'); }
+  for (const v of ['train', 'kanji', 'conj', 'progress', 'words']) { await tapSel(pg, `.tabbar [data-view="${v}"]`); await pg.waitForSelector('.topbar'); }
+  await tapSel(pg, '.tabbar [data-view="kanji"]'); await tapSel(pg, '.rcell'); await pg.waitForSelector('.kblock');
   assert.deepStrictEqual(pg.errors.filter(e => !/net::ERR_INTERNET_DISCONNECTED|Failed to fetch/.test(e)), [], pg.errors.join('\n'));
   await pg.setOfflineMode(false);
   await pg.ctx.close();

@@ -31,7 +31,7 @@
 
     // Default time the learner has for each session (minutes). The learner
     // can change these in Settings; session SIZE is derived from them.
-    availableMinutes: { morning: 20, evening: 15, weekly: 40 },
+    availableMinutes: { morning: 20, evening: 15, weekly: 40, kanji: 10 },
 
     morning: {
       // Design preference for a normal morning (not a quota). The planner
@@ -83,6 +83,11 @@
       durableHorizonDays: 30,
       durableProb: 0.8
     },
+
+    // Kanji radicals page: daily lesson safeguards. The number of radicals
+    // and member kanji per lesson is derived from the minutes available and
+    // the learner's speed; these only cap it.
+    kanji: { minutes: 10, reviewShare: 0.4, maxNewRadicals: 4, maxMembersPerRadical: 6 },
 
     // Topic priorities (Settings): share of mornings that start new material
     // from one of the learner's preferred topics. The rest stay broad.

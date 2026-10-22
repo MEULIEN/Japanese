@@ -15,13 +15,13 @@ const CACHE = 'michi-' + BUILD_ID;
 const SHELL = ['./', './index.html', './style.css', './manifest.json',
   './js/policy.js', './js/calendar.js', './js/kana.js', './js/answer.js', './js/conjugate.js', './js/srs.js',
   './js/curriculum.js', './js/exercises.js', './js/planner.js', './js/store.js', './js/progress.js', './js/speech.js',
-  './js/engine.js', './js/app.js',
+  './js/kanji.js', './js/engine.js', './js/app.js',
   './icons/icon-180.png', './icons/icon-192.png', './icons/icon-512.png', './data/index.json'];
 
 async function dataFiles() {
   const r = await fetch('./data/index.json', { cache: 'no-cache' });
   const idx = await r.json();
-  return [idx.topics, idx.grammar, idx.conjugation, idx.recovery, idx.milestones, idx.synonyms].concat(idx.items || []).filter(Boolean).map(f => './data/' + f);
+  return [idx.topics, idx.grammar, idx.conjugation, idx.recovery, idx.milestones, idx.synonyms, idx.kanji].concat(idx.items || []).filter(Boolean).map(f => './data/' + f);
 }
 self.addEventListener('install', event => {
   event.waitUntil((async () => {

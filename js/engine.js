@@ -22,6 +22,7 @@
   const SRS = req('srs.js', 'MichiSRS');
   const P = req('policy.js', 'MichiPolicy');
   const CUR = req('curriculum.js', 'MichiCurriculum');
+  const KJ = req('kanji.js', 'MichiKanji');
 
   /* opts: { C, storage, now: () => ms, rng, audio: () => bool } */
   function create(opts) {
@@ -280,6 +281,41 @@
       if (lapsed) reasons.push(lapsed === 1 ? '1 of these words was missed before, so it comes back sooner' : lapsed + ' of these ' + items.size + ' words were missed before, so they come back sooner');
       return { byDate: Object.fromEntries(Object.entries(byDate).map(([d, s2]) => [d, s2.size])), reasons };
     }
+
+    /* ---------- kanji radicals page (own daily lesson, own schedule) ---------- */
+    const KSESSION = 'michi_v2_ksession';
+    E.KI = opts.K ? KJ.index(opts.K) : null;
+    const KX = E.kanji = {
+      session: null,
+      ready: () => !!(E.KI && E.KI.radicals.length),
+      progress: () => KJ.progress(E.KI, E.state.kanji, E.today()),
+      save: () => { try { if (KX.session && !KX.session.finished) opts.storage.setItem(KSESSION, JSON.stringify(KX.session)); else opts.storage.removeItem(KSESSION); } catch (e) { } },
+      resume: () => { try { const s = JSON.parse(opts.storage.getItem(KSESSION)); if (s && s.queue && !s.finished) { KX.session = s; s.shownAt = now(); } } catch (e) { } return KX.session; },
+      start: () => {
+        if (!KX.ready()) return { error: 'no-data' };
+        const s = KJ.startLesson({ I: E.KI, state: E.state, date: E.today(), rng, now, minutes: E.state.settings.minutes.kanji });
+        if (!s.queue.length) return { error: s.reason || 'nothing' };
+        KX.session = s; s.shownAt = now(); KX.save();
+        return { session: s };
+      },
+      current: () => KX.session ? KX.session.queue[KX.session.i] || null : null,
+      answer: (resp) => {
+        const s = KX.session; if (!s) return null;
+        const c = s.queue[s.i]; if (!c) return null;
+        if (c._answered) return c._answered;
+        const out = KJ.answer(E.state, s, resp || {}, { date: E.today(), latencyMs: now() - (s.shownAt || now()) });
+        c._answered = out; E.save(); KX.save();
+        return out;
+      },
+      next: () => { const s = KX.session; if (!s) return null; s.i++; s.shownAt = now(); KX.save(); return KX.current(); },
+      finish: () => {
+        const s = KX.session; if (!s || s.finished) return s && s.summary;
+        s.summary = KJ.finish(E.state, s, E.today()); s.finished = true;
+        E.save(); KX.save();
+        return s.summary;
+      }
+    };
+    if (KX.ready()) KX.resume();
 
     /* ---------- settings / backup ---------- */
     E.exportJSON = () => JSON.stringify({ app: 'michi', exported: new Date(now()).toISOString(), state: E.state }, null, 1);

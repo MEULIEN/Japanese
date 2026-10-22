@@ -58,6 +58,7 @@
       weekly: {},          // { [sundayKey]: report }
       milestones: {},      // { [id]: { passed, attempts: [] } }
       practice: { items: {}, log: [], daily: {}, latency: {} },
+      kanji: { memory: {}, log: [], sessions: [], latency: [] },   // radicals page (own schedule)
       train: { spanBest: 0, spanHistory: [], recoveryTries: 0, recoveryWins: 0 },
       hooks: {},
       curriculumSeen: []   // curriculum versions seen (annotates progress charts)
@@ -74,6 +75,7 @@
     out.lesson = Object.assign(blank().lesson, s.lesson || {});
     out.practice = Object.assign(blank().practice, s.practice || {});
     out.train = Object.assign(blank().train, s.train || {});
+    out.kanji = Object.assign(blank().kanji, s.kanji || {});
     for (const k of ['memory', 'daily', 'latency', 'weekly', 'milestones', 'hooks']) if (!out[k] || typeof out[k] !== 'object') out[k] = {};
     for (const k of ['log', 'sessions', 'curriculumSeen']) if (!Array.isArray(out[k])) out[k] = [];
     out.schema = SCHEMA;
