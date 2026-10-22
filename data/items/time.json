@@ -2052,6 +2052,48 @@
      "checked": "2026-10-22"
     }
    ]
+  },
+  {
+   "id": "ct_shuukan",
+   "jp": "〜週間",
+   "kana": "〜しゅうかん",
+   "romaji": "〜shūkan",
+   "en": "~ week(s) (duration)",
+   "gloss": "~ week(s)",
+   "pos": "counter",
+   "topic": "time",
+   "tier": 2,
+   "use": "say",
+   "note": "e.g. 1週間 いっしゅうかん = one week.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "～週間　（1週間）【～しゅうかん　（いっしゅうかん）】 ～ week(s)　 (e.g. one week)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "週間",
+     "matched": "週間【しゅうかん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "week"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
   }
  ]
 }

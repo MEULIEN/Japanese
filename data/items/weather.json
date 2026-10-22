@@ -1,0 +1,2548 @@
+{
+ "topic": "weather",
+ "items": [
+  {
+   "id": "ct_do",
+   "jp": "〜度",
+   "kana": "〜ど",
+   "romaji": "〜do",
+   "en": "~ degrees (temperature)",
+   "gloss": "~ degrees",
+   "pos": "counter",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "note": "Body temperature is read like 38度5分 さんじゅうはちどごぶ (38.5°C, Irodori 初級1 L15).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 2,
+     "entry": "～度　（40度）【～ど　（よんじゅうど）】 ～ degree(s)　(e.g. 40 degrees)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "度",
+     "matched": "度【ど】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "degree (angle, temperature, scale, etc.)",
+      "counter for occurrences",
+      "strength (of glasses); glasses prescription",
+      "alcohol content (percentage); alcohol by volume"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a suffix",
+      "Counter"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_tenki",
+   "jp": "天気",
+   "kana": "てんき",
+   "romaji": "tenki",
+   "en": "weather",
+   "gloss": "weather",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "天気はいい？",
+     "en": "Is the weather nice?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8763912,
+      "url": "https://tatoeba.org/en/sentences/show/8763912",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "天気はいい？",
+      "translation": "Is the weather nice?"
+     }
+    },
+    {
+     "jp": "ひどい天気だ。",
+     "en": "The weather's terrible.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8724184,
+      "url": "https://tatoeba.org/en/sentences/show/8724184",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ひどい天気だ。",
+      "translation": "The weather's terrible."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 4,
+     "entry": "天気／お天気【てんき／おてんき】 weather",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "天気【てんき】 weather",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "天気",
+     "matched": "天気【てんき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "weather",
+      "fair weather; fine weather"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_tenkiyohou",
+   "jp": "天気予報",
+   "kana": "てんきよほう",
+   "romaji": "tenkiyohō",
+   "en": "weather forecast",
+   "gloss": "weather forecast",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "天気予報だと午後は雨ですよ。",
+     "en": "The weatherman says we'll have rain in the afternoon.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 125100,
+      "url": "https://tatoeba.org/en/sentences/show/125100",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "天気予報だと午後は雨ですよ。",
+      "translation": "The weatherman says we'll have rain in the afternoon."
+     }
+    },
+    {
+     "jp": "天気予報だと、雨が降るって。",
+     "en": "According to the weather forecast, it's going to rain.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11898477,
+      "url": "https://tatoeba.org/en/sentences/show/11898477",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "天気予報だと、雨が降るって。",
+      "translation": "According to the weather forecast, it's going to rain."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "天気予報",
+     "matched": "天気予報【てんきよほう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "weather forecast; weather report",
+      "Weather forecasting"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_ame",
+   "jp": "雨",
+   "kana": "あめ",
+   "romaji": "ame",
+   "en": "rain",
+   "gloss": "rain",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "また雨だ。",
+     "en": "It's raining again!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 195467,
+      "url": "https://tatoeba.org/en/sentences/show/195467",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "また雨だ。",
+      "translation": "It's raining again!"
+     }
+    },
+    {
+     "jp": "雨は好き？",
+     "en": "Do you like rain?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1614573,
+      "url": "https://tatoeba.org/en/sentences/show/1614573",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "雨は好き？",
+      "translation": "Do you like rain?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "雨【あめ】 rain",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "雨【あめ】 rain",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "雨",
+     "matched": "雨【あめ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "rain",
+      "rainy day; rainy weather",
+      "the November suit (in hanafuda)",
+      "Rain"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_kasa",
+     "rel": "you need one"
+    }
+   ]
+  },
+  {
+   "id": "we_yuki",
+   "jp": "雪",
+   "kana": "ゆき",
+   "romaji": "yuki",
+   "en": "snow",
+   "gloss": "snow",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "あ、雪だ！",
+     "en": "Ah! Snow!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3710861,
+      "url": "https://tatoeba.org/en/sentences/show/3710861",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "あ、雪だ！",
+      "translation": "Ah! Snow!"
+     }
+    },
+    {
+     "jp": "雪がとけた。",
+     "en": "The snow has melted.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12716898,
+      "url": "https://tatoeba.org/en/sentences/show/12716898",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "雪がとけた。",
+      "translation": "The snow has melted."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "雪【ゆき】 snow",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "雪【ゆき】 snow",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "雪",
+     "matched": "雪【ゆき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "snow; snowfall",
+      "Snow"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_hare",
+   "jp": "晴れ",
+   "kana": "はれ",
+   "romaji": "hare",
+   "en": "clear weather; fine weather",
+   "gloss": "clear weather",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今日は晴れだ。",
+     "en": "It is sunny today.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 171566,
+      "url": "https://tatoeba.org/en/sentences/show/171566",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今日は晴れだ。",
+      "translation": "It is sunny today."
+     }
+    },
+    {
+     "jp": "明日は晴れよ。",
+     "en": "It will be sunny tomorrow.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12412346,
+      "url": "https://tatoeba.org/en/sentences/show/12412346",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "明日は晴れよ。",
+      "translation": "It will be sunny tomorrow."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "晴れ【はれ】 sunny / fine (weather)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "晴れ",
+     "matched": "晴れ【はれ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "clear weather; fine weather",
+      "formal; ceremonial; public",
+      "cleared of suspicion"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_kumori",
+   "jp": "曇り",
+   "kana": "くもり",
+   "romaji": "kumori",
+   "en": "cloudy weather",
+   "gloss": "cloudy weather",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今日は曇りです。",
+     "en": "It's cloudy today.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 171795,
+      "url": "https://tatoeba.org/en/sentences/show/171795",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今日は曇りです。",
+      "translation": "It's cloudy today."
+     }
+    },
+    {
+     "jp": "予報では明日は曇りです。",
+     "en": "They forecast it will be cloudy tomorrow.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 78998,
+      "url": "https://tatoeba.org/en/sentences/show/78998",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "予報では明日は曇りです。",
+      "translation": "They forecast it will be cloudy tomorrow."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "曇り",
+     "matched": "曇り【くもり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "cloudiness; cloudy weather",
+      "fog (on a mirror, glasses, etc.); cloud (e.g. in marble); blur; mist; shadow; dimness",
+      "gloom; dejection",
+      "Overcast"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_kaze",
+   "jp": "風",
+   "kana": "かぜ",
+   "romaji": "kaze",
+   "en": "wind",
+   "gloss": "wind",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "note": "Same reading as 風邪 (a cold).",
+   "examples": [
+    {
+     "jp": "風は強い？",
+     "en": "Is it windy?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8688662,
+      "url": "https://tatoeba.org/en/sentences/show/8688662",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "風は強い？",
+      "translation": "Is it windy?"
+     }
+    },
+    {
+     "jp": "風が吹く。",
+     "en": "The wind blows.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 670057,
+      "url": "https://tatoeba.org/en/sentences/show/670057",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "風が吹く。",
+      "translation": "The wind blows."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "風【かぜ】 wind",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "風",
+     "matched": "風【かぜ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "wind; breeze; draught; draft",
+      "manner; behaviour; behavior",
+      "cold; influenza"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a prefix"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_kaze",
+     "rel": "same sound: a cold (illness)"
+    }
+   ]
+  },
+  {
+   "id": "we_furu",
+   "jp": "降る",
+   "kana": "ふる",
+   "romaji": "furu",
+   "en": "to fall (of rain, snow)",
+   "gloss": "to fall",
+   "pos": "verb",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "雪が降る。",
+     "en": "It's snowing.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 468677,
+      "url": "https://tatoeba.org/en/sentences/show/468677",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "雪が降る。",
+      "translation": "It's snowing."
+     }
+    },
+    {
+     "jp": "雨が降ると思う？",
+     "en": "Do you think that it'll rain?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12057980,
+      "url": "https://tatoeba.org/en/sentences/show/12057980",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "雨が降ると思う？",
+      "translation": "Do you think that it'll rain?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "降る【ふる】 to fall (rain / snow, etc.)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "降る【ふる】 to fall (rain / snow, etc.)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "降る",
+     "matched": "降る【ふる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to fall (of rain, snow, ash, etc.); to come down",
+      "to form (of frost)",
+      "to beam down (of sunlight or moonlight); to pour in",
+      "to visit (of luck, misfortune, etc.); to come; to arrive"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_hareru",
+   "jp": "晴れる",
+   "kana": "はれる",
+   "romaji": "hareru",
+   "en": "to clear up; to be sunny",
+   "gloss": "to clear up",
+   "pos": "verb",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "明日は晴れるよ。",
+     "en": "It will be fine tomorrow.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9029517,
+      "url": "https://tatoeba.org/en/sentences/show/9029517",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "明日は晴れるよ。",
+      "translation": "It will be fine tomorrow."
+     }
+    },
+    {
+     "jp": "晴れると思う。",
+     "en": "I think it will be fine.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 143005,
+      "url": "https://tatoeba.org/en/sentences/show/143005",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "晴れると思う。",
+      "translation": "I think it will be fine."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "晴れる【はれる】 to clear / to fair",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "晴れる",
+     "matched": "晴れる【はれる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to clear up; to clear away; to be sunny; to stop raining",
+      "to refresh (e.g. spirits)",
+      "to be cleared (e.g. of a suspicion)",
+      "to be dispelled; to be banished"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_yamu",
+   "jp": "止む",
+   "kana": "やむ",
+   "romaji": "yamu",
+   "en": "to stop (of rain, snow)",
+   "gloss": "to stop",
+   "pos": "verb",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "雨が止むまで待ちましょう。",
+     "en": "Let's wait until it stops raining.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 189684,
+      "url": "https://tatoeba.org/en/sentences/show/189684",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "雨が止むまで待ちましょう。",
+      "translation": "Let's wait until it stops raining."
+     }
+    },
+    {
+     "jp": "雨は間もなく止むでしょう。",
+     "en": "It will stop raining soon.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 189548,
+      "url": "https://tatoeba.org/en/sentences/show/189548",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "雨は間もなく止むでしょう。",
+      "translation": "It will stop raining soon."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "止む",
+     "matched": "止む【やむ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to cease; to stop; to be over"
+     ],
+     "pos": [
+      "Godan verb with 'mu' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_kion",
+   "jp": "気温",
+   "kana": "きおん",
+   "romaji": "kion",
+   "en": "(air) temperature",
+   "gloss": "(air) temperature",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今の気温は何度ですか？",
+     "en": "What's the temperature now?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8599996,
+      "url": "https://tatoeba.org/en/sentences/show/8599996",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今の気温は何度ですか？",
+      "translation": "What's the temperature now?"
+     }
+    },
+    {
+     "jp": "気温が急に下がった。",
+     "en": "The temperature has suddenly dropped.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 183230,
+      "url": "https://tatoeba.org/en/sentences/show/183230",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "気温が急に下がった。",
+      "translation": "The temperature has suddenly dropped."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L4",
+     "activity": 3,
+     "entry": "気温【きおん】 (air) temperature",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "気温",
+     "matched": "気温【きおん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "(air) temperature"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_kisetsu",
+   "jp": "季節",
+   "kana": "きせつ",
+   "romaji": "kisetsu",
+   "en": "season",
+   "gloss": "season",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "桜の季節が大好きです。",
+     "en": "I love cherry blossom season.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12163699,
+      "url": "https://tatoeba.org/en/sentences/show/12163699",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "桜の季節が大好きです。",
+      "translation": "I love cherry blossom season."
+     }
+    },
+    {
+     "jp": "夏は一番暑い季節です。",
+     "en": "Summer is the hottest season.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1791037,
+      "url": "https://tatoeba.org/en/sentences/show/1791037",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "夏は一番暑い季節です。",
+      "translation": "Summer is the hottest season."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "季節【きせつ】 season",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L9",
+     "activity": 1,
+     "entry": "季節【きせつ】 season",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "季節",
+     "matched": "季節【きせつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "season; time of year",
+      "Season"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_haru",
+   "jp": "春",
+   "kana": "はる",
+   "romaji": "haru",
+   "en": "spring (season)",
+   "gloss": "spring",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "time"
+   ],
+   "examples": [
+    {
+     "jp": "春が来た。",
+     "en": "Spring has come.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2654859,
+      "url": "https://tatoeba.org/en/sentences/show/2654859",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "春が来た。",
+      "translation": "Spring has come."
+     }
+    },
+    {
+     "jp": "もうすぐ春だ。",
+     "en": "It'll soon be spring.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2684826,
+      "url": "https://tatoeba.org/en/sentences/show/2684826",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "もうすぐ春だ。",
+      "translation": "It'll soon be spring."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "春【はる】 spring",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "春",
+     "matched": "春【はる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "spring; springtime",
+      "New Year",
+      "prime (of life); height (of one's prosperity); heyday",
+      "adolescence; puberty"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "we_sakura",
+     "rel": "spring sight: cherry blossoms"
+    }
+   ]
+  },
+  {
+   "id": "we_natsu",
+   "jp": "夏",
+   "kana": "なつ",
+   "romaji": "natsu",
+   "en": "summer",
+   "gloss": "summer",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "time"
+   ],
+   "examples": [
+    {
+     "jp": "夏が来た。",
+     "en": "Summer has come.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 187256,
+      "url": "https://tatoeba.org/en/sentences/show/187256",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "夏が来た。",
+      "translation": "Summer has come."
+     }
+    },
+    {
+     "jp": "夏が一番好き。",
+     "en": "I like summer best.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11138359,
+      "url": "https://tatoeba.org/en/sentences/show/11138359",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "夏が一番好き。",
+      "translation": "I like summer best."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "夏【なつ】 summer",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "夏",
+     "matched": "夏【なつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "summer",
+      "Summer"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_aki",
+   "jp": "秋",
+   "kana": "あき",
+   "romaji": "aki",
+   "en": "autumn; fall",
+   "gloss": "autumn",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "time"
+   ],
+   "examples": [
+    {
+     "jp": "秋が好きです。",
+     "en": "I like autumn.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11910301,
+      "url": "https://tatoeba.org/en/sentences/show/11910301",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "秋が好きです。",
+      "translation": "I like autumn."
+     }
+    },
+    {
+     "jp": "秋は涼しいです。",
+     "en": "Autumn is cool.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10901732,
+      "url": "https://tatoeba.org/en/sentences/show/10901732",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "秋は涼しいです。",
+      "translation": "Autumn is cool."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "秋【あき】 autumn / fall",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "秋",
+     "matched": "秋【あき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "autumn; fall"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "we_kouyou",
+     "rel": "autumn sight: autumn leaves"
+    }
+   ]
+  },
+  {
+   "id": "we_fuyu",
+   "jp": "冬",
+   "kana": "ふゆ",
+   "romaji": "fuyu",
+   "en": "winter",
+   "gloss": "winter",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "time"
+   ],
+   "examples": [
+    {
+     "jp": "冬は寒いよ。",
+     "en": "It's cold in the winter.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9725744,
+      "url": "https://tatoeba.org/en/sentences/show/9725744",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "冬は寒いよ。",
+      "translation": "It's cold in the winter."
+     }
+    },
+    {
+     "jp": "まもなく冬だ。",
+     "en": "It will be winter before long.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 195261,
+      "url": "https://tatoeba.org/en/sentences/show/195261",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "まもなく冬だ。",
+      "translation": "It will be winter before long."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "冬【ふゆ】 winter",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "冬",
+     "matched": "冬【ふゆ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "winter",
+      "Winter"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_tsuyu",
+   "jp": "梅雨",
+   "kana": "つゆ",
+   "romaji": "tsuyu",
+   "en": "rainy season (early summer)",
+   "gloss": "rainy season",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "note": "In Kyoto usually early June to mid-July.",
+   "examples": [
+    {
+     "jp": "梅雨に入った。",
+     "en": "The rainy season has set in.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 121517,
+      "url": "https://tatoeba.org/en/sentences/show/121517",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "梅雨に入った。",
+      "translation": "The rainy season has set in."
+     }
+    },
+    {
+     "jp": "梅雨はいつ明けるの？",
+     "en": "When will the rainy season be over?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 121513,
+      "url": "https://tatoeba.org/en/sentences/show/121513",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "梅雨はいつ明けるの？",
+      "translation": "When will the rainy season be over?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "梅雨【つゆ】 tsuyu (rainy season)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "梅雨",
+     "matched": "梅雨【つゆ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "(East Asian) rainy season (in Japan, usu. from early June to mid-July)",
+      "rain during the rainy season",
+      "East Asian rainy season"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_atatakai",
+   "jp": "暖かい",
+   "kana": "あたたかい",
+   "romaji": "atatakai",
+   "en": "warm (weather)",
+   "gloss": "warm",
+   "pos": "i-adj",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "今日は暖かいな。",
+     "en": "It's warm today.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9819175,
+      "url": "https://tatoeba.org/en/sentences/show/9819175",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今日は暖かいな。",
+      "translation": "It's warm today."
+     }
+    },
+    {
+     "jp": "暖かい日でした。",
+     "en": "It was a warm day.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 127305,
+      "url": "https://tatoeba.org/en/sentences/show/127305",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "暖かい日でした。",
+      "translation": "It was a warm day."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "暖かい【あたたかい】 warm",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 1,
+     "entry": "暖かい【あたたかい】 warm",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "暖かい",
+     "matched": "暖かい【あたたかい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "warm; mild; (pleasantly) hot",
+      "considerate; kind; genial",
+      "warm (of a colour); mellow",
+      "having enough money"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "we_suzushii",
+     "rel": "contrast: cool (autumn)"
+    }
+   ]
+  },
+  {
+   "id": "we_suzushii",
+   "jp": "涼しい",
+   "kana": "すずしい",
+   "romaji": "suzushii",
+   "en": "cool (weather); refreshing",
+   "gloss": "cool",
+   "pos": "i-adj",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "今日は涼しいです。",
+     "en": "It's cool today.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 171486,
+      "url": "https://tatoeba.org/en/sentences/show/171486",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今日は涼しいです。",
+      "translation": "It's cool today."
+     }
+    },
+    {
+     "jp": "今朝は涼しいですね。",
+     "en": "It's cool this morning, isn't it?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 172247,
+      "url": "https://tatoeba.org/en/sentences/show/172247",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今朝は涼しいですね。",
+      "translation": "It's cool this morning, isn't it?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "涼しい",
+     "matched": "涼しい【すずしい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "cool; refreshing",
+      "clear (e.g. eyes); bright",
+      "clear; distinct",
+      "composed (facial expression); unruffled; unconcerned"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "we_atatakai",
+     "rel": "contrast: warm (spring)"
+    }
+   ]
+  },
+  {
+   "id": "we_mushiatsui",
+   "jp": "蒸し暑い",
+   "kana": "むしあつい",
+   "romaji": "mushiatsui",
+   "en": "hot and humid; muggy",
+   "gloss": "hot and humid",
+   "pos": "i-adj",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "今日は蒸し暑い。",
+     "en": "It's a muggy day today.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13871039,
+      "url": "https://tatoeba.org/en/sentences/show/13871039",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今日は蒸し暑い。",
+      "translation": "It's a muggy day today."
+     }
+    },
+    {
+     "jp": "日本の夏は蒸し暑い。",
+     "en": "Japan is hot and sticky in summer.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 122496,
+      "url": "https://tatoeba.org/en/sentences/show/122496",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "日本の夏は蒸し暑い。",
+      "translation": "Japan is hot and sticky in summer."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "蒸し暑い【むしあつい】 hot and humid",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "蒸し暑い",
+     "matched": "蒸し暑い【むしあつい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "humid; sultry"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "a_atsui",
+     "rel": "stronger: hot and humid"
+    }
+   ]
+  },
+  {
+   "id": "we_shitsudo",
+   "jp": "湿度",
+   "kana": "しつど",
+   "romaji": "shitsudo",
+   "en": "humidity",
+   "gloss": "humidity",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "湿度",
+     "matched": "湿度【しつど】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "humidity",
+      "Humidity"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_ooame",
+   "jp": "大雨",
+   "kana": "おおあめ",
+   "romaji": "ōame",
+   "en": "heavy rain",
+   "gloss": "heavy rain",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "昨日は大雨だった。",
+     "en": "We had a heavy rain yesterday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 169961,
+      "url": "https://tatoeba.org/en/sentences/show/169961",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "昨日は大雨だった。",
+      "translation": "We had a heavy rain yesterday."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "大雨",
+     "matched": "大雨【おおあめ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "heavy rain; torrential rainfall; downpour"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ds_kouzui",
+     "rel": "can lead to flooding"
+    }
+   ]
+  },
+  {
+   "id": "we_taifuu",
+   "jp": "台風",
+   "kana": "たいふう",
+   "romaji": "taifū",
+   "en": "typhoon",
+   "gloss": "typhoon",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "台風が来てます。",
+     "en": "A typhoon's coming.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10227774,
+      "url": "https://tatoeba.org/en/sentences/show/10227774",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "台風が来てます。",
+      "translation": "A typhoon's coming."
+     }
+    },
+    {
+     "jp": "台風は去った。",
+     "en": "The typhoon is gone.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 137786,
+      "url": "https://tatoeba.org/en/sentences/show/137786",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "台風は去った。",
+      "translation": "The typhoon is gone."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L4",
+     "activity": 3,
+     "entry": "台風【たいふう】 typhoon",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "台風【たいふう】 typhoon",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "台風",
+     "matched": "台風【たいふう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "typhoon; hurricane",
+      "Typhoon"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ds_saigai",
+     "rel": "kind of disaster"
+    }
+   ]
+  },
+  {
+   "id": "we_kaminari",
+   "jp": "雷",
+   "kana": "かみなり",
+   "romaji": "kaminari",
+   "en": "thunder; lightning",
+   "gloss": "thunder",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "雷【かみなり】 thunder / lightning",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "雷",
+     "matched": "雷【かみなり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "lightning; thunder; thunderbolt",
+      "god of thunder; god of lightning",
+      "anger; fit of anger",
+      "Lightning"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_sakura",
+   "jp": "桜",
+   "kana": "さくら",
+   "romaji": "sakura",
+   "en": "cherry blossom; cherry tree",
+   "gloss": "cherry blossom",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "桜が満開です。",
+     "en": "Cherry blossoms are in full bloom.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 6878812,
+      "url": "https://tatoeba.org/en/sentences/show/6878812",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "桜が満開です。",
+      "translation": "Cherry blossoms are in full bloom."
+     }
+    },
+    {
+     "jp": "桜が咲いてるよ。",
+     "en": "The cherry trees are in bloom.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9415241,
+      "url": "https://tatoeba.org/en/sentences/show/9415241",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "桜が咲いてるよ。",
+      "translation": "The cherry trees are in bloom."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "桜【さくら】 cherry blossom / cherry tree",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "桜",
+     "matched": "桜【さくら】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "cherry tree; cherry blossom; sakura",
+      "light pink",
+      "fake buyer; paid audience; shill; seat filler",
+      "hired applauder"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "we_haru",
+     "rel": "spring sight: cherry blossoms"
+    }
+   ]
+  },
+  {
+   "id": "we_hanami",
+   "jp": "花見",
+   "kana": "はなみ",
+   "romaji": "hanami",
+   "en": "cherry blossom viewing",
+   "gloss": "cherry blossom viewing",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "activity"
+   ],
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "お花見に行こうよ。",
+     "en": "Why don't we go and see the cherry blossoms?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12035425,
+      "url": "https://tatoeba.org/en/sentences/show/12035425",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お花見に行こうよ。",
+      "translation": "Why don't we go and see the cherry blossoms?"
+     }
+    },
+    {
+     "jp": "花見をしに来ました。",
+     "en": "I came to look at the cherry blossoms.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8623887,
+      "url": "https://tatoeba.org/en/sentences/show/8623887",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "花見をしに来ました。",
+      "translation": "I came to look at the cherry blossoms."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "花見",
+     "matched": "花見【はなみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "cherry blossom viewing; flower viewing",
+      "Hanami"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_kouyou",
+   "jp": "紅葉",
+   "kana": "こうよう",
+   "romaji": "kōyō",
+   "en": "autumn colours; leaves turning red",
+   "gloss": "autumn colours",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "note": "Also read もみじ in the sense \"autumn leaves / maple\"; こうよう is the primary reading.",
+   "examples": [
+    {
+     "jp": "紅葉が始まった。",
+     "en": "The leaves began to turn red and yellow.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2257332,
+      "url": "https://tatoeba.org/en/sentences/show/2257332",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "紅葉が始まった。",
+      "translation": "The leaves began to turn red and yellow."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "紅葉【こうよう】 autumn leaves",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "紅葉",
+     "matched": "紅葉【こうよう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "leaves turning red (in autumn); red leaves; autumn colours; fall colors",
+      "Autumn leaf color"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "we_aki",
+     "rel": "autumn sight: autumn leaves"
+    }
+   ]
+  },
+  {
+   "id": "we_netchuushou",
+   "jp": "熱中症",
+   "kana": "ねっちゅうしょう",
+   "romaji": "netchūshō",
+   "en": "heatstroke; heat exhaustion",
+   "gloss": "heatstroke",
+   "pos": "noun",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "熱中症",
+     "matched": "熱中症【ねっちゅうしょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "heatstroke",
+      "Hyperthermia"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_x_iitenki",
+   "jp": "今日はいい天気ですね",
+   "kana": "きょうはいいてんきですね",
+   "romaji": "kyō wa ii tenki desu ne",
+   "en": "It's nice out today, isn't it?",
+   "gloss": "It's nice out today, isn't it?",
+   "pos": "phrase",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "The standard small-talk opener with neighbours.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 348669,
+     "url": "https://tatoeba.org/en/sentences/show/348669",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "今日はいい天気ですね。",
+     "translation": "It's nice out today, isn't it?"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 初級1 第4課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "第4課",
+     "quote": "今日はいい天気ですね。",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "今日",
+     "matched": "今日【きょう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "today; this day",
+      "these days; recently; nowadays"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "天気",
+     "matched": "天気【てんき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "weather",
+      "fair weather; fine weather"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_x_atsui_ne",
+   "jp": "暑いですね",
+   "kana": "あついですね",
+   "romaji": "atsui desu ne",
+   "en": "It's hot, isn't it?",
+   "gloss": "It's hot, isn't it?",
+   "pos": "phrase",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 8971861,
+     "url": "https://tatoeba.org/en/sentences/show/8971861",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "暑いですね。",
+     "translation": "It's hot, isn't it?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "暑い",
+     "matched": "暑い【あつい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "hot; warm; sultry; heated",
+      "passionate; impassioned; burning (desire, etc.)",
+      "on everybody's mind; on the radar; du jour; interested (gaze, etc.)"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "we_x_samui_ne",
+   "jp": "寒いですね",
+   "kana": "さむいですね",
+   "romaji": "samui desu ne",
+   "en": "It's cold, isn't it?",
+   "gloss": "It's cold, isn't it?",
+   "pos": "phrase",
+   "topic": "weather",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 11041816,
+     "url": "https://tatoeba.org/en/sentences/show/11041816",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "寒いですね。",
+     "translation": "It's cold, isn't it?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "寒い",
+     "matched": "寒い【さむい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "cold (e.g. weather)",
+      "uninteresting (esp. joke); lame; dull; weak; corny"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "we_x_ame_furisou",
+   "jp": "雨が降りそうですね",
+   "kana": "あめがふりそうですね",
+   "romaji": "ame ga furisō desu ne",
+   "en": "I think it's going to rain.",
+   "gloss": "I think it's going to rain.",
+   "pos": "phrase",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 189750,
+     "url": "https://tatoeba.org/en/sentences/show/189750",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "雨が降りそうですね。",
+     "translation": "I think it's going to rain."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "雨",
+     "matched": "雨【あめ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "rain",
+      "rainy day; rainy weather",
+      "the November suit (in hanafuda)",
+      "Rain"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "降る",
+     "matched": "降る【ふる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to fall (of rain, snow, ash, etc.); to come down",
+      "to form (of frost)",
+      "to beam down (of sunlight or moonlight); to pour in",
+      "to visit (of luck, misfortune, etc.); to come; to arrive"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_x_ame_yanda",
+   "jp": "雨が止んだ",
+   "kana": "あめがやんだ",
+   "romaji": "ame ga yanda",
+   "en": "It has stopped raining.",
+   "gloss": "It has stopped raining.",
+   "pos": "phrase",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "register": "casual",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 189682,
+     "url": "https://tatoeba.org/en/sentences/show/189682",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "雨が止んだ。",
+     "translation": "It has stopped raining."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "雨",
+     "matched": "雨【あめ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "rain",
+      "rainy day; rainy weather",
+      "the November suit (in hanafuda)",
+      "Rain"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "止む",
+     "matched": "止む【やむ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to cease; to stop; to be over"
+     ],
+     "pos": [
+      "Godan verb with 'mu' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_x_yuki_futte",
+   "jp": "雪が降っています",
+   "kana": "ゆきがふっています",
+   "romaji": "yuki ga futte imasu",
+   "en": "Snow is falling.",
+   "gloss": "Snow is falling.",
+   "pos": "phrase",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 4975839,
+     "url": "https://tatoeba.org/en/sentences/show/4975839",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "雪が降っています。",
+     "translation": "Snow is falling."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "雪",
+     "matched": "雪【ゆき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "snow; snowfall",
+      "Snow"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "降る",
+     "matched": "降る【ふる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to fall (of rain, snow, ash, etc.); to come down",
+      "to form (of frost)",
+      "to beam down (of sunlight or moonlight); to pour in",
+      "to visit (of luck, misfortune, etc.); to come; to arrive"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_x_yohou_dou",
+   "jp": "天気予報はどうですか？",
+   "kana": "てんきよほうはどうですか？",
+   "romaji": "tenki yohō wa dō desu ka?",
+   "en": "What is the weather forecast?",
+   "gloss": "What is the weather forecast?",
+   "pos": "phrase",
+   "topic": "weather",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 13118125,
+     "url": "https://tatoeba.org/en/sentences/show/13118125",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "天気予報はどうですか？",
+     "translation": "What is the weather forecast?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "天気予報",
+     "matched": "天気予報【てんきよほう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "weather forecast; weather report",
+      "Weather forecasting"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "we_x_hareru_deshou",
+   "jp": "明日は晴れるでしょう",
+   "kana": "あしたははれるでしょう",
+   "romaji": "ashita wa hareru deshō",
+   "en": "It will probably be sunny tomorrow.",
+   "gloss": "It will probably be sunny tomorrow.",
+   "pos": "phrase",
+   "topic": "weather",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "say_when": "Weather-forecast style: 〜でしょう = probably.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 初級1 第4課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "第4課",
+     "quote": "明日は晴れるでしょう。",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "明日",
+     "matched": "明日【あした】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "tomorrow",
+      "near future"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "晴れる",
+     "matched": "晴れる【はれる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to clear up; to clear away; to be sunny; to stop raining",
+      "to refresh (e.g. spirits)",
+      "to be cleared (e.g. of a suspicion)",
+      "to be dispelled; to be banished"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  }
+ ]
+}

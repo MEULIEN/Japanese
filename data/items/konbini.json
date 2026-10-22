@@ -1271,6 +1271,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "we_ame",
+     "rel": "you need one"
+    }
    ]
   },
   {
@@ -5464,6 +5470,154 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "ct_mai",
+   "jp": "〜枚",
+   "kana": "〜まい",
+   "romaji": "〜mai",
+   "en": "~ sheets (counter for flat things: paper, tickets, shirts)",
+   "gloss": "~ sheets",
+   "pos": "counter",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "note": "No sound changes: 1枚 いちまい, 2枚 にまい, 3枚 さんまい.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 2,
+     "entry": "～枚【～まい】 ～ sheets",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "枚",
+     "matched": "枚【まい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "counter for thin, flat objects (e.g. sheets of paper, plates, coins)",
+      "counter for portions of gyōza or soba",
+      "counter for ranks",
+      "counter for wrestlers of a particular rank"
+     ],
+     "pos": [
+      "Counter"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ct_hon",
+     "rel": "contrast: long things"
+    }
+   ]
+  },
+  {
+   "id": "ct_hon",
+   "jp": "〜本",
+   "kana": "〜ほん",
+   "romaji": "〜hon",
+   "en": "~ bottles; ~ long thin things (counter: bottles, pens, umbrellas)",
+   "gloss": "~ bottles",
+   "pos": "counter",
+   "topic": "konbini",
+   "tier": 1,
+   "use": "say",
+   "note": "Sound changes: 1本 いっぽん, 2本 にほん, 3本 さんぼん, 6本 ろっぽん, 8本 はっぽん, 10本 じゅっぽん (Irodori lists ほん／ぽん／ぼん).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "～本　（1本）【～ほん／ぽん／ぼん　（いっぽん）】 ～ bottles　(e.g. 1 bottle)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "本",
+     "matched": "本【ほん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "book; volume; script",
+      "this; present; current; ... in question; ... at issue",
+      "main; head; principal",
+      "real; genuine; regular; proper"
+     ],
+     "pos": [
+      "Noun",
+      "Prefix",
+      "Counter"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ct_mai",
+     "rel": "contrast: flat things"
+    }
+   ]
+  },
+  {
+   "id": "ct_satsu",
+   "jp": "〜冊",
+   "kana": "〜さつ",
+   "romaji": "〜satsu",
+   "en": "~ books (counter for books and magazines)",
+   "gloss": "~ books",
+   "pos": "counter",
+   "topic": "konbini",
+   "tier": 2,
+   "use": "say",
+   "note": "1冊 いっさつ, 8冊 はっさつ, 10冊 じゅっさつ.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L13",
+     "activity": 3,
+     "entry": "～冊  （10冊）【～さつ　（じゅっさつ）】 ～ book(s)　(e.g. 10 books)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "冊",
+     "matched": "冊【さつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "counter for books",
+      "volume"
+     ],
+     "pos": [
+      "Counter",
+      "Noun"
+     ],
+     "checked": "2026-10-23"
     }
    ]
   }

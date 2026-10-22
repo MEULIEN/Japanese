@@ -225,6 +225,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "cl_kaikei",
+     "rel": "restaurant: the polite word for the bill"
+    }
    ]
   },
   {
@@ -494,6 +500,12 @@
    ],
    "aliases": [
     "g_tsu1"
+   ],
+   "links": [
+    {
+     "id": "ct_hai",
+     "rel": "general counter for things"
+    }
    ]
   },
   {
@@ -729,6 +741,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "ct_nin",
+     "rel": "one/two people: ひとり, ふたり"
+    }
    ]
   },
   {
@@ -915,6 +933,12 @@
       "Transitive verb"
      ],
      "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_uketsuke",
+     "rel": "at the clinic: check in at reception"
     }
    ]
   },
@@ -4851,6 +4875,118 @@
      "activity": 2,
      "entry": "お持ち帰りですね【おもちかえりですね】 That's to take out, right? (polite expression)",
      "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "ct_hai",
+   "jp": "〜杯",
+   "kana": "〜はい",
+   "romaji": "〜hai",
+   "en": "~ cups; ~ glasses (counter for drinks, bowls)",
+   "gloss": "~ cups",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "note": "Sound changes: 1杯 いっぱい, 3杯 さんばい, 6杯 ろっぱい, 10杯 じゅっぱい.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L10",
+     "activity": 4,
+     "entry": "～杯【～はい】 ～ glass(es)",
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_hitotsu",
+     "rel": "general counter for things"
+    }
+   ]
+  },
+  {
+   "id": "ct_nin",
+   "jp": "〜人",
+   "kana": "〜にん",
+   "romaji": "〜nin",
+   "en": "~ people (counter for people)",
+   "gloss": "~ people",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 1,
+   "use": "say",
+   "note": "For one and two people use 一人 ひとり and 二人 ふたり; from three: 3人 さんにん, 4人 よにん.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L2",
+     "activity": 3,
+     "entry": "～人【～にん】 ～ person(s)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "人",
+     "matched": "人【にん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "counter for people"
+     ],
+     "pos": [
+      "Counter"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ct_mei",
+     "rel": "formal (staff)"
+    },
+    {
+     "id": "w_futari",
+     "rel": "one/two people: ひとり, ふたり"
+    }
+   ]
+  },
+  {
+   "id": "ct_mei",
+   "jp": "〜名",
+   "kana": "〜めい",
+   "romaji": "〜mei",
+   "en": "~ people (formal counter for people)",
+   "gloss": "~ people",
+   "pos": "counter",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "hear",
+   "note": "Staff use 〜名様 (e.g. 2名様) when confirming party size.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L3",
+     "activity": 3,
+     "entry": "～名　（2名）【～めい　（にめい）】 ～ people / ～ person(s)　(e.g. 2 people)",
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ct_nin",
+     "rel": "everyday"
     }
    ]
   }

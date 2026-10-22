@@ -1,0 +1,1424 @@
+{
+ "topic": "disaster",
+ "items": [
+  {
+   "id": "ds_jishin",
+   "jp": "地震",
+   "kana": "じしん",
+   "romaji": "jishin",
+   "en": "earthquake",
+   "gloss": "earthquake",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "昨日地震があった。",
+     "en": "There was an earthquake yesterday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 342174,
+      "url": "https://tatoeba.org/en/sentences/show/342174",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "昨日地震があった。",
+      "translation": "There was an earthquake yesterday."
+     }
+    },
+    {
+     "jp": "私は地震が怖い。",
+     "en": "I'm afraid of earthquakes.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 155126,
+      "url": "https://tatoeba.org/en/sentences/show/155126",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私は地震が怖い。",
+      "translation": "I'm afraid of earthquakes."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L7",
+     "activity": 1,
+     "entry": "地震【じしん】 earthquake",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "地震【じしん】 earthquake",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "地震",
+     "matched": "地震【じしん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "earthquake",
+      "Earthquake"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ds_yure",
+     "rel": "the shaking"
+    },
+    {
+     "id": "ds_shindo",
+     "rel": "how strong (seismic intensity)"
+    }
+   ]
+  },
+  {
+   "id": "ds_saigai",
+   "jp": "災害",
+   "kana": "さいがい",
+   "romaji": "saigai",
+   "en": "disaster; calamity",
+   "gloss": "disaster",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "災害【さいがい】 disaster",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "災害",
+     "matched": "災害【さいがい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "calamity; disaster; misfortune",
+      "Disaster"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "we_taifuu",
+     "rel": "kind of disaster"
+    }
+   ]
+  },
+  {
+   "id": "ds_hinan",
+   "jp": "避難",
+   "kana": "ひなん",
+   "romaji": "hinan",
+   "en": "evacuation; taking refuge",
+   "gloss": "evacuation",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "私たちは木の下に避難した。",
+     "en": "We took shelter under a tree.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10300314,
+      "url": "https://tatoeba.org/en/sentences/show/10300314",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私たちは木の下に避難した。",
+      "translation": "We took shelter under a tree."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 2,
+     "entry": "避難【ひなん】 evacuation",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "避難",
+     "matched": "避難【ひなん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "taking refuge; finding shelter; evacuation; escape; seeking safe haven"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ds_hinanjo",
+     "rel": "where you go"
+    }
+   ]
+  },
+  {
+   "id": "ds_hinanjo",
+   "jp": "避難所",
+   "kana": "ひなんじょ",
+   "romaji": "hinanjo",
+   "en": "evacuation center; shelter",
+   "gloss": "evacuation center",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "あぁ、避難所があったらなぁ。",
+     "en": "Ah, I wish there was a shelter.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2116689,
+      "url": "https://tatoeba.org/en/sentences/show/2116689",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "あぁ、避難所があったらなぁ。",
+      "translation": "Ah, I wish there was a shelter."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "避難所【ひなんじょ】 evacuation center",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "避難所",
+     "matched": "避難所【ひなんじょ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "shelter; safe shelter; evacuation shelter; place of refuge"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ds_hinan",
+     "rel": "where you go"
+    }
+   ]
+  },
+  {
+   "id": "ds_bousai",
+   "jp": "防災",
+   "kana": "ぼうさい",
+   "romaji": "bōsai",
+   "en": "disaster prevention; disaster preparedness",
+   "gloss": "disaster prevention",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L7",
+     "activity": 1,
+     "entry": "防災【ぼうさい】 disaster preparedness",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "防災",
+     "matched": "防災【ぼうさい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "disaster preparedness; prevention of damage resulting from a natural disaster; protection against disaster",
+      "Emergency management"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_tsunami",
+   "jp": "津波",
+   "kana": "つなみ",
+   "romaji": "tsunami",
+   "en": "tsunami; tidal wave",
+   "gloss": "tsunami",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "津波が日本を襲った。",
+     "en": "Tsunami hit Japan.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13537405,
+      "url": "https://tatoeba.org/en/sentences/show/13537405",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "津波が日本を襲った。",
+      "translation": "Tsunami hit Japan."
+     }
+    },
+    {
+     "jp": "津波が来ますので注意してください。",
+     "en": "A tsunami is coming, so please be on the alert.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 789592,
+      "url": "https://tatoeba.org/en/sentences/show/789592",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "津波が来ますので注意してください。",
+      "translation": "A tsunami is coming, so please be on the alert."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "津波【つなみ】 tsunami",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "津波",
+     "matched": "津波【つなみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "tsunami; tidal wave",
+      "Tsunami",
+      "Tsunami"
+     ],
+     "pos": [
+      "Noun",
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_kouzui",
+   "jp": "洪水",
+   "kana": "こうずい",
+   "romaji": "kōzui",
+   "en": "flood",
+   "gloss": "flood",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "地震や洪水は天災です。",
+     "en": "Earthquakes and floods are natural disasters.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 126868,
+      "url": "https://tatoeba.org/en/sentences/show/126868",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "地震や洪水は天災です。",
+      "translation": "Earthquakes and floods are natural disasters."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "洪水",
+     "matched": "洪水【こうずい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "flood; flooding",
+      "Flood"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "we_ooame",
+     "rel": "can lead to flooding"
+    }
+   ]
+  },
+  {
+   "id": "ds_yure",
+   "jp": "揺れ",
+   "kana": "ゆれ",
+   "romaji": "yure",
+   "en": "shaking; tremor",
+   "gloss": "shaking",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 2,
+   "use": "hear",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "揺れ【ゆれ】 shake",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "揺れ",
+     "matched": "揺れ【ゆれ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "shaking; shake; jolt; jolting; vibration; tremor; flickering",
+      "unsettledness; instability; vacillating; wavering",
+      "existence of multiple spellings, pronunciations, usages, etc. for a single word"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ds_jishin",
+     "rel": "the shaking"
+    }
+   ]
+  },
+  {
+   "id": "ds_yureru",
+   "jp": "揺れる",
+   "kana": "ゆれる",
+   "romaji": "yureru",
+   "en": "to shake; to sway",
+   "gloss": "to shake",
+   "pos": "verb",
+   "topic": "disaster",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "家が揺れるのを感じた。",
+     "en": "I felt the house shake.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 187139,
+      "url": "https://tatoeba.org/en/sentences/show/187139",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "家が揺れるのを感じた。",
+      "translation": "I felt the house shake."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "揺れる【ゆれる】 to shake",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "揺れる",
+     "matched": "揺れる【ゆれる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to shake; to sway; to rock; to swing; to tremble; to jolt; to pitch; to roll; to flicker",
+      "to become unstable; to become unsettled; to be shaken; to waver"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_shindo",
+   "jp": "震度",
+   "kana": "しんど",
+   "romaji": "shindo",
+   "en": "seismic intensity (Japanese scale)",
+   "gloss": "seismic intensity",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 2,
+   "use": "hear",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 2,
+     "entry": "震度【しんど】 earthquake intensity",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "震度",
+     "matched": "震度【しんど】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "seismic intensity",
+      "Seismic scale"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ds_jishin",
+     "rel": "how strong (seismic intensity)"
+    }
+   ]
+  },
+  {
+   "id": "ds_kinkyuujishinsokuhou",
+   "jp": "緊急地震速報",
+   "kana": "きんきゅうじしんそくほう",
+   "romaji": "kinkyūjishinsokuhō",
+   "en": "earthquake early warning",
+   "gloss": "earthquake early warning",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 1,
+   "use": "hear",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "緊急地震速報【きんきゅうじしんそくほう】 earthquake early warning",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "緊急地震速報",
+     "matched": "緊急地震速報【きんきゅうじしんそくほう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "Earthquake Early Warning; EEW",
+      "Earthquake Early Warning (Japan)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_nigeru",
+   "jp": "逃げる",
+   "kana": "にげる",
+   "romaji": "nigeru",
+   "en": "to escape; to run away",
+   "gloss": "to escape",
+   "pos": "verb",
+   "topic": "disaster",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "逃げる時だと思います。",
+     "en": "I think it's time to run.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5388490,
+      "url": "https://tatoeba.org/en/sentences/show/5388490",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "逃げる時だと思います。",
+      "translation": "I think it's time to run."
+     }
+    },
+    {
+     "jp": "逃げるすきはなかった。",
+     "en": "I had no chance to escape.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 123887,
+      "url": "https://tatoeba.org/en/sentences/show/123887",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "逃げるすきはなかった。",
+      "translation": "I had no chance to escape."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 2,
+     "entry": "逃げる【にげる】 to escape",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "逃げる",
+     "matched": "逃げる【にげる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to run away; to flee; to get away (e.g. from danger); to escape; to break out; to leave (e.g. one's spouse); to take cover",
+      "to avoid (a question, responsibility, etc.); to evade; to dodge; to shirk; to back away",
+      "to win without being overtaken; to hold off the other contenders (until the finish); to keep the lead (and win)",
+      "to escape (of heat, a gas, etc.); to leak out (e.g. of a scent); to be lost (e.g. of flavor)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_abunai",
+   "jp": "危ない",
+   "kana": "あぶない",
+   "romaji": "abunai",
+   "en": "dangerous; watch out!",
+   "gloss": "dangerous",
+   "pos": "i-adj",
+   "topic": "disaster",
+   "tier": 1,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "危ない！",
+     "en": "Look out!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 183597,
+      "url": "https://tatoeba.org/en/sentences/show/183597",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "危ない！",
+      "translation": "Look out!"
+     }
+    },
+    {
+     "jp": "ここは危ないよ。",
+     "en": "It's not safe here.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11597082,
+      "url": "https://tatoeba.org/en/sentences/show/11597082",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ここは危ないよ。",
+      "translation": "It's not safe here."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 3,
+     "entry": "危ない【あぶない】 dangerous",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "危ない",
+     "matched": "危ない【あぶない】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "dangerous; risky; hazardous; perilous; precarious",
+      "in danger; in jeopardy; critical; grave; at risk",
+      "uncertain; unreliable; insecure; unsteady; doubtful",
+      "close (call); narrow (escape)"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_anzen",
+   "jp": "安全",
+   "kana": "あんぜん",
+   "romaji": "anzen",
+   "en": "safety; safe",
+   "gloss": "safety",
+   "pos": "na-adj",
+   "topic": "disaster",
+   "tier": 2,
+   "use": "say",
+   "adj_class": "na",
+   "examples": [
+    {
+     "jp": "ここは安全なの？",
+     "en": "Is it safe here?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8719699,
+      "url": "https://tatoeba.org/en/sentences/show/8719699",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ここは安全なの？",
+      "translation": "Is it safe here?"
+     }
+    },
+    {
+     "jp": "安全が第一だよ。",
+     "en": "Safety is the most important thing.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10914440,
+      "url": "https://tatoeba.org/en/sentences/show/10914440",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "安全が第一だよ。",
+      "translation": "Safety is the most important thing."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "安全（な）【あんぜん（な）】 safe",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "安全",
+     "matched": "安全【あんぜん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "safety; security"
+     ],
+     "pos": [
+      "Noun",
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_shoukaki",
+   "jp": "消火器",
+   "kana": "しょうかき",
+   "romaji": "shōkaki",
+   "en": "fire extinguisher",
+   "gloss": "fire extinguisher",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 2,
+     "entry": "消火器【しょうかき】 fire extinguisher",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "消火器",
+     "matched": "消火器【しょうかき】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "fire extinguisher",
+      "Fire extinguisher"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_kaji",
+     "rel": "for a fire"
+    }
+   ]
+  },
+  {
+   "id": "ds_shouboushou",
+   "jp": "消防署",
+   "kana": "しょうぼうしょ",
+   "romaji": "shōbōsho",
+   "en": "fire station",
+   "gloss": "fire station",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "place"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 2,
+     "entry": "消防署【しょうぼうしょ】 fire station / fire department",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "消防署",
+     "matched": "消防署【しょうぼうしょ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "fire station",
+      "Fire station"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_kaichuudentou",
+   "jp": "懐中電灯",
+   "kana": "かいちゅうでんとう",
+   "romaji": "kaichūdentō",
+   "en": "flashlight; torch",
+   "gloss": "flashlight",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "誰か懐中電灯持ってない？",
+     "en": "Does anyone have a flashlight?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9678854,
+      "url": "https://tatoeba.org/en/sentences/show/9678854",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "誰か懐中電灯持ってない？",
+      "translation": "Does anyone have a flashlight?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "懐中電灯【かいちゅうでんとう】 torch",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "懐中電灯【かいちゅうでんとう】 torch",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "懐中電灯",
+     "matched": "懐中電灯【かいちゅうでんとう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "(electric) torch; flashlight",
+      "Flashlight"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_teiden",
+     "rel": "for a power cut"
+    }
+   ]
+  },
+  {
+   "id": "ds_hijoushoku",
+   "jp": "非常食",
+   "kana": "ひじょうしょく",
+   "romaji": "hijōshoku",
+   "en": "emergency food (rations)",
+   "gloss": "emergency food",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "非常食【ひじょうしょく】 emergency food",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "非常食",
+     "matched": "非常食【ひじょうしょく】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "emergency food; emergency rations"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_hinankunren",
+   "jp": "避難訓練",
+   "kana": "ひなんくんれん",
+   "romaji": "hinankunren",
+   "en": "evacuation drill",
+   "gloss": "evacuation drill",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L7",
+     "activity": 1,
+     "entry": "避難訓練【ひなんくんれん】 evacuation drill",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 2,
+     "entry": "避難訓練【ひなんくんれん】 evacuation drill",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "避難訓練",
+     "matched": "避難訓練【ひなんくんれん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "disaster drill",
+      "Fire drill"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_keisatsu",
+   "jp": "警察",
+   "kana": "けいさつ",
+   "romaji": "keisatsu",
+   "en": "police",
+   "gloss": "police",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "警察を呼んで！",
+     "en": "Call the police!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5120,
+      "url": "https://tatoeba.org/en/sentences/show/5120",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "警察を呼んで！",
+      "translation": "Call the police!"
+     }
+    },
+    {
+     "jp": "警察が来てる。",
+     "en": "The police are coming.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4561560,
+      "url": "https://tatoeba.org/en/sentences/show/4561560",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "警察が来てる。",
+      "translation": "The police are coming."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 2,
+     "entry": "警察【けいさつ】 police",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "警察",
+     "matched": "警察【けいさつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "police",
+      "police officer",
+      "police station",
+      "self-appointed enforcer (of a rule, standard, etc.); busybody; vigilante; gatekeeper"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a suffix",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_kyuusui",
+   "jp": "給水",
+   "kana": "きゅうすい",
+   "romaji": "kyūsui",
+   "en": "water supply (e.g. emergency water distribution)",
+   "gloss": "water supply",
+   "pos": "noun",
+   "topic": "disaster",
+   "tier": 3,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "給水",
+     "matched": "給水【きゅうすい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "water supply; supplied water; water refill"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_ochitsuku",
+   "jp": "落ち着く",
+   "kana": "おちつく",
+   "romaji": "ochitsuku",
+   "en": "to calm down; to keep calm",
+   "gloss": "to calm down",
+   "pos": "verb",
+   "topic": "disaster",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "ここは落ち着くよ。",
+     "en": "I feel safe here.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8657770,
+      "url": "https://tatoeba.org/en/sentences/show/8657770",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ここは落ち着くよ。",
+      "translation": "I feel safe here."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "落ち着く【おちつく】 to be calm",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "落ち着く",
+     "matched": "落ち着く【おちつく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "to calm down; to compose oneself; to regain presence of mind; to relax",
+      "to calm down; to settle down; to die down; to become stable; to abate",
+      "to settle down (in a location, job, etc.); to settle in",
+      "to be settled (of an arrangement, conclusion, etc.); to be fixed; to have been reached"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_x_daijoubu_desuka",
+   "jp": "大丈夫ですか？",
+   "kana": "だいじょうぶですか？",
+   "romaji": "daijōbu desu ka?",
+   "en": "Are you all right?",
+   "gloss": "Are you all right?",
+   "pos": "phrase",
+   "topic": "disaster",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Check on someone after a fall, an accident or an earthquake.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 137493,
+     "url": "https://tatoeba.org/en/sentences/show/137493",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "大丈夫ですか？",
+     "translation": "Are you all right?"
+    }
+   ]
+  },
+  {
+   "id": "ds_x_nigete",
+   "jp": "逃げて！",
+   "kana": "にげて！",
+   "romaji": "nigete!",
+   "en": "Escape! Run!",
+   "gloss": "Escape! Run!",
+   "pos": "phrase",
+   "topic": "disaster",
+   "tier": 2,
+   "use": "hear",
+   "register": "casual",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 8858171,
+     "url": "https://tatoeba.org/en/sentences/show/8858171",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "逃げて！",
+     "translation": "Escape!"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "逃げる",
+     "matched": "逃げる【にげる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to run away; to flee; to get away (e.g. from danger); to escape; to break out; to leave (e.g. one's spouse); to take cover",
+      "to avoid (a question, responsibility, etc.); to evade; to dodge; to shirk; to back away",
+      "to win without being overtaken; to hold off the other contenders (until the finish); to keep the lead (and win)",
+      "to escape (of heat, a gas, etc.); to leak out (e.g. of a scent); to be lost (e.g. of flavor)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ds_x_kiwotsukete",
+   "jp": "気をつけて！",
+   "kana": "きをつけて！",
+   "romaji": "ki o tsukete!",
+   "en": "Be careful! Take care.",
+   "gloss": "Be careful! Take care.",
+   "pos": "phrase",
+   "topic": "disaster",
+   "tier": 1,
+   "use": "say",
+   "register": "casual",
+   "say_when": "Also said to someone leaving: (お)気をつけて = take care.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 1266928,
+     "url": "https://tatoeba.org/en/sentences/show/1266928",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "気をつけて！",
+     "translation": "Take care."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "気をつけて",
+     "matched": "気をつけて【きをつけて】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "take care; be careful"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  }
+ ]
+}

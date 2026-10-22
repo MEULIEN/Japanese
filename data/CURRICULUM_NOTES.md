@@ -1,5 +1,145 @@
 # Curriculum notes
 
+## Update 2026-10-23: clinic, weather, disaster, services; Kyoto rubbish; counters
+
+The curriculum now has **1135 verified items in 24 topic files** (881 before). 26 items are in `data/quarantine.json` (22 before).
+
+### Counts (before → after)
+
+| topic | before | after | notes |
+|---|---|---|---|
+| **clinic** (new, order 21) | 0 | 138 | 106 say, 12 hear, 20 read, 37 phrases, 58 with examples; 5 items moved in from health |
+| **weather** (new, order 22) | 0 | 37 | 8 phrases |
+| **disaster** (new, order 23) | 0 | 25 | 3 phrases |
+| **services** (new, order 24) | 0 | 30 | hair salon, laundry, phone shop |
+| home | 45 | 67 | home internet, Kyoto rubbish categories |
+| konbini | 115 | 118 | 〜枚, 〜本, 〜冊 |
+| restaurant | 95 | 98 | 〜杯, 〜人, 〜名 |
+| time | 31 | 32 | 〜週間 |
+| health | 36 | 31 | 5 items moved to clinic |
+
+**Moved from health to clinic (ids unchanged):** hl_monshinhyou, hl_shinsatsuken, hl_shinsatsu, hl_shoshin and hl_x_hokenshou_teiji. Health keeps the general words (薬, 病院, 熱, 処方箋, 救急車 …) and the clinic topic links to them.
+
+### Evidence
+
+- **Words:** `scripts/verify_jmdict.js`, 215 candidates. 7 needed review and were checked by hand: 休診, 回, 度, 燃えないごみ (English reworded to match JMdict); 〜杯, 〜名, 〜日分 (Irodori counter entries only); 大型ごみ (no JMdict entry, see below).
+- **Irodori** is the main life-in-Japan source:
+  - 初級1 L15 (clinic and pharmacy): symptoms, 問診票, 食後, 〜錠, 〜日分, 〜度〜分, どうしましたか？, どうされましたか？, お大事に
+  - 初級1 L16 (health): body parts, クリニック, 腹痛, 下痢
+  - 初級1 L3/L4 (seasons and weather)
+  - 初級2 L14 (barber, salon, dry cleaner, coin laundry, phone shop, かゆいところはございませんか？)
+  - 初級2 L15 (rubbish sorting)
+  - 初級2 L16 (earthquakes and fire)
+  - 文型リスト 初級1 第4課 (今日はいい天気ですね。, 明日は晴れるでしょう。) and 初級2 第14課 (全体的に短く切ってください。)
+  - Counter items cite the exact counter entry. For example, 〜本 cites `～本　（1本）` (初級1 L15), not 本 "book".
+- **Kyoto rubbish categories:** Kyoto City, https://www.city.kyoto.lg.jp/sogo/page/0000246821.html, quoted:
+  - 大型ごみ（有料）
+  - 缶・びん・ペットボトル（週1回）
+  - プラスチック類（週1回）
+  - 指定袋（燃やすごみ用／資源ごみ用）
+
+  大型ごみ, 缶・びん・ペットボトル and プラスチック類 have no JMdict entry of their own, so they rest on the city text plus the JMdict entries for their parts (大型, ごみ, 缶, 瓶, ペットボトル, プラスチック, 類). The m_kyoto_garbage milestone tests them. Kyoto says 大型ごみ, not 粗大ごみ, and 燃やすごみ, not 燃えるごみ. The general words stay, linked to the Kyoto terms.
+- **Phrases (50):** each has an exact Tatoeba sentence (matching apart from final 。) or an Irodori word-list or 文型リスト text, plus JMdict sources for its key words. Phrase romaji is written by hand in `romajiC.js`, with spaces between words and particles written は→wa, を→o.
+- **Examples:** 196 new Tatoeba examples (847 in total), at most 2 per tier-1/2 say-item, each 20 characters or fewer and checked by hand for meaning. Rejected:
+  - 分別 sentences, because Tatoeba only has ふんべつ "good sense"
+  - 痛みます as a verb, for the noun 痛み
+  - 夕食前 for 食前
+  - 自然災害 for 災害
+
+  Counters (`〜枚` …) have no examples, because the example check needs the literal `〜` form.
+
+### Judgment calls
+
+- 〜回 sits in clinic, because the dosage 1日3回 is where you need it. 〜度 sits in weather, and its note covers body temperature (38度5分).
+- 〜人 (にん) explains that 1 and 2 people are 一人 and 二人.
+- シミ and びん are written in kana, as Irodori and Kyoto City write them. JMdict lists them under 染み and 瓶.
+- 切る and 捨てる have no `obj`. Generated sentences like 鍵を切る would be unnatural.
+- Departments: 耳鼻科/耳鼻咽喉科 is a synonym group (short and full name), and 内科/外科 is a contrast link.
+- Phrases with digits (2日前から具合は悪い, 38度9分の熱がある) keep Tatoeba's form. The first accepts 二日前から具合は悪い.
+
+### Contrast links (both directions)
+
+- 病院 / 医院 / クリニック
+- 内科 / 外科 / 整形外科
+- 飲み薬 / 塗り薬
+- 食前 / 食後 / 食間
+- 予約 / 受付
+- 診察 / 検査 / 診察室
+- 初診 / 再診
+- 入院 / 退院
+- 診療時間 / 休診日
+- 会計 / お会計
+- 健康保険証 / 保険証
+- 錠 / 錠剤
+- 救急 / 救急外来 / 救急車
+- 風 / 風邪
+- 暖かい / 涼しい
+- 暑い / 蒸し暑い
+- 春 / 桜, 秋 / 紅葉
+- 台風 / 災害, 大雨 / 洪水
+- 地震 / 揺れ / 震度
+- 避難 / 避難所
+- 床屋 / 美容院 / 理髪店
+- クリーニング / コインランドリー
+- 携帯 / 携帯電話 / スマホ
+- 充電 / 充電器
+- 解約 / 違約金
+- 燃やすごみ / 資源ごみ
+- 燃えないごみ / 不燃ごみ
+- 燃えるごみ / 可燃ごみ
+- 粗大ごみ / 大型ごみ
+- 指定袋 / ごみ袋
+- 〜人 / 〜名
+- 〜本 / 〜枚
+
+### Synonym groups added
+
+- 耳鼻科/耳鼻咽喉科
+- 携帯/携帯電話
+- 床屋/理髪店
+- 燃えないごみ/不燃ごみ
+- 燃えるごみ/可燃ごみ
+- 保険証/健康保険証
+
+### Milestones added
+
+- `m_clinic_booking`: book or change an appointment, check in at reception
+- `m_clinic_symptoms`: explain symptoms and how long you have had them
+- `m_pharmacy_medicine`: ask for a medicine and understand the dosage
+- `m_kyoto_garbage`: read Kyoto's rubbish categories and bags
+- `m_earthquake`: react to an earthquake
+- `m_weather_smalltalk`: weather small talk with a neighbour
+
+### Quarantined (4)
+
+| id | text | reason |
+|---|---|---|
+| cl_x_hokenshou_omochi | 保険証はお持ちですか | No exact Tatoeba sentence; Irodori has only お持ちですか？. hl_x_hokenshou_teiji covers the situation. |
+| cl_x_onamae_oyobi | お名前をお呼びするまでお待ちください | No exact evidence. Covered by cl_x_oyobishimasu (Tatoeba 4884623). |
+| cl_x_yoyaku_toru | 予約を取る | Tatoeba has it only inside 予約を取り消す. Covered by 診察の予約をしたいのですが. |
+| cl_x_geri | 下痢をしています | No exact sentence. The word 下痢 is verified, and 昨日から下痢が続いているんです is an example. |
+
+### Not added
+
+- 燃えないごみ is not in Kyoto City's category list. It is kept as a read item for other towns.
+- 小型金属類・スプレー缶 (a Kyoto category, collected monthly) was left out as low-frequency.
+- Wi-Fi: Latin script, so it could only be a read item. It is in Irodori 入門 L7 if wanted.
+- 予約を取る, 熱があります: no evidence (see quarantine).
+
+### Scripts
+
+In the scratchpad `js/` directory:
+- Candidates: `candC.js`
+- Overrides, phrases, links and official quotes: `extraC.js`
+- Selected examples: `exC.js`
+- Phrase romaji: `romajiC.js`
+- Build (with `--write`): `buildC.js`
+- Topics, synonyms and milestones (append-only, keeps file formatting): `metaC.js`
+- Quarantine: `quarC.js`
+- CRLF restore: `eol.js`
+
+---
+
 ## Update 2026-10-22 (b): uploaded packs merged, new admin topics
 
 The curriculum now has **881 verified items in 20 topic files**, with 651 Tatoeba example sentences. 22 items are in `data/quarantine.json`. The earlier notes below (section "Curriculum notes (2026-10-22)") describe the first 455 items and still apply.

@@ -1,0 +1,7583 @@
+{
+ "topic": "clinic",
+ "items": [
+  {
+   "id": "hl_x_hokenshou_teiji",
+   "jp": "毎月初めは保険証を提示してください",
+   "kana": "まいつきはじめはほけんしょうをていじしてください",
+   "romaji": "maitsukihajimehahokenshōoteijishitekudasai",
+   "en": "Please show your insurance card at the start of each month.",
+   "gloss": "Please show your insurance card at the start of each month.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10963743,
+     "url": "https://tatoeba.org/en/sentences/show/10963743",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-22",
+     "text": "毎月初めは保険証を提示してください。",
+     "translation": "Please present your insurance card at the beginning of each month."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "保険証",
+     "matched": "保険証【ほけんしょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "insurance card"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "hl_shoshin",
+   "jp": "初診",
+   "kana": "しょしん",
+   "romaji": "shoshin",
+   "en": "first medical examination (first visit)",
+   "gloss": "first medical examination",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "初診",
+     "matched": "初診【しょしん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "initial medical examination; first visit (to a doctor, clinic, hospital, etc.)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_saishin",
+     "rel": "contrast: follow-up visit"
+    }
+   ]
+  },
+  {
+   "id": "hl_shinsatsu",
+   "jp": "診察",
+   "kana": "しんさつ",
+   "romaji": "shinsatsu",
+   "en": "medical examination",
+   "gloss": "medical examination",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "初めての診察ですか。",
+     "en": "Is this your first visit here?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 147557,
+      "url": "https://tatoeba.org/en/sentences/show/147557",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "初めての診察ですか。",
+      "translation": "Is this your first visit here?"
+     }
+    },
+    {
+     "jp": "診察しましょう。",
+     "en": "I'll give you a check-up.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 144771,
+      "url": "https://tatoeba.org/en/sentences/show/144771",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "診察しましょう。",
+      "translation": "I'll give you a check-up."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "診察",
+     "matched": "診察【しんさつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "medical examination; checkup; consultation",
+      "Physical examination"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_kensa",
+     "rel": "contrast: a test (blood, X-ray)"
+    },
+    {
+     "id": "cl_shinsatsushitsu",
+     "rel": "the room where it happens"
+    }
+   ]
+  },
+  {
+   "id": "hl_shinsatsuken",
+   "jp": "診察券",
+   "kana": "しんさつけん",
+   "romaji": "shinsatsuken",
+   "en": "patient registration card",
+   "gloss": "patient registration card",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "診察券は要らないんですか。",
+     "en": "Don't I need my patient ID?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8623955,
+      "url": "https://tatoeba.org/en/sentences/show/8623955",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-22",
+      "text": "診察券は要らないんですか。",
+      "translation": "Don't I need my patient ID?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "診察券【しんさつけん】 hospital / clinic registration card",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "診察券",
+     "matched": "診察券【しんさつけん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "patient's registration ticket"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "hl_monshinhyou",
+   "jp": "問診票",
+   "kana": "もんしんひょう",
+   "romaji": "monshinhyō",
+   "en": "medical questionnaire",
+   "gloss": "medical questionnaire",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "問診票【もんしんひょう】 questionnaire",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "問診票",
+     "matched": "問診票【もんしんひょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "medical questionnaire; medical interview sheet; medical history form"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_kurinikku",
+   "jp": "クリニック",
+   "kana": "クリニック",
+   "romaji": "kurinikku",
+   "en": "clinic",
+   "gloss": "clinic",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "note": "Many small private clinics in Kyoto call themselves 〜クリニック or 〜医院.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "クリニック【クリニック】 clinic",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "クリニック",
+     "matched": "【クリニック】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "clinic",
+      "workshop"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_byouin",
+     "rel": "larger: a hospital"
+    },
+    {
+     "id": "cl_iin",
+     "rel": "both: a small private clinic"
+    }
+   ]
+  },
+  {
+   "id": "cl_iin",
+   "jp": "医院",
+   "kana": "いいん",
+   "romaji": "iin",
+   "en": "doctor's office; clinic",
+   "gloss": "doctor's office",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "read",
+   "tags": [
+    "place"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "医院",
+     "matched": "医院【いいん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "doctor's office; doctor's surgery; clinic"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_byouin",
+     "rel": "larger: a hospital"
+    },
+    {
+     "id": "cl_kurinikku",
+     "rel": "both: a small private clinic"
+    }
+   ]
+  },
+  {
+   "id": "cl_naika",
+   "jp": "内科",
+   "kana": "ないか",
+   "romaji": "naika",
+   "en": "internal medicine (department)",
+   "gloss": "internal medicine",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "内科",
+     "matched": "内科【ないか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "internal medicine",
+      "department of internal medicine"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_geka",
+     "rel": "contrast: surgery (injuries, operations)"
+    }
+   ]
+  },
+  {
+   "id": "cl_geka",
+   "jp": "外科",
+   "kana": "げか",
+   "romaji": "geka",
+   "en": "surgery (department)",
+   "gloss": "surgery",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "外科へ行ってください。",
+     "en": "Please go to the Surgery Department.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 236996,
+      "url": "https://tatoeba.org/en/sentences/show/236996",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "外科へ行ってください。",
+      "translation": "Please go to the Surgery Department."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "外科",
+     "matched": "外科【げか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "surgery (branch of medicine)",
+      "department of surgery"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_naika",
+     "rel": "contrast: internal medicine (colds, stomach)"
+    },
+    {
+     "id": "cl_seikeigeka",
+     "rel": "bones and joints: orthopedics"
+    }
+   ]
+  },
+  {
+   "id": "cl_shika",
+   "jp": "歯科",
+   "kana": "しか",
+   "romaji": "shika",
+   "en": "dentistry (department)",
+   "gloss": "dentistry",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "歯科",
+     "matched": "歯科【しか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "dentistry",
+      "Dental"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_hifuka",
+   "jp": "皮膚科",
+   "kana": "ひふか",
+   "romaji": "hifuka",
+   "en": "dermatology (department)",
+   "gloss": "dermatology",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "皮膚科",
+     "matched": "皮膚科【ひふか】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "dermatology"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_jibika",
+   "jp": "耳鼻科",
+   "kana": "じびか",
+   "romaji": "jibika",
+   "en": "otolaryngology; ear, nose and throat (ENT)",
+   "gloss": "otolaryngology",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "今、耳鼻科にかかっています。",
+     "en": "I go to an Ear, Nose, and Throat (ENT) specialist now.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13715802,
+      "url": "https://tatoeba.org/en/sentences/show/13715802",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今、耳鼻科にかかっています。",
+      "translation": "I go to an Ear, Nose, and Throat (ENT) specialist now."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "耳鼻科",
+     "matched": "耳鼻科【じびか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "otolaryngology; ear, nose, and throat department"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_jibiinkouka",
+     "rel": "full name on signs"
+    }
+   ]
+  },
+  {
+   "id": "cl_jibiinkouka",
+   "jp": "耳鼻咽喉科",
+   "kana": "じびいんこうか",
+   "romaji": "jibiinkōka",
+   "en": "otorhinolaryngology; ear, nose and throat (ENT) department",
+   "gloss": "otorhinolaryngology",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "耳鼻咽喉科",
+     "matched": "耳鼻咽喉科【じびいんこうか】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "otorhinolaryngology; otolaryngology; ear, nose and throat department"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_jibika",
+     "rel": "short name"
+    }
+   ]
+  },
+  {
+   "id": "cl_ganka",
+   "jp": "眼科",
+   "kana": "がんか",
+   "romaji": "ganka",
+   "en": "ophthalmology (eye department)",
+   "gloss": "ophthalmology",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "眼科で視力検査をしました。",
+     "en": "I took an eyesight test in the eye clinic.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13715788,
+      "url": "https://tatoeba.org/en/sentences/show/13715788",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "眼科で視力検査をしました。",
+      "translation": "I took an eyesight test in the eye clinic."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "眼科",
+     "matched": "眼科【がんか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "ophthalmology"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_shounika",
+   "jp": "小児科",
+   "kana": "しょうにか",
+   "romaji": "shōnika",
+   "en": "pediatrics (department)",
+   "gloss": "pediatrics",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "小児科",
+     "matched": "小児科【しょうにか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "pediatrics"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_seikeigeka",
+   "jp": "整形外科",
+   "kana": "せいけいげか",
+   "romaji": "seikeigeka",
+   "en": "orthopedic surgery (department)",
+   "gloss": "orthopedic surgery",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "整形外科",
+     "matched": "整形外科【せいけいげか】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "orthopedic surgery; orthopaedic surgery; orthopedics; orthopaedics",
+      "plastic surgery; cosmetic surgery"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_geka",
+     "rel": "general surgery"
+    }
+   ]
+  },
+  {
+   "id": "cl_fujinka",
+   "jp": "婦人科",
+   "kana": "ふじんか",
+   "romaji": "fujinka",
+   "en": "gynecology (department)",
+   "gloss": "gynecology",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "婦人科",
+     "matched": "婦人科【ふじんか】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "gynecology department",
+      "gynecology; gynaecology"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_sanfujinka",
+   "jp": "産婦人科",
+   "kana": "さんふじんか",
+   "romaji": "sanfujinka",
+   "en": "obstetrics and gynecology (department)",
+   "gloss": "obstetrics and gynecology",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "産婦人科",
+     "matched": "産婦人科【さんふじんか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "maternity and gynaecology department (gynecology); department of obstetrics and gynaecology (gynecology)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_kangoshi",
+   "jp": "看護師",
+   "kana": "かんごし",
+   "romaji": "kangoshi",
+   "en": "nurse",
+   "gloss": "nurse",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "私は看護師です。",
+     "en": "I'm a nurse.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2257000,
+      "url": "https://tatoeba.org/en/sentences/show/2257000",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私は看護師です。",
+      "translation": "I'm a nurse."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "看護師",
+     "matched": "看護師【かんごし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "(hospital) nurse; registered nurse; RN"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_yakuzaishi",
+   "jp": "薬剤師",
+   "kana": "やくざいし",
+   "romaji": "yakuzaishi",
+   "en": "pharmacist",
+   "gloss": "pharmacist",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "薬剤師",
+     "matched": "薬剤師【やくざいし】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "pharmacist; chemist",
+      "Pharmacist"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_henkou",
+   "jp": "変更",
+   "kana": "へんこう",
+   "romaji": "henkō",
+   "en": "change; modification; alteration",
+   "gloss": "change",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "路線の変更はできますか。",
+     "en": "Can I change the route?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 77397,
+      "url": "https://tatoeba.org/en/sentences/show/77397",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "路線の変更はできますか。",
+      "translation": "Can I change the route?"
+     }
+    },
+    {
+     "jp": "計画に変更があります。",
+     "en": "There has been a change of plans.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 186291,
+      "url": "https://tatoeba.org/en/sentences/show/186291",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "計画に変更があります。",
+      "translation": "There has been a change of plans."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L13",
+     "activity": 5,
+     "entry": "変更【へんこう】 change",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "変更",
+     "matched": "変更【へんこう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "change; modification; alteration; revision; amendment"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_saishin",
+   "jp": "再診",
+   "kana": "さいしん",
+   "romaji": "saishin",
+   "en": "follow-up visit (second or later examination)",
+   "gloss": "follow-up visit",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "再診",
+     "matched": "再診【さいしん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "re-examination; follow-up examination"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "hl_shoshin",
+     "rel": "contrast: first visit"
+    }
+   ]
+  },
+  {
+   "id": "cl_shinsatsushitsu",
+   "jp": "診察室",
+   "kana": "しんさつしつ",
+   "romaji": "shinsatsushitsu",
+   "en": "examination room; consulting room",
+   "gloss": "examination room",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "read",
+   "tags": [
+    "place"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "診察室",
+     "matched": "診察室【しんさつしつ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "examining room; consultation room"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "hl_shinsatsu",
+     "rel": "the room where it happens"
+    }
+   ]
+  },
+  {
+   "id": "cl_shoukaijou",
+   "jp": "紹介状",
+   "kana": "しょうかいじょう",
+   "romaji": "shōkaijō",
+   "en": "letter of introduction; referral letter",
+   "gloss": "letter of introduction",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "紹介状",
+     "matched": "紹介状【しょうかいじょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "letter of introduction"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_kaikei",
+   "jp": "会計",
+   "kana": "かいけい",
+   "romaji": "kaikei",
+   "en": "bill; payment; cashier (counter)",
+   "gloss": "payment",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "read",
+   "takes_suru": true,
+   "note": "At clinics and hospitals the payment counter is signposted 会計. At a restaurant the polite word お会計 is used for the bill.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L3",
+     "activity": 3,
+     "entry": "会計／お会計【かいけい／おかいけい】 cash register / payment",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "会計",
+     "matched": "会計【かいけい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "accounting; finance; account; reckoning",
+      "bill (at a restaurant); check",
+      "accountant; treasurer; paymaster; cashier",
+      "settlement (of a bill, fee, etc.), payment"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Suru verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "f_okaikei",
+     "rel": "restaurant: the polite word for the bill"
+    }
+   ]
+  },
+  {
+   "id": "cl_shinryoujikan",
+   "jp": "診療時間",
+   "kana": "しんりょうじかん",
+   "romaji": "shinryōjikan",
+   "en": "consultation hours (clinic opening hours)",
+   "gloss": "consultation hours",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "診療時間",
+     "matched": "診療時間【しんりょうじかん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "consultation hours; surgery hours"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_kyuushinbi",
+     "rel": "closed days"
+    }
+   ]
+  },
+  {
+   "id": "cl_kyuushinbi",
+   "jp": "休診日",
+   "kana": "きゅうしんび",
+   "romaji": "kyūshinbi",
+   "en": "clinic holiday; day when there are no consultations",
+   "gloss": "clinic holiday",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "休診日",
+     "matched": "休診日【きゅうしんび】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "no-consultation day (at a doctor's office, clinic, etc.)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_shinryoujikan",
+     "rel": "opening hours"
+    },
+    {
+     "id": "cl_kyuushin",
+     "rel": "the regular day it is closed"
+    }
+   ]
+  },
+  {
+   "id": "cl_kyuushin",
+   "jp": "休診",
+   "kana": "きゅうしん",
+   "romaji": "kyūshin",
+   "en": "closed (of a clinic); not seeing patients",
+   "gloss": "closed",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "休診",
+     "matched": "休診【きゅうしん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "being closed (of a clinic, doctor's office, etc.); not seeing patients; not accepting patients"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_kyuushinbi",
+     "rel": "the regular day it is closed"
+    }
+   ]
+  },
+  {
+   "id": "cl_kenkouhokenshou",
+   "jp": "健康保険証",
+   "kana": "けんこうほけんしょう",
+   "romaji": "kenkōhokenshō",
+   "en": "health insurance card",
+   "gloss": "health insurance card",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "健康保険証【けんこうほけんしょう】 health insurance card",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "健康保険証",
+     "matched": "健康保険証【けんこうほけんしょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "health insurance card"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_hokenshou",
+     "rel": "short form used at reception"
+    }
+   ]
+  },
+  {
+   "id": "cl_shoujou",
+   "jp": "症状",
+   "kana": "しょうじょう",
+   "romaji": "shōjō",
+   "en": "symptom",
+   "gloss": "symptom",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "どのような症状ですか。",
+     "en": "What are the symptoms?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 200370,
+      "url": "https://tatoeba.org/en/sentences/show/200370",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どのような症状ですか。",
+      "translation": "What are the symptoms?"
+     }
+    },
+    {
+     "jp": "どんな症状がありますか。",
+     "en": "What symptoms do you have?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 199402,
+      "url": "https://tatoeba.org/en/sentences/show/199402",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どんな症状がありますか。",
+      "translation": "What symptoms do you have?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "症状【しょうじょう】 symptom",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 3,
+     "entry": "症状【しょうじょう】 symptom",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "症状",
+     "matched": "症状【しょうじょう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "symptoms; condition (of a patient)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_geri",
+   "jp": "下痢",
+   "kana": "げり",
+   "romaji": "geri",
+   "en": "diarrhea",
+   "gloss": "diarrhea",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "下痢気味です。",
+     "en": "I have a touch of diarrhea.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 188210,
+      "url": "https://tatoeba.org/en/sentences/show/188210",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "下痢気味です。",
+      "translation": "I have a touch of diarrhea."
+     }
+    },
+    {
+     "jp": "昨日から下痢が続いているんです。",
+     "en": "I've had diarrhea since yesterday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1050486,
+      "url": "https://tatoeba.org/en/sentences/show/1050486",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "昨日から下痢が続いているんです。",
+      "translation": "I've had diarrhea since yesterday."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 3,
+     "entry": "下痢【げり】 diarrhea",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "下痢",
+     "matched": "下痢【げり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "diarrhea; diarrhoea",
+      "Diarrhea"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_benpi",
+   "jp": "便秘",
+   "kana": "べんぴ",
+   "romaji": "benpi",
+   "en": "constipation",
+   "gloss": "constipation",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "３日間便秘しています。",
+     "en": "I have been constipated for three days.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 235268,
+      "url": "https://tatoeba.org/en/sentences/show/235268",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "３日間便秘しています。",
+      "translation": "I have been constipated for three days."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "便秘",
+     "matched": "便秘【べんぴ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "constipation",
+      "Constipation"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_memai",
+   "jp": "めまい",
+   "kana": "めまい",
+   "romaji": "memai",
+   "en": "dizziness; giddiness",
+   "gloss": "dizziness",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ちょっとめまいが。",
+     "en": "I'm a little dizzy.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10643766,
+      "url": "https://tatoeba.org/en/sentences/show/10643766",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ちょっとめまいが。",
+      "translation": "I'm a little dizzy."
+     }
+    },
+    {
+     "jp": "なんだかめまいと吐き気がします。",
+     "en": "I feel sort of dizzy and I feel like throwing up.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 198954,
+      "url": "https://tatoeba.org/en/sentences/show/198954",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "なんだかめまいと吐き気がします。",
+      "translation": "I feel sort of dizzy and I feel like throwing up."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "めまい",
+     "matched": "眩暈【めまい】 (written in kana: めまい)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "dizziness; giddiness; vertigo"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_samuke",
+   "jp": "寒気",
+   "kana": "さむけ",
+   "romaji": "samuke",
+   "en": "chill; shivers (from fever)",
+   "gloss": "chill",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "寒気がする。",
+     "en": "I feel cold.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 183996,
+      "url": "https://tatoeba.org/en/sentences/show/183996",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "寒気がする。",
+      "translation": "I feel cold."
+     }
+    },
+    {
+     "jp": "いいえ、でもちょっと寒気がして。",
+     "en": "No, but I'm a bit chilly.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 229452,
+      "url": "https://tatoeba.org/en/sentences/show/229452",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "いいえ、でもちょっと寒気がして。",
+      "translation": "No, but I'm a bit chilly."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "寒気",
+     "matched": "寒気【さむけ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "chill; the shivers; shivering fit",
+      "Samuke"
+     ],
+     "pos": [
+      "Noun",
+      "Place"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_kayui",
+   "jp": "かゆい",
+   "kana": "かゆい",
+   "romaji": "kayui",
+   "en": "itchy",
+   "gloss": "itchy",
+   "pos": "i-adj",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "頭がかゆい。",
+     "en": "My head is itchy.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10585548,
+      "url": "https://tatoeba.org/en/sentences/show/10585548",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "頭がかゆい。",
+      "translation": "My head is itchy."
+     }
+    },
+    {
+     "jp": "体中がかゆいんです。",
+     "en": "My body itches all over.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 137967,
+      "url": "https://tatoeba.org/en/sentences/show/137967",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "体中がかゆいんです。",
+      "translation": "My body itches all over."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "かゆい【かゆい】 itchy",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "かゆい",
+     "matched": "痒い【かゆい】 (written in kana: かゆい)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "itchy"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_hareru",
+   "jp": "腫れる",
+   "kana": "はれる",
+   "romaji": "hareru",
+   "en": "to swell (up)",
+   "gloss": "to swell",
+   "pos": "verb",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "腫れる",
+     "matched": "腫れる【はれる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "to swell (from inflammation); to become swollen"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_hanamizu",
+   "jp": "鼻水",
+   "kana": "はなみず",
+   "romaji": "hanamizu",
+   "en": "runny nose; nasal mucus",
+   "gloss": "runny nose",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "鼻水が出ている。",
+     "en": "My nose is running.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 85508,
+      "url": "https://tatoeba.org/en/sentences/show/85508",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "鼻水が出ている。",
+      "translation": "My nose is running."
+     }
+    },
+    {
+     "jp": "鼻水がたくさん出ました。",
+     "en": "My nose was very runny.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 85510,
+      "url": "https://tatoeba.org/en/sentences/show/85510",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "鼻水がたくさん出ました。",
+      "translation": "My nose was very runny."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "鼻水【はなみず】 runny nose",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "鼻水",
+     "matched": "鼻水【はなみず】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "nasal mucus; dripping nose; snot"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_hana",
+     "rel": "body part"
+    }
+   ]
+  },
+  {
+   "id": "cl_kushami",
+   "jp": "くしゃみ",
+   "kana": "くしゃみ",
+   "romaji": "kushami",
+   "en": "sneeze; sneezing",
+   "gloss": "sneeze",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "くしゃみが止まりません。",
+     "en": "I can't stop sneezing.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 225705,
+      "url": "https://tatoeba.org/en/sentences/show/225705",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "くしゃみが止まりません。",
+      "translation": "I can't stop sneezing."
+     }
+    },
+    {
+     "jp": "よくくしゃみが出ます。",
+     "en": "I sneeze a lot.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 192820,
+      "url": "https://tatoeba.org/en/sentences/show/192820",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "よくくしゃみが出ます。",
+      "translation": "I sneeze a lot."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "くしゃみ【くしゃみ】 sneezing",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "くしゃみ",
+     "matched": "【クシャミ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "sneeze; sneezing",
+      "spoken twice in response to someone sneezing as a charm against an early death"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_itami",
+   "jp": "痛み",
+   "kana": "いたみ",
+   "romaji": "itami",
+   "en": "pain; ache",
+   "gloss": "pain",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "痛み【いたみ】 pain",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "痛み",
+     "matched": "痛み【いたみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "pain; ache; soreness; grief; distress",
+      "damage; injury; wear; bruise; break",
+      "Pain (philosophy)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_zutsuu",
+   "jp": "頭痛",
+   "kana": "ずつう",
+   "romaji": "zutsū",
+   "en": "headache",
+   "gloss": "headache",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "頭痛が酷い。",
+     "en": "I have a bad headache.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11257850,
+      "url": "https://tatoeba.org/en/sentences/show/11257850",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "頭痛が酷い。",
+      "translation": "I have a bad headache."
+     }
+    },
+    {
+     "jp": "頭痛がする。",
+     "en": "I have a headache.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5114,
+      "url": "https://tatoeba.org/en/sentences/show/5114",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "頭痛がする。",
+      "translation": "I have a headache."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "頭痛",
+     "matched": "頭痛【ずつう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "headache",
+      "Headache"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_atama",
+     "rel": "body part"
+    }
+   ]
+  },
+  {
+   "id": "cl_fukutsuu",
+   "jp": "腹痛",
+   "kana": "ふくつう",
+   "romaji": "fukutsū",
+   "en": "stomach ache; abdominal pain",
+   "gloss": "stomach ache",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 3,
+     "entry": "腹痛【ふくつう】 abdominal pain",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "腹痛",
+     "matched": "腹痛【ふくつう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "stomach ache; abdominal pain",
+      "Abdominal pain"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_hatsunetsu",
+   "jp": "発熱",
+   "kana": "はつねつ",
+   "romaji": "hatsunetsu",
+   "en": "fever; developing a fever",
+   "gloss": "fever",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "発熱【はつねつ】 fever",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "発熱",
+     "matched": "発熱【はつねつ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "generation of heat",
+      "(attack of) fever; pyrexia",
+      "Fever"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_netsu",
+     "rel": "everyday word"
+    }
+   ]
+  },
+  {
+   "id": "cl_darui",
+   "jp": "だるい",
+   "kana": "だるい",
+   "romaji": "darui",
+   "en": "sluggish; listless; tired",
+   "gloss": "sluggish",
+   "pos": "i-adj",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "体全体がだるいです。",
+     "en": "My whole body feels heavy.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 138014,
+      "url": "https://tatoeba.org/en/sentences/show/138014",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "体全体がだるいです。",
+      "translation": "My whole body feels heavy."
+     }
+    },
+    {
+     "jp": "足がだるいです。",
+     "en": "My legs feel heavy.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 139880,
+      "url": "https://tatoeba.org/en/sentences/show/139880",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "足がだるいです。",
+      "translation": "My legs feel heavy."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "だるい【だるい】 feel tired and listless",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "だるい",
+     "matched": "【ダルい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "sluggish; languid; listless; heavy (heart, legs, etc.); dull",
+      "bothersome; tiresome; pain-in-the-ass"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_shokuyoku",
+   "jp": "食欲",
+   "kana": "しょくよく",
+   "romaji": "shokuyoku",
+   "en": "appetite",
+   "gloss": "appetite",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "食欲がありません。",
+     "en": "I have little appetite.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 591692,
+      "url": "https://tatoeba.org/en/sentences/show/591692",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "食欲がありません。",
+      "translation": "I have little appetite."
+     }
+    },
+    {
+     "jp": "最近食欲が無い。",
+     "en": "I have a poor appetite these days.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 156873,
+      "url": "https://tatoeba.org/en/sentences/show/156873",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "最近食欲が無い。",
+      "translation": "I have a poor appetite these days."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "食欲【しょくよく】 appetite",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "食欲",
+     "matched": "食欲【しょくよく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "appetite (for food)",
+      "Appetite"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_kafunshou",
+   "jp": "花粉症",
+   "kana": "かふんしょう",
+   "romaji": "kafunshō",
+   "en": "hay fever; pollen allergy",
+   "gloss": "hay fever",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "私、花粉症なんです。",
+     "en": "I'm allergic to pollen.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 186558,
+      "url": "https://tatoeba.org/en/sentences/show/186558",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私、花粉症なんです。",
+      "translation": "I'm allergic to pollen."
+     }
+    },
+    {
+     "jp": "花粉症は辛い。",
+     "en": "Hay fever is tough.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8646317,
+      "url": "https://tatoeba.org/en/sentences/show/8646317",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "花粉症は辛い。",
+      "translation": "Hay fever is tough."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "花粉症【かふんしょう】 pollen allergy",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "花粉症",
+     "matched": "花粉症【かふんしょう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "hay fever; pollinosis (allergy to pollen)",
+      "Allergic rhinitis"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_x_me_kayui",
+     "rel": "typical symptom"
+    }
+   ]
+  },
+  {
+   "id": "cl_infuruenza",
+   "jp": "インフルエンザ",
+   "kana": "インフルエンザ",
+   "romaji": "infuruenza",
+   "en": "influenza; flu",
+   "gloss": "influenza",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "インフルエンザにかかりました。",
+     "en": "I caught the flu.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 228358,
+      "url": "https://tatoeba.org/en/sentences/show/228358",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "インフルエンザにかかりました。",
+      "translation": "I caught the flu."
+     }
+    },
+    {
+     "jp": "インフルエンザですか？",
+     "en": "Do I have a flu?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10097976,
+      "url": "https://tatoeba.org/en/sentences/show/10097976",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "インフルエンザですか？",
+      "translation": "Do I have a flu?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "インフルエンザ【インフルエンザ】 influenzas",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "インフルエンザ",
+     "matched": "【インフルエンザ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "influenza; flu",
+      "Influenza"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_hidoi",
+   "jp": "ひどい",
+   "kana": "ひどい",
+   "romaji": "hidoi",
+   "en": "terrible; severe; awful",
+   "gloss": "terrible",
+   "pos": "i-adj",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "ひどい天気！",
+     "en": "What horrible weather.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2456862,
+      "url": "https://tatoeba.org/en/sentences/show/2456862",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ひどい天気！",
+      "translation": "What horrible weather."
+     }
+    },
+    {
+     "jp": "それはひどいな。",
+     "en": "That's terrible.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1270752,
+      "url": "https://tatoeba.org/en/sentences/show/1270752",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "それはひどいな。",
+      "translation": "That's terrible."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "ひどい【ひどい】 bad / awful",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L10",
+     "activity": 4,
+     "entry": "ひどい【ひどい】 terrible",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ひどい",
+     "matched": "酷い【ひどい】 (written in kana: ひどい)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "cruel; heartless; hard; harsh; severe",
+      "violent; intense; strong; heavy; extreme",
+      "very bad; terrible; awful",
+      "excessive; exorbitant; unreasonable; outrageous; unfair; unjust"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_kossetsu",
+   "jp": "骨折",
+   "kana": "こっせつ",
+   "romaji": "kossetsu",
+   "en": "bone fracture; broken bone",
+   "gloss": "bone fracture",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "私は足を骨折した。",
+     "en": "I broke my leg.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 155297,
+      "url": "https://tatoeba.org/en/sentences/show/155297",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私は足を骨折した。",
+      "translation": "I broke my leg."
+     }
+    },
+    {
+     "jp": "骨折はしてない。",
+     "en": "No bone was broken.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12391412,
+      "url": "https://tatoeba.org/en/sentences/show/12391412",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "骨折はしてない。",
+      "translation": "No bone was broken."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "骨折",
+     "matched": "骨折【こっせつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "bone fracture",
+      "Bone fracture"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_yakedo",
+   "jp": "やけど",
+   "kana": "やけど",
+   "romaji": "yakedo",
+   "en": "burn (injury); scald",
+   "gloss": "burn",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "指にやけどをしました。",
+     "en": "I got a burn on my finger.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 168251,
+      "url": "https://tatoeba.org/en/sentences/show/168251",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "指にやけどをしました。",
+      "translation": "I got a burn on my finger."
+     }
+    },
+    {
+     "jp": "やけどしたの？",
+     "en": "Did you burn yourself?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11746265,
+      "url": "https://tatoeba.org/en/sentences/show/11746265",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "やけどしたの？",
+      "translation": "Did you burn yourself?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "やけど",
+     "matched": "火傷【やけど】 (written in kana: やけど)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "burn; scald",
+      "getting one's fingers burned (e.g. poor investment, mixing with the wrong people)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_korobu",
+   "jp": "転ぶ",
+   "kana": "ころぶ",
+   "romaji": "korobu",
+   "en": "to fall down; to fall over",
+   "gloss": "to fall down",
+   "pos": "verb",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "赤ん坊はよく転ぶ。",
+     "en": "Babies often fall down.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 142191,
+      "url": "https://tatoeba.org/en/sentences/show/142191",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "赤ん坊はよく転ぶ。",
+      "translation": "Babies often fall down."
+     }
+    },
+    {
+     "jp": "氷の上で滑って転ぶなよ。",
+     "en": "Don't slip on the ice.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3364550,
+      "url": "https://tatoeba.org/en/sentences/show/3364550",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "氷の上で滑って転ぶなよ。",
+      "translation": "Don't slip on the ice."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "転ぶ【ころぶ】 to fall",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "転ぶ",
+     "matched": "転ぶ【ころぶ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "to fall down; to fall over",
+      "to turn out; to play out",
+      "to abandon Christianity (and convert to Buddhism); to apostatize",
+      "to roll; to tumble"
+     ],
+     "pos": [
+      "Godan verb with 'bu' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_taion",
+   "jp": "体温",
+   "kana": "たいおん",
+   "romaji": "taion",
+   "en": "body temperature",
+   "gloss": "body temperature",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "まず体温を計りましょう。",
+     "en": "Let's take your temperature first.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 195592,
+      "url": "https://tatoeba.org/en/sentences/show/195592",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "まず体温を計りましょう。",
+      "translation": "Let's take your temperature first."
+     }
+    },
+    {
+     "jp": "体温が少し高いですね。",
+     "en": "Your temperature's a little high.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11586396,
+      "url": "https://tatoeba.org/en/sentences/show/11586396",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "体温が少し高いですね。",
+      "translation": "Your temperature's a little high."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "体温",
+     "matched": "体温【たいおん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "body temperature",
+      "Human body temperature"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_taionkei",
+   "jp": "体温計",
+   "kana": "たいおんけい",
+   "romaji": "taionkei",
+   "en": "(clinical) thermometer",
+   "gloss": "(clinical) thermometer",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "体温計",
+     "matched": "体温計【たいおんけい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "(clinical) thermometer",
+      "Medical thermometer"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_ketsuatsu",
+   "jp": "血圧",
+   "kana": "けつあつ",
+   "romaji": "ketsuatsu",
+   "en": "blood pressure",
+   "gloss": "blood pressure",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "血圧",
+     "matched": "血圧【けつあつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "blood pressure",
+      "Blood pressure"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_byouki",
+   "jp": "病気",
+   "kana": "びょうき",
+   "romaji": "byōki",
+   "en": "illness; disease; sickness",
+   "gloss": "illness",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "私は病気です。",
+     "en": "I am sick.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 6549720,
+      "url": "https://tatoeba.org/en/sentences/show/6549720",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私は病気です。",
+      "translation": "I am sick."
+     }
+    },
+    {
+     "jp": "病気になった。",
+     "en": "I got sick.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 7870114,
+      "url": "https://tatoeba.org/en/sentences/show/7870114",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "病気になった。",
+      "translation": "I got sick."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "病気【びょうき】 illness",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "病気",
+     "matched": "病気【びょうき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "illness (usu. excluding minor ailments, e.g. common cold); disease; sickness",
+      "bad habit; bad behaviour; weakness; failing",
+      "crazy; insane; disturbed; sick in the head",
+      "Disease"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_me",
+   "jp": "目",
+   "kana": "め",
+   "romaji": "me",
+   "en": "eye",
+   "gloss": "eye",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "examples": [
+    {
+     "jp": "目が悪いの？",
+     "en": "Are your eyes bad?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9312317,
+      "url": "https://tatoeba.org/en/sentences/show/9312317",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "目が悪いの？",
+      "translation": "Are your eyes bad?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "目【め】 eye",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "目【め】 eye",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "目",
+     "matched": "目【め】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "eye; eyeball",
+      "eyesight; sight; vision",
+      "look; stare; gaze; glance",
+      "notice; attention; observation; eyes (of the world, public, etc.)"
+     ],
+     "pos": [
+      "Noun",
+      "Suffix",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_mimi",
+   "jp": "耳",
+   "kana": "みみ",
+   "romaji": "mimi",
+   "en": "ear",
+   "gloss": "ear",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "私の耳、赤い？",
+     "en": "Are my ears red?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8705960,
+      "url": "https://tatoeba.org/en/sentences/show/8705960",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私の耳、赤い？",
+      "translation": "Are my ears red?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "耳【みみ】 ear",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "耳",
+     "matched": "耳【みみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "ear",
+      "hearing",
+      "ear (for music, etc.)",
+      "edge; crust; heel (of bread or cheese); selvedge (of woven fabric); selvage"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_hana",
+   "jp": "鼻",
+   "kana": "はな",
+   "romaji": "hana",
+   "en": "nose",
+   "gloss": "nose",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "note": "Same reading as 花 (flower).",
+   "examples": [
+    {
+     "jp": "鼻が痒いよ。",
+     "en": "My nose itches.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10218757,
+      "url": "https://tatoeba.org/en/sentences/show/10218757",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "鼻が痒いよ。",
+      "translation": "My nose itches."
+     }
+    },
+    {
+     "jp": "鼻をかんで。",
+     "en": "Blow your nose.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8649639,
+      "url": "https://tatoeba.org/en/sentences/show/8649639",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "鼻をかんで。",
+      "translation": "Blow your nose."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "鼻【はな】 nose",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "鼻",
+     "matched": "鼻【はな】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "nose",
+      "Nose"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_hanamizu",
+     "rel": "body part"
+    }
+   ]
+  },
+  {
+   "id": "cl_kuchi",
+   "jp": "口",
+   "kana": "くち",
+   "romaji": "kuchi",
+   "en": "mouth",
+   "gloss": "mouth",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "口【くち】 mouth",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "口【くち】 mouth",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "口",
+     "matched": "口【くち】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "mouth",
+      "opening; hole; gap; orifice",
+      "mouth (of a bottle); spout; nozzle; mouthpiece",
+      "gate; door; entrance; exit"
+     ],
+     "pos": [
+      "Noun",
+      "Suffix",
+      "Counter",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_te",
+   "jp": "手",
+   "kana": "て",
+   "romaji": "te",
+   "en": "hand",
+   "gloss": "hand",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "examples": [
+    {
+     "jp": "汚い手ね。",
+     "en": "You have dirty hands.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12296729,
+      "url": "https://tatoeba.org/en/sentences/show/12296729",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "汚い手ね。",
+      "translation": "You have dirty hands."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "手【て】 hand",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "手",
+     "matched": "手【て】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "hand; arm",
+      "forepaw; foreleg",
+      "handle",
+      "hand; worker; help"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a suffix",
+      "Counter",
+      "Place"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_ashi",
+   "jp": "足",
+   "kana": "あし",
+   "romaji": "ashi",
+   "en": "foot; leg",
+   "gloss": "foot",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "足が寒い。",
+     "en": "My feet are cold.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10588114,
+      "url": "https://tatoeba.org/en/sentences/show/10588114",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "足が寒い。",
+      "translation": "My feet are cold."
+     }
+    },
+    {
+     "jp": "足が痛い。",
+     "en": "I have sore feet.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 139876,
+      "url": "https://tatoeba.org/en/sentences/show/139876",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "足が痛い。",
+      "translation": "I have sore feet."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "足【あし】 leg / foot",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "足【あし】 legs",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "足",
+     "matched": "足【あし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "foot; paw; arm (of an octopus, squid, etc.)",
+      "leg",
+      "gait",
+      "pace"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_ude",
+   "jp": "腕",
+   "kana": "うで",
+   "romaji": "ude",
+   "en": "arm",
+   "gloss": "arm",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "腕が痛いの？",
+     "en": "Does your arm hurt?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10735197,
+      "url": "https://tatoeba.org/en/sentences/show/10735197",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "腕が痛いの？",
+      "translation": "Does your arm hurt?"
+     }
+    },
+    {
+     "jp": "腕が痛む。",
+     "en": "I have an ache in my arm.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 77121,
+      "url": "https://tatoeba.org/en/sentences/show/77121",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "腕が痛む。",
+      "translation": "I have an ache in my arm."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "腕【うで】 arm",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "腕",
+     "matched": "腕【うで】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "arm",
+      "ability; skill; talent; competence",
+      "(physical) strength",
+      "Ude"
+     ],
+     "pos": [
+      "Noun",
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_kubi",
+   "jp": "首",
+   "kana": "くび",
+   "romaji": "kubi",
+   "en": "neck",
+   "gloss": "neck",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "首が少し痛いです。",
+     "en": "My neck is a bit sore.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11310749,
+      "url": "https://tatoeba.org/en/sentences/show/11310749",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "首が少し痛いです。",
+      "translation": "My neck is a bit sore."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "首【くび】 neck",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "首",
+     "matched": "首【くび】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "neck",
+      "head",
+      "dismissal (from a job); firing; sacking"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_kata",
+   "jp": "肩",
+   "kana": "かた",
+   "romaji": "kata",
+   "en": "shoulder",
+   "gloss": "shoulder",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "肩が痛い。",
+     "en": "I have a pain in the shoulder.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 175202,
+      "url": "https://tatoeba.org/en/sentences/show/175202",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "肩が痛い。",
+      "translation": "I have a pain in the shoulder."
+     }
+    },
+    {
+     "jp": "右肩が痛い。",
+     "en": "My right shoulder hurts.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1087636,
+      "url": "https://tatoeba.org/en/sentences/show/1087636",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "右肩が痛い。",
+      "translation": "My right shoulder hurts."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "肩【かた】 shoulders",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "肩",
+     "matched": "肩【かた】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "shoulder",
+      "Shoulder"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_koshi",
+   "jp": "腰",
+   "kana": "こし",
+   "romaji": "koshi",
+   "en": "lower back; hips",
+   "gloss": "lower back",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "腰が痛いの？",
+     "en": "Does your back hurt?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10988600,
+      "url": "https://tatoeba.org/en/sentences/show/10988600",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "腰が痛いの？",
+      "translation": "Does your back hurt?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "腰【こし】 lower back",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "腰",
+     "matched": "腰【こし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "lower back; waist; hips; lumbar region",
+      "body (of hair, noodles, paper, etc.); resilience; spring",
+      "Waist"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_senaka",
+   "jp": "背中",
+   "kana": "せなか",
+   "romaji": "senaka",
+   "en": "back (of the body)",
+   "gloss": "back",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "背中が痛い。",
+     "en": "My back hurts.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1003755,
+      "url": "https://tatoeba.org/en/sentences/show/1003755",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "背中が痛い。",
+      "translation": "My back hurts."
+     }
+    },
+    {
+     "jp": "背中がかゆい。",
+     "en": "My back is itchy.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10585549,
+      "url": "https://tatoeba.org/en/sentences/show/10585549",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "背中がかゆい。",
+      "translation": "My back is itchy."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "背中【せなか】 back",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "背中",
+     "matched": "背中【せなか】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "back (of the body)",
+      "Human back"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_mune",
+   "jp": "胸",
+   "kana": "むね",
+   "romaji": "mune",
+   "en": "chest; breast",
+   "gloss": "chest",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "胸の痛みはありますか？",
+     "en": "Are you having any chest pain?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8738520,
+      "url": "https://tatoeba.org/en/sentences/show/8738520",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "胸の痛みはありますか？",
+      "translation": "Are you having any chest pain?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "胸【むね】 breast",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "胸",
+     "matched": "胸【むね】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "chest; breast",
+      "breasts; bosom; bust",
+      "heart",
+      "lungs"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_kao",
+   "jp": "顔",
+   "kana": "かお",
+   "romaji": "kao",
+   "en": "face",
+   "gloss": "face",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "顔が赤いよ。",
+     "en": "Your face is red.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 183646,
+      "url": "https://tatoeba.org/en/sentences/show/183646",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "顔が赤いよ。",
+      "translation": "Your face is red."
+     }
+    },
+    {
+     "jp": "顔が青いよ。",
+     "en": "You look pale.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 183645,
+      "url": "https://tatoeba.org/en/sentences/show/183645",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "顔が青いよ。",
+      "translation": "You look pale."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "顔【かお】 face",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "顔",
+     "matched": "顔【かお】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "face; visage; looks; (facial) features",
+      "look; (facial) expression; countenance",
+      "honor (honour); face; dignity",
+      "influence; notoriety; trust; pull; clout"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_yubi",
+   "jp": "指",
+   "kana": "ゆび",
+   "romaji": "yubi",
+   "en": "finger; toe",
+   "gloss": "finger",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "指を開いて。",
+     "en": "Spread your fingers.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10153663,
+      "url": "https://tatoeba.org/en/sentences/show/10153663",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "指を開いて。",
+      "translation": "Spread your fingers."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "指【ゆび】 finger / toe",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "指",
+     "matched": "指【ゆび】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "finger; toe; digit",
+      "Finger"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_i",
+   "jp": "胃",
+   "kana": "い",
+   "romaji": "i",
+   "en": "stomach",
+   "gloss": "stomach",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "tts": "kana",
+   "examples": [
+    {
+     "jp": "胃が痛いんです。",
+     "en": "I have a stomachache.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9853617,
+      "url": "https://tatoeba.org/en/sentences/show/9853617",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "胃が痛いんです。",
+      "translation": "I have a stomachache."
+     }
+    },
+    {
+     "jp": "胃が痛みますか。",
+     "en": "Do you feel any pain in your stomach?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 190999,
+      "url": "https://tatoeba.org/en/sentences/show/190999",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "胃が痛みますか。",
+      "translation": "Do you feel any pain in your stomach?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "胃【い】 stomach",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 1,
+     "entry": "胃【い】 stomach",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "胃",
+     "matched": "胃【い】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "stomach",
+      "Chinese \"stomach\" constellation (one of the 28 mansions)",
+      "Stomach"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_kensa",
+   "jp": "検査",
+   "kana": "けんさ",
+   "romaji": "kensa",
+   "en": "examination; test; inspection",
+   "gloss": "examination",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "目の検査を受けた。",
+     "en": "I got my eyes tested.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2302978,
+      "url": "https://tatoeba.org/en/sentences/show/2302978",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "目の検査を受けた。",
+      "translation": "I got my eyes tested."
+     }
+    },
+    {
+     "jp": "検査結果は陰性です。",
+     "en": "The test result is negative.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9382216,
+      "url": "https://tatoeba.org/en/sentences/show/9382216",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "検査結果は陰性です。",
+      "translation": "The test result is negative."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "検査",
+     "matched": "検査【けんさ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "inspection (e.g. customs, factory); examination; test; check; scan (e.g. MRI, PET); audit"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "hl_shinsatsu",
+     "rel": "contrast: the doctor's examination"
+    }
+   ]
+  },
+  {
+   "id": "cl_ketsuekikensa",
+   "jp": "血液検査",
+   "kana": "けつえきけんさ",
+   "romaji": "ketsuekikensa",
+   "en": "blood test",
+   "gloss": "blood test",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "血液検査を受けたいのですが。",
+     "en": "I'd like to have my blood examined.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3468873,
+      "url": "https://tatoeba.org/en/sentences/show/3468873",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "血液検査を受けたいのですが。",
+      "translation": "I'd like to have my blood examined."
+     }
+    },
+    {
+     "jp": "血液検査結果は正常です。",
+     "en": "The blood test is normal.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 175692,
+      "url": "https://tatoeba.org/en/sentences/show/175692",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "血液検査結果は正常です。",
+      "translation": "The blood test is normal."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "血液検査",
+     "matched": "血液検査【けつえきけんさ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "blood test; hemanalysis",
+      "Blood test"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_rentogen",
+   "jp": "レントゲン",
+   "kana": "レントゲン",
+   "romaji": "rentogen",
+   "en": "X-ray (photograph)",
+   "gloss": "X-ray",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "念のためレントゲンを撮りましょう。",
+     "en": "Let's take an X-ray just in case.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9936146,
+      "url": "https://tatoeba.org/en/sentences/show/9936146",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "念のためレントゲンを撮りましょう。",
+      "translation": "Let's take an X-ray just in case."
+     }
+    },
+    {
+     "jp": "歯のレントゲンを撮りますね。",
+     "en": "I'll take some X-rays of your teeth.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 150967,
+      "url": "https://tatoeba.org/en/sentences/show/150967",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "歯のレントゲンを撮りますね。",
+      "translation": "I'll take some X-rays of your teeth."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "レントゲン【レントゲン】 X-ray",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "レントゲン",
+     "matched": "【レントゲン】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "X-ray",
+      "roentgen (unit of ionizing radiation)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_chuusha",
+   "jp": "注射",
+   "kana": "ちゅうしゃ",
+   "romaji": "chūsha",
+   "en": "injection; shot",
+   "gloss": "injection",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "注射の時間ですよ。",
+     "en": "It's time for your shot.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9859643,
+      "url": "https://tatoeba.org/en/sentences/show/9859643",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "注射の時間ですよ。",
+      "translation": "It's time for your shot."
+     }
+    },
+    {
+     "jp": "痛み止めの注射をします。",
+     "en": "I'll give you a painkilling injection.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 125671,
+      "url": "https://tatoeba.org/en/sentences/show/125671",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "痛み止めの注射をします。",
+      "translation": "I'll give you a painkilling injection."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "注射",
+     "matched": "注射【ちゅうしゃ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "injection; jab; shot",
+      "Injection (medicine)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_tenteki",
+   "jp": "点滴",
+   "kana": "てんてき",
+   "romaji": "tenteki",
+   "en": "intravenous drip; IV",
+   "gloss": "intravenous drip",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "私は病院で点滴を受けた。",
+     "en": "I had an intravenous drip in hospital.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 76080,
+      "url": "https://tatoeba.org/en/sentences/show/76080",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私は病院で点滴を受けた。",
+      "translation": "I had an intravenous drip in hospital."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "点滴",
+     "matched": "点滴【てんてき】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "raindrops; falling drop of water",
+      "intravenous drip; IV; drip-feed"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_nyuuin",
+   "jp": "入院",
+   "kana": "にゅういん",
+   "romaji": "nyūin",
+   "en": "hospitalization; being admitted to hospital",
+   "gloss": "hospitalization",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "入院してます。",
+     "en": "I'm in the hospital.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11508401,
+      "url": "https://tatoeba.org/en/sentences/show/11508401",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "入院してます。",
+      "translation": "I'm in the hospital."
+     }
+    },
+    {
+     "jp": "入院は何日間でしたか？",
+     "en": "How many days were you in the hospital?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12195254,
+      "url": "https://tatoeba.org/en/sentences/show/12195254",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "入院は何日間でしたか？",
+      "translation": "How many days were you in the hospital?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "入院",
+     "matched": "入院【にゅういん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "hospitalization; hospitalisation"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_taiin",
+     "rel": "contrast: leave hospital"
+    }
+   ]
+  },
+  {
+   "id": "cl_taiin",
+   "jp": "退院",
+   "kana": "たいいん",
+   "romaji": "taiin",
+   "en": "leaving hospital; discharge from hospital",
+   "gloss": "leaving hospital",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "彼女は１時間前に退院しました。",
+     "en": "She left the hospital an hour ago.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 93617,
+      "url": "https://tatoeba.org/en/sentences/show/93617",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "彼女は１時間前に退院しました。",
+      "translation": "She left the hospital an hour ago."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "退院",
+     "matched": "退院【たいいん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "leaving hospital; discharge from hospital"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_nyuuin",
+     "rel": "contrast: be admitted"
+    }
+   ]
+  },
+  {
+   "id": "cl_shujutsu",
+   "jp": "手術",
+   "kana": "しゅじゅつ",
+   "romaji": "shujutsu",
+   "en": "surgery; (surgical) operation",
+   "gloss": "surgery",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "手術が必要ですか。",
+     "en": "Do I need an operation?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 148543,
+      "url": "https://tatoeba.org/en/sentences/show/148543",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "手術が必要ですか。",
+      "translation": "Do I need an operation?"
+     }
+    },
+    {
+     "jp": "手術は成功したよ。",
+     "en": "The operation was successful.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10298681,
+      "url": "https://tatoeba.org/en/sentences/show/10298681",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "手術は成功したよ。",
+      "translation": "The operation was successful."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "手術",
+     "matched": "手術【しゅじゅつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "surgery; operation; procedure",
+      "skill with one's hands; sleight of hand"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_kyuukyuu",
+   "jp": "救急",
+   "kana": "きゅうきゅう",
+   "romaji": "kyūkyū",
+   "en": "emergency (aid); first aid",
+   "gloss": "emergency",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "救急箱はどこ？",
+     "en": "Where's your first aid kit?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12703147,
+      "url": "https://tatoeba.org/en/sentences/show/12703147",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "救急箱はどこ？",
+      "translation": "Where's your first aid kit?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "救急",
+     "matched": "救急【きゅうきゅう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "first-aid; emergency (aid)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_kyuukyuugairai",
+     "rel": "where to go: emergency outpatients (ER)"
+    }
+   ]
+  },
+  {
+   "id": "cl_kyuukyuugairai",
+   "jp": "救急外来",
+   "kana": "きゅうきゅうがいらい",
+   "romaji": "kyūkyūgairai",
+   "en": "emergency outpatient care; ER",
+   "gloss": "emergency outpatient care",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "read",
+   "tags": [
+    "place"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "救急外来",
+     "matched": "救急外来【きゅうきゅうがいらい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "emergency outpatient care"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_kyuukyuu",
+     "rel": "emergency care"
+    },
+    {
+     "id": "w_kyuukyuusha",
+     "rel": "or call an ambulance"
+    }
+   ]
+  },
+  {
+   "id": "cl_kenkoushindan",
+   "jp": "健康診断",
+   "kana": "けんこうしんだん",
+   "romaji": "kenkōshindan",
+   "en": "health checkup; medical examination",
+   "gloss": "health checkup",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "健康診断を受けたんだよ。",
+     "en": "I had a physical checkup.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 157307,
+      "url": "https://tatoeba.org/en/sentences/show/157307",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "健康診断を受けたんだよ。",
+      "translation": "I had a physical checkup."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "健康診断【けんこうしんだん】 health checkup",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "健康診断",
+     "matched": "健康診断【けんこうしんだん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "health checkup; (general) medical examination; physical examination",
+      "Diagnostic test"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_yobousesshu",
+   "jp": "予防接種",
+   "kana": "よぼうせっしゅ",
+   "romaji": "yobōsesshu",
+   "en": "vaccination; immunization",
+   "gloss": "vaccination",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "予防接種【よぼうせっしゅ】 vaccination",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "予防接種",
+     "matched": "予防接種【よぼうせっしゅ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "vaccination; inoculation; immunization; immunisation",
+      "Vaccination"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_kazegusuri",
+   "jp": "風邪薬",
+   "kana": "かぜぐすり",
+   "romaji": "kazegusuri",
+   "en": "cold medicine",
+   "gloss": "cold medicine",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "note": "Also written かぜ薬 (Irodori).",
+   "accept": [
+    "かぜ薬"
+   ],
+   "examples": [
+    {
+     "jp": "寝る前に風邪薬を3錠飲んだ。",
+     "en": "I took three tablets of a cold medicine before going to bed.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 83923,
+      "url": "https://tatoeba.org/en/sentences/show/83923",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "寝る前に風邪薬を3錠飲んだ。",
+      "translation": "I took three tablets of a cold medicine before going to bed."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "かぜ薬【かぜぐすり】 cold medication",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "風邪薬",
+     "matched": "風邪薬【かぜぐすり】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "remedy for a cold; cold medicine"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_kusuri",
+     "rel": "kind: cold medicine"
+    }
+   ]
+  },
+  {
+   "id": "cl_genetsuzai",
+   "jp": "解熱剤",
+   "kana": "げねつざい",
+   "romaji": "genetsuzai",
+   "en": "fever reducer; antipyretic",
+   "gloss": "fever reducer",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "解熱剤【げねつざい】 fever reducer",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "解熱剤",
+     "matched": "解熱剤【げねつざい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "fever medicine; antipyretic; antifebrile"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_itamidome",
+     "rel": "other: painkiller"
+    }
+   ]
+  },
+  {
+   "id": "cl_itamidome",
+   "jp": "痛み止め",
+   "kana": "いたみどめ",
+   "romaji": "itamidome",
+   "en": "painkiller",
+   "gloss": "painkiller",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "痛み止めを下さい。",
+     "en": "Please give me a painkiller.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 125670,
+      "url": "https://tatoeba.org/en/sentences/show/125670",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "痛み止めを下さい。",
+      "translation": "Please give me a painkiller."
+     }
+    },
+    {
+     "jp": "痛い時は、痛み止めを飲んでください。",
+     "en": "If you have pain, take a painkiller.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11243057,
+      "url": "https://tatoeba.org/en/sentences/show/11243057",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "痛い時は、痛み止めを飲んでください。",
+      "translation": "If you have pain, take a painkiller."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "痛み止め【いたみどめ】 painkiller",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "痛み止め",
+     "matched": "痛み止め【いたみどめ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "painkiller"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_genetsuzai",
+     "rel": "other: fever reducer"
+    }
+   ]
+  },
+  {
+   "id": "cl_igusuri",
+   "jp": "胃薬",
+   "kana": "いぐすり",
+   "romaji": "igusuri",
+   "en": "stomach medicine",
+   "gloss": "stomach medicine",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "胃薬を持ってきてください。",
+     "en": "Could you send up some stomach medicine?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 190988,
+      "url": "https://tatoeba.org/en/sentences/show/190988",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "胃薬を持ってきてください。",
+      "translation": "Could you send up some stomach medicine?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "胃薬",
+     "matched": "胃薬【いぐすり】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "stomach medicine"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_megusuri",
+   "jp": "目薬",
+   "kana": "めぐすり",
+   "romaji": "megusuri",
+   "en": "eye drops",
+   "gloss": "eye drops",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "目薬をください。",
+     "en": "I'd like to buy eye drops.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 79887,
+      "url": "https://tatoeba.org/en/sentences/show/79887",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "目薬をください。",
+      "translation": "I'd like to buy eye drops."
+     }
+    },
+    {
+     "jp": "目薬を点すのを忘れてた。",
+     "en": "I forgot to put drops into my eyes.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9963912,
+      "url": "https://tatoeba.org/en/sentences/show/9963912",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "目薬を点すのを忘れてた。",
+      "translation": "I forgot to put drops into my eyes."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "目薬",
+     "matched": "目薬【めぐすり】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "eye drops; eyewash",
+      "Eye drop"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_shippu",
+   "jp": "湿布",
+   "kana": "しっぷ",
+   "romaji": "shippu",
+   "en": "compress; medicated patch (poultice)",
+   "gloss": "compress",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "湿布",
+     "matched": "湿布【しっぷ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "(wet) compress; poultice; fomentation",
+      "Poultice"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_nurigusuri",
+   "jp": "塗り薬",
+   "kana": "ぬりぐすり",
+   "romaji": "nurigusuri",
+   "en": "ointment; medicine applied to the skin",
+   "gloss": "ointment",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "塗り薬",
+     "matched": "塗り薬【ぬりぐすり】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "medical cream; ointment; salve; liniment"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_nomigusuri",
+     "rel": "contrast: taken by mouth"
+    }
+   ]
+  },
+  {
+   "id": "cl_nomigusuri",
+   "jp": "飲み薬",
+   "kana": "のみぐすり",
+   "romaji": "nomigusuri",
+   "en": "oral medicine; medicine taken by mouth",
+   "gloss": "oral medicine",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "飲み薬",
+     "matched": "飲み薬【のみぐすり】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "oral medicine; internal medicine"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_nurigusuri",
+     "rel": "contrast: put on the skin"
+    }
+   ]
+  },
+  {
+   "id": "cl_jouzai",
+   "jp": "錠剤",
+   "kana": "じょうざい",
+   "romaji": "jōzai",
+   "en": "tablet; pill",
+   "gloss": "tablet",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "錠剤",
+     "matched": "錠剤【じょうざい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "pill; lozenge; tablet",
+      "Tablet (pharmacy)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_konagusuri",
+     "rel": "contrast: powder"
+    },
+    {
+     "id": "cl_jou",
+     "rel": "counter"
+    }
+   ]
+  },
+  {
+   "id": "cl_konagusuri",
+   "jp": "粉薬",
+   "kana": "こなぐすり",
+   "romaji": "konagusuri",
+   "en": "powdered medicine",
+   "gloss": "powdered medicine",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "粉薬",
+     "matched": "粉薬【こなぐすり】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "powdered medicine; powder"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_jouzai",
+     "rel": "contrast: tablet"
+    }
+   ]
+  },
+  {
+   "id": "cl_bansoukou",
+   "jp": "ばんそうこう",
+   "kana": "ばんそうこう",
+   "romaji": "bansōkō",
+   "en": "adhesive bandage; sticking plaster",
+   "gloss": "adhesive bandage",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "母は傷口にばんそうこうをつけてくれた。",
+     "en": "Mom applied the plaster to the cut.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 82917,
+      "url": "https://tatoeba.org/en/sentences/show/82917",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "母は傷口にばんそうこうをつけてくれた。",
+      "translation": "Mom applied the plaster to the cut."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "ばんそうこう【ばんそうこう】 adhesive bandage / band-aid",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ばんそうこう",
+     "matched": "【バンソウコウ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "adhesive bandage; sticking plaster; band-aid",
+      "Adhesive bandage"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_masuku",
+   "jp": "マスク",
+   "kana": "マスク",
+   "romaji": "masuku",
+   "en": "(face) mask",
+   "gloss": "(face) mask",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "マスクをしていますか？",
+     "en": "Are you wearing face mask?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8671035,
+      "url": "https://tatoeba.org/en/sentences/show/8671035",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "マスクをしていますか？",
+      "translation": "Are you wearing face mask?"
+     }
+    },
+    {
+     "jp": "マスクをしなさい。",
+     "en": "Put your mask on.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9101508,
+      "url": "https://tatoeba.org/en/sentences/show/9101508",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "マスクをしなさい。",
+      "translation": "Put your mask on."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "マスク【マスク】 mask",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "マスク",
+     "matched": "【マスク】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "(face) mask",
+      "(facial) features; looks",
+      "mask (e.g. for circuit etching)",
+      "Surgical mask"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_shokugo",
+   "jp": "食後",
+   "kana": "しょくご",
+   "romaji": "shokugo",
+   "en": "after a meal",
+   "gloss": "after a meal",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "say_when": "On medicine bags: 食後 = take after meals (Irodori lists 毎食後 \"after each meal\" too).",
+   "examples": [
+    {
+     "jp": "食後に歯をみがきなさい。",
+     "en": "Brush your teeth clean after each meal.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 145873,
+      "url": "https://tatoeba.org/en/sentences/show/145873",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "食後に歯をみがきなさい。",
+      "translation": "Brush your teeth clean after each meal."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "食後【しょくご】 after meals",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "食後",
+     "matched": "食後【しょくご】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "after a meal"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_shokuzen",
+     "rel": "contrast: before meals"
+    },
+    {
+     "id": "cl_shokkan",
+     "rel": "contrast: between meals"
+    }
+   ]
+  },
+  {
+   "id": "cl_shokuzen",
+   "jp": "食前",
+   "kana": "しょくぜん",
+   "romaji": "shokuzen",
+   "en": "before a meal",
+   "gloss": "before a meal",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "食前",
+     "matched": "食前【しょくぜん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "before meals"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_shokugo",
+     "rel": "contrast: after meals"
+    }
+   ]
+  },
+  {
+   "id": "cl_shokkan",
+   "jp": "食間",
+   "kana": "しょっかん",
+   "romaji": "shokkan",
+   "en": "between meals",
+   "gloss": "between meals",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "食間",
+     "matched": "食間【しょっかん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "between meals"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_shokugo",
+     "rel": "contrast: after meals"
+    }
+   ]
+  },
+  {
+   "id": "cl_fukusayou",
+   "jp": "副作用",
+   "kana": "ふくさよう",
+   "romaji": "fukusayō",
+   "en": "side effect",
+   "gloss": "side effect",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "この薬に副作用はありません。",
+     "en": "This medicine has no side effects.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 237338,
+      "url": "https://tatoeba.org/en/sentences/show/237338",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "この薬に副作用はありません。",
+      "translation": "This medicine has no side effects."
+     }
+    },
+    {
+     "jp": "副作用はありませんか。",
+     "en": "Is there any adverse reaction?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 83903,
+      "url": "https://tatoeba.org/en/sentences/show/83903",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "副作用はありませんか。",
+      "translation": "Is there any adverse reaction?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "副作用",
+     "matched": "副作用【ふくさよう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "side effect; adverse reaction",
+      "Adverse effect"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_youryou",
+   "jp": "用量",
+   "kana": "ようりょう",
+   "romaji": "yōryō",
+   "en": "dose; dosage",
+   "gloss": "dose",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 5,
+     "entry": "用量【ようりょう】 dosage",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "用量",
+     "matched": "用量【ようりょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "dose"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_youhou",
+   "jp": "用法",
+   "kana": "ようほう",
+   "romaji": "yōhō",
+   "en": "directions for use",
+   "gloss": "directions for use",
+   "pos": "noun",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 5,
+     "entry": "用法【ようほう】 for use",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "用法",
+     "matched": "用法【ようほう】",
+     "common": false,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "way of using (something); usage; use; directions (for use)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_jou",
+   "jp": "〜錠",
+   "kana": "〜じょう",
+   "romaji": "〜jō",
+   "en": "~ tablets (counter for pills)",
+   "gloss": "~ tablets",
+   "pos": "counter",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "note": "e.g. 2錠 にじょう = two tablets (Irodori 初級1 L15).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 5,
+     "entry": "～錠　（2錠）【～じょう　（にじょう）】 ～ tablets　(e.g. 2 tablets)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "錠",
+     "matched": "錠【じょう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "lock; padlock",
+      "tablet; pill",
+      "Chain"
+     ],
+     "pos": [
+      "Noun",
+      "Counter",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_jouzai",
+     "rel": "the tablet itself"
+    }
+   ]
+  },
+  {
+   "id": "cl_nichibun",
+   "jp": "〜日分",
+   "kana": "〜にちぶん",
+   "romaji": "〜nichibun",
+   "en": "for ~ days (amount of medicine)",
+   "gloss": "for ~ days",
+   "pos": "counter",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "hear",
+   "note": "e.g. 5日分 いつかぶん = five days' worth (Irodori 初級1 L15).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 5,
+     "entry": "～日分　（5日分）【～にちぶん　（いつかぶん）】 for ～ days　(e.g. for 5 days)",
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ct_kai",
+   "jp": "〜回",
+   "kana": "〜かい",
+   "romaji": "〜kai",
+   "en": "~ times (counter for occurrences)",
+   "gloss": "~ times",
+   "pos": "counter",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "note": "e.g. 1日3回 いちにちさんかい = three times a day. Irregular: 1回 いっかい, 6回 ろっかい, 10回 じゅっかい.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L10",
+     "activity": 3,
+     "entry": "～回　（１回）【～かい　（いっかい）】 ～ times　(e.g. once / one time)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "回",
+     "matched": "回【かい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "counter for occurrences",
+      "a time; an instance",
+      "inning (baseball); round; game",
+      "episode; chapter; instalment"
+     ],
+     "pos": [
+      "Counter",
+      "Noun",
+      "Noun, used as a suffix"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_doushimashita",
+   "jp": "どうしましたか？",
+   "kana": "どうしましたか？",
+   "romaji": "dō shimashita ka?",
+   "en": "What's wrong?",
+   "gloss": "What's wrong?",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "hear",
+   "register": "polite",
+   "say_when": "The doctor or receptionist asking what the problem is.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "どうしましたか？【どうしましたか？】 What's wrong?",
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_dousaremashita",
+   "jp": "どうされましたか？",
+   "kana": "どうされましたか？",
+   "romaji": "dō saremashita ka?",
+   "en": "What's wrong? (polite)",
+   "gloss": "What's wrong? (polite)",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Polite form of どうしましたか？, typical at reception.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "どうされましたか？【どうされましたか？】 What's wrong? (polite expression for どうしましたか？)",
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_itami_itsukara",
+   "jp": "痛みはいつからですか？",
+   "kana": "いたみはいつからですか？",
+   "romaji": "itami wa itsu kara desu ka?",
+   "en": "When did this pain start?",
+   "gloss": "When did this pain start?",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "hear",
+   "register": "polite",
+   "say_when": "Answer with when it started: 昨日から, 三日前から…",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 9859016,
+     "url": "https://tatoeba.org/en/sentences/show/9859016",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "痛みはいつからですか？",
+     "translation": "When did this pain start?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "痛み",
+     "matched": "痛み【いたみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "pain; ache; soreness; grief; distress",
+      "damage; injury; wear; bruise; break",
+      "Pain (philosophy)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": []
+  },
+  {
+   "id": "cl_x_kochira_hajimete",
+   "jp": "こちらは初めてですか",
+   "kana": "こちらははじめてですか",
+   "romaji": "kochira wa hajimete desu ka",
+   "en": "Is this your first visit here?",
+   "gloss": "Is this your first visit here?",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "say_when": "Reception asking whether this is your first visit (初診).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 224150,
+     "url": "https://tatoeba.org/en/sentences/show/224150",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "こちらは初めてですか。",
+     "translation": "Is this your first visit here?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "初めて",
+     "matched": "初めて【はじめて】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "for the first time",
+      "only after ... is it ...; only when ... do you ...; not until ... do you ...",
+      "first time; (one's) first"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_oyobishimasu",
+   "jp": "お呼びしますのでおかけになってお待ちください",
+   "kana": "およびしますのでおかけになっておまちください",
+   "romaji": "o-yobi shimasu no de o-kake ni natte o-machi kudasai",
+   "en": "Please take a seat and wait, and I'll call you.",
+   "gloss": "Please take a seat and wait, and I'll call you.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Said at reception: sit down and wait to be called.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 4884623,
+     "url": "https://tatoeba.org/en/sentences/show/4884623",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "お呼びしますのでおかけになってお待ちください。",
+     "translation": "Please take a seat and wait, and I'll call you."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "呼ぶ",
+     "matched": "呼ぶ【よぶ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to call out (to); to call; to invoke",
+      "to summon (a doctor, etc.)",
+      "to invite",
+      "to designate; to name; to brand"
+     ],
+     "pos": [
+      "Godan verb with 'bu' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_chuusha_shimashou",
+   "jp": "注射をしましょう",
+   "kana": "ちゅうしゃをしましょう",
+   "romaji": "chūsha o shimashō",
+   "en": "I'll give you a shot.",
+   "gloss": "I'll give you a shot.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 126332,
+     "url": "https://tatoeba.org/en/sentences/show/126332",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "注射をしましょう。",
+     "translation": "I'll give you a shot."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "注射",
+     "matched": "注射【ちゅうしゃ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "injection; jab; shot",
+      "Injection (medicine)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_ketsueki_shimashou",
+   "jp": "血液検査をしましょう",
+   "kana": "けつえきけんさをしましょう",
+   "romaji": "ketsueki kensa o shimashō",
+   "en": "I'd like you to have a blood test.",
+   "gloss": "I'd like you to have a blood test.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 175693,
+     "url": "https://tatoeba.org/en/sentences/show/175693",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "血液検査をしましょう。",
+     "translation": "I'd like you to have a blood test."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "血液検査",
+     "matched": "血液検査【けつえきけんさ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "blood test; hemanalysis",
+      "Blood test"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_shohousen_odashi",
+   "jp": "処方箋をお出しします",
+   "kana": "しょほうせんをおだしします",
+   "romaji": "shohōsen o o-dashi shimasu",
+   "en": "I'll give you a prescription.",
+   "gloss": "I'll give you a prescription.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "hear",
+   "register": "honorific",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2270834,
+     "url": "https://tatoeba.org/en/sentences/show/2270834",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "処方箋をお出しします。",
+     "translation": "I'll give you a prescription."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "処方箋",
+     "matched": "処方箋【しょほうせん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "prescription",
+      "Medical prescription"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_kusuri_allergy_q",
+   "jp": "薬にアレルギーがありますか",
+   "kana": "くすりにアレルギーがありますか",
+   "romaji": "kusuri ni arerugī ga arimasu ka",
+   "en": "Are you allergic to any medicine?",
+   "gloss": "Are you allergic to any medicine?",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 79494,
+     "url": "https://tatoeba.org/en/sentences/show/79494",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "薬にアレルギーがありますか。",
+     "translation": "Are you allergic to any medicine?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "薬",
+     "matched": "薬【くすり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "medicine; pharmaceuticals; (legal) drugs; pill; ointment; salve",
+      "efficacious chemical (gunpowder, pesticide, etc.)",
+      "(pottery) glaze",
+      "(illegal) drug; narcotic"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "アレルギー",
+     "matched": "【アレルギー】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "allergy",
+      "aversion (to); strong distaste (for)",
+      "Allergy"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a suffix",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_sankai_shokugo",
+   "jp": "１日３回、この薬を食後に服用してください",
+   "kana": "いちにちさんかい、このくすりをしょくごにふくようしてください",
+   "romaji": "ichinichi sankai, kono kusuri o shokugo ni fukuyō shite kudasai",
+   "en": "Take this medicine three times a day after meals.",
+   "gloss": "Take this medicine three times a day after meals.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "say_when": "Typical pharmacy / doctor instruction. 服用 = taking (medicine).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 12757931,
+     "url": "https://tatoeba.org/en/sentences/show/12757931",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "１日３回、この薬を食後に服用してください。",
+     "translation": "Take this medicine three times a day after meals."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "回",
+     "matched": "回【かい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "counter for occurrences",
+      "a time; an instance",
+      "inning (baseball); round; game",
+      "episode; chapter; instalment"
+     ],
+     "pos": [
+      "Counter",
+      "Noun",
+      "Noun, used as a suffix"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "薬",
+     "matched": "薬【くすり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "medicine; pharmaceuticals; (legal) drugs; pill; ointment; salve",
+      "efficacious chemical (gunpowder, pesticide, etc.)",
+      "(pottery) glaze",
+      "(illegal) drug; narcotic"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "食後",
+     "matched": "食後【しょくご】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "after a meal"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "服用",
+     "matched": "服用【ふくよう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "taking medicine; dosing"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_odaijini",
+   "jp": "お大事に",
+   "kana": "おだいじに",
+   "romaji": "o-daiji ni",
+   "en": "Take care of yourself; get well soon.",
+   "gloss": "Take care of yourself; get well soon.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Staff say it as you leave the clinic; you can say it to anyone who is ill.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "お大事に【おだいじに】 Take care.(used to express sympathy for a sick person)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 138002,
+     "url": "https://tatoeba.org/en/sentences/show/138002",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "お大事に。",
+     "translation": "Take good care of yourself."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お大事に",
+     "matched": "お大事に【おだいじに】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "take care of yourself; get well soon"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_shinsatsu_yoyaku",
+   "jp": "診察の予約をしたいのですが",
+   "kana": "しんさつのよやくをしたいのですが",
+   "romaji": "shinsatsu no yoyaku o shitai no desu ga",
+   "en": "I'd like to make an appointment to see the doctor.",
+   "gloss": "I'd like to make an appointment to see the doctor.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "On the phone or at reception.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 144769,
+     "url": "https://tatoeba.org/en/sentences/show/144769",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "診察の予約をしたいのですが。",
+     "translation": "I'd like to make an appointment to see the doctor."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "診察",
+     "matched": "診察【しんさつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "medical examination; checkup; consultation",
+      "Physical examination"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "予約",
+     "matched": "予約【よやく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "reservation; appointment; booking; advance order",
+      "contract; subscription; pledge",
+      "programming (e.g. a device); setting (e.g. a timer)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_yoyaku_henkou",
+   "jp": "予約を変更したいのですが",
+   "kana": "よやくをへんこうしたいのですが",
+   "romaji": "yoyaku o henkō shitai no desu ga",
+   "en": "I'd like to change my reservation.",
+   "gloss": "I'd like to change my reservation.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 78967,
+     "url": "https://tatoeba.org/en/sentences/show/78967",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "予約を変更したいのですが。",
+     "translation": "I'd like to change my reservation."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "予約",
+     "matched": "予約【よやく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "reservation; appointment; booking; advance order",
+      "contract; subscription; pledge",
+      "programming (e.g. a device); setting (e.g. a timer)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "変更",
+     "matched": "変更【へんこう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "change; modification; alteration; revision; amendment"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_yoyaku_torikeshi",
+   "jp": "予約を取り消してください",
+   "kana": "よやくをとりけしてください",
+   "romaji": "yoyaku o torikeshite kudasai",
+   "en": "Could you cancel my reservation?",
+   "gloss": "Could you cancel my reservation?",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 78968,
+     "url": "https://tatoeba.org/en/sentences/show/78968",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "予約を取り消してください。",
+     "translation": "Could you cancel my reservation?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "予約",
+     "matched": "予約【よやく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "reservation; appointment; booking; advance order",
+      "contract; subscription; pledge",
+      "programming (e.g. a device); setting (e.g. a timer)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "取り消す",
+     "matched": "取り消す【とりけす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "to cancel; to withdraw; to retract; to take back (words, etc.); to revoke"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_hakike",
+   "jp": "吐き気がします",
+   "kana": "はきけがします",
+   "romaji": "hakike ga shimasu",
+   "en": "I feel like throwing up.",
+   "gloss": "I feel like throwing up.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 124615,
+     "url": "https://tatoeba.org/en/sentences/show/124615",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "吐き気がします。",
+     "translation": "I feel like throwing up."
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "吐き気がする【はきけがする】 to have a nausea",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "吐き気",
+     "matched": "吐き気【はきけ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "nausea; feeling like throwing up; feeling sick",
+      "Nausea"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_seki",
+   "jp": "咳が出ます",
+   "kana": "せきがでます",
+   "romaji": "seki ga demasu",
+   "en": "I have a cough.",
+   "gloss": "I have a cough.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "accept": [
+    "せきが出ます"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 5719676,
+     "url": "https://tatoeba.org/en/sentences/show/5719676",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "咳が出ます。",
+     "translation": "I have a cough."
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 214050,
+     "url": "https://tatoeba.org/en/sentences/show/214050",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "せきが出ます。",
+     "translation": "I have a cough."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "咳",
+     "matched": "咳【せき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "cough; coughing; tussis"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_hanamizu",
+   "jp": "鼻水が出ます",
+   "kana": "はなみずがでます",
+   "romaji": "hanamizu ga demasu",
+   "en": "I have a runny nose.",
+   "gloss": "I have a runny nose.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 85506,
+     "url": "https://tatoeba.org/en/sentences/show/85506",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "鼻水が出ます。",
+     "translation": "I have a runny nose."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "鼻水",
+     "matched": "鼻水【はなみず】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "nasal mucus; dripping nose; snot"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_memai",
+   "jp": "めまいがします",
+   "kana": "めまいがします",
+   "romaji": "memai ga shimasu",
+   "en": "I feel dizzy.",
+   "gloss": "I feel dizzy.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 3554821,
+     "url": "https://tatoeba.org/en/sentences/show/3554821",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "めまいがします。",
+     "translation": "I feel dizzy."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "めまい",
+     "matched": "眩暈【めまい】 (written in kana: めまい)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "dizziness; giddiness; vertigo"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_samuke",
+   "jp": "寒気がします",
+   "kana": "さむけがします",
+   "romaji": "samuke ga shimasu",
+   "en": "I have a chill.",
+   "gloss": "I have a chill.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 183995,
+     "url": "https://tatoeba.org/en/sentences/show/183995",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "寒気がします。",
+     "translation": "I have a chill."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "寒気",
+     "matched": "寒気【さむけ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "chill; the shivers; shivering fit",
+      "Samuke"
+     ],
+     "pos": [
+      "Noun",
+      "Place"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_me_kayui",
+   "jp": "目がかゆいです",
+   "kana": "めがかゆいです",
+   "romaji": "me ga kayui desu",
+   "en": "My eyes feel itchy.",
+   "gloss": "My eyes feel itchy.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Typical hay-fever complaint (花粉症) in spring.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 80024,
+     "url": "https://tatoeba.org/en/sentences/show/80024",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "目がかゆいです。",
+     "translation": "My eyes feel itchy."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "目",
+     "matched": "目【め】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "eye; eyeball",
+      "eyesight; sight; vision",
+      "look; stare; gaze; glance",
+      "notice; attention; observation; eyes (of the world, public, etc.)"
+     ],
+     "pos": [
+      "Noun",
+      "Suffix",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "かゆい",
+     "matched": "痒い【かゆい】 (written in kana: かゆい)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "itchy"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_kafunshou",
+     "rel": "typical symptom"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_me_itai",
+   "jp": "目が痛いです",
+   "kana": "めがいたいです",
+   "romaji": "me ga itai desu",
+   "en": "My eyes are sore.",
+   "gloss": "My eyes are sore.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 79989,
+     "url": "https://tatoeba.org/en/sentences/show/79989",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "目が痛いです。",
+     "translation": "My eyes are sore."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "目",
+     "matched": "目【め】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "eye; eyeball",
+      "eyesight; sight; vision",
+      "look; stare; gaze; glance",
+      "notice; attention; observation; eyes (of the world, public, etc.)"
+     ],
+     "pos": [
+      "Noun",
+      "Suffix",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "痛い",
+     "matched": "痛い【いたい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "painful; sore",
+      "cringy; embarrassing"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_ha_itai",
+   "jp": "歯が痛いです",
+   "kana": "はがいたいです",
+   "romaji": "ha ga itai desu",
+   "en": "I have a toothache.",
+   "gloss": "I have a toothache.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 150973,
+     "url": "https://tatoeba.org/en/sentences/show/150973",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "歯が痛いです。",
+     "translation": "I have a toothache."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "歯",
+     "matched": "歯【は】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "tooth; teeth",
+      "tooth (of a comb, saw, etc.); cog",
+      "support (of a geta)",
+      "Human tooth"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "痛い",
+     "matched": "痛い【いたい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "painful; sore",
+      "cringy; embarrassing"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_koshi_itai",
+   "jp": "腰が痛い",
+   "kana": "こしがいたい",
+   "romaji": "koshi ga itai",
+   "en": "My back hurts.",
+   "gloss": "My back hurts.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "casual",
+   "say_when": "Add です to make it polite.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10483212,
+     "url": "https://tatoeba.org/en/sentences/show/10483212",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "腰が痛い。",
+     "translation": "My back hurts."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "腰",
+     "matched": "腰【こし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "lower back; waist; hips; lumbar region",
+      "body (of hair, noodles, paper, etc.); resilience; spring",
+      "Waist"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "痛い",
+     "matched": "痛い【いたい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "painful; sore",
+      "cringy; embarrassing"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_kaze_hikimashita",
+   "jp": "風邪をひきました",
+   "kana": "かぜをひきました",
+   "romaji": "kaze o hikimashita",
+   "en": "I have caught a cold.",
+   "gloss": "I have caught a cold.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 83951,
+     "url": "https://tatoeba.org/en/sentences/show/83951",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "風邪をひきました。",
+     "translation": "I have caught a cold."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "風邪",
+     "matched": "風邪【かぜ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "(common) cold; influenza; flu; ague; inflammatory respiratory system illness (in general)",
+      "Common cold"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "引く",
+     "matched": "引く【ひく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to pull; to tug; to lead (e.g. a horse)",
+      "to draw (attention, sympathy, etc.); to attract (e.g. interest)",
+      "to draw back (e.g. one's hand); to draw in (one's chin, stomach, etc.); to pull in",
+      "to draw (a card, mahjong tile, etc.)"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_kusuri_allergy",
+   "jp": "薬にアレルギーがあります",
+   "kana": "くすりにアレルギーがあります",
+   "romaji": "kusuri ni arerugī ga arimasu",
+   "en": "I'm allergic to some medicine.",
+   "gloss": "I'm allergic to some medicine.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 79495,
+     "url": "https://tatoeba.org/en/sentences/show/79495",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "薬にアレルギーがあります。",
+     "translation": "I'm allergic to some medicine."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "薬",
+     "matched": "薬【くすり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "medicine; pharmaceuticals; (legal) drugs; pill; ointment; salve",
+      "efficacious chemical (gunpowder, pesticide, etc.)",
+      "(pottery) glaze",
+      "(illegal) drug; narcotic"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "アレルギー",
+     "matched": "【アレルギー】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "allergy",
+      "aversion (to); strong distaste (for)",
+      "Allergy"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a suffix",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_fukusayou_nan",
+   "jp": "この薬の副作用は何ですか？",
+   "kana": "このくすりのふくさようはなんですか？",
+   "romaji": "kono kusuri no fukusayō wa nan desu ka?",
+   "en": "What are the side effects of this medicine?",
+   "gloss": "What are the side effects of this medicine?",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 9840135,
+     "url": "https://tatoeba.org/en/sentences/show/9840135",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "この薬の副作用は何ですか？",
+     "translation": "What are the side effects of this medicine?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "薬",
+     "matched": "薬【くすり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "medicine; pharmaceuticals; (legal) drugs; pill; ointment; salve",
+      "efficacious chemical (gunpowder, pesticide, etc.)",
+      "(pottery) glaze",
+      "(illegal) drug; narcotic"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "副作用",
+     "matched": "副作用【ふくさよう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "side effect; adverse reaction",
+      "Adverse effect"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_ude_kossetsu",
+   "jp": "腕を骨折しました",
+   "kana": "うでをこっせつしました",
+   "romaji": "ude o kossetsu shimashita",
+   "en": "I fractured my arm.",
+   "gloss": "I fractured my arm.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 77115,
+     "url": "https://tatoeba.org/en/sentences/show/77115",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "腕を骨折しました。",
+     "translation": "I fractured my arm."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "腕",
+     "matched": "腕【うで】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "arm",
+      "ability; skill; talent; competence",
+      "(physical) strength",
+      "Ude"
+     ],
+     "pos": [
+      "Noun",
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "骨折",
+     "matched": "骨折【こっせつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "bone fracture",
+      "Bone fracture"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_netsu_sagatta",
+   "jp": "熱が下がった",
+   "kana": "ねつがさがった",
+   "romaji": "netsu ga sagatta",
+   "en": "The fever has gone down.",
+   "gloss": "The fever has gone down.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "casual",
+   "say_when": "Irodori: 熱が下がる = the fever goes down.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 121899,
+     "url": "https://tatoeba.org/en/sentences/show/121899",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "熱が下がった。",
+     "translation": "The fever has abated."
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "下がる　（熱が下がる）【さがる　（ねつがさがる）】 to go down　(e.g. fever goes down)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "熱",
+     "matched": "熱【ねつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "heat",
+      "fever; temperature",
+      "zeal; passion; enthusiasm; mania; craze; rage",
+      "Heat"
+     ],
+     "pos": [
+      "Noun",
+      "Suffix",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_zutsuu",
+   "jp": "頭痛がします",
+   "kana": "ずつうがします",
+   "romaji": "zutsū ga shimasu",
+   "en": "I have a headache.",
+   "gloss": "I have a headache.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 123823,
+     "url": "https://tatoeba.org/en/sentences/show/123823",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "頭痛がします。",
+     "translation": "I have a headache."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "頭痛",
+     "matched": "頭痛【ずつう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "headache",
+      "Headache"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_hana_tsumatte",
+   "jp": "鼻がつまっています",
+   "kana": "はながつまっています",
+   "romaji": "hana ga tsumatte imasu",
+   "en": "I have a stuffed-up nose.",
+   "gloss": "I have a stuffed-up nose.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 85522,
+     "url": "https://tatoeba.org/en/sentences/show/85522",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "鼻がつまっています。",
+     "translation": "I have a stuffed-up nose."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "鼻",
+     "matched": "鼻【はな】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "nose",
+      "Nose"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_netsu_38",
+   "jp": "38度9分の熱がある",
+   "kana": "さんじゅうはちどきゅうぶのねつがある",
+   "romaji": "sanjūhachi-do kyū-bu no netsu ga aru",
+   "en": "I've got a 38.9 degree fever.",
+   "gloss": "I've got a 38.9 degree fever.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "casual",
+   "say_when": "Body temperature: 〜度〜分 (Irodori 初級1 L15). Add んです to be polite: 〜熱があるんです.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 8877803,
+     "url": "https://tatoeba.org/en/sentences/show/8877803",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "38度9分の熱がある。",
+     "translation": "I've got a 38.9 degree fever."
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "～度～分　（38度5分）【～ど～ぶ　（さんじゅうはちどごぶ）】 ～ degrees　(e.g. 38.5 degrees)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "熱",
+     "matched": "熱【ねつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "heat",
+      "fever; temperature",
+      "zeal; passion; enthusiasm; mania; craze; rage",
+      "Heat"
+     ],
+     "pos": [
+      "Noun",
+      "Suffix",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_ashikubi_hare",
+   "jp": "足首が腫れてるんです",
+   "kana": "あしくびがはれてるんです",
+   "romaji": "ashikubi ga harete ru n desu",
+   "en": "My ankle is swollen.",
+   "gloss": "My ankle is swollen.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10175667,
+     "url": "https://tatoeba.org/en/sentences/show/10175667",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "足首が腫れてるんです。",
+     "translation": "My ankle is swollen."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "腫れる",
+     "matched": "腫れる【はれる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "to swell (from inflammation); to become swollen"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_shukketsu",
+   "jp": "出血が止まりません",
+   "kana": "しゅっけつがとまりません",
+   "romaji": "shukketsu ga tomarimasen",
+   "en": "It won't stop bleeding.",
+   "gloss": "It won't stop bleeding.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 147753,
+     "url": "https://tatoeba.org/en/sentences/show/147753",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "出血が止まりません。",
+     "translation": "It won't stop bleeding."
+    }
+   ]
+  },
+  {
+   "id": "cl_x_byouin_ikimashita",
+   "jp": "病院に行きました",
+   "kana": "びょういんにいきました",
+   "romaji": "byōin ni ikimashita",
+   "en": "I went to the hospital.",
+   "gloss": "I went to the hospital.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2661777,
+     "url": "https://tatoeba.org/en/sentences/show/2661777",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "病院に行きました。",
+     "translation": "I went to the hospital."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "病院",
+     "matched": "病院【びょういん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "hospital; clinic; doctor's office; doctor's surgery; infirmary",
+      "Hospital"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "cl_x_kata_kotteru",
+   "jp": "肩が凝ってるんです",
+   "kana": "かたがこってるんです",
+   "romaji": "kata ga kotte ru n desu",
+   "en": "My shoulders feel stiff.",
+   "gloss": "My shoulders feel stiff.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 3,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 175203,
+     "url": "https://tatoeba.org/en/sentences/show/175203",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "肩が凝ってるんです。",
+     "translation": "My shoulders feel stiff."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "肩",
+     "matched": "肩【かた】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "shoulder",
+      "Shoulder"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "凝る",
+     "matched": "凝る【こる】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "to become stiff (of muscles)",
+      "to get absorbed in; to develop a passion for; to devote oneself to; to become obsessed with; to get hooked on",
+      "to be elaborate; to be intricate; to be exquisite; to be particular about; to pay great attention to"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  }
+ ]
+}

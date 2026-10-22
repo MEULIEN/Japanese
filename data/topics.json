@@ -179,6 +179,42 @@
    "order": 20,
    "prereq": ["intro", "time"],
    "patterns": []
+  },
+  {
+   "id": "clinic",
+   "name": "Clinic & hospital",
+   "icon": "🏥",
+   "goal": "Choose the right department, book or change an appointment, check in at reception, say what is wrong and since when, and understand tests, prescriptions and dosage",
+   "order": 21,
+   "prereq": ["survival", "health"],
+   "patterns": []
+  },
+  {
+   "id": "weather",
+   "name": "Weather & seasons",
+   "icon": "🌦️",
+   "goal": "Make weather small talk with neighbours, talk about Kyoto's seasons, and understand a forecast: rain, snow, typhoon, temperature",
+   "order": 22,
+   "prereq": ["survival", "describe"],
+   "patterns": []
+  },
+  {
+   "id": "disaster",
+   "name": "Earthquakes & emergencies",
+   "icon": "🚨",
+   "goal": "Understand an earthquake early warning and shouted warnings, ask for and find the evacuation shelter, and know the words on disaster notices",
+   "order": 23,
+   "prereq": ["survival"],
+   "patterns": []
+  },
+  {
+   "id": "services",
+   "name": "Hair, laundry & phone shop",
+   "icon": "✂️",
+   "goal": "Get a haircut and say how short, use a coin laundry or dry cleaner, and deal with a phone shop: smartphone, plan, charging, contract",
+   "order": 24,
+   "prereq": ["survival", "konbini"],
+   "patterns": []
   }
  ]
 }

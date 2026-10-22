@@ -1,151 +1,1092 @@
 {
  "about": "Real-life can-do milestones. A milestone is assessed (inside a weekly assessment) only once every needed item has been introduced, and is marked passed only when every step is answered correctly without help. Steps are (item, skill) tasks, so the check uses the same validated exercises as the rest of the app. Viewing lessons never completes a milestone.",
  "milestones": [
-  { "id": "m_order_meal", "name": "Order a meal and answer the staff", "desc": "Get seated, order, ask for water, say for here or to go, ask for the bill.",
-    "needs": ["x_nanmeisama", "w_futari", "x_gochuumon", "f_udon", "x_omizu_kudasai", "x_omochikaeri_desuka", "x_okaikei_onegai"],
-    "steps": [
-      { "item": "x_nanmeisama", "skill": "listening", "say": "The server greets you and asks…" },
-      { "item": "w_futari", "skill": "production", "say": "Answer: there are two of you." },
-      { "item": "x_gochuumon", "skill": "listening", "say": "A little later the server asks…" },
-      { "item": "f_udon", "skill": "production", "say": "Order udon." },
-      { "item": "x_omizu_kudasai", "skill": "speaking", "say": "Ask for water." },
-      { "item": "x_omochikaeri_desuka", "skill": "listening", "say": "At the counter you hear…" },
-      { "item": "x_okaikei_onegai", "skill": "production", "say": "Ask for the bill." } ] },
-  { "id": "m_shop_signs", "name": "Read common shop signs", "desc": "Open, preparing, closed, regular holiday, opening hours, sold out, tax included, discount.",
-    "needs": ["s_eigyochu", "s_junbichu", "w_teikyuubi", "w_eigyoujikan", "w_heiten", "w_urikire", "g_zeikomi", "g_waribiki"],
-    "steps": [
-      { "item": "s_eigyochu", "skill": "recognition" }, { "item": "s_junbichu", "skill": "recognition" }, { "item": "w_teikyuubi", "skill": "recognition" },
-      { "item": "w_eigyoujikan", "skill": "recognition" }, { "item": "w_heiten", "skill": "recognition" }, { "item": "w_urikire", "skill": "recognition" },
-      { "item": "g_zeikomi", "skill": "recognition" }, { "item": "g_waribiki", "skill": "recognition" } ] },
-  { "id": "m_directions", "name": "Ask for and follow directions", "desc": "Ask where the station is and understand straight, left, right, corner, traffic light.",
-    "needs": ["x_eki_doko", "w_massugu", "w_migi", "w_hidari", "w_kado", "w_shingou", "x_migi_magatte", "t_mouichido"],
-    "steps": [
-      { "item": "x_eki_doko", "skill": "production", "say": "Ask a passer-by where the station is." },
-      { "item": "w_massugu", "skill": "listening" }, { "item": "w_shingou", "skill": "listening" }, { "item": "w_kado", "skill": "listening" },
-      { "item": "x_migi_magatte", "skill": "listening" },
-      { "item": "t_mouichido", "skill": "speaking", "say": "You didn't catch the rest — ask them to repeat." } ] },
-  { "id": "m_landlord", "name": "Explain a problem to your landlord", "desc": "Say what is broken or leaking and that you need a repair.",
-    "needs": ["w_ooya", "v_kowareru", "x_oyu_demasen", "w_mizumore", "w_eakon", "w_shuuri", "x_kagi_nakushita"],
-    "steps": [
-      { "item": "w_ooya", "skill": "production", "say": "Who do you call?" },
-      { "item": "x_oyu_demasen", "skill": "speaking", "say": "Say there's no hot water." },
-      { "item": "w_mizumore", "skill": "production", "say": "Say there's a water leak." },
-      { "item": "v_kowareru", "skill": "form", "say": "Say the air conditioner is broken (pick the right form)." },
-      { "item": "w_shuuri", "skill": "recognition", "say": "They mention this — what is it?" },
-      { "item": "x_kagi_nakushita", "skill": "speaking", "say": "Another day: you've lost your key." } ] },
-  { "id": "m_intro", "name": "Introduce yourself and keep it going", "desc": "Name, where you're from, where you live, what you do, your hobbies — and ask back.",
-    "needs": ["x_hajimemashite", "w_namae", "x_doko_kara", "w_shusshin", "v_sumu", "x_oshigoto", "w_shumi", "x_yoroshiku"],
-    "steps": [
-      { "item": "x_hajimemashite", "skill": "speaking" },
-      { "item": "x_doko_kara", "skill": "listening", "say": "They ask you…" },
-      { "item": "w_shusshin", "skill": "production", "say": "The word for 'where one is from'." },
-      { "item": "v_sumu", "skill": "form", "say": "Say where you live (live → the right form)." },
-      { "item": "x_oshigoto", "skill": "listening", "say": "Then they ask…" },
-      { "item": "w_shumi", "skill": "production", "say": "Ask about hobbies — the key word." },
-      { "item": "x_yoroshiku", "skill": "speaking", "say": "Close politely." } ] },
-  { "id": "m_unexpected", "name": "Handle unexpected questions without freezing", "desc": "Understand a sudden question, buy time, ask for a repeat or slower speech.",
-    "needs": ["x_oshigoto", "x_onamae", "x_chotto_matte", "t_mouichido", "t_yukkuri", "x_wakarimasen"],
-    "steps": [
-      { "item": "x_onamae", "skill": "listening", "say": "Someone suddenly asks…" },
-      { "item": "x_chotto_matte", "skill": "speaking", "say": "Buy yourself a moment." },
-      { "item": "t_yukkuri", "skill": "speaking", "say": "Ask them to speak slowly." },
-      { "item": "x_oshigoto", "skill": "listening", "say": "Now they ask…" },
-      { "item": "x_wakarimasen", "skill": "speaking", "say": "Say you don't understand — that's a valid move." } ] },
-  { "id": "m_describe", "name": "Describe something you can't name", "desc": "Use thing / use / colour / shape / 'like…' to get your meaning across.",
-    "needs": ["w_mono", "v_tsukau", "w_iro", "w_katachi", "w_mitai", "v_niru"],
-    "steps": [
-      { "item": "w_mono", "skill": "production", "say": "The word for 'thing'." },
-      { "item": "v_tsukau", "skill": "form", "say": "'use' in the form you need." },
-      { "item": "w_iro", "skill": "production", "say": "'colour'" },
-      { "item": "w_katachi", "skill": "production", "say": "'shape'" },
-      { "item": "w_mitai", "skill": "recognition", "say": "What does this add to a description?" } ] },
-  { "id": "m_konbini", "name": "Pay at the konbini", "desc": "Understand 'shall I heat it?', decline a bag, pay by card, check the date label.",
-    "needs": ["v_atatameru", "x_irimasen", "x_kaado_de", "w_reshiito", "g_shomi", "g_shohi"],
-    "steps": [
-      { "item": "v_atatameru", "skill": "listening", "say": "The cashier says something with this word…" },
-      { "item": "x_irimasen", "skill": "speaking", "say": "You don't need a bag." },
-      { "item": "x_kaado_de", "skill": "speaking", "say": "Pay by card." },
-      { "item": "w_reshiito", "skill": "production", "say": "Ask for the… (receipt)" },
-      { "item": "g_shomi", "skill": "recognition" }, { "item": "g_shohi", "skill": "recognition" } ] },
-  { "id": "m_train", "name": "Take the train", "desc": "Buy a ticket, find the platform, change trains, get off at the right stop.",
-    "needs": ["x_kippu_doko", "w_bansen", "w_norikae", "w_tsugi", "w_shuuten", "x_tsugi_oriru"],
-    "steps": [
-      { "item": "x_kippu_doko", "skill": "production", "say": "Ask where to buy a ticket." },
-      { "item": "w_bansen", "skill": "listening" }, { "item": "w_norikae", "skill": "listening" },
-      { "item": "w_tsugi", "skill": "listening" }, { "item": "w_shuuten", "skill": "listening" },
-      { "item": "x_tsugi_oriru", "skill": "speaking", "say": "Tell the person next to you you're getting off." } ] },
-  { "id": "m_traffic", "name": "Understand the main road signs", "desc": "Stop, slow down, no parking, one way, road closed, no overtaking, no U-turn, speed limit.",
-    "needs": ["d_ichiji", "d_jokoo", "d_chusha", "d_ippo", "d_tsuko", "d_oikoshi", "d_tenkai", "d_saiko"],
-    "steps": [
-      { "item": "d_ichiji", "skill": "recognition" }, { "item": "d_jokoo", "skill": "recognition" }, { "item": "d_chusha", "skill": "recognition" },
-      { "item": "d_ippo", "skill": "recognition" }, { "item": "d_tsuko", "skill": "recognition" }, { "item": "d_oikoshi", "skill": "recognition" },
-      { "item": "d_tenkai", "skill": "recognition" }, { "item": "d_saiko", "skill": "recognition" } ] },
-  { "id": "m_health", "name": "Explain symptoms at a pharmacy or clinic", "desc": "Say what hurts, that you have a fever, show your insurance card — or call an ambulance.",
-    "needs": ["x_atama_itai", "x_netsu_ga_aru", "w_kusuri", "w_hokenshou", "x_kyuukyuusha_yonde"],
-    "steps": [
-      { "item": "x_atama_itai", "skill": "speaking" }, { "item": "x_netsu_ga_aru", "skill": "speaking" },
-      { "item": "w_kusuri", "skill": "production" }, { "item": "w_hokenshou", "skill": "recognition" },
-      { "item": "x_kyuukyuusha_yonde", "skill": "speaking", "say": "Emergency: ask someone to call an ambulance." } ] },
-  { "id": "m_bank_atm", "name": "Withdraw cash at an ATM", "desc": "Find the ATM, choose withdrawal, follow the PIN prompt, read the amount screen, and say you are taking money out.",
-    "needs": ["s_atm", "b_kyasshukaado", "b_hikidashi", "b_x_anshou_nyuuryoku", "b_kingaku", "b_zandaka", "b_orosu"],
-    "steps": [
-      { "item": "s_atm", "skill": "recognition", "say": "Find the cash machine." },
-      { "item": "b_kyasshukaado", "skill": "production", "say": "Say what you put into the machine." },
-      { "item": "b_hikidashi", "skill": "recognition", "say": "Choose the menu button for taking money out." },
-      { "item": "b_x_anshou_nyuuryoku", "skill": "listening", "say": "The machine says…" },
-      { "item": "b_kingaku", "skill": "recognition", "say": "The next screen asks for the…" },
-      { "item": "b_zandaka", "skill": "recognition", "say": "The receipt shows your…" },
-      { "item": "b_orosu", "skill": "production", "say": "Tell a friend you are going to withdraw money." } ] },
-  { "id": "m_bank_account", "name": "Open a bank account", "desc": "Ask to open an account, show your ID and residence card, seal or sign the form, and ask about fees.",
-    "needs": ["p_ginko", "b_x_kouza_hirakitai", "c_x_mibun_onegai", "c_zairyuukaado", "b_x_inkan_ka_sain", "b_inkan", "b_x_tesuuryou_kakarimasu", "b_tsuuchou"],
-    "steps": [
-      { "item": "p_ginko", "skill": "production", "say": "Say where you are going." },
-      { "item": "b_x_kouza_hirakitai", "skill": "speaking", "say": "Tell the clerk you would like to open an account." },
-      { "item": "c_x_mibun_onegai", "skill": "listening", "say": "The clerk asks…" },
-      { "item": "c_zairyuukaado", "skill": "production", "say": "Say which ID you have: your residence card." },
-      { "item": "b_x_inkan_ka_sain", "skill": "listening", "say": "The clerk points at the form and says…" },
-      { "item": "b_inkan", "skill": "production", "say": "Say you brought your personal seal." },
-      { "item": "b_x_tesuuryou_kakarimasu", "skill": "speaking", "say": "Ask whether there is a fee." },
-      { "item": "b_tsuuchou", "skill": "recognition", "say": "The clerk hands you your…" } ] },
-  { "id": "m_post_send", "name": "Send a letter or parcel at the post office", "desc": "Ask for registered or express mail, say what is inside, ask the price, and sign when asked.",
-    "needs": ["po_yuubinkyoku", "po_kozutsumi", "po_x_kakitome_onegai", "po_x_sokutatsu_onegai", "po_nakami", "po_x_ikura_kakarimasu", "po_x_sain"],
-    "steps": [
-      { "item": "po_yuubinkyoku", "skill": "production", "say": "Say where you are going." },
-      { "item": "po_kozutsumi", "skill": "production", "say": "Say what you want to send: a parcel." },
-      { "item": "po_x_kakitome_onegai", "skill": "speaking", "say": "Ask to send a letter by registered mail." },
-      { "item": "po_x_sokutatsu_onegai", "skill": "speaking", "say": "Ask for express delivery." },
-      { "item": "po_nakami", "skill": "listening", "say": "The clerk asks about the…" },
-      { "item": "po_x_ikura_kakarimasu", "skill": "speaking", "say": "Ask how much it costs." },
-      { "item": "po_x_sain", "skill": "listening", "say": "The clerk hands you a pen and says…" } ] },
-  { "id": "m_post_redelivery", "name": "Deal with a missed delivery", "desc": "Read the missed-delivery slip (tracking number, storage deadline) and ask for redelivery.",
-    "needs": ["po_fuzairenrakuhyou", "po_fuzai", "po_otoiawasebangou", "po_hokankigen", "po_saihaitatsu", "po_x_nimotsu_todokimashitaka"],
-    "steps": [
-      { "item": "po_fuzairenrakuhyou", "skill": "recognition", "say": "You find this slip in your mailbox." },
-      { "item": "po_fuzai", "skill": "recognition" },
-      { "item": "po_otoiawasebangou", "skill": "recognition", "say": "Find the number you need for tracking." },
-      { "item": "po_hokankigen", "skill": "recognition", "say": "Find the date until which it is kept." },
-      { "item": "po_saihaitatsu", "skill": "production", "say": "Ask for the parcel to be delivered again." },
-      { "item": "po_x_nimotsu_todokimashitaka", "skill": "speaking", "say": "Later, ask whether the package has arrived." } ] },
-  { "id": "m_cityhall_move", "name": "Register your new address at the ward office", "desc": "Take a number, say you moved, ask what is needed, fill in the form, and ask for a copy of your residence certificate.",
-    "needs": ["c_kuyakusho", "c_x_bangoufuda", "c_x_hikkoshi", "c_tennyuutodoke", "c_x_nani_hitsuyou", "c_zairyuukaado", "c_x_shinseisho_kinyuu", "c_shimei", "c_seinengappi", "c_juuminhyounoutsushi"],
-    "steps": [
-      { "item": "c_kuyakusho", "skill": "production", "say": "Say where you go after moving within Kyoto." },
-      { "item": "c_x_bangoufuda", "skill": "listening", "say": "At the entrance you hear…" },
-      { "item": "c_x_hikkoshi", "skill": "speaking", "say": "Tell the clerk you moved last month." },
-      { "item": "c_tennyuutodoke", "skill": "production", "say": "Say which notice you came to file (moving in)." },
-      { "item": "c_x_nani_hitsuyou", "skill": "speaking", "say": "Ask what is required." },
-      { "item": "c_zairyuukaado", "skill": "production", "say": "Say which card you brought." },
-      { "item": "c_x_shinseisho_kinyuu", "skill": "listening", "say": "The clerk gives you a form and says…" },
-      { "item": "c_shimei", "skill": "recognition", "say": "Find the box for your full name." },
-      { "item": "c_seinengappi", "skill": "recognition", "say": "Find the box for your date of birth." },
-      { "item": "c_juuminhyounoutsushi", "skill": "production", "say": "Ask for a copy of your certificate of residence." } ] },
-  { "id": "m_work_absence", "name": "Tell work you are late or need a day off", "desc": "Apologise for being late, say you will be late, and ask for a day off.",
-    "needs": ["wk_chikoku", "wk_x_chikoku_moushiwake", "wk_x_yasumi_ii", "wk_soutai", "wk_yuukyuu"],
-    "steps": [
-      { "item": "wk_chikoku", "skill": "production", "say": "Say that you will be late." },
-      { "item": "wk_x_chikoku_moushiwake", "skill": "speaking", "say": "Apologise to your boss for being late." },
-      { "item": "wk_x_yasumi_ii", "skill": "speaking", "say": "Ask whether you may take a day off." },
-      { "item": "wk_soutai", "skill": "production", "say": "Say you need to leave early." },
-      { "item": "wk_yuukyuu", "skill": "production", "say": "Say you want to use paid leave." } ] }
+  {
+   "id": "m_order_meal",
+   "name": "Order a meal and answer the staff",
+   "desc": "Get seated, order, ask for water, say for here or to go, ask for the bill.",
+   "needs": [
+    "x_nanmeisama",
+    "w_futari",
+    "x_gochuumon",
+    "f_udon",
+    "x_omizu_kudasai",
+    "x_omochikaeri_desuka",
+    "x_okaikei_onegai"
+   ],
+   "steps": [
+    {
+     "item": "x_nanmeisama",
+     "skill": "listening",
+     "say": "The server greets you and asks…"
+    },
+    {
+     "item": "w_futari",
+     "skill": "production",
+     "say": "Answer: there are two of you."
+    },
+    {
+     "item": "x_gochuumon",
+     "skill": "listening",
+     "say": "A little later the server asks…"
+    },
+    {
+     "item": "f_udon",
+     "skill": "production",
+     "say": "Order udon."
+    },
+    {
+     "item": "x_omizu_kudasai",
+     "skill": "speaking",
+     "say": "Ask for water."
+    },
+    {
+     "item": "x_omochikaeri_desuka",
+     "skill": "listening",
+     "say": "At the counter you hear…"
+    },
+    {
+     "item": "x_okaikei_onegai",
+     "skill": "production",
+     "say": "Ask for the bill."
+    }
+   ]
+  },
+  {
+   "id": "m_shop_signs",
+   "name": "Read common shop signs",
+   "desc": "Open, preparing, closed, regular holiday, opening hours, sold out, tax included, discount.",
+   "needs": [
+    "s_eigyochu",
+    "s_junbichu",
+    "w_teikyuubi",
+    "w_eigyoujikan",
+    "w_heiten",
+    "w_urikire",
+    "g_zeikomi",
+    "g_waribiki"
+   ],
+   "steps": [
+    {
+     "item": "s_eigyochu",
+     "skill": "recognition"
+    },
+    {
+     "item": "s_junbichu",
+     "skill": "recognition"
+    },
+    {
+     "item": "w_teikyuubi",
+     "skill": "recognition"
+    },
+    {
+     "item": "w_eigyoujikan",
+     "skill": "recognition"
+    },
+    {
+     "item": "w_heiten",
+     "skill": "recognition"
+    },
+    {
+     "item": "w_urikire",
+     "skill": "recognition"
+    },
+    {
+     "item": "g_zeikomi",
+     "skill": "recognition"
+    },
+    {
+     "item": "g_waribiki",
+     "skill": "recognition"
+    }
+   ]
+  },
+  {
+   "id": "m_directions",
+   "name": "Ask for and follow directions",
+   "desc": "Ask where the station is and understand straight, left, right, corner, traffic light.",
+   "needs": [
+    "x_eki_doko",
+    "w_massugu",
+    "w_migi",
+    "w_hidari",
+    "w_kado",
+    "w_shingou",
+    "x_migi_magatte",
+    "t_mouichido"
+   ],
+   "steps": [
+    {
+     "item": "x_eki_doko",
+     "skill": "production",
+     "say": "Ask a passer-by where the station is."
+    },
+    {
+     "item": "w_massugu",
+     "skill": "listening"
+    },
+    {
+     "item": "w_shingou",
+     "skill": "listening"
+    },
+    {
+     "item": "w_kado",
+     "skill": "listening"
+    },
+    {
+     "item": "x_migi_magatte",
+     "skill": "listening"
+    },
+    {
+     "item": "t_mouichido",
+     "skill": "speaking",
+     "say": "You didn't catch the rest — ask them to repeat."
+    }
+   ]
+  },
+  {
+   "id": "m_landlord",
+   "name": "Explain a problem to your landlord",
+   "desc": "Say what is broken or leaking and that you need a repair.",
+   "needs": [
+    "w_ooya",
+    "v_kowareru",
+    "x_oyu_demasen",
+    "w_mizumore",
+    "w_eakon",
+    "w_shuuri",
+    "x_kagi_nakushita"
+   ],
+   "steps": [
+    {
+     "item": "w_ooya",
+     "skill": "production",
+     "say": "Who do you call?"
+    },
+    {
+     "item": "x_oyu_demasen",
+     "skill": "speaking",
+     "say": "Say there's no hot water."
+    },
+    {
+     "item": "w_mizumore",
+     "skill": "production",
+     "say": "Say there's a water leak."
+    },
+    {
+     "item": "v_kowareru",
+     "skill": "form",
+     "say": "Say the air conditioner is broken (pick the right form)."
+    },
+    {
+     "item": "w_shuuri",
+     "skill": "recognition",
+     "say": "They mention this — what is it?"
+    },
+    {
+     "item": "x_kagi_nakushita",
+     "skill": "speaking",
+     "say": "Another day: you've lost your key."
+    }
+   ]
+  },
+  {
+   "id": "m_intro",
+   "name": "Introduce yourself and keep it going",
+   "desc": "Name, where you're from, where you live, what you do, your hobbies — and ask back.",
+   "needs": [
+    "x_hajimemashite",
+    "w_namae",
+    "x_doko_kara",
+    "w_shusshin",
+    "v_sumu",
+    "x_oshigoto",
+    "w_shumi",
+    "x_yoroshiku"
+   ],
+   "steps": [
+    {
+     "item": "x_hajimemashite",
+     "skill": "speaking"
+    },
+    {
+     "item": "x_doko_kara",
+     "skill": "listening",
+     "say": "They ask you…"
+    },
+    {
+     "item": "w_shusshin",
+     "skill": "production",
+     "say": "The word for 'where one is from'."
+    },
+    {
+     "item": "v_sumu",
+     "skill": "form",
+     "say": "Say where you live (live → the right form)."
+    },
+    {
+     "item": "x_oshigoto",
+     "skill": "listening",
+     "say": "Then they ask…"
+    },
+    {
+     "item": "w_shumi",
+     "skill": "production",
+     "say": "Ask about hobbies — the key word."
+    },
+    {
+     "item": "x_yoroshiku",
+     "skill": "speaking",
+     "say": "Close politely."
+    }
+   ]
+  },
+  {
+   "id": "m_unexpected",
+   "name": "Handle unexpected questions without freezing",
+   "desc": "Understand a sudden question, buy time, ask for a repeat or slower speech.",
+   "needs": [
+    "x_oshigoto",
+    "x_onamae",
+    "x_chotto_matte",
+    "t_mouichido",
+    "t_yukkuri",
+    "x_wakarimasen"
+   ],
+   "steps": [
+    {
+     "item": "x_onamae",
+     "skill": "listening",
+     "say": "Someone suddenly asks…"
+    },
+    {
+     "item": "x_chotto_matte",
+     "skill": "speaking",
+     "say": "Buy yourself a moment."
+    },
+    {
+     "item": "t_yukkuri",
+     "skill": "speaking",
+     "say": "Ask them to speak slowly."
+    },
+    {
+     "item": "x_oshigoto",
+     "skill": "listening",
+     "say": "Now they ask…"
+    },
+    {
+     "item": "x_wakarimasen",
+     "skill": "speaking",
+     "say": "Say you don't understand — that's a valid move."
+    }
+   ]
+  },
+  {
+   "id": "m_describe",
+   "name": "Describe something you can't name",
+   "desc": "Use thing / use / colour / shape / 'like…' to get your meaning across.",
+   "needs": [
+    "w_mono",
+    "v_tsukau",
+    "w_iro",
+    "w_katachi",
+    "w_mitai",
+    "v_niru"
+   ],
+   "steps": [
+    {
+     "item": "w_mono",
+     "skill": "production",
+     "say": "The word for 'thing'."
+    },
+    {
+     "item": "v_tsukau",
+     "skill": "form",
+     "say": "'use' in the form you need."
+    },
+    {
+     "item": "w_iro",
+     "skill": "production",
+     "say": "'colour'"
+    },
+    {
+     "item": "w_katachi",
+     "skill": "production",
+     "say": "'shape'"
+    },
+    {
+     "item": "w_mitai",
+     "skill": "recognition",
+     "say": "What does this add to a description?"
+    }
+   ]
+  },
+  {
+   "id": "m_konbini",
+   "name": "Pay at the konbini",
+   "desc": "Understand 'shall I heat it?', decline a bag, pay by card, check the date label.",
+   "needs": [
+    "v_atatameru",
+    "x_irimasen",
+    "x_kaado_de",
+    "w_reshiito",
+    "g_shomi",
+    "g_shohi"
+   ],
+   "steps": [
+    {
+     "item": "v_atatameru",
+     "skill": "listening",
+     "say": "The cashier says something with this word…"
+    },
+    {
+     "item": "x_irimasen",
+     "skill": "speaking",
+     "say": "You don't need a bag."
+    },
+    {
+     "item": "x_kaado_de",
+     "skill": "speaking",
+     "say": "Pay by card."
+    },
+    {
+     "item": "w_reshiito",
+     "skill": "production",
+     "say": "Ask for the… (receipt)"
+    },
+    {
+     "item": "g_shomi",
+     "skill": "recognition"
+    },
+    {
+     "item": "g_shohi",
+     "skill": "recognition"
+    }
+   ]
+  },
+  {
+   "id": "m_train",
+   "name": "Take the train",
+   "desc": "Buy a ticket, find the platform, change trains, get off at the right stop.",
+   "needs": [
+    "x_kippu_doko",
+    "w_bansen",
+    "w_norikae",
+    "w_tsugi",
+    "w_shuuten",
+    "x_tsugi_oriru"
+   ],
+   "steps": [
+    {
+     "item": "x_kippu_doko",
+     "skill": "production",
+     "say": "Ask where to buy a ticket."
+    },
+    {
+     "item": "w_bansen",
+     "skill": "listening"
+    },
+    {
+     "item": "w_norikae",
+     "skill": "listening"
+    },
+    {
+     "item": "w_tsugi",
+     "skill": "listening"
+    },
+    {
+     "item": "w_shuuten",
+     "skill": "listening"
+    },
+    {
+     "item": "x_tsugi_oriru",
+     "skill": "speaking",
+     "say": "Tell the person next to you you're getting off."
+    }
+   ]
+  },
+  {
+   "id": "m_traffic",
+   "name": "Understand the main road signs",
+   "desc": "Stop, slow down, no parking, one way, road closed, no overtaking, no U-turn, speed limit.",
+   "needs": [
+    "d_ichiji",
+    "d_jokoo",
+    "d_chusha",
+    "d_ippo",
+    "d_tsuko",
+    "d_oikoshi",
+    "d_tenkai",
+    "d_saiko"
+   ],
+   "steps": [
+    {
+     "item": "d_ichiji",
+     "skill": "recognition"
+    },
+    {
+     "item": "d_jokoo",
+     "skill": "recognition"
+    },
+    {
+     "item": "d_chusha",
+     "skill": "recognition"
+    },
+    {
+     "item": "d_ippo",
+     "skill": "recognition"
+    },
+    {
+     "item": "d_tsuko",
+     "skill": "recognition"
+    },
+    {
+     "item": "d_oikoshi",
+     "skill": "recognition"
+    },
+    {
+     "item": "d_tenkai",
+     "skill": "recognition"
+    },
+    {
+     "item": "d_saiko",
+     "skill": "recognition"
+    }
+   ]
+  },
+  {
+   "id": "m_health",
+   "name": "Explain symptoms at a pharmacy or clinic",
+   "desc": "Say what hurts, that you have a fever, show your insurance card — or call an ambulance.",
+   "needs": [
+    "x_atama_itai",
+    "x_netsu_ga_aru",
+    "w_kusuri",
+    "w_hokenshou",
+    "x_kyuukyuusha_yonde"
+   ],
+   "steps": [
+    {
+     "item": "x_atama_itai",
+     "skill": "speaking"
+    },
+    {
+     "item": "x_netsu_ga_aru",
+     "skill": "speaking"
+    },
+    {
+     "item": "w_kusuri",
+     "skill": "production"
+    },
+    {
+     "item": "w_hokenshou",
+     "skill": "recognition"
+    },
+    {
+     "item": "x_kyuukyuusha_yonde",
+     "skill": "speaking",
+     "say": "Emergency: ask someone to call an ambulance."
+    }
+   ]
+  },
+  {
+   "id": "m_bank_atm",
+   "name": "Withdraw cash at an ATM",
+   "desc": "Find the ATM, choose withdrawal, follow the PIN prompt, read the amount screen, and say you are taking money out.",
+   "needs": [
+    "s_atm",
+    "b_kyasshukaado",
+    "b_hikidashi",
+    "b_x_anshou_nyuuryoku",
+    "b_kingaku",
+    "b_zandaka",
+    "b_orosu"
+   ],
+   "steps": [
+    {
+     "item": "s_atm",
+     "skill": "recognition",
+     "say": "Find the cash machine."
+    },
+    {
+     "item": "b_kyasshukaado",
+     "skill": "production",
+     "say": "Say what you put into the machine."
+    },
+    {
+     "item": "b_hikidashi",
+     "skill": "recognition",
+     "say": "Choose the menu button for taking money out."
+    },
+    {
+     "item": "b_x_anshou_nyuuryoku",
+     "skill": "listening",
+     "say": "The machine says…"
+    },
+    {
+     "item": "b_kingaku",
+     "skill": "recognition",
+     "say": "The next screen asks for the…"
+    },
+    {
+     "item": "b_zandaka",
+     "skill": "recognition",
+     "say": "The receipt shows your…"
+    },
+    {
+     "item": "b_orosu",
+     "skill": "production",
+     "say": "Tell a friend you are going to withdraw money."
+    }
+   ]
+  },
+  {
+   "id": "m_bank_account",
+   "name": "Open a bank account",
+   "desc": "Ask to open an account, show your ID and residence card, seal or sign the form, and ask about fees.",
+   "needs": [
+    "p_ginko",
+    "b_x_kouza_hirakitai",
+    "c_x_mibun_onegai",
+    "c_zairyuukaado",
+    "b_x_inkan_ka_sain",
+    "b_inkan",
+    "b_x_tesuuryou_kakarimasu",
+    "b_tsuuchou"
+   ],
+   "steps": [
+    {
+     "item": "p_ginko",
+     "skill": "production",
+     "say": "Say where you are going."
+    },
+    {
+     "item": "b_x_kouza_hirakitai",
+     "skill": "speaking",
+     "say": "Tell the clerk you would like to open an account."
+    },
+    {
+     "item": "c_x_mibun_onegai",
+     "skill": "listening",
+     "say": "The clerk asks…"
+    },
+    {
+     "item": "c_zairyuukaado",
+     "skill": "production",
+     "say": "Say which ID you have: your residence card."
+    },
+    {
+     "item": "b_x_inkan_ka_sain",
+     "skill": "listening",
+     "say": "The clerk points at the form and says…"
+    },
+    {
+     "item": "b_inkan",
+     "skill": "production",
+     "say": "Say you brought your personal seal."
+    },
+    {
+     "item": "b_x_tesuuryou_kakarimasu",
+     "skill": "speaking",
+     "say": "Ask whether there is a fee."
+    },
+    {
+     "item": "b_tsuuchou",
+     "skill": "recognition",
+     "say": "The clerk hands you your…"
+    }
+   ]
+  },
+  {
+   "id": "m_post_send",
+   "name": "Send a letter or parcel at the post office",
+   "desc": "Ask for registered or express mail, say what is inside, ask the price, and sign when asked.",
+   "needs": [
+    "po_yuubinkyoku",
+    "po_kozutsumi",
+    "po_x_kakitome_onegai",
+    "po_x_sokutatsu_onegai",
+    "po_nakami",
+    "po_x_ikura_kakarimasu",
+    "po_x_sain"
+   ],
+   "steps": [
+    {
+     "item": "po_yuubinkyoku",
+     "skill": "production",
+     "say": "Say where you are going."
+    },
+    {
+     "item": "po_kozutsumi",
+     "skill": "production",
+     "say": "Say what you want to send: a parcel."
+    },
+    {
+     "item": "po_x_kakitome_onegai",
+     "skill": "speaking",
+     "say": "Ask to send a letter by registered mail."
+    },
+    {
+     "item": "po_x_sokutatsu_onegai",
+     "skill": "speaking",
+     "say": "Ask for express delivery."
+    },
+    {
+     "item": "po_nakami",
+     "skill": "listening",
+     "say": "The clerk asks about the…"
+    },
+    {
+     "item": "po_x_ikura_kakarimasu",
+     "skill": "speaking",
+     "say": "Ask how much it costs."
+    },
+    {
+     "item": "po_x_sain",
+     "skill": "listening",
+     "say": "The clerk hands you a pen and says…"
+    }
+   ]
+  },
+  {
+   "id": "m_post_redelivery",
+   "name": "Deal with a missed delivery",
+   "desc": "Read the missed-delivery slip (tracking number, storage deadline) and ask for redelivery.",
+   "needs": [
+    "po_fuzairenrakuhyou",
+    "po_fuzai",
+    "po_otoiawasebangou",
+    "po_hokankigen",
+    "po_saihaitatsu",
+    "po_x_nimotsu_todokimashitaka"
+   ],
+   "steps": [
+    {
+     "item": "po_fuzairenrakuhyou",
+     "skill": "recognition",
+     "say": "You find this slip in your mailbox."
+    },
+    {
+     "item": "po_fuzai",
+     "skill": "recognition"
+    },
+    {
+     "item": "po_otoiawasebangou",
+     "skill": "recognition",
+     "say": "Find the number you need for tracking."
+    },
+    {
+     "item": "po_hokankigen",
+     "skill": "recognition",
+     "say": "Find the date until which it is kept."
+    },
+    {
+     "item": "po_saihaitatsu",
+     "skill": "production",
+     "say": "Ask for the parcel to be delivered again."
+    },
+    {
+     "item": "po_x_nimotsu_todokimashitaka",
+     "skill": "speaking",
+     "say": "Later, ask whether the package has arrived."
+    }
+   ]
+  },
+  {
+   "id": "m_cityhall_move",
+   "name": "Register your new address at the ward office",
+   "desc": "Take a number, say you moved, ask what is needed, fill in the form, and ask for a copy of your residence certificate.",
+   "needs": [
+    "c_kuyakusho",
+    "c_x_bangoufuda",
+    "c_x_hikkoshi",
+    "c_tennyuutodoke",
+    "c_x_nani_hitsuyou",
+    "c_zairyuukaado",
+    "c_x_shinseisho_kinyuu",
+    "c_shimei",
+    "c_seinengappi",
+    "c_juuminhyounoutsushi"
+   ],
+   "steps": [
+    {
+     "item": "c_kuyakusho",
+     "skill": "production",
+     "say": "Say where you go after moving within Kyoto."
+    },
+    {
+     "item": "c_x_bangoufuda",
+     "skill": "listening",
+     "say": "At the entrance you hear…"
+    },
+    {
+     "item": "c_x_hikkoshi",
+     "skill": "speaking",
+     "say": "Tell the clerk you moved last month."
+    },
+    {
+     "item": "c_tennyuutodoke",
+     "skill": "production",
+     "say": "Say which notice you came to file (moving in)."
+    },
+    {
+     "item": "c_x_nani_hitsuyou",
+     "skill": "speaking",
+     "say": "Ask what is required."
+    },
+    {
+     "item": "c_zairyuukaado",
+     "skill": "production",
+     "say": "Say which card you brought."
+    },
+    {
+     "item": "c_x_shinseisho_kinyuu",
+     "skill": "listening",
+     "say": "The clerk gives you a form and says…"
+    },
+    {
+     "item": "c_shimei",
+     "skill": "recognition",
+     "say": "Find the box for your full name."
+    },
+    {
+     "item": "c_seinengappi",
+     "skill": "recognition",
+     "say": "Find the box for your date of birth."
+    },
+    {
+     "item": "c_juuminhyounoutsushi",
+     "skill": "production",
+     "say": "Ask for a copy of your certificate of residence."
+    }
+   ]
+  },
+  {
+   "id": "m_work_absence",
+   "name": "Tell work you are late or need a day off",
+   "desc": "Apologise for being late, say you will be late, and ask for a day off.",
+   "needs": [
+    "wk_chikoku",
+    "wk_x_chikoku_moushiwake",
+    "wk_x_yasumi_ii",
+    "wk_soutai",
+    "wk_yuukyuu"
+   ],
+   "steps": [
+    {
+     "item": "wk_chikoku",
+     "skill": "production",
+     "say": "Say that you will be late."
+    },
+    {
+     "item": "wk_x_chikoku_moushiwake",
+     "skill": "speaking",
+     "say": "Apologise to your boss for being late."
+    },
+    {
+     "item": "wk_x_yasumi_ii",
+     "skill": "speaking",
+     "say": "Ask whether you may take a day off."
+    },
+    {
+     "item": "wk_soutai",
+     "skill": "production",
+     "say": "Say you need to leave early."
+    },
+    {
+     "item": "wk_yuukyuu",
+     "skill": "production",
+     "say": "Say you want to use paid leave."
+    }
+   ]
+  },
+  {
+   "id": "m_clinic_booking",
+   "name": "Book a clinic appointment and check in",
+   "desc": "Make or change an appointment, answer the receptionist, hand over your insurance card, fill in the questionnaire and wait to be called.",
+   "needs": [
+    "cl_x_shinsatsu_yoyaku",
+    "cl_x_yoyaku_henkou",
+    "cl_x_dousaremashita",
+    "cl_x_kochira_hajimete",
+    "w_hokenshou",
+    "hl_monshinhyou",
+    "cl_x_oyobishimasu"
+   ],
+   "steps": [
+    {
+     "item": "cl_x_shinsatsu_yoyaku",
+     "skill": "speaking",
+     "say": "Phone the clinic and ask for an appointment."
+    },
+    {
+     "item": "cl_x_yoyaku_henkou",
+     "skill": "speaking",
+     "say": "Something came up: change the appointment."
+    },
+    {
+     "item": "cl_x_dousaremashita",
+     "skill": "listening",
+     "say": "At reception you hear…"
+    },
+    {
+     "item": "cl_x_kochira_hajimete",
+     "skill": "listening",
+     "say": "Then the receptionist asks…"
+    },
+    {
+     "item": "w_hokenshou",
+     "skill": "production",
+     "say": "Say what you are handing over."
+    },
+    {
+     "item": "hl_monshinhyou",
+     "skill": "recognition",
+     "say": "Find the form you must fill in."
+    },
+    {
+     "item": "cl_x_oyobishimasu",
+     "skill": "listening",
+     "say": "Finally you are told…"
+    }
+   ]
+  },
+  {
+   "id": "m_clinic_symptoms",
+   "name": "Explain your symptoms to the doctor",
+   "desc": "Understand the doctor's questions and say what is wrong: fever, cough, runny nose, nausea, diarrhoea, allergies.",
+   "needs": [
+    "cl_x_doushimashita",
+    "x_netsu_ga_aru",
+    "cl_x_seki",
+    "cl_x_hanamizu",
+    "cl_x_hakike",
+    "cl_geri",
+    "cl_x_itami_itsukara",
+    "cl_x_kusuri_allergy"
+   ],
+   "steps": [
+    {
+     "item": "cl_x_doushimashita",
+     "skill": "listening",
+     "say": "The doctor asks…"
+    },
+    {
+     "item": "x_netsu_ga_aru",
+     "skill": "speaking",
+     "say": "Say you have a fever."
+    },
+    {
+     "item": "cl_x_seki",
+     "skill": "speaking",
+     "say": "Say you have a cough."
+    },
+    {
+     "item": "cl_x_hanamizu",
+     "skill": "speaking",
+     "say": "Say your nose is running."
+    },
+    {
+     "item": "cl_x_hakike",
+     "skill": "speaking",
+     "say": "Say you feel nauseous."
+    },
+    {
+     "item": "cl_geri",
+     "skill": "production",
+     "say": "Name the other symptom: diarrhoea."
+    },
+    {
+     "item": "cl_x_itami_itsukara",
+     "skill": "listening",
+     "say": "The doctor asks about the pain…"
+    },
+    {
+     "item": "cl_x_kusuri_allergy",
+     "skill": "speaking",
+     "say": "Mention your allergy to medicine."
+    }
+   ]
+  },
+  {
+   "id": "m_pharmacy_medicine",
+   "name": "Get medicine and understand the dosage",
+   "desc": "Ask for common medicines at the pharmacy, hand in a prescription, and understand when and how often to take it.",
+   "needs": [
+    "w_yakkyoku",
+    "w_shohousen",
+    "cl_kazegusuri",
+    "cl_itamidome",
+    "cl_x_sankai_shokugo",
+    "cl_shokugo",
+    "cl_x_fukusayou_nan"
+   ],
+   "steps": [
+    {
+     "item": "w_yakkyoku",
+     "skill": "production",
+     "say": "Say where you are going."
+    },
+    {
+     "item": "w_shohousen",
+     "skill": "production",
+     "say": "Say what the doctor gave you to hand in."
+    },
+    {
+     "item": "cl_kazegusuri",
+     "skill": "production",
+     "say": "Ask for cold medicine."
+    },
+    {
+     "item": "cl_itamidome",
+     "skill": "production",
+     "say": "Ask for a painkiller."
+    },
+    {
+     "item": "cl_x_sankai_shokugo",
+     "skill": "listening",
+     "say": "The pharmacist explains…"
+    },
+    {
+     "item": "cl_shokugo",
+     "skill": "recognition",
+     "say": "Read the bag: when to take it."
+    },
+    {
+     "item": "cl_x_fukusayou_nan",
+     "skill": "speaking",
+     "say": "Ask about side effects."
+    }
+   ]
+  },
+  {
+   "id": "m_kyoto_garbage",
+   "name": "Put the rubbish out the Kyoto way",
+   "desc": "Read Kyoto City's rubbish categories and bags, and know which day is collection day.",
+   "needs": [
+    "w_moyasugomi",
+    "h_kanbinpetto",
+    "h_purasuchikkurui",
+    "h_shiteibukuro",
+    "h_oogatagomi",
+    "h_shuushuubi"
+   ],
+   "steps": [
+    {
+     "item": "w_moyasugomi",
+     "skill": "recognition",
+     "say": "Find the category for kitchen waste."
+    },
+    {
+     "item": "h_kanbinpetto",
+     "skill": "recognition",
+     "say": "Find the category for empty bottles and cans."
+    },
+    {
+     "item": "h_purasuchikkurui",
+     "skill": "recognition",
+     "say": "Find the category for plastic packaging."
+    },
+    {
+     "item": "h_shiteibukuro",
+     "skill": "recognition",
+     "say": "What kind of bag is required?"
+    },
+    {
+     "item": "h_oogatagomi",
+     "skill": "recognition",
+     "say": "An old sofa goes out as…"
+    },
+    {
+     "item": "h_shuushuubi",
+     "skill": "recognition",
+     "say": "Find the collection-day line on the notice."
+    }
+   ]
+  },
+  {
+   "id": "m_earthquake",
+   "name": "React to an earthquake",
+   "desc": "Understand the early warning and shouted warnings, and ask for the evacuation shelter.",
+   "needs": [
+    "ds_kinkyuujishinsokuhou",
+    "ds_jishin",
+    "ds_x_nigete",
+    "ds_x_kiwotsukete",
+    "ds_hinanjo",
+    "ds_shindo"
+   ],
+   "steps": [
+    {
+     "item": "ds_kinkyuujishinsokuhou",
+     "skill": "listening",
+     "say": "Your phone sounds and says…"
+    },
+    {
+     "item": "ds_jishin",
+     "skill": "production",
+     "say": "Say what is happening."
+    },
+    {
+     "item": "ds_x_nigete",
+     "skill": "listening",
+     "say": "Someone shouts…"
+    },
+    {
+     "item": "ds_x_kiwotsukete",
+     "skill": "speaking",
+     "say": "Warn your neighbour to be careful."
+    },
+    {
+     "item": "ds_hinanjo",
+     "skill": "production",
+     "say": "Ask where to go: the evacuation shelter."
+    },
+    {
+     "item": "ds_shindo",
+     "skill": "listening",
+     "say": "On the news you hear the strength measure…"
+    }
+   ]
+  },
+  {
+   "id": "m_weather_smalltalk",
+   "name": "Weather small talk with a neighbour",
+   "desc": "Greet a neighbour with a weather comment and talk about rain and the forecast.",
+   "needs": [
+    "we_x_iitenki",
+    "we_x_samui_ne",
+    "we_x_ame_furisou",
+    "we_x_yohou_dou",
+    "we_x_hareru_deshou"
+   ],
+   "steps": [
+    {
+     "item": "we_x_iitenki",
+     "skill": "speaking",
+     "say": "It is a sunny morning. Greet your neighbour."
+    },
+    {
+     "item": "we_x_samui_ne",
+     "skill": "speaking",
+     "say": "In January, say it is cold."
+    },
+    {
+     "item": "we_x_ame_furisou",
+     "skill": "speaking",
+     "say": "Dark clouds: say it looks like rain."
+    },
+    {
+     "item": "we_x_yohou_dou",
+     "skill": "speaking",
+     "say": "Ask about the forecast."
+    },
+    {
+     "item": "we_x_hareru_deshou",
+     "skill": "listening",
+     "say": "The forecast says…"
+    }
+   ]
+  }
  ]
 }

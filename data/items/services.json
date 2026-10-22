@@ -1,0 +1,1908 @@
+{
+ "topic": "services",
+ "items": [
+  {
+   "id": "sv_tokoya",
+   "jp": "床屋",
+   "kana": "とこや",
+   "romaji": "tokoya",
+   "en": "barber; barbershop",
+   "gloss": "barber",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "月に一度、床屋に行きます。",
+     "en": "I go to the barber's once a month.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11178869,
+      "url": "https://tatoeba.org/en/sentences/show/11178869",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "月に一度、床屋に行きます。",
+      "translation": "I go to the barber's once a month."
+     }
+    },
+    {
+     "jp": "私は床屋で散髪した。",
+     "en": "I had my hair cut at the barber's.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 155836,
+      "url": "https://tatoeba.org/en/sentences/show/155836",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私は床屋で散髪した。",
+      "translation": "I had my hair cut at the barber's."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "床屋【とこや】 barbershop",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "床屋",
+     "matched": "床屋【とこや】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "barbershop; barber shop; barber"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sv_biyouin",
+     "rel": "contrast: hair salon"
+    },
+    {
+     "id": "sv_rihatsuten",
+     "rel": "formal name on signs"
+    }
+   ]
+  },
+  {
+   "id": "sv_biyouin",
+   "jp": "美容院",
+   "kana": "びよういん",
+   "romaji": "biyōin",
+   "en": "beauty salon; hair salon",
+   "gloss": "beauty salon",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "昨日美容院へ行きました。",
+     "en": "Yesterday I went to the hairdresser's.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 169816,
+      "url": "https://tatoeba.org/en/sentences/show/169816",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "昨日美容院へ行きました。",
+      "translation": "Yesterday I went to the hairdresser's."
+     }
+    },
+    {
+     "jp": "月一回、美容院に行きます。",
+     "en": "Once a month, I go to the hairdresser.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8855484,
+      "url": "https://tatoeba.org/en/sentences/show/8855484",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "月一回、美容院に行きます。",
+      "translation": "Once a month, I go to the hairdresser."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "美容院【びよういん】 beauty salon",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "美容院",
+     "matched": "美容院【びよういん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "beauty parlour; beauty parlor; beauty salon; hairdressing salon"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sv_tokoya",
+     "rel": "contrast: barber"
+    }
+   ]
+  },
+  {
+   "id": "sv_rihatsuten",
+   "jp": "理髪店",
+   "kana": "りはつてん",
+   "romaji": "rihatsuten",
+   "en": "barbershop",
+   "gloss": "barbershop",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 3,
+   "use": "read",
+   "tags": [
+    "place"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "理髪店【りはつてん】 barbershop",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "理髪店",
+     "matched": "理髪店【りはつてん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "barbershop; barber shop"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sv_tokoya",
+     "rel": "everyday word"
+    }
+   ]
+  },
+  {
+   "id": "sv_kami",
+   "jp": "髪",
+   "kana": "かみ",
+   "romaji": "kami",
+   "en": "hair (on the head)",
+   "gloss": "hair",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "髪切った？",
+     "en": "Did you get a haircut?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3263324,
+      "url": "https://tatoeba.org/en/sentences/show/3263324",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "髪切った？",
+      "translation": "Did you get a haircut?"
+     }
+    },
+    {
+     "jp": "髪をとかした。",
+     "en": "I combed my hair.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9089095,
+      "url": "https://tatoeba.org/en/sentences/show/9089095",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "髪をとかした。",
+      "translation": "I combed my hair."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "髪【かみ】 hair",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "髪",
+     "matched": "髪【かみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "hair (on the head)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_katto",
+   "jp": "カット",
+   "kana": "カット",
+   "romaji": "katto",
+   "en": "haircut; cut",
+   "gloss": "haircut",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "どのようにカットしますか。",
+     "en": "How do you want your hair cut?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 200365,
+      "url": "https://tatoeba.org/en/sentences/show/200365",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どのようにカットしますか。",
+      "translation": "How do you want your hair cut?"
+     }
+    },
+    {
+     "jp": "旅行の前に髪をカットした。",
+     "en": "Before taking a journey, I got a haircut.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1125120,
+      "url": "https://tatoeba.org/en/sentences/show/1125120",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "旅行の前に髪をカットした。",
+      "translation": "Before taking a journey, I got a haircut."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "カット【カット】 haircut",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "カット",
+     "matched": "【カット】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "cut; cutting",
+      "omission; cutting; reduction",
+      "haircut",
+      "(continuous) shot (in a film or TV show)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_paama",
+   "jp": "パーマ",
+   "kana": "パーマ",
+   "romaji": "pāma",
+   "en": "perm; permanent wave",
+   "gloss": "perm",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "パーマは別料金です。",
+     "en": "A permanent is extra.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 198406,
+      "url": "https://tatoeba.org/en/sentences/show/198406",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "パーマは別料金です。",
+      "translation": "A permanent is extra."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "パーマ【パーマ】 perm",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "パーマ",
+     "matched": "【パーマ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "perm (hairstyle); permanent wave"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_karaa",
+   "jp": "カラー",
+   "kana": "カラー",
+   "romaji": "karā",
+   "en": "hair colouring; colour",
+   "gloss": "hair colouring",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L13",
+     "activity": 3,
+     "entry": "カラー【カラー】 color",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "カラー【カラー】 coloring",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "カラー",
+     "matched": "【カラー】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "color; colour",
+      "color; character; characteristics; atmosphere",
+      "coloring (one's hair); dyeing"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_maegami",
+   "jp": "前髪",
+   "kana": "まえがみ",
+   "romaji": "maegami",
+   "en": "fringe; bangs",
+   "gloss": "fringe",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "前髪は短く切りすぎないでください。",
+     "en": "Don't cut it too short in the front.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 140936,
+      "url": "https://tatoeba.org/en/sentences/show/140936",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "前髪は短く切りすぎないでください。",
+      "translation": "Don't cut it too short in the front."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "前髪【まえがみ】 bangs",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "前髪",
+     "matched": "前髪【まえがみ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "forelock; bangs"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_shanpuu",
+   "jp": "シャンプー",
+   "kana": "シャンプー",
+   "romaji": "shanpū",
+   "en": "shampoo",
+   "gloss": "shampoo",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "シャンプーがなくなったよ。",
+     "en": "We used up the shampoo.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 215738,
+      "url": "https://tatoeba.org/en/sentences/show/215738",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "シャンプーがなくなったよ。",
+      "translation": "We used up the shampoo."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 5,
+     "entry": "シャンプー【シャンプー】 shampoo",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "シャンプー",
+     "matched": "【シャンプー】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "shampoo",
+      "Shampoo"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_kiru",
+   "jp": "切る",
+   "kana": "きる",
+   "romaji": "kiru",
+   "en": "to cut",
+   "gloss": "to cut",
+   "pos": "verb",
+   "topic": "services",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "髪は月に一度切るよ。",
+     "en": "I have my hair cut once a month.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11994172,
+      "url": "https://tatoeba.org/en/sentences/show/11994172",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "髪は月に一度切るよ。",
+      "translation": "I have my hair cut once a month."
+     }
+    },
+    {
+     "jp": "そろそろ髪を切る時期だな。",
+     "en": "It's time to get a haircut.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13894164,
+      "url": "https://tatoeba.org/en/sentences/show/13894164",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "そろそろ髪を切る時期だな。",
+      "translation": "It's time to get a haircut."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 5,
+     "entry": "切る／切【きる】 to turn off / OFF",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L4",
+     "activity": 4,
+     "entry": "切る【きる】 to cut",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "切る",
+     "matched": "切る【きる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to cut; to cut through; to perform (surgery)",
+      "to sever (connections, ties)",
+      "to turn off (e.g. the light)",
+      "to terminate (e.g. a conversation); to hang up (the phone); to disconnect"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb",
+      "Suffix"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_mijikai",
+   "jp": "短い",
+   "kana": "みじかい",
+   "romaji": "mijikai",
+   "en": "short",
+   "gloss": "short",
+   "pos": "i-adj",
+   "topic": "services",
+   "tier": 1,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "彼女の髪は短い。",
+     "en": "She has short hair.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 94068,
+      "url": "https://tatoeba.org/en/sentences/show/94068",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "彼女の髪は短い。",
+      "translation": "She has short hair."
+     }
+    },
+    {
+     "jp": "人生は短い。",
+     "en": "Life is short.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3496836,
+      "url": "https://tatoeba.org/en/sentences/show/3496836",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "人生は短い。",
+      "translation": "Life is short."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 2,
+     "entry": "短い【みじかい】 short",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "短い",
+     "matched": "短い【みじかい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "short",
+      "brief"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_nagai",
+   "jp": "長い",
+   "kana": "ながい",
+   "romaji": "nagai",
+   "en": "long",
+   "gloss": "long",
+   "pos": "i-adj",
+   "topic": "services",
+   "tier": 1,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "彼は足が長い。",
+     "en": "He has long legs.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 102691,
+      "url": "https://tatoeba.org/en/sentences/show/102691",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "彼は足が長い。",
+      "translation": "He has long legs."
+     }
+    },
+    {
+     "jp": "夏は日が長い。",
+     "en": "The days are long in the summer.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9067775,
+      "url": "https://tatoeba.org/en/sentences/show/9067775",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "夏は日が長い。",
+      "translation": "The days are long in the summer."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 2,
+     "entry": "長い【ながい】 long",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L1",
+     "activity": 1,
+     "entry": "長い【ながい】 long",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "長い",
+     "matched": "長い【ながい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "long (distance, length)",
+      "long (time); protracted; prolonged"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_kuriiningu",
+   "jp": "クリーニング",
+   "kana": "クリーニング",
+   "romaji": "kurīningu",
+   "en": "dry cleaning; laundering",
+   "gloss": "dry cleaning",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "クリーニング屋はどこですか？",
+     "en": "Where is the laundry?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1700965,
+      "url": "https://tatoeba.org/en/sentences/show/1700965",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "クリーニング屋はどこですか？",
+      "translation": "Where is the laundry?"
+     }
+    },
+    {
+     "jp": "このスーツのクリーニングをお願いします。",
+     "en": "I want this suit cleaned.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10025753,
+      "url": "https://tatoeba.org/en/sentences/show/10025753",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "このスーツのクリーニングをお願いします。",
+      "translation": "I want this suit cleaned."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "クリーニング【クリーニング】 dry cleaning",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "クリーニング",
+     "matched": "【クリーニング】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "cleaning; dry cleaning; laundry service"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sv_koinrandorii",
+     "rel": "contrast: wash it yourself"
+    }
+   ]
+  },
+  {
+   "id": "sv_koinrandorii",
+   "jp": "コインランドリー",
+   "kana": "コインランドリー",
+   "romaji": "koinrandorī",
+   "en": "coin laundry; laundromat",
+   "gloss": "coin laundry",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "コインランドリー【コインランドリー】 laundromat",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "コインランドリー",
+     "matched": "【コインランドリー】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "laundromat; launderette; laundrette; coin-operated laundry; coin laundry; coin-op",
+      "Self-service laundry"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sv_kuriiningu",
+     "rel": "contrast: shop cleans it for you"
+    }
+   ]
+  },
+  {
+   "id": "sv_sentakumono",
+   "jp": "洗濯物",
+   "kana": "せんたくもの",
+   "romaji": "sentakumono",
+   "en": "laundry; washing (clothes)",
+   "gloss": "laundry",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "洗濯物畳んでくれる？",
+     "en": "Can you fold the washing?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3023114,
+      "url": "https://tatoeba.org/en/sentences/show/3023114",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "洗濯物畳んでくれる？",
+      "translation": "Can you fold the washing?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "洗濯物",
+     "matched": "洗濯物【せんたくもの】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "laundry; the washing"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_kansouki",
+   "jp": "乾燥機",
+   "kana": "かんそうき",
+   "romaji": "kansōki",
+   "en": "dryer; drying machine",
+   "gloss": "dryer",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "乾燥機",
+     "matched": "乾燥機【かんそうき】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "drying machine; dryer; desiccator"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_senzai",
+   "jp": "洗剤",
+   "kana": "せんざい",
+   "romaji": "senzai",
+   "en": "detergent",
+   "gloss": "detergent",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "洗剤かえた？",
+     "en": "Did you change detergents?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10908161,
+      "url": "https://tatoeba.org/en/sentences/show/10908161",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "洗剤かえた？",
+      "translation": "Did you change detergents?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "洗剤【せんざい】 detergent",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "洗剤",
+     "matched": "洗剤【せんざい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "detergent; cleanser; cleaning agent; washing material",
+      "Detergent"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_shimi",
+   "jp": "シミ",
+   "kana": "シミ",
+   "romaji": "shimi",
+   "en": "stain; spot",
+   "gloss": "stain",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 2,
+   "use": "say",
+   "note": "Usually written シミ in shops (Irodori 初級2 L14: シミ, シミ抜き = stain removal). Dictionary form 染み.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "シミ【シミ】 stain",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "染み",
+     "matched": "染み【しみ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "stain; spot; smudge; blot; smear; blotch",
+      "spot (on one's skin, e.g. chloasma, liver spot); blemish; discoloration; freckle"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_sumaho",
+   "jp": "スマホ",
+   "kana": "スマホ",
+   "romaji": "sumaho",
+   "en": "smartphone",
+   "gloss": "smartphone",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "スマホって持ってる？",
+     "en": "Do you have a smartphone?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9725484,
+      "url": "https://tatoeba.org/en/sentences/show/9725484",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "スマホって持ってる？",
+      "translation": "Do you have a smartphone?"
+     }
+    },
+    {
+     "jp": "新しいスマホが欲しい。",
+     "en": "I want to buy a new smartphone.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8621966,
+      "url": "https://tatoeba.org/en/sentences/show/8621966",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "新しいスマホが欲しい。",
+      "translation": "I want to buy a new smartphone."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 3,
+     "entry": "スマートフォン／スマホ【スマートフォン／スマホ】 smartphone",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 3,
+     "entry": "スマホ【スマホ】 smartphone",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "スマホ",
+     "matched": "【スマホ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "smartphone; smart phone"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sv_keitai",
+     "rel": "smartphone"
+    }
+   ]
+  },
+  {
+   "id": "sv_keitaidenwa",
+   "jp": "携帯電話",
+   "kana": "けいたいでんわ",
+   "romaji": "keitaidenwa",
+   "en": "mobile phone; cell phone",
+   "gloss": "mobile phone",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "携帯電話を持っていますか？",
+     "en": "Do you have a cellphone?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 536737,
+      "url": "https://tatoeba.org/en/sentences/show/536737",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "携帯電話を持っていますか？",
+      "translation": "Do you have a cellphone?"
+     }
+    },
+    {
+     "jp": "携帯電話が鳴った。",
+     "en": "My cell phone rang.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10914904,
+      "url": "https://tatoeba.org/en/sentences/show/10914904",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "携帯電話が鳴った。",
+      "translation": "My cell phone rang."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L8",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L8",
+     "activity": 4,
+     "entry": "携帯電話【けいたいでんわ】 mobile phone",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "携帯電話【けいたいでんわ】 mobile phone",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "携帯電話",
+     "matched": "携帯電話【けいたいでんわ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "mobile phone; cell phone",
+      "Mobile phone"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sv_keitai",
+     "rel": "short form"
+    }
+   ]
+  },
+  {
+   "id": "sv_keitai",
+   "jp": "携帯",
+   "kana": "けいたい",
+   "romaji": "keitai",
+   "en": "mobile phone (short for 携帯電話)",
+   "gloss": "mobile phone",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "携帯忘れた。",
+     "en": "I've forgotten my mobile.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11900878,
+      "url": "https://tatoeba.org/en/sentences/show/11900878",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "携帯忘れた。",
+      "translation": "I've forgotten my mobile."
+     }
+    },
+    {
+     "jp": "携帯変えた。",
+     "en": "I got a new cellphone.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 995473,
+      "url": "https://tatoeba.org/en/sentences/show/995473",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "携帯変えた。",
+      "translation": "I got a new cellphone."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "携帯",
+     "matched": "携帯【けいたい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "carrying (on one's person or in the hand)",
+      "mobile phone; cell phone"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sv_keitaidenwa",
+     "rel": "full form"
+    },
+    {
+     "id": "sv_sumaho",
+     "rel": "smartphone"
+    }
+   ]
+  },
+  {
+   "id": "sv_kishuhenkou",
+   "jp": "機種変更",
+   "kana": "きしゅへんこう",
+   "romaji": "kishuhenkō",
+   "en": "changing to a new phone model (same carrier and number)",
+   "gloss": "changing to a new phone model",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 3,
+   "use": "say",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "機種変更",
+     "matched": "機種変更【きしゅへんこう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "change of mobile phone (without changing carrier or phone number); model upgrade"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_juuden",
+   "jp": "充電",
+   "kana": "じゅうでん",
+   "romaji": "jūden",
+   "en": "charging (a battery)",
+   "gloss": "charging",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "携帯を充電しなきゃ。",
+     "en": "I have to charge my mobile phone.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9961314,
+      "url": "https://tatoeba.org/en/sentences/show/9961314",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "携帯を充電しなきゃ。",
+      "translation": "I have to charge my mobile phone."
+     }
+    },
+    {
+     "jp": "充電が切れそう。",
+     "en": "My battery is running out.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12300725,
+      "url": "https://tatoeba.org/en/sentences/show/12300725",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "充電が切れそう。",
+      "translation": "My battery is running out."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L12",
+     "activity": 3,
+     "entry": "充電【じゅうでん】 charge",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "充電（する）【じゅうでん（する）】 (to) charge",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "充電",
+     "matched": "充電【じゅうでん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "charging (electrically)",
+      "recharging one's batteries (e.g. by taking a nap); replenishing (one's energy)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sv_juudenki",
+     "rel": "the charger"
+    }
+   ]
+  },
+  {
+   "id": "sv_juudenki",
+   "jp": "充電器",
+   "kana": "じゅうでんき",
+   "romaji": "jūdenki",
+   "en": "(battery) charger",
+   "gloss": "(battery) charger",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "充電器を見つけられない。",
+     "en": "I can't find my charger.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 7897668,
+      "url": "https://tatoeba.org/en/sentences/show/7897668",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "充電器を見つけられない。",
+      "translation": "I can't find my charger."
+     }
+    },
+    {
+     "jp": "携帯の充電器が壊れた。",
+     "en": "My cellphone charger broke down.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3137938,
+      "url": "https://tatoeba.org/en/sentences/show/3137938",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "携帯の充電器が壊れた。",
+      "translation": "My cellphone charger broke down."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 4,
+     "entry": "充電器【じゅうでんき】 charger",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "充電器",
+     "matched": "充電器【じゅうでんき】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "(battery) charger; AC adapter"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sv_juuden",
+     "rel": "the charger"
+    }
+   ]
+  },
+  {
+   "id": "sv_puran",
+   "jp": "プラン",
+   "kana": "プラン",
+   "romaji": "puran",
+   "en": "plan (e.g. a payment plan or package)",
+   "gloss": "plan",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "何かプランはあるの？",
+     "en": "Do you have a plan?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10589674,
+      "url": "https://tatoeba.org/en/sentences/show/10589674",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何かプランはあるの？",
+      "translation": "Do you have a plan?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "プラン",
+     "matched": "【プラン】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "plan; scheme",
+      "(payment) plan; package; deal; offer"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_gakumen",
+   "jp": "月額",
+   "kana": "げつがく",
+   "romaji": "getsugaku",
+   "en": "monthly amount (e.g. monthly fee)",
+   "gloss": "monthly amount",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "月額",
+     "matched": "月額【げつがく】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "monthly sum; monthly amount"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_iyakukin",
+   "jp": "違約金",
+   "kana": "いやくきん",
+   "romaji": "iyakukin",
+   "en": "cancellation penalty; penalty for breaking a contract",
+   "gloss": "cancellation penalty",
+   "pos": "noun",
+   "topic": "services",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "違約金",
+     "matched": "違約金【いやくきん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "penalty for contract breach; forfeit"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_kaiyaku",
+     "rel": "penalty if you cancel early"
+    }
+   ]
+  },
+  {
+   "id": "sv_x_mijikaku_kitte",
+   "jp": "全体的に短く切ってください",
+   "kana": "ぜんたいてきにみじかくきってください",
+   "romaji": "zentaiteki ni mijikaku kitte kudasai",
+   "en": "Please cut it shorter all over.",
+   "gloss": "Please cut it shorter all over.",
+   "pos": "phrase",
+   "topic": "services",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "At the hairdresser. 全体的に = all over.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 初級2 第14課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "第14課",
+     "quote": "全体的に短く切ってください。",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "全体的に【ぜんたいてきに】 all over",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "短い",
+     "matched": "短い【みじかい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "short",
+      "brief"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "切る",
+     "matched": "切る【きる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to cut; to cut through; to perform (surgery)",
+      "to sever (connections, ties)",
+      "to turn off (e.g. the light)",
+      "to terminate (e.g. a conversation); to hang up (the phone); to disconnect"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb",
+      "Suffix"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_x_kayui_tokoro",
+   "jp": "かゆいところはございませんか？",
+   "kana": "かゆいところはございませんか？",
+   "romaji": "kayui tokoro wa gozaimasen ka?",
+   "en": "Does it itch anywhere? (said while shampooing)",
+   "gloss": "Does it itch anywhere? (said while shampooing)",
+   "pos": "phrase",
+   "topic": "services",
+   "tier": 3,
+   "use": "hear",
+   "register": "honorific",
+   "say_when": "Hairdresser while washing your hair. Answer: 大丈夫です.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "かゆいところはございませんか？【かゆいところはございませんか？】 Does it itch anywhere? (polite expression)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "かゆい",
+     "matched": "痒い【かゆい】 (written in kana: かゆい)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "itchy"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_x_kuriiningu_dashitai",
+   "jp": "ドレスをクリーニングに出したいのですが",
+   "kana": "ドレスをクリーニングにだしたいのですが",
+   "romaji": "doresu o kurīningu ni dashitai no desu ga",
+   "en": "I'd like to send my dress to a dry cleaner.",
+   "gloss": "I'd like to send my dress to a dry cleaner.",
+   "pos": "phrase",
+   "topic": "services",
+   "tier": 3,
+   "use": "say",
+   "register": "polite",
+   "say_when": "クリーニングに出す = to send to the cleaner's; swap ドレス for スーツ, コート…",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 199655,
+     "url": "https://tatoeba.org/en/sentences/show/199655",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "ドレスをクリーニングに出したいのですが。",
+     "translation": "I'd like to send my dress to a dry cleaner."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "クリーニング",
+     "matched": "【クリーニング】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "cleaning; dry cleaning; laundry service"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "出す",
+     "matched": "出す【だす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to take out; to get out",
+      "to put out; to reveal; to show",
+      "to submit (e.g. thesis); to turn in",
+      "to publish; to make public"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb",
+      "Suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

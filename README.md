@@ -38,6 +38,17 @@ Developer tools: `npm install`, then
 Plus **Conjugation** (interactive reference: groups → ending patterns → forms →
 meaning, usage, nuance, register, mistakes, contrasts, examples) and **Progress**.
 
+## Kanji radicals (Kanji tab)
+
+A separate page with its own daily lesson (own schedule — it never changes the vocabulary
+reviews). Radicals (部首) are taught in order of how many kanji in your lessons they file,
+each with its variants and their names/positions (氵 さんずい, 亻 にんべん), meaning, its
+readings as a kanji, and its member kanji with all their 音/訓 readings and sample words —
+words you have met in lessons first. Each sample shows which reading the kanji uses in that
+word (on / kun / special), so the general rule (on-yomi in compounds, kun-yomi alone or with
+okurigana) is visible in real words. Data: KANJIDIC2 (EDRDG, CC BY-SA 4.0) and Kanji alive
+(CC BY 4.0); rebuild with `npm run build:kanji` after the curriculum changes.
+
 ## Topic priorities (Settings)
 
 Choose 1–3 topics you need most (e.g. Banking, Post office, City hall) and order them.

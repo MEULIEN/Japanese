@@ -718,6 +718,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "h_shuushuubi",
+     "rel": "collection day"
+    }
    ]
   },
   {
@@ -1320,6 +1326,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "ds_shoukaki",
+     "rel": "for a fire"
+    }
    ]
   },
   {
@@ -1425,6 +1437,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "h_shigengomi",
+     "rel": "contrast: recyclables"
+    }
    ]
   },
   {
@@ -1455,6 +1473,16 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_kanengomi",
+     "rel": "same: written form on notices"
+    },
+    {
+     "id": "h_moenaigomi",
+     "rel": "contrast: non-burnable"
     }
    ]
   },
@@ -2019,6 +2047,10 @@
     {
      "id": "h_dansui",
      "rel": "related: 停電 = power cut; 断水 = water cut"
+    },
+    {
+     "id": "ds_kaichuudentou",
+     "rel": "for a power cut"
     }
    ]
   },
@@ -2103,6 +2135,12 @@
       "Transitive verb"
      ],
      "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "sv_iyakukin",
+     "rel": "penalty if you cancel early"
     }
    ]
   },
@@ -2238,6 +2276,1145 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "h_intaanetto",
+   "jp": "インターネット",
+   "kana": "インターネット",
+   "romaji": "intānetto",
+   "en": "internet",
+   "gloss": "internet",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "みんな、インターネットを使ってるよ。",
+     "en": "Everyone uses the Internet.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12143108,
+      "url": "https://tatoeba.org/en/sentences/show/12143108",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "みんな、インターネットを使ってるよ。",
+      "translation": "Everyone uses the Internet."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L13",
+     "activity": 2,
+     "entry": "インターネット【インターネット】 internet",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "インターネット【インターネット】 internet",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "インターネット",
+     "matched": "【インターネット】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Internet",
+      "Internet"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "h_shigengomi",
+   "jp": "資源ごみ",
+   "kana": "しげんごみ",
+   "romaji": "shigengomi",
+   "en": "recyclable waste",
+   "gloss": "recyclable waste",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "read",
+   "note": "In Kyoto, 缶・びん・ペットボトル and プラスチック類 go out in the clear 資源ごみ designated bag, once a week each (Kyoto City).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "資源ごみ【しげんごみ】 recyclable waste",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "資源ごみ",
+     "matched": "資源ごみ【しげんごみ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "recyclable garbage; recyclable waste"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "official",
+     "name": "Kyoto City: ごみ出しのルール",
+     "url": "https://www.city.kyoto.lg.jp/sogo/page/0000246821.html",
+     "quote": "指定袋（資源ごみ用）に入れて決められた場所に出してください。",
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_moyasugomi",
+     "rel": "contrast: burnable (Kyoto)"
+    },
+    {
+     "id": "h_kanbinpetto",
+     "rel": "Kyoto category"
+    },
+    {
+     "id": "h_purasuchikkurui",
+     "rel": "Kyoto category"
+    }
+   ]
+  },
+  {
+   "id": "h_moenaigomi",
+   "jp": "燃えないごみ",
+   "kana": "もえないごみ",
+   "romaji": "moenaigomi",
+   "en": "non-burnable rubbish (nonflammables)",
+   "gloss": "non-burnable rubbish",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "read",
+   "note": "Many towns use 燃えないごみ or 不燃ごみ. Kyoto City's household categories are 燃やすごみ, 缶・びん・ペットボトル, プラスチック類, 小型金属類・スプレー缶 and 大型ごみ.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "燃えないごみ",
+     "matched": "燃えないごみ【もえないごみ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "nonburnable garbage; nonflammables"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_funengomi",
+     "rel": "same: written form on notices"
+    },
+    {
+     "id": "w_moerugomi",
+     "rel": "contrast: burnable"
+    }
+   ]
+  },
+  {
+   "id": "h_funengomi",
+   "jp": "不燃ごみ",
+   "kana": "ふねんごみ",
+   "romaji": "funengomi",
+   "en": "non-burnable waste",
+   "gloss": "non-burnable waste",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "不燃ごみ【ふねんごみ】 non-burnable waste",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "不燃ごみ",
+     "matched": "不燃ごみ【ふねんごみ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "non-combustible waste; non-burnable rubbish"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_moenaigomi",
+     "rel": "same: everyday word"
+    }
+   ]
+  },
+  {
+   "id": "h_kanengomi",
+   "jp": "可燃ごみ",
+   "kana": "かねんごみ",
+   "romaji": "kanengomi",
+   "en": "burnable waste",
+   "gloss": "burnable waste",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "可燃ごみ【かねんごみ】 burnable waste",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "可燃ごみ",
+     "matched": "可燃ごみ【かねんごみ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "combustible waste; burnable rubbish"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_moerugomi",
+     "rel": "same: everyday word"
+    }
+   ]
+  },
+  {
+   "id": "h_sodaigomi",
+   "jp": "粗大ごみ",
+   "kana": "そだいごみ",
+   "romaji": "sodaigomi",
+   "en": "bulky waste (furniture, appliances)",
+   "gloss": "bulky waste",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "read",
+   "note": "Kyoto City calls this 大型ごみ (paid collection, book it with the 大型ごみ受付センター).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "粗大ごみ【そだいごみ】 large waste",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "粗大ごみ",
+     "matched": "粗大ごみ【そだいごみ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "large-size refuse (e.g. furniture, electrical goods); oversized garbage; bulky rubbish",
+      "useless man about the house; husband who is retired and considered a nuisance"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_oogatagomi",
+     "rel": "Kyoto City's name for it"
+    }
+   ]
+  },
+  {
+   "id": "h_namagomi",
+   "jp": "生ごみ",
+   "kana": "なまごみ",
+   "romaji": "namagomi",
+   "en": "kitchen waste; food waste",
+   "gloss": "kitchen waste",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "生ごみ【なまごみ】 food waste",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "生ごみ",
+     "matched": "生ごみ【なまごみ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "kitchen waste; food scraps; raw garbage"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "h_shuushuubi",
+   "jp": "収集日",
+   "kana": "しゅうしゅうび",
+   "romaji": "shūshūbi",
+   "en": "collection day",
+   "gloss": "collection day",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "収集日【しゅうしゅうび】 collection day",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "収集日",
+     "matched": "収集日【しゅうしゅうび】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "collection day (for rubbish)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_gomi",
+     "rel": "collection day"
+    }
+   ]
+  },
+  {
+   "id": "h_bunbetsu",
+   "jp": "分別",
+   "kana": "ぶんべつ",
+   "romaji": "bunbetsu",
+   "en": "separation; sorting (e.g. of rubbish)",
+   "gloss": "separation",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "分別",
+     "matched": "分別【ぶんべつ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "separation (e.g. of rubbish when recycling); classification; discrimination; division; distinction"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "h_gomibukuro",
+   "jp": "ごみ袋",
+   "kana": "ごみぶくろ",
+   "romaji": "gomibukuro",
+   "en": "rubbish bag; garbage bag",
+   "gloss": "rubbish bag",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing",
+    "shop_item"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L11",
+     "activity": 1,
+     "entry": "ごみ袋【ごみぶくろ】 garbage bag",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ごみ袋",
+     "matched": "ごみ袋【ごみぶくろ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "garbage bag; trash bag; bin bag"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_shiteibukuro",
+     "rel": "Kyoto requires the designated bag"
+    }
+   ]
+  },
+  {
+   "id": "h_pettobotoru",
+   "jp": "ペットボトル",
+   "kana": "ペットボトル",
+   "romaji": "pettobotoru",
+   "en": "plastic (PET) bottle",
+   "gloss": "plastic (PET) bottle",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "ペットボトル【ペットボトル】 plastic bottles",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ペットボトル",
+     "matched": "ＰＥＴボトル【ペットボトル】 (written in kana: ペットボトル)",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "plastic bottle (made of polyethylene terephthalate); PET bottle"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "h_kan",
+   "jp": "缶",
+   "kana": "かん",
+   "romaji": "kan",
+   "en": "can; tin",
+   "gloss": "can",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "缶は空よ。",
+     "en": "The can is empty.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11135133,
+      "url": "https://tatoeba.org/en/sentences/show/11135133",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "缶は空よ。",
+      "translation": "The can is empty."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "缶【かん】 can",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "缶",
+     "matched": "缶【かん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "can; tin",
+      "canned food",
+      "Tin can"
+     ],
+     "pos": [
+      "Noun",
+      "Counter",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "h_bin",
+   "jp": "びん",
+   "kana": "びん",
+   "romaji": "bin",
+   "en": "bottle (glass)",
+   "gloss": "bottle",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "thing"
+   ],
+   "note": "Usually written in kana on rubbish notices (瓶).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "びん【びん】 bottle",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "瓶",
+     "matched": "瓶【びん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "bottle; jar; decanter; flagon; phial; vial"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "h_purasuchikku",
+   "jp": "プラスチック",
+   "kana": "プラスチック",
+   "romaji": "purasuchikku",
+   "en": "plastic",
+   "gloss": "plastic",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "プラスチックは割れにくい。",
+     "en": "Plastic does not break easily.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 197036,
+      "url": "https://tatoeba.org/en/sentences/show/197036",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "プラスチックは割れにくい。",
+      "translation": "Plastic does not break easily."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "プラスチック【プラスチック】 plastic",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "プラスチック",
+     "matched": "【プラスチック】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "plastic"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "h_shuusekijo",
+   "jp": "集積所",
+   "kana": "しゅうせきじょ",
+   "romaji": "shūsekijo",
+   "en": "collection point (e.g. for rubbish)",
+   "gloss": "collection point",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 3,
+     "entry": "集積所【しゅうせきじょ】 collection point",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "集積所",
+     "matched": "集積所【しゅうせきじょ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "(cargo) depot; (garbage) collection site; (ammunition) dump"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "h_risaikuru",
+   "jp": "リサイクル",
+   "kana": "リサイクル",
+   "romaji": "risaikuru",
+   "en": "recycling",
+   "gloss": "recycling",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "これはリサイクルできる？",
+     "en": "Is this recyclable?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8757992,
+      "url": "https://tatoeba.org/en/sentences/show/8757992",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "これはリサイクルできる？",
+      "translation": "Is this recyclable?"
+     }
+    },
+    {
+     "jp": "リサイクルするの？",
+     "en": "Do you recycle?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1430229,
+      "url": "https://tatoeba.org/en/sentences/show/1430229",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "リサイクルするの？",
+      "translation": "Do you recycle?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "リサイクル",
+     "matched": "【リサイクル】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "recycling",
+      "Recycling"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "h_sutero",
+   "jp": "捨てる",
+   "kana": "すてる",
+   "romaji": "suteru",
+   "en": "to throw away; to discard",
+   "gloss": "to throw away",
+   "pos": "verb",
+   "topic": "home",
+   "tier": 1,
+   "use": "say",
+   "obj": [
+    "thing"
+   ],
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "これは捨てるべきだと思う？",
+     "en": "Do you think I should throw this away?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4848844,
+      "url": "https://tatoeba.org/en/sentences/show/4848844",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "これは捨てるべきだと思う？",
+      "translation": "Do you think I should throw this away?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L12",
+     "activity": 4,
+     "entry": "捨てる【すてる】 to discard",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L10",
+     "activity": 2,
+     "entry": "捨てる【すてる】 to throw away",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "捨てる",
+     "matched": "捨てる【すてる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "to throw away; to cast away; to dump; to discard",
+      "to abandon; to desert; to leave",
+      "to give up; to resign",
+      "to sacrifice (stones)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "h_oogatagomi",
+   "jp": "大型ごみ",
+   "kana": "おおがたごみ",
+   "romaji": "ōgatagomi",
+   "en": "bulky waste (Kyoto City category; paid collection)",
+   "gloss": "bulky waste (Kyoto City category",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Kyoto City: ごみ出しのルール",
+     "url": "https://www.city.kyoto.lg.jp/sogo/page/0000246821.html",
+     "quote": "大型ごみ（有料）… 大型ごみ受付センターに電話若しくはインターネットで収集の申込みを行ってください",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "大型",
+     "matched": "大型【おおがた】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "large; large-sized; large-scale; big"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ごみ",
+     "matched": "【ゴミ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "rubbish; trash; garbage; refuse; litter"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_sodaigomi",
+     "rel": "general word"
+    }
+   ]
+  },
+  {
+   "id": "h_kanbinpetto",
+   "jp": "缶・びん・ペットボトル",
+   "kana": "かん・びん・ペットボトル",
+   "romaji": "kan, bin, pettobotoru",
+   "en": "cans, bottles and PET bottles (Kyoto recyclables category)",
+   "gloss": "cans, bottles and PET bottles",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Kyoto City: ごみ出しのルール",
+     "url": "https://www.city.kyoto.lg.jp/sogo/page/0000246821.html",
+     "quote": "缶・びん・ペットボトル（週1回）… 指定袋（資源ごみ用）に入れて決められた場所に出してください。",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "缶",
+     "matched": "缶【かん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "can; tin",
+      "canned food",
+      "Tin can"
+     ],
+     "pos": [
+      "Noun",
+      "Counter",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "瓶",
+     "matched": "瓶【びん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "bottle; jar; decanter; flagon; phial; vial"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ペットボトル",
+     "matched": "ＰＥＴボトル【ペットボトル】 (written in kana: ペットボトル)",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "plastic bottle (made of polyethylene terephthalate); PET bottle"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_shigengomi",
+     "rel": "Kyoto category"
+    }
+   ]
+  },
+  {
+   "id": "h_purasuchikkurui",
+   "jp": "プラスチック類",
+   "kana": "プラスチックるい",
+   "romaji": "purasuchikkurui",
+   "en": "plastics (Kyoto recyclables category)",
+   "gloss": "plastics",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "official",
+     "name": "Kyoto City: ごみ出しのルール",
+     "url": "https://www.city.kyoto.lg.jp/sogo/page/0000246821.html",
+     "quote": "プラスチック類（週1回）… 指定袋（資源ごみ用）に入れて決められた場所に出してください。",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "プラスチック",
+     "matched": "【プラスチック】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "plastic"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "類",
+     "matched": "類【るい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "kind; sort; type; class; genus; order; family",
+      "similar example; parallel; the like"
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a suffix"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_shigengomi",
+     "rel": "Kyoto category"
+    }
+   ]
+  },
+  {
+   "id": "h_shiteibukuro",
+   "jp": "指定袋",
+   "kana": "していぶくろ",
+   "romaji": "shiteibukuro",
+   "en": "designated rubbish bag (as specified by the city)",
+   "gloss": "designated rubbish bag",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 1,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "指定袋",
+     "matched": "指定袋【していぶくろ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "designated garbage bag (as specified by a municipality)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "official",
+     "name": "Kyoto City: ごみ出しのルール",
+     "url": "https://www.city.kyoto.lg.jp/sogo/page/0000246821.html",
+     "quote": "指定袋（燃やすごみ用）に入れて決められた場所に出してください。",
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "h_gomibukuro",
+     "rel": "any rubbish bag"
+    }
+   ]
+  },
+  {
+   "id": "h_gomidashi",
+   "jp": "ごみ出し",
+   "kana": "ごみだし",
+   "romaji": "gomidashi",
+   "en": "taking out the rubbish",
+   "gloss": "taking out the rubbish",
+   "pos": "noun",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ごみ出し",
+     "matched": "ごみ出し【ごみだし】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "taking out the garbage"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
     }
    ]
   }

@@ -13,6 +13,12 @@
   { "ids": ["c_shomei", "c_sain"], "note": "Both mean signature; 署名 is the word printed on forms, サイン the everyday loanword." },
   { "ids": ["b_hikidasu", "b_orosu"], "note": "Both: to withdraw money (JMdict). ATM screens show お引き出し (Irodori 初級2 L14)." },
   { "ids": ["f_omizu", "f_mizu"], "note": "Both water; お水 is the polite form used when asking in a restaurant." },
-  { "ids": ["w_hashi", "f_ohashi"], "note": "Both chopsticks; おはし is the polite form (Irodori writes おはし)." }
+  { "ids": ["w_hashi", "f_ohashi"], "note": "Both chopsticks; おはし is the polite form (Irodori writes おはし)." },
+  { "ids": ["cl_jibika", "cl_jibiinkouka"], "note": "耳鼻科 is the everyday short name of 耳鼻咽喉科 (ear, nose and throat)." },
+  { "ids": ["sv_keitai", "sv_keitaidenwa"], "note": "携帯 is the everyday short form of 携帯電話." },
+  { "ids": ["sv_tokoya", "sv_rihatsuten"], "note": "Both a barber's; 理髪店 is the formal word on signs." },
+  { "ids": ["h_moenaigomi", "h_funengomi"], "note": "Both non-burnable rubbish; 不燃ごみ is the written/notice word." },
+  { "ids": ["w_moerugomi", "h_kanengomi"], "note": "Both burnable rubbish; 可燃ごみ is the written/notice word (Kyoto City says 燃やすごみ)." },
+  { "ids": ["w_hokenshou", "cl_kenkouhokenshou"], "note": "保険証 is the everyday short form of 健康保険証." }
  ]
 }

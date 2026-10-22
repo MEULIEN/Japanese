@@ -322,6 +322,103 @@
    "domain": "drive",
    "quarantine_reason": "Sign name confirmed in the MLIT sign list (311-F 指定方向外進行禁止), but no furigana source for the full reading was found (the Koriyama leaflet does not include this sign; 外 could be がい or そと). Needs a reading source.",
    "from_pack": "origin/master:data/pack_drive.json"
+  },
+  {
+   "id": "cl_x_hokenshou_omochi",
+   "jp": "保険証はお持ちですか",
+   "kana": "ほけんしょうはおもちですか",
+   "en": "Do you have your health insurance card?",
+   "tier": 1,
+   "status": "unverified",
+   "domain": "clinic",
+   "quarantine_reason": "Requested staff phrase. No exact Tatoeba sentence (0 hits, 2026-10-23); Irodori 初級1 L15 lists only the fragment お持ちですか？. The words are verified (保険証 w_hokenshou) and the clinic notice hl_x_hokenshou_teiji covers the situation."
+  },
+  {
+   "id": "cl_x_onamae_oyobi",
+   "jp": "お名前をお呼びするまでお待ちください",
+   "kana": "おなまえをおよびするまでおまちください",
+   "en": "Please wait until your name is called.",
+   "tier": 2,
+   "status": "unverified",
+   "domain": "clinic",
+   "quarantine_reason": "Requested staff phrase. No exact Tatoeba or official text found (お呼びするまで: 0 hits, 2026-10-23). Covered by cl_x_oyobishimasu お呼びしますのでおかけになってお待ちください (Tatoeba 4884623)."
+  },
+  {
+   "id": "cl_x_yoyaku_toru",
+   "jp": "予約を取る",
+   "kana": "よやくをとる",
+   "en": "to make a reservation / appointment",
+   "tier": 2,
+   "status": "unverified",
+   "domain": "clinic",
+   "quarantine_reason": "Collocation without exact evidence: Tatoeba has 予約を取る only inside 予約を取り消す (to cancel); no stand-alone sentence. Covered by 診察の予約をしたいのですが (Tatoeba 144769)."
+  },
+  {
+   "id": "cl_x_geri",
+   "jp": "下痢をしています",
+   "kana": "げりをしています",
+   "en": "I have diarrhoea.",
+   "tier": 2,
+   "status": "unverified",
+   "domain": "clinic",
+   "quarantine_reason": "No exact Tatoeba sentence for 下痢をしています or 下痢です (0 hits, 2026-10-23). The word 下痢 (cl_geri) is verified."
+  },
+  {
+   "id": "cl_x_futsukamae",
+   "jp": "2日前から具合は悪い",
+   "kana": "ふつかまえからぐあいはわるい",
+   "romaji": "futsuka mae kara guai wa warui",
+   "en": "I've been feeling sick for the last two days.",
+   "gloss": "I've been feeling sick for the last two days.",
+   "pos": "phrase",
+   "topic": "clinic",
+   "tier": 2,
+   "use": "say",
+   "register": "casual",
+   "say_when": "Saying since when: 〜前から = since ~ ago. Answers いつからですか.",
+   "accept": [
+    "二日前から具合は悪い"
+   ],
+   "status": "quarantined",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 4562608,
+     "url": "https://tatoeba.org/en/sentences/show/4562608",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "2日前から具合は悪い。",
+     "translation": "I've been feeling sick for the last two days."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "具合",
+     "matched": "具合【ぐあい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "condition; state",
+      "health; state (of health)",
+      "way; manner",
+      "circumstance; luck"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "cl_x_itami_itsukara",
+     "rel": "question"
+    }
+   ],
+   "quarantine_reason": "Only evidence (Tatoeba 4562608) uses contrastive は (具合は悪い); the natural learner model is 具合が悪い, for which no exact evidence was found. Not served as a model sentence. Reviewed 2026-10-23."
   }
  ]
 }
