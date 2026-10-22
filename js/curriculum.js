@@ -79,6 +79,11 @@
         seen.add(r.item.id); C.items.push(r.item); C.byId[r.item.id] = r.item;
       }
     }
+    // Aliases: ids under which the same word existed in an older data set
+    // (e.g. a merged duplicate). Learner history recorded under an alias is
+    // moved onto the canonical id when the app loads (see engine.create).
+    C.aliasOf = {};
+    for (const it of C.items) for (const a of it.aliases || []) if (!C.byId[a]) C.aliasOf[a] = it.id;
     // Links pointing at unserved items are dropped (no dangling references).
     for (const it of C.items) it.links = (it.links || []).filter(l => C.byId[l.id]);
     const topics = ((docs.topics && docs.topics.topics) || []).slice().sort((a, b) => (a.order || 99) - (b.order || 99));

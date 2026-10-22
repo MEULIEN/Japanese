@@ -45,7 +45,9 @@
         theme: 'light', background: null, shade: null,
         timeZone: 'auto', voiceURI: null, voiceRate: 1.0,
         minutes: Object.assign({}, POLICY.availableMinutes),
-        showRomaji: true
+        showRomaji: true,
+        topicPriorities: [],   // up to 3 preferred topic ids, in order (Settings)
+        typingDebug: false
       },
       memory: {},          // official: { [itemId]: { intro, introKind, diag, skills: { [skill]: fsrsState } } }
       log: [],             // official detailed attempts (recent)
@@ -68,6 +70,7 @@
     const out = Object.assign(b, s);
     out.settings = Object.assign(blank().settings, s.settings || {});
     out.settings.minutes = Object.assign({}, POLICY.availableMinutes, (s.settings && s.settings.minutes) || {});
+    if (!Array.isArray(out.settings.topicPriorities)) out.settings.topicPriorities = [];
     out.lesson = Object.assign(blank().lesson, s.lesson || {});
     out.practice = Object.assign(blank().practice, s.practice || {});
     out.train = Object.assign(blank().train, s.train || {});

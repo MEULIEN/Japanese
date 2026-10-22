@@ -54,6 +54,10 @@
   }
   const btn = (label, action, cls, extra) => `<button type="button" class="btn ${cls || ''}" data-action="${action}" ${extra || ''}>${label}</button>`;
   const audioBtn = (text, label) => audioOk() ? `<button type="button" class="btn ghost audio" data-action="say" data-say="${esc(text)}" aria-label="Play audio">🔊 ${label || ''}</button><button type="button" class="btn ghost audio slow" data-action="say" data-slow="1" data-say="${esc(text)}" aria-label="Play slowly">🐢</button>` : '';
+  // Settings: a labelled gear button (≥44×44 px), placed top-right on every
+  // main screen so it is always in the same, findable place.
+  const GEAR = '<svg aria-hidden="true" viewBox="0 0 24 24" width="22" height="22"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2.1-1.6a.5.5 0 0 0 .1-.6l-2-3.5a.5.5 0 0 0-.6-.2l-2.5 1a7.4 7.4 0 0 0-1.7-1l-.4-2.6a.5.5 0 0 0-.5-.4h-4a.5.5 0 0 0-.5.4l-.4 2.6a7.4 7.4 0 0 0-1.7 1l-2.5-1a.5.5 0 0 0-.6.2l-2 3.5a.5.5 0 0 0 .1.6L4.6 11a7.6 7.6 0 0 0 0 2l-2.1 1.6a.5.5 0 0 0-.1.6l2 3.5c.1.2.4.3.6.2l2.5-1c.5.4 1.1.7 1.7 1l.4 2.6c0 .2.2.4.5.4h4c.3 0 .5-.2.5-.4l.4-2.6c.6-.3 1.2-.6 1.7-1l2.5 1c.2.1.5 0 .6-.2l2-3.5a.5.5 0 0 0-.1-.6L19.4 13ZM12 15.5A3.5 3.5 0 1 1 12 8.5a3.5 3.5 0 0 1 0 7Z"/></svg>';
+  const settingsBtn = () => `<button type="button" class="settings-btn" data-action="go" data-view="settings" aria-label="Settings (設定)">${GEAR}<span class="sb-label">Settings</span></button>`;
   const topbar = (title, back, right) => `<header class="topbar">${back ? `<button type="button" class="back" data-action="${back}" aria-label="Back">‹</button>` : '<span class="spacer"></span>'}<h1 class="title">${esc(title)}</h1>${right || '<span class="spacer"></span>'}</header>`;
   const item = id => C.byId[id];
   const speechOf = it => X.speechText(it);
@@ -79,22 +83,36 @@
       (tabbed ? `<nav class="tabbar" aria-label="Main">${TABS.map(([v, g, l]) => `<button type="button" class="tabbar-btn ${active === v ? 'active' : ''}" data-action="go" data-view="${v}" ${active === v ? 'aria-current="page"' : ''}><span class="t-glyph" aria-hidden="true">${g}</span><span class="t-label">${l}</span></button>`).join('')}</nav>` : '');
     afterRender();
   }
-  // Focus management after every render. Called synchronously from the
-  // event handler that changed the view, so on iOS the focus() happens
-  // inside the user gesture and the software keyboard opens.
+  // Focus management after every render.
+  // Touch devices: NO programmatic focus on the answer box. On iPhones a
+  // focus() call can leave the field focused without showing the keyboard,
+  // after which tapping the (already focused) field may do nothing. The
+  // learner taps the large answer zone instead; that native tap always opens
+  // the keyboard (see also the touchend handler for the refocus case).
+  // Desktop/keyboard: focus immediately so typing can start at once.
+  const TOUCH = !!(window.matchMedia && window.matchMedia('(hover: none) and (pointer: coarse)').matches);
   function afterRender() {
+    composing = false;
     const inp = $app.querySelector('input.answer:not([disabled])');
     if (inp) {
       if (V.ui.draft != null && inp.value !== V.ui.draft) inp.value = V.ui.draft;
-      try { inp.focus({ preventScroll: true }); } catch (e) { inp.focus(); }
-      keepVisible(inp);
-    } else {
+      if (!TOUCH) { try { inp.focus({ preventScroll: true }); } catch (e) { inp.focus(); } keepVisible(inp); }
+    } else if (!TOUCH) {
       const next = $app.querySelector('[data-autofocus]');
       if (next) try { next.focus({ preventScroll: true }); } catch (e) { }
     }
+    if (E && E.state.settings.typingDebug) kbdShow();
   }
   function keepVisible(el) {
-    try { el.scrollIntoView({ block: 'center', behavior: 'auto' }); } catch (e) { }
+    // Bring the question AND the answer box into view above the keyboard.
+    const stage = el.closest('.card-stage') || el;
+    try { stage.scrollIntoView({ block: 'start', behavior: 'auto' }); } catch (e) { }
+    const vv = window.visualViewport;
+    if (vv) {
+      const r = el.getBoundingClientRect();
+      const bottom = vv.offsetTop + vv.height;
+      if (r.bottom + 70 > bottom) window.scrollBy(0, r.bottom + 70 - bottom);
+    }
   }
   if (window.visualViewport) {
     window.visualViewport.addEventListener('resize', () => {
@@ -118,7 +136,7 @@
     const topic = av.morning.topic ? C.topicById[av.morning.topic] : null;
     const card = (kind, title, sub, a, big) => {
       const state = a.state, rec = av.recommended === kind;
-      const badge = state === 'done' ? '<span class="pill done">✓ Done today</span>' : state === 'locked' ? '<span class="pill locked">🔒 Locked</span>' : rec ? '<span class="pill rec">Recommended</span>' : '<span class="pill">Available</span>';
+      const badge = state === 'done' ? '<span class="pill done">✓ Done today</span>' : state === 'locked' ? `<span class="pill locked">🔒 ${a.timeLocked ? 'From ' + esc(a.opensAt) : 'Locked'}</span>` : rec ? '<span class="pill rec">Recommended</span>' : '<span class="pill">Available</span>';
       const disabled = state === 'locked';
       return `<button type="button" class="act ${big ? 'big' : ''} ${kind} ${state} ${rec ? 'rec' : ''}" data-action="start" data-kind="${kind}" ${disabled ? 'aria-disabled="true"' : ''}>
         <span class="act-head"><span class="act-title">${title}</span>${badge}</span>
@@ -129,9 +147,10 @@
     const weeklySub = av.weekly.state === 'locked' ? `Opens ${fmtDate(wk.unlocks)}${wk.daysUntil ? ' · in ' + wk.daysUntil + ' day' + (wk.daysUntil > 1 ? 's' : '') : ''}. A full assessment of the week.`
       : av.weekly.state === 'done' ? `Done. Next one opens ${fmtDate(wk.unlocks)}.`
         : `${wk.catchUp ? 'Catch-up for ' + fmtDate(wk.key) + '. ' : ''}~${mins.weekly} min · everything from this week, all skills, real situations.`;
-    const morningSub = av.morning.state === 'locked' ? esc(av.morning.reason) : topic ? `${topic.icon || ''} ${esc(topic.name)} · ~${mins.morning} min · quick check, then new words` : `~${mins.morning} min · review (all topics introduced)`;
-    const eveningSub = av.evening.state === 'locked' ? esc(av.evening.reason) : st.lesson.pendingEvening ? `~${mins.evening} min · use this morning’s words in new ways · no new words` : `~${mins.evening} min · due reviews (no new words)`;
-    return `${topbar('Michi 道', null, '<button type="button" class="icon-btn" data-action="go" data-view="settings" aria-label="Settings">⚙︎</button>')}
+    const why = topicWhyText(av.morning);
+    const morningSub = av.morning.state === 'locked' ? esc(av.morning.reason) : topic ? `${topic.icon || ''} ${esc(topic.name)}${why ? ` <span class="why">· ${esc(why)}</span>` : ''}<br>~${mins.morning} min · quick check, then new words` : `~${mins.morning} min · review (all topics introduced)`;
+    const eveningSub = av.evening.state === 'locked' ? (av.evening.timeLocked ? `Available from ${esc(av.evening.opensAt)} · in ${esc(E.eveningClock().waitText)}. Reviews this morning’s words — no new words.` : esc(av.evening.reason)) : st.lesson.pendingEvening ? `~${mins.evening} min · use this morning’s words in new ways · no new words` : `~${mins.evening} min · due reviews (no new words)`;
+    return `${topbar('Michi 道', null, settingsBtn())}
       <section class="hero"><div class="date">${esc(fmtDate(today))}</div>
         <p class="muted">${practised} of the last 7 days practised · ${dueNow} skill check${dueNow === 1 ? '' : 's'} due</p></section>
       ${resumable ? `<div class="banner">You have an unfinished ${esc(E.session.kind)} session. ${btn('Resume', 'resume', 'primary small')} ${btn('Discard', 'discard', 'ghost small')}</div>` : ''}
@@ -150,6 +169,12 @@
       ${!audioOk() ? `<p class="hint">🔇 ${esc(SP.status(st.settings.voiceURI).reason || '')} Listening exercises are replaced by reading ones until a voice is available. <a href="#" data-action="go" data-view="settings">Voice settings</a></p>` : ''}`;
   }
 
+  // Why this morning's topic was chosen — plain words, no scores.
+  function topicWhyText(m) {
+    if (!m || !m.why) return '';
+    const n = id => (C.topicById[id] || {}).name || id;
+    return { priority: 'one of your priority topics', prereq: 'needed before ' + n(m.forTopic) + ' (your priority)', balance: 'outside your priorities, to keep learning broad', carry: 'finishing last lesson', chosen: '' }[m.why] || '';
+  }
   /* ---------- starting sessions ---------- */
   const EMPTY = {
     'nothing-learned': 'Nothing to practise yet — start with a Daily Morning lesson.',
@@ -164,6 +189,7 @@
     const r = E.start(kind, opts);
     if (r.error) {
       if (r.error === 'locked') return toast('Weekly opens ' + fmtDate(r.status.unlocks));
+      if (r.error === 'evening-locked') return toast('Daily Evening opens at ' + r.opensAt + ' (in ' + r.waitText + ').');
       return go(V.view === 'session' ? 'home' : V.view, Object.assign({}, V.p, { msg: EMPTY[r.error] || 'Nothing to do right now.' }));
     }
     V.ui = {};
@@ -275,6 +301,12 @@
     if (level === 1) return `Starts with 「${k[0]}」 · ${[...k].length} kana`;
     return `${[...k].map((ch, i) => i % 2 === 0 ? ch : '・').join('')}`;
   }
+  // The answer box: a real text input inside a big <label>, so a tap anywhere
+  // on the zone is a native tap on the field (opens the phone keyboard).
+  function answerInput(res) {
+    return `<label class="answer-zone" for="ans"><span class="zone-hint">${res ? 'Your answer' : TOUCH ? 'Tap here to type your answer ⌨' : 'Your answer'}</span>
+        <input id="ans" class="answer" name="answer" type="text" lang="ja" inputmode="text" enterkeyhint="go" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="かな / kanji / rōmaji" ${res ? 'disabled' : ''} value="${esc(V.ui.draft || '')}"></label>`;
+  }
   function typedCard(c, it, u) {
     const res = u.res;
     let q;
@@ -289,10 +321,9 @@
     const hintLvl = u.hint || 0;
     const hints = hintLvl ? `<p class="hint-line">💡 ${esc(hintText(c, hintLvl))}</p>` : '';
     const form = `<form class="answer-form" data-form="typed" autocomplete="off" novalidate>
-        <label class="sr-only" for="ans">Your answer</label>
-        <input id="ans" class="answer" name="answer" type="text" lang="ja" inputmode="text" enterkeyhint="done" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" placeholder="かな / kanji / rōmaji" ${res ? 'disabled' : ''} value="${esc(u.draft || '')}">
-        ${res ? '' : `<div class="row">${btn('Check', 'submit-typed', 'primary', 'type="submit"').replace('type="button" ', '')}${c.phase !== 'delayed' && c.phase !== 'diag' && c.phase !== 'assess' && hintLvl < 2 ? btn('Hint', 'hint', 'ghost') : ''}${btn('I don’t know', 'dontknow', 'ghost')}</div>`}
-      </form>`;
+        ${answerInput(res)}
+        ${res ? '' : `<div class="row">${btn('Check', 'check', 'primary')}${c.phase !== 'delayed' && c.phase !== 'diag' && c.phase !== 'assess' && hintLvl < 2 ? btn('Hint', 'hint', 'ghost') : ''}${btn('I don’t know', 'dontknow', 'ghost')}</div>`}
+      </form>${kbdLogBox()}`;
     return `<div class="prompt">${q}${hints}</div>${form}${res ? feedbackBlock(c, res, u.typed ? `<p class="muted">You typed: <span lang="ja">${esc(u.typed)}</span></p>` : '') : ''}`;
   }
 
@@ -325,9 +356,8 @@
   function switchCard(c, u) {
     const catName = { food: 'a food', drink: 'a drink', place: 'a place', destination: 'somewhere you can go', thing: 'an object', person: 'a person', time: 'a time word', orderable: 'something you can order', shop_item: 'something you can buy', transport: 'a kind of transport', activity: 'an activity', hobby: 'a hobby' }[c.category] || c.category;
     const res = u.res;
-    const form = `<form class="answer-form" data-form="typed" autocomplete="off" novalidate><label class="sr-only" for="ans">Your answer</label>
-      <input id="ans" class="answer" type="text" lang="ja" inputmode="text" enterkeyhint="done" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" ${res ? 'disabled' : ''} value="${esc(u.draft || '')}">
-      ${res ? '' : `<div class="row">${btn('Check', 'submit-typed', 'primary').replace('type="button"', 'type="submit"')}${btn('Pass', 'dontknow', 'ghost')}</div>`}</form>`;
+    const form = `<form class="answer-form" data-form="typed" autocomplete="off" novalidate>${answerInput(res)}
+      ${res ? '' : `<div class="row">${btn('Check', 'check', 'primary')}${btn('Pass', 'dontknow', 'ghost')}</div>`}</form>${kbdLogBox()}`;
     const ok = res && res.matched ? item(res.matched) : null;
     const examples = c.members.slice(0, 4).map(id => item(id)).filter(Boolean);
     return `<div class="prompt"><p class="q">Quick! Name ${esc(catName)} in Japanese</p><p class="muted">Categories alternate — switching is the point.</p></div>${form}
@@ -410,6 +440,7 @@
     return `${topbar(KIND_TITLE[sum.kind] + ' — done')}
       <section class="summary">
         <div class="stat-row"><div><b>${sum.graded}</b><span>answered</span></div><div><b>${sum.graded ? pct(sum.correct, sum.graded) + '%' : '—'}</b><span>correct</span></div><div><b>${sum.minutes}</b><span>minutes</span></div></div>
+        ${sum.kind === 'morning' && sum.topic ? `<p class="muted">Topic: ${esc(topicName(sum.topic))}${sum.topic2 ? ' + ' + esc(topicName(sum.topic2)) + ' (the first topic had only a few words left)' : ''}${topicWhyText({ why: sum.topicWhy, forTopic: sum.forTopic }) ? ' — ' + esc(topicWhyText({ why: sum.topicWhy, forTopic: sum.forTopic })) : ''}.</p>` : ''}
         ${sum.kind === 'morning' ? (() => { const fresh = sum.introduced.filter(id => !sum.knownBefore.includes(id)); return `<h3>New today (${fresh.length})</h3>${nameList(fresh)}${sum.knownBefore.length ? `<h3>Already knew (${sum.knownBefore.length})</h3><p class="muted">Shown by the quick check — recognised <i>and</i> produced unaided.</p>${nameList(sum.knownBefore)}` : ''}`; })() : ''}
         ${scheduled ? `<h3>Recalled on your own</h3>${nameList(sum.independent)}
         <h3>Needed help</h3>${nameList(sum.assisted)}` : `<p class="muted">Practice only — your review schedule and mastery are unchanged.</p>`}
@@ -460,7 +491,7 @@
   function renderTrain() {
     const t = E.state.train, any = Object.keys(E.state.memory).length > 0;
     const tile = (act, dir, title, desc) => `<button type="button" class="act" data-action="train" data-activity="${act}" data-direction="${dir}" ${any ? '' : 'aria-disabled="true"'}><span class="act-head"><span class="act-title">${title}</span></span><span class="act-sub">${desc}</span></button>`;
-    return `${topbar('Training')}
+    return `${topbar('Training', null, settingsBtn())}
       <p class="lead">Open-ended practice with words you have already met. Pause or switch any time. Like Recall, it never changes your schedule.</p>
       ${any ? '' : '<div class="banner">Training opens after your first morning lesson.</div>'}
       <div class="act-grid">
@@ -497,7 +528,7 @@
     const cats = CONJ.categories.filter(c => c.id !== 'adj');
     const table = (forms, words, heads) => `<div class="table-wrap" tabindex="0" role="region" aria-label="Conjugation table"><table class="conj"><thead><tr><th scope="col">Form</th>${heads.map(h => `<th scope="col">${h}</th>`).join('')}</tr></thead><tbody>
       ${forms.map(f => `<tr><th scope="row"><button type="button" class="link" data-action="conj-form" data-id="${f.id}" data-kind="${f.kind}">${esc(f.name)}</button>${f.warning ? ' <span title="Use with care">⚠</span>' : ''}</th>${words.map(w => `<td>${conjCell(w, f.id)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-    return `${topbar('Conjugation')}
+    return `${topbar('Conjugation', null, settingsBtn())}
       <p class="lead">Tap a group for its rules and examples, or a form to learn what it means and when to use it. Every form shown is generated by one tested rule set.</p>
       <h3>Groups</h3><div class="chip-row wrap">${CONJ.groups.map(g => `<button type="button" class="chip" data-action="conj-group" data-id="${g.id}">${esc(g.name)} <small lang="ja">${esc(g.jp)}</small></button>`).join('')}</div>
       ${cats.map(c => `<h3>${esc(c.name)}</h3>${table(formsOf('verb').filter(f => f.cat === c.id), vw, vg.map(g => `${esc(g.name.replace(' verbs', ''))}<br><span lang="ja">${esc(g.table_lemma)}</span>`))}`).join('')}
@@ -597,7 +628,7 @@
     const av = E.availability();
     const recText = { morning: 'Do today’s Daily Morning lesson.', evening: 'Do the Daily Evening to lock in this morning’s words.', weekly: 'Take the weekly assessment.', recall: 'Try Recall on your weakest words.' }[av.recommended] || 'You’re up to date.';
     const statBox = (n, l, sub) => `<div class="stat"><b>${n}</b><span>${l}</span>${sub ? `<small>${sub}</small>` : ''}</div>`;
-    return `${topbar('Progress')}
+    return `${topbar('Progress', null, settingsBtn())}
       <div class="banner">Next: ${esc(recText)}</div>
       <h3>Where your words stand</h3>
       <div class="stat-grid">
@@ -632,7 +663,7 @@
     const t = V.p.topic || 'all';
     const list = C.items.filter(i => t === 'all' || i.topic === t);
     const status = it => { const m = E.state.memory[it.id]; if (!m) return '<span class="muted">not yet</span>'; const p = m.skills[CUR.primarySkill(it)]; if (!p) return 'met'; const R = SRS.recallProb(p, E.today()); return p.streak > 0 ? `<span title="estimated recall now">${Math.round(R * 100)}%</span>` : 'learning'; };
-    return `${topbar('Words')}
+    return `${topbar('Words', null, settingsBtn())}
       <div class="chip-row scroll">${[['all', 'All']].concat(C.topics.map(x => [x.id, (x.icon || '') + ' ' + x.name])).map(([id, l]) => `<button type="button" class="chip ${t === id ? 'on' : ''}" data-action="words-topic" data-v="${id}">${esc(l)}</button>`).join('')}</div>
       <p class="muted">${list.length} verified items. Every item lists its sources.</p>
       <ul class="word-list">${list.map(it => `<li><button type="button" class="word-row" data-action="word" data-id="${esc(it.id)}"><span class="w-jp" lang="ja">${esc(it.jp)}</span><span class="w-info"><span lang="ja">${esc(it.kana)}</span>${romaji(it)}<br>${esc(it.en)}</span><span class="w-stat">${status(it)}</span></button></li>`).join('')}</ul>`;
@@ -651,6 +682,19 @@
   /* ============================================================
      SETTINGS
      ============================================================ */
+  function prioEditor() {
+    const sel = (E.state.settings.topicPriorities || []).filter(id => C.topicById[id]);
+    const MAX = window.MichiPolicy.topicPriority.max;
+    const full = sel.length >= MAX;
+    const t = id => C.topicById[id];
+    const list = sel.length ? `<ol class="prio-list" aria-labelledby="prio-h">${sel.map((id, k) => `<li><span class="prio-name"><b>${k + 1}.</b> ${esc(t(id).icon || '')} ${esc(t(id).name)}</span><span class="prio-btns">
+        <button type="button" class="icon-btn boxed" data-action="prio-up" data-id="${id}" aria-label="Move ${esc(t(id).name)} up" ${k === 0 ? 'disabled' : ''}>↑</button>
+        <button type="button" class="icon-btn boxed" data-action="prio-down" data-id="${id}" aria-label="Move ${esc(t(id).name)} down" ${k === sel.length - 1 ? 'disabled' : ''}>↓</button>
+        <button type="button" class="icon-btn boxed" data-action="prio-remove" data-id="${id}" aria-label="Remove ${esc(t(id).name)}">✕</button></span></li>`).join('')}</ol>`
+      : '<p class="hint">No priorities set — lessons follow the normal topic order.</p>';
+    const add = C.topics.filter(x => !sel.includes(x.id)).map(x => `<button type="button" class="chip" data-action="prio-add" data-id="${x.id}" ${full ? 'aria-disabled="true"' : ''}>+ ${esc(x.icon || '')} ${esc(x.name)}</button>`).join('');
+    return `${list}<p class="muted" aria-live="polite">${full ? `${MAX} topics chosen — remove one to choose another.` : `Add a topic (${sel.length}/${MAX}):`}</p><div class="chip-row wrap">${add}</div>`;
+  }
   function renderSettings() {
     const s = E.state.settings;
     const voices = SP.listJapanese();
@@ -671,6 +715,9 @@
         <li><b>Windows:</b> Settings → Time &amp; language → Speech → Add voices → Japanese (Haruka, Ayumi, Ichiro, Sayaka).</li>
         <li><b>Mac:</b> System Settings → Accessibility → Spoken Content → System voice → Manage voices → Japanese.</li></ul>
         <p class="muted">Michi only lists voices that really exist on this device and never uses an online voice automatically.</p></details>
+      <h3 id="prio-h">Topic priorities</h3>
+      <p class="muted">Choose up to 3 topics you need most. Morning lessons pick new words from these more often — other topics are still taught, and everything you’ve learned keeps being reviewed. Evening sessions never add new words.</p>
+      ${prioEditor()}
       <h3>Time for each session</h3>
       ${['morning', 'evening', 'weekly'].map(k => `<label class="field">${k[0].toUpperCase() + k.slice(1)} <input type="number" inputmode="numeric" min="3" max="${k === 'weekly' ? 90 : 60}" value="${s.minutes[k]}" data-setting="minutes.${k}"> min</label>`).join('')}
       <p class="muted">Session length follows these; how much fits is worked out from how fast you actually answer.</p>
@@ -678,6 +725,8 @@
       <select data-setting="timeZone" aria-label="Time zone">${zones.map(z => `<option value="${esc(z)}" ${s.timeZone === z ? 'selected' : ''}>${z === 'auto' ? 'Device (' + esc(CAL.deviceZone()) + ')' : esc(z)}</option>`).join('')}</select>
       <h3>Display</h3>
       <div class="chip-row">${['light', 'dark'].map(t => `<button type="button" class="chip ${s.theme === t ? 'on' : ''}" data-action="theme" data-v="${t}">${t}</button>`).join('')}<button type="button" class="chip ${s.showRomaji ? 'on' : ''}" data-action="toggle-romaji">rōmaji ${s.showRomaji ? 'on' : 'off'}</button></div>
+      <h3>Typing diagnostics</h3><p class="muted">If typing answers doesn’t work on your phone, turn this on: a live log of what the keyboard does appears under the answer box. A screenshot of it shows exactly where it fails.</p>
+      <div class="chip-row"><button type="button" class="chip ${s.typingDebug ? 'on' : ''}" data-action="toggle-kbd">Diagnostics ${s.typingDebug ? 'on' : 'off'}</button></div>
       <h3>Backup</h3><p class="muted">Progress lives only on this device.</p>
       <div class="row">${btn('Export backup', 'export', 'ghost')}<label class="btn ghost">Import backup<input id="imp" type="file" accept="application/json" hidden></label></div>
       ${backup ? `<p class="muted">A copy of your data from the old version is kept.</p><div class="row">${btn('Download old-version backup', 'export-v1', 'ghost')}${btn('Restore from old-version backup', 'restore-v1', 'ghost')}</div>` : ''}
@@ -691,7 +740,7 @@
      ============================================================ */
   $app.addEventListener('click', e => {
     const el = e.target.closest('[data-action]');
-    if (!el || el.getAttribute('aria-disabled') === 'true' && el.dataset.action !== 'start') return;
+    if (!el || el.getAttribute('aria-disabled') === 'true' && !['start', 'prio-add'].includes(el.dataset.action)) return;
     const d = el.dataset;
     switch (d.action) {
       case 'go': e.preventDefault(); go(d.view); break;
@@ -713,6 +762,7 @@
         if (PL.isScheduled(s) && !confirm('Finish now? What you answered is saved; anything not reached is carried forward.')) break;
         E.endEarly(); V.view = 'summary'; V.p = { sum: E.session.summary }; render(); break;
       }
+      case 'check': submitTyped(); break;
       case 'ack': answer({}); break;
       case 'choose': answer({ index: +d.k }); V.ui.pick = +d.k; render(); break;
       case 'dontknow': V.ui.typed = ''; answer({ dontKnow: true, text: '' }); break;
@@ -745,6 +795,19 @@
       case 'voice-sample': SP.speak('こんにちは。京都駅はどこですか。お水をお願いします。', { uri: d.uri, rate: E.state.settings.voiceRate || 1, allowDefault: false }); break;
       case 'voice-use': E.state.settings.voiceURI = d.uri; E.save(); render(); toast('Voice saved'); break;
       case 'theme': E.state.settings.theme = d.v; E.save(); applyTheme(E.state.settings); render(); break;
+      case 'prio-add': {
+        const cur = (E.state.settings.topicPriorities || []).slice();
+        const r = E.setTopicPriorities(cur.concat(d.id));
+        if (r.error) toast('You can choose up to ' + r.max + ' topics. Remove one first.');
+        else rerenderKeep(); break;
+      }
+      case 'prio-remove': E.setTopicPriorities((E.state.settings.topicPriorities || []).filter(x => x !== d.id)); rerenderKeep(); break;
+      case 'prio-up': case 'prio-down': {
+        const a = (E.state.settings.topicPriorities || []).slice(), k = a.indexOf(d.id), j = k + (d.action === 'prio-up' ? -1 : 1);
+        if (k >= 0 && j >= 0 && j < a.length) { [a[k], a[j]] = [a[j], a[k]]; E.setTopicPriorities(a); }
+        rerenderKeep(); break;
+      }
+      case 'toggle-kbd': E.state.settings.typingDebug = !E.state.settings.typingDebug; E.save(); render(); break;
       case 'toggle-romaji': E.state.settings.showRomaji = !E.state.settings.showRomaji; E.save(); render(); break;
       case 'export': download('michi-backup-' + E.today() + '.json', E.exportJSON()); break;
       case 'export-v1': download('michi-old-version-backup.json', localStorage.getItem('michi_v1_backup')); break;
@@ -752,6 +815,8 @@
       case 'reset': if (confirm('Erase ALL progress on this device? Export a backup first if unsure.')) { E.reset(); applyTheme(E.state.settings); go('home'); } break;
     }
   });
+  // Re-render the settings screen without jumping back to the top.
+  function rerenderKeep() { const y = window.scrollY; render(); window.scrollTo(0, y); }
   function download(name, text) {
     const a = document.createElement('a');
     a.href = URL.createObjectURL(new Blob([text], { type: 'application/json' }));
@@ -760,30 +825,74 @@
   function submitTyped() {
     const inp = $app.querySelector('input.answer');
     if (!inp || inp.disabled || V.ui.res) return;
-    const text = inp.value;
-    if (!text.trim()) { toast('Type an answer, or tap “I don’t know”.'); inp.focus(); return; }
+    const text = inp.value;                       // includes any not-yet-confirmed IME text
+    if (!text.trim()) { toast('Type an answer, or tap “I don’t know”.'); return; }
     V.ui.typed = text; V.ui.draft = text;
+    composing = false;
+    try { inp.blur(); } catch (e) { }            // ends any open composition and closes the keyboard
     answer({ text });
   }
-  // IME-safe submission.
-  let composing = false;
-  $app.addEventListener('compositionstart', () => { composing = true; });
-  $app.addEventListener('compositionend', () => { composing = false; });
+  /* IME-safe submission.
+     The ONLY thing blocked during composition is the Enter key that confirms
+     a kana→kanji conversion (isComposing / keyCode 229 / the Enter Safari
+     sends right after compositionend). A tap on "Check" always submits what
+     is in the box. (Defect fixed here: the previous version ignored "Check"
+     while its composition flag was set; on iPhone a tap on a button does not
+     end the composition, so the answer could never be submitted.) */
+  let composing = false, compEndAt = 0;
+  $app.addEventListener('compositionstart', e => { if (e.target.matches('input.answer')) composing = true; });
+  $app.addEventListener('compositionend', e => { if (e.target.matches('input.answer')) { composing = false; compEndAt = Date.now(); } });
+  $app.addEventListener('focusout', e => { if (e.target.matches && e.target.matches('input.answer')) composing = false; });
   $app.addEventListener('submit', e => {
     if (!e.target.matches('form[data-form="typed"]')) return;
-    e.preventDefault();
+    e.preventDefault();                           // implicit submission (Enter / "Go"); keydown below filters IME Enters
     if (composing) return;
     submitTyped();
   });
   $app.addEventListener('keydown', e => {
-    if (e.key !== 'Enter') return;
+    if (e.key !== 'Enter' && e.keyCode !== 13 && e.keyCode !== 229) return;
     if (e.target.matches && e.target.matches('input.answer')) {
-      if (e.isComposing || e.keyCode === 229 || composing) { e.preventDefault(); return; }   // confirming a conversion
-      e.preventDefault(); submitTyped(); return;
+      const imeEnter = e.isComposing || e.keyCode === 229 || composing || (Date.now() - compEndAt < 30);
+      e.preventDefault();
+      if (!imeEnter && e.key === 'Enter') submitTyped();
+      return;
     }
     // Enter continues after feedback (desktop convenience)
-    if (V.view === 'session' && V.ui.res && !(e.target.matches && e.target.matches('textarea, button'))) { e.preventDefault(); next(); }
+    if (e.key === 'Enter' && V.view === 'session' && V.ui.res && !(e.target.matches && e.target.matches('textarea, button, input'))) { e.preventDefault(); next(); }
   });
+  // Tapping a field that is already focused while no keyboard is visible
+  // (possible on iOS): blur and refocus inside the tap so the keyboard opens.
+  let focusedAtTouch = null;
+  $app.addEventListener('touchstart', () => { focusedAtTouch = document.activeElement; }, { passive: true });
+  $app.addEventListener('touchend', e => {
+    const zone = e.target.closest && e.target.closest('.answer-zone');
+    if (!zone) return;
+    const inp = zone.querySelector('input.answer:not([disabled])'); if (!inp) return;
+    const vv = window.visualViewport;
+    const keyboardHidden = !vv || vv.height > window.innerHeight * 0.85;
+    if (focusedAtTouch === inp && keyboardHidden) { inp.blur(); inp.focus(); }
+  }, { passive: true });
+  $app.addEventListener('focusin', e => { if (e.target.matches && e.target.matches('input.answer')) setTimeout(() => { if (document.activeElement === e.target) keepVisible(e.target); }, 300); });
+
+  /* ---------- optional on-device typing diagnostics (Settings) ---------- */
+  const KBD = [];
+  function kbdLog(ev, extra) {
+    if (!E || !E.state.settings.typingDebug) return;
+    const a = document.activeElement, vv = window.visualViewport;
+    KBD.push(new Date().toISOString().slice(17, 23) + ' ' + ev + (extra ? ' ' + extra : '') + ' | active=' + (a ? (a.id || a.className || a.tagName) : '-') + ' vv=' + (vv ? Math.round(vv.height) : '-') + '/' + window.innerHeight);
+    if (KBD.length > 40) KBD.shift();
+    kbdShow();
+  }
+  function kbdShow() { const box = document.getElementById('kbd-log'); if (box) box.textContent = KBD.slice(-14).join('\n'); }
+  function kbdLogBox() { return E && E.state.settings.typingDebug ? '<pre class="kbd-log" id="kbd-log" aria-label="Typing diagnostics"></pre>' : ''; }
+  for (const ev of ['touchstart', 'touchend', 'pointerdown', 'focusin', 'focusout', 'compositionstart', 'compositionupdate', 'compositionend', 'beforeinput', 'input', 'keydown', 'submit']) {
+    document.addEventListener(ev, e => {
+      if (!e.target || !e.target.closest || !e.target.closest('.answer-form')) return;
+      kbdLog(ev, ev === 'keydown' ? 'key=' + e.key + ' code=' + e.keyCode + ' composing=' + e.isComposing : ev.indexOf('composition') === 0 ? 'data=' + e.data : ev === 'beforeinput' ? 'type=' + e.inputType : ev === 'input' ? 'len=' + (e.target.value || '').length : '');
+    }, { capture: true, passive: true });
+  }
+  if (window.visualViewport) window.visualViewport.addEventListener('resize', () => kbdLog('viewport-resize'));
+
   $app.addEventListener('input', e => {
     if (e.target.matches('input.answer')) V.ui.draft = e.target.value;
     if (e.target.matches('[data-rec]')) V.ui.text = e.target.value;
@@ -807,14 +916,17 @@
   });
 
   /* ---------- day rollover & visibility: Sunday unlock without restart ---------- */
+  // Re-render when anything time-dependent changes (date, evening opening at
+  // 12:00, weekly unlock) — no refresh or restart needed.
   let lastDay = null;
+  function timeSig() { return E.today() + '|' + E.eveningClock().open + '|' + E.weeklyStatus().state; }
   function checkDay() {
     if (!E) return;
-    const d = E.today();
-    if (lastDay && d !== lastDay && ['home', 'progress'].includes(V.view)) render();
-    lastDay = d;
+    const sig = timeSig();
+    if (lastDay && sig !== lastDay && ['home', 'progress'].includes(V.view)) rerenderKeep();
+    lastDay = sig;
   }
-  setInterval(checkDay, 30000);
+  setInterval(checkDay, 15000);
   document.addEventListener('visibilitychange', () => { if (!document.hidden) checkDay(); });
 
   /* ---------- boot ---------- */
@@ -835,7 +947,7 @@
     window.__michi = { get E() { return E; }, C };       // for debugging and end-to-end tests
     applyTheme(E.state.settings);
     if (E.resume()) { /* offered on the home screen */ }
-    lastDay = E.today();
+    lastDay = timeSig();
     go('home');
     SP.ready().then(() => { if (['home', 'settings'].includes(V.view)) render(); });
   }

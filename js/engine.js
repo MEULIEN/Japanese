@@ -41,6 +41,24 @@
     E.save = () => { E.lastSave = ST.save(opts.storage, E.state); return E.lastSave; };
     E.saveSession = () => ST.saveSession(opts.storage, E.session && !E.session.finished ? E.session : null);
 
+    // Move history recorded under an alias id onto the canonical item (keep
+    // the richer record if both exist). Nothing is deleted.
+    E.applyAliases = () => {
+      const al = (E.C && E.C.aliasOf) || {};
+      let moved = 0;
+      const merge = (store) => {
+        for (const [a, id] of Object.entries(al)) {
+          if (!store[a]) continue;
+          const reps = r => Object.values((r && r.skills) || r || {}).reduce((t, x) => t + ((x && (x.reps || x.n)) || 0), 0);
+          if (!store[id] || reps(store[a]) > reps(store[id])) store[id] = store[a];
+          delete store[a]; moved++;
+        }
+      };
+      merge(E.state.memory); merge(E.state.practice.items);
+      for (const [a, id] of Object.entries(al)) if (E.state.hooks[a] && !E.state.hooks[id]) { E.state.hooks[id] = E.state.hooks[a]; delete E.state.hooks[a]; }
+      return moved;
+    };
+    if (E.applyAliases()) E.save();
     // Record which curriculum version the learner has seen (progress annotations).
     const seen = E.state.curriculumSeen;
     if (E.C && (!seen.length || seen[seen.length - 1].version !== E.C.version)) { seen.push({ version: E.C.version, date: E.today(), items: E.C.items.length }); }
@@ -54,12 +72,15 @@
       const st = E.state, any = Object.keys(st.memory).some(id => E.C.byId[id]);
       const today = E.today();
       const doneToday = k => st.sessions.some(s => s.kind === k && s.date === today && !s.endedEarly);
-      const topic = PL.pickTopic(E.ctx());
+      const info = PL.pickTopicInfo(E.ctx());
+      const topic = info.topic;
       const wk = E.weeklyStatus();
-      const morning = { state: doneToday('morning') ? 'done' : 'available', topic: topic && topic.id };
+      const morning = { state: doneToday('morning') ? 'done' : 'available', topic: topic && topic.id, why: info.why, forTopic: info.forTopic || null };
       if (!topic && !any) morning.state = 'locked', morning.reason = 'No verified lesson material is loaded.';
       const pend = st.lesson.pendingEvening;
-      const evening = { state: doneToday('evening') ? 'done' : (pend || any) ? 'available' : 'locked', reason: (pend || any) ? null : 'Opens after your first morning lesson.', fromMorning: pend ? pend.date : null };
+      const ev = E.eveningClock();
+      const evening = { state: doneToday('evening') ? 'done' : (pend || any) ? 'available' : 'locked', reason: (pend || any) ? null : 'Opens after your first morning lesson.', fromMorning: pend ? pend.date : null, opensAt: ev.opensAt };
+      if (evening.state === 'available' && !ev.open) { evening.state = 'locked'; evening.reason = 'Available from ' + ev.opensAt + ' (in ' + ev.waitText + ').'; evening.timeLocked = true; }
       const recall = { state: any ? 'available' : 'locked', reason: any ? null : 'Opens once you have learned something.' };
       const training = { state: any ? 'available' : 'locked', reason: any ? null : 'Opens once you have learned something.' };
       const weekly = { state: wk.state === 'available' ? 'available' : wk.state === 'done' ? 'done' : 'locked', status: wk };
@@ -68,8 +89,28 @@
       if (weekly.state === 'available') rec = 'weekly';
       else if (morning.state === 'available' && !doneToday('morning')) rec = 'morning';
       else if (evening.state === 'available' && pend) rec = 'evening';
+      else if (evening.timeLocked && pend && recall.state === 'available') rec = 'recall';
       else if (recall.state === 'available') rec = 'recall';
       return { morning, evening, recall, training, weekly, recommended: rec };
+    };
+
+    /* ---------- evening opening time (local time, learner's time zone) ---------- */
+    E.eveningClock = () => {
+      const m = CAL.localMinutes(now(), E.state.settings.timeZone);
+      const at = P.evening.unlockMinute;
+      const wait = Math.max(0, at - m);
+      return { open: m >= at, minutesNow: m, opensAt: CAL.hhmm(at), waitMinutes: wait, waitText: wait >= 60 ? Math.floor(wait / 60) + ' h ' + (wait % 60) + ' min' : wait + ' min' };
+    };
+
+    /* ---------- topic priorities (Settings) ---------- */
+    // Validated: known topic ids, no duplicates, at most policy max (3).
+    E.setTopicPriorities = (ids) => {
+      const seen = new Set();
+      const clean = (ids || []).filter(id => E.C.topicById[id] && !seen.has(id) && seen.add(id));
+      if (clean.length > P.topicPriority.max) return { error: 'too-many', max: P.topicPriority.max };
+      E.state.settings.topicPriorities = clean;
+      E.save();
+      return { ok: true, priorities: clean };
     };
 
     /* ---------- sessions ---------- */
@@ -77,7 +118,12 @@
       const ctx = E.ctx();
       let s;
       if (kind === 'morning') s = PL.startMorning(ctx, o);
-      else if (kind === 'evening') s = PL.startEvening(ctx);
+      else if (kind === 'evening') {
+        // The noon lock is enforced HERE (session access), not only in the UI.
+        const ev = E.eveningClock();
+        if (!ev.open) return { error: 'evening-locked', opensAt: ev.opensAt, waitText: ev.waitText };
+        s = PL.startEvening(ctx);
+      }
       else if (kind === 'weekly') {
         const wk = E.weeklyStatus();
         if (wk.state !== 'available') return { error: 'locked', status: wk };

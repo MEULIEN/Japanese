@@ -33,7 +33,10 @@ test('morning: diagnostic covers ONLY this lesson’s candidate material, in one
   const scope = new Set(s.plan.newIds.concat(s.plan.reserveIds));
   assert.ok(diagItems.length > 0);
   for (const id of diagItems) assert.ok(scope.has(id), 'diag item outside lesson scope: ' + id);
-  for (const id of scope) assert.strictEqual(C.byId[id].topic, s.topic, 'all candidates share the topic');
+  // One topic — or, only when that topic has too little left for a normal
+  // lesson, a top-up from one second topic (never a scattered mix).
+  for (const id of scope) assert.ok([s.topic, s.topic2].includes(C.byId[id].topic), 'candidate outside the lesson topics: ' + id);
+  if (s.topic2) assert.ok(C.byTopic[s.topic].filter(i => !E.state.memory[i.id]).length < P.morning.preferredNew[0], 'top-up only when the topic is nearly exhausted');
 });
 test('morning: a correct multiple-choice diagnostic triggers an unaided production check before counting as known', () => {
   const C = F.curriculum();
@@ -184,6 +187,7 @@ test('evening: emphasises productive skills', () => {
   const C = F.curriculum({ take: 9 });   // restaurant words only (all to be produced)
   const { E, rng, clk } = engine(C);
   E.start('morning'); F.drive(E, 0.8, rng, clk); E.finish();
+  clk.set('2026-10-21T18:00:00+09:00');
   const s = E.start('evening').session;
   const say = c => c.phase === 'consolidate' && C.byId[c.item].use === 'say';
   const prod = s.queue.filter(c => say(c) && ['production', 'context', 'speaking', 'form', 'reading'].includes(c.skill)).length;
@@ -390,6 +394,126 @@ test('export → import round-trip', () => {
   assert.deepStrictEqual(b.E.state.memory, a.E.state.memory);
 });
 
+/* ---------- evening opens at 12:00 local time ---------- */
+test('evening noon lock: 11:59 locked, 12:00 open, 12:01 open — enforced by start(), not just the UI', () => {
+  const C = F.curriculum();
+  const { E, rng, clk } = engine(C, { start: '2026-10-21T08:00:00+09:00' });
+  E.start('morning'); F.drive(E, 0.8, rng, clk); E.finish();
+  const results = [];
+  for (const [t, expectOpen] of [['11:59:59', false], ['12:00:00', true], ['12:01:00', true], ['23:59:00', true]]) {
+    clk.set('2026-10-21T' + t + '+09:00');
+    const a = E.availability().evening;
+    const r = E.start('evening');
+    results.push(t + ' → ' + (a.state === 'available' ? 'open' : 'locked') + ' / start: ' + (r.error || 'session'));
+    assert.strictEqual(a.state === 'available', expectOpen, t + ' availability');
+    assert.strictEqual(!r.error, expectOpen, t + ' start() enforcement');
+    if (!expectOpen) { assert.strictEqual(r.error, 'evening-locked'); assert.match(a.reason, /Available from 12:00/); }
+    if (r.session) E.session = null;                       // don't run it here
+  }
+  console.log('       simulated clock (Asia/Tokyo): ' + results.join(' · '));
+  assert.ok(!E.state.sessions.some(s => s.kind === 'evening'), 'unlocking never marks the evening done');
+});
+test('evening noon lock: next day locks again before noon; midnight rollover; morning/recall/training never time-locked', () => {
+  const C = F.curriculum();
+  const { E, rng, clk } = engine(C, { start: '2026-10-21T08:00:00+09:00' });
+  E.start('morning'); F.drive(E, 0.8, rng, clk); E.finish();
+  clk.set('2026-10-22T00:10:00+09:00');
+  assert.strictEqual(E.availability().evening.state, 'locked', 'just after midnight');
+  for (const k of ['morning', 'recall', 'training']) assert.ok(!E.start(k).error, k + ' available before noon');
+  E.session = null;
+  clk.set('2026-10-22T12:00:00+09:00');
+  assert.strictEqual(E.availability().evening.state, 'available');
+});
+test('evening noon lock follows the configured time zone', () => {
+  const C = F.curriculum();
+  const { E, rng, clk } = engine(C, { start: '2026-10-21T08:00:00+09:00' });
+  E.start('morning'); F.drive(E, 0.8, rng, clk); E.finish();
+  clk.set('2026-10-21T03:30:00Z');                       // 12:30 in Tokyo, 05:30 in Paris
+  E.state.settings.timeZone = 'Asia/Tokyo'; assert.strictEqual(E.availability().evening.state, 'available');
+  E.state.settings.timeZone = 'Europe/Paris'; assert.strictEqual(E.availability().evening.state, 'locked');
+  assert.match(E.availability().evening.reason, /in 6 h 30 min/);
+});
+
+/* ---------- topic priorities ---------- */
+test('topic priorities: validated (known ids, no duplicates, at most 3) and persisted', () => {
+  const C = F.curriculum();
+  const storage = new F.MemStorage();
+  const { E } = engine(C, { storage });
+  assert.ok(E.setTopicPriorities(['directions']).ok);
+  assert.ok(E.setTopicPriorities(['directions', 'daily']).ok);
+  assert.ok(E.setTopicPriorities(['directions', 'daily', 'describe']).ok);
+  assert.strictEqual(E.setTopicPriorities(['directions', 'daily', 'describe', 'signs']).error, 'too-many');
+  assert.deepStrictEqual(E.state.settings.topicPriorities, ['directions', 'daily', 'describe'], 'a 4th is refused, the 3 stay');
+  E.setTopicPriorities(['describe', 'directions', 'nope', 'describe']);
+  assert.deepStrictEqual(E.state.settings.topicPriorities, ['describe', 'directions'], 'reorder/remove; unknown and duplicate ids dropped');
+  const again = engine(C, { storage }).E;                 // restart
+  assert.deepStrictEqual(again.state.settings.topicPriorities, ['describe', 'directions']);
+});
+test('topic priorities change actual lesson content, but learning stays broad', () => {
+  const C = F.curriculum({ scale: 300 });
+  const run = prios => {
+    const { E, rng, clk } = engine(C, { start: '2026-11-02T08:00:00+09:00' });
+    E.setTopicPriorities(prios);
+    const topics = [];
+    for (let d = 0; d < 12; d++) {
+      clk.set(CAL.addDays('2026-11-02', d) + 'T08:00:00+09:00');
+      const r = E.start('morning'); if (r.error) continue;
+      topics.push(r.session.topic); F.drive(E, 0.85, rng, clk); E.finish();
+    }
+    return { topics, E };
+  };
+  const none = run([]), pr = run(['describe']);
+  const share = pr.topics.filter(t => t === 'describe').length / pr.topics.length;
+  console.log('       no priority:', none.topics.join(','), '\n       priority=describe:', pr.topics.join(','));
+  assert.ok(share >= 0.5, 'priority topic dominates new material: ' + share);
+  assert.ok(pr.topics.some(t => t !== 'describe'), 'other topics still introduced');
+  assert.ok(none.topics.filter(t => t === 'describe').length < pr.topics.filter(t => t === 'describe').length, 'priority changed the lessons');
+  // Reviews keep covering non-priority topics.
+  const reviewedTopics = new Set(pr.E.state.log.filter(r => r.phase === 'review').map(r => C.byId[r.item].topic));
+  assert.ok([...reviewedTopics].some(t => t !== 'describe'), 'spaced repetition still reviews other topics');
+  // The morning tells the learner why.
+  const s = pr.E.state.sessions.filter(x => x.kind === 'morning');
+  assert.ok(s.some(x => x.topicWhy === 'priority') && s.some(x => x.topicWhy === 'balance'));
+});
+test('topic priorities: exhausted priority topic → other material (never an empty lesson); evening still adds nothing new', () => {
+  const C = F.curriculum();                               // small: describe has 4 items
+  const { E, rng, clk } = engine(C, { start: '2026-11-02T08:00:00+09:00' });
+  E.setTopicPriorities(['describe']);
+  for (let d = 0; d < 4; d++) {
+    clk.set(CAL.addDays('2026-11-02', d) + 'T08:00:00+09:00');
+    const r = E.start('morning');
+    if (r.error) break;
+    assert.ok(r.session.queue.length > 0, 'never an empty lesson');
+    F.drive(E, 0.9, rng, clk); E.finish();
+    clk.set(CAL.addDays('2026-11-02', d) + 'T19:00:00+09:00');
+    const before = Object.keys(E.state.memory).length;
+    if (!E.start('evening').error) { F.drive(E, 0.9, rng, clk); E.finish(); }
+    assert.strictEqual(Object.keys(E.state.memory).length, before, 'evening introduced nothing new');
+  }
+  assert.ok(C.byTopic.describe.every(i => E.state.memory[i.id]), 'priority topic fully introduced');
+  const later = E.state.sessions.filter(x => x.kind === 'morning').slice(-1)[0];
+  assert.ok(later.topic !== 'describe' || later.topic2, 'then moves on to other material');
+});
+test('topic priorities do not change Recall/Training selection', () => {
+  const C = F.curriculum();
+  const a = engine(C, { seed: 3 }), b = engine(C, { seed: 3 });
+  for (const x of [a, b]) { x.E.start('morning'); F.drive(x.E, 0.9, x.rng, x.clk); x.E.finish(); }
+  b.E.setTopicPriorities(['describe']);
+  const ra = a.E.start('recall', { focus: 'weak' }).session, rb = b.E.start('recall', { focus: 'weak' }).session;
+  assert.strictEqual(ra.poolSize, rb.poolSize, 'same practice pool regardless of priorities');
+});
+
+test('merged vocabulary: history recorded under an alias id moves onto the canonical word', () => {
+  const C = F.curriculum();
+  C.byId.f_omizu.aliases = ['old_mizu']; C.aliasOf = { old_mizu: 'f_omizu' };
+  const storage = new F.MemStorage();
+  storage.setItem(ST.KEY, JSON.stringify(Object.assign(ST.blank('2026-10-21'), { memory: { old_mizu: { intro: '2026-10-01', skills: { recognition: { s: 5, d: 5, last: '2026-10-20', due: '2026-10-25', reps: 4, lapses: 0 } } } }, hooks: { old_mizu: 'my hook' } })));
+  const { E } = engine(C, { storage });
+  assert.ok(E.state.memory.f_omizu && !E.state.memory.old_mizu);
+  assert.strictEqual(E.state.memory.f_omizu.skills.recognition.due, '2026-10-25', 'schedule kept');
+  assert.strictEqual(E.state.hooks.f_omizu, 'my hook');
+});
+
 /* ---------- regressions for defects found during this rebuild ---------- */
 test('regression: a correct retry after a miss is "needed help", not "recalled on your own"', () => {
   const C = F.curriculum({ take: 9 });
@@ -439,7 +563,7 @@ test('30 simulated days: reviews stay bounded, intervals grow for known items, f
   assert.ok(mems.some(s => CAL.daysBetween(s.last, s.due) >= 7), 'some intervals have grown past a week');
   assert.ok(maxQueue < 150, 'evening never becomes a mountain: ' + maxQueue);
   // Absence of 20 days: the next session still has a bounded size.
-  clk.set('2026-12-20T08:00:00+09:00');
+  clk.set('2026-12-20T18:00:00+09:00');
   const s = E.start('evening').session;
   const sec = s.queue.reduce((t, c) => t + (c.estSec || 15), 0);
   assert.ok(sec <= s.budgetSec * 1.3, 'after a long absence the session still fits the time budget');

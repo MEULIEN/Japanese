@@ -25,6 +25,14 @@
     const g = t => parts.find(p => p.type === t).value;
     return g('year') + '-' + g('month') + '-' + g('day');
   }
+  // Minutes since local midnight of instant `now` in zone `tz` (0–1439).
+  function localMinutes(now, tz) {
+    const d = now instanceof Date ? now : new Date(now == null ? Date.now() : now);
+    const parts = new Intl.DateTimeFormat('en-GB', { timeZone: zoneOf(tz), hour: '2-digit', minute: '2-digit', hourCycle: 'h23' }).formatToParts(d);
+    const g = t => +parts.find(p => p.type === t).value;
+    return (g('hour') % 24) * 60 + g('minute');
+  }
+  const hhmm = m => pad(Math.floor(m / 60)) + ':' + pad(m % 60);
   function toUTC(s) { const p = s.split('-').map(Number); return Date.UTC(p[0], p[1] - 1, p[2]); }
   function fromUTC(ms) { const d = new Date(ms); return d.getUTCFullYear() + '-' + pad(d.getUTCMonth() + 1) + '-' + pad(d.getUTCDate()); }
   function addDays(s, n) { return fromUTC(toUTC(s) + n * DAY); }
@@ -59,5 +67,5 @@
   const WEEKDAY_NAMES = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   function pretty(s) { const p = s.split('-').map(Number); const m = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'][p[1] - 1]; return WEEKDAY_NAMES[weekday(s)] + ' ' + p[2] + ' ' + m; }
 
-  return { deviceZone, validZone, zoneOf, localDate, addDays, daysBetween, weekday, onOrBefore, onOrAfter, weeklyStatus, pretty, WEEKDAY_NAMES };
+  return { deviceZone, validZone, zoneOf, localDate, localMinutes, hhmm, addDays, daysBetween, weekday, onOrBefore, onOrAfter, weeklyStatus, pretty, WEEKDAY_NAMES };
 });

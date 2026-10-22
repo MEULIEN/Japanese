@@ -208,3 +208,26 @@ summary { cursor: pointer; min-height: 44px; display: flex; align-items: center;
 @media (max-width: 360px) { .act { padding: 12px; } .stat-row, .stat-grid { grid-template-columns: 1fr 1fr; } }
 /* Source citation links: small text, but a ≥44px tall hit area. */
 .src a { display: inline-block; padding: 14px 6px; margin: -14px -2px; }
+/* Answer zone: the whole block is a <label> for the input, so a tap anywhere
+   on it is a native tap on the text field. */
+.answer-zone { display: block; padding: 10px 12px 12px; border: 2px dashed var(--gold); border-radius: 14px; background: var(--card); cursor: text; }
+.answer-zone .zone-hint { display: block; font-size: .85rem; font-weight: 600; color: var(--gold); margin-bottom: 6px; }
+.answer-zone input.answer { border-width: 2px; }
+.kbd-log { font-size: .7rem; line-height: 1.35; background: var(--paper-2); border: 1px solid var(--line); border-radius: 8px; padding: 8px; white-space: pre-wrap; overflow-wrap: anywhere; max-height: 14em; overflow: auto; }
+/* Settings button: icon + text, ≥44px, outlined so it reads as a control. */
+.settings-btn { display: inline-flex; align-items: center; gap: 6px; min-height: 44px; min-width: 44px; padding: 6px 12px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--card); color: var(--ink); font: inherit; font-size: .92rem; font-weight: 600; cursor: pointer; box-shadow: var(--shadow); flex-shrink: 0; }
+.settings-btn svg { flex-shrink: 0; }
+.settings-btn:focus-visible { outline: 3px solid var(--gold); outline-offset: 2px; }
+@media (max-width: 340px) { .settings-btn .sb-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); } .settings-btn { padding: 6px 10px; } }
+.topbar .title { min-width: 0; }
+.act .why { color: var(--gold); }
+/* Topic priorities editor */
+.prio-list { list-style: none; padding: 0; margin: 8px 0; display: grid; gap: 8px; }
+.prio-list li { display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: wrap; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-s); padding: 6px 8px 6px 12px; }
+.prio-btns { display: flex; gap: 6px; }
+.icon-btn.boxed { border: 1.5px solid var(--line); background: var(--card); min-width: 44px; min-height: 44px; font-size: 1.1rem; }
+.icon-btn.boxed[disabled] { opacity: .35; }
+.chip[aria-disabled="true"] { opacity: .45; }
+/* No grey/blue system tap flash (it looked like a state change); use a subtle press instead. */
+button, .act, .chip, .choice, label.answer-zone { -webkit-tap-highlight-color: transparent; }
+.act:active, .chip:active, .choice:active, .btn:active, .settings-btn:active { transform: scale(.98); }

@@ -44,6 +44,10 @@
       remediationShare: 0.2     // time reserved for re-practising mistakes
     },
     evening: {
+      // The evening session opens at this local time (minutes after
+      // midnight, learner's configured time zone): it consolidates the
+      // morning, so it needs a gap after the morning lesson.
+      unlockMinute: 12 * 60,
       reviewShare: 0.45,        // the rest goes to consolidating today's morning material
       remediationShare: 0.2,
       // Each morning item gets between these many evening exercises; the
@@ -79,6 +83,10 @@
       durableHorizonDays: 30,
       durableProb: 0.8
     },
+
+    // Topic priorities (Settings): share of mornings that start new material
+    // from one of the learner's preferred topics. The rest stay broad.
+    topicPriority: { max: 3, share: 0.75, window: 4 },
 
     training: {
       recentAvoid: 6,           // an item is not repeated within this many cards

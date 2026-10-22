@@ -35,7 +35,8 @@ function serve() {
 const PHONES = {
   iphone: { width: 390, height: 844, deviceScaleFactor: 3, isMobile: true, hasTouch: true, ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1' },
   small: { width: 320, height: 568, deviceScaleFactor: 2, isMobile: true, hasTouch: true, ua: 'Mozilla/5.0 (Linux; Android 14; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Mobile Safari/537.36' },
-  landscape: { width: 844, height: 390, deviceScaleFactor: 3, isMobile: true, hasTouch: true, ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1' }
+  landscape: { width: 844, height: 390, deviceScaleFactor: 3, isMobile: true, hasTouch: true, ua: 'Mozilla/5.0 (iPhone; CPU iPhone OS 17_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.5 Mobile/15E148 Safari/604.1' },
+  desktop: { width: 1280, height: 800, deviceScaleFactor: 1, isMobile: false, hasTouch: false, ua: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36' }
 };
 
 let browser, server, base;
@@ -46,6 +47,8 @@ async function page(phone, opts) {
   const ph = PHONES[phone || 'iphone'];
   await pg.setUserAgent(ph.ua);
   await pg.setViewport(ph);
+  await pg.emulateTimezone(opts.tz || 'Asia/Tokyo');      // deterministic local time
+  opts.now = opts.now || '2026-10-21T13:00:00+09:00';      // default: a Wednesday afternoon (evening open)
   const errors = [];
   pg.on('pageerror', e => errors.push(String(e)));
   pg.on('console', m => { if (m.type() === 'error') errors.push(m.text()); });
@@ -168,7 +171,7 @@ test('fresh learner: Recall/Training/Evening are locked with a reason; Weekly lo
 });
 
 test('full day by touch: morning → evening → recall → training, state persists across reload', async () => {
-  const pg = await page('iphone', { now: '2026-10-21T08:00:00+09:00' });
+  const pg = await page('iphone', { now: '2026-10-21T12:30:00+09:00' });
   await tapSel(pg, '.act.morning'); await pg.waitForSelector('.card-stage');
   await shot(pg, 'morning-first-card');
   const n = await driveSession(pg, 0.75);
@@ -212,7 +215,7 @@ test('typing: tap focuses a real text input; IME composition + Enter does NOT su
   await tapSel(pg, '[data-action="resume"]');
   await pg.waitForSelector('input.answer');
   const attrs = await pg.$eval('input.answer', el => ({ type: el.type, lang: el.lang, inputmode: el.inputMode, enterkeyhint: el.enterKeyHint, fs: parseFloat(getComputedStyle(el).fontSize), readOnly: el.readOnly }));
-  assert.deepStrictEqual([attrs.type, attrs.lang, attrs.inputmode, attrs.enterkeyhint, attrs.readOnly], ['text', 'ja', 'text', 'done', false]);
+  assert.deepStrictEqual([attrs.type, attrs.lang, attrs.inputmode, attrs.enterkeyhint, attrs.readOnly], ['text', 'ja', 'text', 'go', false]);
   assert.ok(attrs.fs >= 16, 'font-size ≥16px so iOS does not zoom');
   const inp = await pg.$('input.answer'); await inp.tap();
   assert.ok(await pg.evaluate(() => document.activeElement.matches('input.answer')), 'tap focuses the input');
@@ -225,6 +228,7 @@ test('typing: tap focuses a real text input; IME composition + Enter does NOT su
   assert.ok(!(await pg.$('.feedback')), 'Enter during IME composition did not submit');
   // Commit the composition with the full word (as the IME would), then Enter submits.
   await cdp.send('Input.insertText', { text: kana });
+  await new Promise(r => setTimeout(r, 200));            // a person can't press Enter again within milliseconds
   const val = await pg.$eval('input.answer', el => el.value);
   assert.ok(val.endsWith(kana), 'composed text is in the input: ' + val);
   await pg.evaluate(() => { const i = document.querySelector('input.answer'); i.value = window.__imeItem.kana; i.dispatchEvent(new Event('input', { bubbles: true })); });
@@ -315,6 +319,114 @@ test('voices: only real installed Japanese voices are listed; sample and selecti
     const saved = await pg.evaluate(() => JSON.parse(localStorage.getItem('michi_v2')).settings.voiceURI);
     assert.strictEqual(saved, second.uri, 'selection persisted');
   }
+  await pg.ctx.close();
+});
+
+test('REGRESSION (iPhone defect): tapping Check while Japanese text is still being composed submits the answer', async () => {
+  for (const ph of ['iphone', 'small']) {
+    const pg = await page(ph);
+    await pg.evaluate(() => {
+      const E = window.__michi.E, C = window.__michi.C, X = window.MichiExercises, it = C.byId['f_omizu'];
+      E.start('morning');
+      E.session.queue.splice(E.session.i, 0, Object.assign({ id: 'compose-check', phase: 'learn' }, X.G.type(it, { C, scope: new Set([it.id]), rng: Math.random })));
+    });
+    await tapSel(pg, '.tabbar [data-view="home"]'); await tapSel(pg, '[data-action="resume"]');
+    await pg.waitForSelector('input.answer');
+    const auto = await pg.evaluate(() => document.activeElement && document.activeElement.matches('input.answer'));
+    assert.ok(!auto, 'touch device: no programmatic focus (avoids the iOS focused-without-keyboard state)');
+    await (await pg.$('.answer-zone')).tap();
+    assert.ok(await pg.evaluate(() => document.activeElement.matches('input.answer')), 'tapping the answer zone focuses the real input');
+    const cdp = await pg.target().createCDPSession();
+    await cdp.send('Input.imeSetComposition', { text: 'おみず', selectionStart: 3, selectionEnd: 3 });   // unconfirmed (marked) text
+    await tapSel(pg, '[data-action="check"]');
+    await pg.waitForSelector('.feedback', { timeout: 3000 });
+    assert.match(await pg.$eval('.feedback', e => e.textContent), /Correct/, ph + ': composed text was submitted and accepted');
+    await pg.ctx.close();
+  }
+});
+
+test('desktop: typing still auto-focuses, Enter submits, layout has no defects', async () => {
+  const pg = await page('desktop');
+  await layoutAudit(pg, 'desktop home');
+  await pg.evaluate(() => {
+    const E = window.__michi.E, C = window.__michi.C, X = window.MichiExercises, it = C.byId['f_menu'];
+    E.start('morning');
+    E.session.queue.splice(E.session.i, 0, Object.assign({ id: 'desk', phase: 'learn' }, X.G.type(it, { C, scope: new Set([it.id]), rng: Math.random })));
+  });
+  await pg.click('.tabbar [data-view="home"]'); await pg.click('[data-action="resume"]');
+  await pg.waitForSelector('input.answer');
+  assert.ok(await pg.evaluate(() => document.activeElement.matches('input.answer')), 'desktop: focused automatically');
+  await pg.keyboard.type('menyuu'); await pg.keyboard.press('Enter');
+  await pg.waitForSelector('.feedback'); assert.match(await pg.$eval('.feedback', e => e.textContent), /Correct/);
+  await shot(pg, 'desktop-typed');
+  await pg.ctx.close();
+});
+
+test('settings button: visible, labelled, at least 44x44, not overlapping, on every main tab (320 / 390 / landscape / desktop)', async () => {
+  for (const ph of ['small', 'iphone', 'landscape', 'desktop']) {
+    const pg = await page(ph);
+    for (const v of ['home', 'train', 'conj', 'progress', 'words']) {
+      await pg.click(`.tabbar [data-view="${v}"]`);
+      const r = await pg.$eval('.settings-btn', b => {
+        const x = b.getBoundingClientRect(), t = document.querySelector('.topbar .title').getBoundingClientRect();
+        const hit = document.elementFromPoint(x.left + x.width / 2, x.top + x.height / 2);
+        return { w: x.width, h: x.height, inView: x.left >= 0 && x.right <= innerWidth && x.top >= 0, label: b.getAttribute('aria-label'), text: b.textContent.trim(), overlapTitle: !(t.right <= x.left || t.left >= x.right || t.bottom <= x.top || t.top >= x.bottom), topmost: b.contains(hit) };
+      });
+      assert.ok(r.w >= 44 && r.h >= 44, `${ph}/${v}: ${r.w}x${r.h}`);
+      assert.ok(r.inView && r.topmost && !r.overlapTitle, `${ph}/${v}: visible and not covered/overlapping ${JSON.stringify(r)}`);
+      assert.match(r.label, /Settings/);
+      if (ph !== 'small') assert.strictEqual(r.text, 'Settings', 'text label shown');
+    }
+    await pg.click('.settings-btn'); await pg.waitForSelector('#prio-h');
+    await shot(pg, 'settings-btn-' + ph);
+    await pg.ctx.close();
+  }
+});
+
+test('topic priorities: choose 1, 2, 3; a 4th is refused; reorder; remove; persists after restart; changes the next lesson', async () => {
+  const pg = await page('iphone');
+  await tapSel(pg, '.settings-btn'); await pg.waitForSelector('#prio-h');
+  const prios = () => pg.evaluate(() => JSON.parse(localStorage.getItem('michi_v2')).settings.topicPriorities);
+  const ids = await pg.$$eval('[data-action="prio-add"]', els => els.map(e => e.dataset.id));
+  const want = ['directions', 'health', 'home'].filter(x => ids.includes(x)).concat(ids).filter((x, i, a) => a.indexOf(x) === i).slice(0, 4);
+  await tapSel(pg, `[data-action="prio-add"][data-id="${want[0]}"]`); assert.deepStrictEqual(await prios(), [want[0]], 'one');
+  await tapSel(pg, `[data-action="prio-add"][data-id="${want[1]}"]`); assert.deepStrictEqual(await prios(), want.slice(0, 2), 'two');
+  await tapSel(pg, `[data-action="prio-add"][data-id="${want[2]}"]`); assert.deepStrictEqual(await prios(), want.slice(0, 3), 'three');
+  assert.strictEqual(await pg.$eval(`[data-action="prio-add"][data-id="${want[3]}"]`, e => e.getAttribute('aria-disabled')), 'true', '4th shown as unavailable');
+  await tapSel(pg, `[data-action="prio-add"][data-id="${want[3]}"]`);
+  assert.deepStrictEqual(await prios(), want.slice(0, 3), 'a 4th is refused');
+  assert.match(await pg.$eval('#toast', e => e.textContent), /up to 3/);
+  await layoutAudit(pg, 'settings with 3 priorities');
+  await shot(pg, 'settings-priorities');
+  await tapSel(pg, `[data-action="prio-up"][data-id="${want[2]}"]`);
+  assert.deepStrictEqual(await prios(), [want[0], want[2], want[1]], 'reordered');
+  await tapSel(pg, `[data-action="prio-remove"][data-id="${want[0]}"]`);
+  assert.deepStrictEqual(await prios(), [want[2], want[1]], 'removed');
+  await pg.reload({ waitUntil: 'load' }); await pg.waitForSelector('.act-grid');
+  assert.deepStrictEqual(await prios(), [want[2], want[1]], 'persisted after restart');
+  const sub = await pg.$eval('.act.morning .act-sub', e => e.textContent);
+  assert.match(sub, /priorit/, 'morning card explains the topic choice: ' + sub);
+  await tapSel(pg, '.act.morning'); await pg.waitForSelector('.card-stage');
+  const t = await pg.evaluate(() => { const s = window.__michi.E.session; return { topic: s.topic, why: s.topicWhy, forTopic: s.forTopic }; });
+  assert.ok((t.why === 'priority' && t.topic === want[2]) || (t.why === 'prereq' && t.forTopic === want[2]), 'lesson follows the top priority: ' + JSON.stringify(t));
+  await pg.ctx.close();
+});
+
+test('evening: locked at 11:59 with "Available from 12:00", unlocks at 12:00 without a refresh', async () => {
+  const pg = await page('iphone', { now: '2026-10-21T11:59:35+09:00' });
+  await pg.evaluate(() => { const E = window.__michi.E; E.state.memory.f_omizu = { intro: '2026-10-21', introKind: 'morning', skills: {} }; E.state.lesson.pendingEvening = { sessionId: 'x', date: '2026-10-21', items: ['f_omizu'], status: {}, errors: {}, exUsed: {} }; E.save(); });
+  await pg.reload(); await pg.waitForSelector('.act-grid');
+  assert.ok(await pg.$('.act.evening.locked'), '11:59 locked');
+  assert.match(await pg.$eval('.act.evening', e => e.textContent), /Available from 12:00/);
+  await tapSel(pg, '.act.evening');
+  assert.ok(!(await pg.$('.card-stage')), 'tapping a locked evening does not start it');
+  assert.match(await pg.$eval('#toast', e => e.textContent), /12:00/);
+  await shot(pg, 'evening-locked');
+  const t0 = Date.now();
+  await pg.waitForSelector('.act.evening.available', { timeout: 60000 });
+  console.log(`       evening unlocked by itself ${Math.round((Date.now() - t0) / 1000)} s later (page clock passed 12:00), no reload`);
+  await tapSel(pg, '.act.evening'); await pg.waitForSelector('.card-stage');
+  assert.ok(!(await pg.evaluate(() => window.__michi.E.session.queue.some(c => c.ex === 'teach' || c.ex === 'diag'))), 'no new words in the evening');
   await pg.ctx.close();
 });
 

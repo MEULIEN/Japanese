@@ -125,18 +125,54 @@
     const intro = items.filter(i => ctx.state.memory[i.id]).length;
     return { total: items.length, intro, left: items.length - intro };
   }
-  // Next topic: one with carried-forward objectives, else one already
-  // started, else the next by curriculum order whose prerequisites are started.
-  function pickTopic(ctx, want) {
+  /* Which topic the next morning should teach, and WHY (shown to the learner).
+     Order of considerations:
+       1. carried-forward objectives from an unfinished lesson ('carry');
+       2. topic priorities (Settings): about `share` of recent mornings go to a
+          preferred topic, highest-ranked first; if a preferred topic needs a
+          prerequisite topic that hasn't been started, that comes first
+          ('priority' / 'prereq');
+       3. otherwise keep learning broad: continue a started topic, else the
+          next topic in curriculum order whose prerequisites are started
+          ('balance' when priorities exist, else 'continue' / 'next').
+     Reviews (spaced repetition) are untouched by this: every topic's due
+     items keep coming back. Returns { topic, why, forTopic? }. */
+  function pickTopicInfo(ctx, want, exclude) {
+    const ex = new Set(exclude || []);
+    const open = ctx.C.topics.filter(t => !ex.has(t.id) && topicProgress(ctx, t).left > 0);
+    if (want) { const t = open.find(x => x.id === want); return { topic: t || null, why: 'chosen' }; }
     const carry = (ctx.state.lesson.carry || []).map(id => ctx.C.byId[id]).filter(i => i && !ctx.state.memory[i.id]);
-    const open = ctx.C.topics.filter(t => topicProgress(ctx, t).left > 0);
-    if (want) return open.find(t => t.id === want) || null;
-    if (carry.length) { const t = open.find(x => x.id === carry[0].topic); if (t) return t; }
-    const started = open.filter(t => topicProgress(ctx, t).intro > 0);
-    if (started.length) return started[0];
-    const ready = open.filter(t => (t.prereq || []).every(p => !ctx.C.topicById[p] || topicProgress(ctx, ctx.C.topicById[p]).intro > 0));
-    return ready[0] || open[0] || null;
+    if (carry.length) { const t = open.find(x => x.id === carry[0].topic); if (t) return { topic: t, why: 'carry' }; }
+    const started = t => topicProgress(ctx, t).intro > 0;
+    const prereqsMet = t => (t.prereq || []).every(p => !ctx.C.topicById[p] || started(ctx.C.topicById[p]));
+    const prios = (ctx.state.settings.topicPriorities || []).filter(id => ctx.C.topicById[id]);
+    if (prios.length) {
+      const recent = ctx.state.sessions.filter(x => x.kind === 'morning' && x.topic && !x.legacy).slice(-P.topicPriority.window);
+      const share = recent.length ? recent.filter(x => prios.includes(x.topic) || prios.includes(x.forTopic)).length / recent.length : 0;
+      if (share < P.topicPriority.share || recent.length < P.topicPriority.window) {
+        for (const id of prios) {
+          const t = open.find(x => x.id === id); if (!t) continue;
+          if (prereqsMet(t)) return { topic: t, why: 'priority' };
+          const need = (t.prereq || []).map(pid => open.find(x => x.id === pid)).find(x => x && !started(x));
+          if (need) return { topic: need, why: 'prereq', forTopic: t.id };
+          return { topic: t, why: 'priority' };
+        }
+      }
+      // Broad learning: something outside the priorities (falls back to a
+      // priority topic only if nothing else has material left).
+      const others = open.filter(t => !prios.includes(t.id));
+      const pick = others.find(started) || others.find(prereqsMet) || others[0];
+      if (pick) return { topic: pick, why: 'balance' };
+      const anyP = open.find(t => prios.includes(t.id));
+      return anyP ? { topic: anyP, why: 'priority' } : { topic: null, why: 'none' };
+    }
+    const st = open.filter(started);
+    if (st.length) return { topic: st[0], why: 'continue' };
+    const ready = open.filter(prereqsMet);
+    const t = ready[0] || open[0] || null;
+    return { topic: t, why: t ? 'next' : 'none' };
   }
+  function pickTopic(ctx, want) { return pickTopicInfo(ctx, want).topic; }
 
   // The card sequence an item needs when first taught (used both to build
   // the lesson and to estimate its cost). Depends on the item's data.
@@ -170,8 +206,9 @@
   function startMorning(ctx, opts) {
     opts = opts || {};
     const budget = (ctx.state.settings.minutes.morning || P.availableMinutes.morning) * 60;
-    const topic = pickTopic(ctx, opts.topic);
-    const s = newSession('morning', ctx, { budgetSec: budget, phase: 'diag', topic: topic && topic.id });
+    const info = pickTopicInfo(ctx, opts.topic);
+    const topic = info.topic;
+    const s = newSession('morning', ctx, { budgetSec: budget, phase: 'diag', topic: topic && topic.id, topicWhy: info.why, forTopic: info.forTopic || null });
     if (!topic) {
       // Curriculum fully introduced: a morning becomes a review session.
       const g = gctx(ctx);
@@ -181,8 +218,15 @@
       return s;
     }
     const carry = new Set(ctx.state.lesson.carry || []);
-    const pool = (ctx.C.byTopic[topic.id] || []).filter(i => i.lesson && !ctx.state.memory[i.id])
+    const poolOf = t => (ctx.C.byTopic[t.id] || []).filter(i => i.lesson && !ctx.state.memory[i.id])
       .map((it, idx) => ({ it, idx })).sort((a, b) => (carry.has(b.it.id) - carry.has(a.it.id)) || (a.it.tier - b.it.tier) || (a.idx - b.idx)).map(x => x.it);
+    let pool = poolOf(topic);
+    // Too little left in this topic for a normal lesson? Top up from the next
+    // suitable topic rather than teaching a near-empty lesson.
+    if (pool.length < P.morning.preferredNew[0]) {
+      const second = pickTopicInfo(ctx, null, [topic.id]).topic;
+      if (second) { s.topic2 = second.id; pool = pool.concat(poolOf(second).slice(0, P.morning.preferredNew[0] - pool.length)); }
+    }
     const g = gctx(ctx, pool.map(i => i.id), true);
     // Time for older reviews first (bounded share), remediation reserve, rest for new items.
     const rev = selectReviews(ctx, budget * P.morning.reviewShare, pool.map(i => i.id), g);
@@ -203,6 +247,7 @@
     const cap = easy ? P.morning.absoluteMaxNew : P.morning.preferredNew[1];
     while (chosen.length > cap) chosen.pop();
     const reserve = pool.slice(chosen.length, chosen.length + Math.ceil(chosen.length / 3));
+    s.reasons = { topic: info.why, forTopic: info.forTopic || null, topic2: s.topic2 || null };
     s.plan = { newIds: chosen.map(i => i.id), reserveIds: reserve.map(i => i.id), reviewCards: rev.cards, dueTotal: rev.dueTotal, retentionFactor: factor, learnSec };
     for (const it of chosen.concat(reserve)) s.objectives[it.id] = { status: 'planned', diag: null, errors: 0, exUsed: [], reserve: reserve.includes(it) };
     // Diagnostic covers ONLY this lesson's candidate material.
@@ -598,6 +643,9 @@
     if (!c) return { deferred: true };
     const t = cardSec(ctx, c);
     if (s.remediationSec + t > s.budgetSec * policyShare) return { deferred: true };
+    // Out of time already: the mistake goes to the schedule (it was recorded
+    // as a lapse), not into an ever-longer session.
+    if ((nowMs(ctx) - s.startTs) / 1000 >= s.budgetSec) return { deferred: true };
     c.phase = 'retry';
     const at = Math.min(s.queue.length, s.i + 1 + P.minRetryGap);
     s.queue.splice(at, 0, c);
@@ -624,11 +672,13 @@
     const rest = s.queue.slice(s.i);
     let need = sumSec(ctx, rest);
     if (need <= left * 1.1 || rest.length <= 1) return;
-    const dropOrder = ['review', 'reinforce', 'consolidate', 'assess', 'learn'];
+    // 'diag-reserve' = diagnostic cards of reserve items (only taught if time frees up).
+    const dropOrder = ['review', 'retry', 'diag-reserve', 'reinforce', 'consolidate', 'assess', 'learn'];
+    const phaseOf = c => c.phase === 'diag' && s.objectives[c.item] && s.objectives[c.item].reserve ? 'diag-reserve' : c.phase;
     for (const ph of dropOrder) {
       for (let k = s.queue.length - 1; k > s.i && need > left; k--) {
         const c = s.queue[k];
-        if (c.phase !== ph) continue;
+        if (phaseOf(c) !== ph) continue;
         if (ph === 'learn' && s.objectives[c.item] && s.objectives[c.item].status !== 'planned') continue;
         need -= cardSec(ctx, c); s.queue.splice(k, 1);
         s.dropped = (s.dropped || 0) + 1;
@@ -675,7 +725,7 @@
     }
     const introduced = Object.keys(s.objectives).filter(id => ['taught', 'recognized', 'produced', 'established', 'uncertain'].includes(s.objectives[id].status) || s.objectives[id].diag === 'known');
     return {
-      id: s.id, kind: s.kind, date: s.date, topic: s.topic || null,
+      id: s.id, kind: s.kind, date: s.date, topic: s.topic || null, topicWhy: s.topicWhy || null, forTopic: s.forTopic || null, topic2: s.topic2 || null,
       minutes: Math.max(1, Math.round((nowMs(ctx) - s.startTs) / 60000)), budgetMin: Math.round(s.budgetSec / 60),
       answered: s.results.filter(r => r.phase !== 'teach').length,
       correct: s.results.filter(r => r.phase !== 'teach' && r.phase !== 'diag' && r.verdict === 'correct').length,
@@ -705,5 +755,5 @@
     return out;
   }
 
-  return { SCHEDULED, estSec, skillStates, selectReviews, recentRetention, pickTopic, topicProgress, learnCards, startMorning, afterDiag, startEvening, startWeekly, startPractice, nextPractice, weakness, current, submit, advance, trimToBudget, endEarly, summarize, nextUp, upcoming, RECALL_DIRECTIONS, isScheduled };
+  return { SCHEDULED, estSec, skillStates, selectReviews, recentRetention, pickTopic, pickTopicInfo, topicProgress, learnCards, startMorning, afterDiag, startEvening, startWeekly, startPractice, nextPractice, weakness, current, submit, advance, trimToBudget, endEarly, summarize, nextUp, upcoming, RECALL_DIRECTIONS, isScheduled };
 });
