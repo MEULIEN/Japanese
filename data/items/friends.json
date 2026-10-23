@@ -916,6 +916,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "v_denwasuru",
+     "rel": "verb"
+    }
    ]
   },
   {
@@ -977,6 +983,12 @@
       "Noun"
      ],
      "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "ph_denwabangou",
+     "rel": "phone number"
     }
    ]
   },
@@ -1376,6 +1388,12 @@
       "Transitive verb"
      ],
      "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_yakusokusuru",
+     "rel": "verb"
     }
    ]
   },
@@ -1810,6 +1828,3104 @@
      "activity": 2,
      "entry": "もしもし【もしもし】 Hello. (on the phone)",
      "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_utau",
+   "jp": "歌う",
+   "kana": "うたう",
+   "romaji": "utau",
+   "en": "to sing",
+   "gloss": "to sing",
+   "pos": "verb",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "一曲歌いたい。",
+     "en": "I want to sing a song.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 190669,
+      "url": "https://tatoeba.org/en/sentences/show/190669",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "一曲歌いたい。",
+      "translation": "I want to sing a song."
+     }
+    },
+    {
+     "jp": "歌いません。",
+     "en": "I don't sing.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9082872,
+      "url": "https://tatoeba.org/en/sentences/show/9082872",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "歌いません。",
+      "translation": "I don't sing."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 4,
+     "entry": "歌う【うたう】 to sing",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L9",
+     "activity": 3,
+     "entry": "歌う【うたう】 to sing",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "歌う",
+     "matched": "歌う【うたう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to sing",
+      "to sing of (love, beauty, etc.) in a poem; to express in the form of a poem; to recite (a poem)"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_shinpaisuru",
+   "jp": "心配する",
+   "kana": "しんぱいする",
+   "romaji": "shinpaisuru",
+   "en": "to worry",
+   "gloss": "to worry",
+   "pos": "verb",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "心配しないで！",
+     "en": "Don't worry.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1872179,
+      "url": "https://tatoeba.org/en/sentences/show/1872179",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "心配しないで！",
+      "translation": "Don't worry."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "心配する",
+     "matched": "心配【しんぱい】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "worry; concern; anxiety; uneasiness; fear",
+      "care; help; aid; assistance"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "a_shinpai",
+     "rel": "adjective: worried"
+    },
+    {
+     "id": "v_anshinsuru",
+     "rel": "contrast: be relieved"
+    }
+   ]
+  },
+  {
+   "id": "v_anshinsuru",
+   "jp": "安心する",
+   "kana": "あんしんする",
+   "romaji": "anshinsuru",
+   "en": "to feel relief; to be relieved (peace of mind)",
+   "gloss": "to feel relief",
+   "pos": "verb",
+   "topic": "friends",
+   "tier": 3,
+   "use": "say",
+   "verb_class": "suru",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "安心する",
+     "matched": "安心【あんしん】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "peace of mind; relief; (sense of) security; safety; assurance; confidence"
+     ],
+     "pos": [
+      "Noun",
+      "Na-adjective (keiyodoshi)",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_shinpaisuru",
+     "rel": "contrast: worry"
+    }
+   ]
+  },
+  {
+   "id": "v_shoutaisuru",
+   "jp": "招待する",
+   "kana": "しょうたいする",
+   "romaji": "shōtaisuru",
+   "en": "to invite; to give an invitation",
+   "gloss": "to invite",
+   "pos": "verb",
+   "topic": "friends",
+   "tier": 3,
+   "use": "say",
+   "obj": [
+    "person"
+   ],
+   "verb_class": "suru",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "招待する",
+     "matched": "招待【しょうたい】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "invitation"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_yakusokusuru",
+   "jp": "約束する",
+   "kana": "やくそくする",
+   "romaji": "yakusokusuru",
+   "en": "to promise; to make an appointment (to meet)",
+   "gloss": "to promise",
+   "pos": "verb",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "約束するよ。",
+     "en": "I give you my word.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5176,
+      "url": "https://tatoeba.org/en/sentences/show/5176",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "約束するよ。",
+      "translation": "I give you my word."
+     }
+    },
+    {
+     "jp": "約束する？",
+     "en": "Do you promise?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10175992,
+      "url": "https://tatoeba.org/en/sentences/show/10175992",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "約束する？",
+      "translation": "Do you promise?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "約束する",
+     "matched": "約束【やくそく】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "promise; agreement; arrangement; one's word; contract; pact",
+      "appointment; engagement; date",
+      "convention; rule",
+      "destiny; fate"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_yakusoku",
+     "rel": "noun"
+    }
+   ]
+  },
+  {
+   "id": "v_tanoshimu",
+   "jp": "楽しむ",
+   "kana": "たのしむ",
+   "romaji": "tanoshimu",
+   "en": "to enjoy",
+   "gloss": "to enjoy",
+   "pos": "verb",
+   "topic": "friends",
+   "tier": 3,
+   "use": "say",
+   "verb_class": "godan",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "楽しむ【たのしむ】 to enjoy",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "楽しむ",
+     "matched": "楽しむ【たのしむ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "to enjoy; to take pleasure in; to have a good time; to have fun; to amuse oneself",
+      "to look forward to"
+     ],
+     "pos": [
+      "Godan verb with 'mu' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_morau",
+   "jp": "もらう",
+   "kana": "もらう",
+   "romaji": "morau",
+   "en": "to receive; to get",
+   "gloss": "to receive",
+   "pos": "verb",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "誰にもらったの？",
+     "en": "Who gave it to you?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11505750,
+      "url": "https://tatoeba.org/en/sentences/show/11505750",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "誰にもらったの？",
+      "translation": "Who gave it to you?"
+     }
+    },
+    {
+     "jp": "返事もらった？",
+     "en": "Did you get a reply?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12344438,
+      "url": "https://tatoeba.org/en/sentences/show/12344438",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "返事もらった？",
+      "translation": "Did you get a reply?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "もらう【もらう】 to receive",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 3,
+     "entry": "もらう【もらう】 to receive",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "もらう",
+     "matched": "貰う【もらう】 (written in kana: もらう)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "to receive; to take; to accept",
+      "to get someone to do something",
+      "to have in one's pocket (a fight, match)",
+      "to contract (a disease); to catch; to be affected"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_ageru",
+     "rel": "contrast: give"
+    }
+   ]
+  },
+  {
+   "id": "v_ageru",
+   "jp": "あげる",
+   "kana": "あげる",
+   "romaji": "ageru",
+   "en": "to give (to someone)",
+   "gloss": "to give",
+   "pos": "verb",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "ichidan",
+   "note": "Giving to others. When someone gives to you, use くれる.",
+   "examples": [
+    {
+     "jp": "誰にあげたの？",
+     "en": "Who did you give it to?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10833047,
+      "url": "https://tatoeba.org/en/sentences/show/10833047",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "誰にあげたの？",
+      "translation": "Who did you give it to?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 1,
+     "entry": "あげる【あげる】 to give",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "あげる【あげる】 to give",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "あげる",
+     "matched": "上げる【あげる】 (written in kana: あげる)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to raise; to elevate",
+      "to move something (to a higher place); to put onto (e.g. a shelf)",
+      "to increase (price, quality, status, etc.); to raise (a wage)",
+      "to show someone (into a room); to let in (e.g. a guest)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_morau",
+     "rel": "contrast: receive"
+    }
+   ]
+  },
+  {
+   "id": "w_demo",
+   "jp": "でも",
+   "kana": "でも",
+   "romaji": "demo",
+   "en": "but; however",
+   "gloss": "but",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "でも高いよ。",
+     "en": "It's expensive though.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 202087,
+      "url": "https://tatoeba.org/en/sentences/show/202087",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "でも高いよ。",
+      "translation": "It's expensive though."
+     }
+    },
+    {
+     "jp": "でもなんで？",
+     "en": "But why?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1057336,
+      "url": "https://tatoeba.org/en/sentences/show/1057336",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "でもなんで？",
+      "translation": "But why?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 3,
+     "entry": "でも【でも】 but",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 4,
+     "entry": "でも【でも】 but",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "でも",
+     "matched": "【でも】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "but; however; though; nevertheless; still; yet; even so; also; as well",
+      "even",
+      "however; no matter how; even if; even though",
+      "... or something"
+     ],
+     "pos": [
+      "Conjunction",
+      "Particle",
+      "Prefix"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_dakara",
+     "rel": "reason: so"
+    }
+   ]
+  },
+  {
+   "id": "w_dakara",
+   "jp": "だから",
+   "kana": "だから",
+   "romaji": "dakara",
+   "en": "so; therefore; that's why",
+   "gloss": "so",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "暇だから寝よ。",
+     "en": "I'm free now, so I'll just sleep.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11256137,
+      "url": "https://tatoeba.org/en/sentences/show/11256137",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "暇だから寝よ。",
+      "translation": "I'm free now, so I'll just sleep."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "だから【だから】 that is why",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "だから",
+     "matched": "【だから】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n3"
+     ],
+     "senses": [
+      "so; therefore; accordingly; consequently; on those grounds; that is why; for that reason",
+      "like I said; I told you already"
+     ],
+     "pos": [
+      "Conjunction",
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_demo",
+     "rel": "contrast: but"
+    }
+   ]
+  },
+  {
+   "id": "w_sorekara",
+   "jp": "それから",
+   "kana": "それから",
+   "romaji": "sorekara",
+   "en": "and then; after that",
+   "gloss": "and then",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "それから彼女はまた歩き始めた。",
+     "en": "Then she began to walk again.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 205907,
+      "url": "https://tatoeba.org/en/sentences/show/205907",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "それから彼女はまた歩き始めた。",
+      "translation": "Then she began to walk again."
+     }
+    },
+    {
+     "jp": "それからドアを開けて外に出ました。",
+     "en": "Then he opened the door and stepped outside.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10263096,
+      "url": "https://tatoeba.org/en/sentences/show/10263096",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "それからドアを開けて外に出ました。",
+      "translation": "Then he opened the door and stepped outside."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 2,
+     "entry": "それから【それから】 and then",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 4,
+     "entry": "それから【それから】 and then",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "それから",
+     "matched": "【それから】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "and then; after that"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_sorede",
+     "rel": "result: and so"
+    }
+   ]
+  },
+  {
+   "id": "w_sorede",
+   "jp": "それで",
+   "kana": "それで",
+   "romaji": "sorede",
+   "en": "and so; because of that",
+   "gloss": "and so",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "それで【それで】 because of that",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "それで",
+     "matched": "其れで【それで】 (written in kana: それで)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "so; therefore; and; (and) then"
+     ],
+     "pos": [
+      "Conjunction"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_sorekara",
+     "rel": "sequence: and then"
+    }
+   ]
+  },
+  {
+   "id": "w_soreni",
+   "jp": "それに",
+   "kana": "それに",
+   "romaji": "soreni",
+   "en": "besides; moreover; in addition",
+   "gloss": "besides",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "それに【それに】 besides / in addition",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 4,
+     "entry": "それに【それに】 besides / in addition",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "それに",
+     "matched": "其れに【それに】 (written in kana: それに)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "besides; in addition; also; moreover"
+     ],
+     "pos": [
+      "Conjunction"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_jaa",
+   "jp": "じゃあ",
+   "kana": "じゃあ",
+   "romaji": "jaa",
+   "en": "well then; in that case",
+   "gloss": "well then",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "じゃあ何？",
+     "en": "Then what?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 215732,
+      "url": "https://tatoeba.org/en/sentences/show/215732",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "じゃあ何？",
+      "translation": "Then what?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 2,
+     "entry": "じゃあ【じゃあ】 Well then…",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "じゃあ",
+     "matched": "【じゃあ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "then; well; so; well then"
+     ],
+     "pos": [
+      "Conjunction"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_tabun",
+   "jp": "たぶん",
+   "kana": "たぶん",
+   "romaji": "tabun",
+   "en": "probably; perhaps",
+   "gloss": "probably",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "note": "Also written 多分; Irodori writes it in kana.",
+   "accept": [
+    "多分"
+   ],
+   "examples": [
+    {
+     "jp": "たぶん遅れる。",
+     "en": "I may be late.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8724557,
+      "url": "https://tatoeba.org/en/sentences/show/8724557",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "たぶん遅れる。",
+      "translation": "I may be late."
+     }
+    },
+    {
+     "jp": "たぶん。",
+     "en": "Probably.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9842773,
+      "url": "https://tatoeba.org/en/sentences/show/9842773",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "たぶん。",
+      "translation": "Probably."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L8",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L8",
+     "activity": 2,
+     "entry": "たぶん【たぶん】 probably",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L8",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L8",
+     "activity": 2,
+     "entry": "たぶん【たぶん】 probably",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "たぶん",
+     "matched": "多分【たぶん】 (written in kana: たぶん)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "probably; likely; perhaps; maybe",
+      "a lot of; much; many; considerable; large (amount); generous"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun which may take the genitive case particle 'no'",
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_kitto",
+     "rel": "more sure: surely"
+    }
+   ]
+  },
+  {
+   "id": "w_kitto",
+   "jp": "きっと",
+   "kana": "きっと",
+   "romaji": "kitto",
+   "en": "surely; certainly; definitely",
+   "gloss": "surely",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "きっと大丈夫よ。",
+     "en": "You're going to be OK.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3367118,
+      "url": "https://tatoeba.org/en/sentences/show/3367118",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "きっと大丈夫よ。",
+      "translation": "You're going to be OK."
+     }
+    },
+    {
+     "jp": "彼はきっと来る。",
+     "en": "He is certain to come.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 113998,
+      "url": "https://tatoeba.org/en/sentences/show/113998",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "彼はきっと来る。",
+      "translation": "He is certain to come."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 1,
+     "entry": "きっと【きっと】 surely",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "きっと",
+     "matched": "【キッと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "surely; undoubtedly; almost certainly; most likely (e.g. 90 percent)",
+      "sternly; severely",
+      "having no slack; rigid; stiff; tight",
+      "suddenly; abruptly; instantly"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_tabun",
+     "rel": "less sure: probably"
+    }
+   ]
+  },
+  {
+   "id": "w_mochiron",
+   "jp": "もちろん",
+   "kana": "もちろん",
+   "romaji": "mochiron",
+   "en": "of course; certainly",
+   "gloss": "of course",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "もちろん、どうぞ。",
+     "en": "Sure, go right ahead.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11114982,
+      "url": "https://tatoeba.org/en/sentences/show/11114982",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "もちろん、どうぞ。",
+      "translation": "Sure, go right ahead."
+     }
+    },
+    {
+     "jp": "もちろん。",
+     "en": "Of course.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1068624,
+      "url": "https://tatoeba.org/en/sentences/show/1068624",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "もちろん。",
+      "translation": "Of course."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L12",
+     "activity": 2,
+     "entry": "もちろん【もちろん】 of course",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L10",
+     "activity": 2,
+     "entry": "もちろん【もちろん】 of course",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "もちろん",
+     "matched": "勿論【もちろん】 (written in kana: もちろん)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "of course; certainly; naturally"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_zehi",
+   "jp": "ぜひ",
+   "kana": "ぜひ",
+   "romaji": "zehi",
+   "en": "certainly; without fail; by all means",
+   "gloss": "certainly",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "note": "Also written 是非; Irodori writes it in kana. ぜひ行きたいです = I'd love to go.",
+   "accept": [
+    "是非"
+   ],
+   "examples": [
+    {
+     "jp": "ぜひ来てください。",
+     "en": "Do come by all means.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 214003,
+      "url": "https://tatoeba.org/en/sentences/show/214003",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ぜひ来てください。",
+      "translation": "Do come by all means."
+     }
+    },
+    {
+     "jp": "ぜひお願いします。",
+     "en": "By all means.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 214022,
+      "url": "https://tatoeba.org/en/sentences/show/214022",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ぜひお願いします。",
+      "translation": "By all means."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "ぜひ【ぜひ】 definitely",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "ぜひ【ぜひ】 definitely",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ぜひ",
+     "matched": "是非【ぜひ】 (written in kana: ぜひ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "certainly; without fail",
+      "right and wrong; pros and cons"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_totemo",
+   "jp": "とても",
+   "kana": "とても",
+   "romaji": "totemo",
+   "en": "very",
+   "gloss": "very",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "とても楽しい。",
+     "en": "It is very fun.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13537670,
+      "url": "https://tatoeba.org/en/sentences/show/13537670",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "とても楽しい。",
+      "translation": "It is very fun."
+     }
+    },
+    {
+     "jp": "今とても眠い。",
+     "en": "I'm very sleepy now.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 172772,
+      "url": "https://tatoeba.org/en/sentences/show/172772",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今とても眠い。",
+      "translation": "I'm very sleepy now."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 3,
+     "entry": "とても【とても】 very",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "とても",
+     "matched": "迚も【とても】 (written in kana: とても)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "very; awfully; exceedingly",
+      "(not) at all; by no means; simply (cannot)"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_sugoku",
+     "rel": "casual: very"
+    }
+   ]
+  },
+  {
+   "id": "w_amari",
+   "jp": "あまり",
+   "kana": "あまり",
+   "romaji": "amari",
+   "en": "(not) very; (not) much",
+   "gloss": "(not) very",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "note": "Used with a negative: あまり高くない (not very expensive).",
+   "examples": [
+    {
+     "jp": "あまり話さないよ。",
+     "en": "We don't talk much.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10336897,
+      "url": "https://tatoeba.org/en/sentences/show/10336897",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "あまり話さないよ。",
+      "translation": "We don't talk much."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "あまり【あまり】 rarely",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L11",
+     "activity": 3,
+     "entry": "あまり【あまり】 rarely",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "あまり",
+     "matched": "余り【あまり】 (written in kana: あまり)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "remainder; remnant; rest; balance; surplus; remains (of a meal); leftovers",
+      "(not) very; (not) much",
+      "too much; excessively; overly",
+      "extreme; great; severe; tremendous; terrible"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Adverb (fukushi)",
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_zenzen",
+     "rel": "stronger: not at all"
+    }
+   ]
+  },
+  {
+   "id": "w_zenzen",
+   "jp": "全然",
+   "kana": "ぜんぜん",
+   "romaji": "zenzen",
+   "en": "(not) at all",
+   "gloss": "(not) at all",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "note": "Usually with a negative: 全然わからない (I don't understand at all).",
+   "examples": [
+    {
+     "jp": "全然眠れない。",
+     "en": "I can't sleep at all.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 663101,
+      "url": "https://tatoeba.org/en/sentences/show/663101",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "全然眠れない。",
+      "translation": "I can't sleep at all."
+     }
+    },
+    {
+     "jp": "全然痛くないよ。",
+     "en": "It doesn't hurt at all.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3357760,
+      "url": "https://tatoeba.org/en/sentences/show/3357760",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "全然痛くないよ。",
+      "translation": "It doesn't hurt at all."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "全然",
+     "matched": "全然【ぜんぜん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "(not) at all; (not) in the slightest",
+      "wholly; entirely; completely; totally",
+      "extremely; very"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_amari",
+     "rel": "weaker: not very"
+    }
+   ]
+  },
+  {
+   "id": "w_motto",
+   "jp": "もっと",
+   "kana": "もっと",
+   "romaji": "motto",
+   "en": "more; longer; further",
+   "gloss": "more",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "もっと教えて！",
+     "en": "Tell me more!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9930387,
+      "url": "https://tatoeba.org/en/sentences/show/9930387",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "もっと教えて！",
+      "translation": "Tell me more!"
+     }
+    },
+    {
+     "jp": "もっと食べよう！",
+     "en": "Let's have some more.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11117976,
+      "url": "https://tatoeba.org/en/sentences/show/11117976",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "もっと食べよう！",
+      "translation": "Let's have some more."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L10",
+     "activity": 3,
+     "entry": "もっと【もっと】 more",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "もっと",
+     "matched": "【もっと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "(some) more; even more; longer; further"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_sugoku",
+   "jp": "すごく",
+   "kana": "すごく",
+   "romaji": "sugoku",
+   "en": "very; awfully; extremely",
+   "gloss": "very",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "すごく眠い。",
+     "en": "I'm very sleepy.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2975971,
+      "url": "https://tatoeba.org/en/sentences/show/2975971",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "すごく眠い。",
+      "translation": "I'm very sleepy."
+     }
+    },
+    {
+     "jp": "すごく寒いよね？",
+     "en": "It's really cold, don't you think?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10287639,
+      "url": "https://tatoeba.org/en/sentences/show/10287639",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "すごく寒いよね？",
+      "translation": "It's really cold, don't you think?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L8",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L8",
+     "activity": 1,
+     "entry": "すごく【すごく】 very",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "すごく",
+     "matched": "凄く【すごく】 (written in kana: すごく)",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "extremely; very; terribly; awfully; tremendously; incredibly; immensely"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_totemo",
+     "rel": "neutral: very"
+    }
+   ]
+  },
+  {
+   "id": "w_hontouni",
+   "jp": "本当に",
+   "kana": "ほんとうに",
+   "romaji": "hontōni",
+   "en": "really; truly",
+   "gloss": "really",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "本当に？",
+     "en": "Really?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 81560,
+      "url": "https://tatoeba.org/en/sentences/show/81560",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "本当に？",
+      "translation": "Really?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L2",
+     "activity": 2,
+     "entry": "本当に【ほんとうに】 really",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "本当に",
+     "matched": "本当に【ほんとうに】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "really; truly"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_hajimete",
+   "jp": "初めて",
+   "kana": "はじめて",
+   "romaji": "hajimete",
+   "en": "for the first time",
+   "gloss": "for the first time",
+   "pos": "adverb",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "初めて来たの？",
+     "en": "Is this the first time you've been here?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10572146,
+      "url": "https://tatoeba.org/en/sentences/show/10572146",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "初めて来たの？",
+      "translation": "Is this the first time you've been here?"
+     }
+    },
+    {
+     "jp": "初めて作りました。",
+     "en": "I made it for the first time.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 792512,
+      "url": "https://tatoeba.org/en/sentences/show/792512",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "初めて作りました。",
+      "translation": "I made it for the first time."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "初めて",
+     "matched": "初めて【はじめて】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "for the first time",
+      "only after ... is it ...; only when ... do you ...; not until ... do you ...",
+      "first time; (one's) first"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_hee",
+   "jp": "へえ",
+   "kana": "へえ",
+   "romaji": "hee",
+   "en": "oh; wow (showing surprise or interest)",
+   "gloss": "oh",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "へえ、知らなかった。",
+     "en": "Really? I didn't know that.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3878054,
+      "url": "https://tatoeba.org/en/sentences/show/3878054",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "へえ、知らなかった。",
+      "translation": "Really? I didn't know that."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "へえ",
+     "matched": "【へえ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "oh, yes?; really?"
+     ],
+     "pos": [],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_naruhodo",
+   "jp": "なるほど",
+   "kana": "なるほど",
+   "romaji": "naruhodo",
+   "en": "I see; that makes sense",
+   "gloss": "I see",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "なるほどね。ありがとう。",
+     "en": "I see. Thanks.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10300396,
+      "url": "https://tatoeba.org/en/sentences/show/10300396",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "なるほどね。ありがとう。",
+      "translation": "I see. Thanks."
+     }
+    },
+    {
+     "jp": "なるほどね。",
+     "en": "I see.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5955908,
+      "url": "https://tatoeba.org/en/sentences/show/5955908",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "なるほどね。",
+      "translation": "I see."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 2,
+     "entry": "なるほど【なるほど】 I see.",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "なるほど",
+     "matched": "成る程【なるほど】 (written in kana: なるほど)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "I see; that's right; indeed"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_ee",
+   "jp": "ええ",
+   "kana": "ええ",
+   "romaji": "ee",
+   "en": "yes; yeah",
+   "gloss": "yes",
+   "pos": "expression",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ええ、好きです。",
+     "en": "Yes, I like it.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10901729,
+      "url": "https://tatoeba.org/en/sentences/show/10901729",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ええ、好きです。",
+      "translation": "Yes, I like it."
+     }
+    },
+    {
+     "jp": "ええ、喜んで。",
+     "en": "I'll be glad to.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 228005,
+      "url": "https://tatoeba.org/en/sentences/show/228005",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ええ、喜んで。",
+      "translation": "I'll be glad to."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L9",
+     "activity": 1,
+     "entry": "ええ【ええ】 yes",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ええ",
+     "matched": "【ええ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "yes; that is correct; right",
+      "um; errr; well",
+      "huh?",
+      "grrr; gah; must I?"
+     ],
+     "pos": [
+      "Noun or verb acting prenominally"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_sugoi",
+   "jp": "すごい",
+   "kana": "すごい",
+   "romaji": "sugoi",
+   "en": "amazing; great; terrific",
+   "gloss": "amazing",
+   "pos": "i-adj",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "すごい！",
+     "en": "Wow!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 214733,
+      "url": "https://tatoeba.org/en/sentences/show/214733",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "すごい！",
+      "translation": "Wow!"
+     }
+    },
+    {
+     "jp": "すごい雨！",
+     "en": "It's raining a lot!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10914871,
+      "url": "https://tatoeba.org/en/sentences/show/10914871",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "すごい雨！",
+      "translation": "It's raining a lot!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "すごい！【すごい！】 Wow!",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 4,
+     "entry": "すごい【すごい】 amazing",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "すごい",
+     "matched": "【スゴイ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n3"
+     ],
+     "senses": [
+      "terrible; dreadful",
+      "amazing (e.g. of strength); great (e.g. of skills); wonderful; terrific",
+      "to a great extent; vast (in numbers)",
+      "awfully; very; immensely"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_sounandesuka",
+   "jp": "そうなんですか",
+   "kana": "そうなんですか",
+   "romaji": "sō na n desu ka",
+   "en": "Is that so? / Really?",
+   "gloss": "Is that so? / Really?",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Back-channel when someone tells you something new.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2744751,
+     "url": "https://tatoeba.org/en/sentences/show/2744751",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "そうなんですか？",
+     "translation": "Is that so?"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 2,
+     "entry": "そうなんですか【そうなんですか】 I see.",
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_hontoudesuka",
+   "jp": "本当ですか",
+   "kana": "ほんとうですか",
+   "romaji": "hontō desu ka",
+   "en": "Really?",
+   "gloss": "Really?",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Surprise at news.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 1585501,
+     "url": "https://tatoeba.org/en/sentences/show/1585501",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "本当ですか。",
+     "translation": "Really?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "本当",
+     "matched": "本当【ほんとう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "truth; reality; actuality; fact",
+      "proper; right; correct; official",
+      "genuine; authentic; real; natural; veritable"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Na-adjective (keiyodoshi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_yokattadesune",
+   "jp": "よかったですね",
+   "kana": "よかったですね",
+   "romaji": "yokatta desu ne",
+   "en": "That's great! (I'm glad for you)",
+   "gloss": "That's great! (I'm glad for you)",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "When someone tells you good news.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 13167478,
+     "url": "https://tatoeba.org/en/sentences/show/13167478",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "よかったですね！",
+     "translation": "That's great!"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 4,
+     "entry": "それは、よかったですね【それは、よかったですね】 That sounds good.",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いい",
+     "matched": "【いい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "good; excellent; fine; nice; pleasant; agreeable",
+      "sufficient; enough; ready; prepared",
+      "profitable (deal, business offer, etc.); beneficial",
+      "OK; all right; fine; no problem"
+     ],
+     "pos": [
+      "I-Adjective (keiyoushi) - yoi/ii class"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_sugoidesune",
+   "jp": "すごいですね",
+   "kana": "すごいですね",
+   "romaji": "sugoi desu ne",
+   "en": "That's amazing.",
+   "gloss": "That's amazing.",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 214726,
+     "url": "https://tatoeba.org/en/sentences/show/214726",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "すごいですね。",
+     "translation": "It's amazing."
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 4,
+     "entry": "すごいですね【すごいですね】 That's amazing.",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "すごい",
+     "matched": "【スゴイ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n3"
+     ],
+     "senses": [
+      "terrible; dreadful",
+      "amazing (e.g. of strength); great (e.g. of skills); wonderful; terrific",
+      "to a great extent; vast (in numbers)",
+      "awfully; very; immensely"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_taihendesune",
+   "jp": "大変ですね",
+   "kana": "たいへんですね",
+   "romaji": "taihen desu ne",
+   "en": "That's tough. (sympathy)",
+   "gloss": "That's tough. (sympathy)",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "When someone tells you about a problem.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 3,
+     "entry": "大変ですね【たいへんですね】 That's tough.",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "大変",
+     "matched": "大変【たいへん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "very; greatly; terribly; awfully",
+      "immense; enormous; great",
+      "serious; grave; dreadful; terrible",
+      "difficult; hard; challenging"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_mochirondesu",
+   "jp": "もちろんです",
+   "kana": "もちろんです",
+   "romaji": "mochiron desu",
+   "en": "Of course.",
+   "gloss": "Of course.",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 787193,
+     "url": "https://tatoeba.org/en/sentences/show/787193",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "もちろんです。",
+     "translation": "Of course."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "もちろん",
+     "matched": "勿論【もちろん】 (written in kana: もちろん)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "of course; certainly; naturally"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_ikimashou",
+   "jp": "行きましょう",
+   "kana": "いきましょう",
+   "romaji": "ikimashō",
+   "en": "Let's go!",
+   "gloss": "Let's go!",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 139208,
+     "url": "https://tatoeba.org/en/sentences/show/139208",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "行きましょう。",
+     "translation": "Let's go!"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "行く",
+     "matched": "行く【いく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to go; to move (towards); to head (towards); to leave (for)",
+      "to move through; to travel across; to walk along (e.g. a road)",
+      "to go (well, badly, etc.); to proceed; to turn out; to get along",
+      "to do (in a particular way); to go (with; a choice); to try"
+     ],
+     "pos": [
+      "Godan verb - Iku/Yuku special class",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_matakondo_ikimashou",
+   "jp": "また今度行きましょう",
+   "kana": "またこんどいきましょう",
+   "romaji": "mata kondo ikimashō",
+   "en": "Let's go another time.",
+   "gloss": "Let's go another time.",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Turning down an invitation politely, or after a fun day.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 入門 第12課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "第12課",
+     "quote": "また今度行きましょう。",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "また",
+     "matched": "又【また】 (written in kana: また)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "again; once more; once again; another time; some other time",
+      "also; too; as well; likewise",
+      "on the other hand; while",
+      "and; in addition; besides; moreover; furthermore"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Conjunction",
+      "Prefix"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "今度",
+     "matched": "今度【こんど】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "this time; now",
+      "next time; another time; shortly; soon",
+      "recently; lately; the other day"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "行く",
+     "matched": "行く【いく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to go; to move (towards); to head (towards); to leave (for)",
+      "to move through; to travel across; to walk along (e.g. a road)",
+      "to go (well, badly, etc.); to proceed; to turn out; to get along",
+      "to do (in a particular way); to go (with; a choice); to try"
+     ],
+     "pos": [
+      "Godan verb - Iku/Yuku special class",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_tabeniikimasenka",
+   "jp": "いっしょに食べに行きませんか",
+   "kana": "いっしょにたべにいきませんか",
+   "romaji": "issho ni tabe ni ikimasen ka",
+   "en": "Would you like to go and eat together?",
+   "gloss": "Would you like to go and eat together?",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Inviting someone for a meal.",
+   "accept": [
+    "一緒に食べに行きませんか"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 初級1 第8課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "第8課",
+     "quote": "いっしょに食べに行きませんか？",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "一緒に",
+     "matched": "一緒に【いっしょに】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "together (with)",
+      "at the same time",
+      "in one lump; in the same category"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "食べる",
+     "matched": "食べる【たべる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to eat",
+      "to live on (e.g. a salary); to live off; to subsist on"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "行く",
+     "matched": "行く【いく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to go; to move (towards); to head (towards); to leave (for)",
+      "to move through; to travel across; to walk along (e.g. a road)",
+      "to go (well, badly, etc.); to proceed; to turn out; to get along",
+      "to do (in a particular way); to go (with; a choice); to try"
+     ],
+     "pos": [
+      "Godan verb - Iku/Yuku special class",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_rokuji_dou",
+   "jp": "6時はどうですか",
+   "kana": "ろくじはどうですか",
+   "romaji": "rokuji wa dō desu ka",
+   "en": "How about six o'clock?",
+   "gloss": "How about six o'clock?",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Suggesting a time to meet.",
+   "accept": [
+    "六時はどうですか"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 初級1 第7課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "第7課",
+     "quote": "6時はどうですか？",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どう",
+     "matched": "如何【どう】 (written in kana: どう)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "how; in what way; how about"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_ashita_youji",
+   "jp": "明日は用事があります",
+   "kana": "あしたはようじがあります",
+   "romaji": "ashita wa yōji ga arimasu",
+   "en": "I have things to do tomorrow.",
+   "gloss": "I have things to do tomorrow.",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "A polite reason to decline an invitation.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2666765,
+     "url": "https://tatoeba.org/en/sentences/show/2666765",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "明日は用事があります。",
+     "translation": "I have things to do tomorrow."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "明日",
+     "matched": "明日【あした】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "tomorrow",
+      "near future"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ある",
+     "matched": "有る【ある】 (written in kana: ある)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to be; to exist; to live",
+      "to have",
+      "to be located",
+      "to be equipped with"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending (irregular verb)",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_tanoshikatta",
+   "jp": "とても楽しかったです",
+   "kana": "とてもたのしかったです",
+   "romaji": "totemo tanoshikatta desu",
+   "en": "I really enjoyed myself.",
+   "gloss": "I really enjoyed myself.",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Thanking someone after an outing.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 200632,
+     "url": "https://tatoeba.org/en/sentences/show/200632",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "とても楽しかったです。",
+     "translation": "I really enjoyed myself."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "とても",
+     "matched": "迚も【とても】 (written in kana: とても)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "very; awfully; exceedingly",
+      "(not) at all; by no means; simply (cannot)"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "楽しい",
+     "matched": "楽しい【たのしい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "enjoyable; fun; pleasant; happy; delightful"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_ogenkidesuka",
+   "jp": "お元気ですか",
+   "kana": "おげんきですか",
+   "romaji": "o-genki desu ka",
+   "en": "How are you?",
+   "gloss": "How are you?",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "When you have not seen someone for a while (not as a daily greeting).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 400933,
+     "url": "https://tatoeba.org/en/sentences/show/400933",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "お元気ですか。",
+     "translation": "How are you doing?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "元気",
+     "matched": "元気【げんき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "lively; full of spirit; energetic; vigorous; vital; spirited",
+      "healthy; well; fit; in good health"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_genkidesu",
+   "jp": "元気です",
+   "kana": "げんきです",
+   "romaji": "genki desu",
+   "en": "I'm fine.",
+   "gloss": "I'm fine.",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 3495032,
+     "url": "https://tatoeba.org/en/sentences/show/3495032",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "元気です。",
+     "translation": "I'm fine."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "元気",
+     "matched": "元気【げんき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "lively; full of spirit; energetic; vigorous; vital; spirited",
+      "healthy; well; fit; in good health"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_okagesamade",
+   "jp": "おかげさまで",
+   "kana": "おかげさまで",
+   "romaji": "okagesama de",
+   "en": "I'm fine, thank you. (thanks to you)",
+   "gloss": "I'm fine, thank you. (thanks to you)",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Answering お元気ですか politely.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L1",
+     "activity": 1,
+     "entry": "おかげさまで【おかげさまで】 Thank you.",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 227762,
+     "url": "https://tatoeba.org/en/sentences/show/227762",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "おかげさまで元気です。",
+     "translation": "I'm fine, thank you."
+    }
+   ]
+  },
+  {
+   "id": "fr_x_ohisashiburi",
+   "jp": "お久しぶりですね",
+   "kana": "おひさしぶりですね",
+   "romaji": "o-hisashiburi desu ne",
+   "en": "Long time no see!",
+   "gloss": "Long time no see!",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 13194522,
+     "url": "https://tatoeba.org/en/sentences/show/13194522",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "お久しぶりですね！",
+     "translation": "Long time no see!"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_donna_ongaku",
+   "jp": "どんな音楽が好きですか",
+   "kana": "どんなおんがくがすきですか",
+   "romaji": "donna ongaku ga suki desu ka",
+   "en": "What kind of music do you like?",
+   "gloss": "What kind of music do you like?",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 4270205,
+     "url": "https://tatoeba.org/en/sentences/show/4270205",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "どんな音楽が好きですか？",
+     "translation": "What kind of music do you like?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どんな",
+     "matched": "【どんな】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "what kind of; what sort of; what",
+      "no matter what (kind of); whatever; any; all"
+     ],
+     "pos": [
+      "Pre-noun adjectival (rentaishi)"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "音楽",
+     "matched": "音楽【おんがく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "music",
+      "Music"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "好き",
+     "matched": "好き【すき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "liking; being fond of; to one's liking; to one's taste; preferred; favourite",
+      "liking (romantically); being in love with; beloved",
+      "faddism; eccentricity",
+      "as one likes; as it suits one"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_ganbattekudasai",
+   "jp": "頑張ってください",
+   "kana": "がんばってください",
+   "romaji": "ganbatte kudasai",
+   "en": "Good luck! / Do your best.",
+   "gloss": "Good luck! / Do your best.",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "accept": [
+    "がんばってください"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 3812373,
+     "url": "https://tatoeba.org/en/sentences/show/3812373",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "頑張ってください。",
+     "translation": "Please do your best."
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 5,
+     "entry": "がんばってください【がんばってください】 Good luck.",
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_ogenkide",
+   "jp": "お元気で",
+   "kana": "おげんきで",
+   "romaji": "o-genki de",
+   "en": "Take care! (when parting for a long time)",
+   "gloss": "Take care! (when parting for a long time)",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Saying goodbye to someone you will not see for a while.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 227185,
+     "url": "https://tatoeba.org/en/sentences/show/227185",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "お元気で！",
+     "translation": "Good luck to you!"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 3,
+     "entry": "お元気で【おげんきで】 Take care.",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "元気",
+     "matched": "元気【げんき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "lively; full of spirit; energetic; vigorous; vital; spirited",
+      "healthy; well; fit; in good health"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "fr_x_ojamashimasu",
+   "jp": "お邪魔します",
+   "kana": "おじゃまします",
+   "romaji": "o-jama shimasu",
+   "en": "Excuse me for intruding. (entering someone's home)",
+   "gloss": "Excuse me for intruding. (entering someone's home)",
+   "pos": "phrase",
+   "topic": "friends",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Said as you step into someone's home.",
+   "accept": [
+    "おじゃまします"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 13117622,
+     "url": "https://tatoeba.org/en/sentences/show/13117622",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "お邪魔します。",
+     "translation": "Excuse me for interrupting."
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 1,
+     "entry": "おじゃまします【おじゃまします】 Excuse me for disturbing you.",
+     "checked": "2026-10-23"
     }
    ]
   }

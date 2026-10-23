@@ -1087,6 +1087,67 @@
      "say": "The forecast says…"
     }
    ]
-  }
+  },
+  { "id": "m_small_talk", "name": "Small talk with someone you know", "desc": "Greet someone you have not seen for a while, ask how they are, and react naturally to their news.",
+    "needs": ["fr_x_ohisashiburi", "fr_x_ogenkidesuka", "fr_x_okagesamade", "fr_x_sounandesuka", "fr_x_yokattadesune", "fr_x_taihendesune", "w_naruhodo"],
+    "steps": [
+      { "item": "fr_x_ohisashiburi", "skill": "speaking", "say": "You meet a neighbour after the holidays." },
+      { "item": "fr_x_ogenkidesuka", "skill": "speaking", "say": "Ask how they are." },
+      { "item": "fr_x_okagesamade", "skill": "listening", "say": "They answer politely…" },
+      { "item": "fr_x_sounandesuka", "skill": "speaking", "say": "They tell you something new. React." },
+      { "item": "fr_x_yokattadesune", "skill": "speaking", "say": "Their news is good." },
+      { "item": "fr_x_taihendesune", "skill": "speaking", "say": "Their news is bad: show sympathy." },
+      { "item": "w_naruhodo", "skill": "production", "say": "Show you understand: \"I see.\"" } ] },
+  { "id": "m_invite_friend", "name": "Invite a friend out, or decline politely", "desc": "Suggest a meal together and a time, accept with enthusiasm, or decline politely and suggest another time.",
+    "needs": ["fr_x_tabeniikimasenka", "fr_x_rokuji_dou", "w_zehi", "fr_x_ashita_youji", "fr_x_matakondo_ikimashou", "fr_x_tanoshikatta"],
+    "steps": [
+      { "item": "fr_x_tabeniikimasenka", "skill": "speaking", "say": "Invite a friend for a meal." },
+      { "item": "fr_x_rokuji_dou", "skill": "speaking", "say": "Suggest six o'clock." },
+      { "item": "w_zehi", "skill": "production", "say": "Accept enthusiastically: \"I'd love to!\"" },
+      { "item": "fr_x_ashita_youji", "skill": "speaking", "say": "Another day you can't go. Give a reason." },
+      { "item": "fr_x_matakondo_ikimashou", "skill": "speaking", "say": "Suggest another time." },
+      { "item": "fr_x_tanoshikatta", "skill": "speaking", "say": "After the meal, thank your friend." } ] },
+  { "id": "m_family_talk", "name": "Talk about your family", "desc": "Answer questions about your family, use the right words for your own family and for someone else's.",
+    "needs": ["in_x_nanninkazoku", "in_x_yoninkazoku", "in_x_kyoudai", "fa_ani", "fa_okaasan", "in_x_kekkon", "fa_kodomo"],
+    "steps": [
+      { "item": "in_x_nanninkazoku", "skill": "listening", "say": "A colleague asks…" },
+      { "item": "in_x_yoninkazoku", "skill": "speaking", "say": "Say how many people are in your family." },
+      { "item": "in_x_kyoudai", "skill": "listening", "say": "They ask…" },
+      { "item": "fa_ani", "skill": "production", "say": "Say you have an older brother (your own family)." },
+      { "item": "fa_okaasan", "skill": "production", "say": "Ask about their mother (someone else's)." },
+      { "item": "in_x_kekkon", "skill": "listening", "say": "They ask…" },
+      { "item": "fa_kodomo", "skill": "production", "say": "Talk about your children." } ] },
+  { "id": "m_clothes_shopping", "name": "Buy clothes", "desc": "Handle the shop assistant, try clothes on, ask for another size and decide.",
+    "needs": ["sh_x_osagashi", "sh_x_miteirudake", "sh_x_shichaku_ii", "sh_x_shichakushitsu_doko", "sh_kitsui", "sh_x_ookiino", "sh_x_oniai", "sh_x_korenishimasu"],
+    "steps": [
+      { "item": "sh_x_osagashi", "skill": "listening", "say": "You enter a clothes shop and hear…" },
+      { "item": "sh_x_miteirudake", "skill": "speaking", "say": "Say you are just looking." },
+      { "item": "sh_x_shichaku_ii", "skill": "speaking", "say": "Ask to try the trousers on." },
+      { "item": "sh_x_shichakushitsu_doko", "skill": "speaking", "say": "Ask where the fitting room is." },
+      { "item": "sh_kitsui", "skill": "production", "say": "They are too tight." },
+      { "item": "sh_x_ookiino", "skill": "speaking", "say": "Ask for a bigger one." },
+      { "item": "sh_x_oniai", "skill": "listening", "say": "The assistant says…" },
+      { "item": "sh_x_korenishimasu", "skill": "speaking", "say": "Say you'll take them." } ] },
+  { "id": "m_temple_visit", "name": "Visit a temple or shrine", "desc": "Tell a temple from a shrine, read the fee and shoes-off signs, ask before photographing, and buy a charm.",
+    "needs": ["p_otera", "p_jinja", "ss_haikanryou", "ss_dosokugenkin", "ss_x_kutsu_nuide", "ss_x_shashin_ii", "ss_omamori", "ss_omikuji"],
+    "steps": [
+      { "item": "p_otera", "skill": "recognition", "say": "Which word is a Buddhist temple?" },
+      { "item": "p_jinja", "skill": "recognition", "say": "Which is a Shinto shrine?" },
+      { "item": "ss_haikanryou", "skill": "reading", "say": "Read the sign at the gate: what must you pay?" },
+      { "item": "ss_dosokugenkin", "skill": "recognition", "say": "A sign at the hall entrance says…" },
+      { "item": "ss_x_kutsu_nuide", "skill": "listening", "say": "A staff member tells you…" },
+      { "item": "ss_x_shashin_ii", "skill": "speaking", "say": "Ask whether you may take photos." },
+      { "item": "ss_omamori", "skill": "production", "say": "Buy a charm for a friend." },
+      { "item": "ss_omikuji", "skill": "production", "say": "Draw a paper fortune." } ] },
+  { "id": "m_phone_call", "name": "Make a phone call", "desc": "Give your name on the phone, leave a message or ask for a call back, and exchange phone numbers.",
+    "needs": ["t_moshimoshi", "ph_x_moushimasu", "ph_x_dochirasama", "ph_x_dengon", "ph_x_orikaeshi", "ph_x_bangou_oshiete", "ph_x_kikoemasuka"],
+    "steps": [
+      { "item": "t_moshimoshi", "skill": "speaking", "say": "Answer or start the call." },
+      { "item": "ph_x_moushimasu", "skill": "speaking", "say": "Give your name politely." },
+      { "item": "ph_x_dochirasama", "skill": "listening", "say": "The other person asks…" },
+      { "item": "ph_x_dengon", "skill": "speaking", "say": "The person is out: ask to leave a message." },
+      { "item": "ph_x_orikaeshi", "skill": "speaking", "say": "Someone calls at a bad time: say you will call back." },
+      { "item": "ph_x_bangou_oshiete", "skill": "speaking", "say": "Ask for their phone number." },
+      { "item": "ph_x_kikoemasuka", "skill": "speaking", "say": "The line is bad. Ask if they can hear you." } ] }
  ]
 }

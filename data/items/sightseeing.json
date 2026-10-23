@@ -1,0 +1,2378 @@
+{
+ "topic": "sightseeing",
+ "items": [
+  {
+   "id": "p_jinja",
+   "jp": "神社",
+   "kana": "じんじゃ",
+   "romaji": "jinja",
+   "en": "shrine",
+   "gloss": "shrine",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "links": [
+    {
+     "id": "p_otera",
+     "rel": "pair: shrine / temple"
+    },
+    {
+     "id": "ss_torii",
+     "rel": "the gate of a shrine"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "神社【じんじゃ】 shrine",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "神社",
+     "matched": "神社【じんじゃ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "Shinto shrine",
+      "Shinto shrine"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "p_otera",
+   "jp": "お寺",
+   "kana": "おてら",
+   "romaji": "otera",
+   "en": "temple",
+   "gloss": "temple",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "tier": 1,
+   "use": "say",
+   "links": [
+    {
+     "id": "p_jinja",
+     "rel": "pair: temple / shrine"
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 4,
+     "entry": "お寺【おてら】 temple",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "お寺【おてら】 temple",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お寺",
+     "matched": "お寺【おてら】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "temple",
+      "monk"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_noboru",
+   "jp": "登る",
+   "kana": "のぼる",
+   "romaji": "noboru",
+   "en": "to climb (a mountain)",
+   "gloss": "to climb",
+   "pos": "verb",
+   "topic": "sightseeing",
+   "tier": 3,
+   "use": "say",
+   "verb_class": "godan",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "登る／登ります【のぼる／のぼります】 to climb",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "登る【のぼる】 to go up",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "登る",
+     "matched": "登る【のぼる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to ascend; to go up; to climb",
+      "to ascend (as a natural process, e.g. the Sun); to rise",
+      "to go to (the capital)",
+      "to be promoted"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_annaisuru",
+   "jp": "案内する",
+   "kana": "あんないする",
+   "romaji": "annaisuru",
+   "en": "to guide; to show around",
+   "gloss": "to guide",
+   "pos": "verb",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "町を案内しましょう。",
+     "en": "I'll show you around the city.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1256368,
+      "url": "https://tatoeba.org/en/sentences/show/1256368",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "町を案内しましょう。",
+      "translation": "I'll show you around the city."
+     }
+    },
+    {
+     "jp": "案内してくれますか。",
+     "en": "Show me the way, will you?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 191238,
+      "url": "https://tatoeba.org/en/sentences/show/191238",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "案内してくれますか。",
+      "translation": "Show me the way, will you?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L7",
+     "activity": 1,
+     "entry": "案内する【あんないする】 to show / to guide",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "案内する",
+     "matched": "案内【あんない】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "guidance; leading (the way); showing around",
+      "information; notice; notification",
+      "announcement (of a visitor's arrival); informing (someone) of a visitor's arrival",
+      "invitation"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Place"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_toru_photo",
+   "jp": "撮る",
+   "kana": "とる",
+   "romaji": "toru",
+   "en": "to take (a photo)",
+   "gloss": "to take",
+   "pos": "verb",
+   "topic": "sightseeing",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "note": "Same sound as 取る (to take); 撮る is only for photos and video.",
+   "examples": [
+    {
+     "jp": "彼は写真を撮った。",
+     "en": "He took a picture.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 104706,
+      "url": "https://tatoeba.org/en/sentences/show/104706",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "彼は写真を撮った。",
+      "translation": "He took a picture."
+     }
+    },
+    {
+     "jp": "２枚写真を撮りました。",
+     "en": "I took two pictures.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10900057,
+      "url": "https://tatoeba.org/en/sentences/show/10900057",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "２枚写真を撮りました。",
+      "translation": "I took two pictures."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "撮る【とる】 to take (a photo, video)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "撮る【とる】 to take (a photo, video)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "撮る",
+     "matched": "撮る【とる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to take (a photograph)",
+      "to record (audio or video); to film; to shoot"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_toru",
+     "rel": "same sound: take (pick up)"
+    }
+   ]
+  },
+  {
+   "id": "v_tomaru_stay",
+   "jp": "泊まる",
+   "kana": "とまる",
+   "romaji": "tomaru",
+   "en": "to stay (at a hotel, inn)",
+   "gloss": "to stay",
+   "pos": "verb",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "note": "Same sound as 止まる (to stop).",
+   "examples": [
+    {
+     "jp": "ホテルに泊まったよ。",
+     "en": "I stayed at a hotel.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10983830,
+      "url": "https://tatoeba.org/en/sentences/show/10983830",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ホテルに泊まったよ。",
+      "translation": "I stayed at a hotel."
+     }
+    },
+    {
+     "jp": "ホテルに泊まります。",
+     "en": "We'll stay in a hotel.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10953998,
+      "url": "https://tatoeba.org/en/sentences/show/10953998",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ホテルに泊まります。",
+      "translation": "We'll stay in a hotel."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "泊まる【とまる】 to stay",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L6",
+     "activity": 4,
+     "entry": "泊まる【とまる】 to stay",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "泊まる",
+     "matched": "泊まる【とまる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to stay at (e.g. hotel)",
+      "to be docked; to be berthed; to be moored"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_tomaru",
+     "rel": "same sound: stop"
+    }
+   ]
+  },
+  {
+   "id": "v_komu",
+   "jp": "混む",
+   "kana": "こむ",
+   "romaji": "komu",
+   "en": "to be crowded",
+   "gloss": "to be crowded",
+   "pos": "verb",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "電車は混んでた？",
+     "en": "Was the train crowded?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8739887,
+      "url": "https://tatoeba.org/en/sentences/show/8739887",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "電車は混んでた？",
+      "translation": "Was the train crowded?"
+     }
+    },
+    {
+     "jp": "まだ混んでるよ。",
+     "en": "It's still crowded.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12362398,
+      "url": "https://tatoeba.org/en/sentences/show/12362398",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "まだ混んでるよ。",
+      "translation": "It's still crowded."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "混む【こむ】 to be crowded",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "混む",
+     "matched": "混む【こむ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "to be crowded; to be packed; to be congested; to be thronged (with)"
+     ],
+     "pos": [
+      "Godan verb with 'mu' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_omairi",
+   "jp": "お参り",
+   "kana": "おまいり",
+   "romaji": "omairi",
+   "en": "visit (to a temple or shrine); worship",
+   "gloss": "visit",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 1,
+   "use": "say",
+   "takes_suru": true,
+   "note": "お参りする = to visit a temple or shrine to pray.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お参り",
+     "matched": "お参り【おまいり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "visit (to a shrine, grave, etc.); worship"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ss_sanpai",
+     "rel": "written word"
+    }
+   ]
+  },
+  {
+   "id": "ss_sanpai",
+   "jp": "参拝",
+   "kana": "さんぱい",
+   "romaji": "sanpai",
+   "en": "visit to a shrine or temple; worship",
+   "gloss": "visit to a shrine or temple",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 3,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "参拝",
+     "matched": "参拝【さんぱい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "going and worshipping (at a shrine or temple); visit (to a shrine or temple to worship)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ss_omairi",
+     "rel": "everyday word"
+    }
+   ]
+  },
+  {
+   "id": "ss_haikan",
+   "jp": "拝観",
+   "kana": "はいかん",
+   "romaji": "haikan",
+   "en": "visiting (a temple, its treasures or garden); viewing",
+   "gloss": "visiting",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 3,
+   "use": "read",
+   "takes_suru": true,
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "拝観",
+     "matched": "拝観【はいかん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "see; inspect; visit",
+      "Haikan"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Place"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_haikanryou",
+   "jp": "拝観料",
+   "kana": "はいかんりょう",
+   "romaji": "haikanryō",
+   "en": "admission fee (temple, shrine)",
+   "gloss": "admission fee",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 1,
+   "use": "read",
+   "note": "The entry fee to see a temple's halls or garden, e.g. 清水寺: 拝観料は500円.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "拝観料",
+     "matched": "拝観料【はいかんりょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "entrance fee"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "official",
+     "name": "音羽山 清水寺: 参拝のご案内",
+     "url": "https://www.kiyomizudera.or.jp/visit/",
+     "quote": "拝観料は500円。",
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "s_nyujoryo",
+     "rel": "general word: admission fee"
+    }
+   ]
+  },
+  {
+   "id": "ss_goshuin",
+   "jp": "御朱印",
+   "kana": "ごしゅいん",
+   "romaji": "goshuin",
+   "en": "goshuin (red seal stamp given to visitors of a temple or shrine)",
+   "gloss": "goshuin",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "御朱印",
+     "matched": "御朱印【ごしゅいん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "goshuin; seal stamp given to worshippers and visitors to shrines and temples",
+      "letter bearing the shogun's scarlet seal"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_omamori",
+   "jp": "お守り",
+   "kana": "おまもり",
+   "romaji": "omamori",
+   "en": "charm; amulet",
+   "gloss": "charm",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "shop_item",
+    "thing"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 2,
+     "entry": "お守り【おまもり】 amulet",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お守り",
+     "matched": "お守り【おまもり】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "charm; amulet; talisman",
+      "Amulet"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ss_omikuji",
+     "rel": "also at shrines and temples: fortune slip"
+    }
+   ]
+  },
+  {
+   "id": "ss_omikuji",
+   "jp": "おみくじ",
+   "kana": "おみくじ",
+   "romaji": "omikuji",
+   "en": "omikuji (paper fortune drawn at a shrine or temple)",
+   "gloss": "omikuji",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "おみくじ",
+     "matched": "御神籤【おみくじ】 (written in kana: おみくじ)",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "fortune slip (usu. bought at a shrine); omikuji"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ss_omamori",
+     "rel": "also at shrines and temples: charm"
+    }
+   ]
+  },
+  {
+   "id": "ss_torii",
+   "jp": "鳥居",
+   "kana": "とりい",
+   "romaji": "torii",
+   "en": "torii (shrine archway)",
+   "gloss": "torii",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "鳥居は大きいです。",
+     "en": "The shrine gate is huge.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9392998,
+      "url": "https://tatoeba.org/en/sentences/show/9392998",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "鳥居は大きいです。",
+      "translation": "The shrine gate is huge."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "鳥居",
+     "matched": "鳥居【とりい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "torii (Shinto shrine archway)",
+      "Torii"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "p_jinja",
+     "rel": "where you see it"
+    }
+   ]
+  },
+  {
+   "id": "ss_hondou",
+   "jp": "本堂",
+   "kana": "ほんどう",
+   "romaji": "hondō",
+   "en": "main hall (of a Buddhist temple)",
+   "gloss": "main hall",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "本堂",
+     "matched": "本堂【ほんどう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "main hall (of a Buddhist temple); main temple",
+      "Mahavira Hall"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "official",
+     "name": "音羽山 清水寺: 参拝のご案内",
+     "url": "https://www.kiyomizudera.or.jp/visit/",
+     "quote": "本堂御宝前において、乳がんによって亡くなられた方の追善供養法要を執り行います。",
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_keidai",
+   "jp": "境内",
+   "kana": "けいだい",
+   "romaji": "keidai",
+   "en": "grounds (of a temple or shrine); precincts",
+   "gloss": "grounds",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "境内",
+     "matched": "境内【けいだい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "grounds (esp. of shrines and temples); compound; churchyard; precincts"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "official",
+     "name": "音羽山 清水寺: 参拝のご案内",
+     "url": "https://www.kiyomizudera.or.jp/visit/",
+     "quote": "東山・音羽山中に広がる境内の見所をご案内。",
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_sandou",
+   "jp": "参道",
+   "kana": "さんどう",
+   "romaji": "sandō",
+   "en": "approach (path) to a shrine or temple",
+   "gloss": "approach (path) to a shrine or temple",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "参道",
+     "matched": "参道【さんどう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "road approaching a shrine",
+      "Sandō"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_butsuzou",
+   "jp": "仏像",
+   "kana": "ぶつぞう",
+   "romaji": "butsuzō",
+   "en": "statue of Buddha; Buddhist statue",
+   "gloss": "statue of Buddha",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "仏像",
+     "matched": "仏像【ぶつぞう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "statue of Buddha; image of Buddha; Buddhist statue; Buddhist image",
+      "Butsuzou",
+      "Buddharupa"
+     ],
+     "pos": [
+      "Noun",
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_niwa",
+   "jp": "庭",
+   "kana": "にわ",
+   "romaji": "niwa",
+   "en": "garden",
+   "gloss": "garden",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "place"
+   ],
+   "examples": [
+    {
+     "jp": "綺麗なお庭ですね！",
+     "en": "What a beautiful garden!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9553176,
+      "url": "https://tatoeba.org/en/sentences/show/9553176",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "綺麗なお庭ですね！",
+      "translation": "What a beautiful garden!"
+     }
+    },
+    {
+     "jp": "庭に水をまこう。",
+     "en": "I'll water the garden.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 125511,
+      "url": "https://tatoeba.org/en/sentences/show/125511",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "庭に水をまこう。",
+      "translation": "I'll water the garden."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 1,
+     "entry": "庭【にわ】 garden",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L12",
+     "activity": 1,
+     "entry": "庭【にわ】 garden",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "庭",
+     "matched": "庭【にわ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "garden; yard; courtyard",
+      "field (of action); area"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ss_teien",
+     "rel": "large landscaped garden (on signs)"
+    }
+   ]
+  },
+  {
+   "id": "ss_teien",
+   "jp": "庭園",
+   "kana": "ていえん",
+   "romaji": "teien",
+   "en": "garden (large, landscaped); park",
+   "gloss": "garden",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 3,
+   "use": "read",
+   "tags": [
+    "place"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "庭園",
+     "matched": "庭園【ていえん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "garden; park",
+      "Garden"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ss_niwa",
+     "rel": "garden (everyday word)"
+    }
+   ]
+  },
+  {
+   "id": "ss_kimono",
+   "jp": "着物",
+   "kana": "きもの",
+   "romaji": "kimono",
+   "en": "kimono",
+   "gloss": "kimono",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "着物は着ますか。",
+     "en": "Do you wear a kimono?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 126595,
+      "url": "https://tatoeba.org/en/sentences/show/126595",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "着物は着ますか。",
+      "translation": "Do you wear a kimono?"
+     }
+    },
+    {
+     "jp": "着物姿、素敵ね。",
+     "en": "You look lovely in a kimono.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11855726,
+      "url": "https://tatoeba.org/en/sentences/show/11855726",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "着物姿、素敵ね。",
+      "translation": "You look lovely in a kimono."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L9",
+     "activity": 1,
+     "entry": "着物【きもの】 kimono (traditional Japanese clothing)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "着物",
+     "matched": "着物【きもの】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "kimono; Japanese traditional clothing (esp. full-length)",
+      "clothing; clothes"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ss_yukata",
+     "rel": "light summer kimono"
+    }
+   ]
+  },
+  {
+   "id": "ss_yukata",
+   "jp": "浴衣",
+   "kana": "ゆかた",
+   "romaji": "yukata",
+   "en": "yukata (light cotton kimono)",
+   "gloss": "yukata",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "この浴衣欲しいな。",
+     "en": "I really want this yukata.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8971933,
+      "url": "https://tatoeba.org/en/sentences/show/8971933",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "この浴衣欲しいな。",
+      "translation": "I really want this yukata."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "浴衣【ゆかた】 yukata (Japanese summer robe)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "浴衣",
+     "matched": "浴衣【ゆかた】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "yukata; light cotton kimono worn in the summer or used as a bathrobe",
+      "Yukata"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ss_kimono",
+     "rel": "kimono"
+    }
+   ]
+  },
+  {
+   "id": "ss_kankou",
+   "jp": "観光",
+   "kana": "かんこう",
+   "romaji": "kankō",
+   "en": "sightseeing",
+   "gloss": "sightseeing",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "activity"
+   ],
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "観光で来てるんです。",
+     "en": "I've come to see the sights.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9046236,
+      "url": "https://tatoeba.org/en/sentences/show/9046236",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "観光で来てるんです。",
+      "translation": "I've come to see the sights."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "観光【かんこう】 sightseeing",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "観光",
+     "matched": "観光【かんこう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "sightseeing; tourism",
+      "Tourism"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ss_kankoukyaku",
+     "rel": "person: tourist"
+    }
+   ]
+  },
+  {
+   "id": "ss_kankoukyaku",
+   "jp": "観光客",
+   "kana": "かんこうきゃく",
+   "romaji": "kankōkyaku",
+   "en": "tourist",
+   "gloss": "tourist",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "私も観光客です。",
+     "en": "I'm a tourist, too.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1579006,
+      "url": "https://tatoeba.org/en/sentences/show/1579006",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私も観光客です。",
+      "translation": "I'm a tourist, too."
+     }
+    },
+    {
+     "jp": "観光客が多すぎだよ。",
+     "en": "There are too many tourists.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9119582,
+      "url": "https://tatoeba.org/en/sentences/show/9119582",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "観光客が多すぎだよ。",
+      "translation": "There are too many tourists."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L1",
+     "activity": 3,
+     "entry": "観光客【かんこうきゃく】 tourist",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 1,
+     "entry": "観光客【かんこうきゃく】 tourist",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "観光客",
+     "matched": "観光客【かんこうきゃく】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "tourist"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ss_kankou",
+     "rel": "sightseeing"
+    }
+   ]
+  },
+  {
+   "id": "ss_kankouchi",
+   "jp": "観光地",
+   "kana": "かんこうち",
+   "romaji": "kankōchi",
+   "en": "tourist spot; tourist destination",
+   "gloss": "tourist spot",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "place"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L1",
+     "activity": 3,
+     "entry": "観光地【かんこうち】 tourist destination",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "観光地",
+     "matched": "観光地【かんこうち】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "tourist attraction; sight-seeing area",
+      "Tourist attraction"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_kankouannaijo",
+   "jp": "観光案内所",
+   "kana": "かんこうあんないじょ",
+   "romaji": "kankōannaijo",
+   "en": "tourist information centre",
+   "gloss": "tourist information centre",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "read",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "note": "Kyoto Station has one; look for the 案内所 sign.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "観光案内所",
+     "matched": "観光案内所【かんこうあんないじょ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "tourist information center; tourist information centre"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_annaijo",
+     "rel": "sign: information desk"
+    }
+   ]
+  },
+  {
+   "id": "ss_omiyage",
+   "jp": "お土産",
+   "kana": "おみやげ",
+   "romaji": "omiyage",
+   "en": "souvenir; present brought back from a trip",
+   "gloss": "souvenir",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "shop_item",
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "家族にお土産を買います。",
+     "en": "I'm going to buy souvenirs for my family.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10983265,
+      "url": "https://tatoeba.org/en/sentences/show/10983265",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "家族にお土産を買います。",
+      "translation": "I'm going to buy souvenirs for my family."
+     }
+    },
+    {
+     "jp": "これはお土産です。",
+     "en": "This is a little gift for you.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 218629,
+      "url": "https://tatoeba.org/en/sentences/show/218629",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "これはお土産です。",
+      "translation": "This is a little gift for you."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "お土産【おみやげ】 souvenir",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 2,
+     "entry": "お土産【おみやげ】 souvenir",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お土産",
+     "matched": "お土産【おみやげ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "local specialty or souvenir bought as a gift while traveling (travelling)",
+      "present brought by a visitor",
+      "something unpleasant that one is given (e.g. an illness while on vacation); unwelcome gift; disservice"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_ryokan",
+   "jp": "旅館",
+   "kana": "りょかん",
+   "romaji": "ryokan",
+   "en": "ryokan (Japanese-style inn)",
+   "gloss": "ryokan",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "山間の旅館で２泊しました。",
+     "en": "I spent 2 nights at a mountain Inn.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10556969,
+      "url": "https://tatoeba.org/en/sentences/show/10556969",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "山間の旅館で２泊しました。",
+      "translation": "I spent 2 nights at a mountain Inn."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "旅館【りょかん】 Japanese inn",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "旅館",
+     "matched": "旅館【りょかん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "ryokan; traditional Japanese inn",
+      "Ryokan (Japanese inn)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ss_hoteru",
+     "rel": "Western-style: hotel"
+    }
+   ]
+  },
+  {
+   "id": "ss_hoteru",
+   "jp": "ホテル",
+   "kana": "ホテル",
+   "romaji": "hoteru",
+   "en": "hotel",
+   "gloss": "hotel",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "ホテルに戻ろう。",
+     "en": "Let's go back to the hotel.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2441437,
+      "url": "https://tatoeba.org/en/sentences/show/2441437",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ホテルに戻ろう。",
+      "translation": "Let's go back to the hotel."
+     }
+    },
+    {
+     "jp": "ホテルに泊まります。",
+     "en": "We'll stay in a hotel.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10953998,
+      "url": "https://tatoeba.org/en/sentences/show/10953998",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ホテルに泊まります。",
+      "translation": "We'll stay in a hotel."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L1",
+     "activity": 3,
+     "entry": "ホテル【ホテル】 hotel",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "ホテル【ホテル】 hotel",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ホテル",
+     "matched": "【ホテル】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "hotel",
+      "Hotel"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ss_ryokan",
+     "rel": "Japanese-style inn"
+    }
+   ]
+  },
+  {
+   "id": "ss_onsen",
+   "jp": "温泉",
+   "kana": "おんせん",
+   "romaji": "onsen",
+   "en": "hot spring; spa",
+   "gloss": "hot spring",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "place",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "その町は温泉で有名です。",
+     "en": "The town is famous for its hot spring.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 207797,
+      "url": "https://tatoeba.org/en/sentences/show/207797",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "その町は温泉で有名です。",
+      "translation": "The town is famous for its hot spring."
+     }
+    },
+    {
+     "jp": "この温泉は穴場だね。",
+     "en": "This hot spring is a great find.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 222887,
+      "url": "https://tatoeba.org/en/sentences/show/222887",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "この温泉は穴場だね。",
+      "translation": "This hot spring is a great find."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "温泉【おんせん】 hot spring",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "温泉【おんせん】 hot spring",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "温泉",
+     "matched": "温泉【おんせん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "hot spring",
+      "onsen; hot spring resort; hot spring spa",
+      "Onsen"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_maiko",
+   "jp": "舞妓",
+   "kana": "まいこ",
+   "romaji": "maiko",
+   "en": "maiko (apprentice geisha)",
+   "gloss": "maiko",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "note": "Seen in Gion. Do not photograph them without permission.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "舞妓",
+     "matched": "舞妓【まいこ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "maiko; apprentice geisha (in Kyoto)",
+      "Maiko (geiko)"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_sekaiisan",
+   "jp": "世界遺産",
+   "kana": "せかいいさん",
+   "romaji": "sekaiisan",
+   "en": "World Heritage site",
+   "gloss": "World Heritage site",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "世界遺産",
+     "matched": "世界遺産【せかいいさん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "World Heritage (site)",
+      "World Heritage Site"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_rentasaikuru",
+   "jp": "レンタサイクル",
+   "kana": "レンタサイクル",
+   "romaji": "rentasaikuru",
+   "en": "rental bicycle; bike rental",
+   "gloss": "rental bicycle",
+   "pos": "noun",
+   "topic": "sightseeing",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 2,
+     "entry": "レンタサイクル【レンタサイクル】 bicycle rentals",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "レンタサイクル",
+     "matched": "【レンタサイクル】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "bicycle rental; bike rental",
+      "rental bicycle"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_dosokugenkin",
+   "jp": "土足厳禁",
+   "kana": "どそくげんきん",
+   "romaji": "dosokugenkin",
+   "en": "shoes must be removed (no outdoor shoes)",
+   "gloss": "shoes must be removed",
+   "pos": "sign",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "read",
+   "note": "Seen at temple halls and some restaurants: take your shoes off here.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "土足厳禁",
+     "matched": "土足厳禁【どそくげんきん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "shoes strictly prohibited"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_nugu",
+     "rel": "what to do: take off your shoes"
+    }
+   ]
+  },
+  {
+   "id": "ss_x_shashin_ii",
+   "jp": "写真を撮ってもいいですか",
+   "kana": "しゃしんをとってもいいですか",
+   "romaji": "shashin o totte mo ii desu ka",
+   "en": "May I take pictures?",
+   "gloss": "May I take pictures?",
+   "pos": "phrase",
+   "topic": "sightseeing",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Ask before photographing inside temple halls, shops or people.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 8727059,
+     "url": "https://tatoeba.org/en/sentences/show/8727059",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "写真を撮ってもいいですか？",
+     "translation": "May I take pictures?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "写真",
+     "matched": "写真【しゃしん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "photograph; photo; picture; photography",
+      "moving picture; movie",
+      "Photography"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "撮る",
+     "matched": "撮る【とる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to take (a photograph)",
+      "to record (audio or video); to film; to shoot"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_x_shashin_itadakemasenka",
+   "jp": "写真を撮っていただけませんか",
+   "kana": "しゃしんをとっていただけませんか",
+   "romaji": "shashin o totte itadakemasen ka",
+   "en": "Would you please take a picture (of us)?",
+   "gloss": "Would you please take a picture (of us)?",
+   "pos": "phrase",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2280845,
+     "url": "https://tatoeba.org/en/sentences/show/2280845",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "写真を撮っていただけませんか？",
+     "translation": "Would you please take a picture?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "写真",
+     "matched": "写真【しゃしん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "photograph; photo; picture; photography",
+      "moving picture; movie",
+      "Photography"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "撮る",
+     "matched": "撮る【とる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to take (a photograph)",
+      "to record (audio or video); to film; to shoot"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_x_kutsu_nuide",
+   "jp": "靴を脱いでください",
+   "kana": "くつをぬいでください",
+   "romaji": "kutsu o nuide kudasai",
+   "en": "Please take off your shoes.",
+   "gloss": "Please take off your shoes.",
+   "pos": "phrase",
+   "topic": "sightseeing",
+   "tier": 1,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 4804653,
+     "url": "https://tatoeba.org/en/sentences/show/4804653",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "靴を脱いでください。",
+     "translation": "Please take off your shoes."
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 1,
+     "entry": "脱いでください【ぬいでください】 Please take them off.",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "靴",
+     "matched": "靴【くつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "shoe; shoes; boots; footwear; footgear",
+      "Shoe"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "脱ぐ",
+     "matched": "脱ぐ【ぬぐ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to take off (clothes, shoes, etc.); to undress"
+     ],
+     "pos": [
+      "Godan verb with 'gu' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_x_nyuujouryou",
+   "jp": "入場料はいくらですか",
+   "kana": "にゅうじょうりょうはいくらですか",
+   "romaji": "nyūjōryō wa ikura desu ka",
+   "en": "How much is the entrance fee?",
+   "gloss": "How much is the entrance fee?",
+   "pos": "phrase",
+   "topic": "sightseeing",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "At temples the fee is often called 拝観料.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 122062,
+     "url": "https://tatoeba.org/en/sentences/show/122062",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "入場料はいくらですか。",
+     "translation": "How much is the entrance fee?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "入場料",
+     "matched": "入場料【にゅうじょうりょう】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "entrance fee; admission fee; admission; entrance charge; admission charge"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いくら",
+     "matched": "幾ら【いくら】 (written in kana: いくら)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "how much",
+      "something over; and something; -odd",
+      "however (much); no matter how"
+     ],
+     "pos": [
+      "Noun",
+      "Adverb (fukushi)",
+      "Noun, used as a suffix"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "ss_x_nanjini_shimarimasu",
+   "jp": "何時に閉まりますか",
+   "kana": "なんじにしまりますか",
+   "romaji": "nanji ni shimarimasu ka",
+   "en": "What time does it close?",
+   "gloss": "What time does it close?",
+   "pos": "phrase",
+   "topic": "sightseeing",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 1545518,
+     "url": "https://tatoeba.org/en/sentences/show/1545518",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "何時に閉まりますか。",
+     "translation": "What time does it close?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何時",
+     "matched": "何時【なんじ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "what time; which hour"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "閉まる",
+     "matched": "閉まる【しまる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to be shut; to close; to be closed",
+      "to be firm (of a body, face, etc.); to be well-knit",
+      "to be locked",
+      "to tighten; to be tightened"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ss_x_annaijo_doko",
+   "jp": "観光案内所はどこですか",
+   "kana": "かんこうあんないじょはどこですか",
+   "romaji": "kankō annaijo wa doko desu ka",
+   "en": "Where is the tourist information centre?",
+   "gloss": "Where is the tourist information centre?",
+   "pos": "phrase",
+   "topic": "sightseeing",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 183801,
+     "url": "https://tatoeba.org/en/sentences/show/183801",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "観光案内所はどこですか。",
+     "translation": "Where is the tourist information office?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "観光案内所",
+     "matched": "観光案内所【かんこうあんないじょ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "tourist information center; tourist information centre"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どこ",
+     "matched": "何処【どこ】 (written in kana: どこ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "where; what place",
+      "how much (long, far); what extent"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  }
+ ]
+}

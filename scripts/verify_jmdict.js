@@ -48,6 +48,7 @@ function classify(posList) {
   else if (/Suru verb - included|suru verb - special class|Suru verb - irregular/i.test(p)) out.verb_class = 'suru';
   else if (/Iku\/Yuku special class/.test(p)) out.verb_class = 'iku';
   else if (/-aru special class/.test(p)) out.verb_class = 'aru-honorific';
+  else if (/kureru special class/i.test(p)) out.verb_class = 'kureru';
   else if (/Godan verb/.test(p)) out.verb_class = 'godan';
   else if (/Ichidan verb/.test(p)) out.verb_class = 'ichidan';
   if (/yoi\/ii class/.test(p)) out.adj_class = 'ii';

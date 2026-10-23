@@ -1,5 +1,81 @@
 # Curriculum notes
 
+## Update 2026-10-23 (b): verbs, adjectives, conversation glue, family, shopping, sightseeing, phone
+
+The curriculum now has **1493 verified items in 26 topic files** (1134 before). 36 items are in `data/quarantine.json` (27 before).
+
+### Counts (before → after)
+
+| topic | before | after | notes |
+|---|---|---|---|
+| **shopping** (new, order 25) | 0 | 61 | clothes, colours, sizes, fitting room, 〜着; 11 phrases |
+| **sightseeing** (new, order 26) | 0 | 41 | temples/shrines, etiquette, souvenirs, inns; 6 phrases; お寺 and 神社 moved in from places (ids p_otera, p_jinja unchanged) |
+| daily | 31 | 86 | mostly verbs |
+| describe | 29 | 63 | feelings and states |
+| friends | 35 | 84 | connectors, adverbs, reactions, invitations |
+| intro | 26 | 93 | family (own vs someone else's), 18 countries, 7 languages, age |
+| survival | 64 | 79 | question words |
+| work | 32 | 52 | phone calls |
+| time | 32 | 38 | 間に合う, 遅れる, もう, ちょうど, 後で, もうすぐ |
+| transport | 46 | 50 | 止める/止まる, 乗り換える, 着く |
+| home | 67 | 72 | 運ぶ, 壊す, 直す, 引っ越す, 片付ける |
+| restaurant | 98 | 101 | 頼む, 注文する, 抹茶 |
+| post | 48 | 49 | 届ける |
+| places | 23 | 21 | お寺/神社 moved to sightseeing |
+
+Verbs 74 → 166 (92 new), adjectives 48 → 91 (43 new), items with `obj` 12 → 29. 61 new phrases, 425 new Tatoeba examples (1272 in total).
+
+### Evidence
+
+- **Words:** `scripts/verify_jmdict.js`, 300 candidates. Reviewed by hand: the する-verbs whose JMdict senses are nouns (説明, 安心, 練習, 招待, 結婚: English reworded to include the noun), 不便, 紳士服, ぜひ (kana_written; 是非 is not tagged kana-only), えーと (Irodori えーと; JMdict has えーと/えっと), the counters 〜歳 and 〜着 (counter senses of 歳【さい】, 着【ちゃく】). めがね became 眼鏡 (JMdict headword) with `accept: ["めがね"]` and the Irodori めがね entry as a second source. Irodori word-list sources are attached automatically wherever the headword+reading is in the list (family words 入門 L4 / 初級1 L17, clothes 入門 L15 / 初級2 L2 and L11, countries 入門 L3, phone 入門 L10, sightseeing 初級2 L5 …).
+- **Official text:** 清水寺 visitor page https://www.kiyomizudera.or.jp/visit/ quoted for 拝観料 (「拝観料は500円。」), 本堂 and 境内 (in addition to JMdict).
+- **Phrases (61):** each has an exact Tatoeba sentence (apart from final punctuation), an Irodori word-list entry (大変ですね, おかげさまで, お元気で, 電話がありました, 電話してください, 脱いでください, おじゃまします), or an Irodori 文型リスト example quoted with its lesson: また今度行きましょう。(入門 第12課), いっしょに食べに行きませんか？(初級1 第8課), 6時はどうですか？(初級1 第7課), 趣味は、何ですか？(入門 第11課), 私の母です。(入門 第4課), もうちょっと大きいの、ありますか？ and この色はちょっと派手すぎます。(初級2 第11課), 何かお探しですか？(初中級 第12課). The 文型リスト column 「文型」 next to the example names the *まるごと* lesson; the Irodori lesson is the 第N課 heading carried down the sheet, and that is what is cited. 〜と申します rests on Tatoeba 77613 (鈴木と申します。) and 12251433 (リリーと申します。) as instances of the frame.
+- **Examples:** at most 2 per tier-1/2 say-item, ≤ 20 characters, hand-checked for the stated sense. Rejected, e.g.: 本を開く (that 開く is ひらく, not あく), 塩貸してください (translated "pass"), それで十分 (not "and so"), フランス語 sentences for フランス (the country), political sentences for 台湾, 鍵をなくした for なくす (already the phrase x_kagi_nakushita), rough masculine imperatives (遅れるな, 心配したぞ). Items with no good sentence have none (それで, 抹茶, お守り, おみくじ, 御朱印, お参り).
+
+### Tags and `obj`
+
+- `country` on the 18 countries and on the existing 日本 (w_nihon); countries also keep `destination` (so 〜に行きたいです works) but not `place`.
+- `language` on the 7 new languages and on the existing 日本語/英語.
+- `clothing` on 15 clothes words + 着物/浴衣. Clothing items also carry `shop_item` (so 〜をください / 〜を買いたいです work), except 服 (服をください is unnatural).
+- New `obj`: 洗う, 脱ぐ, 試着する → clothing; 教える, 習う, 覚える, 練習する → language; 手伝う, 迎える, 連れて行く, 招待する → person; 頼む → orderable (gloss "order"); 注文する → food, drink. Added to existing verbs: 待つ → person, 話す/勉強する/書く → language.
+- Deliberately no `obj`: 着る/履く/かぶる (the clothing tag does not say which body part; the links explain 着る vs 履く vs かぶる instead), 貸す/借りる/返す/なくす/忘れる/探す/直す/運ぶ (the `thing` tag mixes 傘 and 鍵 with 冷蔵庫, 非常食 and 履歴書, producing odd sentences).
+
+### Contrast links (both directions)
+
+Transitive/intransitive pairs: 開ける/開く, 閉める/閉まる, 始める/始まる, 止める/止まる, 見つける/見つかる, 壊す/壊れる. Opposites: 貸す/借りる, 教える/習う, 覚える/忘れる, 売る/買う, あげる/もらう, 座る/立つ, 間に合う/遅れる, つける/消す, 着る/脱ぐ, 落とす/拾う, 壊す/直す, 早い/遅い, 重い/軽い, 明るい/暗い, 多い/少ない, 便利/不便, 高い/低い, きれい/汚い, 嬉しい/悲しい, きつい/緩い, 派手/地味. Usage: 着る/履く, 着る/かぶる, 上手/得意, 下手/苦手, 好き/大好き, たぶん/きっと, あまり/全然, いつも/よく/時々, どれ/どの, どう/どうやって, 遅れる/遅刻する, 頼む/注文する. Same sound: 取る/撮る, 止まる/泊まる, 暑い/熱い, 早い/速い. Family: 父/お父さん, 母/お母さん, 兄/お兄さん, 姉/お姉さん, 弟/弟さん, 妹/妹さん, 妻/奥さん, 夫/ご主人, 子供/お子さん. Countries ↔ languages. Sightseeing: お寺/神社, 神社/鳥居, 拝観料/入場料, お参り/参拝, 旅館/ホテル, 庭/庭園, 観光案内所/案内所. Verb ↔ noun: 掃除する/掃除, 料理する/料理, 洗濯する/洗濯, 予約する/予約, 電話する/電話, 約束する/約束, 引っ越す/引っ越し.
+
+No synonym groups were added: none of the new pairs is freely interchangeable (頼む/注文する, 上着/ジャケット, とても/すごく differ in register or scope).
+
+### Milestones added
+
+`m_small_talk`, `m_invite_friend`, `m_family_talk`, `m_clothes_shopping`, `m_temple_visit`, `m_phone_call`.
+
+### Quarantined (9)
+
+| id | text | reason |
+|---|---|---|
+| v_kureru | くれる | JMdict class "Ichidan verb - kureru special class"; the engine would generate the wrong imperative (くれろ) |
+| ct_soku | 〜足 | 足 reads あし in the common entry; the counter reading そく is rejected as non-primary |
+| ss_saisen | お賽銭 | JMdict has only 賽銭 |
+| sh_x_henpin_dekimasuka | 返品できますか | no exact evidence |
+| sh_x_koukan_dekimasuka | 交換できますか | no exact evidence |
+| sh_x_hoka_no_iro | ほかの色はありますか | no exact evidence |
+| ss_x_haikanryou_ikura | 拝観料はいくらですか | no exact evidence; 入場料はいくらですか is served |
+| fr_x_zehi_ikitai | ぜひ行きたいです | no exact evidence |
+| fr_x_sono_hi_chotto | その日はちょっと… | no exact evidence |
+
+### For the engine owner
+
+- Patterns could now use the new tags: `g_kara_kimashita` 「【場所】から来ました」 and `g_ni_sundeimasu` (slot tag `country`), a 「Nができます」 / 「Nを勉強しています」 pattern (slot tag `language`), and `g_o_tai` would gain 日本語を教えたい/習いたい if its N slot accepted `language` (the `obj` is already there). `person` objects (友達を手伝う) likewise need a slot that accepts `person`.
+- くれる needs a `kureru` verb class (imperative くれ) before it can be served.
+- English prompts: "Say you want to wash hat." — articles are missing for countable nouns in `englishFor`.
+
+### Scripts
+
+In the scratchpad `js/` directory: candidates `candD.js` (+ `fixD.js`), overrides/phrases/links `extraD.js`, example selection `exselD.js` → `exD.js` (lister `exlistD.js`), phrase romaji `romajiD.js`, build `buildD.js --write`, topics/milestones `metaD.js`, quarantine `quarD.js`, CRLF restore `eol.js`.
+
+---
+
 ## Update 2026-10-23: clinic, weather, disaster, services; Kyoto rubbish; counters
 
 The curriculum now has **1135 verified items in 24 topic files** (881 before). 26 items are in `data/quarantine.json` (22 before).

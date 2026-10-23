@@ -630,6 +630,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "co_gaikoku",
+     "rel": "foreign country"
+    }
    ]
   },
   {
@@ -760,6 +766,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "fa_ryoushin",
+     "rel": "parents"
+    }
    ]
   },
   {
@@ -773,7 +785,8 @@
    "topic": "intro",
    "tags": [
     "place",
-    "destination"
+    "destination",
+    "country"
    ],
    "tier": 1,
    "use": "say",
@@ -1514,6 +1527,4245 @@
      "activity": 1,
      "entry": "～から来ました【～からきました】 came　from ～",
      "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_umareru",
+   "jp": "生まれる",
+   "kana": "うまれる",
+   "romaji": "umareru",
+   "en": "to be born",
+   "gloss": "to be born",
+   "pos": "verb",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "京都生まれです。",
+     "en": "I was born in Kyoto.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13136009,
+      "url": "https://tatoeba.org/en/sentences/show/13136009",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "京都生まれです。",
+      "translation": "I was born in Kyoto."
+     }
+    },
+    {
+     "jp": "韓国生まれです。",
+     "en": "I was born in Korea.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12593261,
+      "url": "https://tatoeba.org/en/sentences/show/12593261",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "韓国生まれです。",
+      "translation": "I was born in Korea."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 1,
+     "entry": "生まれる【うまれる】 to be born",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "生まれる",
+     "matched": "生まれる【うまれる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to be born"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_kekkonsuru",
+   "jp": "結婚する",
+   "kana": "けっこんする",
+   "romaji": "kekkonsuru",
+   "en": "to marry; to get married; marriage",
+   "gloss": "to marry",
+   "pos": "verb",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "結婚するの？",
+     "en": "Are you getting married?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8697567,
+      "url": "https://tatoeba.org/en/sentences/show/8697567",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "結婚するの？",
+      "translation": "Are you getting married?"
+     }
+    },
+    {
+     "jp": "結婚して何年？",
+     "en": "How many years have you been married?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12383490,
+      "url": "https://tatoeba.org/en/sentences/show/12383490",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "結婚して何年？",
+      "translation": "How many years have you been married?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 1,
+     "entry": "結婚（する）【けっこん（する）】 (to) marry",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L18",
+     "activity": 1,
+     "entry": "結婚する【けっこんする】 to marry / to get married",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "結婚する",
+     "matched": "結婚【けっこん】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "marriage",
+      "Marriage"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "q_nansai",
+   "jp": "何歳",
+   "kana": "なんさい",
+   "romaji": "nansai",
+   "en": "how old; what age",
+   "gloss": "how old",
+   "pos": "question",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "お母さんは何歳？",
+     "en": "How old is Mom?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13226023,
+      "url": "https://tatoeba.org/en/sentences/show/13226023",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お母さんは何歳？",
+      "translation": "How old is Mom?"
+     }
+    },
+    {
+     "jp": "何歳なの？",
+     "en": "How old are you?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12891329,
+      "url": "https://tatoeba.org/en/sentences/show/12891329",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何歳なの？",
+      "translation": "How old are you?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 2,
+     "entry": "何歳【なんさい】 how old",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何歳",
+     "matched": "何歳【なんさい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "how old; what age"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "q_nannin",
+   "jp": "何人",
+   "kana": "なんにん",
+   "romaji": "nannin",
+   "en": "how many people",
+   "gloss": "how many people",
+   "pos": "question",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "何人ですか。",
+     "en": "How many people?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 187378,
+      "url": "https://tatoeba.org/en/sentences/show/187378",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何人ですか。",
+      "translation": "How many people?"
+     }
+    },
+    {
+     "jp": "何人兄弟なの？",
+     "en": "How many brothers and sisters do you have?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8791917,
+      "url": "https://tatoeba.org/en/sentences/show/8791917",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何人兄弟なの？",
+      "translation": "How many brothers and sisters do you have?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L2",
+     "activity": 3,
+     "entry": "何人【なんにん】 how many people / persons",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何人",
+     "matched": "何人【なんにん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "how many people; a number of people"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "fa_chichi",
+   "jp": "父",
+   "kana": "ちち",
+   "romaji": "chichi",
+   "en": "(my) father",
+   "gloss": "(my) father",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "note": "Your own father when talking to others (humble). Someone else's father: お父さん.",
+   "examples": [
+    {
+     "jp": "父は先生です。",
+     "en": "My father is a teacher.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10901727,
+      "url": "https://tatoeba.org/en/sentences/show/10901727",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "父は先生です。",
+      "translation": "My father is a teacher."
+     }
+    },
+    {
+     "jp": "父が来ます。",
+     "en": "My father is coming.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11940207,
+      "url": "https://tatoeba.org/en/sentences/show/11940207",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "父が来ます。",
+      "translation": "My father is coming."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "父【ちち】 (my) father",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "父",
+     "matched": "父【ちち】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "father",
+      "father (e.g. of a discipline); pioneer (e.g. of field of research); founder",
+      "God; Father"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_otousan",
+     "rel": "someone else's father"
+    }
+   ]
+  },
+  {
+   "id": "fa_haha",
+   "jp": "母",
+   "kana": "はは",
+   "romaji": "haha",
+   "en": "(my) mother",
+   "gloss": "(my) mother",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "note": "Your own mother when talking to others (humble). Someone else's mother: お母さん.",
+   "examples": [
+    {
+     "jp": "母は留守です。",
+     "en": "Mother is away from home.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 82839,
+      "url": "https://tatoeba.org/en/sentences/show/82839",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "母は留守です。",
+      "translation": "Mother is away from home."
+     }
+    },
+    {
+     "jp": "母似です。",
+     "en": "I resemble my mother.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11241490,
+      "url": "https://tatoeba.org/en/sentences/show/11241490",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "母似です。",
+      "translation": "I resemble my mother."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "母【はは】 (my) mother",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "母",
+     "matched": "母【はは】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "mother"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_okaasan",
+     "rel": "someone else's mother"
+    }
+   ]
+  },
+  {
+   "id": "fa_ani",
+   "jp": "兄",
+   "kana": "あに",
+   "romaji": "ani",
+   "en": "(my) older brother",
+   "gloss": "(my) older brother",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "note": "Your own older brother when talking to others (humble). Someone else's older brother: お兄さん.",
+   "examples": [
+    {
+     "jp": "兄がいます。",
+     "en": "I have an older brother.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 176635,
+      "url": "https://tatoeba.org/en/sentences/show/176635",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "兄がいます。",
+      "translation": "I have an older brother."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "兄【あに】 (my) elder brother",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "兄",
+     "matched": "兄【あに】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "older brother; elder brother",
+      "brother-in-law (spouse's older brother or older sister's husband)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_oniisan",
+     "rel": "someone else's older brother"
+    },
+    {
+     "id": "fa_kyoudai",
+     "rel": "all siblings"
+    }
+   ]
+  },
+  {
+   "id": "fa_ane",
+   "jp": "姉",
+   "kana": "あね",
+   "romaji": "ane",
+   "en": "(my) older sister",
+   "gloss": "(my) older sister",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "note": "Your own older sister when talking to others (humble). Someone else's older sister: お姉さん.",
+   "examples": [
+    {
+     "jp": "姉は大学生です。",
+     "en": "My sister is in college.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10778223,
+      "url": "https://tatoeba.org/en/sentences/show/10778223",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "姉は大学生です。",
+      "translation": "My sister is in college."
+     }
+    },
+    {
+     "jp": "姉と弟がいます。",
+     "en": "I have a sister and a brother.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11047968,
+      "url": "https://tatoeba.org/en/sentences/show/11047968",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "姉と弟がいます。",
+      "translation": "I have a sister and a brother."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "姉【あね】 (my) elder sister",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "姉",
+     "matched": "姉【あね】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "older sister; elder sister",
+      "Ane"
+     ],
+     "pos": [
+      "Noun",
+      "Place"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_oneesan",
+     "rel": "someone else's older sister"
+    }
+   ]
+  },
+  {
+   "id": "fa_otouto",
+   "jp": "弟",
+   "kana": "おとうと",
+   "romaji": "otōto",
+   "en": "(my) younger brother",
+   "gloss": "(my) younger brother",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "note": "Your own younger brother when talking to others (humble). Someone else's younger brother: 弟さん.",
+   "examples": [
+    {
+     "jp": "弟見なかった？",
+     "en": "Did you see my younger brother?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10023271,
+      "url": "https://tatoeba.org/en/sentences/show/10023271",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "弟見なかった？",
+      "translation": "Did you see my younger brother?"
+     }
+    },
+    {
+     "jp": "弟の名前は？",
+     "en": "What's your younger brother's name?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9486032,
+      "url": "https://tatoeba.org/en/sentences/show/9486032",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "弟の名前は？",
+      "translation": "What's your younger brother's name?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "弟【おとうと】 (my) younger brother",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "弟",
+     "matched": "弟【おとうと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "younger brother; little brother; kid brother",
+      "brother-in-law (spouse's younger brother or younger sister's husband)",
+      "pupil; apprentice"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_otoutosan",
+     "rel": "someone else's younger brother"
+    }
+   ]
+  },
+  {
+   "id": "fa_imouto",
+   "jp": "妹",
+   "kana": "いもうと",
+   "romaji": "imōto",
+   "en": "(my) younger sister",
+   "gloss": "(my) younger sister",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "note": "Your own younger sister when talking to others (humble). Someone else's younger sister: 妹さん.",
+   "examples": [
+    {
+     "jp": "妹が三人いる。",
+     "en": "I have three younger sisters.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 6705562,
+      "url": "https://tatoeba.org/en/sentences/show/6705562",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "妹が三人いる。",
+      "translation": "I have three younger sisters."
+     }
+    },
+    {
+     "jp": "妹は美人だ。",
+     "en": "My sister is pretty.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4521322,
+      "url": "https://tatoeba.org/en/sentences/show/4521322",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "妹は美人だ。",
+      "translation": "My sister is pretty."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "妹【いもうと】 (my) younger sister",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "妹",
+     "matched": "妹【いもうと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "younger sister"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_imoutosan",
+     "rel": "someone else's younger sister"
+    }
+   ]
+  },
+  {
+   "id": "fa_otto",
+   "jp": "夫",
+   "kana": "おっと",
+   "romaji": "otto",
+   "en": "(my) husband",
+   "gloss": "(my) husband",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "note": "Your own husband when talking to others (humble). Someone else's husband: ご主人.",
+   "examples": [
+    {
+     "jp": "夫です。",
+     "en": "He is my husband.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13260811,
+      "url": "https://tatoeba.org/en/sentences/show/13260811",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "夫です。",
+      "translation": "He is my husband."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "夫【おっと】 (my) husband",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "夫",
+     "matched": "夫【おっと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "husband"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_goshujin",
+     "rel": "someone else's husband"
+    },
+    {
+     "id": "fa_tsuma",
+     "rel": "wife"
+    }
+   ]
+  },
+  {
+   "id": "fa_tsuma",
+   "jp": "妻",
+   "kana": "つま",
+   "romaji": "tsuma",
+   "en": "(my) wife",
+   "gloss": "(my) wife",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "note": "Your own wife when talking to others (humble). Someone else's wife: 奥さん.",
+   "examples": [
+    {
+     "jp": "彼女は私の妻だ。",
+     "en": "She's my wife.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2656884,
+      "url": "https://tatoeba.org/en/sentences/show/2656884",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "彼女は私の妻だ。",
+      "translation": "She's my wife."
+     }
+    },
+    {
+     "jp": "妻は潔癖症だ。",
+     "en": "My wife is obsessed with cleanliness.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2250547,
+      "url": "https://tatoeba.org/en/sentences/show/2250547",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "妻は潔癖症だ。",
+      "translation": "My wife is obsessed with cleanliness."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 1,
+     "entry": "妻【つま】 (my) wife",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "妻",
+     "matched": "妻【つま】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "wife",
+      "garnish (esp. one served with sashimi); trimmings",
+      "accompaniment; side (remark)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_okusan",
+     "rel": "someone else's wife"
+    },
+    {
+     "id": "fa_otto",
+     "rel": "husband"
+    }
+   ]
+  },
+  {
+   "id": "fa_kodomo",
+   "jp": "子供",
+   "kana": "こども",
+   "romaji": "kodomo",
+   "en": "child; children",
+   "gloss": "child",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "note": "Also written 子ども (Irodori, many official documents). Someone else's child: お子さん.",
+   "accept": [
+    "子ども"
+   ],
+   "examples": [
+    {
+     "jp": "子供が欲しい？",
+     "en": "Do you want children?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2040863,
+      "url": "https://tatoeba.org/en/sentences/show/2040863",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "子供が欲しい？",
+      "translation": "Do you want children?"
+     }
+    },
+    {
+     "jp": "子供たちは元気？",
+     "en": "How are the kids?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 168732,
+      "url": "https://tatoeba.org/en/sentences/show/168732",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "子供たちは元気？",
+      "translation": "How are the kids?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "子供",
+     "matched": "子供【こども】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "child; children",
+      "Child"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_okosan",
+     "rel": "someone else's child"
+    }
+   ]
+  },
+  {
+   "id": "fa_ryoushin",
+   "jp": "両親",
+   "kana": "りょうしん",
+   "romaji": "ryōshin",
+   "en": "parents",
+   "gloss": "parents",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "ご両親は元気ですか。",
+     "en": "How are your parents?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1174885,
+      "url": "https://tatoeba.org/en/sentences/show/1174885",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ご両親は元気ですか。",
+      "translation": "How are your parents?"
+     }
+    },
+    {
+     "jp": "両親に電話して。",
+     "en": "Call your parents.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10917251,
+      "url": "https://tatoeba.org/en/sentences/show/10917251",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "両親に電話して。",
+      "translation": "Call your parents."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 3,
+     "entry": "両親【りょうしん】 parents",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "両親",
+     "matched": "両親【りょうしん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "parents; both parents"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_kazoku",
+     "rel": "the whole family"
+    }
+   ]
+  },
+  {
+   "id": "fa_musuko",
+   "jp": "息子",
+   "kana": "むすこ",
+   "romaji": "musuko",
+   "en": "son",
+   "gloss": "son",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "息子は５歳です。",
+     "en": "My son is five years old.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11052356,
+      "url": "https://tatoeba.org/en/sentences/show/11052356",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "息子は５歳です。",
+      "translation": "My son is five years old."
+     }
+    },
+    {
+     "jp": "私の息子です。",
+     "en": "He's my son.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13259270,
+      "url": "https://tatoeba.org/en/sentences/show/13259270",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私の息子です。",
+      "translation": "He's my son."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 1,
+     "entry": "息子【むすこ】 son",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "息子",
+     "matched": "息子【むすこ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "son",
+      "penis",
+      "Son"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_musume",
+     "rel": "daughter"
+    }
+   ]
+  },
+  {
+   "id": "fa_musume",
+   "jp": "娘",
+   "kana": "むすめ",
+   "romaji": "musume",
+   "en": "daughter",
+   "gloss": "daughter",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "私の娘です。",
+     "en": "She is my daughter.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13259286,
+      "url": "https://tatoeba.org/en/sentences/show/13259286",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私の娘です。",
+      "translation": "She is my daughter."
+     }
+    },
+    {
+     "jp": "娘が大好きだ。",
+     "en": "I love my daughter.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8625655,
+      "url": "https://tatoeba.org/en/sentences/show/8625655",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "娘が大好きだ。",
+      "translation": "I love my daughter."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L2",
+     "activity": 3,
+     "entry": "娘【むすめ】 daughter",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "娘",
+     "matched": "娘【むすめ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "daughter",
+      "girl (i.e. a young, unmarried woman)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_musuko",
+     "rel": "son"
+    }
+   ]
+  },
+  {
+   "id": "fa_kyoudai",
+   "jp": "兄弟",
+   "kana": "きょうだい",
+   "romaji": "kyōdai",
+   "en": "siblings; brothers and sisters",
+   "gloss": "siblings",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "兄弟がいますか。",
+     "en": "Do you have any siblings?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13131850,
+      "url": "https://tatoeba.org/en/sentences/show/13131850",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "兄弟がいますか。",
+      "translation": "Do you have any siblings?"
+     }
+    },
+    {
+     "jp": "何人兄弟なの？",
+     "en": "How many brothers and sisters do you have?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8791917,
+      "url": "https://tatoeba.org/en/sentences/show/8791917",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何人兄弟なの？",
+      "translation": "How many brothers and sisters do you have?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "兄弟",
+     "matched": "兄弟【きょうだい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "brothers and sisters; siblings",
+      "half-siblings; step-siblings; siblings by marriage or adoption",
+      "mate; friend"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_ani",
+     "rel": "older brother"
+    }
+   ]
+  },
+  {
+   "id": "fa_otousan",
+   "jp": "お父さん",
+   "kana": "おとうさん",
+   "romaji": "otōsan",
+   "en": "father (someone else's; also addressing one's own)",
+   "gloss": "father (someone else's",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "note": "Someone else's father, or addressing your own. Talking about your own father to others: 父.",
+   "examples": [
+    {
+     "jp": "お父さんはどこ？",
+     "en": "Where is your father?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10144909,
+      "url": "https://tatoeba.org/en/sentences/show/10144909",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お父さんはどこ？",
+      "translation": "Where is your father?"
+     }
+    },
+    {
+     "jp": "お父さんのお名前は？",
+     "en": "What is your father's name?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11563425,
+      "url": "https://tatoeba.org/en/sentences/show/11563425",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お父さんのお名前は？",
+      "translation": "What is your father's name?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 3,
+     "entry": "お父さん【おとうさん】 (someone else's) father",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お父さん",
+     "matched": "お父さん【おとうさん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "father; dad; papa; pa; pop; daddy; dada",
+      "husband",
+      "you (of an elderly person older than the speaker); he; him"
+     ],
+     "pos": [
+      "Noun",
+      "Pronoun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_chichi",
+     "rel": "my father"
+    }
+   ]
+  },
+  {
+   "id": "fa_okaasan",
+   "jp": "お母さん",
+   "kana": "おかあさん",
+   "romaji": "okaasan",
+   "en": "mother (someone else's; also addressing one's own)",
+   "gloss": "mother (someone else's",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "note": "Someone else's mother, or addressing your own. Talking about your own mother to others: 母.",
+   "examples": [
+    {
+     "jp": "お母さん、家にいる？",
+     "en": "Is your mother at home?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13237606,
+      "url": "https://tatoeba.org/en/sentences/show/13237606",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お母さん、家にいる？",
+      "translation": "Is your mother at home?"
+     }
+    },
+    {
+     "jp": "お母さんはどこ？",
+     "en": "Where is mother?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 226610,
+      "url": "https://tatoeba.org/en/sentences/show/226610",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お母さんはどこ？",
+      "translation": "Where is mother?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 3,
+     "entry": "お母さん【おかあさん】 (someone else's) mother",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お母さん",
+     "matched": "お母さん【おかあさん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "mother; mom; mum; ma",
+      "wife",
+      "you (of an elderly person older than the speaker); she; her"
+     ],
+     "pos": [
+      "Noun",
+      "Pronoun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_haha",
+     "rel": "my mother"
+    }
+   ]
+  },
+  {
+   "id": "fa_oniisan",
+   "jp": "お兄さん",
+   "kana": "おにいさん",
+   "romaji": "oniisan",
+   "en": "older brother (someone else's)",
+   "gloss": "older brother",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "お兄さんは何歳ですか？",
+     "en": "How old is your brother?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11140874,
+      "url": "https://tatoeba.org/en/sentences/show/11140874",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お兄さんは何歳ですか？",
+      "translation": "How old is your brother?"
+     }
+    },
+    {
+     "jp": "お兄さん連れてきてね。",
+     "en": "Bring your brother.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10213411,
+      "url": "https://tatoeba.org/en/sentences/show/10213411",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お兄さん連れてきてね。",
+      "translation": "Bring your brother."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 3,
+     "entry": "お兄さん【おにいさん】 (someone else's) elder brother",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お兄さん",
+     "matched": "お兄さん【おにいさん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "older brother; elder brother",
+      "young man; buddy; fella; laddie"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_ani",
+     "rel": "my older brother"
+    }
+   ]
+  },
+  {
+   "id": "fa_oneesan",
+   "jp": "お姉さん",
+   "kana": "おねえさん",
+   "romaji": "oneesan",
+   "en": "older sister (someone else's)",
+   "gloss": "older sister",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "お姉さんによろしくね。",
+     "en": "Say hello to your sister for me.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 168930,
+      "url": "https://tatoeba.org/en/sentences/show/168930",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お姉さんによろしくね。",
+      "translation": "Say hello to your sister for me."
+     }
+    },
+    {
+     "jp": "お姉さんに会いたいです。",
+     "en": "I want to meet your older sister.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8723797,
+      "url": "https://tatoeba.org/en/sentences/show/8723797",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お姉さんに会いたいです。",
+      "translation": "I want to meet your older sister."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 3,
+     "entry": "お姉さん【おねえさん】 (someone else's) elder sister",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お姉さん",
+     "matched": "お姉さん【おねえさん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "older sister; elder sister",
+      "young lady",
+      "miss",
+      "ma'am"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_ane",
+     "rel": "my older sister"
+    }
+   ]
+  },
+  {
+   "id": "fa_otoutosan",
+   "jp": "弟さん",
+   "kana": "おとうとさん",
+   "romaji": "otōtosan",
+   "en": "younger brother (someone else's)",
+   "gloss": "younger brother",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 3,
+     "entry": "弟さん【おとうとさん】 (someone else's) younger brother",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "弟さん",
+     "matched": "弟さん【おとうとさん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "younger brother"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_otouto",
+     "rel": "my younger brother"
+    }
+   ]
+  },
+  {
+   "id": "fa_imoutosan",
+   "jp": "妹さん",
+   "kana": "いもうとさん",
+   "romaji": "imōtosan",
+   "en": "younger sister (someone else's)",
+   "gloss": "younger sister",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 3,
+     "entry": "妹さん【いもうとさん】 (someone else's) younger sister",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "妹さん",
+     "matched": "妹さん【いもうとさん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "younger sister"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_imouto",
+     "rel": "my younger sister"
+    }
+   ]
+  },
+  {
+   "id": "fa_okusan",
+   "jp": "奥さん",
+   "kana": "おくさん",
+   "romaji": "okusan",
+   "en": "wife (someone else's)",
+   "gloss": "wife",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "奥さんはお元気？",
+     "en": "How is the wife?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 188552,
+      "url": "https://tatoeba.org/en/sentences/show/188552",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "奥さんはお元気？",
+      "translation": "How is the wife?"
+     }
+    },
+    {
+     "jp": "彼の奥さんはどんな人？",
+     "en": "What is his wife like?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 118033,
+      "url": "https://tatoeba.org/en/sentences/show/118033",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "彼の奥さんはどんな人？",
+      "translation": "What is his wife like?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 1,
+     "entry": "奥さん【おくさん】 wife",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "奥さん",
+     "matched": "奥さん【おくさん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "wife; your wife; his wife; married lady; madam"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_tsuma",
+     "rel": "my wife"
+    }
+   ]
+  },
+  {
+   "id": "fa_goshujin",
+   "jp": "ご主人",
+   "kana": "ごしゅじん",
+   "romaji": "goshujin",
+   "en": "husband (someone else's)",
+   "gloss": "husband",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "ご主人もボストンの出身なんですか？",
+     "en": "Is your husband also from Boston?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8762223,
+      "url": "https://tatoeba.org/en/sentences/show/8762223",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ご主人もボストンの出身なんですか？",
+      "translation": "Is your husband also from Boston?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ご主人",
+     "matched": "ご主人【ごしゅじん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "your husband; her husband"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_otto",
+     "rel": "my husband"
+    }
+   ]
+  },
+  {
+   "id": "fa_okosan",
+   "jp": "お子さん",
+   "kana": "おこさん",
+   "romaji": "okosan",
+   "en": "child (someone else's)",
+   "gloss": "child",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "お子さんのお名前は？",
+     "en": "What is your child's name?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10701774,
+      "url": "https://tatoeba.org/en/sentences/show/10701774",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お子さんのお名前は？",
+      "translation": "What is your child's name?"
+     }
+    },
+    {
+     "jp": "お子さんはおいくつですか？",
+     "en": "How old are your children?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3574891,
+      "url": "https://tatoeba.org/en/sentences/show/3574891",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お子さんはおいくつですか？",
+      "translation": "How old are your children?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L2",
+     "activity": 2,
+     "entry": "お子さん【おこさん】 (your) child",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 3,
+     "entry": "お子さん【おこさん】 (someone else's) child",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お子さん",
+     "matched": "お子さん【おこさん】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "child"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "fa_kodomo",
+     "rel": "child (own, general)"
+    }
+   ]
+  },
+  {
+   "id": "fa_ojiisan",
+   "jp": "おじいさん",
+   "kana": "おじいさん",
+   "romaji": "ojiisan",
+   "en": "grandfather; old man",
+   "gloss": "grandfather",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 3,
+     "entry": "おじいさん【おじいさん】 old male",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "おじいさん",
+     "matched": "お祖父さん【おじいさん】 (written in kana: おじいさん)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "grandfather",
+      "male senior-citizen; old man"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "fa_obaasan",
+   "jp": "おばあさん",
+   "kana": "おばあさん",
+   "romaji": "obaasan",
+   "en": "grandmother; old woman",
+   "gloss": "grandmother",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "おばあさん",
+     "matched": "お祖母さん【おばあさん】 (written in kana: おばあさん)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "grandmother",
+      "old woman; female senior citizen"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "fa_akachan",
+   "jp": "赤ちゃん",
+   "kana": "あかちゃん",
+   "romaji": "akachan",
+   "en": "baby",
+   "gloss": "baby",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 2,
+     "entry": "赤ちゃん【あかちゃん】 baby",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "赤ちゃん",
+     "matched": "赤ちゃん【あかちゃん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "baby; infant",
+      "Infant"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "fa_koibito",
+   "jp": "恋人",
+   "kana": "こいびと",
+   "romaji": "koibito",
+   "en": "boyfriend; girlfriend; partner",
+   "gloss": "boyfriend",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 3,
+     "entry": "恋人【こいびと】 boyfriend / girlfriend",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 2,
+     "entry": "恋人【こいびと】 boyfriend / girlfriend",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "恋人",
+     "matched": "恋人【こいびと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "lover; sweetheart; boyfriend; girlfriend",
+      "Significant other"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ct_sai",
+   "jp": "〜歳",
+   "kana": "〜さい",
+   "romaji": "〜sai",
+   "en": "~ years old (counter for age)",
+   "gloss": "~ years old",
+   "pos": "counter",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "note": "Sound changes: 1歳 いっさい, 8歳 はっさい, 10歳 じゅっさい. 20歳 is often read はたち (Irodori 入門 L4).",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 2,
+     "entry": "～歳【～さい】 ～ years old",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "歳",
+     "matched": "歳【さい】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "... years old; age (of) ..."
+     ],
+     "pos": [
+      "Counter"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_amerika",
+   "jp": "アメリカ",
+   "kana": "アメリカ",
+   "romaji": "amerika",
+   "en": "America; the United States",
+   "gloss": "America",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "アメリカ出身です。",
+     "en": "I'm from the United States.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10838415,
+      "url": "https://tatoeba.org/en/sentences/show/10838415",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "アメリカ出身です。",
+      "translation": "I'm from the United States."
+     }
+    },
+    {
+     "jp": "アメリカに住んでる。",
+     "en": "I live in America.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13126481,
+      "url": "https://tatoeba.org/en/sentences/show/13126481",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "アメリカに住んでる。",
+      "translation": "I live in America."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "アメリカ",
+     "matched": "亜米利加【アメリカ】 (written in kana: アメリカ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "(United States of) America; United States; US; USA",
+      "America (land mass); the Americas",
+      "America"
+     ],
+     "pos": [
+      "Noun",
+      "Place"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_igirisu",
+   "jp": "イギリス",
+   "kana": "イギリス",
+   "romaji": "igirisu",
+   "en": "the United Kingdom; Britain",
+   "gloss": "the United Kingdom",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "イギリスから来ました。",
+     "en": "I come from England.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 229265,
+      "url": "https://tatoeba.org/en/sentences/show/229265",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "イギリスから来ました。",
+      "translation": "I come from England."
+     }
+    },
+    {
+     "jp": "イギリスは島です。",
+     "en": "Britain is an island.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9106981,
+      "url": "https://tatoeba.org/en/sentences/show/9106981",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "イギリスは島です。",
+      "translation": "Britain is an island."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "イギリス",
+     "matched": "英吉利【イギリス】 (written in kana: イギリス)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "United Kingdom; UK; Britain; Great Britain",
+      "England"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_furansu",
+   "jp": "フランス",
+   "kana": "フランス",
+   "romaji": "furansu",
+   "en": "France",
+   "gloss": "France",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "フランス",
+     "matched": "仏蘭西【フランス】 (written in kana: フランス)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "France"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "lg_furansugo",
+     "rel": "language"
+    }
+   ]
+  },
+  {
+   "id": "co_doitsu",
+   "jp": "ドイツ",
+   "kana": "ドイツ",
+   "romaji": "doitsu",
+   "en": "Germany",
+   "gloss": "Germany",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "ドイツに飛びます。",
+     "en": "I'll be flying to Germany.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11286127,
+      "url": "https://tatoeba.org/en/sentences/show/11286127",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ドイツに飛びます。",
+      "translation": "I'll be flying to Germany."
+     }
+    },
+    {
+     "jp": "ドイツで働いてたの？",
+     "en": "Did you work in Germany?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11563879,
+      "url": "https://tatoeba.org/en/sentences/show/11563879",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ドイツで働いてたの？",
+      "translation": "Did you work in Germany?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ドイツ",
+     "matched": "独逸【ドイツ】 (written in kana: ドイツ)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Germany"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "lg_doitsugo",
+     "rel": "language"
+    }
+   ]
+  },
+  {
+   "id": "co_itaria",
+   "jp": "イタリア",
+   "kana": "イタリア",
+   "romaji": "itaria",
+   "en": "Italy",
+   "gloss": "Italy",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "イタリア",
+     "matched": "伊太利【イタリア】 (written in kana: イタリア)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Italy"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_supein",
+   "jp": "スペイン",
+   "kana": "スペイン",
+   "romaji": "supein",
+   "en": "Spain",
+   "gloss": "Spain",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "スペイン",
+     "matched": "西班牙【スペイン】 (written in kana: スペイン)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Spain"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "lg_supeingo",
+     "rel": "language"
+    }
+   ]
+  },
+  {
+   "id": "co_chuugoku",
+   "jp": "中国",
+   "kana": "ちゅうごく",
+   "romaji": "chūgoku",
+   "en": "China",
+   "gloss": "China",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "中国に行きたいな。",
+     "en": "I want to go to China.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9106957,
+      "url": "https://tatoeba.org/en/sentences/show/9106957",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "中国に行きたいな。",
+      "translation": "I want to go to China."
+     }
+    },
+    {
+     "jp": "中国が好きだ。",
+     "en": "I like China.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1483651,
+      "url": "https://tatoeba.org/en/sentences/show/1483651",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "中国が好きだ。",
+      "translation": "I like China."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L4",
+     "activity": 4,
+     "entry": "中国【ちゅうごく】 China",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "中国",
+     "matched": "中国【ちゅうごく】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "China",
+      "Chūgoku region (western part of Honshu comprising the prefectures of Okayama, Hiroshima, Yamaguchi, Tottori and Shimane)",
+      "central part of a country; main region",
+      "province of the second lowest rank (ritsuryō system)"
+     ],
+     "pos": [
+      "Noun",
+      "Place"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "lg_chuugokugo",
+     "rel": "language"
+    }
+   ]
+  },
+  {
+   "id": "co_kankoku",
+   "jp": "韓国",
+   "kana": "かんこく",
+   "romaji": "kankoku",
+   "en": "South Korea",
+   "gloss": "South Korea",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "韓国で生まれました。",
+     "en": "I was born in Korea.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12593262,
+      "url": "https://tatoeba.org/en/sentences/show/12593262",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "韓国で生まれました。",
+      "translation": "I was born in Korea."
+     }
+    },
+    {
+     "jp": "韓国ドラマを見る？",
+     "en": "Do you watch Korean dramas?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13254159,
+      "url": "https://tatoeba.org/en/sentences/show/13254159",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "韓国ドラマを見る？",
+      "translation": "Do you watch Korean dramas?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "韓国【かんこく】 South Korea",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "韓国",
+     "matched": "韓国【かんこく】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "South Korea; Republic of Korea",
+      "Korean Empire (1897-1910)",
+      "Kankoku"
+     ],
+     "pos": [
+      "Noun",
+      "Place"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "lg_kankokugo",
+     "rel": "language"
+    }
+   ]
+  },
+  {
+   "id": "co_taiwan",
+   "jp": "台湾",
+   "kana": "たいわん",
+   "romaji": "taiwan",
+   "en": "Taiwan",
+   "gloss": "Taiwan",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "台湾の夏は、蒸し暑いものだ。",
+     "en": "Summers in Taiwan are sweltering.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8868901,
+      "url": "https://tatoeba.org/en/sentences/show/8868901",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "台湾の夏は、蒸し暑いものだ。",
+      "translation": "Summers in Taiwan are sweltering."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "台湾",
+     "matched": "台湾【たいわん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Taiwan",
+      "Taiwan"
+     ],
+     "pos": [
+      "Noun",
+      "Place"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_betonamu",
+   "jp": "ベトナム",
+   "kana": "ベトナム",
+   "romaji": "betonamu",
+   "en": "Vietnam",
+   "gloss": "Vietnam",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "examples": [
+    {
+     "jp": "バインミーはベトナムのサンドイッチだ。",
+     "en": "Banh Mi are Vietnamese sandwiches.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 6628153,
+      "url": "https://tatoeba.org/en/sentences/show/6628153",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "バインミーはベトナムのサンドイッチだ。",
+      "translation": "Banh Mi are Vietnamese sandwiches."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 3,
+     "entry": "ベトナム【ベトナム】 Vietnam",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ベトナム",
+     "matched": "【ベトナム】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "Vietnam",
+      "Viet Nam"
+     ],
+     "pos": [
+      "Noun",
+      "Place"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "lg_betonamugo",
+     "rel": "language"
+    }
+   ]
+  },
+  {
+   "id": "co_firipin",
+   "jp": "フィリピン",
+   "kana": "フィリピン",
+   "romaji": "firipin",
+   "en": "the Philippines",
+   "gloss": "the Philippines",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L4",
+     "activity": 2,
+     "entry": "フィリピン【フィリピン】 the Philippines",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 2,
+     "entry": "フィリピン【フィリピン】 the Philippines",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "フィリピン",
+     "matched": "比律賓【フィリピン】 (written in kana: フィリピン)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Philippines"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_indoneshia",
+   "jp": "インドネシア",
+   "kana": "インドネシア",
+   "romaji": "indoneshia",
+   "en": "Indonesia",
+   "gloss": "Indonesia",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 2,
+     "entry": "インドネシア【インドネシア】 Indonesia",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "インドネシア",
+     "matched": "印度尼西亜【インドネシア】 (written in kana: インドネシア)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Indonesia"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_tai",
+   "jp": "タイ",
+   "kana": "タイ",
+   "romaji": "tai",
+   "en": "Thailand",
+   "gloss": "Thailand",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "タイ【タイ】 Thailand",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 2,
+     "entry": "タイ【タイ】 Thailand",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "タイ",
+     "matched": "【タイ】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Thailand"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_indo",
+   "jp": "インド",
+   "kana": "インド",
+   "romaji": "indo",
+   "en": "India",
+   "gloss": "India",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "インド",
+     "matched": "印度【インド】 (written in kana: インド)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "India"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_oosutoraria",
+   "jp": "オーストラリア",
+   "kana": "オーストラリア",
+   "romaji": "ōsutoraria",
+   "en": "Australia",
+   "gloss": "Australia",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "オーストラリア",
+     "matched": "濠太剌利【オーストラリア】 (written in kana: オーストラリア)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Australia"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_kanada",
+   "jp": "カナダ",
+   "kana": "カナダ",
+   "romaji": "kanada",
+   "en": "Canada",
+   "gloss": "Canada",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "カナダ",
+     "matched": "加奈陀【カナダ】 (written in kana: カナダ)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Canada"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_burajiru",
+   "jp": "ブラジル",
+   "kana": "ブラジル",
+   "romaji": "burajiru",
+   "en": "Brazil",
+   "gloss": "Brazil",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "ブラジル【ブラジル】 Brazil",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ブラジル",
+     "matched": "伯剌西爾【ブラジル】 (written in kana: ブラジル)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Brazil"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_nepaaru",
+   "jp": "ネパール",
+   "kana": "ネパール",
+   "romaji": "nepāru",
+   "en": "Nepal",
+   "gloss": "Nepal",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "country",
+    "destination"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 2,
+     "entry": "ネパール【ネパール】 Nepal",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ネパール",
+     "matched": "【ネパール】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "Nepal",
+      "Nepal"
+     ],
+     "pos": [
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "co_gaikoku",
+   "jp": "外国",
+   "kana": "がいこく",
+   "romaji": "gaikoku",
+   "en": "foreign country; abroad",
+   "gloss": "foreign country",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "私は外国に行きたい。",
+     "en": "I want to go abroad.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 157914,
+      "url": "https://tatoeba.org/en/sentences/show/157914",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私は外国に行きたい。",
+      "translation": "I want to go abroad."
+     }
+    },
+    {
+     "jp": "外国に行く気？",
+     "en": "Do you plan to go overseas?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11753166,
+      "url": "https://tatoeba.org/en/sentences/show/11753166",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "外国に行く気？",
+      "translation": "Do you plan to go overseas?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L6",
+     "activity": 2,
+     "entry": "外国【がいこく】 foreign country",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "外国",
+     "matched": "外国【がいこく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "foreign country"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_kuni",
+     "rel": "country"
+    },
+    {
+     "id": "lg_gaikokugo",
+     "rel": "foreign language"
+    }
+   ]
+  },
+  {
+   "id": "lg_chuugokugo",
+   "jp": "中国語",
+   "kana": "ちゅうごくご",
+   "romaji": "chūgokugo",
+   "en": "Chinese (language)",
+   "gloss": "Chinese",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "language"
+   ],
+   "examples": [
+    {
+     "jp": "中国語ができますか？",
+     "en": "Do you speak Chinese?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13969906,
+      "url": "https://tatoeba.org/en/sentences/show/13969906",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "中国語ができますか？",
+      "translation": "Do you speak Chinese?"
+     }
+    },
+    {
+     "jp": "中国語を学んでいます。",
+     "en": "I am learning Chinese.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13535475,
+      "url": "https://tatoeba.org/en/sentences/show/13535475",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "中国語を学んでいます。",
+      "translation": "I am learning Chinese."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 2,
+     "entry": "中国語【ちゅうごくご】 Chinese language",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "中国語",
+     "matched": "中国語【ちゅうごくご】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Chinese (language)",
+      "Chinese language"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "co_chuugoku",
+     "rel": "country"
+    }
+   ]
+  },
+  {
+   "id": "lg_kankokugo",
+   "jp": "韓国語",
+   "kana": "かんこくご",
+   "romaji": "kankokugo",
+   "en": "Korean (language)",
+   "gloss": "Korean",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "language"
+   ],
+   "examples": [
+    {
+     "jp": "韓国語を話せます。",
+     "en": "I can speak Korean.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13174526,
+      "url": "https://tatoeba.org/en/sentences/show/13174526",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "韓国語を話せます。",
+      "translation": "I can speak Korean."
+     }
+    },
+    {
+     "jp": "韓国語はどこで学べますか？",
+     "en": "Where can I learn Korean?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9554178,
+      "url": "https://tatoeba.org/en/sentences/show/9554178",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "韓国語はどこで学べますか？",
+      "translation": "Where can I learn Korean?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "韓国語",
+     "matched": "韓国語【かんこくご】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Korean (language; esp. as spoken in South Korea)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "co_kankoku",
+     "rel": "country"
+    }
+   ]
+  },
+  {
+   "id": "lg_furansugo",
+   "jp": "フランス語",
+   "kana": "フランスご",
+   "romaji": "furansugo",
+   "en": "French (language)",
+   "gloss": "French",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "language"
+   ],
+   "examples": [
+    {
+     "jp": "フランス語は得意？",
+     "en": "Are you good at French?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8793688,
+      "url": "https://tatoeba.org/en/sentences/show/8793688",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "フランス語は得意？",
+      "translation": "Are you good at French?"
+     }
+    },
+    {
+     "jp": "フランス語読める？",
+     "en": "Can you read French?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2586410,
+      "url": "https://tatoeba.org/en/sentences/show/2586410",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "フランス語読める？",
+      "translation": "Can you read French?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "フランス語",
+     "matched": "フランス語【フランスご】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "French (language)",
+      "French language"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "co_furansu",
+     "rel": "country"
+    }
+   ]
+  },
+  {
+   "id": "lg_doitsugo",
+   "jp": "ドイツ語",
+   "kana": "ドイツご",
+   "romaji": "doitsugo",
+   "en": "German (language)",
+   "gloss": "German",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "language"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ドイツ語",
+     "matched": "ドイツ語【ドイツご】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "German (language)",
+      "German language"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "co_doitsu",
+     "rel": "country"
+    }
+   ]
+  },
+  {
+   "id": "lg_supeingo",
+   "jp": "スペイン語",
+   "kana": "スペインご",
+   "romaji": "supeingo",
+   "en": "Spanish (language)",
+   "gloss": "Spanish",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "language"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L2",
+     "activity": 3,
+     "entry": "スペイン語【スペインご】 Spanish language",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "スペイン語",
+     "matched": "スペイン語【スペインご】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Spanish (language)",
+      "Spanish language"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "co_supein",
+     "rel": "country"
+    }
+   ]
+  },
+  {
+   "id": "lg_betonamugo",
+   "jp": "ベトナム語",
+   "kana": "ベトナムご",
+   "romaji": "betonamugo",
+   "en": "Vietnamese (language)",
+   "gloss": "Vietnamese",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "language"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L9",
+     "activity": 2,
+     "entry": "ベトナム語【ベトナムご】 Vietnamese language",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ベトナム語",
+     "matched": "ベトナム語【ベトナムご】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "Vietnamese (language)",
+      "Vietnamese language"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "co_betonamu",
+     "rel": "country"
+    }
+   ]
+  },
+  {
+   "id": "lg_gaikokugo",
+   "jp": "外国語",
+   "kana": "がいこくご",
+   "romaji": "gaikokugo",
+   "en": "foreign language",
+   "gloss": "foreign language",
+   "pos": "noun",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "language"
+   ],
+   "examples": [
+    {
+     "jp": "外国語を学ぶのは難しい。",
+     "en": "Learning a foreign language is difficult.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 184777,
+      "url": "https://tatoeba.org/en/sentences/show/184777",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "外国語を学ぶのは難しい。",
+      "translation": "Learning a foreign language is difficult."
+     }
+    },
+    {
+     "jp": "何か外国語はやってるの？",
+     "en": "Do you study any foreign language?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1172619,
+      "url": "https://tatoeba.org/en/sentences/show/1172619",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何か外国語はやってるの？",
+      "translation": "Do you study any foreign language?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L13",
+     "activity": 1,
+     "entry": "外国語【がいこくご】 foreign language",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 4,
+     "entry": "外国語【がいこくご】 foreign language",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "外国語",
+     "matched": "外国語【がいこくご】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "foreign language",
+      "Foreign language"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "co_gaikoku",
+     "rel": "foreign country"
+    },
+    {
+     "id": "w_nihongo",
+     "rel": "Japanese"
+    }
+   ]
+  },
+  {
+   "id": "in_x_shumi",
+   "jp": "趣味は何ですか",
+   "kana": "しゅみはなんですか",
+   "romaji": "shumi wa nan desu ka",
+   "en": "What's your hobby?",
+   "gloss": "What's your hobby?",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 148465,
+     "url": "https://tatoeba.org/en/sentences/show/148465",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "趣味は何ですか。",
+     "translation": "What's your hobby?"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 入門 第11課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "第11課",
+     "quote": "趣味は、何ですか？",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "趣味",
+     "matched": "趣味【しゅみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "hobby; pastime",
+      "tastes; preference; liking",
+      "Hobby"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何",
+     "matched": "何【なに】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "what",
+      "you-know-what; that thing",
+      "whatsit; whachamacallit; what's-his-name; what's-her-name",
+      "penis; (one's) thing; dick"
+     ],
+     "pos": [
+      "Pronoun",
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "in_x_nanninkazoku",
+   "jp": "何人家族ですか",
+   "kana": "なんにんかぞくですか",
+   "romaji": "nannin kazoku desu ka",
+   "en": "How many people are there in your family?",
+   "gloss": "How many people are there in your family?",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 187368,
+     "url": "https://tatoeba.org/en/sentences/show/187368",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "何人家族ですか。",
+     "translation": "How many people are there in your family?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "家族",
+     "matched": "家族【かぞく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "family",
+      "Family"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "in_x_yoninkazoku",
+   "jp": "うちは4人家族です",
+   "kana": "うちはよにんかぞくです",
+   "romaji": "uchi wa yonin kazoku desu",
+   "en": "There are four people in my family.",
+   "gloss": "There are four people in my family.",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Replace 4 with your number: 3人 さんにん, 5人 ごにん.",
+   "accept": [
+    "うちは四人家族です"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 3374801,
+     "url": "https://tatoeba.org/en/sentences/show/3374801",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "うちは4人家族です。",
+     "translation": "There are four people in my family."
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L2",
+     "activity": 3,
+     "entry": "～人家族　（3人家族）【～にんかぞく　（さんにんかぞく）】 a family of ～　(e.g. a family of three)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "家族",
+     "matched": "家族【かぞく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "family",
+      "Family"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "in_x_kyoudai",
+   "jp": "兄弟はいますか",
+   "kana": "きょうだいはいますか",
+   "romaji": "kyōdai wa imasu ka",
+   "en": "Do you have any brothers or sisters?",
+   "gloss": "Do you have any brothers or sisters?",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 8534731,
+     "url": "https://tatoeba.org/en/sentences/show/8534731",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "兄弟はいますか？",
+     "translation": "Do you have any brothers?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "兄弟",
+     "matched": "兄弟【きょうだい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "brothers and sisters; siblings",
+      "half-siblings; step-siblings; siblings by marriage or adoption",
+      "mate; friend"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "in_x_kekkon",
+   "jp": "結婚していますか",
+   "kana": "けっこんしていますか",
+   "romaji": "kekkon shite imasu ka",
+   "en": "Are you married?",
+   "gloss": "Are you married?",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "A personal question; usually asked only once you know someone.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 6537567,
+     "url": "https://tatoeba.org/en/sentences/show/6537567",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "結婚していますか。",
+     "translation": "Are you married?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "結婚する",
+     "matched": "結婚【けっこん】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "marriage",
+      "Marriage"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "in_x_hahadesu",
+   "jp": "私の母です",
+   "kana": "わたしのははです",
+   "romaji": "watashi no haha desu",
+   "en": "This is my mother. (introducing her)",
+   "gloss": "This is my mother. (introducing her)",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 入門 第4課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "第4課",
+     "quote": "私の母です。",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 237295,
+     "url": "https://tatoeba.org/en/sentences/show/237295",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "これが私の母です。",
+     "translation": "This is my mother."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "私",
+     "matched": "私【わたし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "I; me"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "母",
+     "matched": "母【はは】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "mother"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "in_x_nansai",
+   "jp": "何歳ですか",
+   "kana": "なんさいですか",
+   "romaji": "nansai desu ka",
+   "en": "How old are you?",
+   "gloss": "How old are you?",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "Fine for children; with adults the politer おいくつですか is better.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 5325,
+     "url": "https://tatoeba.org/en/sentences/show/5325",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "何歳ですか。",
+     "translation": "What is your age?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "何歳",
+     "matched": "何歳【なんさい】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "how old; what age"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "in_x_oikutsu",
+   "jp": "おいくつですか",
+   "kana": "おいくつですか",
+   "romaji": "o-ikutsu desu ka",
+   "en": "How old are you? (polite)",
+   "gloss": "How old are you? (polite)",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 5078,
+     "url": "https://tatoeba.org/en/sentences/show/5078",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "おいくつですか？",
+     "translation": "How old are you?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いくつ",
+     "matched": "幾つ【いくつ】 (written in kana: いくつ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "how many",
+      "how old"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "in_x_nihongo_benkyou",
+   "jp": "日本語を勉強しています",
+   "kana": "にほんごをべんきょうしています",
+   "romaji": "nihongo o benkyō shite imasu",
+   "en": "I am studying Japanese.",
+   "gloss": "I am studying Japanese.",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 975671,
+     "url": "https://tatoeba.org/en/sentences/show/975671",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "日本語を勉強しています。",
+     "translation": "I am studying Japanese."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "日本語",
+     "matched": "日本語【にほんご】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "Japanese (language)",
+      "Japanese language"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "勉強する",
+     "matched": "勉強【べんきょう】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "study",
+      "diligence; working hard",
+      "experience; knowledge; lesson (for the future)",
+      "discount; price reduction"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "in_x_okuni_dochira",
+   "jp": "お国はどちらですか",
+   "kana": "おくにはどちらですか",
+   "romaji": "o-kuni wa dochira desu ka",
+   "en": "Which country are you from?",
+   "gloss": "Which country are you from?",
+   "pos": "phrase",
+   "topic": "intro",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10914890,
+     "url": "https://tatoeba.org/en/sentences/show/10914890",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "お国はどちらですか？",
+     "translation": "Which country are you from?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "国",
+     "matched": "国【くに】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "country; state",
+      "region",
+      "national government; central government",
+      "home (i.e. hometown, home country)"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どちら",
+     "matched": "何方【どちら】 (written in kana: どちら)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "which way; which direction; where",
+      "which one (esp. of two alternatives)",
+      "who"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-23"
     }
    ]
   }

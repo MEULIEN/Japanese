@@ -901,6 +901,10 @@
     {
      "id": "wk_soutai",
      "rel": "contrast: 遅刻 = arriving late; 早退 = leaving early"
+    },
+    {
+     "id": "v_okureru",
+     "rel": "general word: be late"
     }
    ]
   },
@@ -1662,6 +1666,1139 @@
      ],
      "pos": [
       "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "v_renrakusuru",
+   "jp": "連絡する",
+   "kana": "れんらくする",
+   "romaji": "renrakusuru",
+   "en": "to contact; to get in touch",
+   "gloss": "to contact",
+   "pos": "verb",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "連絡してね。",
+     "en": "Keep in touch.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 77408,
+      "url": "https://tatoeba.org/en/sentences/show/77408",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "連絡してね。",
+      "translation": "Keep in touch."
+     }
+    },
+    {
+     "jp": "また連絡します。",
+     "en": "We'll be in touch.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3357837,
+      "url": "https://tatoeba.org/en/sentences/show/3357837",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "また連絡します。",
+      "translation": "We'll be in touch."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L7",
+     "activity": 3,
+     "entry": "連絡する【れんらくする】 to contact",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L13",
+     "activity": 1,
+     "entry": "連絡する【れんらくする】 to contact",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "連絡する",
+     "matched": "連絡【れんらく】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "contacting; (making) contact; getting in touch; communication; correspondence; call; message",
+      "connection (with a train, bus, etc.); joining (a railway line, etc.); meeting",
+      "connection (between matters, incidents, etc.); relation; link"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_denwasuru",
+   "jp": "電話する",
+   "kana": "でんわする",
+   "romaji": "denwasuru",
+   "en": "to telephone; to call (on the phone)",
+   "gloss": "to telephone",
+   "pos": "verb",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "電話するよ。",
+     "en": "I'll phone you.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3583337,
+      "url": "https://tatoeba.org/en/sentences/show/3583337",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "電話するよ。",
+      "translation": "I'll phone you."
+     }
+    },
+    {
+     "jp": "家に電話して！",
+     "en": "Call home!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 7422064,
+      "url": "https://tatoeba.org/en/sentences/show/7422064",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "家に電話して！",
+      "translation": "Call home!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 3,
+     "entry": "電話する／電話します【でんわする／でんわします】 to telephone",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L13",
+     "activity": 1,
+     "entry": "電話する【でんわする】 to telephone",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電話する",
+     "matched": "電話【でんわ】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "telephone call; phone call",
+      "telephone (device); phone",
+      "Telephony"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_denwa",
+     "rel": "noun"
+    }
+   ]
+  },
+  {
+   "id": "ph_denwabangou",
+   "jp": "電話番号",
+   "kana": "でんわばんごう",
+   "romaji": "denwabangō",
+   "en": "telephone number",
+   "gloss": "telephone number",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "電話番号を教えて。",
+     "en": "Give me your phone number.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 124619,
+      "url": "https://tatoeba.org/en/sentences/show/124619",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "電話番号を教えて。",
+      "translation": "Give me your phone number."
+     }
+    },
+    {
+     "jp": "電話番号を伺えますか？",
+     "en": "May I ask for your phone number?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 774502,
+      "url": "https://tatoeba.org/en/sentences/show/774502",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "電話番号を伺えますか？",
+      "translation": "May I ask for your phone number?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 4,
+     "entry": "電話番号【でんわばんごう】 telephone number",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電話番号",
+     "matched": "電話番号【でんわばんごう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "telephone number; phone number",
+      "Telephone number"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_bangou",
+     "rel": "number"
+    }
+   ]
+  },
+  {
+   "id": "ph_orikaeshi",
+   "jp": "折り返し",
+   "kana": "おりかえし",
+   "romaji": "orikaeshi",
+   "en": "calling back (returning a call)",
+   "gloss": "calling back",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "note": "折り返し電話します = I'll call you back.",
+   "examples": [
+    {
+     "jp": "折り返しご連絡いたします。",
+     "en": "Please let me get back to you.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8424881,
+      "url": "https://tatoeba.org/en/sentences/show/8424881",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "折り返しご連絡いたします。",
+      "translation": "Please let me get back to you."
+     }
+    },
+    {
+     "jp": "折り返し電話する。",
+     "en": "I'll call you back.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 142065,
+      "url": "https://tatoeba.org/en/sentences/show/142065",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "折り返し電話する。",
+      "translation": "I'll call you back."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 3,
+     "entry": "折り返し【おりかえし】 return (a call)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "折り返し",
+     "matched": "折り返し【おりかえし】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "by return; (call or write back) without delay",
+      "lapel; cuff; turn-up; flap",
+      "going back; returning; turn (marathon, swimming, etc.)",
+      "chorus; refrain"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ph_rusubandenwa",
+   "jp": "留守番電話",
+   "kana": "るすばんでんわ",
+   "romaji": "rusubandenwa",
+   "en": "answering machine; voicemail",
+   "gloss": "answering machine",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "留守番電話にメッセージを入れてください。",
+     "en": "Please leave your message on my answering machine.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 78220,
+      "url": "https://tatoeba.org/en/sentences/show/78220",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "留守番電話にメッセージを入れてください。",
+      "translation": "Please leave your message on my answering machine."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "留守番電話",
+     "matched": "留守番電話【るすばんでんわ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "answering machine; answerphone",
+      "Answering machine"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ph_dengon",
+     "rel": "leave one on the answering machine"
+    }
+   ]
+  },
+  {
+   "id": "ph_dengon",
+   "jp": "伝言",
+   "kana": "でんごん",
+   "romaji": "dengon",
+   "en": "(verbal) message",
+   "gloss": "(verbal) message",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "何か伝言はありますか。",
+     "en": "Would you like to leave a message?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 187918,
+      "url": "https://tatoeba.org/en/sentences/show/187918",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何か伝言はありますか。",
+      "translation": "Would you like to leave a message?"
+     }
+    },
+    {
+     "jp": "伝言を承りましょうか？",
+     "en": "May I take a message?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4212245,
+      "url": "https://tatoeba.org/en/sentences/show/4212245",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "伝言を承りましょうか？",
+      "translation": "May I take a message?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "伝言",
+     "matched": "伝言【でんごん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "(verbal) message; word (from someone)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ph_messeeji",
+     "rel": "similar: message (also written)"
+    },
+    {
+     "id": "ph_rusubandenwa",
+     "rel": "answering machine"
+    }
+   ]
+  },
+  {
+   "id": "ph_messeeji",
+   "jp": "メッセージ",
+   "kana": "メッセージ",
+   "romaji": "messēji",
+   "en": "message",
+   "gloss": "message",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "メッセージ残しておいたよ。",
+     "en": "I left you a message.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13262932,
+      "url": "https://tatoeba.org/en/sentences/show/13262932",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "メッセージ残しておいたよ。",
+      "translation": "I left you a message."
+     }
+    },
+    {
+     "jp": "メッセージを残しておきました。",
+     "en": "I left you a message.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2040993,
+      "url": "https://tatoeba.org/en/sentences/show/2040993",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "メッセージを残しておきました。",
+      "translation": "I left you a message."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 4,
+     "entry": "メッセージ【メッセージ】 message",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "メッセージ",
+     "matched": "【メッセージ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "message"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ph_dengon",
+     "rel": "similar: spoken message"
+    }
+   ]
+  },
+  {
+   "id": "ph_machigaidenwa",
+   "jp": "間違い電話",
+   "kana": "まちがいでんわ",
+   "romaji": "machigaidenwa",
+   "en": "wrong number (phone call)",
+   "gloss": "wrong number",
+   "pos": "noun",
+   "topic": "work",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "間違い電話",
+     "matched": "間違い電話【まちがいでんわ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "wrong number"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ph_x_moushimasu",
+   "jp": "〜と申します",
+   "kana": "〜ともうします",
+   "romaji": "~ to mōshimasu",
+   "en": "My name is ~. (humble, e.g. on the phone)",
+   "gloss": "My name is ~. (humble, e.g. on the phone)",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "register": "formal",
+   "say_when": "Giving your name on the phone or when introducing yourself formally: 〜と申します.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 77613,
+     "url": "https://tatoeba.org/en/sentences/show/77613",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "鈴木と申します。",
+     "translation": "This is Mr Suzuki speaking."
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 12251433,
+     "url": "https://tatoeba.org/en/sentences/show/12251433",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "リリーと申します。",
+     "translation": "My name is Lily."
+    }
+   ]
+  },
+  {
+   "id": "ph_x_orikaeshi",
+   "jp": "折り返し電話します",
+   "kana": "おりかえしでんわします",
+   "romaji": "orikaeshi denwa shimasu",
+   "en": "Let me call you back.",
+   "gloss": "Let me call you back.",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2063335,
+     "url": "https://tatoeba.org/en/sentences/show/2063335",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "折り返し電話します。",
+     "translation": "Let me call you back."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "折り返し",
+     "matched": "折り返し【おりかえし】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "by return; (call or write back) without delay",
+      "lapel; cuff; turn-up; flap",
+      "going back; returning; turn (marathon, swimming, etc.)",
+      "chorus; refrain"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電話する",
+     "matched": "電話【でんわ】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "telephone call; phone call",
+      "telephone (device); phone",
+      "Telephony"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ph_x_dengon",
+   "jp": "伝言をお願いできますか",
+   "kana": "でんごんをおねがいできますか",
+   "romaji": "dengon o onegai dekimasu ka",
+   "en": "Can I leave a message?",
+   "gloss": "Can I leave a message?",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "say_when": "When the person you called is not there.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 124931,
+     "url": "https://tatoeba.org/en/sentences/show/124931",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "伝言をお願いできますか。",
+     "translation": "Can I leave a message?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "伝言",
+     "matched": "伝言【でんごん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "(verbal) message; word (from someone)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ph_x_kakenaoshimasu",
+   "jp": "あとでかけ直します",
+   "kana": "あとでかけなおします",
+   "romaji": "ato de kakenaoshimasu",
+   "en": "I'll call again later.",
+   "gloss": "I'll call again later.",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 234316,
+     "url": "https://tatoeba.org/en/sentences/show/234316",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "あとでかけ直します。",
+     "translation": "I'll call again later."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "後で",
+     "matched": "後で【あとで】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "later (on); afterwards"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ph_x_bangou_oshiete",
+   "jp": "電話番号を教えてください",
+   "kana": "でんわばんごうをおしえてください",
+   "romaji": "denwa bangō o oshiete kudasai",
+   "en": "Please give me your phone number.",
+   "gloss": "Please give me your phone number.",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 124620,
+     "url": "https://tatoeba.org/en/sentences/show/124620",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "電話番号を教えてください。",
+     "translation": "Give me your phone number."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電話番号",
+     "matched": "電話番号【でんわばんごう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "telephone number; phone number",
+      "Telephone number"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "教える",
+     "matched": "教える【おしえる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to teach; to instruct",
+      "to tell; to inform; to show",
+      "to preach"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ph_x_bangou_nanban",
+   "jp": "電話番号は何番ですか",
+   "kana": "でんわばんごうはなんばんですか",
+   "romaji": "denwa bangō wa nanban desu ka",
+   "en": "What's your phone number?",
+   "gloss": "What's your phone number?",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 124623,
+     "url": "https://tatoeba.org/en/sentences/show/124623",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "電話番号は何番ですか。",
+     "translation": "What's your phone number?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電話番号",
+     "matched": "電話番号【でんわばんごう】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "telephone number; phone number",
+      "Telephone number"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ph_x_kikoemasuka",
+   "jp": "聞こえますか",
+   "kana": "きこえますか",
+   "romaji": "kikoemasu ka",
+   "en": "Can you hear me?",
+   "gloss": "Can you hear me?",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 83624,
+     "url": "https://tatoeba.org/en/sentences/show/83624",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "聞こえますか。",
+     "translation": "Can you hear me?"
+    }
+   ]
+  },
+  {
+   "id": "ph_x_odenwa_arigatou",
+   "jp": "お電話ありがとうございます",
+   "kana": "おでんわありがとうございます",
+   "romaji": "o-denwa arigatō gozaimasu",
+   "en": "Thank you for calling.",
+   "gloss": "Thank you for calling.",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "say_when": "How businesses often answer the phone.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 3401024,
+     "url": "https://tatoeba.org/en/sentences/show/3401024",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "お電話ありがとうございます。",
+     "translation": "I appreciate you calling me."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電話",
+     "matched": "電話【でんわ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "telephone call; phone call",
+      "telephone (device); phone",
+      "Telephony"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "ph_x_dochirasama",
+   "jp": "もしもし、どちら様ですか",
+   "kana": "もしもし、どちらさまですか",
+   "romaji": "moshimoshi, dochira-sama desu ka",
+   "en": "Hello, who is calling, please?",
+   "gloss": "Hello, who is calling, please?",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 9594385,
+     "url": "https://tatoeba.org/en/sentences/show/9594385",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "もしもし、どちら様ですか？",
+     "translation": "Hello! Who am I speaking with?"
+    }
+   ]
+  },
+  {
+   "id": "ph_x_atode_denwa",
+   "jp": "後で電話します",
+   "kana": "あとででんわします",
+   "romaji": "ato de denwa shimasu",
+   "en": "I'll call you later.",
+   "gloss": "I'll call you later.",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "accept": [
+    "あとで電話します"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 174334,
+     "url": "https://tatoeba.org/en/sentences/show/174334",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "後で電話します。",
+     "translation": "I'll call you later."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "後で",
+     "matched": "後で【あとで】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "later (on); afterwards"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電話する",
+     "matched": "電話【でんわ】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "telephone call; phone call",
+      "telephone (device); phone",
+      "Telephony"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ph_x_denwa_shitekudasai",
+   "jp": "電話してください",
+   "kana": "でんわしてください",
+   "romaji": "denwa shite kudasai",
+   "en": "Please call me.",
+   "gloss": "Please call me.",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 13191965,
+     "url": "https://tatoeba.org/en/sentences/show/13191965",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "電話してください。",
+     "translation": "Please call me."
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 3,
+     "entry": "電話してください【でんわしてください】 Please telephone.",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電話する",
+     "matched": "電話【でんわ】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "telephone call; phone call",
+      "telephone (device); phone",
+      "Telephony"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "ph_x_denwa_arimashita",
+   "jp": "電話がありました",
+   "kana": "でんわがありました",
+   "romaji": "denwa ga arimashita",
+   "en": "Someone called (for you).",
+   "gloss": "Someone called (for you).",
+   "pos": "phrase",
+   "topic": "work",
+   "tier": 2,
+   "use": "hear",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 3,
+     "entry": "電話がありました【でんわがありました】 Someone called.",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "電話",
+     "matched": "電話【でんわ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "telephone call; phone call",
+      "telephone (device); phone",
+      "Telephony"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
      ],
      "checked": "2026-10-22"
     }

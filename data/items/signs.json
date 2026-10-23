@@ -1171,6 +1171,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "ss_kankouannaijo",
+     "rel": "tourist information centre"
+    }
    ]
   },
   {
@@ -1579,6 +1585,10 @@
     {
      "id": "s_nyujomuryo",
      "rel": "contrast: fee vs free"
+    },
+    {
+     "id": "ss_haikanryou",
+     "rel": "at temples: 拝観料"
     }
    ],
    "status": "verified",

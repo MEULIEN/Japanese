@@ -215,6 +215,24 @@
    "order": 24,
    "prereq": ["survival", "konbini"],
    "patterns": []
+  },
+  {
+   "id": "shopping",
+   "name": "Clothes & shopping",
+   "icon": "👕",
+   "goal": "Find clothes in your size and colour, ask to try them on and for a bigger or smaller one, say you are just looking or that you will take it, and ask for gift wrapping",
+   "order": 25,
+   "prereq": ["survival", "konbini"],
+   "patterns": []
+  },
+  {
+   "id": "sightseeing",
+   "name": "Temples, shrines & sightseeing",
+   "icon": "⛩️",
+   "goal": "Visit Kyoto's temples and shrines: tell a temple from a shrine, read the admission fee and shoes-off signs, ask before taking photos, buy a charm or draw a fortune, and find the tourist information centre",
+   "order": 26,
+   "prereq": ["survival", "directions"],
+   "patterns": []
   }
  ]
 }

@@ -33,7 +33,8 @@
   // て-form sound changes (音便) by godan ending.
   const TE = { 'う': 'って', 'つ': 'って', 'る': 'って', 'む': 'んで', 'ぶ': 'んで', 'ぬ': 'んで', 'く': 'いて', 'ぐ': 'いで', 'す': 'して' };
 
-  const VERB_CLASSES = ['godan', 'ichidan', 'suru', 'kuru', 'iku', 'aru-honorific'];
+  // kureru: ichidan except the imperative くれ (JMdict 'Ichidan verb - kureru special class').
+  const VERB_CLASSES = ['godan', 'ichidan', 'suru', 'kuru', 'iku', 'aru-honorific', 'kureru'];
 
   // Forms whose output is a verb that itself conjugates as ichidan (so the
   // reference can show polite variants such as 食べられます).
@@ -72,11 +73,11 @@
     }
     if (jp.slice(-1) !== last) throw new Error('written form and reading must share the conjugating ending: ' + jp + ' / ' + kana);
     const P = pair(jp.slice(0, -1), kana.slice(0, -1));
-    if (cls === 'ichidan') {
+    if (cls === 'ichidan' || cls === 'kureru') {
       if (last !== 'る') throw new Error('ichidan verb must end in る: ' + jp);
       return {
         cls, dict: add(P, 'る'), masu: P, nai: P, te: add(P, 'て'), e: add(P, 'れ'),
-        vol: add(P, 'よう'), imp: add(P, 'ろ'), pot: add(P, 'られる'), pass: add(P, 'られる'), caus: add(P, 'させる'),
+        vol: add(P, 'よう'), imp: cls === 'kureru' ? P : add(P, 'ろ'), pot: add(P, 'られる'), pass: add(P, 'られる'), caus: add(P, 'させる'),
         alt: { pot: [add(P, 'れる')] }  // ら抜き (見れる): common in speech, flagged as casual
       };
     }
@@ -246,7 +247,7 @@
   // Which reference group a word belongs to.
   function groupOf(w) {
     if (isVerb(w)) {
-      if (w.verb_class === 'ichidan') return 'group2';
+      if (w.verb_class === 'ichidan' || w.verb_class === 'kureru') return 'group2';
       if (w.verb_class === 'suru' || w.verb_class === 'kuru') return 'irregular';
       return 'group1';
     }

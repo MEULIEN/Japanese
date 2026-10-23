@@ -939,6 +939,10 @@
     {
      "id": "w_uketsuke",
      "rel": "at the clinic: check in at reception"
+    },
+    {
+     "id": "v_yoyakusuru",
+     "rel": "verb"
     }
    ]
   },
@@ -4987,6 +4991,221 @@
     {
      "id": "ct_nin",
      "rel": "everyday"
+    }
+   ]
+  },
+  {
+   "id": "v_tanomu",
+   "jp": "頼む",
+   "kana": "たのむ",
+   "romaji": "tanomu",
+   "en": "to ask (for); to request; to order (food)",
+   "gloss": "order",
+   "pos": "verb",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "obj": [
+    "orderable"
+   ],
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "何か頼んだの？",
+     "en": "Did you order something?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11041854,
+      "url": "https://tatoeba.org/en/sentences/show/11041854",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何か頼んだの？",
+      "translation": "Did you order something?"
+     }
+    },
+    {
+     "jp": "後で頼むよ。",
+     "en": "I'll order it later.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12662546,
+      "url": "https://tatoeba.org/en/sentences/show/12662546",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "後で頼むよ。",
+      "translation": "I'll order it later."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L13",
+     "activity": 4,
+     "entry": "頼む【たのむ】 to request / to ask",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L4",
+     "activity": 5,
+     "entry": "頼む【たのむ】 to order",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "頼む",
+     "matched": "頼む【たのむ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to request; to beg; to ask",
+      "to call; to order; to reserve",
+      "to entrust to",
+      "to rely on"
+     ],
+     "pos": [
+      "Godan verb with 'mu' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_chuumonsuru",
+     "rel": "formal: order"
+    }
+   ]
+  },
+  {
+   "id": "v_chuumonsuru",
+   "jp": "注文する",
+   "kana": "ちゅうもんする",
+   "romaji": "chūmonsuru",
+   "en": "to order (food, goods)",
+   "gloss": "to order",
+   "pos": "verb",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "obj": [
+    "food",
+    "drink"
+   ],
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "何か注文しよう。",
+     "en": "Let's order something to eat.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11883177,
+      "url": "https://tatoeba.org/en/sentences/show/11883177",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何か注文しよう。",
+      "translation": "Let's order something to eat."
+     }
+    },
+    {
+     "jp": "魚は注文してない。",
+     "en": "I didn't order fish.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 6537570,
+      "url": "https://tatoeba.org/en/sentences/show/6537570",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "魚は注文してない。",
+      "translation": "I didn't order fish."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L3",
+     "activity": 2,
+     "entry": "注文する【ちゅうもんする】 to order",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "注文する",
+     "matched": "注文【ちゅうもん】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "order (for an item)",
+      "request; demand; condition"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_tanomu",
+     "rel": "everyday: ask for"
+    }
+   ]
+  },
+  {
+   "id": "ss_matcha",
+   "jp": "抹茶",
+   "kana": "まっちゃ",
+   "romaji": "matcha",
+   "en": "matcha (powdered green tea)",
+   "gloss": "matcha",
+   "pos": "noun",
+   "topic": "restaurant",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "drink",
+    "orderable"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "抹茶",
+     "matched": "抹茶【まっちゃ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "matcha; powdered green tea",
+      "Matcha"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
     }
    ]
   }

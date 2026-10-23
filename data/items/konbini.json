@@ -310,6 +310,10 @@
     {
      "id": "k_ryoushuusho",
      "rel": "contrast: レシート = till receipt; 領収書 = formal receipt (JMdict)"
+    },
+    {
+     "id": "sh_henpin",
+     "rel": "needed for a return"
     }
    ]
   },
@@ -1386,6 +1390,12 @@
       "Transitive verb"
      ],
      "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_uru",
+     "rel": "contrast: sell"
     }
    ]
   },

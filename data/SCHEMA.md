@@ -40,7 +40,7 @@ many topics, items, examples or patterns exist; adding a file listed in
 | `verb_class` | verbs | from the dictionary POS: `godan` `ichidan` `suru` `kuru` `iku` `aru-honorific` |
 | `adj_class` | adjs | `i`, `ii` (いい/よい), `na` |
 | `topic` | ✓ | primary topic id |
-| `tags` |  | semantic slot tags used by grammar patterns: `food` `drink` `orderable` `shop_item` `place` `destination` `thing` `person` `time` `activity` `hobby` `transport` |
+| `tags` |  | semantic slot tags used by grammar patterns: `food` `drink` `orderable` `shop_item` `place` `destination` `thing` `person` `time` `activity` `hobby` `transport` `country` `clothing` `language` |
 | `obj` |  | (verbs) tags of nouns that can be its direct object, e.g. `["food"]` for 食べる |
 | `tier` | ✓ | 1 essential · 2 useful · 3 nice-to-have (importance, used for priority) |
 | `use` | ✓ | `say` (learner should produce it) · `hear` (comprehension: staff/announcements) · `read` (signs/labels) |

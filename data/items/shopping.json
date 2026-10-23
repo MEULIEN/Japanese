@@ -1,0 +1,4093 @@
+{
+ "topic": "shopping",
+ "items": [
+  {
+   "id": "v_haku",
+   "jp": "履く",
+   "kana": "はく",
+   "romaji": "haku",
+   "en": "to put on, to wear (shoes, socks, trousers, skirt)",
+   "gloss": "to put on, to wear",
+   "pos": "verb",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "note": "For shoes, socks, trousers and skirts. Shirts and coats take 着る; hats take かぶる.",
+   "examples": [
+    {
+     "jp": "靴を履いて。",
+     "en": "Put on your shoes.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 179237,
+      "url": "https://tatoeba.org/en/sentences/show/179237",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "靴を履いて。",
+      "translation": "Put on your shoes."
+     }
+    },
+    {
+     "jp": "新しい靴履いてるの？",
+     "en": "Are you wearing new shoes?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8867999,
+      "url": "https://tatoeba.org/en/sentences/show/8867999",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "新しい靴履いてるの？",
+      "translation": "Are you wearing new shoes?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "履く",
+     "matched": "履く【はく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "to put on (lower-body clothing, e.g. pants, skirt, footwear); to wear",
+      "to affix (a sword to one's hip)",
+      "to affix (a bowstring to a bow)"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_kiru",
+     "rel": "shirts, coats: 着る"
+    }
+   ]
+  },
+  {
+   "id": "v_kaburu",
+   "jp": "かぶる",
+   "kana": "かぶる",
+   "romaji": "kaburu",
+   "en": "to put on, to wear (a hat)",
+   "gloss": "to put on, to wear",
+   "pos": "verb",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "say",
+   "verb_class": "godan",
+   "note": "For hats and caps: 帽子をかぶる.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "かぶる　（帽子をかぶる）【かぶる　（ぼうしをかぶる）】 to wear　(e.g. wear a hat)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 2,
+     "entry": "かぶる　（ヘルメットをかぶる）【かぶる　（ヘルメットをかぶる）】 to wear　(e.g. wear a helmet)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "かぶる",
+     "matched": "被る【かぶる】 (written in kana: かぶる)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "to put on (one's head); to wear; to have on; to pull over (one's head); to crown (oneself)",
+      "to be covered with (dust, snow, etc.); to pour (water, etc.) on oneself; to dash on oneself; to ship water",
+      "to bear (e.g. someone's debts, faults, etc.); to take (blame); to assume (responsibility); to shoulder (burden)",
+      "to overlap (e.g. sound or color)"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_kiru",
+     "rel": "shirts, coats: 着る"
+    }
+   ]
+  },
+  {
+   "id": "v_erabu",
+   "jp": "選ぶ",
+   "kana": "えらぶ",
+   "romaji": "erabu",
+   "en": "to choose; to select",
+   "gloss": "to choose",
+   "pos": "verb",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "一つ選んで。",
+     "en": "Choose one.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3488273,
+      "url": "https://tatoeba.org/en/sentences/show/3488273",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "一つ選んで。",
+      "translation": "Choose one."
+     }
+    },
+    {
+     "jp": "色を選んで。",
+     "en": "Pick a color.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9930183,
+      "url": "https://tatoeba.org/en/sentences/show/9930183",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "色を選んで。",
+      "translation": "Pick a color."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "選ぶ【えらぶ】 to choose",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "選ぶ",
+     "matched": "選ぶ【えらぶ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to choose; to select; to pick (out)"
+     ],
+     "pos": [
+      "Godan verb with 'bu' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_uru",
+   "jp": "売る",
+   "kana": "うる",
+   "romaji": "uru",
+   "en": "to sell",
+   "gloss": "to sell",
+   "pos": "verb",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "何を売ってるの？",
+     "en": "What are you selling?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9943041,
+      "url": "https://tatoeba.org/en/sentences/show/9943041",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何を売ってるの？",
+      "translation": "What are you selling?"
+     }
+    },
+    {
+     "jp": "私は本を売った。",
+     "en": "I sold a book.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 236806,
+      "url": "https://tatoeba.org/en/sentences/show/236806",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私は本を売った。",
+      "translation": "I sold a book."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L11",
+     "activity": 2,
+     "entry": "売る【うる】 to sell",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "売る",
+     "matched": "売る【うる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to sell",
+      "to betray; to sell out (one's friend, country, etc.)",
+      "to make (oneself) known; to establish (a reputation) for oneself",
+      "to pick (a fight, quarrel, etc.); to provoke; to force on someone"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_kau",
+     "rel": "contrast: buy"
+    }
+   ]
+  },
+  {
+   "id": "v_niau",
+   "jp": "似合う",
+   "kana": "にあう",
+   "romaji": "niau",
+   "en": "to suit; to look good on",
+   "gloss": "to suit",
+   "pos": "verb",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "黒が似合うね。",
+     "en": "Black suits you.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8612279,
+      "url": "https://tatoeba.org/en/sentences/show/8612279",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "黒が似合うね。",
+      "translation": "Black suits you."
+     }
+    },
+    {
+     "jp": "この服、私に似合う？",
+     "en": "Does this dress look OK on me?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3460798,
+      "url": "https://tatoeba.org/en/sentences/show/3460798",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "この服、私に似合う？",
+      "translation": "Does this dress look OK on me?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "似合う",
+     "matched": "似合う【にあう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "to suit; to match; to become; to be like"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_shichakusuru",
+   "jp": "試着する",
+   "kana": "しちゃくする",
+   "romaji": "shichakusuru",
+   "en": "to try on (clothes)",
+   "gloss": "to try on",
+   "pos": "verb",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "obj": [
+    "clothing"
+   ],
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "試着してみたい。",
+     "en": "I'd like to try this on.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8635759,
+      "url": "https://tatoeba.org/en/sentences/show/8635759",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "試着してみたい。",
+      "translation": "I'd like to try this on."
+     }
+    },
+    {
+     "jp": "試着してみたら？",
+     "en": "Why don't you try it on?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11244512,
+      "url": "https://tatoeba.org/en/sentences/show/11244512",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "試着してみたら？",
+      "translation": "Why don't you try it on?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 1,
+     "entry": "試着（する）【しちゃく（する）】 (to) try on",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "試着する",
+     "matched": "試着【しちゃく】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "trying on clothes"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_shichakushitsu",
+     "rel": "where: fitting room"
+    }
+   ]
+  },
+  {
+   "id": "v_kaimonosuru",
+   "jp": "買い物する",
+   "kana": "かいものする",
+   "romaji": "kaimonosuru",
+   "en": "to shop; to go shopping",
+   "gloss": "to shop",
+   "pos": "verb",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "買い物してきてあげるよ。",
+     "en": "I'll do the shopping for you.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9422944,
+      "url": "https://tatoeba.org/en/sentences/show/9422944",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "買い物してきてあげるよ。",
+      "translation": "I'll do the shopping for you."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 3,
+     "entry": "買い物する【かいものする】 to shop",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "買い物する",
+     "matched": "買い物【かいもの】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "shopping; purchased goods",
+      "Shopping"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_fuku",
+   "jp": "服",
+   "kana": "ふく",
+   "romaji": "fuku",
+   "en": "clothes; clothing",
+   "gloss": "clothes",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "clothing"
+   ],
+   "examples": [
+    {
+     "jp": "服が濡れてる。",
+     "en": "The clothes are wet.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12593323,
+      "url": "https://tatoeba.org/en/sentences/show/12593323",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "服が濡れてる。",
+      "translation": "The clothes are wet."
+     }
+    },
+    {
+     "jp": "服を着なさい。",
+     "en": "Put on your clothes.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11720953,
+      "url": "https://tatoeba.org/en/sentences/show/11720953",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "服を着なさい。",
+      "translation": "Put on your clothes."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "服【ふく】 clothing",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L17",
+     "activity": 1,
+     "entry": "服【ふく】 clothing",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "服",
+     "matched": "服【ふく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "clothes (esp. Western clothes); clothing; dress; costume; suit; outfit",
+      "counter for doses of medicine, gulps of tea, puffs of a cigarette, etc."
+     ],
+     "pos": [
+      "Noun",
+      "Noun, used as a suffix",
+      "Counter"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "ct_chaku",
+     "rel": "counter: 〜着"
+    }
+   ]
+  },
+  {
+   "id": "sh_shatsu",
+   "jp": "シャツ",
+   "kana": "シャツ",
+   "romaji": "shatsu",
+   "en": "shirt",
+   "gloss": "shirt",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "シャツの色は何色？",
+     "en": "What color is your shirt?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11795609,
+      "url": "https://tatoeba.org/en/sentences/show/11795609",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "シャツの色は何色？",
+      "translation": "What color is your shirt?"
+     }
+    },
+    {
+     "jp": "このシャツ着てみて。",
+     "en": "Try on this shirt.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10185187,
+      "url": "https://tatoeba.org/en/sentences/show/10185187",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "このシャツ着てみて。",
+      "translation": "Try on this shirt."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "シャツ【シャツ】 shirt",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "シャツ【シャツ】 shirt",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "シャツ",
+     "matched": "【シャツ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "shirt (undergarment); undershirt; singlet",
+      "shirt (outerwear; usu. with collar and buttons)",
+      "Shirt"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_zubon",
+   "jp": "ズボン",
+   "kana": "ズボン",
+   "romaji": "zubon",
+   "en": "trousers; pants",
+   "gloss": "trousers",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "このズボンいくら？",
+     "en": "How much are these pants?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 879005,
+      "url": "https://tatoeba.org/en/sentences/show/879005",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "このズボンいくら？",
+      "translation": "How much are these pants?"
+     }
+    },
+    {
+     "jp": "そのズボンいいね。",
+     "en": "The trousers are nice, aren't they?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12829788,
+      "url": "https://tatoeba.org/en/sentences/show/12829788",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "そのズボンいいね。",
+      "translation": "The trousers are nice, aren't they?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "ズボン【ズボン】 trousers",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "ズボン【ズボン】 trousers",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ズボン",
+     "matched": "洋袴【ズボン】 (written in kana: ズボン)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "trousers; pants",
+      "Trousers"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_sukaato",
+   "jp": "スカート",
+   "kana": "スカート",
+   "romaji": "sukāto",
+   "en": "skirt",
+   "gloss": "skirt",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "このスカート買いたいな。",
+     "en": "I want to buy this skirt.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11491287,
+      "url": "https://tatoeba.org/en/sentences/show/11491287",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "このスカート買いたいな。",
+      "translation": "I want to buy this skirt."
+     }
+    },
+    {
+     "jp": "スカート短すぎよ。",
+     "en": "Your skirt is too short.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11052331,
+      "url": "https://tatoeba.org/en/sentences/show/11052331",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "スカート短すぎよ。",
+      "translation": "Your skirt is too short."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "スカート【スカート】 skirt",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "スカート",
+     "matched": "【スカート】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "skirt",
+      "Skirt"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_wanpiisu",
+   "jp": "ワンピース",
+   "kana": "ワンピース",
+   "romaji": "wanpīsu",
+   "en": "dress; one-piece dress",
+   "gloss": "dress",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "ワンピース【ワンピース】 dress",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "ワンピース　【ワンピース】 dress",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ワンピース",
+     "matched": "【ワンピース】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "dress",
+      "one-piece (e.g. swimsuit)"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_seetaa",
+   "jp": "セーター",
+   "kana": "セーター",
+   "romaji": "sētā",
+   "en": "sweater; jumper",
+   "gloss": "sweater",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "このセーターは暖かい。",
+     "en": "This sweater is warm.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 223604,
+      "url": "https://tatoeba.org/en/sentences/show/223604",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "このセーターは暖かい。",
+      "translation": "This sweater is warm."
+     }
+    },
+    {
+     "jp": "このセーターどう思う？",
+     "en": "What do you think of this sweater?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3715087,
+      "url": "https://tatoeba.org/en/sentences/show/3715087",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "このセーターどう思う？",
+      "translation": "What do you think of this sweater?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 1,
+     "entry": "セーター【セーター】 sweater",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "セーター",
+     "matched": "【セーター】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "sweater; jumper",
+      "Sweater"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_kooto",
+   "jp": "コート",
+   "kana": "コート",
+   "romaji": "kōto",
+   "en": "coat",
+   "gloss": "coat",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "いいコートだね。",
+     "en": "That's a nice coat.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 229407,
+      "url": "https://tatoeba.org/en/sentences/show/229407",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "いいコートだね。",
+      "translation": "That's a nice coat."
+     }
+    },
+    {
+     "jp": "重いコートが要る。",
+     "en": "I need a heavy coat.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1483636,
+      "url": "https://tatoeba.org/en/sentences/show/1483636",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "重いコートが要る。",
+      "translation": "I need a heavy coat."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "コート【コート】 coat",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "コート",
+     "matched": "【コート】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "coat",
+      "coating"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_jaketto",
+   "jp": "ジャケット",
+   "kana": "ジャケット",
+   "romaji": "jaketto",
+   "en": "jacket",
+   "gloss": "jacket",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "そのジャケットいいね。",
+     "en": "I like your jacket.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11052204,
+      "url": "https://tatoeba.org/en/sentences/show/11052204",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "そのジャケットいいね。",
+      "translation": "I like your jacket."
+     }
+    },
+    {
+     "jp": "このジャケットはきつい。",
+     "en": "This jacket is a tight fit.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 223708,
+      "url": "https://tatoeba.org/en/sentences/show/223708",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "このジャケットはきつい。",
+      "translation": "This jacket is a tight fit."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "ジャケット【ジャケット】 jacket",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L10",
+     "activity": 1,
+     "entry": "ジャケット【ジャケット】 jacket",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ジャケット",
+     "matched": "【ジャケット】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "jacket",
+      "book jacket; dust cover",
+      "CD jacket; record jacket",
+      "Jacket"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_uwagi",
+     "rel": "any outer garment"
+    }
+   ]
+  },
+  {
+   "id": "sh_uwagi",
+   "jp": "上着",
+   "kana": "うわぎ",
+   "romaji": "uwagi",
+   "en": "jacket; outer garment; coat",
+   "gloss": "jacket",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "あなたの上着はどこ？",
+     "en": "Where's your jacket?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11563363,
+      "url": "https://tatoeba.org/en/sentences/show/11563363",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "あなたの上着はどこ？",
+      "translation": "Where's your jacket?"
+     }
+    },
+    {
+     "jp": "彼女は上着を脱いだ。",
+     "en": "She took off her coat.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 88646,
+      "url": "https://tatoeba.org/en/sentences/show/88646",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "彼女は上着を脱いだ。",
+      "translation": "She took off her coat."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "上着【うわぎ】 jacket",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "上着",
+     "matched": "上着【うわぎ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "coat; jacket; outerwear",
+      "top; upper-body garment"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_jaketto",
+     "rel": "a jacket"
+    }
+   ]
+  },
+  {
+   "id": "sh_shitagi",
+   "jp": "下着",
+   "kana": "したぎ",
+   "romaji": "shitagi",
+   "en": "underwear",
+   "gloss": "underwear",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "この下着は、洗わないと。",
+     "en": "This underwear needs to be washed.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11645048,
+      "url": "https://tatoeba.org/en/sentences/show/11645048",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "この下着は、洗わないと。",
+      "translation": "This underwear needs to be washed."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 5,
+     "entry": "下着【したぎ】 underwear",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "下着",
+     "matched": "下着【したぎ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "underwear; undergarment; underclothes; lingerie"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_kutsu",
+   "jp": "靴",
+   "kana": "くつ",
+   "romaji": "kutsu",
+   "en": "shoes",
+   "gloss": "shoes",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "靴が買いたい。",
+     "en": "I want to buy some shoes.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10032536,
+      "url": "https://tatoeba.org/en/sentences/show/10032536",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "靴が買いたい。",
+      "translation": "I want to buy some shoes."
+     }
+    },
+    {
+     "jp": "靴が汚れてる。",
+     "en": "My shoes are dirty.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11310780,
+      "url": "https://tatoeba.org/en/sentences/show/11310780",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "靴が汚れてる。",
+      "translation": "My shoes are dirty."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "靴【くつ】 shoes",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "靴",
+     "matched": "靴【くつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "shoe; shoes; boots; footwear; footgear",
+      "Shoe"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_kutsushita",
+     "rel": "socks"
+    }
+   ]
+  },
+  {
+   "id": "sh_kutsushita",
+   "jp": "靴下",
+   "kana": "くつした",
+   "romaji": "kutsushita",
+   "en": "socks",
+   "gloss": "socks",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "examples": [
+    {
+     "jp": "靴下が3足欲しい。",
+     "en": "I want three pairs of socks.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11332118,
+      "url": "https://tatoeba.org/en/sentences/show/11332118",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "靴下が3足欲しい。",
+      "translation": "I want three pairs of socks."
+     }
+    },
+    {
+     "jp": "靴下脱がなきゃ。",
+     "en": "I have to take off my socks.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12072870,
+      "url": "https://tatoeba.org/en/sentences/show/12072870",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "靴下脱がなきゃ。",
+      "translation": "I have to take off my socks."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "靴下",
+     "matched": "靴下【くつした】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "socks; sock; stockings; stocking",
+      "Sock"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_kutsu",
+     "rel": "shoes"
+    }
+   ]
+  },
+  {
+   "id": "sh_boushi",
+   "jp": "帽子",
+   "kana": "ぼうし",
+   "romaji": "bōshi",
+   "en": "hat; cap",
+   "gloss": "hat",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "帽子が買いたいの。",
+     "en": "I want to buy a hat.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10032543,
+      "url": "https://tatoeba.org/en/sentences/show/10032543",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "帽子が買いたいの。",
+      "translation": "I want to buy a hat."
+     }
+    },
+    {
+     "jp": "君の帽子はどれ？",
+     "en": "Which hat is yours?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 764160,
+      "url": "https://tatoeba.org/en/sentences/show/764160",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "君の帽子はどれ？",
+      "translation": "Which hat is yours?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "帽子【ぼうし】 hat　/ cap",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 3,
+     "entry": "帽子【ぼうし】 hat / cap",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "帽子",
+     "matched": "帽子【ぼうし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "hat; cap",
+      "cap (move)",
+      "Headgear"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_suutsu",
+   "jp": "スーツ",
+   "kana": "スーツ",
+   "romaji": "sūtsu",
+   "en": "suit",
+   "gloss": "suit",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L10",
+     "activity": 1,
+     "entry": "スーツ【スーツ】 suits",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "スーツ",
+     "matched": "【スーツ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "suit (clothing)",
+      "suit"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_nekutai",
+   "jp": "ネクタイ",
+   "kana": "ネクタイ",
+   "romaji": "nekutai",
+   "en": "necktie; tie",
+   "gloss": "necktie",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "say",
+   "tags": [
+    "clothing",
+    "shop_item"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "ネクタイ【ネクタイ】 necktie",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "ネクタイ【ネクタイ】 necktie",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ネクタイ",
+     "matched": "【ネクタイ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "tie; necktie",
+      "Necktie"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_kaban",
+   "jp": "かばん",
+   "kana": "かばん",
+   "romaji": "kaban",
+   "en": "bag; briefcase",
+   "gloss": "bag",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "shop_item",
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "私のかばんです。",
+     "en": "This is my bag.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 164225,
+      "url": "https://tatoeba.org/en/sentences/show/164225",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私のかばんです。",
+      "translation": "This is my bag."
+     }
+    },
+    {
+     "jp": "かばん開いてますよ。",
+     "en": "Your bag's open.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3565442,
+      "url": "https://tatoeba.org/en/sentences/show/3565442",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "かばん開いてますよ。",
+      "translation": "Your bag's open."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "かばん【かばん】 bag",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 2,
+     "entry": "かばん【かばん】 bag",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "かばん",
+     "matched": "【カバン】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "bag; satchel; briefcase; basket",
+      "Paper bag"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_saifu",
+   "jp": "財布",
+   "kana": "さいふ",
+   "romaji": "saifu",
+   "en": "wallet; purse",
+   "gloss": "wallet",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "tags": [
+    "shop_item",
+    "thing"
+   ],
+   "examples": [
+    {
+     "jp": "財布をなくしたの。",
+     "en": "I have lost my wallet.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5069,
+      "url": "https://tatoeba.org/en/sentences/show/5069",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "財布をなくしたの。",
+      "translation": "I have lost my wallet."
+     }
+    },
+    {
+     "jp": "財布が盗まれた。",
+     "en": "My wallet has been stolen.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 7989452,
+      "url": "https://tatoeba.org/en/sentences/show/7989452",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "財布が盗まれた。",
+      "translation": "My wallet has been stolen."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "財布【さいふ】 wallet",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "財布",
+     "matched": "財布【さいふ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "wallet; purse; coin purse; billfold; pocketbook",
+      "Wallet"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_megane",
+   "jp": "眼鏡",
+   "kana": "めがね",
+   "romaji": "megane",
+   "en": "glasses; spectacles",
+   "gloss": "glasses",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "shop_item",
+    "thing"
+   ],
+   "tts": "kana",
+   "note": "Irodori writes it in kana: めがね. Glasses are worn with かける (めがねをかける).",
+   "accept": [
+    "めがね"
+   ],
+   "examples": [
+    {
+     "jp": "私の眼鏡はどこ？",
+     "en": "Where are my glasses?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 163890,
+      "url": "https://tatoeba.org/en/sentences/show/163890",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私の眼鏡はどこ？",
+      "translation": "Where are my glasses?"
+     }
+    },
+    {
+     "jp": "眼鏡はかけていますか？",
+     "en": "Do you wear glasses?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11529832,
+      "url": "https://tatoeba.org/en/sentences/show/11529832",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "眼鏡はかけていますか？",
+      "translation": "Do you wear glasses?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "めがね【めがね】 glasses / spectacles",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "眼鏡",
+     "matched": "眼鏡【めがね】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "glasses; eyeglasses; spectacles",
+      "judgment; judgement; discrimination; discernment; insight",
+      "four-eyes",
+      "Megane"
+     ],
+     "pos": [
+      "Noun",
+      "Place",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_saizu",
+   "jp": "サイズ",
+   "kana": "サイズ",
+   "romaji": "saizu",
+   "en": "size",
+   "gloss": "size",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "他のサイズはありますか？",
+     "en": "Is there any other size?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10763914,
+      "url": "https://tatoeba.org/en/sentences/show/10763914",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "他のサイズはありますか？",
+      "translation": "Is there any other size?"
+     }
+    },
+    {
+     "jp": "靴のサイズはいくつ？",
+     "en": "What's your shoe size?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10675609,
+      "url": "https://tatoeba.org/en/sentences/show/10675609",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "靴のサイズはいくつ？",
+      "translation": "What's your shoe size?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L6",
+     "activity": 2,
+     "entry": "サイズ【サイズ】 size",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 1,
+     "entry": "サイズ【サイズ】 size",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "サイズ",
+     "matched": "【サイズ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "size",
+      "Size"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_shichakushitsu",
+   "jp": "試着室",
+   "kana": "しちゃくしつ",
+   "romaji": "shichakushitsu",
+   "en": "fitting room; changing room",
+   "gloss": "fitting room",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "place"
+   ],
+   "examples": [
+    {
+     "jp": "試着室は今使用中だ。",
+     "en": "The fitting room is being used now.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 151003,
+      "url": "https://tatoeba.org/en/sentences/show/151003",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "試着室は今使用中だ。",
+      "translation": "The fitting room is being used now."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 1,
+     "entry": "試着室【しちゃくしつ】 fitting room",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "試着室",
+     "matched": "試着室【しちゃくしつ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "dressing room; fitting room"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_shichakusuru",
+     "rel": "what you do there"
+    }
+   ]
+  },
+  {
+   "id": "sh_henpin",
+   "jp": "返品",
+   "kana": "へんぴん",
+   "romaji": "henpin",
+   "en": "returning goods; return (of a purchase)",
+   "gloss": "returning goods",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "返品お断り。",
+     "en": "No merchandise can be returned.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 83338,
+      "url": "https://tatoeba.org/en/sentences/show/83338",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "返品お断り。",
+      "translation": "No merchandise can be returned."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "返品",
+     "matched": "返品【へんぴん】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "returned goods; returning purchased goods"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_koukan",
+     "rel": "or: exchange"
+    },
+    {
+     "id": "w_reshiito",
+     "rel": "bring it to return goods"
+    }
+   ]
+  },
+  {
+   "id": "sh_koukan",
+   "jp": "交換",
+   "kana": "こうかん",
+   "romaji": "kōkan",
+   "en": "exchange; swap; replacement",
+   "gloss": "exchange",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "電話番号交換しようよ。",
+     "en": "Let's exchange phone numbers.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12324530,
+      "url": "https://tatoeba.org/en/sentences/show/12324530",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "電話番号交換しようよ。",
+      "translation": "Let's exchange phone numbers."
+     }
+    },
+    {
+     "jp": "連絡先を交換しようよ。",
+     "en": "Let's exchange contact details!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12324531,
+      "url": "https://tatoeba.org/en/sentences/show/12324531",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "連絡先を交換しようよ。",
+      "translation": "Let's exchange contact details!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "交換",
+     "matched": "交換【こうかん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "exchange; interchange; switching; reciprocity; barter; substitution; replacement; clearing (of checks, cheques)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_henpin",
+     "rel": "or: return"
+    }
+   ]
+  },
+  {
+   "id": "sh_uriba",
+   "jp": "売り場",
+   "kana": "うりば",
+   "romaji": "uriba",
+   "en": "sales floor; counter (in a shop); section",
+   "gloss": "sales floor",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "place"
+   ],
+   "examples": [
+    {
+     "jp": "おもちゃ売り場は５階です。",
+     "en": "The toy department is on the fifth floor.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 227489,
+      "url": "https://tatoeba.org/en/sentences/show/227489",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "おもちゃ売り場は５階です。",
+      "translation": "The toy department is on the fifth floor."
+     }
+    },
+    {
+     "jp": "切符売り場はどこですか。",
+     "en": "Where is the ticket window?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 142076,
+      "url": "https://tatoeba.org/en/sentences/show/142076",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "切符売り場はどこですか。",
+      "translation": "Where is the ticket window?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "売り場",
+     "matched": "売り場【うりば】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "selling area; counter; section; department; sales floor",
+      "favorable time to sell; good time to sell"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_tenin",
+   "jp": "店員",
+   "kana": "てんいん",
+   "romaji": "ten'in",
+   "en": "shop assistant; clerk",
+   "gloss": "shop assistant",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "person"
+   ],
+   "examples": [
+    {
+     "jp": "彼は店員に金を渡した。",
+     "en": "He handed the salesclerk the money.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 101913,
+      "url": "https://tatoeba.org/en/sentences/show/101913",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "彼は店員に金を渡した。",
+      "translation": "He handed the salesclerk the money."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L12",
+     "activity": 1,
+     "entry": "店員【てんいん】 store staff",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "店員",
+     "matched": "店員【てんいん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "employee (of a store); shop assistant; clerk; salesperson"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_okyakusama",
+   "jp": "お客様",
+   "kana": "おきゃくさま",
+   "romaji": "okyakusama",
+   "en": "customer; guest (polite)",
+   "gloss": "customer",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "hear",
+   "note": "What staff call you: お客様, こちらへどうぞ.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 5,
+     "entry": "お客様【おきゃくさま】 customer (polite expression)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L3",
+     "activity": 3,
+     "entry": "お客様【おきゃくさま】 Ma'am / Sir (polite expression to address a customer)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "お客様",
+     "matched": "お客様【おきゃくさま】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "guest; visitor",
+      "customer; client; shopper; spectator; audience; tourist; sightseer; passenger"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_purezento",
+   "jp": "プレゼント",
+   "kana": "プレゼント",
+   "romaji": "purezento",
+   "en": "present; gift",
+   "gloss": "present",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "tags": [
+    "shop_item",
+    "thing"
+   ],
+   "takes_suru": true,
+   "examples": [
+    {
+     "jp": "プレゼントをありがとう。",
+     "en": "Thank you for your present.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 196918,
+      "url": "https://tatoeba.org/en/sentences/show/196918",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "プレゼントをありがとう。",
+      "translation": "Thank you for your present."
+     }
+    },
+    {
+     "jp": "誕生日プレゼントだよ。",
+     "en": "Here is a present for your birthday.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10952395,
+      "url": "https://tatoeba.org/en/sentences/show/10952395",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "誕生日プレゼントだよ。",
+      "translation": "Here is a present for your birthday."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L1",
+     "activity": 3,
+     "entry": "プレゼント【プレゼント】 present",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 2,
+     "entry": "プレゼント【プレゼント】 present",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "プレゼント",
+     "matched": "【プレゼント】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "present; gift"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_fujinfuku",
+   "jp": "婦人服",
+   "kana": "ふじんふく",
+   "romaji": "fujinfuku",
+   "en": "women's clothing",
+   "gloss": "women's clothing",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 4,
+     "entry": "婦人服【ふじんふく】 women's clothing",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "婦人服",
+     "matched": "婦人服【ふじんふく】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "women's clothing"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_shinshifuku",
+     "rel": "men's"
+    }
+   ]
+  },
+  {
+   "id": "sh_shinshifuku",
+   "jp": "紳士服",
+   "kana": "しんしふく",
+   "romaji": "shinshifuku",
+   "en": "menswear; men's clothing",
+   "gloss": "menswear",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "read",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "紳士服",
+     "matched": "紳士服【しんしふく】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "suits for gentlemen; menswear"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_fujinfuku",
+     "rel": "women's"
+    }
+   ]
+  },
+  {
+   "id": "ct_chaku",
+   "jp": "〜着",
+   "kana": "〜ちゃく",
+   "romaji": "〜chaku",
+   "en": "~ suits; ~ items of clothing (counter)",
+   "gloss": "~ suits",
+   "pos": "counter",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "say",
+   "note": "Sound changes: 1着 いっちゃく, 8着 はっちゃく, 10着 じゅっちゃく.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L6",
+     "activity": 1,
+     "entry": "～着【～ちゃく】 arrive at ～",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "着",
+     "matched": "着【ちゃく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "arrival; arriving at ...",
+      "counter for items or suits of clothing",
+      "nth place (in a race)",
+      "counter for moves"
+     ],
+     "pos": [
+      "Noun, used as a suffix",
+      "Counter"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_fuku",
+     "rel": "what it counts"
+    }
+   ]
+  },
+  {
+   "id": "sh_akai",
+   "jp": "赤い",
+   "kana": "あかい",
+   "romaji": "akai",
+   "en": "red",
+   "gloss": "red",
+   "pos": "i-adj",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "顔が赤いよ。",
+     "en": "Your face is red.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 183646,
+      "url": "https://tatoeba.org/en/sentences/show/183646",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "顔が赤いよ。",
+      "translation": "Your face is red."
+     }
+    },
+    {
+     "jp": "私の車は赤い。",
+     "en": "My car is red.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2656862,
+      "url": "https://tatoeba.org/en/sentences/show/2656862",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私の車は赤い。",
+      "translation": "My car is red."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "赤い【あかい】 red",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L9",
+     "activity": 3,
+     "entry": "赤い【あかい】 red",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "赤い",
+     "matched": "赤い【あかい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "red; crimson; scarlet; vermilion",
+      "Red; communist"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_iro",
+     "rel": "colour"
+    }
+   ]
+  },
+  {
+   "id": "sh_aoi",
+   "jp": "青い",
+   "kana": "あおい",
+   "romaji": "aoi",
+   "en": "blue; green (traffic light)",
+   "gloss": "blue",
+   "pos": "i-adj",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "adj_class": "i",
+   "note": "A traffic light's \"green\" is also called 青.",
+   "examples": [
+    {
+     "jp": "空は青い。",
+     "en": "The sky is blue.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 179417,
+      "url": "https://tatoeba.org/en/sentences/show/179417",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "空は青い。",
+      "translation": "The sky is blue."
+     }
+    },
+    {
+     "jp": "顔が青いよ。",
+     "en": "You look pale.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 183645,
+      "url": "https://tatoeba.org/en/sentences/show/183645",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "顔が青いよ。",
+      "translation": "You look pale."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L6",
+     "activity": 2,
+     "entry": "青い【あおい】 blue",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "青い【あおい】 blue",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "青い",
+     "matched": "青い【あおい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "blue; azure",
+      "green",
+      "pale (facial color); gray; grey",
+      "unripe; inexperienced"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_shiroi",
+   "jp": "白い",
+   "kana": "しろい",
+   "romaji": "shiroi",
+   "en": "white",
+   "gloss": "white",
+   "pos": "i-adj",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "白いですか。",
+     "en": "Is it white?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 121438,
+      "url": "https://tatoeba.org/en/sentences/show/121438",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "白いですか。",
+      "translation": "Is it white?"
+     }
+    },
+    {
+     "jp": "その本は白い。",
+     "en": "The book is white.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13976230,
+      "url": "https://tatoeba.org/en/sentences/show/13976230",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "その本は白い。",
+      "translation": "The book is white."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L6",
+     "activity": 2,
+     "entry": "白い【しろい】 white",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "白い【しろい】 white",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "白い",
+     "matched": "白い【しろい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "white",
+      "blank (e.g. paper); uncolored; unmarked; spotless; immaculate",
+      "innocent; not guilty; pure",
+      "bright; vivid"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_kuroi",
+   "jp": "黒い",
+   "kana": "くろい",
+   "romaji": "kuroi",
+   "en": "black",
+   "gloss": "black",
+   "pos": "i-adj",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "この車は黒い。",
+     "en": "This car is black.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5845176,
+      "url": "https://tatoeba.org/en/sentences/show/5845176",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "この車は黒い。",
+      "translation": "This car is black."
+     }
+    },
+    {
+     "jp": "どの犬が黒い？",
+     "en": "Which dog is black?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11515787,
+      "url": "https://tatoeba.org/en/sentences/show/11515787",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どの犬が黒い？",
+      "translation": "Which dog is black?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L6",
+     "activity": 2,
+     "entry": "黒い【くろい】 black",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "黒い【くろい】 black",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "黒い",
+     "matched": "黒い【くろい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "black",
+      "dark; blackish; sun-tanned (skin)",
+      "suspicious; criminal; illicit",
+      "darkened and dirty; sooty; covered in dirt"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_kiiroi",
+   "jp": "黄色い",
+   "kana": "きいろい",
+   "romaji": "kiiroi",
+   "en": "yellow",
+   "gloss": "yellow",
+   "pos": "i-adj",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "花は黄色い。",
+     "en": "Flowers are yellow.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1614327,
+      "url": "https://tatoeba.org/en/sentences/show/1614327",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "花は黄色い。",
+      "translation": "Flowers are yellow."
+     }
+    },
+    {
+     "jp": "葉が黄色くなった。",
+     "en": "The leaves have turned yellow.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13540174,
+      "url": "https://tatoeba.org/en/sentences/show/13540174",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "葉が黄色くなった。",
+      "translation": "The leaves have turned yellow."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "黄色い【きいろい】 yellow",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "黄色い",
+     "matched": "黄色い【きいろい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "yellow",
+      "high-pitched (voice); shrill"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_chairo",
+   "jp": "茶色",
+   "kana": "ちゃいろ",
+   "romaji": "chairo",
+   "en": "brown",
+   "gloss": "brown",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "彼の靴は茶色だ。",
+     "en": "His shoes are brown.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 117753,
+      "url": "https://tatoeba.org/en/sentences/show/117753",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "彼の靴は茶色だ。",
+      "translation": "His shoes are brown."
+     }
+    },
+    {
+     "jp": "茶色がいいんですが。",
+     "en": "I'd prefer a brown one.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 126620,
+      "url": "https://tatoeba.org/en/sentences/show/126620",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "茶色がいいんですが。",
+      "translation": "I'd prefer a brown one."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 1,
+     "entry": "茶色【ちゃいろ】 brown",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "茶色",
+     "matched": "茶色【ちゃいろ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "brown; light brown; tawny",
+      "Brown"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_midori",
+   "jp": "緑",
+   "kana": "みどり",
+   "romaji": "midori",
+   "en": "green",
+   "gloss": "green",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "緑です。",
+     "en": "It's green.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11776653,
+      "url": "https://tatoeba.org/en/sentences/show/11776653",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "緑です。",
+      "translation": "It's green."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L5",
+     "activity": 1,
+     "entry": "緑【みどり】 greenery",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 1,
+     "entry": "緑【みどり】 green",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "緑",
+     "matched": "緑【みどり】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "green",
+      "greenery; verdure",
+      "Green"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_pinku",
+   "jp": "ピンク",
+   "kana": "ピンク",
+   "romaji": "pinku",
+   "en": "pink",
+   "gloss": "pink",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 1,
+     "entry": "ピンク【ピンク】 pink",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ピンク",
+     "matched": "【ピンク】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "pink",
+      "erotic; blue; pornographic",
+      "Pink"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_guree",
+   "jp": "グレー",
+   "kana": "グレー",
+   "romaji": "gurē",
+   "en": "grey; gray",
+   "gloss": "grey",
+   "pos": "noun",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 1,
+     "entry": "グレー【グレー】 gray",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "グレー",
+     "matched": "【グレー】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "grey; gray",
+      "Gray (France); Gree"
+     ],
+     "pos": [
+      "Noun",
+      "Noun which may take the genitive case particle 'no'",
+      "Place"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_kitsui",
+   "jp": "きつい",
+   "kana": "きつい",
+   "romaji": "kitsui",
+   "en": "tight (clothes, shoes); hard; tough",
+   "gloss": "tight",
+   "pos": "i-adj",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "adj_class": "i",
+   "examples": [
+    {
+     "jp": "ちょっときついです。",
+     "en": "They're a little tight.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 202841,
+      "url": "https://tatoeba.org/en/sentences/show/202841",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ちょっときついです。",
+      "translation": "They're a little tight."
+     }
+    },
+    {
+     "jp": "私の靴、きついの。",
+     "en": "My shoes are too small.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9251454,
+      "url": "https://tatoeba.org/en/sentences/show/9251454",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私の靴、きついの。",
+      "translation": "My shoes are too small."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "きつい",
+     "matched": "【きつい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "tough; hard; severe; demanding; harsh",
+      "determined; strong-minded; forceful; formidable; fierce",
+      "strong (e.g. sunlight, alcohol); severe; intense",
+      "(too) tight; constricting; close"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_yurui",
+     "rel": "contrast: loose"
+    }
+   ]
+  },
+  {
+   "id": "sh_yurui",
+   "jp": "緩い",
+   "kana": "ゆるい",
+   "romaji": "yurui",
+   "en": "loose (clothes, shoes); slack",
+   "gloss": "loose",
+   "pos": "i-adj",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "say",
+   "adj_class": "i",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "緩い",
+     "matched": "緩い【ゆるい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "loose",
+      "lenient; lax",
+      "gentle (curve, slope, etc.)",
+      "slow; weak"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_kitsui",
+     "rel": "contrast: tight"
+    }
+   ]
+  },
+  {
+   "id": "sh_hade",
+   "jp": "派手",
+   "kana": "はで",
+   "romaji": "hade",
+   "en": "flashy; showy; loud (colour)",
+   "gloss": "flashy",
+   "pos": "na-adj",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "say",
+   "adj_class": "na",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 1,
+     "entry": "派手（な）【はで（な）】 flashy",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "派手",
+     "matched": "派手【はで】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "showy; loud; flashy; gaudy"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_jimi",
+     "rel": "contrast: plain"
+    }
+   ]
+  },
+  {
+   "id": "sh_jimi",
+   "jp": "地味",
+   "kana": "じみ",
+   "romaji": "jimi",
+   "en": "plain; sober; subdued",
+   "gloss": "plain",
+   "pos": "na-adj",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "say",
+   "adj_class": "na",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L10",
+     "activity": 1,
+     "entry": "地味（な）【じみ（な）】 conservative in a dark color",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "地味",
+     "matched": "地味【じみ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "plain; simple; subdued; sober",
+      "reserved (behaviour, attitude, etc.); modest; quiet; unobtrusive",
+      "quite; a (little) bit"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "sh_hade",
+     "rel": "contrast: flashy"
+    }
+   ]
+  },
+  {
+   "id": "sh_oshare",
+   "jp": "おしゃれ",
+   "kana": "おしゃれ",
+   "romaji": "oshare",
+   "en": "stylish; fashionable",
+   "gloss": "stylish",
+   "pos": "na-adj",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "say",
+   "adj_class": "na",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "おしゃれ（な）【おしゃれ（な）】 stylish",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L17",
+     "activity": 3,
+     "entry": "おしゃれ（な）【おしゃれ（な）】 stylish",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "おしゃれ",
+     "matched": "【オシャレ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "stylish; fashionable; trendy; chic; smartly dressed; careful about one's appearance",
+      "dressing (oneself) up; dressing smartly; dressing nicely; making oneself look attractive",
+      "fashionable dresser; smartly dressed person"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun",
+      "Suru verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_x_shichaku_ii",
+   "jp": "試着してもいいですか",
+   "kana": "しちゃくしてもいいですか",
+   "romaji": "shichaku shite mo ii desu ka",
+   "en": "May I try this on?",
+   "gloss": "May I try this on?",
+   "pos": "phrase",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 151007,
+     "url": "https://tatoeba.org/en/sentences/show/151007",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "試着してもいいですか。",
+     "translation": "May I try that on?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "試着する",
+     "matched": "試着【しちゃく】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "trying on clothes"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_x_shichakushitsu_doko",
+   "jp": "試着室はどこですか",
+   "kana": "しちゃくしつはどこですか",
+   "romaji": "shichakushitsu wa doko desu ka",
+   "en": "Where is the fitting room?",
+   "gloss": "Where is the fitting room?",
+   "pos": "phrase",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 151002,
+     "url": "https://tatoeba.org/en/sentences/show/151002",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "試着室はどこですか。",
+     "translation": "Where is the changing room?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "試着室",
+     "matched": "試着室【しちゃくしつ】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "dressing room; fitting room"
+     ],
+     "pos": [
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どこ",
+     "matched": "何処【どこ】 (written in kana: どこ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "where; what place",
+      "how much (long, far); what extent"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "sh_x_ookiino",
+   "jp": "もうちょっと大きいの、ありますか",
+   "kana": "もうちょっとおおきいの、ありますか",
+   "romaji": "mō chotto ōkii no, arimasu ka",
+   "en": "Do you have a slightly bigger one?",
+   "gloss": "Do you have a slightly bigger one?",
+   "pos": "phrase",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "accept": [
+    "もうちょっと大きいのありますか"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 初級2 第11課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "第11課",
+     "quote": "もうちょっと大きいの、ありますか？",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "大きい",
+     "matched": "大きい【おおきい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "big; large; great",
+      "loud",
+      "extensive; spacious",
+      "important; decisive; valuable"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ある",
+     "matched": "有る【ある】 (written in kana: ある)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to be; to exist; to live",
+      "to have",
+      "to be located",
+      "to be equipped with"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending (irregular verb)",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "sh_x_chiisaino",
+   "jp": "もう少し小さいのはありますか",
+   "kana": "もうすこしちいさいのはありますか",
+   "romaji": "mō sukoshi chiisai no wa arimasu ka",
+   "en": "Do you have one a little smaller?",
+   "gloss": "Do you have one a little smaller?",
+   "pos": "phrase",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 194094,
+     "url": "https://tatoeba.org/en/sentences/show/194094",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "もう少し小さいのはありますか。",
+     "translation": "Do you have one a little smaller?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "少し",
+     "matched": "少し【すこし】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "a little; a bit; a small amount; a few; some; slightly; somewhat",
+      "a little while; a short time; a moment; a minute",
+      "a little way; a short distance"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "小さい",
+     "matched": "小さい【ちいさい】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "small; little; tiny",
+      "slight; below average (in degree, amount, etc.); minor; small",
+      "low (e.g. sound); soft (e.g. voice)",
+      "unimportant; petty; insignificant; trifling; trivial"
+     ],
+     "pos": [
+      "I-adjective (keiyoushi)"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ある",
+     "matched": "有る【ある】 (written in kana: ある)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to be; to exist; to live",
+      "to have",
+      "to be located",
+      "to be equipped with"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending (irregular verb)",
+      "Intransitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "sh_x_miteirudake",
+   "jp": "見ているだけです",
+   "kana": "みているだけです",
+   "romaji": "mite iru dake desu",
+   "en": "I'm just looking.",
+   "gloss": "I'm just looking.",
+   "pos": "phrase",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "say_when": "When staff ask 何かお探しですか.",
+   "accept": [
+    "見てるだけです"
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2413217,
+     "url": "https://tatoeba.org/en/sentences/show/2413217",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "見ているだけです。",
+     "translation": "I'm just looking."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "見る",
+     "matched": "見る【みる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to see; to look; to watch; to view; to observe",
+      "to examine; to look over; to assess; to check; to judge",
+      "to look after; to attend to; to take care of; to keep an eye on",
+      "to experience; to meet with (misfortune, success, etc.)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "sh_x_korenishimasu",
+   "jp": "これにします",
+   "kana": "これにします",
+   "romaji": "kore ni shimasu",
+   "en": "I'll take this one.",
+   "gloss": "I'll take this one.",
+   "pos": "phrase",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2265662,
+     "url": "https://tatoeba.org/en/sentences/show/2265662",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "これにします。",
+     "translation": "I'll take it."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "これ",
+     "matched": "此れ【これ】 (written in kana: これ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "this; this one",
+      "this person",
+      "now; this point (in time)",
+      "here"
+     ],
+     "pos": [
+      "Pronoun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "sh_x_osagashi",
+   "jp": "何かお探しですか",
+   "kana": "なにかおさがしですか",
+   "romaji": "nani ka o-sagashi desu ka",
+   "en": "Are you looking for something? (shop staff)",
+   "gloss": "Are you looking for something? (shop staff)",
+   "pos": "phrase",
+   "topic": "shopping",
+   "tier": 1,
+   "use": "hear",
+   "register": "honorific",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 188129,
+     "url": "https://tatoeba.org/en/sentences/show/188129",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "何かお探しですか。",
+     "translation": "Are you looking for something?"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 初中級 第12課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "第12課",
+     "quote": "何かお探しですか？",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "探す",
+     "matched": "探す【さがす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "to search for; to look for; to hunt for; to seek",
+      "to search (a house, pocket, etc.); to search through; to rummage in (e.g. a drawer); to fish around"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_x_oniai",
+   "jp": "よくお似合いです",
+   "kana": "よくおにあいです",
+   "romaji": "yoku o-niai desu",
+   "en": "That looks good on you. (shop staff)",
+   "gloss": "That looks good on you. (shop staff)",
+   "pos": "phrase",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "hear",
+   "register": "honorific",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 3613713,
+     "url": "https://tatoeba.org/en/sentences/show/3613713",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "よくお似合いです。",
+     "translation": "That looks good on you."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "似合う",
+     "matched": "似合う【にあう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "to suit; to match; to become; to be like"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_x_saizu_awanai",
+   "jp": "これはサイズが合いません",
+   "kana": "これはサイズがあいません",
+   "romaji": "kore wa saizu ga aimasen",
+   "en": "This size doesn't fit me.",
+   "gloss": "This size doesn't fit me.",
+   "pos": "phrase",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 218610,
+     "url": "https://tatoeba.org/en/sentences/show/218610",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "これはサイズが合いません。",
+     "translation": "This size doesn't fit me."
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "サイズ",
+     "matched": "【サイズ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1"
+     ],
+     "senses": [
+      "size",
+      "Size"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_x_hadesugi",
+   "jp": "この色はちょっと派手すぎます",
+   "kana": "このいろはちょっとはですぎます",
+   "romaji": "kono iro wa chotto hade sugimasu",
+   "en": "This colour is a bit too loud.",
+   "gloss": "This colour is a bit too loud.",
+   "pos": "phrase",
+   "topic": "shopping",
+   "tier": 3,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 初級2 第11課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "lesson": "第11課",
+     "quote": "この色はちょっと派手すぎます。",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "色",
+     "matched": "色【いろ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "colour; color; hue; tint; tinge; shade",
+      "complexion; skin colour; skin color",
+      "look (on one's face); expression",
+      "appearance; air; feeling"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "派手",
+     "matched": "派手【はで】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "showy; loud; flashy; gaudy"
+     ],
+     "pos": [
+      "Na-adjective (keiyodoshi)",
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sh_x_purezentoyou",
+   "jp": "プレゼント用に包んでください",
+   "kana": "プレゼントようにつつんでください",
+   "romaji": "purezento-yō ni tsutsunde kudasai",
+   "en": "Could you gift-wrap it, please?",
+   "gloss": "Could you gift-wrap it, please?",
+   "pos": "phrase",
+   "topic": "shopping",
+   "tier": 2,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 196916,
+     "url": "https://tatoeba.org/en/sentences/show/196916",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "プレゼント用に包んでください。",
+     "translation": "Could you gift wrap it?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "プレゼント",
+     "matched": "【プレゼント】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "present; gift"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  }
+ ]
+}

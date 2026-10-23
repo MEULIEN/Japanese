@@ -236,6 +236,12 @@
   // A pattern can be practised once it has been taught (its fixed words —
   // ください, いくら… — are then known), or inside the lesson teaching it.
   const patternUsable = (p, ctx) => !p.altOnly && p.parts && (ctx.patternsSeen ? ctx.patternsSeen.has(p.id) : true);
+  // Partner words from the same topic as the practised word make coherent
+  // sentences (bank verbs with bank nouns); other topics only as a fallback.
+  function sameTopicFirst(pool, item) {
+    const same = pool.filter(x => x.topic === item.topic);
+    return same.length ? same : pool;
+  }
   // Patterns that can feature this item, with other slots filled from scope.
   function patternFor(item, ctx) {
     const cands = [];
@@ -247,7 +253,7 @@
         let ok = true;
         for (const [other, s2] of Object.entries(p.slots)) {
           if (other === name) continue;
-          const pool = ctx.C.items.filter(x => ctx.scope.has(x.id) && slotOk(x, s2));
+          const pool = sameTopicFirst(ctx.C.items.filter(x => ctx.scope.has(x.id) && slotOk(x, s2)), item);
           if (!pool.length) { ok = false; break; }
           fills[other] = { item: pool[Math.floor(ctx.rng() * pool.length)] };
         }
@@ -258,7 +264,7 @@
           if (!fitsV(fills[p.objectSlot].item)) {
             if (name === p.objectSlot) ok = false;
             else {
-              const objs = ctx.C.items.filter(x => ctx.scope.has(x.id) && slotOk(x, p.slots[p.objectSlot]) && fitsV(x));
+              const objs = sameTopicFirst(ctx.C.items.filter(x => ctx.scope.has(x.id) && slotOk(x, p.slots[p.objectSlot]) && fitsV(x)), v);
               if (objs.length) fills[p.objectSlot] = { item: objs[Math.floor(ctx.rng() * objs.length)] }; else ok = false;
             }
           }

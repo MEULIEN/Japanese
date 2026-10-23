@@ -45,7 +45,7 @@ test('every item topic exists; every topic has items', () => {
   for (const it of C.items) assert.ok(C.topicById[it.topic], it.id + ' topic ' + it.topic);
 });
 test('verb/adjective classes agree with the dictionary part-of-speech recorded in the item’s source', () => {
-  const POS = { godan: /Godan verb(?! - Iku| - -aru)/, ichidan: /Ichidan verb/, suru: /Suru verb/, kuru: /Kuru verb/, iku: /Iku\/Yuku/, 'aru-honorific': /-aru special/ };
+  const POS = { godan: /Godan verb(?! - Iku| - -aru)/, ichidan: /Ichidan verb/, suru: /Suru verb/, kuru: /Kuru verb/, iku: /Iku\/Yuku/, 'aru-honorific': /-aru special/, kureru: /kureru special/i };
   let checked = 0;
   for (const it of C.items.filter(i => i.verb_class || i.adj_class)) {
     const dict = it.sources.find(s => typeof s === 'object' && s.type === 'dictionary' && s.pos);

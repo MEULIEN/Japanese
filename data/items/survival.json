@@ -984,6 +984,15 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "lg_gaikokugo",
+     "rel": "foreign language"
+    }
+   ],
+   "tags": [
+    "language"
    ]
   },
   {
@@ -1048,6 +1057,9 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "tags": [
+    "language"
    ]
   },
   {
@@ -1630,6 +1642,9 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "obj": [
+    "language"
    ]
   },
   {
@@ -3218,6 +3233,1049 @@
      "checked": "2026-10-22",
      "text": "申し訳ございません。",
      "translation": "I am truly sorry."
+    }
+   ]
+  },
+  {
+   "id": "v_komaru",
+   "jp": "困る",
+   "kana": "こまる",
+   "romaji": "komaru",
+   "en": "to be in trouble; to be troubled; to have a hard time",
+   "gloss": "to be in trouble",
+   "pos": "verb",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "それは困ったね。",
+     "en": "That's too bad.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 205194,
+      "url": "https://tatoeba.org/en/sentences/show/205194",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "それは困ったね。",
+      "translation": "That's too bad."
+     }
+    },
+    {
+     "jp": "今困っているんだ。",
+     "en": "I'm in trouble now.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2060893,
+      "url": "https://tatoeba.org/en/sentences/show/2060893",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今困っているんだ。",
+      "translation": "I'm in trouble now."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L6",
+     "activity": 3,
+     "entry": "困る【こまる】 to be troubled",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "困る",
+     "matched": "困る【こまる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to be troubled; to have difficulty; to be in a fix; to be at a loss; to be stumped; to be embarrassed",
+      "to be bothered; to be inconvenienced; to be annoyed",
+      "to be badly off; to be hard up; to be in straitened circumstances"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_setsumeisuru",
+   "jp": "説明する",
+   "kana": "せつめいする",
+   "romaji": "setsumeisuru",
+   "en": "to explain; to give an explanation",
+   "gloss": "to explain",
+   "pos": "verb",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "説明してください。",
+     "en": "Please explain it.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 142050,
+      "url": "https://tatoeba.org/en/sentences/show/142050",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "説明してください。",
+      "translation": "Please explain it."
+     }
+    },
+    {
+     "jp": "説明してくれる？",
+     "en": "Can you explain it to me?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4216062,
+      "url": "https://tatoeba.org/en/sentences/show/4216062",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "説明してくれる？",
+      "translation": "Can you explain it to me?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L9",
+     "activity": 2,
+     "entry": "説明する／説明します【せつめいする／せつめいします】 to explain",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L9",
+     "activity": 3,
+     "entry": "説明する【せつめいする】 to explain",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "説明する",
+     "matched": "説明【せつめい】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "explanation; exposition; description; account; caption; legend",
+      "Explanation"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_eeto",
+   "jp": "えーと",
+   "kana": "えーと",
+   "romaji": "ēto",
+   "en": "let me see; well; er",
+   "gloss": "let me see",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 3,
+     "entry": "えーと【えーと】 Er… (expresses that the speaker is thinking)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "えーと",
+     "matched": "【えーと】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "let me see; well; errr ...; uhh ..."
+     ],
+     "pos": [],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_anou",
+   "jp": "あのう",
+   "kana": "あのう",
+   "romaji": "anō",
+   "en": "um; excuse me (to get attention or hesitate)",
+   "gloss": "um",
+   "pos": "expression",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "あのう、お願いがあるんですが。",
+     "en": "Umm, I have a request...",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2462029,
+      "url": "https://tatoeba.org/en/sentences/show/2462029",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "あのう、お願いがあるんですが。",
+      "translation": "Umm, I have a request..."
+     }
+    },
+    {
+     "jp": "あのう、何かお困りですか？",
+     "en": "Excuse me, but do you need any help?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11829335,
+      "url": "https://tatoeba.org/en/sentences/show/11829335",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "あのう、何かお困りですか？",
+      "translation": "Excuse me, but do you need any help?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 2,
+     "entry": "あのう【あのう】 Um… (used when the speaker wants to start talking to someone)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "あのう",
+     "matched": "【あのう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "say; well; um; er"
+     ],
+     "pos": [],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "q_dare",
+   "jp": "誰",
+   "kana": "だれ",
+   "romaji": "dare",
+   "en": "who",
+   "gloss": "who",
+   "pos": "question",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "あれ誰？",
+     "en": "Who's that?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1121259,
+      "url": "https://tatoeba.org/en/sentences/show/1121259",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "あれ誰？",
+      "translation": "Who's that?"
+     }
+    },
+    {
+     "jp": "次は誰？",
+     "en": "Who's next?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3491565,
+      "url": "https://tatoeba.org/en/sentences/show/3491565",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "次は誰？",
+      "translation": "Who's next?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "誰",
+     "matched": "誰【だれ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "who"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "q_doushite",
+   "jp": "どうして",
+   "kana": "どうして",
+   "romaji": "dōshite",
+   "en": "why",
+   "gloss": "why",
+   "pos": "question",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "どうして？",
+     "en": "Why?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 778978,
+      "url": "https://tatoeba.org/en/sentences/show/778978",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どうして？",
+      "translation": "Why?"
+     }
+    },
+    {
+     "jp": "どうして笑うの？",
+     "en": "What makes you laugh?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8613529,
+      "url": "https://tatoeba.org/en/sentences/show/8613529",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どうして笑うの？",
+      "translation": "What makes you laugh?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "どうして【どうして】 why",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 3,
+     "entry": "どうして【どうして】 why",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どうして",
+     "matched": "如何して【どうして】 (written in kana: どうして)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "how; in what way; by what means",
+      "why; for what reason; for what purpose; what for",
+      "cannot possibly",
+      "no way"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "q_dore",
+   "jp": "どれ",
+   "kana": "どれ",
+   "romaji": "dore",
+   "en": "which (one)",
+   "gloss": "which",
+   "pos": "question",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "note": "Stands alone: どれですか. Before a noun use どの.",
+   "examples": [
+    {
+     "jp": "どれがいい？",
+     "en": "Which one do you want?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10298483,
+      "url": "https://tatoeba.org/en/sentences/show/10298483",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どれがいい？",
+      "translation": "Which one do you want?"
+     }
+    },
+    {
+     "jp": "私のはどれ？",
+     "en": "Which is mine?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3710295,
+      "url": "https://tatoeba.org/en/sentences/show/3710295",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私のはどれ？",
+      "translation": "Which is mine?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L11",
+     "activity": 2,
+     "entry": "どれ【どれ】 which one (of three or more)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どれ",
+     "matched": "何れ【どれ】 (written in kana: どれ)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "which (of three or more)",
+      "well; now; c'mon"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "q_dono",
+     "rel": "before a noun"
+    }
+   ]
+  },
+  {
+   "id": "q_dono",
+   "jp": "どの",
+   "kana": "どの",
+   "romaji": "dono",
+   "en": "which (+ noun)",
+   "gloss": "which",
+   "pos": "question",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "note": "Always before a noun: どの電車ですか. On its own use どれ.",
+   "examples": [
+    {
+     "jp": "どの駅で降りるの？",
+     "en": "Which stop are you getting off at?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13476186,
+      "url": "https://tatoeba.org/en/sentences/show/13476186",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どの駅で降りるの？",
+      "translation": "Which stop are you getting off at?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 3,
+     "entry": "どの【どの】 which ～ (among more than three)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どの",
+     "matched": "何の【どの】 (written in kana: どの)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "which; what (way)"
+     ],
+     "pos": [
+      "Pre-noun adjectival (rentaishi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "q_dore",
+     "rel": "on its own"
+    }
+   ]
+  },
+  {
+   "id": "q_donna",
+   "jp": "どんな",
+   "kana": "どんな",
+   "romaji": "donna",
+   "en": "what kind of",
+   "gloss": "what kind of",
+   "pos": "question",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "どんな色が好き？",
+     "en": "What color do you like?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1186805,
+      "url": "https://tatoeba.org/en/sentences/show/1186805",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どんな色が好き？",
+      "translation": "What color do you like?"
+     }
+    },
+    {
+     "jp": "どんな方なの？",
+     "en": "What is he like?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11576569,
+      "url": "https://tatoeba.org/en/sentences/show/11576569",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どんな方なの？",
+      "translation": "What is he like?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L11",
+     "activity": 2,
+     "entry": "どんな【どんな】 what kind of",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L5",
+     "activity": 1,
+     "entry": "どんな【どんな】 what kind of",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どんな",
+     "matched": "【どんな】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "what kind of; what sort of; what",
+      "no matter what (kind of); whatever; any; all"
+     ],
+     "pos": [
+      "Pre-noun adjectival (rentaishi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "q_donokurai",
+   "jp": "どのくらい",
+   "kana": "どのくらい",
+   "romaji": "donokurai",
+   "en": "how long; how much; how far (to what extent)",
+   "gloss": "how long",
+   "pos": "question",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "どのくらい遠いの？",
+     "en": "How far?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 200415,
+      "url": "https://tatoeba.org/en/sentences/show/200415",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どのくらい遠いの？",
+      "translation": "How far?"
+     }
+    },
+    {
+     "jp": "期間はどのくらい？",
+     "en": "How long do you want it for?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 183398,
+      "url": "https://tatoeba.org/en/sentences/show/183398",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "期間はどのくらい？",
+      "translation": "How long do you want it for?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どのくらい",
+     "matched": "どの位【どのくらい】 (written in kana: どのくらい)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "how long; how far; how much"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "q_dou",
+   "jp": "どう",
+   "kana": "どう",
+   "romaji": "dō",
+   "en": "how; how about",
+   "gloss": "how",
+   "pos": "question",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "どう？",
+     "en": "How do you like it?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5675039,
+      "url": "https://tatoeba.org/en/sentences/show/5675039",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どう？",
+      "translation": "How do you like it?"
+     }
+    },
+    {
+     "jp": "一口どう？",
+     "en": "How about a bite?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9776983,
+      "url": "https://tatoeba.org/en/sentences/show/9776983",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "一口どう？",
+      "translation": "How about a bite?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 3,
+     "entry": "どう【どう】 how",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どう",
+     "matched": "如何【どう】 (written in kana: どう)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "how; in what way; how about"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "q_douyatte",
+     "rel": "how (method)"
+    }
+   ]
+  },
+  {
+   "id": "q_douyatte",
+   "jp": "どうやって",
+   "kana": "どうやって",
+   "romaji": "dōyatte",
+   "en": "how; in what way",
+   "gloss": "how",
+   "pos": "question",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "これ、どうやって使うの？",
+     "en": "How do you use this?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10914887,
+      "url": "https://tatoeba.org/en/sentences/show/10914887",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "これ、どうやって使うの？",
+      "translation": "How do you use this?"
+     }
+    },
+    {
+     "jp": "どうやって家に帰ったの？",
+     "en": "How did you go home?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11864860,
+      "url": "https://tatoeba.org/en/sentences/show/11864860",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どうやって家に帰ったの？",
+      "translation": "How did you go home?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 3,
+     "entry": "どうやって【どうやって】 how",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どうやって",
+     "matched": "【どうやって】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "how; in what way; by what means"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "q_dou",
+     "rel": "how (opinion)"
+    }
+   ]
+  },
+  {
+   "id": "q_dochira",
+   "jp": "どちら",
+   "kana": "どちら",
+   "romaji": "dochira",
+   "en": "which (of two); where (polite)",
+   "gloss": "which",
+   "pos": "question",
+   "topic": "survival",
+   "tier": 2,
+   "use": "say",
+   "note": "Polite for どこ and どれ: どちらからですか (where are you from?).",
+   "examples": [
+    {
+     "jp": "お宅はどちらですか？",
+     "en": "Where is your house?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3508032,
+      "url": "https://tatoeba.org/en/sentences/show/3508032",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お宅はどちらですか？",
+      "translation": "Where is your house?"
+     }
+    },
+    {
+     "jp": "どちらでもどうぞ。",
+     "en": "Take whichever one you like.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 200791,
+      "url": "https://tatoeba.org/en/sentences/show/200791",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どちらでもどうぞ。",
+      "translation": "Take whichever one you like."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L3",
+     "activity": 3,
+     "entry": "どちら【どちら】 where (polite expression)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どちら",
+     "matched": "何方【どちら】 (written in kana: どちら)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "which way; which direction; where",
+      "which one (esp. of two alternatives)",
+      "who"
+     ],
+     "pos": [
+      "Pronoun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_x_doushitedesuka",
+   "jp": "どうしてですか",
+   "kana": "どうしてですか",
+   "romaji": "dōshite desu ka",
+   "en": "Why? / Why is that?",
+   "gloss": "Why? / Why is that?",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 778975,
+     "url": "https://tatoeba.org/en/sentences/show/778975",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "どうしてですか？",
+     "translation": "Why is that?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どうして",
+     "matched": "如何して【どうして】 (written in kana: どうして)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "how; in what way; by what means",
+      "why; for what reason; for what purpose; what for",
+      "cannot possibly",
+      "no way"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "sv_x_jikan_donokurai",
+   "jp": "時間はどのくらいかかりますか",
+   "kana": "じかんはどのくらいかかりますか",
+   "romaji": "jikan wa dono kurai kakarimasu ka",
+   "en": "How long does it take?",
+   "gloss": "How long does it take?",
+   "pos": "phrase",
+   "topic": "survival",
+   "tier": 1,
+   "use": "say",
+   "register": "polite",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 150582,
+     "url": "https://tatoeba.org/en/sentences/show/150582",
+     "license": "CC BY 2.0 FR",
+     "checked": "2026-10-23",
+     "text": "時間はどのくらいかかりますか。",
+     "translation": "How long does it take?"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "時間",
+     "matched": "時間【じかん】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "time",
+      "hour",
+      "period; class; lesson",
+      "Time"
+     ],
+     "pos": [
+      "Noun",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "どのくらい",
+     "matched": "どの位【どのくらい】 (written in kana: どのくらい)",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "how long; how far; how much"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
     }
    ]
   }

@@ -64,6 +64,11 @@ test('special godan: 行く te/ta, ある negative, いらっしゃる masu/impe
   const ir = v('いらっしゃる', 'いらっしゃる', 'aru-honorific');
   assert.strictEqual(j(ir, 'masu'), 'いらっしゃいます'); assert.strictEqual(j(ir, 'imperative'), 'いらっしゃい'); assert.strictEqual(j(ir, 'te'), 'いらっしゃって');
 });
+test('くれる (kureru special class): ichidan forms, imperative くれ (not くれろ)', () => {
+  const w = v('くれる', 'くれる', 'kureru');
+  assert.deepStrictEqual(['masu', 'nai', 'te', 'ta', 'imperative', 'te_kudasai'].map(f => j(w, f)), ['くれます', 'くれない', 'くれて', 'くれた', 'くれ', 'くれてください']);
+  assert.strictEqual(C.groupOf(w), 'group2');
+});
 test('obligation / permission / prohibition patterns + accepted variants', () => {
   const w = v('飲む', 'のむ', 'godan');
   assert.strictEqual(j(w, 'te_mo_ii'), '飲んでもいいです');

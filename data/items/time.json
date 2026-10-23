@@ -2094,6 +2094,475 @@
      "checked": "2026-10-23"
     }
    ]
+  },
+  {
+   "id": "v_maniau",
+   "jp": "間に合う",
+   "kana": "まにあう",
+   "romaji": "maniau",
+   "en": "to be in time (for)",
+   "gloss": "to be in time",
+   "pos": "verb",
+   "topic": "time",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "電車間に合った？",
+     "en": "Did you catch the train?!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3561140,
+      "url": "https://tatoeba.org/en/sentences/show/3561140",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "電車間に合った？",
+      "translation": "Did you catch the train?!"
+     }
+    },
+    {
+     "jp": "まだ間に合う。",
+     "en": "I can still make it.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8602062,
+      "url": "https://tatoeba.org/en/sentences/show/8602062",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "まだ間に合う。",
+      "translation": "I can still make it."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "間に合う",
+     "matched": "間に合う【まにあう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to be in time (for)",
+      "to serve (suit, meet) the purpose; to be good enough; to be enough; to manage; to make do"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_okureru",
+     "rel": "contrast: be late"
+    }
+   ]
+  },
+  {
+   "id": "v_okureru",
+   "jp": "遅れる",
+   "kana": "おくれる",
+   "romaji": "okureru",
+   "en": "to be late; to be delayed",
+   "gloss": "to be late",
+   "pos": "verb",
+   "topic": "time",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "遅れます。",
+     "en": "I'll be late.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2465467,
+      "url": "https://tatoeba.org/en/sentences/show/2465467",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "遅れます。",
+      "translation": "I'll be late."
+     }
+    },
+    {
+     "jp": "遅れちゃう。",
+     "en": "I will be late.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11741605,
+      "url": "https://tatoeba.org/en/sentences/show/11741605",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "遅れちゃう。",
+      "translation": "I will be late."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L4",
+     "activity": 3,
+     "entry": "遅れる【おくれる】 to be late",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L7",
+     "activity": 3,
+     "entry": "遅れる【おくれる】 to be late",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "遅れる",
+     "matched": "遅れる【おくれる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to be late; to be delayed; to fall behind schedule; to be overdue",
+      "to fall behind (in a race, one's studies, etc.); to lag behind; to be behind (the times)",
+      "to be bereaved of; to be preceded by (someone) in death",
+      "to be slow (of a clock or watch)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_maniau",
+     "rel": "contrast: be in time"
+    },
+    {
+     "id": "wk_chikoku",
+     "rel": "for work or school: 遅刻する"
+    }
+   ]
+  },
+  {
+   "id": "w_mou",
+   "jp": "もう",
+   "kana": "もう",
+   "romaji": "mō",
+   "en": "already; anymore; soon",
+   "gloss": "already",
+   "pos": "adverb",
+   "topic": "time",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "もう１月？",
+     "en": "Is it January already?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10634977,
+      "url": "https://tatoeba.org/en/sentences/show/10634977",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "もう１月？",
+      "translation": "Is it January already?"
+     }
+    },
+    {
+     "jp": "もう５時？",
+     "en": "Is it five already?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8831965,
+      "url": "https://tatoeba.org/en/sentences/show/8831965",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "もう５時？",
+      "translation": "Is it five already?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L1",
+     "activity": 2,
+     "entry": "もう【もう】 already",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L8",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L8",
+     "activity": 1,
+     "entry": "もう【もう】 already",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "もう",
+     "matched": "【もう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "already; yet; by now; now; (not) any more; (not) any longer",
+      "soon; shortly; before long; presently",
+      "further; more; again; another; the other",
+      "jeez; geez; gee; boy; come on; damn; seriously"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_choudo",
+   "jp": "ちょうど",
+   "kana": "ちょうど",
+   "romaji": "chōdo",
+   "en": "just; exactly",
+   "gloss": "just",
+   "pos": "adverb",
+   "topic": "time",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "ちょうど五時です。",
+     "en": "It is just five o'clock.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 202921,
+      "url": "https://tatoeba.org/en/sentences/show/202921",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ちょうど五時です。",
+      "translation": "It is just five o'clock."
+     }
+    },
+    {
+     "jp": "ちょうど終わりました。",
+     "en": "I just finished it.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11199174,
+      "url": "https://tatoeba.org/en/sentences/show/11199174",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ちょうど終わりました。",
+      "translation": "I just finished it."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L1",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L1",
+     "activity": 2,
+     "entry": "ちょうど【ちょうど】 just / exactly",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "ちょうど",
+     "matched": "丁度【ちょうど】 (written in kana: ちょうど)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "exactly; precisely; just; right; opportunely; fortunately",
+      "just (like); as if; as though"
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_atode",
+   "jp": "後で",
+   "kana": "あとで",
+   "romaji": "atode",
+   "en": "later; afterwards",
+   "gloss": "later",
+   "pos": "adverb",
+   "topic": "time",
+   "tier": 1,
+   "use": "say",
+   "tts": "kana",
+   "note": "Irodori writes it in kana: あとで.",
+   "accept": [
+    "あとで"
+   ],
+   "examples": [
+    {
+     "jp": "後で電話して！",
+     "en": "Call me later.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 874000,
+      "url": "https://tatoeba.org/en/sentences/show/874000",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "後で電話して！",
+      "translation": "Call me later."
+     }
+    },
+    {
+     "jp": "後で話そうね。",
+     "en": "We'll talk afterwards.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8608115,
+      "url": "https://tatoeba.org/en/sentences/show/8608115",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "後で話そうね。",
+      "translation": "We'll talk afterwards."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "後で",
+     "matched": "後で【あとで】",
+     "common": false,
+     "jlpt": [],
+     "senses": [
+      "later (on); afterwards"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_mousugu",
+   "jp": "もうすぐ",
+   "kana": "もうすぐ",
+   "romaji": "mōsugu",
+   "en": "soon; shortly",
+   "gloss": "soon",
+   "pos": "adverb",
+   "topic": "time",
+   "tier": 2,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "もうすぐ春だ。",
+     "en": "It'll soon be spring.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2684826,
+      "url": "https://tatoeba.org/en/sentences/show/2684826",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "もうすぐ春だ。",
+      "translation": "It'll soon be spring."
+     }
+    },
+    {
+     "jp": "もうすぐできる？",
+     "en": "Are you almost done?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8791314,
+      "url": "https://tatoeba.org/en/sentences/show/8791314",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "もうすぐできる？",
+      "translation": "Are you almost done?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L18",
+     "activity": 1,
+     "entry": "もうすぐ【もうすぐ】 soon / almost",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L13",
+     "activity": 2,
+     "entry": "もうすぐ【もうすぐ】 soon / almost",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "もうすぐ",
+     "matched": "もう直ぐ【もうすぐ】 (written in kana: もうすぐ)",
+     "common": false,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "soon; shortly; before long; nearly; almost"
+     ],
+     "pos": [
+      "Expressions (phrases, clauses, etc.)",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
   }
  ]
 }

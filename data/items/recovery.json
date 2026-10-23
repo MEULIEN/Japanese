@@ -294,6 +294,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "sh_akai",
+     "rel": "a colour: red"
+    }
    ]
   },
   {

@@ -2,151 +2,975 @@
  "about": "Sentence patterns. A generated sentence = a verified pattern + verified items whose tags fit the slot; verb slots are conjugated by js/conjugate.js. Patterns with the same `intent` are accepted as alternative answers for each other. Each pattern lists a grammar reference and real usage sentences (Tatoeba, CC BY 2.0 FR) showing the exact construction.",
  "patterns": [
   {
-   "id": "g_o_kudasai", "intent": "request-item", "frame": "〜をください", "en": "Ask for {N}, please.",
-   "parts": [{ "slot": "N" }, { "jp": "を" }, { "jp": "ください" }],
-   "slots": { "N": { "tags": ["orderable", "shop_item", "food", "drink"] } },
-   "register": "polite", "topics": ["restaurant", "konbini"],
+   "id": "g_o_kudasai",
+   "intent": "request-item",
+   "frame": "〜をください",
+   "en": "Ask for this, politely: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "を"
+    },
+    {
+     "jp": "ください"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "orderable",
+      "shop_item",
+      "food",
+      "drink"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "restaurant",
+    "konbini"
+   ],
    "explain": "Point at or name what you want, add をください. Plain, polite and always understood.",
    "status": "verified",
    "sources": [
-    { "type": "reference", "name": "Tae Kim — Making Requests (〜をください)", "url": "https://guidetojapanese.org/learn/grammar/requests", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 143718, "url": "https://tatoeba.org/en/sentences/show/143718", "license": "CC BY 2.0 FR", "text": "水をください。", "translation": "Can I have some water, please?", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 8576120, "url": "https://tatoeba.org/en/sentences/show/8576120", "license": "CC BY 2.0 FR", "text": "紅茶をください。", "translation": "Tea, please.", "checked": "2026-10-22" }
+    {
+     "type": "reference",
+     "name": "Tae Kim — Making Requests (〜をください)",
+     "url": "https://guidetojapanese.org/learn/grammar/requests",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 143718,
+     "url": "https://tatoeba.org/en/sentences/show/143718",
+     "license": "CC BY 2.0 FR",
+     "text": "水をください。",
+     "translation": "Can I have some water, please?",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 8576120,
+     "url": "https://tatoeba.org/en/sentences/show/8576120",
+     "license": "CC BY 2.0 FR",
+     "text": "紅茶をください。",
+     "translation": "Tea, please.",
+     "checked": "2026-10-22"
+    }
    ]
   },
   {
-   "id": "g_o_onegai", "intent": "request-item", "frame": "〜をお願いします", "en": "Ask for {N}, please.",
-   "parts": [{ "slot": "N" }, { "jp": "を" }, { "jp": "お願いします", "kana": "おねがいします" }],
-   "slots": { "N": { "tags": ["orderable", "shop_item", "food", "drink"] } },
-   "register": "polite", "topics": ["restaurant", "konbini"],
+   "id": "g_o_onegai",
+   "intent": "request-item",
+   "frame": "〜をお願いします",
+   "en": "Ask for this, politely: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "を"
+    },
+    {
+     "jp": "お願いします",
+     "kana": "おねがいします"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "orderable",
+      "shop_item",
+      "food",
+      "drink"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "restaurant",
+    "konbini"
+   ],
    "explain": "Slightly softer than をください and very common in restaurants: お会計をお願いします (the bill, please).",
    "status": "verified",
    "sources": [
-    { "type": "usage", "name": "Tatoeba", "id": 12890072, "url": "https://tatoeba.org/en/sentences/show/12890072", "license": "CC BY 2.0 FR", "text": "お会計をお願いします。", "translation": "Check, please.", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 194613, "url": "https://tatoeba.org/en/sentences/show/194613", "license": "CC BY 2.0 FR", "text": "メニューをお願いします。", "translation": "The menu, please.", "checked": "2026-10-22" }
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 12890072,
+     "url": "https://tatoeba.org/en/sentences/show/12890072",
+     "license": "CC BY 2.0 FR",
+     "text": "お会計をお願いします。",
+     "translation": "Check, please.",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 194613,
+     "url": "https://tatoeba.org/en/sentences/show/194613",
+     "license": "CC BY 2.0 FR",
+     "text": "メニューをお願いします。",
+     "translation": "The menu, please.",
+     "checked": "2026-10-22"
+    }
    ]
   },
   {
-   "id": "g_wa_ikura", "intent": "ask-price", "frame": "〜はいくらですか", "en": "Ask how much {N} costs.",
-   "parts": [{ "slot": "N" }, { "jp": "は" }, { "jp": "いくらですか" }],
-   "slots": { "N": { "tags": ["shop_item", "food", "drink", "orderable"] } },
-   "register": "polite", "topics": ["konbini", "restaurant"],
+   "id": "g_wa_ikura",
+   "intent": "ask-price",
+   "frame": "〜はいくらですか",
+   "en": "Ask the price of: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "は"
+    },
+    {
+     "jp": "いくらですか"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "shop_item",
+      "food",
+      "drink",
+      "orderable"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "konbini",
+    "restaurant"
+   ],
    "explain": "いくら = how much (money). これはいくらですか = how much is this?",
    "status": "verified",
    "sources": [
-    { "type": "usage", "name": "Tatoeba", "id": 432825, "url": "https://tatoeba.org/en/sentences/show/432825", "license": "CC BY 2.0 FR", "text": "これはいくらですか。", "translation": "How much does this cost?", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 10159570, "url": "https://tatoeba.org/en/sentences/show/10159570", "license": "CC BY 2.0 FR", "text": "卵はいくらですか？", "translation": "How much are the eggs?", "checked": "2026-10-22" }
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 432825,
+     "url": "https://tatoeba.org/en/sentences/show/432825",
+     "license": "CC BY 2.0 FR",
+     "text": "これはいくらですか。",
+     "translation": "How much does this cost?",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10159570,
+     "url": "https://tatoeba.org/en/sentences/show/10159570",
+     "license": "CC BY 2.0 FR",
+     "text": "卵はいくらですか？",
+     "translation": "How much are the eggs?",
+     "checked": "2026-10-22"
+    }
    ]
   },
   {
-   "id": "g_wa_arimasuka", "intent": "ask-have", "frame": "〜はありますか", "en": "Ask whether they have {N}.",
-   "parts": [{ "slot": "N" }, { "jp": "は" }, { "jp": "ありますか" }],
-   "slots": { "N": { "tags": ["shop_item", "food", "drink", "orderable", "thing"] } },
-   "register": "polite", "topics": ["konbini", "restaurant"],
+   "id": "g_wa_arimasuka",
+   "intent": "ask-have",
+   "frame": "〜はありますか",
+   "en": "Ask whether they have: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "は"
+    },
+    {
+     "jp": "ありますか"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "shop_item",
+      "food",
+      "drink",
+      "orderable",
+      "thing"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "konbini",
+    "restaurant"
+   ],
    "explain": "Do you have …? / Is there …? For things (not people or animals).",
    "status": "verified",
    "sources": [
-    { "type": "usage", "name": "Tatoeba", "id": 9681765, "url": "https://tatoeba.org/en/sentences/show/9681765", "license": "CC BY 2.0 FR", "text": "鉛筆はありますか？", "translation": "Do you have any pencils?", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 10614457, "url": "https://tatoeba.org/en/sentences/show/10614457", "license": "CC BY 2.0 FR", "text": "洋書はありますか？", "translation": "Do you have any foreign books?", "checked": "2026-10-22" }
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 9681765,
+     "url": "https://tatoeba.org/en/sentences/show/9681765",
+     "license": "CC BY 2.0 FR",
+     "text": "鉛筆はありますか？",
+     "translation": "Do you have any pencils?",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10614457,
+     "url": "https://tatoeba.org/en/sentences/show/10614457",
+     "license": "CC BY 2.0 FR",
+     "text": "洋書はありますか？",
+     "translation": "Do you have any foreign books?",
+     "checked": "2026-10-22"
+    }
    ]
   },
   {
-   "id": "g_wa_doko", "intent": "ask-where", "frame": "〜はどこですか", "en": "Ask where {N} is.",
-   "parts": [{ "slot": "N" }, { "jp": "は" }, { "jp": "どこですか" }],
-   "slots": { "N": { "tags": ["place", "destination", "thing", "transport"] } },
-   "register": "polite", "topics": ["directions", "transport", "survival"],
+   "id": "g_wa_doko",
+   "intent": "ask-where",
+   "frame": "〜はどこですか",
+   "en": "Ask where to find: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "は"
+    },
+    {
+     "jp": "どこですか"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "place",
+      "destination",
+      "thing",
+      "transport"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "directions",
+    "transport",
+    "survival"
+   ],
    "explain": "Where is …? Start with すみません to get attention first.",
    "status": "verified",
    "sources": [
-    { "type": "reference", "name": "Tae Kim — The Question Marker", "url": "https://guidetojapanese.org/learn/grammar/question", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 12461960, "url": "https://tatoeba.org/en/sentences/show/12461960", "license": "CC BY 2.0 FR", "text": "レジはどこですか？", "translation": "Where is the cash register?", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 10049610, "url": "https://tatoeba.org/en/sentences/show/10049610", "license": "CC BY 2.0 FR", "text": "お寺はどこですか？", "translation": "Where's the temple?", "checked": "2026-10-22" }
+    {
+     "type": "reference",
+     "name": "Tae Kim — The Question Marker",
+     "url": "https://guidetojapanese.org/learn/grammar/question",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 12461960,
+     "url": "https://tatoeba.org/en/sentences/show/12461960",
+     "license": "CC BY 2.0 FR",
+     "text": "レジはどこですか？",
+     "translation": "Where is the cash register?",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 10049610,
+     "url": "https://tatoeba.org/en/sentences/show/10049610",
+     "license": "CC BY 2.0 FR",
+     "text": "お寺はどこですか？",
+     "translation": "Where's the temple?",
+     "checked": "2026-10-22"
+    }
    ]
   },
   {
-   "id": "g_ni_ikitai", "intent": "want-go", "frame": "〜に行きたいです", "en": "Say you want to go to {N}.",
-   "parts": [{ "slot": "N" }, { "jp": "に" }, { "jp": "行きたいです", "kana": "いきたいです" }],
-   "slots": { "N": { "tags": ["destination", "place"] } },
-   "register": "polite", "topics": ["directions", "transport", "friends"],
+   "id": "g_ni_ikitai",
+   "intent": "want-go",
+   "frame": "〜に行きたいです",
+   "en": "Say you want to go to: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "に"
+    },
+    {
+     "jp": "行きたいです",
+     "kana": "いきたいです"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "destination",
+      "place"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "directions",
+    "transport",
+    "friends"
+   ],
    "explain": "に marks the destination; 行きたい = want to go (たい-form of 行く).",
    "status": "verified",
    "sources": [
-    { "type": "reference", "name": "Tae Kim — Desire and Suggestions (たい)", "url": "https://guidetojapanese.org/learn/grammar/desire", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 1202186, "url": "https://tatoeba.org/en/sentences/show/1202186", "license": "CC BY 2.0 FR", "text": "ハワイに行きたいです。", "translation": "I want to go to Hawaii.", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 2978485, "url": "https://tatoeba.org/en/sentences/show/2978485", "license": "CC BY 2.0 FR", "text": "学校に行きたいです。", "translation": "I want to go to school.", "checked": "2026-10-22" }
+    {
+     "type": "reference",
+     "name": "Tae Kim — Desire and Suggestions (たい)",
+     "url": "https://guidetojapanese.org/learn/grammar/desire",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 1202186,
+     "url": "https://tatoeba.org/en/sentences/show/1202186",
+     "license": "CC BY 2.0 FR",
+     "text": "ハワイに行きたいです。",
+     "translation": "I want to go to Hawaii.",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2978485,
+     "url": "https://tatoeba.org/en/sentences/show/2978485",
+     "license": "CC BY 2.0 FR",
+     "text": "学校に行きたいです。",
+     "translation": "I want to go to school.",
+     "checked": "2026-10-22"
+    }
    ]
   },
   {
-   "id": "g_ga_suki", "intent": "like", "frame": "〜が好きです", "en": "Say you like {N}.",
-   "parts": [{ "slot": "N" }, { "jp": "が" }, { "jp": "好きです", "kana": "すきです" }],
-   "slots": { "N": { "tags": ["food", "drink", "hobby", "activity"] } },
-   "register": "polite", "topics": ["friends", "intro"],
+   "id": "g_ga_suki",
+   "intent": "like",
+   "frame": "〜が好きです",
+   "en": "Say you like: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "が"
+    },
+    {
+     "jp": "好きです",
+     "kana": "すきです"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "food",
+      "drink",
+      "hobby",
+      "activity"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "friends",
+    "intro"
+   ],
    "explain": "The thing you like takes が (not を). 好き is a な-adjective.",
    "status": "verified",
    "sources": [
-    { "type": "reference", "name": "Tae Kim — Adjectives (好き)", "url": "https://guidetojapanese.org/learn/grammar/adjectives", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 2445753, "url": "https://tatoeba.org/en/sentences/show/2445753", "license": "CC BY 2.0 FR", "text": "茶が好きです。", "translation": "I like tea.", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 946923, "url": "https://tatoeba.org/en/sentences/show/946923", "license": "CC BY 2.0 FR", "text": "犬が好きです。", "translation": "I like dogs.", "checked": "2026-10-22" }
+    {
+     "type": "reference",
+     "name": "Tae Kim — Adjectives (好き)",
+     "url": "https://guidetojapanese.org/learn/grammar/adjectives",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2445753,
+     "url": "https://tatoeba.org/en/sentences/show/2445753",
+     "license": "CC BY 2.0 FR",
+     "text": "茶が好きです。",
+     "translation": "I like tea.",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 946923,
+     "url": "https://tatoeba.org/en/sentences/show/946923",
+     "license": "CC BY 2.0 FR",
+     "text": "犬が好きです。",
+     "translation": "I like dogs.",
+     "checked": "2026-10-22"
+    }
    ]
   },
   {
-   "id": "g_te_mo_ii", "intent": "ask-permission", "frame": "〜てもいいですか", "en": "Ask: may I {V}?",
-   "parts": [{ "slot": "V", "form": "te" }, { "jp": "もいいですか" }],
-   "slots": { "V": { "pos": "verb", "form": "te", "lemmas": ["入る", "食べる", "飲む", "使う", "座る", "見る", "帰る", "休む", "待つ", "聞く", "書く", "読む", "話す", "持つ", "出る", "歩く", "行く"] } },
-   "register": "polite", "topics": ["survival", "home", "friends"],
+   "id": "g_te_mo_ii",
+   "intent": "ask-permission",
+   "frame": "〜てもいいですか",
+   "en": "Ask: may I {V}?",
+   "parts": [
+    {
+     "slot": "V",
+     "form": "te"
+    },
+    {
+     "jp": "もいいですか"
+    }
+   ],
+   "slots": {
+    "V": {
+     "pos": "verb",
+     "form": "te",
+     "lemmas": [
+      "入る",
+      "食べる",
+      "飲む",
+      "使う",
+      "座る",
+      "見る",
+      "帰る",
+      "休む",
+      "待つ",
+      "聞く",
+      "書く",
+      "読む",
+      "話す",
+      "持つ",
+      "出る",
+      "歩く",
+      "行く"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "survival",
+    "home",
+    "friends"
+   ],
    "explain": "て-form + もいいですか asks permission. Answer: はい、どうぞ / すみません、ちょっと…",
    "status": "verified",
    "sources": [
-    { "type": "reference", "name": "Tae Kim — Expressing \"must\" (and permission)", "url": "https://guidetojapanese.org/learn/grammar/must", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 4147428, "url": "https://tatoeba.org/en/sentences/show/4147428", "license": "CC BY 2.0 FR", "text": "入ってもいいですか？", "translation": "Can I come in?", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 2242416, "url": "https://tatoeba.org/en/sentences/show/2242416", "license": "CC BY 2.0 FR", "text": "食べてもいいですか？", "translation": "May I eat this?", "checked": "2026-10-22" }
+    {
+     "type": "reference",
+     "name": "Tae Kim — Expressing \"must\" (and permission)",
+     "url": "https://guidetojapanese.org/learn/grammar/must",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 4147428,
+     "url": "https://tatoeba.org/en/sentences/show/4147428",
+     "license": "CC BY 2.0 FR",
+     "text": "入ってもいいですか？",
+     "translation": "Can I come in?",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 2242416,
+     "url": "https://tatoeba.org/en/sentences/show/2242416",
+     "license": "CC BY 2.0 FR",
+     "text": "食べてもいいですか？",
+     "translation": "May I eat this?",
+     "checked": "2026-10-22"
+    }
    ]
   },
   {
-   "id": "g_te_kudasai", "intent": "request-action", "frame": "〜てください", "en": "Politely ask someone to {V}.",
-   "parts": [{ "slot": "V", "form": "te" }, { "jp": "ください" }],
-   "slots": { "V": { "pos": "verb", "form": "te", "lemmas": ["待つ", "書く", "話す", "見る", "聞く", "来る", "使う", "入る", "休む", "急ぐ", "出す", "読む", "呼ぶ", "歩く"] } },
-   "register": "polite", "topics": ["survival", "directions", "home"],
+   "id": "g_te_kudasai",
+   "intent": "request-action",
+   "frame": "〜てください",
+   "en": "Politely ask someone to {V}.",
+   "parts": [
+    {
+     "slot": "V",
+     "form": "te"
+    },
+    {
+     "jp": "ください"
+    }
+   ],
+   "slots": {
+    "V": {
+     "pos": "verb",
+     "form": "te",
+     "lemmas": [
+      "待つ",
+      "書く",
+      "話す",
+      "見る",
+      "聞く",
+      "来る",
+      "使う",
+      "入る",
+      "休む",
+      "急ぐ",
+      "出す",
+      "読む",
+      "呼ぶ",
+      "歩く"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "survival",
+    "directions",
+    "home"
+   ],
    "explain": "て-form + ください = please do. Softer: 〜てもらえますか.",
    "status": "verified",
    "sources": [
-    { "type": "reference", "name": "Tae Kim — Making Requests (〜てください)", "url": "https://guidetojapanese.org/learn/grammar/requests", "checked": "2026-10-22" }
+    {
+     "type": "reference",
+     "name": "Tae Kim — Making Requests (〜てください)",
+     "url": "https://guidetojapanese.org/learn/grammar/requests",
+     "checked": "2026-10-22"
+    }
    ]
   },
   {
-   "id": "g_masenka", "intent": "invite", "frame": "一緒に〜ませんか", "en": "Invite someone: would you like to {V} together?",
-   "parts": [{ "jp": "一緒に", "kana": "いっしょに" }, { "slot": "V", "form": "masen" }, { "jp": "か" }],
-   "slots": { "V": { "pos": "verb", "form": "masen", "lemmas": ["行く", "食べる", "飲む", "見る", "遊ぶ", "帰る", "勉強する", "歩く", "話す"] } },
-   "register": "polite", "topics": ["friends"],
+   "id": "g_masenka",
+   "intent": "invite",
+   "frame": "一緒に〜ませんか",
+   "en": "Invite someone: would you like to {V} together?",
+   "parts": [
+    {
+     "jp": "一緒に",
+     "kana": "いっしょに"
+    },
+    {
+     "slot": "V",
+     "form": "masen"
+    },
+    {
+     "jp": "か"
+    }
+   ],
+   "slots": {
+    "V": {
+     "pos": "verb",
+     "form": "masen",
+     "lemmas": [
+      "行く",
+      "食べる",
+      "飲む",
+      "見る",
+      "遊ぶ",
+      "帰る",
+      "勉強する",
+      "歩く",
+      "話す"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "friends"
+   ],
    "explain": "A negative question is the polite way to invite: it leaves room to say no.",
    "status": "verified",
    "sources": [
-    { "type": "reference", "name": "Tae Kim — The Question Marker", "url": "https://guidetojapanese.org/learn/grammar/question", "checked": "2026-10-22" },
-    { "type": "usage", "name": "Tatoeba", "id": 190530, "url": "https://tatoeba.org/en/sentences/show/190530", "license": "CC BY 2.0 FR", "text": "一緒に行きませんか。", "translation": "Won't you come with me?", "checked": "2026-10-22" }
+    {
+     "type": "reference",
+     "name": "Tae Kim — The Question Marker",
+     "url": "https://guidetojapanese.org/learn/grammar/question",
+     "checked": "2026-10-22"
+    },
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 190530,
+     "url": "https://tatoeba.org/en/sentences/show/190530",
+     "license": "CC BY 2.0 FR",
+     "text": "一緒に行きませんか。",
+     "translation": "Won't you come with me?",
+     "checked": "2026-10-22"
+    }
    ]
   },
   {
-   "id": "g_o_tai", "intent": "want-do", "frame": "〜を〜たいです", "en": "Say you want to {V} {N}.",
-   "parts": [{ "slot": "N" }, { "jp": "を" }, { "slot": "V", "form": "tai" }, { "jp": "です" }],
-   "slots": { "N": { "tags": ["food", "drink", "shop_item", "orderable", "thing"] }, "V": { "pos": "verb", "form": "tai", "hasObj": true } },
-   "objectSlot": "N", "verbSlot": "V",
-   "register": "polite", "topics": ["restaurant", "konbini", "daily"],
+   "id": "g_o_tai",
+   "intent": "want-do",
+   "frame": "〜を〜たいです",
+   "en": "Say you want to {V} (what: {N}).",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "を"
+    },
+    {
+     "slot": "V",
+     "form": "tai"
+    },
+    {
+     "jp": "です"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "clothing",
+      "drink",
+      "food",
+      "language",
+      "orderable",
+      "shop_item",
+      "thing"
+     ]
+    },
+    "V": {
+     "pos": "verb",
+     "form": "tai",
+     "hasObj": true
+    }
+   },
+   "objectSlot": "N",
+   "verbSlot": "V",
+   "register": "polite",
+   "topics": [
+    "restaurant",
+    "konbini",
+    "daily"
+   ],
    "explain": "Verb stem + たい = want to. The object may take を or が (both correct).",
    "status": "verified",
    "sources": [
-    { "type": "reference", "name": "Tae Kim — Desire and Suggestions (たい)", "url": "https://guidetojapanese.org/learn/grammar/desire", "checked": "2026-10-22" }
+    {
+     "type": "reference",
+     "name": "Tae Kim — Desire and Suggestions (たい)",
+     "url": "https://guidetojapanese.org/learn/grammar/desire",
+     "checked": "2026-10-22"
+    }
    ]
   },
   {
-   "id": "g_ga_tai", "intent": "want-do", "frame": "〜が〜たいです", "en": "Say you want to {V} {N}.",
-   "parts": [{ "slot": "N" }, { "jp": "が" }, { "slot": "V", "form": "tai" }, { "jp": "です" }],
-   "slots": { "N": { "tags": ["food", "drink", "shop_item", "orderable", "thing"] }, "V": { "pos": "verb", "form": "tai", "hasObj": true } },
-   "objectSlot": "N", "verbSlot": "V", "altOnly": true,
-   "register": "polite", "topics": [],
+   "id": "g_ga_tai",
+   "intent": "want-do",
+   "frame": "〜が〜たいです",
+   "en": "Say you want to {V} (what: {N}).",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "が"
+    },
+    {
+     "slot": "V",
+     "form": "tai"
+    },
+    {
+     "jp": "です"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "clothing",
+      "drink",
+      "food",
+      "language",
+      "orderable",
+      "shop_item",
+      "thing"
+     ]
+    },
+    "V": {
+     "pos": "verb",
+     "form": "tai",
+     "hasObj": true
+    }
+   },
+   "objectSlot": "N",
+   "verbSlot": "V",
+   "altOnly": true,
+   "register": "polite",
+   "topics": [],
    "explain": "Same as 〜を〜たいです; が is equally correct with たい.",
    "status": "verified",
    "sources": [
-    { "type": "reference", "name": "Tae Kim — Desire and Suggestions (たい: が or を)", "url": "https://guidetojapanese.org/learn/grammar/desire", "checked": "2026-10-22" }
+    {
+     "type": "reference",
+     "name": "Tae Kim — Desire and Suggestions (たい: が or を)",
+     "url": "https://guidetojapanese.org/learn/grammar/desire",
+     "checked": "2026-10-22"
+    }
+   ]
+  },
+  {
+   "id": "g_ni_shimasu",
+   "intent": "choose",
+   "frame": "〜にします",
+   "en": "Say which one you will have: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "にします"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "food",
+      "drink",
+      "orderable"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "restaurant",
+    "konbini"
+   ],
+   "explain": "Nにします = \"I'll have / I'll go with N\" when choosing from a menu or options.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト (sentence patterns) 入門 第6課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "quote": "私は、うどんにします。",
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "g_kashite",
+   "intent": "borrow",
+   "frame": "〜、貸してください",
+   "en": "Ask to borrow: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "、貸してください",
+     "kana": "、かしてください"
+    }
+   ],
+   "slots": {
+    "N": {
+     "lemmas": [
+      "傘",
+      "本",
+      "地図",
+      "充電器",
+      "体温計",
+      "懐中電灯",
+      "道具",
+      "印鑑",
+      "ハンコ",
+      "お金",
+      "携帯",
+      "スマホ"
+     ]
+    }
+   },
+   "register": "polite (casual request)",
+   "topics": [
+    "work",
+    "home"
+   ],
+   "explain": "Name the thing, then 貸してください (please lend me). Common at work or with neighbours; を is often dropped in speech. (Only things people naturally lend are used in practice.)",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト (sentence patterns) 入門 第10課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "quote": "ホチキス、貸してください。",
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "g_kara_kimashita",
+   "intent": "from",
+   "frame": "〜から来ました",
+   "en": "Say where you come from: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "から"
+    },
+    {
+     "jp": "来ました",
+     "kana": "きました"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "country"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "intro"
+   ],
+   "explain": "から = from. The standard self-introduction line; the question is どちらから来ましたか / どこから来ましたか.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 入門 第3課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "quote": "ブラジルから来ました。",
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "g_ni_sundeimasu",
+   "intent": "live",
+   "frame": "〜に住んでいます",
+   "en": "Say where you (or someone) live: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "に"
+    },
+    {
+     "jp": "住んでいます",
+     "kana": "すんでいます"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "country"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "intro"
+   ],
+   "explain": "住む takes に for the place, and is used in the 〜ている form for where you live now.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 入門 第4課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "quote": "家族は、フィリピンに住んでいます。",
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "g_ga_dekimasu",
+   "intent": "can-language",
+   "frame": "〜ができます",
+   "en": "Say you can speak: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "が"
+    },
+    {
+     "jp": "できます"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "language"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "intro",
+    "friends"
+   ],
+   "explain": "できる = can do; for languages: 日本語ができます. Negative: 〜はできません.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 文型リスト 初級1 第2課",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/sentence_patterns_list.xlsx",
+     "quote": "日本語、英語、フィリピノ語、スペイン語ができます。",
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "g_o_benkyou",
+   "intent": "studying",
+   "frame": "〜を勉強しています",
+   "en": "Say you are studying: {N}.",
+   "parts": [
+    {
+     "slot": "N"
+    },
+    {
+     "jp": "を"
+    },
+    {
+     "jp": "勉強しています",
+     "kana": "べんきょうしています"
+    }
+   ],
+   "slots": {
+    "N": {
+     "tags": [
+      "language"
+     ]
+    }
+   },
+   "register": "polite",
+   "topics": [
+    "intro",
+    "friends"
+   ],
+   "explain": "〜ています for something you are doing these days.",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "usage",
+     "name": "Tatoeba",
+     "id": 975671,
+     "url": "https://tatoeba.org/en/sentences/show/975671",
+     "license": "CC BY 2.0 FR",
+     "text": "日本語を勉強しています。",
+     "translation": "I am learning Japanese.",
+     "checked": "2026-10-23"
+    }
    ]
   }
  ]

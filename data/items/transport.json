@@ -2402,6 +2402,353 @@
      "checked": "2026-10-22"
     }
    ]
+  },
+  {
+   "id": "v_tomeru",
+   "jp": "止める",
+   "kana": "とめる",
+   "romaji": "tomeru",
+   "en": "to stop (something); to turn off; to park (a car, bicycle)",
+   "gloss": "to stop",
+   "pos": "verb",
+   "topic": "transport",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "tts": "kana",
+   "note": "Also used for parking: 自転車を止める. The same kanji is read やめる in another word (to quit); here it is とめる.",
+   "examples": [
+    {
+     "jp": "車を止めて。",
+     "en": "Stop the car.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2095019,
+      "url": "https://tatoeba.org/en/sentences/show/2095019",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "車を止めて。",
+      "translation": "Stop the car."
+     }
+    },
+    {
+     "jp": "ガスは止めた？",
+     "en": "Did you turn off the gas?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3416687,
+      "url": "https://tatoeba.org/en/sentences/show/3416687",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ガスは止めた？",
+      "translation": "Did you turn off the gas?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 2,
+     "entry": "止める　（水を止める）【とめる　（みずをとめる）】 to stop　(e.g. stop the water)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "止める",
+     "matched": "止める【とめる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n3"
+     ],
+     "senses": [
+      "to stop; to turn off",
+      "to park",
+      "to prevent; to suppress (a cough); to hold back (tears); to hold (one's breath); to relieve (pain)",
+      "to stop (someone from doing something); to dissuade; to forbid; to prohibit"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_tomaru",
+     "rel": "intransitive: it stops"
+    }
+   ]
+  },
+  {
+   "id": "v_tomaru",
+   "jp": "止まる",
+   "kana": "とまる",
+   "romaji": "tomaru",
+   "en": "to stop (moving); to come to a halt",
+   "gloss": "to stop",
+   "pos": "verb",
+   "topic": "transport",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "note": "Intransitive: 電車が止まる (the train stops). Transitive partner: 止める.",
+   "examples": [
+    {
+     "jp": "時計が止まった。",
+     "en": "A clock stopped.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 150511,
+      "url": "https://tatoeba.org/en/sentences/show/150511",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "時計が止まった。",
+      "translation": "A clock stopped."
+     }
+    },
+    {
+     "jp": "車は止まった。",
+     "en": "The automobile stopped.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8537512,
+      "url": "https://tatoeba.org/en/sentences/show/8537512",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "車は止まった。",
+      "translation": "The automobile stopped."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 1,
+     "entry": "止まる／止まります【とまる／とまります】 to stop",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L7",
+     "activity": 3,
+     "entry": "止まる【とまる】 to stop",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "止まる",
+     "matched": "止まる【とまる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to stop (moving); to come to a stop",
+      "to stop (doing, working, being supplied); to come to a halt; to cease; to be stopped; to be suspended",
+      "to alight; to perch on"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_tomeru",
+     "rel": "transitive: stop (something)"
+    },
+    {
+     "id": "v_tomaru_stay",
+     "rel": "same sound: stay overnight"
+    }
+   ]
+  },
+  {
+   "id": "v_norikaeru",
+   "jp": "乗り換える",
+   "kana": "のりかえる",
+   "romaji": "norikaeru",
+   "en": "to change (trains, buses); to transfer",
+   "gloss": "to change",
+   "pos": "verb",
+   "topic": "transport",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "次の駅で乗り換えます。",
+     "en": "We'll change trains at the next station.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 150313,
+      "url": "https://tatoeba.org/en/sentences/show/150313",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "次の駅で乗り換えます。",
+      "translation": "We'll change trains at the next station."
+     }
+    },
+    {
+     "jp": "東京駅で乗り換えるんだよ。",
+     "en": "Change trains at Tokyo Station.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10669727,
+      "url": "https://tatoeba.org/en/sentences/show/10669727",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "東京駅で乗り換えるんだよ。",
+      "translation": "Change trains at Tokyo Station."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L13",
+     "activity": 4,
+     "entry": "乗り換える／乗り換えます【のりかえる／のりかえます】 to transfer",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L6",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L6",
+     "activity": 3,
+     "entry": "乗り換える【のりかえる】 to transfer",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "乗り換える",
+     "matched": "乗り換える【のりかえる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to transfer (trains); to change (bus, train)",
+      "to change (to another ideology, party, company, etc.); to switch (to a different system, method, etc.); to move on to (e.g. a new love interest)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_tsuku",
+   "jp": "着く",
+   "kana": "つく",
+   "romaji": "tsuku",
+   "en": "to arrive (at)",
+   "gloss": "to arrive",
+   "pos": "verb",
+   "topic": "transport",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "今着いたの？",
+     "en": "Did you just arrive?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9732827,
+      "url": "https://tatoeba.org/en/sentences/show/9732827",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今着いたの？",
+      "translation": "Did you just arrive?"
+     }
+    },
+    {
+     "jp": "いつ着くの？",
+     "en": "When do we arrive?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5111,
+      "url": "https://tatoeba.org/en/sentences/show/5111",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "いつ着くの？",
+      "translation": "When do we arrive?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L17",
+     "activity": 5,
+     "entry": "着く／着きます【つく／つきます】 to arrive",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L7",
+     "activity": 3,
+     "entry": "着く【つく】 to arrive",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "着く",
+     "matched": "着く【つく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to arrive at; to reach",
+      "to sit on; to sit at (e.g. the table)"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
   }
  ]
 }

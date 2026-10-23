@@ -306,6 +306,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "v_kowasu",
+     "rel": "transitive: break (something)"
+    }
    ]
   },
   {
@@ -1368,6 +1374,12 @@
       "Place"
      ],
      "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_hikkosu",
+     "rel": "verb"
     }
    ]
   },
@@ -3413,6 +3425,371 @@
      ],
      "pos": [
       "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_hakobu",
+   "jp": "運ぶ",
+   "kana": "はこぶ",
+   "romaji": "hakobu",
+   "en": "to carry; to transport",
+   "gloss": "to carry",
+   "pos": "verb",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "これを運んでください。",
+     "en": "Carry this for me.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 217667,
+      "url": "https://tatoeba.org/en/sentences/show/217667",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "これを運んでください。",
+      "translation": "Carry this for me."
+     }
+    },
+    {
+     "jp": "荷物を運びましょうか？",
+     "en": "Shall I carry your baggage?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 233414,
+      "url": "https://tatoeba.org/en/sentences/show/233414",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "荷物を運びましょうか？",
+      "translation": "Shall I carry your baggage?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "運ぶ",
+     "matched": "運ぶ【はこぶ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to carry; to transport; to move; to convey",
+      "to come; to go",
+      "to use (a brush, chopsticks, etc.); to move",
+      "to carry out; to proceed with; to arrange"
+     ],
+     "pos": [
+      "Godan verb with 'bu' ending",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_kowasu",
+   "jp": "壊す",
+   "kana": "こわす",
+   "romaji": "kowasu",
+   "en": "to break; to damage",
+   "gloss": "to break",
+   "pos": "verb",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "私が壊した。",
+     "en": "I broke it.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2568063,
+      "url": "https://tatoeba.org/en/sentences/show/2568063",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私が壊した。",
+      "translation": "I broke it."
+     }
+    },
+    {
+     "jp": "彼は窓を壊した。",
+     "en": "He broke the window.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4521646,
+      "url": "https://tatoeba.org/en/sentences/show/4521646",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "彼は窓を壊した。",
+      "translation": "He broke the window."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "壊す",
+     "matched": "壊す【こわす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to break; to destroy; to demolish",
+      "to wreck; to ruin; to spoil; to damage",
+      "to break (a bill, etc.)"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_kowareru",
+     "rel": "intransitive: be broken"
+    },
+    {
+     "id": "v_naosu",
+     "rel": "contrast: repair"
+    }
+   ]
+  },
+  {
+   "id": "v_naosu",
+   "jp": "直す",
+   "kana": "なおす",
+   "romaji": "naosu",
+   "en": "to repair; to fix; to correct",
+   "gloss": "to repair",
+   "pos": "verb",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "これ直して。",
+     "en": "Fix this.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9314855,
+      "url": "https://tatoeba.org/en/sentences/show/9314855",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "これ直して。",
+      "translation": "Fix this."
+     }
+    },
+    {
+     "jp": "直しました。",
+     "en": "I've fixed it.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9032787,
+      "url": "https://tatoeba.org/en/sentences/show/9032787",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "直しました。",
+      "translation": "I've fixed it."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "直す",
+     "matched": "直す【なおす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "to repair; to mend; to fix; to correct (a mistake, bad habit, etc.); to put right; to restore; to straighten (e.g. a tie); to tidy up (one's hair, make-up, etc.); to revive (one's spirits)",
+      "to change; to alter; to convert; to translate",
+      "to put back; to put away",
+      "to cure; to heal"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb",
+      "Suffix"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_kowasu",
+     "rel": "contrast: break"
+    }
+   ]
+  },
+  {
+   "id": "v_hikkosu",
+   "jp": "引っ越す",
+   "kana": "ひっこす",
+   "romaji": "hikkosu",
+   "en": "to move (house)",
+   "gloss": "to move",
+   "pos": "verb",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "引っ越すの？",
+     "en": "Are you moving?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12725611,
+      "url": "https://tatoeba.org/en/sentences/show/12725611",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "引っ越すの？",
+      "translation": "Are you moving?"
+     }
+    },
+    {
+     "jp": "どこに引っ越すの？",
+     "en": "Where are you moving to?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10689616,
+      "url": "https://tatoeba.org/en/sentences/show/10689616",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どこに引っ越すの？",
+      "translation": "Where are you moving to?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "引っ越す",
+     "matched": "引っ越す【ひっこす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to move (house); to change residence"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_hikkoshi",
+     "rel": "noun: a move"
+    }
+   ]
+  },
+  {
+   "id": "v_katazukeru",
+   "jp": "片付ける",
+   "kana": "かたづける",
+   "romaji": "katazukeru",
+   "en": "to tidy up; to put in order; to put away",
+   "gloss": "to tidy up",
+   "pos": "verb",
+   "topic": "home",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "台所を片付けなさい。",
+     "en": "Clean up the kitchen.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9041513,
+      "url": "https://tatoeba.org/en/sentences/show/9041513",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "台所を片付けなさい。",
+      "translation": "Clean up the kitchen."
+     }
+    },
+    {
+     "jp": "私は机を片付けた。",
+     "en": "I cleared up my desk.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 162287,
+      "url": "https://tatoeba.org/en/sentences/show/162287",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私は机を片付けた。",
+      "translation": "I cleared up my desk."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L10",
+     "activity": 2,
+     "entry": "片付ける【かたづける】 to clean up",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "片付ける",
+     "matched": "片付ける【かたづける】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to put in order; to tidy up; to clean up; to put away; to clear away",
+      "to settle (a matter); to solve; to deal with; to dispose of",
+      "to finish; to get through; to complete; to get (something) done",
+      "to marry off (one's daughter)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
      ],
      "checked": "2026-10-23"
     }

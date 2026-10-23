@@ -419,6 +419,86 @@
     }
    ],
    "quarantine_reason": "Only evidence (Tatoeba 4562608) uses contrastive は (具合は悪い); the natural learner model is 具合が悪い, for which no exact evidence was found. Not served as a model sentence. Reviewed 2026-10-23."
+  },
+  {
+   "id": "ct_soku",
+   "jp": "〜足",
+   "kana": "〜そく",
+   "en": "~ pairs (counter for shoes, socks)",
+   "tier": 3,
+   "status": "unverified",
+   "domain": "shopping",
+   "quarantine_reason": "JMdict lists 足【そく】 as a counter, but the verifier rejects it because the common entry for 足 reads あし (non-primary reading). Low priority; 〜着 covers clothing counting."
+  },
+  {
+   "id": "ss_saisen",
+   "jp": "お賽銭",
+   "kana": "おさいせん",
+   "en": "money offering (at a shrine or temple)",
+   "tier": 3,
+   "status": "unverified",
+   "domain": "sightseeing",
+   "quarantine_reason": "JMdict has 賽銭【さいせん】 but no entry for the usual form お賽銭; no official text fetched."
+  },
+  {
+   "id": "sh_x_henpin_dekimasuka",
+   "jp": "返品できますか",
+   "kana": "へんぴんできますか",
+   "en": "Can I return this?",
+   "tier": 2,
+   "status": "unverified",
+   "domain": "shopping",
+   "quarantine_reason": "Requested phrase. No exact Tatoeba sentence (返品できますか / 返品したいのですが: 0 hits, 2026-10-23). The word 返品 (sh_henpin) is verified, with the example 返品お断り。"
+  },
+  {
+   "id": "sh_x_koukan_dekimasuka",
+   "jp": "交換できますか",
+   "kana": "こうかんできますか",
+   "en": "Can I exchange this?",
+   "tier": 2,
+   "status": "unverified",
+   "domain": "shopping",
+   "quarantine_reason": "Requested phrase. Tatoeba has it only inside レンズだけ交換できますか (lenses); 交換してもらえますか: 0 hits. The word 交換 (sh_koukan) is verified."
+  },
+  {
+   "id": "sh_x_hoka_no_iro",
+   "jp": "ほかの色はありますか",
+   "kana": "ほかのいろはありますか",
+   "en": "Do you have it in another colour?",
+   "tier": 2,
+   "status": "unverified",
+   "domain": "shopping",
+   "quarantine_reason": "No exact Tatoeba sentence for ほかの色はありますか / 他の色はありますか (0 hits). Tatoeba has 他のサイズはありますか？ (10763914), used as an example of サイズ."
+  },
+  {
+   "id": "ss_x_haikanryou_ikura",
+   "jp": "拝観料はいくらですか",
+   "kana": "はいかんりょうはいくらですか",
+   "en": "How much is the admission fee (temple)?",
+   "tier": 2,
+   "status": "unverified",
+   "domain": "sightseeing",
+   "quarantine_reason": "No exact usage evidence (0 Tatoeba hits). Covered by 入場料はいくらですか (Tatoeba 122062) with a note that temples say 拝観料."
+  },
+  {
+   "id": "fr_x_zehi_ikitai",
+   "jp": "ぜひ行きたいです",
+   "kana": "ぜひいきたいです",
+   "en": "I would love to go.",
+   "tier": 2,
+   "status": "unverified",
+   "domain": "friends",
+   "quarantine_reason": "No exact Tatoeba sentence (0 hits). ぜひ (w_zehi) is verified with examples ぜひ来てください / ぜひお願いします."
+  },
+  {
+   "id": "fr_x_sono_hi_chotto",
+   "jp": "その日はちょっと…",
+   "kana": "そのひはちょっと",
+   "en": "That day is a bit… (declining)",
+   "tier": 2,
+   "status": "unverified",
+   "domain": "friends",
+   "quarantine_reason": "Common declining formula but no exact Tatoeba sentence (0 hits) and not in Irodori (which has only わさびは、ちょっと…). Declining is covered by 明日は用事があります (Tatoeba 2666765) and また今度行きましょう (Irodori 文型 入門 第12課)."
   }
  ]
 }

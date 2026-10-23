@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "curriculum_version": "2026.10.22",
+ "curriculum_version": "2026.10.23",
  "topics": "topics.json",
  "items": [
   "items/bank.json",
@@ -21,6 +21,8 @@
   "items/recovery.json",
   "items/restaurant.json",
   "items/services.json",
+  "items/shopping.json",
+  "items/sightseeing.json",
   "items/signs.json",
   "items/survival.json",
   "items/time.json",

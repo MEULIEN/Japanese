@@ -2708,6 +2708,57 @@
      "checked": "2026-10-22"
     }
    ]
+  },
+  {
+   "id": "v_todokeru",
+   "jp": "届ける",
+   "kana": "とどける",
+   "romaji": "todokeru",
+   "en": "to deliver; to take (something) to; to hand in (lost property)",
+   "gloss": "to deliver",
+   "pos": "verb",
+   "topic": "post",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "1週間以内にお届けします。",
+     "en": "We are able to deliver within a week.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 190565,
+      "url": "https://tatoeba.org/en/sentences/show/190565",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "1週間以内にお届けします。",
+      "translation": "We are able to deliver within a week."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "届ける",
+     "matched": "届ける【とどける】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to deliver; to forward; to send",
+      "to report; to notify; to file notice (to the authorities); to give notice; to register"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
   }
  ]
 }

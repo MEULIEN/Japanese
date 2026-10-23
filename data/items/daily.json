@@ -249,6 +249,9 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "obj": [
+    "language"
    ]
   },
   {
@@ -485,6 +488,20 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "v_haku",
+     "rel": "shoes, trousers: 履く"
+    },
+    {
+     "id": "v_kaburu",
+     "rel": "hats: かぶる"
+    },
+    {
+     "id": "v_nugu",
+     "rel": "contrast: take off"
+    }
    ]
   },
   {
@@ -686,6 +703,9 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "obj": [
+    "person"
    ]
   },
   {
@@ -819,6 +839,9 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "obj": [
+    "language"
    ]
   },
   {
@@ -1241,6 +1264,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "v_ryourisuru",
+     "rel": "verb"
+    }
    ]
   },
   {
@@ -1311,6 +1340,12 @@
      ],
      "checked": "2026-10-22"
     }
+   ],
+   "links": [
+    {
+     "id": "v_soujisuru",
+     "rel": "verb"
+    }
    ]
   },
   {
@@ -1367,6 +1402,12 @@
       "Wikipedia definition"
      ],
      "checked": "2026-10-22"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_sentakusuru",
+     "rel": "verb"
     }
    ]
   },
@@ -1903,6 +1944,4268 @@
      "checked": "2026-10-22"
     }
    ]
+  },
+  {
+   "id": "v_arau",
+   "jp": "洗う",
+   "kana": "あらう",
+   "romaji": "arau",
+   "en": "to wash",
+   "gloss": "to wash",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "obj": [
+    "clothing"
+   ],
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "手は洗ったの？",
+     "en": "Did you wash your hands?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9505595,
+      "url": "https://tatoeba.org/en/sentences/show/9505595",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "手は洗ったの？",
+      "translation": "Did you wash your hands?"
+     }
+    },
+    {
+     "jp": "お皿は洗った？",
+     "en": "Have you washed the dishes?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11662087,
+      "url": "https://tatoeba.org/en/sentences/show/11662087",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お皿は洗った？",
+      "translation": "Have you washed the dishes?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 3,
+     "entry": "洗う【あらう】 to wash",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "洗う【あらう】 to wash",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "洗う",
+     "matched": "洗う【あらう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to wash; to cleanse; to rinse",
+      "to inquire into; to investigate",
+      "to purify (one's heart)",
+      "to lave (e.g. shore); to wash over (e.g. deck); to sweep"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_nugu",
+   "jp": "脱ぐ",
+   "kana": "ぬぐ",
+   "romaji": "nugu",
+   "en": "to take off (clothes, shoes)",
+   "gloss": "to take off",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "obj": [
+    "clothing"
+   ],
+   "verb_class": "godan",
+   "note": "Take off anything you wear: 靴を脱ぐ, コートを脱ぐ. Shoes come off at the entrance of homes and many temple halls.",
+   "examples": [
+    {
+     "jp": "コート脱いだら？",
+     "en": "Why don't you take off your coat?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3798942,
+      "url": "https://tatoeba.org/en/sentences/show/3798942",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "コート脱いだら？",
+      "translation": "Why don't you take off your coat?"
+     }
+    },
+    {
+     "jp": "シャツを脱いだ。",
+     "en": "He removed his shirt.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4934583,
+      "url": "https://tatoeba.org/en/sentences/show/4934583",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "シャツを脱いだ。",
+      "translation": "He removed his shirt."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 1,
+     "entry": "脱ぐ／脱ぎます【ぬぐ／ぬぎます】 to take off",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "脱ぐ",
+     "matched": "脱ぐ【ぬぐ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to take off (clothes, shoes, etc.); to undress"
+     ],
+     "pos": [
+      "Godan verb with 'gu' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_kiru",
+     "rel": "contrast: put on (clothes)"
+    },
+    {
+     "id": "ss_dosokugenkin",
+     "rel": "sign: shoes off"
+    }
+   ]
+  },
+  {
+   "id": "v_kigaeru",
+   "jp": "着替える",
+   "kana": "きがえる",
+   "romaji": "kigaeru",
+   "en": "to change (one's clothes)",
+   "gloss": "to change",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 3,
+   "use": "say",
+   "verb_class": "ichidan",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L8",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L8",
+     "activity": 1,
+     "entry": "着替える／着替えます【きがえる／きがえます】 to change (clothing)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "着替える",
+     "matched": "着替える【きがえる】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "to change (one's clothes)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_akeru",
+   "jp": "開ける",
+   "kana": "あける",
+   "romaji": "akeru",
+   "en": "to open (something: a door, window)",
+   "gloss": "to open",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "ドア開けて。",
+     "en": "Open the door for me.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11033032,
+      "url": "https://tatoeba.org/en/sentences/show/11033032",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ドア開けて。",
+      "translation": "Open the door for me."
+     }
+    },
+    {
+     "jp": "箱を開けて。",
+     "en": "Open the box.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3506683,
+      "url": "https://tatoeba.org/en/sentences/show/3506683",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "箱を開けて。",
+      "translation": "Open the box."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L13",
+     "activity": 4,
+     "entry": "開ける【あける】 to open",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 2,
+     "entry": "開ける【あける】 to open",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "開ける",
+     "matched": "開ける【あける】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to open (a door, etc.); to unwrap (e.g. parcel, package); to unlock",
+      "to open (for business, etc.)",
+      "to empty; to remove; to make space; to make room",
+      "to move out; to clear out"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_aku",
+     "rel": "intransitive: it opens"
+    },
+    {
+     "id": "v_shimeru",
+     "rel": "contrast: close"
+    }
+   ]
+  },
+  {
+   "id": "v_aku",
+   "jp": "開く",
+   "kana": "あく",
+   "romaji": "aku",
+   "en": "to open (of a door, shop); to be open",
+   "gloss": "to open",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "tts": "kana",
+   "note": "Intransitive partner of 開ける: ドアが開く (the door opens), 店が開く (the shop opens).",
+   "examples": [
+    {
+     "jp": "窓が開いた。",
+     "en": "The window opened.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2481915,
+      "url": "https://tatoeba.org/en/sentences/show/2481915",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "窓が開いた。",
+      "translation": "The window opened."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L13",
+     "activity": 3,
+     "entry": "開く【あく】 to open",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "開く",
+     "matched": "開く【あく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to open (e.g. doors)",
+      "to open (e.g. business, etc.)",
+      "to be empty",
+      "to be vacant; to be available; to be free"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_akeru",
+     "rel": "transitive: open (something)"
+    }
+   ]
+  },
+  {
+   "id": "v_shimeru",
+   "jp": "閉める",
+   "kana": "しめる",
+   "romaji": "shimeru",
+   "en": "to close (something); to shut",
+   "gloss": "to close",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "窓を閉めて。",
+     "en": "Close the window.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 140336,
+      "url": "https://tatoeba.org/en/sentences/show/140336",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "窓を閉めて。",
+      "translation": "Close the window."
+     }
+    },
+    {
+     "jp": "ドアを閉めて。",
+     "en": "Shut the door.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 201780,
+      "url": "https://tatoeba.org/en/sentences/show/201780",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ドアを閉めて。",
+      "translation": "Shut the door."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "閉める",
+     "matched": "閉める【しめる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to close; to shut"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_shimaru",
+     "rel": "intransitive: it closes"
+    },
+    {
+     "id": "v_akeru",
+     "rel": "contrast: open"
+    }
+   ]
+  },
+  {
+   "id": "v_shimaru",
+   "jp": "閉まる",
+   "kana": "しまる",
+   "romaji": "shimaru",
+   "en": "to close (of a door, shop); to be closed",
+   "gloss": "to close",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "note": "Intransitive partner of 閉める: 店が閉まる (the shop closes).",
+   "examples": [
+    {
+     "jp": "店は７時に閉まる。",
+     "en": "The store closes at seven.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 124992,
+      "url": "https://tatoeba.org/en/sentences/show/124992",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "店は７時に閉まる。",
+      "translation": "The store closes at seven."
+     }
+    },
+    {
+     "jp": "窓が閉まっている。",
+     "en": "The window is shut.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2860773,
+      "url": "https://tatoeba.org/en/sentences/show/2860773",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "窓が閉まっている。",
+      "translation": "The window is shut."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L13",
+     "activity": 3,
+     "entry": "閉まる【しまる】 to close",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "閉まる",
+     "matched": "閉まる【しまる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to be shut; to close; to be closed",
+      "to be firm (of a body, face, etc.); to be well-knit",
+      "to be locked",
+      "to tighten; to be tightened"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_shimeru",
+     "rel": "transitive: close (something)"
+    }
+   ]
+  },
+  {
+   "id": "v_tsukeru",
+   "jp": "つける",
+   "kana": "つける",
+   "romaji": "tsukeru",
+   "en": "to turn on (a light, TV, air conditioner); to switch on",
+   "gloss": "to turn on",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "ichidan",
+   "note": "In this sense usually written in kana (点ける): 電気をつける.",
+   "examples": [
+    {
+     "jp": "電気つけて。",
+     "en": "Turn on the lights.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9637316,
+      "url": "https://tatoeba.org/en/sentences/show/9637316",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "電気つけて。",
+      "translation": "Turn on the lights."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L4",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L4",
+     "activity": 2,
+     "entry": "つける　（たれにつける）【つける　（たれにつける）】 to dip　(e.g. dip in the sauce)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L9",
+     "activity": 1,
+     "entry": "つける　（飾りをつける）【つける　（かざりをつける）】 to attach　(e.g. attach decorations)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "つける",
+     "matched": "点ける【つける】 (written in kana: つける)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2"
+     ],
+     "senses": [
+      "to turn on; to switch on; to light up"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_kesu",
+     "rel": "contrast: turn off"
+    }
+   ]
+  },
+  {
+   "id": "v_kesu",
+   "jp": "消す",
+   "kana": "けす",
+   "romaji": "kesu",
+   "en": "to turn off; to switch off; to erase",
+   "gloss": "to turn off",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "電気消して。",
+     "en": "Put out the light.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8586482,
+      "url": "https://tatoeba.org/en/sentences/show/8586482",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "電気消して。",
+      "translation": "Put out the light."
+     }
+    },
+    {
+     "jp": "テレビを消して。",
+     "en": "Turn off the TV.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 201938,
+      "url": "https://tatoeba.org/en/sentences/show/201938",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "テレビを消して。",
+      "translation": "Turn off the TV."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 1,
+     "entry": "消す　（電気を消す）【けす　（でんきをけす）】 to turn off　(e.g. turn off the light)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 2,
+     "entry": "消す　（火を消す）【けす　（ひをけす）】 to extinguish　(e.g. extinguish a fire)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "消す",
+     "matched": "消す【けす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to erase; to rub out; to rub off; to cross out; to delete",
+      "to turn off (a light, TV, heater, etc.); to switch off",
+      "to extinguish (a fire, candle, etc.); to put out",
+      "to remove (a smell, pain, etc.); to eliminate; to get rid of; to relieve (pain, anxiety, etc.); to neutralize (poison)"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_tsukeru",
+     "rel": "contrast: turn on"
+    }
+   ]
+  },
+  {
+   "id": "v_hajimaru",
+   "jp": "始まる",
+   "kana": "はじまる",
+   "romaji": "hajimaru",
+   "en": "to begin; to start (of an event)",
+   "gloss": "to begin",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "note": "Intransitive: 会議が始まる (the meeting starts). Transitive partner: 始める.",
+   "examples": [
+    {
+     "jp": "何時に始まるの？",
+     "en": "What time does it start?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 187440,
+      "url": "https://tatoeba.org/en/sentences/show/187440",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何時に始まるの？",
+      "translation": "What time does it start?"
+     }
+    },
+    {
+     "jp": "いつ始まるの？",
+     "en": "When does it begin?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 4836745,
+      "url": "https://tatoeba.org/en/sentences/show/4836745",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "いつ始まるの？",
+      "translation": "When does it begin?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L7",
+     "activity": 1,
+     "entry": "始まる【はじまる】 to start",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "始まる",
+     "matched": "始まる【はじまる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to begin; to start; to commence",
+      "to happen (again); to begin (anew)",
+      "to date (from); to originate (in)"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_hajimeru",
+     "rel": "transitive: start (something)"
+    },
+    {
+     "id": "v_owaru",
+     "rel": "contrast: end"
+    }
+   ]
+  },
+  {
+   "id": "v_hajimeru",
+   "jp": "始める",
+   "kana": "はじめる",
+   "romaji": "hajimeru",
+   "en": "to start (something); to begin",
+   "gloss": "to start",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "始めていい？",
+     "en": "Can I begin?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2579425,
+      "url": "https://tatoeba.org/en/sentences/show/2579425",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "始めていい？",
+      "translation": "Can I begin?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L7",
+     "activity": 3,
+     "entry": "始める【はじめる】 to start",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L18",
+     "activity": 3,
+     "entry": "～始める　（働き始める）【～はじめる　（はたらきはじめる）】 to start ～　(e.g.start working)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "始める",
+     "matched": "始める【はじめる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to start; to begin; to commence; to initiate; to originate",
+      "to start up (a business, society, etc.); to open (e.g. a store); to establish",
+      "to start ...; to begin to ..."
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_hajimaru",
+     "rel": "intransitive: it begins"
+    }
+   ]
+  },
+  {
+   "id": "v_owaru",
+   "jp": "終わる",
+   "kana": "おわる",
+   "romaji": "owaru",
+   "en": "to end; to finish (of an event)",
+   "gloss": "to end",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "いつ終わるの？",
+     "en": "When does it end?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 228649,
+      "url": "https://tatoeba.org/en/sentences/show/228649",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "いつ終わるの？",
+      "translation": "When does it end?"
+     }
+    },
+    {
+     "jp": "終わった？",
+     "en": "Are you finished?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8689109,
+      "url": "https://tatoeba.org/en/sentences/show/8689109",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "終わった？",
+      "translation": "Are you finished?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L13",
+     "activity": 2,
+     "entry": "終わる【おわる】 to finish",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L10",
+     "activity": 2,
+     "entry": "～終わる　（食べ終わる）【～おわる　（たべおわる）】 to finish ～　(e.g. finish eating)",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "終わる",
+     "matched": "終わる【おわる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to end; to come to an end; to finish; to close; to be over",
+      "to finish; to complete; to conclude",
+      "to finish doing",
+      "to be past its (one's) prime"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb",
+      "Transitive verb",
+      "Suffix"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_hajimaru",
+     "rel": "contrast: begin"
+    }
+   ]
+  },
+  {
+   "id": "v_oshieru",
+   "jp": "教える",
+   "kana": "おしえる",
+   "romaji": "oshieru",
+   "en": "to teach; to tell; to inform",
+   "gloss": "to teach",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "obj": [
+    "language"
+   ],
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "場所教えて。",
+     "en": "Tell me where it is.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10906700,
+      "url": "https://tatoeba.org/en/sentences/show/10906700",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "場所教えて。",
+      "translation": "Tell me where it is."
+     }
+    },
+    {
+     "jp": "教えて。",
+     "en": "Tell me!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3480386,
+      "url": "https://tatoeba.org/en/sentences/show/3480386",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "教えて。",
+      "translation": "Tell me!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L2",
+     "activity": 3,
+     "entry": "教える【おしえる】 to tell",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L9",
+     "activity": 3,
+     "entry": "教える【おしえる】 to teach",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "教える",
+     "matched": "教える【おしえる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to teach; to instruct",
+      "to tell; to inform; to show",
+      "to preach"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_narau",
+     "rel": "contrast: learn"
+    }
+   ]
+  },
+  {
+   "id": "v_narau",
+   "jp": "習う",
+   "kana": "ならう",
+   "romaji": "narau",
+   "en": "to learn (from a teacher); to take lessons",
+   "gloss": "to learn",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "obj": [
+    "language"
+   ],
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "料理を習った。",
+     "en": "I've learned to cook.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11101921,
+      "url": "https://tatoeba.org/en/sentences/show/11101921",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "料理を習った。",
+      "translation": "I've learned to cook."
+     }
+    },
+    {
+     "jp": "お華を習ってるの。",
+     "en": "I take lessons in flower arrangement.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9928391,
+      "url": "https://tatoeba.org/en/sentences/show/9928391",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お華を習ってるの。",
+      "translation": "I take lessons in flower arrangement."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L2",
+     "activity": 3,
+     "entry": "習う【ならう】 to learn",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "習う",
+     "matched": "習う【ならう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to take lessons in; to be taught; to learn (from a teacher); to study (under a teacher); to get training in"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_oshieru",
+     "rel": "contrast: teach"
+    }
+   ]
+  },
+  {
+   "id": "v_oboeru",
+   "jp": "覚える",
+   "kana": "おぼえる",
+   "romaji": "oboeru",
+   "en": "to remember; to memorize; to learn",
+   "gloss": "to remember",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "obj": [
+    "language"
+   ],
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "覚えてる？",
+     "en": "Do you remember?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 184550,
+      "url": "https://tatoeba.org/en/sentences/show/184550",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "覚えてる？",
+      "translation": "Do you remember?"
+     }
+    },
+    {
+     "jp": "覚えていない。",
+     "en": "I don't recall.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 550249,
+      "url": "https://tatoeba.org/en/sentences/show/550249",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "覚えていない。",
+      "translation": "I don't recall."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L9",
+     "activity": 2,
+     "entry": "覚える【おぼえる】 to memorize",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "覚える",
+     "matched": "覚える【おぼえる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to memorize; to memorise; to commit to memory; to learn by heart; to bear in mind; to remember",
+      "to learn; to pick up; to acquire",
+      "to feel",
+      "to think; to regard"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_wasureru",
+     "rel": "contrast: forget"
+    }
+   ]
+  },
+  {
+   "id": "v_wasureru",
+   "jp": "忘れる",
+   "kana": "わすれる",
+   "romaji": "wasureru",
+   "en": "to forget; to leave behind (an umbrella etc.)",
+   "gloss": "to forget",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "携帯忘れた。",
+     "en": "I've forgotten my mobile.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11900878,
+      "url": "https://tatoeba.org/en/sentences/show/11900878",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "携帯忘れた。",
+      "translation": "I've forgotten my mobile."
+     }
+    },
+    {
+     "jp": "忘れた。",
+     "en": "I forgot.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5253033,
+      "url": "https://tatoeba.org/en/sentences/show/5253033",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "忘れた。",
+      "translation": "I forgot."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "忘れる【わすれる】 to forget",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 3,
+     "entry": "忘れる【わすれる】 to forget",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "忘れる",
+     "matched": "忘れる【わすれる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to forget; to leave carelessly; to be forgetful of; to forget about; to forget (an article)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_oboeru",
+     "rel": "contrast: remember"
+    }
+   ]
+  },
+  {
+   "id": "v_kasu",
+   "jp": "貸す",
+   "kana": "かす",
+   "romaji": "kasu",
+   "en": "to lend",
+   "gloss": "to lend",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "鉛筆貸してくれない？",
+     "en": "Will you lend me your pencil?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9832689,
+      "url": "https://tatoeba.org/en/sentences/show/9832689",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "鉛筆貸してくれない？",
+      "translation": "Will you lend me your pencil?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 4,
+     "entry": "貸す／貸します【かす／かします】 to lend",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L9",
+     "activity": 3,
+     "entry": "貸す【かす】 to lend",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "貸す",
+     "matched": "貸す【かす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to lend; to loan",
+      "to rent out; to hire out",
+      "to hand (over); to give"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_kariru",
+     "rel": "contrast: borrow"
+    }
+   ]
+  },
+  {
+   "id": "v_kariru",
+   "jp": "借りる",
+   "kana": "かりる",
+   "romaji": "kariru",
+   "en": "to borrow; to rent",
+   "gloss": "to borrow",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "ペン借りていい？",
+     "en": "Can I borrow your pen?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1006916,
+      "url": "https://tatoeba.org/en/sentences/show/1006916",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ペン借りていい？",
+      "translation": "Can I borrow your pen?"
+     }
+    },
+    {
+     "jp": "電話借りてもいい？",
+     "en": "May I use your phone?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3559212,
+      "url": "https://tatoeba.org/en/sentences/show/3559212",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "電話借りてもいい？",
+      "translation": "May I use your phone?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L10",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L10",
+     "activity": 4,
+     "entry": "借りる／借ります【かりる／かります】 to borrow",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "借りる",
+     "matched": "借りる【かりる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to borrow",
+      "to rent; to hire",
+      "to make use of (another's help, wisdom, etc.); to obtain; to receive",
+      "to use (for another purpose); to put to a different use"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_kasu",
+     "rel": "contrast: lend"
+    }
+   ]
+  },
+  {
+   "id": "v_kaesu",
+   "jp": "返す",
+   "kana": "かえす",
+   "romaji": "kaesu",
+   "en": "to return (something); to give back",
+   "gloss": "to return",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "返してよ。",
+     "en": "Give it back to me!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11578541,
+      "url": "https://tatoeba.org/en/sentences/show/11578541",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "返してよ。",
+      "translation": "Give it back to me!"
+     }
+    },
+    {
+     "jp": "帽子、返して。",
+     "en": "Give me back my hat.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10516099,
+      "url": "https://tatoeba.org/en/sentences/show/10516099",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "帽子、返して。",
+      "translation": "Give me back my hat."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L13",
+     "activity": 3,
+     "entry": "返す【かえす】 to return",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "返す",
+     "matched": "返す【かえす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to return (something); to restore; to put back",
+      "to turn over; to turn upside down; to overturn",
+      "to pay back; to retaliate; to reciprocate",
+      "to respond (with); to retort; to reply; to say back"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb",
+      "Suffix"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_kimeru",
+   "jp": "決める",
+   "kana": "きめる",
+   "romaji": "kimeru",
+   "en": "to decide; to choose",
+   "gloss": "to decide",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "決めました。",
+     "en": "I made my decision.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5175,
+      "url": "https://tatoeba.org/en/sentences/show/5175",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "決めました。",
+      "translation": "I made my decision."
+     }
+    },
+    {
+     "jp": "何を決めたの？",
+     "en": "What have you decided?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1496984,
+      "url": "https://tatoeba.org/en/sentences/show/1496984",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何を決めたの？",
+      "translation": "What have you decided?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 1,
+     "entry": "決める【きめる】 to decide",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "決める",
+     "matched": "決める【きめる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to decide; to choose; to determine; to make up one's mind; to resolve; to set one's heart on; to settle; to arrange; to set; to appoint; to fix",
+      "to clinch (a victory); to decide (the outcome of a match)",
+      "to persist in doing; to go through with",
+      "to always do; to have made a habit of"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_tetsudau",
+   "jp": "手伝う",
+   "kana": "てつだう",
+   "romaji": "tetsudau",
+   "en": "to help; to assist",
+   "gloss": "to help",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "obj": [
+    "person"
+   ],
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "手伝うよ。",
+     "en": "Let me help you.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2559908,
+      "url": "https://tatoeba.org/en/sentences/show/2559908",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "手伝うよ。",
+      "translation": "Let me help you."
+     }
+    },
+    {
+     "jp": "手伝って。",
+     "en": "Help me.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3480345,
+      "url": "https://tatoeba.org/en/sentences/show/3480345",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "手伝って。",
+      "translation": "Help me."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L11",
+     "activity": 1,
+     "entry": "手伝う【てつだう】 to help",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "手伝う",
+     "matched": "手伝う【てつだう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to help; to assist; to aid",
+      "to contribute to; to be a factor in"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_mukaeru",
+   "jp": "迎える",
+   "kana": "むかえる",
+   "romaji": "mukaeru",
+   "en": "to go out to meet; to welcome; to pick up (someone)",
+   "gloss": "to go out to meet",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 3,
+   "use": "say",
+   "obj": [
+    "person"
+   ],
+   "verb_class": "ichidan",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "迎える",
+     "matched": "迎える【むかえる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to go out to meet; to receive; to welcome; to greet; to salute; to hail",
+      "to call for; to summon; to invite",
+      "to accept (e.g. as a member of a group or family); to take (e.g. a wife)",
+      "to reach (a certain time, a point in one's life, etc.); to enter (a new phase, new era, etc.); to approach (e.g. death)"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_tsureteiku",
+   "jp": "連れて行く",
+   "kana": "つれていく",
+   "romaji": "tsureteiku",
+   "en": "to take (someone) along; to take (a person) to",
+   "gloss": "to take (someone) along",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "obj": [
+    "person"
+   ],
+   "verb_class": "iku",
+   "note": "For people (and animals). For things use 持って行く.",
+   "examples": [
+    {
+     "jp": "病院へ連れて行って下さい。",
+     "en": "Take me to a hospital.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13138019,
+      "url": "https://tatoeba.org/en/sentences/show/13138019",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "病院へ連れて行って下さい。",
+      "translation": "Take me to a hospital."
+     }
+    },
+    {
+     "jp": "一緒に連れて行って下さい。",
+     "en": "Take me with you.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 190508,
+      "url": "https://tatoeba.org/en/sentences/show/190508",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "一緒に連れて行って下さい。",
+      "translation": "Take me with you."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "連れて行く",
+     "matched": "連れて行く【つれていく】",
+     "common": true,
+     "jlpt": [],
+     "senses": [
+      "to take (someone to a place); to take (someone) with one; to take along; to lead away"
+     ],
+     "pos": [
+      "Godan verb - Iku/Yuku special class",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_oku",
+   "jp": "置く",
+   "kana": "おく",
+   "romaji": "oku",
+   "en": "to put; to place; to leave (behind)",
+   "gloss": "to put",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "そこに置いて。",
+     "en": "Put it there.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3506686,
+      "url": "https://tatoeba.org/en/sentences/show/3506686",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "そこに置いて。",
+      "translation": "Put it there."
+     }
+    },
+    {
+     "jp": "床に置いて。",
+     "en": "Put it on the floor.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11391181,
+      "url": "https://tatoeba.org/en/sentences/show/11391181",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "床に置いて。",
+      "translation": "Put it on the floor."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L13",
+     "activity": 4,
+     "entry": "置く【おく】 to place",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "置く",
+     "matched": "置く【おく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to put; to place",
+      "to leave (behind)",
+      "to establish (an organization, a facility, a position, etc.); to set up",
+      "to appoint (someone to a certain position); to hire; to employ"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Transitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_toru",
+   "jp": "取る",
+   "kana": "とる",
+   "romaji": "toru",
+   "en": "to take; to pick up; to get",
+   "gloss": "to take",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "それ取って。",
+     "en": "Give me that.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2419786,
+      "url": "https://tatoeba.org/en/sentences/show/2419786",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "それ取って。",
+      "translation": "Give me that."
+     }
+    },
+    {
+     "jp": "お水、取って。",
+     "en": "Pass me the water.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11178520,
+      "url": "https://tatoeba.org/en/sentences/show/11178520",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "お水、取って。",
+      "translation": "Pass me the water."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 1,
+     "entry": "取る【とる】 to pick up",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L15",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L15",
+     "activity": 4,
+     "entry": "取る【とる】 to take off / to peel of",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "取る",
+     "matched": "取る【とる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to take; to pick up; to grab; to catch; to hold",
+      "to pass; to hand; to give",
+      "to get; to obtain; to acquire; to win; to receive; to earn; to take (e.g. a vacation)",
+      "to adopt (a method, proposal, etc.); to take (a measure, attitude, etc.); to choose"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_toru_photo",
+     "rel": "same sound: take a photo"
+    }
+   ]
+  },
+  {
+   "id": "v_sagasu",
+   "jp": "探す",
+   "kana": "さがす",
+   "romaji": "sagasu",
+   "en": "to look for; to search for",
+   "gloss": "to look for",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "何探してるの？",
+     "en": "What are you looking for?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2405116,
+      "url": "https://tatoeba.org/en/sentences/show/2405116",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何探してるの？",
+      "translation": "What are you looking for?"
+     }
+    },
+    {
+     "jp": "これ探してるの？",
+     "en": "Are you looking for this?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8737873,
+      "url": "https://tatoeba.org/en/sentences/show/8737873",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "これ探してるの？",
+      "translation": "Are you looking for this?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L9",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L9",
+     "activity": 4,
+     "entry": "探す【さがす】 to look for",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 2,
+     "entry": "探す【さがす】 to look for",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "探す",
+     "matched": "探す【さがす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "to search for; to look for; to hunt for; to seek",
+      "to search (a house, pocket, etc.); to search through; to rummage in (e.g. a drawer); to fish around"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_mitsukeru",
+     "rel": "then: find it"
+    }
+   ]
+  },
+  {
+   "id": "v_mitsukeru",
+   "jp": "見つける",
+   "kana": "みつける",
+   "romaji": "mitsukeru",
+   "en": "to find (something); to discover",
+   "gloss": "to find",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "見つけました。",
+     "en": "I found it.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9167382,
+      "url": "https://tatoeba.org/en/sentences/show/9167382",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "見つけました。",
+      "translation": "I found it."
+     }
+    },
+    {
+     "jp": "見つけた！",
+     "en": "I found it!",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 7577266,
+      "url": "https://tatoeba.org/en/sentences/show/7577266",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "見つけた！",
+      "translation": "I found it!"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "見つける",
+     "matched": "見つける【みつける】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "to find; to discover; to come across; to spot; to catch (someone doing)",
+      "to be used to seeing; to be familiar with"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_mitsukaru",
+     "rel": "intransitive: be found"
+    },
+    {
+     "id": "v_sagasu",
+     "rel": "first: look for it"
+    }
+   ]
+  },
+  {
+   "id": "v_mitsukaru",
+   "jp": "見つかる",
+   "kana": "みつかる",
+   "romaji": "mitsukaru",
+   "en": "to be found",
+   "gloss": "to be found",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "note": "Intransitive: 鍵が見つかった (the key turned up). Transitive partner: 見つける.",
+   "examples": [
+    {
+     "jp": "鍵は見つかりましたか？",
+     "en": "Did you find your keys?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 767456,
+      "url": "https://tatoeba.org/en/sentences/show/767456",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "鍵は見つかりましたか？",
+      "translation": "Did you find your keys?"
+     }
+    },
+    {
+     "jp": "探し物は見つかった？",
+     "en": "Did you find what you were looking for?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8722651,
+      "url": "https://tatoeba.org/en/sentences/show/8722651",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "探し物は見つかった？",
+      "translation": "Did you find what you were looking for?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 3,
+     "entry": "見つかる【みつかる】 to find",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L12",
+     "activity": 1,
+     "entry": "見つかる【みつかる】 to find",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "見つかる",
+     "matched": "見つかる【みつかる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n2"
+     ],
+     "senses": [
+      "to be found; to be discovered"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_mitsukeru",
+     "rel": "transitive: find"
+    }
+   ]
+  },
+  {
+   "id": "v_nakusu",
+   "jp": "なくす",
+   "kana": "なくす",
+   "romaji": "nakusu",
+   "en": "to lose (something)",
+   "gloss": "to lose",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "私は傘をなくした。",
+     "en": "I have lost my umbrella.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 156661,
+      "url": "https://tatoeba.org/en/sentences/show/156661",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私は傘をなくした。",
+      "translation": "I have lost my umbrella."
+     }
+    },
+    {
+     "jp": "何をなくしたの？",
+     "en": "What've you lost?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9271887,
+      "url": "https://tatoeba.org/en/sentences/show/9271887",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何をなくしたの？",
+      "translation": "What've you lost?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L11",
+     "activity": 3,
+     "entry": "なくす【なくす】 to lose",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "なくす",
+     "matched": "無くす【なくす】 (written in kana: なくす)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to lose (something)",
+      "to get rid of; to eliminate; to remove; to eradicate; to abolish"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_otosu",
+     "rel": "similar: drop"
+    }
+   ]
+  },
+  {
+   "id": "v_otosu",
+   "jp": "落とす",
+   "kana": "おとす",
+   "romaji": "otosu",
+   "en": "to drop; to lose (something)",
+   "gloss": "to drop",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "財布、落としましたよ。",
+     "en": "You've dropped your wallet.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9641239,
+      "url": "https://tatoeba.org/en/sentences/show/9641239",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "財布、落としましたよ。",
+      "translation": "You've dropped your wallet."
+     }
+    },
+    {
+     "jp": "鍵、落としましたよ。",
+     "en": "You dropped your key.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9641232,
+      "url": "https://tatoeba.org/en/sentences/show/9641232",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "鍵、落としましたよ。",
+      "translation": "You dropped your key."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "落とす",
+     "matched": "落とす【おとす】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "to drop; to lose; to let fall; to shed (light); to cast (one's gaze); to pour in (liquid); to leave behind",
+      "to clean off (dirt, makeup, paint, etc.); to remove (e.g. stains or facial hair); to lose; to spend money at a certain place; to omit; to leave out; to secretly let escape",
+      "to lose (a match); to reject (an applicant); to fail (a course); to defeat (in an election)",
+      "to lower (e.g. shoulders or voice); to lessen (e.g. production or body weight); to worsen (quality); to reduce (e.g. rank or popularity); to speak badly of; to make light of; to fall into straitened circumstances"
+     ],
+     "pos": [
+      "Godan verb with 'su' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_nakusu",
+     "rel": "similar: lose"
+    },
+    {
+     "id": "v_hirou",
+     "rel": "contrast: pick up"
+    }
+   ]
+  },
+  {
+   "id": "v_hirou",
+   "jp": "拾う",
+   "kana": "ひろう",
+   "romaji": "hirō",
+   "en": "to pick up (from the ground); to find",
+   "gloss": "to pick up",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 3,
+   "use": "say",
+   "verb_class": "godan",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L7",
+     "activity": 1,
+     "entry": "拾う【ひろう】 to pick up",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "拾う",
+     "matched": "拾う【ひろう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to pick up; to gather",
+      "to find (and pick up; something someone has dropped)",
+      "to select; to choose; to pick out",
+      "to get (unexpectedly); to hit upon (luck, an opportunity, etc.); to snatch (an unexpected victory); to pull off"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_otosu",
+     "rel": "contrast: drop"
+    }
+   ]
+  },
+  {
+   "id": "v_ugoku",
+   "jp": "動く",
+   "kana": "うごく",
+   "romaji": "ugoku",
+   "en": "to move; to work (of a machine)",
+   "gloss": "to move",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "動いた！",
+     "en": "It worked.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3488089,
+      "url": "https://tatoeba.org/en/sentences/show/3488089",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "動いた！",
+      "translation": "It worked."
+     }
+    },
+    {
+     "jp": "動くな！",
+     "en": "Don't move.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3488277,
+      "url": "https://tatoeba.org/en/sentences/show/3488277",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "動くな！",
+      "translation": "Don't move."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L13",
+     "activity": 1,
+     "entry": "動く【うごく】 to work / to move",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "動く",
+     "matched": "動く【うごく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to move; to stir; to shift; to shake; to swing",
+      "to operate; to run; to go; to work",
+      "to make a move; to take action; to act; to go into action",
+      "to be touched; to be influenced"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_suwaru",
+   "jp": "座る",
+   "kana": "すわる",
+   "romaji": "suwaru",
+   "en": "to sit",
+   "gloss": "to sit",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "座っていい？",
+     "en": "Can I sit here?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10996826,
+      "url": "https://tatoeba.org/en/sentences/show/10996826",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "座っていい？",
+      "translation": "Can I sit here?"
+     }
+    },
+    {
+     "jp": "さあ座って。",
+     "en": "Now sit down.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3506682,
+      "url": "https://tatoeba.org/en/sentences/show/3506682",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "さあ座って。",
+      "translation": "Now sit down."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "座る【すわる】 to sit",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "座る",
+     "matched": "座る【すわる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to sit (down); to have a seat; to be seated; to kneel (on the floor)",
+      "to assume (a position); to take on (a duty); to occupy (a post)"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_tatsu",
+     "rel": "contrast: stand"
+    }
+   ]
+  },
+  {
+   "id": "v_tatsu",
+   "jp": "立つ",
+   "kana": "たつ",
+   "romaji": "tatsu",
+   "en": "to stand; to stand up",
+   "gloss": "to stand",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "立って下さい。",
+     "en": "Stand up, please.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 78276,
+      "url": "https://tatoeba.org/en/sentences/show/78276",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "立って下さい。",
+      "translation": "Stand up, please."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "立つ【たつ】 to stand",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "立つ",
+     "matched": "立つ【たつ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to stand (up); to rise; to get to one's feet; to stand on end (e.g. of hairs); to stick up",
+      "to stand (in a position; of a person, tree, building, etc.); to be situated (in, on)",
+      "to be (in difficulties, the lead, etc.); to put oneself (in a position or situation); to take up (a position, post, etc.); to position oneself",
+      "to leave (to do something)"
+     ],
+     "pos": [
+      "Godan verb with 'tsu' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "v_suwaru",
+     "rel": "contrast: sit"
+    }
+   ]
+  },
+  {
+   "id": "v_narabu",
+   "jp": "並ぶ",
+   "kana": "ならぶ",
+   "romaji": "narabu",
+   "en": "to line up; to queue",
+   "gloss": "to line up",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "列に並んで。",
+     "en": "Stand in line.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10701775,
+      "url": "https://tatoeba.org/en/sentences/show/10701775",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "列に並んで。",
+      "translation": "Stand in line."
+     }
+    },
+    {
+     "jp": "一列に並んで下さい。",
+     "en": "Please line up in a row.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 190024,
+      "url": "https://tatoeba.org/en/sentences/show/190024",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "一列に並んで下さい。",
+      "translation": "Please line up in a row."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "並ぶ【ならぶ】 to line up",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 2,
+     "entry": "並ぶ【ならぶ】 to line up",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "並ぶ",
+     "matched": "並ぶ【ならぶ】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to line up; to stand in a line",
+      "to rival; to match; to equal"
+     ],
+     "pos": [
+      "Godan verb with 'bu' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_hashiru",
+   "jp": "走る",
+   "kana": "はしる",
+   "romaji": "hashiru",
+   "en": "to run",
+   "gloss": "to run",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "走って！",
+     "en": "Run.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 5955869,
+      "url": "https://tatoeba.org/en/sentences/show/5955869",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "走って！",
+      "translation": "Run."
+     }
+    },
+    {
+     "jp": "私は走る。",
+     "en": "I run.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 155348,
+      "url": "https://tatoeba.org/en/sentences/show/155348",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私は走る。",
+      "translation": "I run."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L16",
+     "activity": 2,
+     "entry": "走る【はしる】 to run",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "走る",
+     "matched": "走る【はしる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to run",
+      "to run (of a vehicle); to drive; to travel; to move; to sail",
+      "to rush (to); to dash; to race",
+      "to retreat; to flee; to defect (to)"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_soujisuru",
+   "jp": "掃除する",
+   "kana": "そうじする",
+   "romaji": "sōjisuru",
+   "en": "to clean (a room); to do the cleaning",
+   "gloss": "to clean",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "私は部屋を掃除したい。",
+     "en": "I want to clean my room.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9014180,
+      "url": "https://tatoeba.org/en/sentences/show/9014180",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "私は部屋を掃除したい。",
+      "translation": "I want to clean my room."
+     }
+    },
+    {
+     "jp": "今日は部屋を掃除したの？",
+     "en": "Did you clean your room today?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11605273,
+      "url": "https://tatoeba.org/en/sentences/show/11605273",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今日は部屋を掃除したの？",
+      "translation": "Did you clean your room today?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L17",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L17",
+     "activity": 1,
+     "entry": "掃除する／掃除します【そうじする／そうじします】 to clean",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "掃除する",
+     "matched": "掃除【そうじ】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "cleaning; sweeping; dusting; scrubbing",
+      "Cleanliness"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_souji",
+     "rel": "noun"
+    }
+   ]
+  },
+  {
+   "id": "v_ryourisuru",
+   "jp": "料理する",
+   "kana": "りょうりする",
+   "romaji": "ryōrisuru",
+   "en": "to cook",
+   "gloss": "to cook",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "料理するのは好き？",
+     "en": "Do you like cooking?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 1452352,
+      "url": "https://tatoeba.org/en/sentences/show/1452352",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "料理するのは好き？",
+      "translation": "Do you like cooking?"
+     }
+    },
+    {
+     "jp": "何を料理しているの。",
+     "en": "What are you cooking?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 187535,
+      "url": "https://tatoeba.org/en/sentences/show/187535",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何を料理しているの。",
+      "translation": "What are you cooking?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "料理する",
+     "matched": "料理【りょうり】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "cooking; cookery; cuisine; food; dish",
+      "dealing with (skillfully); handling (well); managing",
+      "Cuisine"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_ryouri",
+     "rel": "noun"
+    }
+   ]
+  },
+  {
+   "id": "v_sentakusuru",
+   "jp": "洗濯する",
+   "kana": "せんたくする",
+   "romaji": "sentakusuru",
+   "en": "to do the laundry; to wash (clothes)",
+   "gloss": "to do the laundry",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "今日は、洗濯した？",
+     "en": "Did you wash clothes today?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11795601,
+      "url": "https://tatoeba.org/en/sentences/show/11795601",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "今日は、洗濯した？",
+      "translation": "Did you wash clothes today?"
+     }
+    },
+    {
+     "jp": "毎日洗濯してますよ。",
+     "en": "I wash clothes every day.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 152702,
+      "url": "https://tatoeba.org/en/sentences/show/152702",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "毎日洗濯してますよ。",
+      "translation": "I wash clothes every day."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "洗濯する",
+     "matched": "洗濯【せんたく】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "washing; laundry",
+      "relaxation; rejuvenation; melting away (of worries, fatigue, etc.)",
+      "Laundry"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Wikipedia definition"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_sentaku",
+     "rel": "noun"
+    }
+   ]
+  },
+  {
+   "id": "v_yoyakusuru",
+   "jp": "予約する",
+   "kana": "よやくする",
+   "romaji": "yoyakusuru",
+   "en": "to reserve; to book; to make an appointment",
+   "gloss": "to reserve",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "もう予約した？",
+     "en": "Have you already made a reservation?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12049830,
+      "url": "https://tatoeba.org/en/sentences/show/12049830",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "もう予約した？",
+      "translation": "Have you already made a reservation?"
+     }
+    },
+    {
+     "jp": "予約してあります。",
+     "en": "I have a reservation.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2213120,
+      "url": "https://tatoeba.org/en/sentences/show/2213120",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "予約してあります。",
+      "translation": "I have a reservation."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "予約する【よやくする】 to make a reservation",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "予約する",
+     "matched": "予約【よやく】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "reservation; appointment; booking; advance order",
+      "contract; subscription; pledge",
+      "programming (e.g. a device); setting (e.g. a timer)"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_yoyaku",
+     "rel": "noun"
+    }
+   ]
+  },
+  {
+   "id": "v_shippaisuru",
+   "jp": "失敗する",
+   "kana": "しっぱいする",
+   "romaji": "shippaisuru",
+   "en": "to fail; to make a mistake",
+   "gloss": "to fail",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 3,
+   "use": "say",
+   "verb_class": "suru",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L18",
+     "activity": 3,
+     "entry": "失敗する【しっぱいする】 to make mistakes",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "失敗する",
+     "matched": "失敗【しっぱい】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "failure; mistake; blunder"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_renshuusuru",
+   "jp": "練習する",
+   "kana": "れんしゅうする",
+   "romaji": "renshūsuru",
+   "en": "to practise; to practice",
+   "gloss": "to practise",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "obj": [
+    "language"
+   ],
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "毎日３時間練習してます。",
+     "en": "I practice three hours every day.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10303703,
+      "url": "https://tatoeba.org/en/sentences/show/10303703",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "毎日３時間練習してます。",
+      "translation": "I practice three hours every day."
+     }
+    },
+    {
+     "jp": "ちょっと練習しなきゃ。",
+     "en": "I need a little practice.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11853679,
+      "url": "https://tatoeba.org/en/sentences/show/11853679",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "ちょっと練習しなきゃ。",
+      "translation": "I need a little practice."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "練習する",
+     "matched": "練習【れんしゅう】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "practice; training; drill; (an) exercise; workout"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_junbisuru",
+   "jp": "準備する",
+   "kana": "じゅんびする",
+   "romaji": "junbisuru",
+   "en": "to prepare; to get ready",
+   "gloss": "to prepare",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "suru",
+   "examples": [
+    {
+     "jp": "荷物を準備して。",
+     "en": "Pack your bags.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 6549586,
+      "url": "https://tatoeba.org/en/sentences/show/6549586",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "荷物を準備して。",
+      "translation": "Pack your bags."
+     }
+    },
+    {
+     "jp": "出かける準備してないよ。",
+     "en": "I'm not ready to go.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8647282,
+      "url": "https://tatoeba.org/en/sentences/show/8647282",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "出かける準備してないよ。",
+      "translation": "I'm not ready to go."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L13",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L13",
+     "activity": 4,
+     "entry": "準備する【じゅんびする】 to prepare / to set up",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "準備する【じゅんびする】 to prepare",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "準備する",
+     "matched": "準備【じゅんび】 + する (listed as suru verb)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3"
+     ],
+     "senses": [
+      "preparation; arrangements; getting ready; provision; setup; reserving"
+     ],
+     "pos": [
+      "Noun",
+      "Suru verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_dekakeru",
+   "jp": "出かける",
+   "kana": "でかける",
+   "romaji": "dekakeru",
+   "en": "to go out (on an errand, trip)",
+   "gloss": "to go out",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "出かけるの？",
+     "en": "Are you going out?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8736594,
+      "url": "https://tatoeba.org/en/sentences/show/8736594",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "出かけるの？",
+      "translation": "Are you going out?"
+     }
+    },
+    {
+     "jp": "何時に出かける？",
+     "en": "What time are you leaving?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 13536154,
+      "url": "https://tatoeba.org/en/sentences/show/13536154",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何時に出かける？",
+      "translation": "What time are you leaving?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L2",
+     "activity": 2,
+     "entry": "出かける【でかける】 to go out",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "出かける",
+     "matched": "出かける【でかける】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n2",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to go out (e.g. on an excursion or outing); to leave; to depart; to start; to set out",
+      "to be about to leave; to be just going out"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_ireru",
+   "jp": "入れる",
+   "kana": "いれる",
+   "romaji": "ireru",
+   "en": "to put in; to insert",
+   "gloss": "to put in",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "氷は入れる？",
+     "en": "Would you like ice?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 9687105,
+      "url": "https://tatoeba.org/en/sentences/show/9687105",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "氷は入れる？",
+      "translation": "Would you like ice?"
+     }
+    },
+    {
+     "jp": "肉を入れて。",
+     "en": "Add meat.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 14000021,
+      "url": "https://tatoeba.org/en/sentences/show/14000021",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "肉を入れて。",
+      "translation": "Add meat."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L7",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L7",
+     "activity": 5,
+     "entry": "入れる／入【いれる】 to turn on / ON",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L12",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L12",
+     "activity": 3,
+     "entry": "入れる【いれる】 to put in",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "入れる",
+     "matched": "入れる【いれる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to put in; to let in; to take in; to bring in; to insert; to install (e.g. software); to set (a jewel, etc.); to ink in (e.g. tattoo)",
+      "to admit; to accept; to employ; to hire",
+      "to accept; to comply; to grant; to adopt (a policy, etc.); to take (advice, etc.); to listen to; to pay attention to",
+      "to include"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_shiraberu",
+   "jp": "調べる",
+   "kana": "しらべる",
+   "romaji": "shiraberu",
+   "en": "to check; to look up; to investigate",
+   "gloss": "to check",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "辞書で調べます。",
+     "en": "I will look it up in the dictionary.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 159702,
+      "url": "https://tatoeba.org/en/sentences/show/159702",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "辞書で調べます。",
+      "translation": "I will look it up in the dictionary."
+     }
+    },
+    {
+     "jp": "調べてみるよ。",
+     "en": "I'll look into it.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11679995,
+      "url": "https://tatoeba.org/en/sentences/show/11679995",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "調べてみるよ。",
+      "translation": "I'll look into it."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L5",
+     "activity": 3,
+     "entry": "調べる【しらべる】 to check",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "調べる",
+     "matched": "調べる【しらべる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to examine; to look up; to investigate; to check up; to sense; to study; to inquire; to search"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_omou",
+   "jp": "思う",
+   "kana": "おもう",
+   "romaji": "omō",
+   "en": "to think",
+   "gloss": "to think",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "どう思う？",
+     "en": "Now, what do you think?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 201105,
+      "url": "https://tatoeba.org/en/sentences/show/201105",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "どう思う？",
+      "translation": "Now, what do you think?"
+     }
+    },
+    {
+     "jp": "そう思う。",
+     "en": "I think so.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12056117,
+      "url": "https://tatoeba.org/en/sentences/show/12056117",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "そう思う。",
+      "translation": "I think so."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 2,
+     "entry": "思う【おもう】 to think",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "思う",
+     "matched": "思う【おもう】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to think; to consider; to believe; to reckon",
+      "to think (of doing); to plan (to do)",
+      "to judge; to assess; to regard",
+      "to imagine; to suppose; to dream"
+     ],
+     "pos": [
+      "Godan verb with 'u' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_kangaeru",
+   "jp": "考える",
+   "kana": "かんがえる",
+   "romaji": "kangaeru",
+   "en": "to think (about); to consider",
+   "gloss": "to think",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "ichidan",
+   "examples": [
+    {
+     "jp": "考えとくよ。",
+     "en": "I'll think about it.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 173462,
+      "url": "https://tatoeba.org/en/sentences/show/173462",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "考えとくよ。",
+      "translation": "I'll think about it."
+     }
+    },
+    {
+     "jp": "何考えてるの？",
+     "en": "What are you thinking about?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 2430004,
+      "url": "https://tatoeba.org/en/sentences/show/2430004",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "何考えてるの？",
+      "translation": "What are you thinking about?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L18",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L18",
+     "activity": 1,
+     "entry": "考える【かんがえる】 to think",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "考える",
+     "matched": "考える【かんがえる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to think (about, of); to think over; to ponder; to contemplate; to reflect (on); to meditate (on)",
+      "to consider; to bear in mind; to allow for; to take into consideration",
+      "to think (that); to believe; to hold (a view); to judge; to conclude; to suspect",
+      "to intend (to do); to think of (doing); to plan"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_abiru",
+   "jp": "浴びる",
+   "kana": "あびる",
+   "romaji": "abiru",
+   "en": "to take (a shower)",
+   "gloss": "to take",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 3,
+   "use": "say",
+   "verb_class": "ichidan",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "浴びる",
+     "matched": "浴びる【あびる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to dash over oneself (e.g. water); to take (e.g. shower); to bask in (e.g. the sun); to bathe in; to be flooded with (e.g. light); to be covered in",
+      "to suffer (e.g. an attack); to draw (e.g. criticism, attention, praise); to have heaped upon; to be showered with"
+     ],
+     "pos": [
+      "Ichidan verb",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_migaku",
+   "jp": "磨く",
+   "kana": "みがく",
+   "romaji": "migaku",
+   "en": "to brush (teeth); to polish",
+   "gloss": "to brush",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 3,
+   "use": "say",
+   "verb_class": "godan",
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "磨く",
+     "matched": "磨く【みがく】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "to polish; to shine; to burnish; to scour; to scrub; to brush (teeth); to grind (e.g. a lens)",
+      "to refine (a skill, etc.); to improve; to hone; to polish (up); to cultivate (one's character)"
+     ],
+     "pos": [
+      "Godan verb with 'ku' ending",
+      "Transitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_modoru",
+   "jp": "戻る",
+   "kana": "もどる",
+   "romaji": "modoru",
+   "en": "to return; to come back; to go back",
+   "gloss": "to return",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "verb_class": "godan",
+   "examples": [
+    {
+     "jp": "すぐ戻る。",
+     "en": "I will be back soon.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3557602,
+      "url": "https://tatoeba.org/en/sentences/show/3557602",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "すぐ戻る。",
+      "translation": "I will be back soon."
+     }
+    },
+    {
+     "jp": "7時に戻るよ。",
+     "en": "At seven I'll be back.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 11488362,
+      "url": "https://tatoeba.org/en/sentences/show/11488362",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "7時に戻るよ。",
+      "translation": "At seven I'll be back."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L14",
+     "activity": 2,
+     "entry": "戻る【もどる】 to return",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級2 ことばリスト L16",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Z.pdf",
+     "lesson": "L16",
+     "activity": 4,
+     "entry": "戻る【もどる】 to come back",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "戻る",
+     "matched": "戻る【もどる】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4"
+     ],
+     "senses": [
+      "to turn back (e.g. half-way)",
+      "to return; to go back",
+      "to recover (e.g. something lost); to be returned",
+      "to rebound; to spring back"
+     ],
+     "pos": [
+      "Godan verb with 'ru' ending",
+      "Intransitive verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "w_tokidoki",
+   "jp": "時々",
+   "kana": "ときどき",
+   "romaji": "tokidoki",
+   "en": "sometimes; at times",
+   "gloss": "sometimes",
+   "pos": "adverb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "時々ＴＶを見る。",
+     "en": "I watch TV now and then.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 633075,
+      "url": "https://tatoeba.org/en/sentences/show/633075",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "時々ＴＶを見る。",
+      "translation": "I watch TV now and then."
+     }
+    },
+    {
+     "jp": "時々は手紙下さい。",
+     "en": "Please write to me once in a while.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 150448,
+      "url": "https://tatoeba.org/en/sentences/show/150448",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "時々は手紙下さい。",
+      "translation": "Please write to me once in a while."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "時々",
+     "matched": "時々【ときどき】",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "sometimes; occasionally; at times; from time to time; now and then; once in a while; at intervals",
+      "seasonal; of the season; appropriate (for the season or occasion)"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_yoku",
+     "rel": "more: often"
+    }
+   ]
+  },
+  {
+   "id": "w_itsumo",
+   "jp": "いつも",
+   "kana": "いつも",
+   "romaji": "itsumo",
+   "en": "always; usually",
+   "gloss": "always",
+   "pos": "adverb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "いつも忙しいの？",
+     "en": "Are you always busy?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8723018,
+      "url": "https://tatoeba.org/en/sentences/show/8723018",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "いつも忙しいの？",
+      "translation": "Are you always busy?"
+     }
+    },
+    {
+     "jp": "いつもこうなの？",
+     "en": "Is it always like this?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 8730580,
+      "url": "https://tatoeba.org/en/sentences/show/8730580",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "いつもこうなの？",
+      "translation": "Is it always like this?"
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "いつも【いつも】 always",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L11",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L11",
+     "activity": 3,
+     "entry": "いつも【いつも】 always",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "いつも",
+     "matched": "何時も【いつも】 (written in kana: いつも)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n3",
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "always; all the time; at all times",
+      "never",
+      "usual; regular; habitual; customary"
+     ],
+     "pos": [
+      "Adverb (fukushi)",
+      "Noun which may take the genitive case particle 'no'",
+      "Noun"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_yoku",
+     "rel": "less: often"
+    }
+   ]
+  },
+  {
+   "id": "w_yoku",
+   "jp": "よく",
+   "kana": "よく",
+   "romaji": "yoku",
+   "en": "often; frequently; well",
+   "gloss": "often",
+   "pos": "adverb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "よく寝た？",
+     "en": "Did you sleep well?",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10125459,
+      "url": "https://tatoeba.org/en/sentences/show/10125459",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "よく寝た？",
+      "translation": "Did you sleep well?"
+     }
+    },
+    {
+     "jp": "よく見て。",
+     "en": "Watch closely.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 3506639,
+      "url": "https://tatoeba.org/en/sentences/show/3506639",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "よく見て。",
+      "translation": "Watch closely."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L2",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L2",
+     "activity": 1,
+     "entry": "よく【よく】 (not) really",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L5",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L5",
+     "activity": 4,
+     "entry": "よく【よく】 often",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "よく",
+     "matched": "良く【よく】 (written in kana: よく)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n5"
+     ],
+     "senses": [
+      "nicely; properly; well; skillfully; skilfully",
+      "frequently; often",
+      "I'm glad that you ...; thank you for ...",
+      "(you have) quite the nerve to; I don't know how you can ..."
+     ],
+     "pos": [
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "links": [
+    {
+     "id": "w_itsumo",
+     "rel": "more: always"
+    },
+    {
+     "id": "w_tokidoki",
+     "rel": "less: sometimes"
+    }
+   ]
+  },
+  {
+   "id": "w_takusan",
+   "jp": "たくさん",
+   "kana": "たくさん",
+   "romaji": "takusan",
+   "en": "a lot; many; much",
+   "gloss": "a lot",
+   "pos": "adverb",
+   "topic": "daily",
+   "tier": 1,
+   "use": "say",
+   "examples": [
+    {
+     "jp": "人がたくさんいた。",
+     "en": "There were lots of people.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 12101354,
+      "url": "https://tatoeba.org/en/sentences/show/12101354",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "人がたくさんいた。",
+      "translation": "There were lots of people."
+     }
+    },
+    {
+     "jp": "氷をたくさん入れて。",
+     "en": "Add lots of ice.",
+     "source": {
+      "type": "usage",
+      "name": "Tatoeba",
+      "id": 10651809,
+      "url": "https://tatoeba.org/en/sentences/show/10651809",
+      "license": "CC BY 2.0 FR",
+      "checked": "2026-10-23",
+      "text": "氷をたくさん入れて。",
+      "translation": "Add lots of ice."
+     }
+    }
+   ],
+   "status": "verified",
+   "sources": [
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 入門 ことばリスト L14",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_X.pdf",
+     "lesson": "L14",
+     "activity": 3,
+     "entry": "たくさん【たくさん】 lots of",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "reference",
+     "name": "Japan Foundation いろどり 生活の日本語 — 初級1 ことばリスト L3",
+     "url": "https://www.irodori.jpf.go.jp/assets/data/wordlist_Y.pdf",
+     "lesson": "L3",
+     "activity": 1,
+     "entry": "たくさん【たくさん】 many / much",
+     "checked": "2026-10-23"
+    },
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "たくさん",
+     "matched": "沢山【たくさん】 (written in kana: たくさん)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n1",
+      "jlpt-n5"
+     ],
+     "senses": [
+      "a lot; lots; plenty; many; a large number; much; a great deal; a good deal",
+      "enough; sufficient",
+      "enough; too many; too much"
+     ],
+     "pos": [
+      "Noun which may take the genitive case particle 'no'",
+      "Na-adjective (keiyodoshi)",
+      "Noun",
+      "Adverb (fukushi)"
+     ],
+     "checked": "2026-10-23"
+    }
+   ]
+  },
+  {
+   "id": "v_kureru",
+   "jp": "くれる",
+   "kana": "くれる",
+   "romaji": "kureru",
+   "en": "to give (to me / us)",
+   "gloss": "to give (to me)",
+   "pos": "verb",
+   "topic": "daily",
+   "tier": 2,
+   "use": "say",
+   "register": "neutral",
+   "verb_class": "kureru",
+   "sources": [
+    {
+     "type": "dictionary",
+     "name": "JMdict/EDRDG via jisho.org API",
+     "query": "くれる",
+     "matched": "呉れる【くれる】 (written in kana: くれる)",
+     "common": true,
+     "jlpt": [
+      "jlpt-n4",
+      "jlpt-n1"
+     ],
+     "senses": [
+      "to give; to let (one) have",
+      "to give",
+      "to do for one; to take the trouble to do",
+      "to do to someone's disadvantage"
+     ],
+     "pos": [
+      "Ichidan verb - kureru special class",
+      "Transitive verb",
+      "Auxiliary verb"
+     ],
+     "checked": "2026-10-23"
+    }
+   ],
+   "status": "verified",
+   "note": "Gives TO ME / us (the speaker side); 〜てくれる = someone does something for me. Imperative is くれ.",
+   "links": []
   }
  ]
 }
