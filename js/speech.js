@@ -100,7 +100,60 @@
       return true;
     } catch (e) { return false; }
   }
-  function stop() { try { const s = synth(); if (s) s.cancel(); } catch (e) { } }
+  function stop() { if (current) current.stopped = true; try { const s = synth(); if (s) s.cancel(); } catch (e) { } }
 
-  return { supported, listJapanese, ready, choose, status, speak, stop, describe, rank };
+  /* ---------- dialogues (BJT listening) ----------
+     Speakers: N narrator, M1/M2 male, F1/F2 female. Each role gets a
+     different ON-DEVICE voice of the right gender when the device has one;
+     when one voice must play several roles, pitch separates them (lower for
+     male roles, higher for female) so turns stay distinguishable. */
+  function cast(uri) {
+    const list = (cache.length ? cache : listJapanese()).filter(v => v.local);
+    const base = choose(uri);
+    if (!base) return null;
+    const f = list.filter(v => v.gender === 'female'), m = list.filter(v => v.gender === 'male');
+    const pickF = k => f[k] || f[0] || null, pickM = k => m[k] || m[0] || null;
+    const voices = { N: base, F1: pickF(base.gender === 'female' && f.length > 1 ? 1 : 0) || base, F2: null, M1: pickM(0) || base, M2: null };
+    voices.F2 = f.find(v => v !== voices.F1) || voices.F1;
+    voices.M2 = m.find(v => v !== voices.M1) || voices.M1;
+    const pitch = { N: 1, F1: 1, F2: 1, M1: 1, M2: 1 };
+    if (voices.M1 === voices.F1) { pitch.M1 = 0.72; pitch.M2 = 0.85; pitch.F1 = 1.2; pitch.F2 = 1.08; }
+    else { if (voices.M2 === voices.M1) pitch.M2 = 0.85; if (voices.F2 === voices.F1) pitch.F2 = 1.15; }
+    const distinct = new Set(['N', 'F1', 'F2', 'M1', 'M2'].map(k => voices[k].uri + '|' + pitch[k])).size;
+    return { voices, pitch, distinct, genderVoices: { female: f.length, male: m.length } };
+  }
+  let current = null;
+  // Plays lines in order. opts: { uri, rate, onLine(k), onend(completed) }.
+  // Returns a controller { stop() }, or null when no usable voice exists.
+  function speakLines(lines, opts) {
+    opts = opts || {};
+    const s = synth(); if (!s || !lines || !lines.length) return null;
+    const c = cast(opts.uri); if (!c) return null;
+    stop();
+    const ctl = { stopped: false, k: -1, stop() { this.stopped = true; try { s.cancel(); } catch (e) { } } };
+    current = ctl;
+    const rate = Math.min(1.5, Math.max(0.5, opts.rate || 1));
+    const step = (k) => {
+      if (ctl.stopped) return;
+      if (k >= lines.length) { current = null; if (opts.onend) opts.onend(true); return; }
+      const L = lines[k], role = c.voices[L.spk] ? L.spk : 'N', v = c.voices[role];
+      ctl.k = k; if (opts.onLine) opts.onLine(k);
+      let moved = false;
+      const go = () => { if (moved) return; moved = true; clearTimeout(safety); setTimeout(() => step(k + 1), L.spk === 'N' || (lines[k + 1] && lines[k + 1].spk === 'N') ? 700 : 350); };
+      // Some engines never fire onend; never let a dialogue hang.
+      const text = String(L.tts || L.text).replace(/[〜~※（）()]/g, '');
+      const safety = setTimeout(go, 3000 + text.length * 260 / rate);
+      try {
+        const u = new root.SpeechSynthesisUtterance(text);
+        u.lang = v.lang || 'ja-JP'; u.voice = v.voice; u.rate = rate; u.pitch = c.pitch[role];
+        u.onend = go; u.onerror = (e) => { if (e && e.error === 'interrupted' && ctl.stopped) return; go(); };
+        s.speak(u);
+        if (s.paused) s.resume();
+      } catch (e) { go(); }
+    };
+    step(0);
+    return ctl;
+  }
+
+  return { supported, listJapanese, ready, choose, status, speak, stop, describe, rank, cast, speakLines };
 });

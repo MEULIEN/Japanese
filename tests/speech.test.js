@@ -68,4 +68,30 @@ test('items speak their written form (kanji) unless marked tts:kana', () => {
   assert.strictEqual(X.speechText({ jp: '角', kana: 'かど', tts: 'kana' }), 'かど');
 });
 
+test('dialogues: male/female roles get gender-matched on-device voices, lines play in order, onend fires', async () => {
+  const env = mockEnv([V('Microsoft Haruka', 'ja-JP', true, 'h'), V('Microsoft Ichiro', 'ja-JP', true, 'i'), V('Google 日本語', 'ja-JP', false, 'g')]);
+  env.root.speechSynthesis.speak = u => { env.spoken.push(u); setTimeout(() => u.onend && u.onend(), 1); };
+  const { S, restore } = loadSpeech(env.root);
+  await S.ready(100);
+  const done = new Promise(r => S.speakLines([{ spk: 'N', text: '会社で話しています。' }, { spk: 'F1', text: 'おはようございます。' }, { spk: 'M1', text: 'おはよう。' }, { spk: 'F1', text: '生田さんは', tts: 'いくたさんは' }], { onend: r }));
+  await done;
+  assert.deepStrictEqual(env.spoken.map(u => u.text), ['会社で話しています。', 'おはようございます。', 'おはよう。', 'いくたさんは'], 'order + tts override');
+  assert.strictEqual(env.spoken[1].voice.name, 'Microsoft Haruka');
+  assert.strictEqual(env.spoken[2].voice.name, 'Microsoft Ichiro');
+  assert.ok(env.spoken.every(u => u.voice.name !== 'Google 日本語'), 'never an online voice');
+  restore();
+});
+test('dialogues with a single voice: roles are separated by pitch; no voice → returns null (caller shows why)', async () => {
+  const env = mockEnv([V('Kyoko', 'ja-JP', true)]);
+  const { S, restore } = loadSpeech(env.root);
+  await S.ready(100);
+  const c = S.cast(null);
+  assert.ok(c.pitch.M1 < 1 && c.pitch.F1 > 1, 'male lower, female higher');
+  assert.ok(c.distinct >= 3);
+  restore();
+  const none = mockEnv([]); const s2 = loadSpeech(none.root); await s2.S.ready(50);
+  assert.strictEqual(s2.S.speakLines([{ spk: 'N', text: 'あ' }], {}), null);
+  s2.restore();
+});
+
 run('speech: voice detection, ranking, persistence');

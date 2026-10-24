@@ -1,0 +1,461 @@
+{
+  "section": "expression",
+  "questions": [
+    {
+      "id": "p3e-001", "section": "expression", "difficulty": 1, "skills": ["keigo"], "topic": "client",
+      "stem": "受付の人は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "客：営業部の田中さんはいらっしゃいますか。\n受付：はい、少々＿＿＿。",
+      "options": ["お待ちします", "お待ちください", "お待たせします", "お待ちになります"],
+      "answer": 1,
+      "explanation": "The receptionist asks the visitor to wait a moment while she calls Tanaka: 「少々お待ちください」 is the fixed polite request.",
+      "whyWrong": ["お待ちします means 'I will wait', so the receptionist would be the one waiting.", "", "お待たせします ('I will keep you waiting') is not a request; the set phrase after waiting is お待たせしました.", "お待ちになります is honorific description ('you will wait'), not a request to the visitor."],
+      "traps": ["politeness", null, "intention", "politeness"],
+      "evidence": "田中さんはいらっしゃいますか",
+      "vocab": [
+        { "jp": "少々お待ちください", "kana": "しょうしょうおまちください", "en": "please wait a moment" },
+        { "jp": "いらっしゃる", "kana": "いらっしゃる", "en": "to be, come, go (honorific)" }
+      ],
+      "nuance": "お＋verb stem＋ください is the standard honorific request form."
+    },
+    {
+      "id": "p3e-002", "section": "expression", "difficulty": 1, "skills": ["keigo"], "topic": "email",
+      "stem": "メールの書き出しとして＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "株式会社ミナト電機\n営業部　佐藤様\n\n＿＿＿。\nさくら物流の山本でございます。",
+      "options": ["いつもご苦労さまでございます", "いつもお世話をしております", "いつもお世話になっております", "いつもお疲れさまでございます"],
+      "answer": 2,
+      "explanation": "The standard opening of a business email to an outside company is 「いつもお世話になっております」.",
+      "whyWrong": ["ご苦労さま is said by a superior to a subordinate; using it to a client is rude.", "お世話をしております means 'I am taking care of you', which reverses who helps whom.", "", "お疲れさま is internal greeting among colleagues; it is not used to open an email to another company."],
+      "traps": ["relationship", "politeness", null, "relationship"],
+      "evidence": "株式会社ミナト電機　佐藤様／さくら物流の山本",
+      "vocab": [
+        { "jp": "お世話になっております", "kana": "おせわになっております", "en": "thank you for your continued support (email opener)" },
+        { "jp": "〜でございます", "kana": "〜でございます", "en": "am/is (very polite)" }
+      ]
+    },
+    {
+      "id": "p3e-003", "section": "expression", "difficulty": 1, "skills": ["keigo"], "topic": "phone",
+      "stem": "電話を受けた社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "社員：お電話ありがとうございます。東和商事営業部の加藤と＿＿＿。",
+      "options": ["申します", "おっしゃいます", "申されます", "言われます"],
+      "answer": 0,
+      "explanation": "When giving one's own name, use the humble verb 申す: 「加藤と申します」.",
+      "whyWrong": ["", "おっしゃる is honorific; it raises one's own act of speaking.", "申される mixes a humble verb with the honorific れる; it is incorrect keigo.", "言われます is a respectful/passive form; it cannot be used for introducing oneself."],
+      "traps": [null, "politeness", "politeness", "politeness"],
+      "evidence": "東和商事営業部の加藤と",
+      "vocab": [
+        { "jp": "申す", "kana": "もうす", "en": "to say, be called (humble)" },
+        { "jp": "おっしゃる", "kana": "おっしゃる", "en": "to say (honorific)" }
+      ],
+      "nuance": "申す is 謙譲語 II (丁重語): it lowers oneself politely toward the listener."
+    },
+    {
+      "id": "p3e-004", "section": "expression", "difficulty": 2, "skills": ["keigo"], "topic": "sales",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "取引先：先ほど、新しいカタログをメールでお送りしました。\n社員：ありがとうございます。さっそく＿＿＿。",
+      "options": ["ご覧になります", "拝見なさいます", "ご覧いたします", "拝見します"],
+      "answer": 3,
+      "explanation": "The employee will look at the client's catalogue. One's own 'looking' toward the client is humble: 「拝見します」.",
+      "whyWrong": ["ご覧になる is honorific; it cannot be used for one's own action.", "拝見 is humble but なさる is honorific; mixing them is wrong.", "ご覧 is honorific; ご覧いたす mixes honorific and humble.", ""],
+      "traps": ["politeness", "politeness", "politeness", null],
+      "evidence": "カタログをメールでお送りしました",
+      "vocab": [
+        { "jp": "拝見する", "kana": "はいけんする", "en": "to look at (humble)" },
+        { "jp": "ご覧になる", "kana": "ごらんになる", "en": "to look at (honorific)" },
+        { "jp": "さっそく", "kana": "さっそく", "en": "right away" }
+      ],
+      "nuance": "見る → 拝見する (謙譲語, own action) / ご覧になる (尊敬語, the other's action)."
+    },
+    {
+      "id": "p3e-005", "section": "expression", "difficulty": 2, "skills": ["keigo"], "topic": "phone",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "客：鈴木部長はいらっしゃいますか。\n社員：申し訳ございません。＿＿＿は、ただいま外出しております。",
+      "options": ["鈴木部長", "部長の鈴木", "鈴木部長様", "鈴木さん"],
+      "answer": 1,
+      "explanation": "Speaking to an outsider, refer to your own boss without honorific titles: 「部長の鈴木」 (uchi-soto). The client may say 鈴木部長, but the employee may not.",
+      "whyWrong": ["Name + 部長 uses the title as an honorific; to outsiders this raises your own side.", "", "様 is an even stronger honorific and is wrong for one's own colleague.", "さん is also an honorific suffix; to outsiders one's colleagues are named without it."],
+      "traps": ["relationship", null, "relationship", "relationship"],
+      "evidence": "客：鈴木部長は",
+      "vocab": [
+        { "jp": "外出", "kana": "がいしゅつ", "en": "being out of the office" },
+        { "jp": "ただいま", "kana": "ただいま", "en": "at the moment (formal)" }
+      ],
+      "nuance": "Uchi-soto: toward a client, your own company (including your boss) is the in-group and gets humble treatment: 部長の鈴木, 鈴木は外出しております."
+    },
+    {
+      "id": "p3e-006", "section": "expression", "difficulty": 2, "skills": ["keigo"], "topic": "schedule",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "社員：では、明日の午前10時に御社へ＿＿＿もよろしいでしょうか。\n客：はい、お待ちしております。",
+      "options": ["いらっしゃって", "お越しになって", "参られて", "伺って"],
+      "answer": 3,
+      "explanation": "The employee is visiting the client's company, so the humble verb is used: 「御社へ伺ってもよろしいでしょうか」.",
+      "whyWrong": ["いらっしゃる is honorific and cannot describe one's own visit.", "お越しになる is honorific (the other person comes/goes).", "参る is humble, but adding the honorific られる is incorrect.", ""],
+      "traps": ["politeness", "politeness", "politeness", null],
+      "evidence": "御社へ",
+      "vocab": [
+        { "jp": "伺う", "kana": "うかがう", "en": "to visit, ask (humble)" },
+        { "jp": "御社", "kana": "おんしゃ", "en": "your company (spoken)" },
+        { "jp": "お越しになる", "kana": "おこしになる", "en": "to come (honorific)" }
+      ],
+      "nuance": "伺う is 謙譲語 I: it raises the person you visit. 参る is 謙譲語 II and is used for 'go/come' in a neutral polite way (参ります)."
+    },
+    {
+      "id": "p3e-007", "section": "expression", "difficulty": 2, "skills": ["keigo"], "topic": "etiquette",
+      "stem": "社員は来客に何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "社員：どうぞ、冷めないうちに＿＿＿。\n客：ありがとうございます。いただきます。",
+      "options": ["召し上がってください", "いただいてください", "お飲みしてください", "いただかれてください"],
+      "answer": 0,
+      "explanation": "Offering tea to a guest, use the honorific for the guest's drinking: 「召し上がってください」.",
+      "whyWrong": ["", "いただく is humble; you cannot use it for the guest's action.", "お〜する is a humble pattern; using it for the guest is wrong direction.", "Adding the honorific れる to the humble いただく is incorrect keigo."],
+      "traps": [null, "politeness", "politeness", "politeness"],
+      "evidence": "冷めないうちに",
+      "vocab": [
+        { "jp": "召し上がる", "kana": "めしあがる", "en": "to eat/drink (honorific)" },
+        { "jp": "いただく", "kana": "いただく", "en": "to eat/drink, receive (humble)" }
+      ],
+      "nuance": "The guest replies いただきます (humble, own action); the host says 召し上がってください (honorific, guest's action)."
+    },
+    {
+      "id": "p3e-008", "section": "expression", "difficulty": 2, "skills": ["keigo"], "topic": "email",
+      "stem": "メールの文として＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "お世話になっております。\nご依頼いただいたお見積書を添付いたしましたので、＿＿＿。",
+      "options": ["拝受してください", "ご査収いたします", "お受け取りいたします", "ご査収ください"],
+      "answer": 3,
+      "explanation": "When sending attached documents, ask the recipient to check and accept them: 「ご査収ください」 is the set email phrase.",
+      "whyWrong": ["拝受 is humble ('I receive'); asking the client to 拝受 is the wrong direction.", "This says the writer will check it, which is the client's job.", "This says the writer will receive it, but the writer is the sender.", ""],
+      "traps": ["politeness", "intention", "intention", null],
+      "evidence": "お見積書を添付いたしましたので",
+      "vocab": [
+        { "jp": "ご査収ください", "kana": "ごさしゅうください", "en": "please check and accept (the attached)" },
+        { "jp": "添付", "kana": "てんぷ", "en": "attachment" },
+        { "jp": "見積書", "kana": "みつもりしょ", "en": "quotation" }
+      ]
+    },
+    {
+      "id": "p3e-009", "section": "expression", "difficulty": 2, "skills": ["keigo", "intention"], "topic": "phone",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "客：もしもし、先日注文した件なんですが。\n社員：はい。＿＿＿、お名前をもう一度伺ってもよろしいでしょうか。",
+      "options": ["あいにくですが", "恐れ入りますが", "おかげさまで", "お言葉に甘えて"],
+      "answer": 1,
+      "explanation": "Before asking the customer to repeat their name, a cushion phrase is used to acknowledge the bother: 「恐れ入りますが」.",
+      "whyWrong": ["あいにくですが introduces unwelcome news (unfortunately ~), not a request.", "", "おかげさまで expresses thanks for good results; it does not introduce a request.", "お言葉に甘えて is used when accepting someone's kind offer."],
+      "traps": ["intention", null, "intention", "intention"],
+      "evidence": "お名前をもう一度伺ってもよろしいでしょうか",
+      "vocab": [
+        { "jp": "恐れ入りますが", "kana": "おそれいりますが", "en": "excuse me, but (cushion)" },
+        { "jp": "あいにく", "kana": "あいにく", "en": "unfortunately" },
+        { "jp": "伺う", "kana": "うかがう", "en": "to ask; to visit (humble)" }
+      ],
+      "nuance": "クッション言葉: 恐れ入りますが / お手数ですが before requests; あいにく before bad news or refusals."
+    },
+    {
+      "id": "p3e-010", "section": "expression", "difficulty": 2, "skills": ["keigo", "intention"], "topic": "complaint",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "客：注文した品物と違う色のものが届いたんですが。\n社員：＿＿＿。すぐに正しい商品をお送りいたします。",
+      "options": ["大変お待たせいたしました", "大変ありがとうございます", "大変申し訳ございません", "大変お疲れさまでございます"],
+      "answer": 2,
+      "explanation": "The company sent the wrong item, so the employee must apologise first: 「大変申し訳ございません」.",
+      "whyWrong": ["お待たせいたしました apologises only for keeping someone waiting, not for a wrong delivery.", "Thanking the customer ignores the company's mistake.", "", "お疲れさま is an internal greeting and does not apologise."],
+      "traps": ["intention", "intention", null, "relationship"],
+      "evidence": "違う色のものが届いたんですが",
+      "vocab": [
+        { "jp": "申し訳ございません", "kana": "もうしわけございません", "en": "I am very sorry (formal)" },
+        { "jp": "品物", "kana": "しなもの", "en": "goods, item" }
+      ]
+    },
+    {
+      "id": "p3e-011", "section": "expression", "difficulty": 3, "skills": ["keigo", "intention"], "topic": "client",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "社員：お手数ですが、こちらの申込書にご記入＿＿＿。\n客：はい、わかりました。",
+      "options": ["させていただけますか", "いただけますか", "いたしてもよろしいですか", "してさしあげましょうか"],
+      "answer": 1,
+      "explanation": "The employee asks the customer to fill in the form: ご記入＋いただけますか is a polite request. The customer's reply 「はい、わかりました」 confirms it was a request.",
+      "whyWrong": ["させていただけますか asks permission for the employee to fill it in, the opposite of the request.", "", "いたす is humble; this asks permission for the employee's own action.", "This offers to fill it in for the customer, and さしあげる sounds condescending."],
+      "traps": ["intention", null, "politeness", "intention"],
+      "evidence": "お手数ですが／客：はい、わかりました",
+      "vocab": [
+        { "jp": "お手数ですが", "kana": "おてすうですが", "en": "sorry to trouble you, but" },
+        { "jp": "申込書", "kana": "もうしこみしょ", "en": "application form" },
+        { "jp": "ご記入", "kana": "ごきにゅう", "en": "filling in (polite)" }
+      ],
+      "nuance": "ご〜いただけますか (or the softer ご〜いただけないでしょうか) is the standard polite request in business; 〜させていただけますか asks permission for oneself."
+    },
+    {
+      "id": "p3e-012", "section": "expression", "difficulty": 3, "skills": ["keigo"], "topic": "client",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "客：では、田中部長にもよろしくお伝えください。\n社員：かしこまりました。田中に＿＿＿。",
+      "options": ["申し伝えます", "お伝えになります", "おっしゃっておきます", "申し上げてください"],
+      "answer": 0,
+      "explanation": "The employee will pass the message to his own boss. Toward the client, his own boss is in-group, so the humble 「申し伝えます」 is used (and the name 田中 without 部長).",
+      "whyWrong": ["", "お伝えになる is honorific; the employee cannot use it for his own action.", "おっしゃる is honorific and cannot describe one's own speaking.", "This asks the client to tell Tanaka, reversing the roles."],
+      "traps": [null, "politeness", "politeness", "intention"],
+      "evidence": "田中部長にもよろしくお伝えください",
+      "vocab": [
+        { "jp": "申し伝える", "kana": "もうしつたえる", "en": "to pass on a message (humble)" },
+        { "jp": "かしこまりました", "kana": "かしこまりました", "en": "certainly, understood" }
+      ],
+      "nuance": "申し伝える lowers one's own act of conveying toward the client; it does not raise the boss, which is correct for uchi-soto."
+    },
+    {
+      "id": "p3e-013", "section": "expression", "difficulty": 3, "skills": ["keigo"], "topic": "email",
+      "stem": "お礼のメールです。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "先日はお忙しいところ、弊社の新製品説明会にご参加＿＿＿、誠にありがとうございました。",
+      "options": ["いたし", "させていただき", "いただき", "さしあげ"],
+      "answer": 2,
+      "explanation": "The client attended, and the writer received that favour: ご参加いただき、ありがとうございました.",
+      "whyWrong": ["ご〜いたす is humble; it would mean the writer attended.", "させていただく would mean the writer was allowed to make the client participate.", "", "さしあげる expresses giving to the other, not receiving their favour."],
+      "traps": ["politeness", "politeness", null, "politeness"],
+      "evidence": "弊社の新製品説明会にご参加",
+      "vocab": [
+        { "jp": "ご参加いただく", "kana": "ごさんかいただく", "en": "(have someone) attend" },
+        { "jp": "弊社", "kana": "へいしゃ", "en": "our company (humble)" },
+        { "jp": "誠に", "kana": "まことに", "en": "truly, sincerely" }
+      ],
+      "nuance": "ご参加くださり (honorific くださる) would also be correct; 〜いただき frames the event as a favour received."
+    },
+    {
+      "id": "p3e-014", "section": "expression", "difficulty": 3, "skills": ["keigo", "intention"], "topic": "negotiation",
+      "stem": "店員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "客：この商品、半額にしてもらえませんか。\n店員：申し訳ございませんが、そこまでのお値引きは＿＿＿。",
+      "options": ["いたしかねません", "させていただきます", "なさりかねます", "いたしかねます"],
+      "answer": 3,
+      "explanation": "「申し訳ございませんが」 signals a refusal. 「いたしかねます」 politely says 'we are unable to do it'.",
+      "whyWrong": ["〜かねません means 'might well do', so it is not a refusal.", "させていただきます agrees to the discount, which contradicts the apology.", "なさる is honorific and cannot describe the shop's own action.", ""],
+      "traps": ["negation", "intention", "politeness", null],
+      "evidence": "申し訳ございませんが、そこまでのお値引きは",
+      "vocab": [
+        { "jp": "いたしかねます", "kana": "いたしかねます", "en": "we are unable to (polite refusal)" },
+        { "jp": "値引き", "kana": "ねびき", "en": "discount" },
+        { "jp": "半額", "kana": "はんがく", "en": "half price" }
+      ]
+    },
+    {
+      "id": "p3e-015", "section": "expression", "difficulty": 3, "skills": ["keigo"], "topic": "client",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "社員：先ほどお客様が＿＿＿件につきまして、担当部署に確認いたしました。\n客：ありがとうございます。",
+      "options": ["申された", "おっしゃった", "申し上げた", "お言いになった"],
+      "answer": 1,
+      "explanation": "The subject is the customer (お客様が), so the honorific of 言う is needed: 「おっしゃった」.",
+      "whyWrong": ["申す is humble; adding honorific れる does not fix the direction. 申された is not accepted in modern keigo.", "", "申し上げる is humble; it would lower the customer.", "お言いになる is not used; 言う has the special honorific おっしゃる."],
+      "traps": ["politeness", null, "politeness", "grammar"],
+      "evidence": "お客様が",
+      "vocab": [
+        { "jp": "おっしゃる", "kana": "おっしゃる", "en": "to say (honorific)" },
+        { "jp": "担当部署", "kana": "たんとうぶしょ", "en": "department in charge" }
+      ],
+      "nuance": "Verbs with special honorifics (言う→おっしゃる, 見る→ご覧になる, 食べる→召し上がる) do not use お〜になる."
+    },
+    {
+      "id": "p3e-016", "section": "expression", "difficulty": 3, "skills": ["keigo", "intention"], "topic": "hr",
+      "stem": "部下は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "部下：課長、申し訳ありません。熱が38度ありまして、本日はお休みを＿＿＿。\n課長：わかった。ゆっくり休んで。",
+      "options": ["さしあげたいのですが", "なさってもいいですか", "いただけないでしょうか", "いたしたいのですが"],
+      "answer": 2,
+      "explanation": "The subordinate asks the manager for a day off. A day off is something received from the company/boss: 「お休みをいただけないでしょうか」.",
+      "whyWrong": ["さしあげる means giving to the boss; the subordinate is not giving a holiday.", "なさる is honorific and cannot be used for one's own action.", "", "「お休みをいたす」 is not a valid collocation."],
+      "traps": ["politeness", "politeness", null, "grammar"],
+      "evidence": "本日はお休みを",
+      "vocab": [
+        { "jp": "お休みをいただく", "kana": "おやすみをいただく", "en": "to take a day off (humble)" },
+        { "jp": "〜ないでしょうか", "kana": "〜ないでしょうか", "en": "could I ~? (soft request)" }
+      ],
+      "nuance": "The negative question 〜いただけないでしょうか is softer than 〜いただけますか, suitable when asking a superior for a favour."
+    },
+    {
+      "id": "p3e-017", "section": "expression", "difficulty": 3, "skills": ["keigo"], "topic": "phone",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "客：佐藤さんは何時ごろお戻りになりますか。\n社員：3時には戻る予定です。戻りましたら、こちらから折り返しお電話＿＿＿。",
+      "options": ["なさいましょうか", "いたしましょうか", "くださいましょうか", "いただきましょうか"],
+      "answer": 1,
+      "explanation": "こちらから means the employee's side (Sato's company) will call the client, an in-group action toward an outsider, so the humble offer 「お電話いたしましょうか」 is used.",
+      "whyWrong": ["なさる is honorific; it would raise one's own side's action in front of a client.", "", "くださる is honorific for an action someone does for us; it does not fit our side calling the client.", "いただく means receiving a favour; お電話いただく would mean the client calls us, contradicting こちらから."],
+      "traps": ["relationship", null, "politeness", "intention"],
+      "evidence": "こちらから折り返しお電話",
+      "vocab": [
+        { "jp": "お戻りになる", "kana": "おもどりになる", "en": "to return (honorific)" },
+        { "jp": "お電話いたす", "kana": "おでんわいたす", "en": "to call (humble)" },
+        { "jp": "折り返し", "kana": "おりかえし", "en": "(call) back" }
+      ],
+      "nuance": "Note the client says お戻りになりますか (honorific), but the employee answers 戻る予定です, plain toward his own colleague."
+    },
+    {
+      "id": "p3e-018", "section": "expression", "difficulty": 3, "skills": ["keigo"], "topic": "meeting",
+      "stem": "来社する客への案内メールです。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "当日は1階受付で弊社担当者の名前をお伝えのうえ、5階の会議室まで＿＿＿。",
+      "options": ["参ってください", "伺ってください", "お越しください", "お越しいたします"],
+      "answer": 2,
+      "explanation": "The client is the one coming to the meeting room, so the honorific request 「お越しください」 is used.",
+      "whyWrong": ["参る is humble; asking a client to 参る lowers them.", "伺う is humble toward the person visited; it cannot be used for the client coming to us.", "", "This states the writer's own action and mixes honorific お越し with humble いたす."],
+      "traps": ["politeness", "politeness", null, "politeness"],
+      "evidence": "お伝えのうえ／会議室まで",
+      "vocab": [
+        { "jp": "お越しください", "kana": "おこしください", "en": "please come (honorific)" },
+        { "jp": "〜のうえ", "kana": "〜のうえ", "en": "after doing ~" },
+        { "jp": "受付", "kana": "うけつけ", "en": "reception" }
+      ]
+    },
+    {
+      "id": "p3e-019", "section": "expression", "difficulty": 3, "skills": ["keigo", "intention"], "topic": "complaint",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "取引先：先日はご迷惑をおかけして、申し訳ありませんでした。\n社員：いえいえ、どうぞ＿＿＿。こちらこそ、すぐにご対応いただき助かりました。",
+      "options": ["お気をつけください", "ご遠慮なさらないでください", "お気になさってください", "お気になさらないでください"],
+      "answer": 3,
+      "explanation": "The employee accepts the apology and reassures the partner: 「どうぞお気になさらないでください」 = please don't worry about it.",
+      "whyWrong": ["お気をつけください means 'please be careful', a warning or farewell, not reassurance.", "ご遠慮なさらないでください means 'don't hold back', used when offering something.", "お気になさってください tells them to worry, the opposite of reassurance.", ""],
+      "traps": ["intention", "intention", "negation", null],
+      "evidence": "いえいえ／こちらこそ…助かりました",
+      "vocab": [
+        { "jp": "お気になさらないでください", "kana": "おきになさらないでください", "en": "please don't worry about it" },
+        { "jp": "ご迷惑をおかけする", "kana": "ごめいわくをおかけする", "en": "to cause trouble (humble)" },
+        { "jp": "こちらこそ", "kana": "こちらこそ", "en": "it is I who should ~" }
+      ]
+    },
+    {
+      "id": "p3e-020", "section": "expression", "difficulty": 3, "skills": ["keigo", "intention"], "topic": "phone",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "社員：あいにく担当の者が席を外しております。＿＿＿、ご連絡先をお教えいただけますか。折り返しご連絡いたします。",
+      "options": ["差し支えなければ", "差し支えますので", "お構いなく", "お言葉に甘えて"],
+      "answer": 0,
+      "explanation": "Asking for personal contact details calls for a cushion that leaves the choice to the caller: 「差し支えなければ」 = if you don't mind.",
+      "whyWrong": ["", "差し支えますので means 'because it would be a problem', giving a reason that makes no sense here.", "お構いなく means 'please don't trouble yourself', said by a guest declining hospitality.", "お言葉に甘えて is for accepting someone's kind offer; nothing has been offered."],
+      "traps": [null, "negation", "intention", "intention"],
+      "evidence": "ご連絡先をお教えいただけますか",
+      "vocab": [
+        { "jp": "差し支えなければ", "kana": "さしつかえなければ", "en": "if you don't mind" },
+        { "jp": "席を外す", "kana": "せきをはずす", "en": "to be away from one's desk" },
+        { "jp": "折り返し", "kana": "おりかえし", "en": "(call) back" }
+      ]
+    },
+    {
+      "id": "p3e-021", "section": "expression", "difficulty": 4, "skills": ["keigo"], "topic": "meeting",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "客：明日の打ち合わせには、部長さんもいらっしゃいますか。\n社員：はい、部長の木村も＿＿＿。",
+      "options": ["参ります", "いらっしゃいます", "お見えになります", "参られます"],
+      "answer": 0,
+      "explanation": "The client uses an honorific for the employee's boss, but the employee must answer with a humble verb for his own in-group: 「木村も参ります」.",
+      "whyWrong": ["", "いらっしゃる repeats the client's honorific; it raises one's own boss to an outsider.", "お見えになる is an honorific for someone coming; wrong for one's own boss.", "参る is humble; adding the honorific られる to raise the boss is incorrect."],
+      "traps": [null, "relationship", "relationship", "politeness"],
+      "evidence": "部長の木村も",
+      "vocab": [
+        { "jp": "参る", "kana": "まいる", "en": "to go, come (humble/polite)" },
+        { "jp": "打ち合わせ", "kana": "うちあわせ", "en": "meeting, discussion" },
+        { "jp": "お見えになる", "kana": "おみえになる", "en": "to come (honorific)" }
+      ],
+      "nuance": "Do not echo the client's keigo: the client says いらっしゃいますか, you reply 参ります about your own boss."
+    },
+    {
+      "id": "p3e-022", "section": "expression", "difficulty": 4, "skills": ["keigo"], "topic": "client",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "客：ところで、北山工業の山本社長をご存じですか。\n社員：はい、以前から＿＿＿おります。",
+      "options": ["ご存じになって", "存じ上げて", "お知りになって", "存じ上げられて"],
+      "answer": 1,
+      "explanation": "The employee knows Mr Yamamoto, an outside person to be respected. Knowing a person, humble form: 「存じ上げております」.",
+      "whyWrong": ["ご存じ is honorific; it cannot be used for one's own knowledge, and ご存じになる is not standard.", "", "お知りになる is honorific and is not used for knowing; the honorific is ご存じ.", "Adding the honorific られる to humble 存じ上げる is incorrect."],
+      "traps": ["politeness", null, "politeness", "politeness"],
+      "evidence": "山本社長をご存じですか",
+      "vocab": [
+        { "jp": "存じ上げる", "kana": "ぞんじあげる", "en": "to know (a person; humble)" },
+        { "jp": "ご存じ", "kana": "ごぞんじ", "en": "know (honorific)" }
+      ],
+      "nuance": "存じ上げる is used for knowing people (raising them); 存じる/存じております is used for knowing facts."
+    },
+    {
+      "id": "p3e-023", "section": "expression", "difficulty": 4, "skills": ["keigo", "intention"], "topic": "email",
+      "stem": "メールの文として＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "お忙しいところ恐れ入りますが、15日（金）までにご返信＿＿＿幸いです。",
+      "options": ["いただけますと", "いたしますと", "さしあげますと", "させていただきますと"],
+      "answer": 0,
+      "explanation": "The writer asks the recipient to reply by the 15th. 「ご返信いただけますと幸いです」 = I would be grateful if you could reply, a soft request.",
+      "whyWrong": ["", "いたす is humble; this would mean the writer replies.", "さしあげる means the writer gives a reply to them.", "させていただく also describes the writer's own action, not the recipient's reply."],
+      "traps": [null, "intention", "intention", "intention"],
+      "evidence": "お忙しいところ恐れ入りますが／幸いです",
+      "vocab": [
+        { "jp": "〜いただけますと幸いです", "kana": "〜いただけますとさいわいです", "en": "I would be grateful if you could ~" },
+        { "jp": "ご返信", "kana": "ごへんしん", "en": "reply (polite)" },
+        { "jp": "お忙しいところ", "kana": "おいそがしいところ", "en": "while you are busy" }
+      ]
+    },
+    {
+      "id": "p3e-024", "section": "expression", "difficulty": 4, "skills": ["keigo", "intention"], "topic": "negotiation",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "取引先：来月から、単価を1割下げていただけないでしょうか。\n社員：そうですね……。社内で＿＿＿が、正直に申し上げて、かなり厳しいかと存じます。",
+      "options": ["検討はなさいます", "検討はくださいます", "検討はいただきます", "検討はいたします"],
+      "answer": 3,
+      "explanation": "The employee will consider it internally, so the humble 「検討はいたします」 is used. The contrastive は ('I will at least consider it') plus 「かなり厳しい」 signals a likely refusal.",
+      "whyWrong": ["なさる is honorific and cannot describe one's own company's action.", "くださる is honorific (someone does it for us); wrong subject.", "いただく means receiving a favour; it does not fit 'we consider'.", ""],
+      "traps": ["politeness", "politeness", "politeness", null],
+      "evidence": "社内で／かなり厳しいかと存じます",
+      "vocab": [
+        { "jp": "単価", "kana": "たんか", "en": "unit price" },
+        { "jp": "厳しい", "kana": "きびしい", "en": "difficult (soft 'no')" },
+        { "jp": "〜かと存じます", "kana": "〜かとぞんじます", "en": "I think that ~ (humble)" }
+      ],
+      "nuance": "検討はいたしますが…厳しい is an indirect refusal; the は limits the commitment to 'considering'."
+    },
+    {
+      "id": "p3e-025", "section": "expression", "difficulty": 4, "skills": ["intention"], "topic": "client",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "取引先：今度の金曜日、よろしければお食事でもいかがですか。\n社員：ありがとうございます。＿＿＿、その日はあいにく先約がございまして……。",
+      "options": ["せっかくですから喜んで", "お言葉に甘えまして", "せっかくのお誘いなのですが", "遠慮なくお受けしますが"],
+      "answer": 2,
+      "explanation": "「あいにく先約がございまして」 shows the employee is declining. 「せっかくのお誘いなのですが」 politely shows regret before the refusal.",
+      "whyWrong": ["喜んで accepts the invitation, contradicting the prior engagement.", "お言葉に甘えまして is used when accepting an offer.", "", "お受けします accepts the invitation; the following refusal makes it contradictory."],
+      "traps": ["intention", "intention", null, "intention"],
+      "evidence": "その日はあいにく先約がございまして",
+      "vocab": [
+        { "jp": "せっかくのお誘い", "kana": "せっかくのおさそい", "en": "your kind invitation" },
+        { "jp": "先約", "kana": "せんやく", "en": "prior engagement" },
+        { "jp": "あいにく", "kana": "あいにく", "en": "unfortunately" }
+      ],
+      "nuance": "A polite refusal: thanks → せっかくの〜ですが → reason left unfinished (〜まして……)."
+    },
+    {
+      "id": "p3e-026", "section": "expression", "difficulty": 5, "skills": ["keigo", "vocab"], "topic": "etiquette",
+      "stem": "取引先への年末の挨拶メールです。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "件名：年末のご挨拶\n心ばかりの品ではございますが、別便にてお送りいたしました。どうぞ＿＿＿ください。",
+      "options": ["ご笑納", "ご査収", "ご高覧", "ご容赦"],
+      "answer": 0,
+      "explanation": "When sending a modest gift, the set phrase is 「ご笑納ください」 = please accept this small gift. 「心ばかりの品」 tells you it is a gift.",
+      "whyWrong": ["", "ご査収 asks the recipient to check documents or money; it is not used for gifts.", "ご高覧 asks someone to look at works or materials.", "ご容赦 asks for forgiveness; it does not fit sending a gift."],
+      "traps": [null, "vocab", "vocab", "intention"],
+      "evidence": "心ばかりの品",
+      "vocab": [
+        { "jp": "ご笑納ください", "kana": "ごしょうのうください", "en": "please accept this small gift" },
+        { "jp": "心ばかり", "kana": "こころばかり", "en": "a small token" },
+        { "jp": "別便", "kana": "べつびん", "en": "separate mail" }
+      ]
+    },
+    {
+      "id": "p3e-027", "section": "expression", "difficulty": 5, "skills": ["keigo", "vocab"], "topic": "email",
+      "stem": "取引先へのメールです。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "本来であれば直接伺ってご説明すべきところ、メールでのご連絡となりましたことを、何卒＿＿＿ください。",
+      "options": ["ご笑納", "ご査収", "ご容赦", "ご確認"],
+      "answer": 2,
+      "explanation": "The writer apologises for explaining by email instead of visiting. Asking forgiveness for one's own shortcoming: 「何卒ご容赦ください」.",
+      "whyWrong": ["ご笑納ください is used when presenting a gift (please accept this small token); nothing is being given here.", "ご査収 asks the recipient to check something received.", "", "Asking them to 'confirm' the fact of emailing does not fit 本来であれば…すべきところ (an apology)."],
+      "traps": ["vocab", "vocab", null, "intention"],
+      "evidence": "本来であれば直接伺ってご説明すべきところ",
+      "vocab": [
+        { "jp": "ご容赦ください", "kana": "ごようしゃください", "en": "please forgive / excuse" },
+        { "jp": "本来であれば", "kana": "ほんらいであれば", "en": "ordinarily, properly" },
+        { "jp": "何卒", "kana": "なにとぞ", "en": "kindly, please (formal)" },
+        { "jp": "ご笑納ください", "kana": "ごしょうのうください", "en": "please accept (a small gift)" }
+      ]
+    },
+    {
+      "id": "p3e-028", "section": "expression", "difficulty": 5, "skills": ["keigo", "vocab"], "topic": "order",
+      "stem": "社員は何と言いますか。＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "取引先：昨日、契約書の原本を郵送いたしました。\n社員：本日、確かに＿＿＿いたしました。ありがとうございました。",
+      "options": ["ご査収", "拝借", "お納め", "拝受"],
+      "answer": 3,
+      "explanation": "The employee received the contract from the client. The humble word for receiving is 拝受: 「確かに拝受いたしました」.",
+      "whyWrong": ["ご査収 is what you ask the recipient to do; it cannot describe your own receipt.", "拝借 is humble but means borrowing; the contract was sent to be kept, not lent.", "お納めする means delivering or paying to someone, the opposite direction.", ""],
+      "traps": ["politeness", "vocab", "intention", null],
+      "evidence": "契約書の原本を郵送いたしました",
+      "vocab": [
+        { "jp": "拝受", "kana": "はいじゅ", "en": "receipt (humble)" },
+        { "jp": "原本", "kana": "げんぽん", "en": "original (document)" },
+        { "jp": "郵送", "kana": "ゆうそう", "en": "mailing, sending by post" }
+      ]
+    }
+  ]
+}

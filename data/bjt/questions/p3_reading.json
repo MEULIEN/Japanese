@@ -1,0 +1,640 @@
+{
+  "section": "reading",
+  "questions": [
+    {
+      "id": "p3r-001", "section": "reading", "difficulty": 1, "skills": ["info", "detail"], "topic": "general",
+      "visual": { "type": "doc", "kind": "notice", "title": "エレベーター点検のお知らせ",
+        "lines": [
+          "社員各位",
+          "11月13日（金）に、ビルのエレベーター点検を行います。点検は午前9時から正午までで、その間はエレベーターを2台とも使用できません。",
+          "点検中は階段をご利用ください。重い荷物の搬入がある場合は、前日までに総務部へご連絡ください。午後からは通常どおり使用できます。",
+          "点検中は作業の音が出る場合がございます。ご不便をおかけしますが、ご協力をお願いいたします。",
+          "総務部"
+        ] },
+      "stem": "重い荷物を運び入れる予定がある人は、どうしなければなりませんか。",
+      "options": ["点検の当日に総務部へ連絡する", "点検中は階段を使って運ぶ", "12日までに総務部へ連絡する", "点検後に総務部へ連絡する"],
+      "answer": 2,
+      "explanation": "The notice says 「重い荷物の搬入がある場合は、前日までに総務部へご連絡ください」. The inspection is on the 13th, so the day before is the 12th: people with heavy deliveries must contact General Affairs by the 12th.",
+      "whyWrong": ["Contact is required by the day before (前日まで), not on the day itself.", "Using the stairs is general advice for everyone during the inspection, not the instruction for heavy deliveries.", "", "Contacting after the inspection is too late; the notice asks for contact in advance."],
+      "traps": ["deadline", "detail", null, "sequence"],
+      "evidence": "重い荷物の搬入がある場合は、前日までに総務部へご連絡ください。",
+      "vocab": [
+        { "jp": "点検", "kana": "てんけん", "en": "inspection, maintenance check" },
+        { "jp": "搬入", "kana": "はんにゅう", "en": "bringing in (goods, equipment)" },
+        { "jp": "前日", "kana": "ぜんじつ", "en": "the previous day" },
+        { "jp": "通常どおり", "kana": "つうじょうどおり", "en": "as usual" }
+      ],
+      "nuance": "社員各位 (\"to all employees\") is the standard heading of an internal notice; ご利用ください / ご連絡ください are polite instructions."
+    },
+    {
+      "id": "p3r-002", "section": "reading", "difficulty": 1, "skills": ["info", "detail"], "topic": "meeting",
+      "visual": { "type": "doc", "kind": "email", "title": "定例会議の場所変更について",
+        "meta": ["差出人：中村 美香（営業部）", "宛先：営業部 各位", "件名：定例会議の場所変更について"],
+        "lines": [
+          "営業部の皆さん",
+          "お疲れさまです。中村です。",
+          "明日10時からの定例会議ですが、3階の会議室Aが使えなくなったため、5階の会議室Cに変更します。時間は変わりません。議題は、来月の展示会の準備と今期の売り上げ見込みの2点です。",
+          "また、会議の資料は今日の夕方までに共有フォルダに入れておきますので、各自印刷してお持ちください。",
+          "よろしくお願いします。"
+        ] },
+      "stem": "このメールを読んだ人は、明日の会議の前に何をしますか。",
+      "options": ["共有フォルダに資料を入れる", "共有された資料を印刷する", "会議室Aの予約を取り消す", "5階の会議室を予約する"],
+      "answer": 1,
+      "explanation": "Nakamura will upload the materials, and asks the readers: 「各自印刷してお持ちください」. So each reader prints the shared materials before the meeting.",
+      "whyWrong": ["Nakamura herself will put the materials in the shared folder (入れておきます), not the readers.", "", "Room A simply became unavailable; nobody is asked to cancel anything.", "The change to Room C on the 5th floor has already been decided by Nakamura."],
+      "traps": ["speaker", null, "detail", "sequence"],
+      "evidence": "各自印刷してお持ちください。",
+      "vocab": [
+        { "jp": "定例会議", "kana": "ていれいかいぎ", "en": "regular meeting" },
+        { "jp": "共有フォルダ", "kana": "きょうゆうふぉるだ", "en": "shared folder" },
+        { "jp": "各自", "kana": "かくじ", "en": "each person" },
+        { "jp": "お疲れさまです", "kana": "おつかれさまです", "en": "standard greeting among colleagues" }
+      ],
+      "nuance": "Internal emails between colleagues open with お疲れさまです rather than the external お世話になっております."
+    },
+    {
+      "id": "p3r-003", "section": "reading", "difficulty": 2, "skills": ["info", "detail"], "topic": "hr",
+      "visual": { "type": "doc", "kind": "notice", "title": "定期健康診断のお知らせ",
+        "lines": [
+          "社員各位",
+          "今年度の定期健康診断を、下記のとおり実施します。",
+          "日時：12月2日（水）・3日（木）　9:00〜12:00",
+          "場所：本社8階　大会議室",
+          "対象：全社員（4月以降に入社した方を含む）",
+          "受診日の希望は、11月20日（金）までに社内システムから登録してください。なお、10月以降に人間ドックを受けた方は、結果のコピーを提出すれば、今回の受診は不要です。",
+          "人事部"
+        ] },
+      "stem": "今回の健康診断を受けなくてもよいのは、どんな人ですか。",
+      "options": ["4月以降に入社した社員", "11月20日までに登録しなかった社員", "9月に人間ドックを受けた社員", "10月以降の人間ドックの結果を出す社員"],
+      "answer": 3,
+      "explanation": "The exemption is in the ただし書き: 「10月以降に人間ドックを受けた方は、結果のコピーを提出すれば、今回の受診は不要です」. Only someone who had a full checkup recently (from October on) and submits the results may skip it.",
+      "whyWrong": ["New employees are explicitly included: 「4月以降に入社した方を含む」.", "The 20th is the registration deadline; missing it does not exempt anyone.", "The exemption applies to checkups from October onward (10月以降); September does not count.", ""],
+      "traps": ["negation", "deadline", "number", null],
+      "evidence": "10月以降に人間ドックを受けた方は、結果のコピーを提出すれば、今回の受診は不要です。",
+      "vocab": [
+        { "jp": "対象", "kana": "たいしょう", "en": "eligible persons, target" },
+        { "jp": "受診", "kana": "じゅしん", "en": "having a medical examination" },
+        { "jp": "人間ドック", "kana": "にんげんどっく", "en": "comprehensive medical checkup" },
+        { "jp": "不要", "kana": "ふよう", "en": "not required" }
+      ],
+      "nuance": "なお introduces an additional condition or exception — in notices the decisive ただし書き often follows it."
+    },
+    {
+      "id": "p3r-004", "section": "reading", "difficulty": 2, "skills": ["intention", "numbers"], "topic": "order",
+      "visual": { "type": "doc", "kind": "email", "title": "お見積りの再提出のお願い",
+        "meta": ["差出人：ミナト電機株式会社 購買部 高橋", "宛先：東和商事株式会社 営業部 山本様", "件名：お見積りの再提出のお願い"],
+        "lines": [
+          "東和商事株式会社　営業部　山本様",
+          "いつもお世話になっております。ミナト電機の高橋でございます。",
+          "先日はお見積書をお送りいただき、ありがとうございました。社内で検討しましたところ、注文数を当初の500個から800個に増やすことになりました。",
+          "つきましては、800個でのお見積書を改めてお送りいただけますでしょうか。来週月曜日の会議で使用したいため、今週木曜日までにいただけますと幸いです。",
+          "何卒よろしくお願い申し上げます。"
+        ] },
+      "stem": "山本さんがしなければならないことは何ですか。",
+      "options": ["数量を変えた見積書を木曜日までに送る", "500個分の見積書をもう一度送り直す", "新しい見積書を月曜日までに送る", "月曜日の会議に出て見積もりを説明する"],
+      "answer": 0,
+      "explanation": "Takahashi asks: 「800個でのお見積書を改めてお送りいただけますでしょうか」 and 「今週木曜日までにいただけますと幸いです」. Yamamoto must send a new quote for the changed quantity by Thursday.",
+      "whyWrong": ["", "The order was changed from 500 to 800 units; a 500-unit quote is the old plan.", "Monday is the date of Takahashi's meeting; the quote is needed by Thursday.", "The Monday meeting is Takahashi's internal meeting; Yamamoto does not attend or present."],
+      "traps": [null, "change", "deadline", "speaker"],
+      "evidence": "800個でのお見積書を改めてお送りいただけますでしょうか。…今週木曜日までにいただけますと幸いです。",
+      "vocab": [
+        { "jp": "見積書", "kana": "みつもりしょ", "en": "quotation, estimate" },
+        { "jp": "当初", "kana": "とうしょ", "en": "initially, originally" },
+        { "jp": "改めて", "kana": "あらためて", "en": "anew, once again" },
+        { "jp": "幸いです", "kana": "さいわいです", "en": "I would be grateful if…" }
+      ],
+      "nuance": "〜いただけますと幸いです is a soft but clear request; the deadline it carries is binding in practice."
+    },
+    {
+      "id": "p3r-005", "section": "reading", "difficulty": 2, "skills": ["info", "detail"], "topic": "it",
+      "visual": { "type": "doc", "kind": "memo", "title": "パソコン入れ替えについて",
+        "meta": ["宛先：経理部 各位", "発信：情報システム部 林", "日付：10月26日"],
+        "lines": [
+          "経理部のパソコン入れ替えについて、進み具合をお知らせします。",
+          "新しいパソコン12台は先週納品され、現在、必要なソフトのインストールを進めています。入れ替え作業は、11月6日（金）の業務終了後に行う予定です。",
+          "作業の前に、各自のデータを共有サーバーに保存しておいてください。古いパソコンは作業当日に回収します。"
+        ] },
+      "stem": "このメモの時点で、すでに終わっていることは何ですか。",
+      "options": ["各自のデータの保存", "古いパソコンの回収", "新しいパソコンの受け取り", "新しいパソコンのソフトの準備"],
+      "answer": 2,
+      "explanation": "「新しいパソコン12台は先週納品され」 — the new PCs were delivered last week, so receiving them is already finished. Everything else is in progress or planned.",
+      "whyWrong": ["Staff are asked to save their data before the work (保存しておいてください); it has not been done yet.", "The old PCs will be collected on the day of the replacement (作業当日に回収します), which is in the future.", "", "Software installation is still in progress: 「インストールを進めています」."],
+      "traps": ["sequence", "sequence", null, "sequence"],
+      "evidence": "新しいパソコン12台は先週納品され、現在、必要なソフトのインストールを進めています。",
+      "vocab": [
+        { "jp": "入れ替え", "kana": "いれかえ", "en": "replacement" },
+        { "jp": "進み具合", "kana": "すすみぐあい", "en": "progress" },
+        { "jp": "納品", "kana": "のうひん", "en": "delivery of goods" },
+        { "jp": "回収", "kana": "かいしゅう", "en": "collection, recovery" }
+      ],
+      "nuance": "〜ています (進めています) marks an ongoing action; 〜されました/〜され marks a completed one; 〜予定です and 〜します mark plans."
+    },
+    {
+      "id": "p3r-006", "section": "reading", "difficulty": 2, "skills": ["info", "detail"], "topic": "marketing",
+      "visual": { "type": "doc", "kind": "ad", "title": "中小企業向け　SNS活用セミナー",
+        "lines": [
+          "自社の商品をSNSでもっと多くの人に知ってもらいたい方のためのセミナーです。",
+          "日時：11月18日（水）14:00〜16:00",
+          "会場：さくら市産業会館　2階ホール（オンラインでの参加も可）",
+          "参加費：3,000円（さくら商工会議所の会員は無料）",
+          "定員：会場50名（先着順）",
+          "お申し込みは11月11日（水）までにホームページから。当日は実際の投稿例を使って、効果的な写真の撮り方や投稿の時間帯をご紹介します。"
+        ] },
+      "stem": "この広告の内容と合っているものはどれですか。",
+      "options": ["商工会議所の会員は参加費がかからない", "オンライン参加の定員は50名である", "当日会場でも申し込みを受け付ける", "参加者は自社の商品写真を持参する"],
+      "answer": 0,
+      "explanation": "The fee line says 「参加費：3,000円（さくら商工会議所の会員は無料）」, so Chamber of Commerce members can attend free of charge.",
+      "whyWrong": ["", "The 50-person limit is for the venue (会場50名); no limit is given for online participants.", "Applications are via the website by 11 November; on-the-day registration is not mentioned.", "The seminar uses real posting examples (実際の投稿例) prepared by the organiser; bringing photos is not required."],
+      "traps": [null, "detail", "deadline", "inference"],
+      "evidence": "参加費：3,000円（さくら商工会議所の会員は無料）",
+      "vocab": [
+        { "jp": "活用", "kana": "かつよう", "en": "practical use, making use of" },
+        { "jp": "定員", "kana": "ていいん", "en": "capacity, maximum number of people" },
+        { "jp": "先着順", "kana": "せんちゃくじゅん", "en": "first come, first served" },
+        { "jp": "商工会議所", "kana": "しょうこうかいぎしょ", "en": "chamber of commerce and industry" }
+      ]
+    },
+    {
+      "id": "p3r-007", "section": "reading", "difficulty": 2, "skills": ["info", "detail"], "topic": "travel",
+      "visual": { "type": "doc", "kind": "email", "title": "大阪出張の手配について",
+        "meta": ["差出人：吉田（総務部）", "宛先：松本（営業部）", "件名：大阪出張の手配について"],
+        "lines": [
+          "松本さん",
+          "お疲れさまです。総務部の吉田です。来週の大阪出張の手配について、ご連絡します。",
+          "新幹線のチケットはすでに手配し、本日、松本さんの机の上に置いておきました。",
+          "ホテルについては、ご希望のホテルが満室だったため、駅の近くの別のホテルを予約しました。ホテルの名前と地図は添付ファイルでご確認ください。",
+          "なお、出張後の精算は、領収書を添えて今月末までに提出をお願いします。"
+        ] },
+      "stem": "ホテルについて、メールの内容と合っているものはどれですか。",
+      "options": ["松本さんの希望したホテルを予約した", "これから駅の近くのホテルを探す", "ホテルの地図は机の上に置いてある", "別のホテルの予約が済んでいる"],
+      "answer": 3,
+      "explanation": "「ご希望のホテルが満室だったため、駅の近くの別のホテルを予約しました」 — because the requested hotel was full, a different hotel has already been booked.",
+      "whyWrong": ["The requested hotel was full (満室), so it was not booked.", "The booking is already done (予約しました); nothing remains to search for.", "The map is in the attachment (添付ファイル); the train tickets are what was left on the desk.", ""],
+      "traps": ["change", "sequence", "detail", null],
+      "evidence": "ご希望のホテルが満室だったため、駅の近くの別のホテルを予約しました。",
+      "vocab": [
+        { "jp": "手配", "kana": "てはい", "en": "arrangement (tickets, hotel)" },
+        { "jp": "満室", "kana": "まんしつ", "en": "fully booked (rooms)" },
+        { "jp": "添付", "kana": "てんぷ", "en": "attachment" },
+        { "jp": "精算", "kana": "せいさん", "en": "settlement of expenses" }
+      ]
+    },
+    {
+      "id": "p3r-008", "section": "reading", "difficulty": 2, "skills": ["info", "detail"], "topic": "client",
+      "visual": { "type": "doc", "kind": "schedule", "title": "タンロン社ご一行　来社スケジュール（11月10日（火））",
+        "lines": [
+          "10:00　本社到着・受付（1階ロビー）",
+          "10:15〜11:30　会社説明・製品紹介（7階 第1会議室）　担当：営業部 木村",
+          "11:30〜13:00　昼食（近くのレストラン）",
+          "13:30〜15:00　工場見学（バスで移動）　担当：製造部 井上",
+          "15:30〜16:30　意見交換会（工場内 会議室）",
+          "※雨天の場合、工場見学は屋内の生産ラインのみとします。"
+        ] },
+      "stem": "午後の予定について、正しいものはどれですか。",
+      "options": ["工場見学の案内は木村さんが担当する", "工場まではバスで移動して見学をする", "意見交換会は本社の会議室で行われる", "雨の日は工場見学が行われなくなる"],
+      "answer": 1,
+      "explanation": "The schedule lists 「13:30〜15:00　工場見学（バスで移動）」, so the group travels to the factory by bus for the tour.",
+      "whyWrong": ["Kimura handles the morning company presentation; the factory tour is led by Inoue of Manufacturing.", "", "The exchange meeting is held in the factory's meeting room (工場内 会議室), not at head office.", "In rain the tour is limited to indoor lines (屋内の生産ラインのみ), not cancelled."],
+      "traps": ["speaker", null, "detail", "inference"],
+      "evidence": "13:30〜15:00　工場見学（バスで移動）",
+      "vocab": [
+        { "jp": "ご一行", "kana": "ごいっこう", "en": "(visiting) party, group" },
+        { "jp": "来社", "kana": "らいしゃ", "en": "visit to the company" },
+        { "jp": "意見交換会", "kana": "いけんこうかんかい", "en": "exchange of views session" },
+        { "jp": "雨天", "kana": "うてん", "en": "rainy weather" }
+      ]
+    },
+    {
+      "id": "p3r-009", "section": "reading", "difficulty": 3, "skills": ["intention", "keigo"], "topic": "sales",
+      "visual": { "type": "doc", "kind": "email", "title": "勤怠管理システムのご提案について",
+        "meta": ["差出人：株式会社北斗フーズ 総務部 清水", "宛先：アオバシステム株式会社 営業部 加藤様", "件名：勤怠管理システムのご提案について"],
+        "lines": [
+          "アオバシステム株式会社　営業部　加藤様",
+          "いつもお世話になっております。北斗フーズの清水でございます。",
+          "先日は、勤怠管理システムについて丁寧なご説明をいただき、誠にありがとうございました。社内でも、機能の充実ぶりに関心を持つ者が多くおりました。",
+          "ただ、弊社では現在使用しているシステムの契約が再来年まで残っており、今の段階で切り替えるのは難しいという結論になりました。せっかくご提案いただいたにもかかわらず、申し訳ございません。",
+          "また機会がございましたら、その際はぜひご相談させていただければと存じます。今後ともよろしくお願い申し上げます。"
+        ] },
+      "stem": "清水さんがこのメールで加藤さんに最も伝えたいことは何ですか。",
+      "options": ["社内でシステムへの関心が高かったこと", "システムについて再度説明してほしいこと", "提案されたシステムは今回導入しないこと", "再来年にはこのシステムを導入すること"],
+      "answer": 2,
+      "explanation": "After the thanks, the key sentence is 「今の段階で切り替えるのは難しいという結論になりました」 followed by an apology. 難しい here is a polite refusal: the company will not adopt the proposed system now.",
+      "whyWrong": ["Staff interest is mentioned only as a polite cushion before the refusal (ただ…).", "Shimizu thanks Kato for the explanation already given; no further explanation is requested.", "", "「また機会がございましたら」 is a courtesy phrase, not a commitment to buy when the current contract ends."],
+      "traps": ["detail", "intention", null, "inference"],
+      "evidence": "今の段階で切り替えるのは難しいという結論になりました。",
+      "vocab": [
+        { "jp": "勤怠管理", "kana": "きんたいかんり", "en": "attendance management" },
+        { "jp": "再来年", "kana": "さらいねん", "en": "the year after next" },
+        { "jp": "切り替える", "kana": "きりかえる", "en": "to switch over" },
+        { "jp": "せっかく", "kana": "せっかく", "en": "despite (your) kind effort" }
+      ],
+      "nuance": "In business Japanese 〜は難しい is a standard way to say \"no\". The praise before ただ and the 「また機会がございましたら」 after it soften the refusal."
+    },
+    {
+      "id": "p3r-010", "section": "reading", "difficulty": 3, "skills": ["intention", "numbers"], "topic": "payment",
+      "visual": { "type": "doc", "kind": "email", "title": "9月分配送料金のお支払いについて",
+        "meta": ["差出人：さくら物流株式会社 経理部 小林", "宛先：株式会社グリーンテック 経理ご担当者様", "件名：9月分配送料金のお支払いについて（ご確認のお願い）"],
+        "lines": [
+          "株式会社グリーンテック　経理ご担当者様",
+          "いつもお世話になっております。さくら物流経理部の小林でございます。",
+          "9月分の配送料金につきまして、9月30日付で請求書をお送りいたしました。お支払い期限は10月31日とさせていただいておりましたが、本日11月5日の時点で、弊社ではご入金を確認できておりません。",
+          "行き違いでお手続きいただいている場合は、何卒ご容赦ください。お手数ですが、ご確認のうえ、11月13日までにお振り込みいただけますでしょうか。",
+          "ご不明な点がございましたら、小林までご連絡ください。何卒よろしくお願い申し上げます。"
+        ] },
+      "stem": "小林さんがこのメールを送った目的は何ですか。",
+      "options": ["期限を過ぎた料金の支払いを促すこと", "9月分の請求書を改めて送り直すこと", "10月分の配送料金を知らせること", "入金の確認が遅れたことを謝ること"],
+      "answer": 0,
+      "explanation": "The deadline was 31 October, but 「本日11月5日の時点で、弊社ではご入金を確認できておりません」, and the client is asked to pay by the 13th. The email is a polite reminder of an overdue payment.",
+      "whyWrong": ["", "The invoice was already sent on 30 September; no new invoice is attached or mentioned.", "The email is about the September charges (9月分), not October's.", "「ご容赦ください」 apologises only in case the payment crossed in the post; the purpose is not an apology."],
+      "traps": [null, "detail", "number", "inference"],
+      "evidence": "本日11月5日の時点で、弊社ではご入金を確認できておりません。",
+      "vocab": [
+        { "jp": "請求書", "kana": "せいきゅうしょ", "en": "invoice" },
+        { "jp": "入金", "kana": "にゅうきん", "en": "payment received" },
+        { "jp": "行き違い", "kana": "いきちがい", "en": "crossing (messages/payments crossing)" },
+        { "jp": "ご容赦ください", "kana": "ごようしゃください", "en": "please excuse/forgive us" },
+        { "jp": "振り込む", "kana": "ふりこむ", "en": "to pay by bank transfer" }
+      ],
+      "nuance": "Payment reminders avoid saying \"you haven't paid\"; 弊社では確認できておりません puts the issue on the writer's side, and 行き違いの場合はご容赦ください is the standard face-saving line."
+    },
+    {
+      "id": "p3r-011", "section": "reading", "difficulty": 3, "skills": ["intention", "detail"], "topic": "report",
+      "visual": { "type": "doc", "kind": "report", "title": "出張報告書（福岡）",
+        "meta": ["報告者：営業部 井上", "出張期間：10月20日〜21日", "提出日：10月23日"],
+        "lines": [
+          "目的：九州地区の販売店3社への新商品の紹介",
+          "結果：3社とも新商品に高い関心を示した。特に、はかた家電様からは、店頭で実演販売を行いたいとの申し出があった。一方、価格については、他社製品より2割ほど高いという意見が2社から出た。なお、残りの1社からは、年内に少量を試験的に注文したいとの回答を得た。",
+          "所感：商品の品質は十分に評価されているため、価格を下げるよりも、性能の違いが伝わる販売資料を作成するほうが効果的だと考える。来月中に資料案を作成し、課長に提出する予定である。",
+          "その他：次回の訪問は1月中旬を予定している。"
+        ] },
+      "stem": "井上さんが報告書の中で最も強く提案していることは何ですか。",
+      "options": ["新商品の価格を2割ほど下げること", "はかた家電で実演販売を行うこと", "3社に新商品を紹介すること", "性能の良さを示す資料を作ること"],
+      "answer": 3,
+      "explanation": "In the 所感 Inoue writes 「価格を下げるよりも、性能の違いが伝わる販売資料を作成するほうが効果的だと考える」. His recommendation is to prepare materials that show the product's performance advantage.",
+      "whyWrong": ["The 20% figure is the dealers' price comment; Inoue argues against lowering the price (価格を下げるよりも).", "Demonstration sales were the dealer's own request (申し出), a result, not Inoue's proposal.", "Introducing the product to the three dealers was the purpose of the trip and has already been done.", ""],
+      "traps": ["inference", "speaker", "sequence", null],
+      "evidence": "価格を下げるよりも、性能の違いが伝わる販売資料を作成するほうが効果的だと考える。",
+      "vocab": [
+        { "jp": "販売店", "kana": "はんばいてん", "en": "dealer, retailer" },
+        { "jp": "実演販売", "kana": "じつえんはんばい", "en": "sales with live demonstration" },
+        { "jp": "申し出", "kana": "もうしで", "en": "offer, request" },
+        { "jp": "所感", "kana": "しょかん", "en": "impressions, the writer's view" }
+      ],
+      "nuance": "In a report, 結果 lists facts and 所感 holds the writer's own conclusion — the proposal is usually there, marked by 〜と考える."
+    },
+    {
+      "id": "p3r-012", "section": "reading", "difficulty": 3, "skills": ["info", "numbers"], "topic": "finance",
+      "visual": { "type": "doc", "kind": "notice", "title": "交通費精算ルール変更のお知らせ",
+        "lines": [
+          "社員各位",
+          "12月1日から、交通費の精算方法を次のとおり変更します。",
+          "1. 精算の申請は、紙の申請書ではなく、すべて経費精算システムから行ってください。",
+          "2. 申請の期限は、これまでの「翌月10日」から「翌月5日」に変わります。",
+          "3. タクシーを利用した場合は、これまでどおり領収書の提出が必要です。ただし、深夜0時以降に帰宅する場合に限り、上司の事前の許可は不要とします。",
+          "4. 申請の際は、利用した区間と目的を必ず入力してください。システムの操作方法は、社内ポータルのマニュアルでご確認いただけます。",
+          "なお、11月分の精算は、従来の方法で12月10日までに申請してください。",
+          "経理部"
+        ] },
+      "stem": "12月に使った交通費は、いつまでに申請しなければなりませんか。",
+      "options": ["12月10日まで", "1月5日まで", "12月5日まで", "1月10日まで"],
+      "answer": 1,
+      "explanation": "Under the new rule the deadline becomes 「翌月5日」 (the 5th of the following month). Expenses incurred in December must therefore be claimed by 5 January.",
+      "whyWrong": ["12月10日 is the deadline for November expenses under the old method.", "", "The deadline is the 5th of the following month, i.e. January, not December.", "The 10th of the following month is the old rule (これまでの「翌月10日」)."],
+      "traps": ["detail", null, "deadline", "change"],
+      "evidence": "申請の期限は、これまでの「翌月10日」から「翌月5日」に変わります。",
+      "vocab": [
+        { "jp": "精算", "kana": "せいさん", "en": "settlement of expenses" },
+        { "jp": "翌月", "kana": "よくげつ", "en": "the following month" },
+        { "jp": "従来", "kana": "じゅうらい", "en": "conventional, up to now" },
+        { "jp": "事前", "kana": "じぜん", "en": "in advance" }
+      ],
+      "nuance": "これまでの A から B に変わります: A is the old rule, B the new one — a classic place for a \"change\" trap."
+    },
+    {
+      "id": "p3r-013", "section": "reading", "difficulty": 3, "skills": ["info", "numbers"], "topic": "delivery",
+      "visual": { "type": "doc", "kind": "email", "title": "部品納品の遅延について",
+        "meta": ["差出人：ミナト電機株式会社 営業部 佐藤", "宛先：東和商事株式会社 購買部 鈴木様", "件名：部品納品の遅延について（お詫び）"],
+        "lines": [
+          "東和商事株式会社　購買部　鈴木様",
+          "いつもお世話になっております。ミナト電機の佐藤でございます。",
+          "ご注文いただいておりました部品200個の納品についてご連絡いたします。工場の検査で一部に不具合が見つかったため、11月10日にお届けする予定でしたが、11月17日になる見込みでございます。ご迷惑をおかけし、誠に申し訳ございません。",
+          "なお、検査に合格した120個につきましては、本日先にお送りいたしました。明日の午前中には到着する予定です。残りの80個は、検査が終わり次第、改めて発送いたします。",
+          "何卒よろしくお願い申し上げます。"
+        ] },
+      "stem": "部品の発送について、メールの内容と合っているものはどれですか。",
+      "options": ["注文の一部はもう出荷されている", "200個すべてを17日にまとめて送る", "残りの80個は明日の午前中に届く", "不具合のあった120個を作り直す"],
+      "answer": 0,
+      "explanation": "「検査に合格した120個につきましては、本日先にお送りいたしました」 — part of the order (120 units) has already been shipped today.",
+      "whyWrong": ["", "Only the remaining 80 are expected later; 120 have already been sent separately.", "It is the 120 units sent today that arrive tomorrow morning; the 80 will follow after inspection.", "The 120 units passed inspection; the problem is with part of the remaining 80."],
+      "traps": [null, "change", "detail", "number"],
+      "evidence": "検査に合格した120個につきましては、本日先にお送りいたしました。",
+      "vocab": [
+        { "jp": "不具合", "kana": "ふぐあい", "en": "defect, malfunction" },
+        { "jp": "見込み", "kana": "みこみ", "en": "expectation, prospect" },
+        { "jp": "〜次第", "kana": "しだい", "en": "as soon as ~" },
+        { "jp": "発送", "kana": "はっそう", "en": "dispatch, shipping" }
+      ],
+      "nuance": "お送りいたしました / 発送いたします are humble forms for the writer's own company's actions toward the client."
+    },
+    {
+      "id": "p3r-014", "section": "reading", "difficulty": 3, "skills": ["info", "intention"], "topic": "marketing",
+      "visual": { "type": "doc", "kind": "article", "title": "ハルカ文具、法人向け事業に活路",
+        "lines": [
+          "文具メーカーのハルカ文具（東京都）は、来年4月から企業向けの事業を強化する。主力である学生向けのノートや筆記用具の売り上げが、少子化の影響でこの5年間に約15%減ったためだ。",
+          "同社が力を入れるのは、オフィスで使う収納用品や会議用の文具だ。在宅勤務が広がったあと、出社する社員が快適に働けるようオフィスを改装する企業が増えており、需要が見込めるという。",
+          "今後は企業ごとに色やデザインを選べる商品も用意し、3年後には法人向けの売り上げを全体の3割まで高めることを目指す。同社の社長は「学生向けの商品で培った品質とデザインの力は、オフィスでも必ず生かせる」と話している。"
+        ] },
+      "stem": "この記事は主に何について書かれていますか。",
+      "options": ["学生向け文具の売り上げが減った原因", "オフィスを改装する企業が増えた理由", "ハルカ文具が開発した学生向け新商品", "ある文具会社の企業向け販売の強化"],
+      "answer": 3,
+      "explanation": "The lead sentence states the main point: 「来年4月から企業向けの事業を強化する」. The falling student sales and the office renovations are background explaining why.",
+      "whyWrong": ["The decline in student sales (少子化) is the background reason, not the main subject.", "Office renovation is mentioned only as a source of demand; its reasons are not the topic.", "No new student product is described; the new products are for companies (企業ごとに…選べる商品).", ""],
+      "traps": ["detail", "detail", "inference", null],
+      "evidence": "ハルカ文具（東京都）は、来年4月から企業向けの事業を強化する。",
+      "vocab": [
+        { "jp": "法人向け", "kana": "ほうじんむけ", "en": "for corporate customers" },
+        { "jp": "活路", "kana": "かつろ", "en": "a way out, a new path to survival" },
+        { "jp": "少子化", "kana": "しょうしか", "en": "declining birth rate" },
+        { "jp": "需要", "kana": "じゅよう", "en": "demand" },
+        { "jp": "見込む", "kana": "みこむ", "en": "to expect, anticipate" }
+      ],
+      "nuance": "Newspaper business articles put the news in the first sentence; 〜ためだ in the next sentence gives the reason."
+    },
+    {
+      "id": "p3r-015", "section": "reading", "difficulty": 3, "skills": ["info", "intention"], "topic": "cost",
+      "visual": { "type": "doc", "kind": "memo", "title": "配送業者の変更について",
+        "meta": ["宛先：物流課 各位", "発信：物流課長 山田", "日付：11月2日"],
+        "lines": [
+          "来年1月から、関東地区の配送業者を現在のA社からさくら物流に変更することになりましたので、お知らせします。",
+          "料金だけを比べると、さくら物流のほうが1件あたり30円ほど高くなります。しかし、A社は来年から土曜日の配達を取りやめると発表しており、このままでは土曜日に商品を受け取りたいというお客様の要望に応えられなくなります。そこで、土日も配達を行っているさくら物流を選びました。",
+          "A社との現在の契約は12月末で終了します。なお、さくら物流には先月から一部の配送を試験的に依頼しており、時間指定の配達なども問題なく行われていることを確認済みです。",
+          "切り替えの詳しい手順は、来週の課内会議で説明します。"
+        ] },
+      "stem": "配送業者を変更する理由は何ですか。",
+      "options": ["さくら物流のほうが配送料金が安いから", "来週の課内会議でそう決まったから", "週末の配達を続けられるようにするため", "A社が関東地区の配送をやめるから"],
+      "answer": 2,
+      "explanation": "A社 will stop Saturday deliveries, so customers wanting Saturday delivery could not be served; 「そこで、土日も配達を行っているさくら物流を選びました」. The change keeps weekend delivery available.",
+      "whyWrong": ["The opposite: Sakura Butsuryu costs about 30 yen more per delivery (30円ほど高くなります).", "The decision is already made; next week's meeting will only explain the switch-over procedure.", "", "A社 is stopping Saturday deliveries, not its whole Kanto service."],
+      "traps": ["negation", "sequence", null, "inference"],
+      "evidence": "土日も配達を行っているさくら物流を選びました。",
+      "vocab": [
+        { "jp": "配送業者", "kana": "はいそうぎょうしゃ", "en": "delivery company" },
+        { "jp": "取りやめる", "kana": "とりやめる", "en": "to discontinue, call off" },
+        { "jp": "要望に応える", "kana": "ようぼうにこたえる", "en": "to meet a request" },
+        { "jp": "手順", "kana": "てじゅん", "en": "procedure, steps" }
+      ],
+      "nuance": "〜だけを比べると…しかし… is a concession pattern: the first point (cost) is acknowledged, the point after しかし is the real reason."
+    },
+    {
+      "id": "p3r-016", "section": "reading", "difficulty": 3, "skills": ["info", "detail"], "topic": "hr",
+      "visual": { "type": "doc", "kind": "form", "title": "英語研修　受講申込書",
+        "lines": [
+          "■対象：入社3年目以上の社員（派遣社員を除く）",
+          "■期間：1月13日〜3月17日の毎週水曜日　18:30〜20:00（全10回）",
+          "■会場：本社6階　研修室（オンラインでの受講はできません）",
+          "■講師：さくら英語学院の講師",
+          "■定員：20名。応募者が多い場合は、業務で英語を使う部署の社員を優先します。",
+          "■費用：会社負担。ただし、出席が8回に満たない場合は、受講料の半額を自己負担とします。",
+          "■申込方法：この用紙に記入し、上司の承認印をもらったうえで、12月11日（金）までに人事部へ提出してください。",
+          "氏名（　　　　）　所属（　　　　）　入社年（　　　　）　上司承認印（　　　　）"
+        ] },
+      "stem": "この研修について、申込書の内容と合っているものはどれですか。",
+      "options": ["派遣社員も申し込むことができる", "出席が7回だと費用の一部を払う", "人事部の承認後に上司へ用紙を出す", "研修は毎週水曜日の夜に全8回ある"],
+      "answer": 1,
+      "explanation": "The fee is paid by the company, 「ただし、出席が8回に満たない場合は、受講料の半額を自己負担とします」. Attending only 7 times is fewer than 8, so the trainee pays half the fee.",
+      "whyWrong": ["Temporary staff are excluded: 「派遣社員を除く」.", "", "The order is reversed: get the manager's approval stamp first, then submit to HR.", "There are 10 sessions (全10回); 8 is the minimum attendance."],
+      "traps": ["negation", null, "sequence", "number"],
+      "evidence": "ただし、出席が8回に満たない場合は、受講料の半額を自己負担とします。",
+      "vocab": [
+        { "jp": "受講", "kana": "じゅこう", "en": "taking a course" },
+        { "jp": "派遣社員", "kana": "はけんしゃいん", "en": "temporary (agency) worker" },
+        { "jp": "〜に満たない", "kana": "にみたない", "en": "less than ~, short of ~" },
+        { "jp": "自己負担", "kana": "じこふたん", "en": "paid by oneself" },
+        { "jp": "承認印", "kana": "しょうにんいん", "en": "approval stamp" }
+      ],
+      "nuance": "〜たうえで means \"after doing ~\", fixing the order of steps."
+    },
+    {
+      "id": "p3r-017", "section": "reading", "difficulty": 4, "skills": ["intention", "keigo"], "topic": "negotiation",
+      "visual": { "type": "doc", "kind": "email", "title": "来年度包装資材のお見積りについて",
+        "meta": ["差出人：株式会社北斗フーズ 購買部 松本", "宛先：ミナト包装株式会社 営業部 木村様", "件名：来年度包装資材のお見積りについて"],
+        "lines": [
+          "ミナト包装株式会社　営業部　木村様",
+          "いつも大変お世話になっております。北斗フーズ購買部の松本でございます。",
+          "先日お送りいただいた来年度の包装資材のお見積り、確かに拝受いたしました。原材料の値上がりが続く中、御社にもさまざまなご苦労がおありのことと拝察いたします。",
+          "一方で、弊社では来年度、新工場の稼働に伴い、資材の発注量が今年度の約1.5倍になる見込みです。また、現在、他の数社からもお見積りをいただいているところでございます。",
+          "つきましては、こうした発注量の増加も踏まえたうえで、今回のお見積りについて今一度ご検討いただくことは可能でしょうか。勝手を申し上げて恐縮ですが、今月25日の社内会議までにご回答いただけましたら幸いです。",
+          "なお、納品の頻度や支払い条件につきましても、弊社として柔軟にご相談に応じる用意がございます。御社の品質と迅速なご対応には日頃より大変感謝しており、来年度も引き続きお取引をお願いできればと考えております。",
+          "何卒よろしくお願い申し上げます。"
+        ] },
+      "stem": "松本さんが木村さんに求めていることは何ですか。",
+      "options": ["原材料の値上がりについて説明すること", "他社の見積もりとの違いを教えること", "25日の社内会議に出席すること", "注文が増える分、見積額を下げること"],
+      "answer": 3,
+      "explanation": "Matsumoto mentions the 1.5-fold increase in orders and other suppliers' quotes, then asks: 「発注量の増加も踏まえたうえで、今回のお見積りについて今一度ご検討いただくことは可能でしょうか」. In context, \"reconsider the quote\" means lower the price in return for larger volume.",
+      "whyWrong": ["Rising material costs are acknowledged as a courtesy (拝察いたします); no explanation is requested.", "The other quotes are mentioned as pressure; Matsumoto does not ask Kimura to compare them.", "The 25th meeting is Matsumoto's internal meeting; Kimura only needs to reply before it.", ""],
+      "traps": ["detail", "inference", "detail", null],
+      "evidence": "発注量の増加も踏まえたうえで、今回のお見積りについて今一度ご検討いただくことは可能でしょうか。",
+      "vocab": [
+        { "jp": "拝受する", "kana": "はいじゅする", "en": "to receive (humble)" },
+        { "jp": "拝察する", "kana": "はいさつする", "en": "to surmise (humble)" },
+        { "jp": "発注量", "kana": "はっちゅうりょう", "en": "order volume" },
+        { "jp": "踏まえる", "kana": "ふまえる", "en": "to take into account" },
+        { "jp": "今一度", "kana": "いまいちど", "en": "once more" }
+      ],
+      "nuance": "A buyer rarely writes 値下げしてください. Larger volume + competing quotes + ご検討いただけないか is the conventional, indirect way to ask for a lower price."
+    },
+    {
+      "id": "p3r-018", "section": "reading", "difficulty": 4, "skills": ["intention", "detail"], "topic": "report",
+      "visual": { "type": "doc", "kind": "report", "title": "オンラインショップ利用者アンケート結果について",
+        "meta": ["作成：販売促進課 中村", "提出日：11月16日"],
+        "lines": [
+          "10月に実施した利用者アンケート（回答数1,240件）の結果を報告します。回答者は30代と40代で全体の約6割を占めました。詳しい集計結果は添付の資料をご覧ください。",
+          "商品の品質に「満足」と答えた人は82%で、前回の調査とほぼ同じでした。サイトの使いやすさについても「満足」が65%と、前回より5ポイント上がっています。一方、配送については「遅い」という回答が前回の12%から27%に増えており、自由回答でも「注文から届くまでに1週間かかった」という声が目立ちました。",
+          "配送の遅れは、9月に倉庫を移転したあと、出荷作業が予定どおりに進んでいないことが原因と考えられます。品質の評価は高いものの、このままではリピーターが離れていくおそれがあります。",
+          "以上のことから、まずは新倉庫の出荷体制を見直すことを提案します。値引きクーポンの配布などの販売促進策は、配送の問題が解決してから検討すべきだと考えます。"
+        ] },
+      "stem": "この報告書の結論として、最も適当なものはどれですか。",
+      "options": ["出荷体制の立て直しを優先すべきだ", "商品の品質を改善する必要がある", "クーポンを配って客を引きとめるべきだ", "倉庫を以前の場所に戻すべきだ"],
+      "answer": 0,
+      "explanation": "The conclusion follows 以上のことから: 「まずは新倉庫の出荷体制を見直すことを提案します」. Fixing the shipping operation comes first; promotions should wait.",
+      "whyWrong": ["", "Quality satisfaction is high (82%, unchanged); quality is not the problem.", "The report says coupons should be considered only after the delivery problem is solved (解決してから).", "The report proposes reviewing operations at the new warehouse, not moving back."],
+      "traps": [null, "detail", "sequence", "inference"],
+      "evidence": "以上のことから、まずは新倉庫の出荷体制を見直すことを提案します。",
+      "vocab": [
+        { "jp": "出荷", "kana": "しゅっか", "en": "shipping (goods out)" },
+        { "jp": "体制", "kana": "たいせい", "en": "system, setup" },
+        { "jp": "移転", "kana": "いてん", "en": "relocation" },
+        { "jp": "おそれがある", "kana": "おそれがある", "en": "there is a risk that…" },
+        { "jp": "見直す", "kana": "みなおす", "en": "to review, rethink" }
+      ],
+      "nuance": "以上のことから introduces the conclusion of a report; the data before it are supporting details."
+    },
+    {
+      "id": "p3r-019", "section": "reading", "difficulty": 4, "skills": ["info", "intention"], "topic": "production",
+      "visual": { "type": "doc", "kind": "article", "title": "東和精工、国内生産を拡大へ",
+        "lines": [
+          "精密機器メーカーの東和精工は、海外で行っている部品生産の一部を国内の工場に戻すと発表した。約40億円を投じて長野工場の生産ラインを増やし、2028年の稼働を目指す。国内に戻すのは、主に国内の自動車メーカーに納める部品だという。",
+          "同社はこれまで、人件費の安さを理由に、生産の約7割を東南アジアで行ってきた。しかし、ここ数年は現地の賃金が上がり、国内との差は縮まりつつある。加えて、輸送の混乱で部品が予定どおりに届かず、顧客への納品が遅れる問題がたびたび起きていた。",
+          "同社の担当者は「コストだけを見れば、まだ海外のほうが有利だ。それでも、必要なときに確実に届けられることのほうが、お客様にとっての価値は大きい」と話す。",
+          "国内工場では自動化を進めることで、人手不足にも対応する。海外の工場は閉鎖せず、今後は主に現地市場向けの生産を担うという。同様に生産拠点を見直す動きは、ほかの部品メーカーにも広がりつつある。"
+        ] },
+      "stem": "東和精工が国内での生産を増やす最も大きな理由は何ですか。",
+      "options": ["国内のほうが生産コストが低くなったから", "国内の工場では人手が余っているから", "納期を守り、確実に供給したいから", "海外の工場を2028年に閉鎖するから"],
+      "answer": 2,
+      "explanation": "The company spokesperson says that even though overseas is still cheaper, 「必要なときに確実に届けられることのほうが、お客様にとっての価値は大きい」. Reliable, on-time supply — after repeated delivery delays — is the main reason.",
+      "whyWrong": ["The spokesperson says overseas is still cheaper (まだ海外のほうが有利だ); the gap has only narrowed.", "The opposite: the domestic plant will automate to cope with a labour shortage (人手不足).", "", "2028 is when the new Nagano lines start; the overseas plants will not be closed (閉鎖せず)."],
+      "traps": ["inference", "negation", null, "number"],
+      "evidence": "必要なときに確実に届けられることのほうが、お客様にとっての価値は大きい",
+      "vocab": [
+        { "jp": "精密機器", "kana": "せいみつきき", "en": "precision equipment" },
+        { "jp": "投じる", "kana": "とうじる", "en": "to invest (money)" },
+        { "jp": "稼働", "kana": "かどう", "en": "operation (of a plant/line)" },
+        { "jp": "縮まる", "kana": "ちぢまる", "en": "to narrow, shrink" },
+        { "jp": "担う", "kana": "になう", "en": "to bear, take on (a role)" }
+      ],
+      "nuance": "〜だけを見れば…それでも… concedes one factor and then gives the decisive one; the reason the writer wants you to catch follows それでも."
+    },
+    {
+      "id": "p3r-020", "section": "reading", "difficulty": 4, "skills": ["info", "keigo"], "topic": "complaint",
+      "visual": { "type": "doc", "kind": "email", "title": "納品した椅子の傷について",
+        "meta": ["差出人：ミナト家具株式会社 お客様サポート 山本", "宛先：ホテルさくら 総務部 吉田様", "件名：納品した椅子の傷について（お詫び）"],
+        "lines": [
+          "ホテルさくら　総務部　吉田様",
+          "いつもお世話になっております。ミナト家具お客様サポート担当の山本でございます。",
+          "このたびは、11月4日に納品いたしました客室用の椅子40脚のうち、6脚に傷があったとのご連絡をいただき、誠に申し訳ございませんでした。",
+          "お送りいただいた写真を拝見しましたところ、輸送中の梱包が不十分だったことが原因と判明いたしました。傷のある6脚につきましては、新しい品を11月12日にお届けし、その際に傷のある品を引き取らせていただきます。",
+          "また、再発防止のため梱包方法を見直し、出荷前の検品を二重に行う体制といたしました。こちらは今月の出荷分からすでに実施しております。",
+          "なお、残りの34脚につきましても念のため状態を確認させていただきたく、12日にお伺いする際に、担当者が拝見してもよろしいでしょうか。お手数ですが、ご都合をお知らせいただけますと幸いです。",
+          "このたびはご迷惑をおかけしましたこと、重ねてお詫び申し上げます。今後ともよろしくお願い申し上げます。"
+        ] },
+      "stem": "ミナト家具がこれから行うことは何ですか。",
+      "options": ["傷のある椅子を修理してから返す", "交換品を届けて傷物を引き取る", "残りの34脚もすべて新品と交換する", "ホテルから傷の写真を送ってもらう"],
+      "answer": 1,
+      "explanation": "Still to come: 「新しい品を11月12日にお届けし、その際に傷のある品を引き取らせていただきます」 — replacements will be delivered and the damaged chairs taken back.",
+      "whyWrong": ["The damaged chairs will be replaced with new ones, not repaired.", "", "The other 34 chairs will only be checked (念のため状態を確認), and only if the hotel agrees; just the 6 damaged ones are replaced.", "The hotel has already sent the photos (お送りいただいた写真を拝見しました); this is past, and the hotel's action."],
+      "traps": ["inference", null, "number", "speaker"],
+      "evidence": "新しい品を11月12日にお届けし、その際に傷のある品を引き取らせていただきます。",
+      "vocab": [
+        { "jp": "梱包", "kana": "こんぽう", "en": "packing" },
+        { "jp": "判明する", "kana": "はんめいする", "en": "to become clear, be found" },
+        { "jp": "引き取る", "kana": "ひきとる", "en": "to take back, collect" },
+        { "jp": "再発防止", "kana": "さいはつぼうし", "en": "prevention of recurrence" },
+        { "jp": "検品", "kana": "けんぴん", "en": "inspection of goods" }
+      ],
+      "nuance": "〜させていただきます (引き取らせていただきます) is the humble way to announce one's own action toward the client."
+    },
+    {
+      "id": "p3r-021", "section": "reading", "difficulty": 4, "skills": ["info", "detail"], "topic": "hr",
+      "visual": { "type": "doc", "kind": "notice", "title": "在宅勤務制度の一部変更について",
+        "lines": [
+          "社員各位",
+          "社員アンケートの結果を踏まえ、1月から在宅勤務制度を以下のとおり変更します。",
+          "1. 在宅勤務ができる日数を、週2日から週3日に増やします。ただし、入社1年未満の社員は、引き続き週2日までとします。",
+          "2. 毎週水曜日は「出社日」とし、原則として全員出社してください。部署ごとの会議は、この日にまとめて行います。出張や顧客訪問がある場合は、事前に上司に伝えたうえで、そちらを優先してください。",
+          "3. 在宅勤務を行う場合は、前日の17時までに勤怠システムで申請してください。これまで認めていた当日朝の申請は、体調不良など緊急の場合に限ります。",
+          "4. 自宅の通信費の補助として、在宅勤務を月8日以上行った社員に、月額3,000円を支給します。",
+          "5. 在宅勤務中も、業務の開始時と終了時には、必ずチャットで上司に連絡してください。",
+          "変更後の規程は社内ポータルに掲載しています。ご不明な点は人事部までお問い合わせください。"
+        ] },
+      "stem": "在宅勤務制度の変更について、お知らせの内容と合っているものはどれですか。",
+      "options": ["入社1年未満の社員も週3日まで在宅勤務ができる", "月8日在宅勤務をすると通信費が1日3,000円出る", "在宅勤務は当日の17時までに申請すればよい", "当日朝の申請は、原則として認められなくなる"],
+      "answer": 3,
+      "explanation": "Item 3: 「これまで認めていた当日朝の申請は、体調不良など緊急の場合に限ります」. Same-day morning applications, previously allowed, are now limited to emergencies — i.e. no longer accepted as a rule.",
+      "whyWrong": ["The ただし clause keeps employees with under one year of service at 2 days a week.", "The allowance is 3,000 yen per month (月額), not per day.", "Applications must be made by 17:00 on the previous day (前日の17時まで).", ""],
+      "traps": ["negation", "number", "deadline", null],
+      "evidence": "これまで認めていた当日朝の申請は、体調不良など緊急の場合に限ります。",
+      "vocab": [
+        { "jp": "在宅勤務", "kana": "ざいたくきんむ", "en": "working from home" },
+        { "jp": "引き続き", "kana": "ひきつづき", "en": "continuing as before" },
+        { "jp": "原則として", "kana": "げんそくとして", "en": "as a rule" },
+        { "jp": "〜に限る", "kana": "にかぎる", "en": "to be limited to ~" },
+        { "jp": "支給する", "kana": "しきゅうする", "en": "to pay, provide (allowance)" }
+      ],
+      "nuance": "〜に限ります turns a general permission into an exception — the practical meaning is \"normally not allowed\"."
+    },
+    {
+      "id": "p3r-022", "section": "reading", "difficulty": 5, "skills": ["intention", "keigo"], "topic": "negotiation",
+      "visual": { "type": "doc", "kind": "email", "title": "価格改定のご案内について",
+        "meta": ["差出人：東和商事株式会社 購買部 鈴木", "宛先：さくら製紙株式会社 営業部 井上様", "件名：価格改定のご案内について"],
+        "lines": [
+          "さくら製紙株式会社　営業部　井上様",
+          "いつもお世話になっております。東和商事購買部の鈴木でございます。",
+          "先日は、来年1月からの価格改定について、ご丁寧にご説明いただきありがとうございました。昨今の原料費や物流費の高騰を考えますと、御社のご事情は十分に理解しているつもりでございます。",
+          "ただ、ご提示いただいた一律8%の値上げをそのままお受けすることは、弊社の現在の予算では正直なところ厳しいと言わざるを得ません。弊社といたしましても長年のお取引を大切にしたいと考えておりますので、例えば、改定の時期を4月に延ばしていただく、あるいは主力の3品目に限って改定いただくといった形であれば、社内でも前向きに検討できるかと存じます。",
+          "大変恐縮ではございますが、上記の点を踏まえ、改めてご提案いただけますと幸いです。社内の承認手続きにも時間を要するため、できましたら今月中にご連絡いただけますと助かります。",
+          "引き続きよろしくお願い申し上げます。"
+        ] },
+      "stem": "鈴木さんのメールの趣旨として、最も適当なものはどれですか。",
+      "options": ["今の値上げ案には応じず、条件の再提示を求める", "1月からの一律8%の値上げをそのまま受け入れる", "値上げをきっかけに取引をやめることを伝える", "4月から3品目だけ値上げすることに決めた"],
+      "answer": 0,
+      "explanation": "「そのままお受けすることは…厳しいと言わざるを得ません」 is a refusal of the proposal as it stands, and 「上記の点を踏まえ、改めてご提案いただけますと幸いです」 asks the supplier to come back with revised terms.",
+      "whyWrong": ["", "「ご事情は十分に理解している」 is a courtesy, not acceptance; the next sentence says accepting is difficult.", "Suzuki explicitly wants to keep the long relationship (長年のお取引を大切にしたい).", "April and the three main items are only examples (例えば…といった形であれば); nothing has been decided, and the supplier is asked to propose."],
+      "traps": [null, "inference", "intention", "suggestion"],
+      "evidence": "上記の点を踏まえ、改めてご提案いただけますと幸いです。",
+      "vocab": [
+        { "jp": "価格改定", "kana": "かかくかいてい", "en": "price revision" },
+        { "jp": "高騰", "kana": "こうとう", "en": "sharp rise (in prices)" },
+        { "jp": "一律", "kana": "いちりつ", "en": "uniform, across the board" },
+        { "jp": "〜と言わざるを得ない", "kana": "といわざるをえない", "en": "I have no choice but to say ~" },
+        { "jp": "前向きに検討する", "kana": "まえむきにけんとうする", "en": "to consider positively" },
+        { "jp": "趣旨", "kana": "しゅし", "en": "gist, main purpose" }
+      ],
+      "nuance": "Empathy (理解しているつもり) + ただ + 厳しい + 例えば〜であれば is a typical structure for refusing while keeping the door open; the counter-conditions are hints, not commitments."
+    },
+    {
+      "id": "p3r-023", "section": "reading", "difficulty": 5, "skills": ["intention", "info"], "topic": "sales",
+      "visual": { "type": "doc", "kind": "article", "title": "深夜営業の見直し、大手スーパーにも",
+        "lines": [
+          "24時間営業を続けてきたスーパー大手のマルヤマは、来年3月までに全国約300店のうち約8割で、深夜0時から朝6時までの営業をやめると発表した。",
+          "背景には、人手不足で夜間の従業員を確保することが難しくなっていることに加え、電気代の上昇がある。同社によると、深夜の売り上げは全体の3%程度にとどまる一方、その時間帯の人件費と光熱費は売り上げを大きく上回っていたという。",
+          "ただし、同社は深夜の客を完全に手放すわけではない。深夜営業をやめる店舗には、無人で商品を受け取れるロッカーを設置し、ネットで注文した商品を24時間受け取れるようにする。浮いた人件費は、日中の売り場の人員を増やすことや、従業員の時給の引き上げに充てる方針だ。",
+          "業界では、すでに複数のチェーンが一部の店舗で深夜営業をやめており、同様の動きは今後さらに広がるとみられる。",
+          "深夜営業は、かつては他社との違いを打ち出す有力な手段だった。しかし今では、長い時間店を開けていることそのものが、必ずしも客の満足につながるとは限らなくなっているのかもしれない。"
+        ] },
+      "stem": "この記事の筆者の考えに最も近いものはどれですか。",
+      "options": ["深夜営業は、今も他社との差をつける有効な手段だ", "営業時間の長さが客の満足を生むとは限らない", "人手不足が解消すれば、深夜営業を再開すべきだ", "無人ロッカーで深夜の売り上げは大きく伸びるだろう"],
+      "answer": 1,
+      "explanation": "The writer's own view is in the last paragraph: 「長い時間店を開けていることそのものが、必ずしも客の満足につながるとは限らなくなっているのかもしれない」 — long opening hours alone no longer necessarily satisfy customers.",
+      "whyWrong": ["The writer says this was true in the past (かつては); the point is that it has changed.", "", "The article never suggests reopening at night; it presents the closures as a reasonable response.", "The lockers are the company's plan to keep night customers; the writer makes no prediction about sales."],
+      "traps": ["change", null, "inference", "speaker"],
+      "evidence": "長い時間店を開けていることそのものが、必ずしも客の満足につながるとは限らなくなっているのかもしれない。",
+      "vocab": [
+        { "jp": "手放す", "kana": "てばなす", "en": "to let go of, give up" },
+        { "jp": "光熱費", "kana": "こうねつひ", "en": "utility costs (electricity, gas)" },
+        { "jp": "浮く", "kana": "うく", "en": "(of money) to be saved, freed up" },
+        { "jp": "充てる", "kana": "あてる", "en": "to allocate (money) to" },
+        { "jp": "打ち出す", "kana": "うちだす", "en": "to put forward, set out" },
+        { "jp": "必ずしも〜とは限らない", "kana": "かならずしもとはかぎらない", "en": "not necessarily ~" }
+      ],
+      "nuance": "Articles report facts in plain style; the writer's opinion is usually signalled at the end by hedges like 〜のかもしれない or 〜のではないか."
+    },
+    {
+      "id": "p3r-024", "section": "reading", "difficulty": 5, "skills": ["intention", "keigo"], "topic": "it",
+      "visual": { "type": "doc", "kind": "email", "title": "発注予測機能の追加について",
+        "meta": ["差出人：アオバシステム株式会社 加藤", "宛先：株式会社北斗フーズ 情報システム部 小林様", "件名：発注予測機能の追加について"],
+        "lines": [
+          "株式会社北斗フーズ　情報システム部　小林様",
+          "いつもお世話になっております。アオバシステムの加藤でございます。",
+          "先日ご相談いただきました、在庫管理システムへの発注予測機能の追加につきまして、社内で検討いたしました。",
+          "機能の必要性につきましては、私どもも十分に理解しております。ただ、現在の開発は3月末の稼働に向けて最終段階に入っており、この時期に大きな機能を加えますと、全体の試験をやり直す必要が生じます。その場合、稼働時期を守ることは難しく、品質の面でもお約束いたしかねるというのが正直なところでございます。",
+          "つきましては、まずは現行の範囲で予定どおり稼働させていただき、追加機能は稼働後の第2期開発として、別途お見積りのうえ進めさせていただくのはいかがでしょうか。第2期であれば、6月頃のご提供を目指せるかと存じます。なお、第2期のお見積りにつきましては、仕様を詰めたうえで、2月中旬までにご提出いたします。",
+          "ご検討のほど、何卒よろしくお願い申し上げます。"
+        ] },
+      "stem": "加藤さんの提案の内容として、最も適当なものはどれですか。",
+      "options": ["稼働を6月に延ばし、その間に機能を加える", "品質を保証できないため、機能は追加しない", "稼働後に、別料金で機能を追加する", "3月末までに試験をやり直して機能を加える"],
+      "answer": 2,
+      "explanation": "Kato proposes: 「まずは現行の範囲で予定どおり稼働させていただき、追加機能は稼働後の第2期開発として、別途お見積りのうえ進めさせていただく」 — launch on schedule, then add the feature later as a separately quoted second phase.",
+      "whyWrong": ["Launch stays at the end of March (予定どおり); June is the target for the add-on in phase 2.", "Kato does not refuse the feature; the quality concern applies only to adding it now.", "", "Re-testing is the risk Kato wants to avoid; he says adding it now would make the March date hard to keep."],
+      "traps": ["change", "inference", null, "detail"],
+      "evidence": "まずは現行の範囲で予定どおり稼働させていただき、追加機能は稼働後の第2期開発として、別途お見積りのうえ進めさせていただくのはいかがでしょうか。",
+      "vocab": [
+        { "jp": "発注予測", "kana": "はっちゅうよそく", "en": "order forecasting" },
+        { "jp": "〜かねる", "kana": "かねる", "en": "cannot (polite refusal)" },
+        { "jp": "現行", "kana": "げんこう", "en": "current, existing" },
+        { "jp": "別途", "kana": "べっと", "en": "separately" },
+        { "jp": "第2期", "kana": "だいにき", "en": "second phase" }
+      ],
+      "nuance": "お約束いたしかねる is a very polite \"we cannot promise\"; the real message — not now, but later for an extra fee — comes in the つきましては proposal."
+    }
+  ]
+}

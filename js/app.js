@@ -25,9 +25,9 @@
   const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const pct = (n, d) => d ? Math.round(100 * n / d) : 0;
 
-  let E = null, C = null, CONJ = null, REC = null, KDATA = null;
+  let E = null, C = null, CONJ = null, REC = null, KDATA = null, BDATA = null, BV = null;
   const V = { view: 'loading', p: {}, ui: {} };      // ui: per-card transient state
-  const TABS = [['home', '今', 'Today'], ['train', '練', 'Train'], ['kanji', '字', 'Kanji'], ['conj', '活', 'Conjugate'], ['progress', '進', 'Progress'], ['words', '語', 'Words']];
+  const TABS = [['home', '今', 'Today'], ['bjt', '商', 'BJT'], ['train', '練', 'Train'], ['kanji', '字', 'Kanji'], ['conj', '活', 'Conjugate', 'Conj.'], ['progress', '進', 'Progress', 'Stats'], ['words', '語', 'Words']];
 
   /* ---------- theme (kept from the original app) ---------- */
   function applyTheme(s) {
@@ -76,11 +76,12 @@
   function go(view, p) { V.view = view; V.p = p || {}; V.ui = {}; render(); window.scrollTo(0, 0); }
   function render() {
     const views = { kanji: renderKanji, radical: renderRadical, ksession: renderKSession, ksummary: renderKSummary, home: renderHome, train: renderTrain, conj: renderConj, conjGroup: renderConjGroup, conjForm: renderConjForm, progress: renderProgress, words: renderWords, word: renderWord, settings: renderSettings, recallSetup: renderRecallSetup, session: renderSession, summary: renderSummary, patterns: renderPatterns };
+    if (BV) Object.assign(views, BV.views);
     const f = views[V.view];
-    const tabbed = ['home', 'train', 'kanji', 'radical', 'conj', 'progress', 'words', 'settings', 'conjGroup', 'conjForm', 'word', 'recallSetup', 'patterns'].includes(V.view);
-    const active = { radical: 'kanji', conjGroup: 'conj', conjForm: 'conj', word: 'words', recallSetup: 'home', settings: 'home', patterns: 'train' }[V.view] || V.view;
+    const tabbed = (BV ? BV.tabbed : []).includes(V.view) || ['home', 'train', 'kanji', 'radical', 'conj', 'progress', 'words', 'settings', 'conjGroup', 'conjForm', 'word', 'recallSetup', 'patterns'].includes(V.view);
+    const active = { bjtplan: 'bjt', bjtabout: 'bjt', bjtmock: 'bjt', bjtreport: 'bjt', bjtmockrep: 'bjt', radical: 'kanji', conjGroup: 'conj', conjForm: 'conj', word: 'words', recallSetup: 'home', settings: 'home', patterns: 'train' }[V.view] || V.view;
     $app.innerHTML = `<main class="screen ${tabbed ? 'with-tabs' : ''}" id="main">${f ? f() : '<p class="muted">Loading…</p>'}</main>` +
-      (tabbed ? `<nav class="tabbar" aria-label="Main">${TABS.map(([v, g, l]) => `<button type="button" class="tabbar-btn ${active === v ? 'active' : ''}" data-action="go" data-view="${v}" ${active === v ? 'aria-current="page"' : ''}><span class="t-glyph" aria-hidden="true">${g}</span><span class="t-label">${l}</span></button>`).join('')}</nav>` : '');
+      (tabbed ? `<nav class="tabbar" aria-label="Main">${TABS.map(([v, g, l, sl]) => `<button type="button" class="tabbar-btn ${active === v ? 'active' : ''}" data-action="go" data-view="${v}" ${active === v ? 'aria-current="page"' : ''} aria-label="${l}"><span class="t-glyph" aria-hidden="true">${g}</span>${sl ? `<span class="t-label t-long" aria-hidden="true">${l}</span><span class="t-label t-short" aria-hidden="true">${sl}</span>` : `<span class="t-label" aria-hidden="true">${l}</span>`}</button>`).join('')}</nav>` : '');
     afterRender();
   }
   // Focus management after every render.
@@ -165,10 +166,23 @@
           ${card('training', 'Training', 'Memory, speaking & getting unstuck.', av.training)}
         </div>
         ${card('weekly', 'Weekly', weeklySub, av.weekly)}
+        ${bjtHomeCard()}
       </div>
       ${!audioOk() ? `<p class="hint">🔇 ${esc(SP.status(st.settings.voiceURI).reason || '')} Listening exercises are replaced by reading ones until a voice is available. <a href="#" data-action="go" data-view="settings">Voice settings</a></p>` : ''}`;
   }
 
+  // BJT Training entry on the home screen (its own page and schedule).
+  function bjtHomeCard() {
+    if (!E.bjt || !E.bjt.ready()) return '';
+    const info = window.MichiBJT.dayInfo(E.today());
+    const st = E.state.bjt;
+    const day = st && st.days[E.today()];
+    const left = day ? day.tasks.filter(t => t.core && window.MichiBJT.taskStatus(st, t) !== 'done').length : null;
+    const sub = info.state === 'before' ? 'Target 400+ by 30 Nov · starts ' + fmtDate(window.MichiBJT.PLAN.start) + ' — diagnostic available now'
+      : info.state === 'after' ? 'Programme ended · practice and report available'
+        : 'Day ' + info.dayNo + '/36 · ' + info.daysLeft + ' days left · ' + (left == null ? 'open to see today’s tasks' : left ? left + ' core task' + (left > 1 ? 's' : '') + ' left today' : 'today’s core tasks done');
+    return `<button type="button" class="act bjt-home ${left === 0 ? 'done' : ''}" data-action="go" data-view="bjt"><span class="act-head"><span class="act-title">BJT Training 商</span>${left === 0 ? '<span class="pill done">✓ Done today</span>' : '<span class="pill">Exam prep</span>'}</span><span class="act-sub">${esc(sub)}</span></button>`;
+  }
   // Why this morning's topic was chosen — plain words, no scores.
   function topicWhyText(m) {
     if (!m || !m.why) return '';
@@ -836,7 +850,7 @@
       <p class="muted">Choose up to 3 topics you need most. Morning lessons pick new words from these more often — other topics are still taught, and everything you’ve learned keeps being reviewed. Evening sessions never add new words.</p>
       ${prioEditor()}
       <h3>Time for each session</h3>
-      ${['morning', 'evening', 'weekly', 'kanji'].map(k => `<label class="field">${k[0].toUpperCase() + k.slice(1)} <input type="number" inputmode="numeric" min="3" max="${k === 'weekly' ? 90 : 60}" value="${s.minutes[k] || window.MichiPolicy.availableMinutes[k]}" data-setting="minutes.${k}"> min</label>`).join('')}
+      ${['morning', 'evening', 'weekly', 'kanji', 'bjt'].map(k => `<label class="field">${k === 'bjt' ? 'BJT (daily default)' : k[0].toUpperCase() + k.slice(1)} <input type="number" inputmode="numeric" min="3" max="${k === 'bjt' ? 240 : k === 'weekly' ? 90 : 60}" value="${s.minutes[k] || window.MichiPolicy.availableMinutes[k]}" data-setting="minutes.${k}"> min</label>`).join('')}
       <p class="muted">Session length follows these; how much fits is worked out from how fast you actually answer.</p>
       <h3>Time zone (for “today” and the Sunday unlock)</h3>
       <select data-setting="timeZone" aria-label="Time zone">${zones.map(z => `<option value="${esc(z)}" ${s.timeZone === z ? 'selected' : ''}>${z === 'auto' ? 'Device (' + esc(CAL.deviceZone()) + ')' : esc(z)}</option>`).join('')}</select>
@@ -939,6 +953,7 @@
       case 'export-v1': download('michi-old-version-backup.json', localStorage.getItem('michi_v1_backup')); break;
       case 'restore-v1': if (confirm('Replace current progress with the data from the old version?')) { E.restoreV1Backup(); toast('Restored'); go('home'); } break;
       case 'reset': if (confirm('Erase ALL progress on this device? Export a backup first if unsure.')) { E.reset(); applyTheme(E.state.settings); go('home'); } break;
+      default: if (BV) BV.handle(d.action, d, el, e);
     }
   });
   // Re-render the settings screen without jumping back to the top.
@@ -1029,7 +1044,7 @@
     if (t.dataset && t.dataset.hook) { E.state.hooks[t.dataset.hook] = t.value.trim(); E.save(); }
     if (t.dataset && t.dataset.setting) {
       const k = t.dataset.setting;
-      if (k.startsWith('minutes.')) { const v = Math.max(3, Math.min(90, Math.round(+t.value || 0))); E.state.settings.minutes[k.slice(8)] = v; t.value = v; }
+      if (k.startsWith('minutes.')) { const v = Math.max(3, Math.min(k === 'minutes.bjt' ? 240 : 90, Math.round(+t.value || 0))); E.state.settings.minutes[k.slice(8)] = v; t.value = v; }
       else if (k === 'timeZone') E.state.settings.timeZone = t.value;
       E.save();
     }
@@ -1066,12 +1081,21 @@
       if (C.skipped.length) console.warn('Rejected at load (not served):', C.skipped);
       CONJ = conjugation; REC = recovery || { prompts: [], markers: {} };
       KDATA = index.kanji ? await getJson('data/' + index.kanji).catch(() => null) : null;
+      if (index.bjt) {
+        const b = index.bjt;
+        const [files, vocab, sources] = await Promise.all([Promise.all((b.questions || []).map(f => getJson('data/' + f).catch(() => null))), b.vocab ? getJson('data/' + b.vocab).catch(() => null) : null, b.sources ? getJson('data/' + b.sources).catch(() => null) : null]);
+        BDATA = { files: files.filter(Boolean), vocab: vocab || { items: [] }, sources };
+      }
     } catch (err) {
       $app.innerHTML = `<main class="screen"><div class="banner warn">Could not load the lesson data (${esc(err.message)}). If this is the first launch, connect to the internet once so the app can be stored for offline use.</div></main>`;
       return;
     }
-    E = ENG.create({ C, K: KDATA, storage: window.localStorage, audio: () => audioOk() });
-    window.__michi = { get E() { return E; }, C };       // for debugging and end-to-end tests
+    E = ENG.create({ C, K: KDATA, B: BDATA, storage: window.localStorage, audio: () => audioOk() });
+    if (window.MichiBJTView) {
+      BV = window.MichiBJTView.create({ E: () => E, V, esc, btn, topbar, settingsBtn, toast, go, render, rerenderKeep: () => rerenderKeep(), audioOk, pct });
+      if (BDATA && BDATA.sources) BV.setSources(BDATA.sources);
+    }
+    window.__michi = { get E() { return E; }, C, render: () => render() };       // for debugging and end-to-end tests
     applyTheme(E.state.settings);
     if (E.resume()) { /* offered on the home screen */ }
     lastDay = timeSig();

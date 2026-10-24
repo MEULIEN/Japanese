@@ -1,0 +1,537 @@
+{
+  "section": "vocab",
+  "questions": [
+    {
+      "id": "p3v-001", "section": "vocab", "difficulty": 1, "skills": ["vocab"], "topic": "travel",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "来月の大阪出張の＿＿＿が決まりましたら、ホテルの予約をお願いします。",
+      "options": ["期限", "日程", "納期", "工程"],
+      "answer": 1,
+      "explanation": "A business trip has a schedule of dates: 「出張の日程」. Once the schedule is fixed, the hotel can be booked. 日程 is the word for the plan of days of a trip, meeting or event.",
+      "whyWrong": ["期限 is a deadline by which something must be done; a trip does not have a 期限.", "", "納期 is the delivery date for goods or work, not the dates of a trip.", "工程 is the sequence of steps in a production or work process, not the dates of a trip."],
+      "traps": ["vocab", null, "vocab", "vocab"],
+      "evidence": "出張の＿＿＿が決まりましたら",
+      "vocab": [
+        { "jp": "日程", "kana": "にってい", "en": "schedule (of days), itinerary" },
+        { "jp": "出張", "kana": "しゅっちょう", "en": "business trip" },
+        { "jp": "期限", "kana": "きげん", "en": "deadline, time limit" },
+        { "jp": "工程", "kana": "こうてい", "en": "process, production step" }
+      ],
+      "nuance": "〜ましたら is a polite conditional (= 〜たら) common in requests to colleagues."
+    },
+    {
+      "id": "p3v-002", "section": "vocab", "difficulty": 1, "skills": ["grammar"], "topic": "delivery",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "ご注文の商品は、昨日＿＿＿。お手元に届くまで、今しばらくお待ちください。",
+      "options": ["発送いたします", "発送しておりません", "発送いたしました", "発送いたしかねます"],
+      "answer": 2,
+      "explanation": "「昨日」 marks a completed action, and 「お手元に届くまで…お待ちください」 means the goods are on their way. So the shipping has already happened: 「発送いたしました」.",
+      "whyWrong": ["Non-past いたします is a plan or promise; it clashes with 「昨日」.", "If it had not been shipped, the customer could not simply wait for it to arrive.", "", "〜かねます is a polite refusal (we cannot ship), which contradicts asking the customer to wait for arrival."],
+      "traps": ["grammar", "negation", null, "inference"],
+      "evidence": "昨日／お手元に届くまで、今しばらくお待ちください",
+      "vocab": [
+        { "jp": "発送", "kana": "はっそう", "en": "shipping, dispatch" },
+        { "jp": "お手元", "kana": "おてもと", "en": "(your) hands, at hand (polite)" },
+        { "jp": "今しばらく", "kana": "いましばらく", "en": "a little longer" }
+      ],
+      "nuance": "発送いたしました is humble (謙譲語 II / 丁重語) for the company's own action reported to a customer."
+    },
+    {
+      "id": "p3v-003", "section": "vocab", "difficulty": 1, "skills": ["vocab"], "topic": "client",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "お問い合わせにつきましては、担当者が順番に＿＿＿いたします。",
+      "options": ["対策", "対立", "対照", "対応"],
+      "answer": 3,
+      "explanation": "Inquiries are dealt with / responded to: 「お問い合わせに対応する」. 対応いたします is the standard phrase for handling customer inquiries.",
+      "whyWrong": ["対策 is a countermeasure planned against a problem; you do not 対策 an inquiry.", "対立 means conflict or opposition.", "対照 means contrast or comparison.", ""],
+      "traps": ["vocab", "vocab", "vocab", null],
+      "evidence": "お問い合わせ／担当者が順番に",
+      "vocab": [
+        { "jp": "対応", "kana": "たいおう", "en": "response, dealing with" },
+        { "jp": "お問い合わせ", "kana": "おといあわせ", "en": "inquiry" },
+        { "jp": "担当者", "kana": "たんとうしゃ", "en": "person in charge" }
+      ]
+    },
+    {
+      "id": "p3v-004", "section": "vocab", "difficulty": 2, "skills": ["vocab"], "topic": "payment",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "確認したつもりでしたが、請求書の金額の誤りを＿＿＿おりました。大変申し訳ございません。",
+      "options": ["見落として", "見直して", "見積もって", "見合わせて"],
+      "answer": 0,
+      "explanation": "「確認したつもりでしたが」 (I thought I had checked) plus an apology shows the writer failed to notice the error: 「誤りを見落とす」 = to overlook a mistake.",
+      "whyWrong": ["", "見直す means to review/re-check; reviewing a mistake would not need an apology, and 「誤りを見直す」 is unnatural.", "見積もる means to estimate (a cost); you do not estimate an error.", "見合わせる means to postpone or suspend; it does not take 誤り as object."],
+      "traps": [null, "vocab", "vocab", "vocab"],
+      "evidence": "確認したつもりでしたが／大変申し訳ございません",
+      "vocab": [
+        { "jp": "見落とす", "kana": "みおとす", "en": "to overlook, miss" },
+        { "jp": "〜たつもり", "kana": "〜たつもり", "en": "thought one had done ~" },
+        { "jp": "請求書", "kana": "せいきゅうしょ", "en": "invoice" }
+      ],
+      "nuance": "〜ておりました is the humble form of 〜ていました, used when apologising for one's own lapse."
+    },
+    {
+      "id": "p3v-005", "section": "vocab", "difficulty": 2, "skills": ["vocab"], "topic": "sales",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "こちらの割引券には有効＿＿＿がございますので、裏面の日付をご確認ください。",
+      "options": ["納期", "期限", "日程", "時期"],
+      "answer": 1,
+      "explanation": "The fixed compound is 有効期限 (expiry date / validity period). The date printed on the back tells the customer until when the coupon can be used.",
+      "whyWrong": ["納期 is a delivery deadline; 有効納期 does not exist.", "", "日程 is a schedule of days; 有効日程 is not a word.", "時期 is a general period/season; 有効時期 is not the set term."],
+      "traps": ["vocab", null, "vocab", "vocab"],
+      "evidence": "有効＿＿＿／裏面の日付",
+      "vocab": [
+        { "jp": "有効期限", "kana": "ゆうこうきげん", "en": "expiry date" },
+        { "jp": "割引券", "kana": "わりびきけん", "en": "discount coupon" },
+        { "jp": "裏面", "kana": "りめん", "en": "reverse side" }
+      ]
+    },
+    {
+      "id": "p3v-006", "section": "vocab", "difficulty": 2, "skills": ["vocab"], "topic": "presentation",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "時間が限られておりますので、細かい数字の説明は＿＿＿させていただきます。",
+      "options": ["削減", "節約", "縮小", "省略"],
+      "answer": 3,
+      "explanation": "Because time is short, the presenter will leave out the detailed explanation: 「説明を省略する」 = to omit/skip part of something.",
+      "whyWrong": ["削減 is cutting an amount (costs, staff), not skipping an explanation.", "節約 is saving/economising (money, energy); you do not 節約 an explanation.", "縮小 is reducing scale or size (business, budget), not leaving out content.", ""],
+      "traps": ["vocab", "vocab", "vocab", null],
+      "evidence": "時間が限られておりますので",
+      "vocab": [
+        { "jp": "省略", "kana": "しょうりゃく", "en": "omission, leaving out" },
+        { "jp": "削減", "kana": "さくげん", "en": "reduction, cut" },
+        { "jp": "節約", "kana": "せつやく", "en": "saving, economising" }
+      ],
+      "nuance": "〜させていただきます here announces one's own decision politely to an audience."
+    },
+    {
+      "id": "p3v-007", "section": "vocab", "difficulty": 2, "skills": ["vocab", "grammar"], "topic": "quality",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "同様の不具合が再発しないよう、早急に＿＿＿を講じてまいります。",
+      "options": ["対策", "対比", "対面", "対象"],
+      "answer": 0,
+      "explanation": "Measures to prevent recurrence are 対策, and the set collocation is 「対策を講じる」 (to take measures).",
+      "whyWrong": ["", "対比 means comparison or contrast; one does not 講じる a comparison to prevent recurrence.", "対面 means meeting face to face.", "対象 means target or subject (of a survey, etc.)."],
+      "traps": [null, "vocab", "vocab", "vocab"],
+      "evidence": "再発しないよう／を講じて",
+      "vocab": [
+        { "jp": "対策を講じる", "kana": "たいさくをこうじる", "en": "to take measures" },
+        { "jp": "不具合", "kana": "ふぐあい", "en": "defect, malfunction" },
+        { "jp": "再発", "kana": "さいはつ", "en": "recurrence" }
+      ],
+      "nuance": "対応 = respond to a situation; 対処 = handle a problem that has occurred; 対策 = planned measures against a problem."
+    },
+    {
+      "id": "p3v-008", "section": "vocab", "difficulty": 2, "skills": ["grammar"], "topic": "email",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "先日お問い合わせいただいたお見積もりの＿＿＿、本日資料をお送りいたしました。",
+      "options": ["件にかかわらず", "件につきまして", "件に先立ちまして", "件に限りまして"],
+      "answer": 1,
+      "explanation": "The email is about the quotation the client asked about. 「〜の件につきまして」 (regarding the matter of ~) is the standard email phrase for introducing the subject.",
+      "whyWrong": ["にかかわらず means 'regardless of', which makes no sense: the materials are sent because of the inquiry.", "", "に先立ち means 'prior to'; sending materials before the matter itself is illogical.", "に限り means 'only for', which changes the meaning to an exclusive offer."],
+      "traps": ["grammar", null, "grammar", "grammar"],
+      "evidence": "お問い合わせいただいたお見積もり",
+      "vocab": [
+        { "jp": "〜の件につきまして", "kana": "〜のけんにつきまして", "en": "regarding the matter of ~" },
+        { "jp": "見積もり", "kana": "みつもり", "en": "quotation, estimate" },
+        { "jp": "先日", "kana": "せんじつ", "en": "the other day" }
+      ],
+      "nuance": "につきまして is the polite form of について."
+    },
+    {
+      "id": "p3v-009", "section": "vocab", "difficulty": 2, "skills": ["grammar"], "topic": "meeting",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "会議の日時が決まり＿＿＿、皆様に改めてご連絡いたします。",
+      "options": ["ながら", "以上", "次第", "一方"],
+      "answer": 2,
+      "explanation": "Verb stem + 次第 means 'as soon as ~': 「決まり次第、ご連絡いたします」 = I will contact you as soon as it is decided.",
+      "whyWrong": ["Stem + ながら means 'while' (two actions at once) or 'although'; neither fits announcing a later contact.", "以上 needs a full verb form (決まった以上 = now that it is decided) and does not attach to the stem 決まり.", "", "一方 needs a dictionary form and means 'on the other hand / increasingly'; it does not fit."],
+      "traps": ["grammar", "grammar", null, "grammar"],
+      "evidence": "決まり＿＿＿、…改めてご連絡いたします",
+      "vocab": [
+        { "jp": "〜次第", "kana": "〜しだい", "en": "as soon as ~" },
+        { "jp": "改めて", "kana": "あらためて", "en": "again, separately" },
+        { "jp": "日時", "kana": "にちじ", "en": "date and time" }
+      ]
+    },
+    {
+      "id": "p3v-010", "section": "vocab", "difficulty": 2, "skills": ["grammar"], "topic": "sales",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "当店では、ご購入金額＿＿＿、全国どこでも送料無料でお届けいたします。",
+      "options": ["に限り", "に伴い", "に先立ち", "にかかわらず"],
+      "answer": 3,
+      "explanation": "「全国どこでも送料無料」 means free shipping in all cases, so the amount spent does not matter: 「ご購入金額にかかわらず」 = regardless of purchase amount.",
+      "whyWrong": ["に限り (only for) needs a specific condition such as 5,000円以上に限り; 「ご購入金額に限り」 makes no sense.", "に伴い (along with a change) needs a change or event, not an amount.", "に先立ち (prior to) needs an event; a purchase amount does not come 'before' shipping.", ""],
+      "traps": ["grammar", "grammar", "grammar", null],
+      "evidence": "全国どこでも送料無料",
+      "vocab": [
+        { "jp": "〜にかかわらず", "kana": "〜にかかわらず", "en": "regardless of ~" },
+        { "jp": "送料無料", "kana": "そうりょうむりょう", "en": "free shipping" },
+        { "jp": "購入金額", "kana": "こうにゅうきんがく", "en": "purchase amount" }
+      ]
+    },
+    {
+      "id": "p3v-011", "section": "vocab", "difficulty": 2, "skills": ["vocab"], "topic": "cost",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "原材料費の高騰に伴い、4月1日より一部商品の価格を＿＿＿こととなりました。",
+      "options": ["引き下げる", "引き受ける", "引き継ぐ", "引き上げる"],
+      "answer": 3,
+      "explanation": "Raw-material costs have soared (「高騰」), so prices go up: 「価格を引き上げる」 = to raise prices.",
+      "whyWrong": ["引き下げる (lower) is the opposite of what rising costs cause.", "引き受ける means to take on a job or request, not to change a price.", "引き継ぐ means to take over duties from someone.", ""],
+      "traps": ["inference", "vocab", "vocab", null],
+      "evidence": "原材料費の高騰に伴い",
+      "vocab": [
+        { "jp": "引き上げる", "kana": "ひきあげる", "en": "to raise (prices, rates)" },
+        { "jp": "高騰", "kana": "こうとう", "en": "sharp rise (in price)" },
+        { "jp": "〜に伴い", "kana": "〜にともない", "en": "along with, due to (a change)" }
+      ],
+      "nuance": "〜こととなりました presents a decision as an outcome, softening a price increase announcement."
+    },
+    {
+      "id": "p3v-012", "section": "vocab", "difficulty": 3, "skills": ["vocab", "intention"], "topic": "delivery",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "台風の接近により、本日の出荷を一時＿＿＿おります。再開は明朝を予定しております。",
+      "options": ["見直して", "見合わせて", "見積もって", "見落として"],
+      "answer": 1,
+      "explanation": "「一時」 (temporarily) and 「再開は明朝」 (resuming tomorrow morning) show shipping has been stopped for now: 「出荷を見合わせる」 = to suspend/hold off.",
+      "whyWrong": ["見直す means to review/reconsider; it does not mean stopping, so 'resuming' would make no sense.", "", "見積もる means to estimate a cost or amount.", "見落とす means to overlook by mistake; you cannot 'resume' something you overlooked."],
+      "traps": ["vocab", null, "vocab", "vocab"],
+      "evidence": "一時／再開は明朝を予定しております",
+      "vocab": [
+        { "jp": "見合わせる", "kana": "みあわせる", "en": "to suspend, hold off" },
+        { "jp": "出荷", "kana": "しゅっか", "en": "shipment" },
+        { "jp": "再開", "kana": "さいかい", "en": "resumption" },
+        { "jp": "明朝", "kana": "みょうちょう", "en": "tomorrow morning (formal)" }
+      ]
+    },
+    {
+      "id": "p3v-013", "section": "vocab", "difficulty": 3, "skills": ["vocab"], "topic": "it",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "1か月のテスト運用の結果をもとに新システムの効果を＿＿＿したところ、処理時間が約3割短縮されることが確かめられた。",
+      "options": ["検索", "検品", "検証", "検収"],
+      "answer": 2,
+      "explanation": "Using test results to confirm whether something works is 検証 (verification). 「確かめられた」 (was confirmed) shows the effect was verified.",
+      "whyWrong": ["検索 is searching (for information).", "検品 is inspecting goods for defects.", "", "検収 is checking and formally accepting delivered goods or work."],
+      "traps": ["vocab", "vocab", null, "vocab"],
+      "evidence": "テスト運用の結果をもとに／確かめられた",
+      "vocab": [
+        { "jp": "検証", "kana": "けんしょう", "en": "verification" },
+        { "jp": "運用", "kana": "うんよう", "en": "operation, use (of a system)" },
+        { "jp": "短縮", "kana": "たんしゅく", "en": "shortening, reduction (of time)" },
+        { "jp": "検収", "kana": "けんしゅう", "en": "acceptance inspection" }
+      ]
+    },
+    {
+      "id": "p3v-014", "section": "vocab", "difficulty": 3, "skills": ["vocab"], "topic": "hr",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "業績の悪化を受け、来年度は人員の＿＿＿が避けられない見通しだ。",
+      "options": ["節約", "削減", "省略", "短縮"],
+      "answer": 1,
+      "explanation": "Cutting the number of staff is 人員削減, a fixed collocation. 削減 is used for reducing amounts or numbers (costs, staff, CO2).",
+      "whyWrong": ["節約 is careful saving of money or resources; people are not 'saved' this way.", "", "省略 is leaving out words or steps.", "短縮 is shortening time or length (hours, period)."],
+      "traps": ["vocab", null, "vocab", "vocab"],
+      "evidence": "人員の＿＿＿",
+      "vocab": [
+        { "jp": "人員削減", "kana": "じんいんさくげん", "en": "staff reduction" },
+        { "jp": "業績", "kana": "ぎょうせき", "en": "business results" },
+        { "jp": "見通し", "kana": "みとおし", "en": "outlook, prospect" }
+      ]
+    },
+    {
+      "id": "p3v-015", "section": "vocab", "difficulty": 3, "skills": ["vocab"], "topic": "hr",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "来月の異動までに、後任者への業務の＿＿＿を済ませておいてください。",
+      "options": ["引き継ぎ", "引き受け", "引き上げ", "引き下げ"],
+      "answer": 0,
+      "explanation": "Before a transfer, one hands over duties to a successor: 「後任者への引き継ぎ」. 引き継ぐ/引き継ぎ is passing work from the predecessor to the successor.",
+      "whyWrong": ["", "引き受け is accepting a request yourself; it does not take 「後任者への」 (to the successor).", "引き上げ means raising (prices) or withdrawing.", "引き下げ means lowering (prices, rates)."],
+      "traps": [null, "vocab", "vocab", "vocab"],
+      "evidence": "異動までに、後任者への",
+      "vocab": [
+        { "jp": "引き継ぎ", "kana": "ひきつぎ", "en": "handover" },
+        { "jp": "後任者", "kana": "こうにんしゃ", "en": "successor" },
+        { "jp": "異動", "kana": "いどう", "en": "personnel transfer" }
+      ]
+    },
+    {
+      "id": "p3v-016", "section": "vocab", "difficulty": 3, "skills": ["grammar"], "topic": "marketing",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "6月の新製品発売＿＿＿、5月中旬に取引先向けの説明会を開催いたします。",
+      "options": ["にかかわらず", "をもちまして", "に先立ち", "をよそに"],
+      "answer": 2,
+      "explanation": "The briefing in mid-May comes before the June launch: 「発売に先立ち」 = prior to the launch, as a preparation for it.",
+      "whyWrong": ["にかかわらず (regardless of) makes no sense; the briefing exists because of the launch.", "をもちまして marks an end point (as of ~), used for closing or ending something.", "", "をよそに means 'ignoring/disregarding' (e.g. 反対をよそに); a company does not ignore its own launch."],
+      "traps": ["grammar", "grammar", null, "grammar"],
+      "evidence": "6月の…発売／5月中旬に",
+      "vocab": [
+        { "jp": "〜に先立ち", "kana": "〜にさきだち", "en": "prior to ~" },
+        { "jp": "発売", "kana": "はつばい", "en": "release, launch" },
+        { "jp": "説明会", "kana": "せつめいかい", "en": "briefing session" }
+      ]
+    },
+    {
+      "id": "p3v-017", "section": "vocab", "difficulty": 3, "skills": ["grammar", "intention"], "topic": "general",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "当店は、本日＿＿＿閉店いたします。長年にわたるご愛顧、誠にありがとうございました。",
+      "options": ["に限りまして", "につきまして", "にとりまして", "をもちまして"],
+      "answer": 3,
+      "explanation": "Thanking customers for 'many years of patronage' shows the shop is closing for good. 「本日をもちまして閉店いたします」 = as of today we are closing.",
+      "whyWrong": ["本日に限り means 'today only', i.e. a one-day closure; that would not call for thanks for years of patronage.", "につきまして means 'regarding', which does not fit with 本日.", "にとりまして means 'for (someone)', a viewpoint marker that cannot follow 本日.", ""],
+      "traps": ["inference", "grammar", "grammar", null],
+      "evidence": "長年にわたるご愛顧、誠にありがとうございました",
+      "vocab": [
+        { "jp": "〜をもちまして", "kana": "〜をもちまして", "en": "as of ~ (formal end point)" },
+        { "jp": "ご愛顧", "kana": "ごあいこ", "en": "patronage" },
+        { "jp": "閉店", "kana": "へいてん", "en": "closing (a shop)" }
+      ],
+      "nuance": "をもちまして is the formal 丁重語 version of をもって, typical of closing notices and speeches."
+    },
+    {
+      "id": "p3v-018", "section": "vocab", "difficulty": 3, "skills": ["grammar"], "topic": "complaint",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "誠に申し訳ございませんが、そのようなご要望にはお応えし＿＿＿。",
+      "options": ["かねません", "かねます", "かけます", "きれます"],
+      "answer": 1,
+      "explanation": "「申し訳ございませんが」 introduces a refusal. Verb stem + かねます means 'we are unable to', a polite business refusal: 「お応えしかねます」.",
+      "whyWrong": ["かねません means 'might well (do something bad)', the opposite meaning; it is not a refusal.", "", "〜かけます means 'start to / be about to', which makes no sense here.", "〜きれます means 'can fully do'; it is positive and contradicts the apology."],
+      "traps": ["negation", null, "grammar", "negation"],
+      "evidence": "誠に申し訳ございませんが",
+      "vocab": [
+        { "jp": "〜かねます", "kana": "〜かねます", "en": "unable to ~ (polite refusal)" },
+        { "jp": "ご要望", "kana": "ごようぼう", "en": "request, demand" },
+        { "jp": "お応えする", "kana": "おこたえする", "en": "to meet (expectations), respond (humble)" }
+      ],
+      "nuance": "〜かねます looks positive but means 'cannot'; 〜かねません looks negative but means 'may well happen'."
+    },
+    {
+      "id": "p3v-019", "section": "vocab", "difficulty": 3, "skills": ["grammar"], "topic": "finance",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "予算が大幅に不足しているため、今回の計画は中止＿＿＿。",
+      "options": ["せざるを得ない", "せずに済んだ", "するまでもない", "するには及ばない"],
+      "answer": 0,
+      "explanation": "A large budget shortfall forces cancellation: 「中止せざるを得ない」 = we have no choice but to cancel.",
+      "whyWrong": ["", "せずに済んだ means 'we managed to avoid cancelling', contradicting the budget shortfall.", "するまでもない means 'there's no need to even do it', which does not follow from a lack of money.", "するには及ばない means 'it is not necessary to', the opposite of being forced."],
+      "traps": [null, "negation", "grammar", "grammar"],
+      "evidence": "予算が大幅に不足しているため",
+      "vocab": [
+        { "jp": "〜ざるを得ない", "kana": "〜ざるをえない", "en": "have no choice but to ~" },
+        { "jp": "大幅に", "kana": "おおはばに", "en": "greatly, substantially" },
+        { "jp": "予算", "kana": "よさん", "en": "budget" }
+      ],
+      "nuance": "する becomes せ before ざるを得ない (せざるを得ない)."
+    },
+    {
+      "id": "p3v-020", "section": "vocab", "difficulty": 3, "skills": ["grammar"], "topic": "marketing",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "新しい広告を出したが、売上は伸びる＿＿＿、前月よりも下がってしまった。",
+      "options": ["ばかりか", "うえに", "どころか", "とともに"],
+      "answer": 2,
+      "explanation": "Sales were expected to grow but instead fell: 「伸びるどころか下がった」 = far from growing, they dropped. どころか introduces the opposite of what was expected.",
+      "whyWrong": ["ばかりか adds something in the same direction (not only ~ but also); growing and falling are opposites.", "うえに also adds in the same direction (in addition to ~).", "", "とともに means 'together with / as ~ happens'; growing together with falling is contradictory."],
+      "traps": ["grammar", "grammar", null, "grammar"],
+      "evidence": "伸びる＿＿＿、前月よりも下がってしまった",
+      "vocab": [
+        { "jp": "〜どころか", "kana": "〜どころか", "en": "far from ~, on the contrary" },
+        { "jp": "売上", "kana": "うりあげ", "en": "sales" },
+        { "jp": "伸びる", "kana": "のびる", "en": "to grow, increase" }
+      ]
+    },
+    {
+      "id": "p3v-021", "section": "vocab", "difficulty": 3, "skills": ["vocab", "intention"], "topic": "production",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "取引先から「一日でも早く欲しい」との要望があり、納品日を3日＿＿＿することになった。",
+      "options": ["先送り", "前倒し", "後回し", "繰り越し"],
+      "answer": 1,
+      "explanation": "The client wants the goods as early as possible, so the delivery date is moved earlier: 「前倒しする」 = to bring forward.",
+      "whyWrong": ["先送り is postponing, the opposite of what the client wants.", "", "後回し is putting something off until later (lower priority), also the opposite.", "繰り越し is carrying over (a balance, budget) to the next period."],
+      "traps": ["inference", null, "inference", "vocab"],
+      "evidence": "一日でも早く欲しい",
+      "vocab": [
+        { "jp": "前倒し", "kana": "まえだおし", "en": "bringing forward (a schedule)" },
+        { "jp": "先送り", "kana": "さきおくり", "en": "postponement" },
+        { "jp": "納品日", "kana": "のうひんび", "en": "delivery date" }
+      ]
+    },
+    {
+      "id": "p3v-022", "section": "vocab", "difficulty": 3, "skills": ["grammar"], "topic": "meeting",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "前回の会議でいただいたご意見＿＿＿、企画案を一部修正いたしました。",
+      "options": ["に先立ち", "にかかわらず", "を限りに", "を踏まえ"],
+      "answer": 3,
+      "explanation": "The plan was revised based on the opinions received at the last meeting: 「ご意見を踏まえ」 = taking the opinions into account.",
+      "whyWrong": ["に先立ち (before) is illogical: the opinions were already given at the last meeting.", "にかかわらず (regardless of) contradicts revising the plan because of the opinions.", "を限りに marks a final point in time (as of today); it cannot follow ご意見.", ""],
+      "traps": ["grammar", "inference", "grammar", null],
+      "evidence": "いただいたご意見／修正いたしました",
+      "vocab": [
+        { "jp": "〜を踏まえ", "kana": "〜をふまえ", "en": "based on, taking into account" },
+        { "jp": "企画案", "kana": "きかくあん", "en": "project proposal" },
+        { "jp": "修正", "kana": "しゅうせい", "en": "revision, correction" }
+      ]
+    },
+    {
+      "id": "p3v-023", "section": "vocab", "difficulty": 4, "skills": ["vocab", "grammar"], "topic": "it",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "顧客情報の流出を受け、システム部門には＿＿＿対応が求められている。",
+      "options": ["悠長な", "直ちな", "早急な", "即座な"],
+      "answer": 2,
+      "explanation": "A data leak demands a prompt response, and 早急 is a な-adjective that can modify a noun: 「早急な対応」 = prompt response. 直ち and 即座 share the meaning but cannot take な.",
+      "whyWrong": ["悠長な is grammatical but means leisurely/unhurried, the opposite of what a data leak requires.", "直ちに is only an adverb; 「直ちな」 does not exist.", "", "即座 takes の or に (即座の判断, 即座に); 「即座な」 is ungrammatical."],
+      "traps": ["inference", "grammar", null, "grammar"],
+      "evidence": "顧客情報の流出を受け／＿＿＿対応",
+      "vocab": [
+        { "jp": "早急", "kana": "さっきゅう", "en": "urgent, prompt (also そうきゅう)" },
+        { "jp": "悠長", "kana": "ゆうちょう", "en": "leisurely, slow-paced" },
+        { "jp": "直ちに", "kana": "ただちに", "en": "immediately" },
+        { "jp": "流出", "kana": "りゅうしゅつ", "en": "leak, outflow" }
+      ],
+      "nuance": "早急な/早急に, 直ちに, 即座の/即座に: the meaning overlaps, the grammar does not."
+    },
+    {
+      "id": "p3v-024", "section": "vocab", "difficulty": 4, "skills": ["vocab", "intention"], "topic": "sales",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "大変ありがたいお話ですが、現在の人員では、これ以上新しい案件を＿＿＿のは難しい状況です。",
+      "options": ["引き出す", "引き受ける", "引き上げる", "引き下げる"],
+      "answer": 1,
+      "explanation": "The speaker is politely declining an offer of new work. Accepting a job or request is 引き受ける: 「案件を引き受けるのは難しい」.",
+      "whyWrong": ["引き出す means to draw out or withdraw (money, information); it does not take 案件.", "", "引き上げる means raising (prices) or withdrawing; it does not fit 案件.", "引き下げる means lowering (prices, rates)."],
+      "traps": ["vocab", null, "vocab", "vocab"],
+      "evidence": "ありがたいお話ですが／新しい案件を",
+      "vocab": [
+        { "jp": "引き受ける", "kana": "ひきうける", "en": "to take on, accept (a job)" },
+        { "jp": "案件", "kana": "あんけん", "en": "project, matter, deal" },
+        { "jp": "人員", "kana": "じんいん", "en": "staff, personnel" }
+      ],
+      "nuance": "「ありがたいお話ですが…難しい状況です」 is a typical soft refusal: thanks first, then 'difficult' instead of 'no'."
+    },
+    {
+      "id": "p3v-025", "section": "vocab", "difficulty": 4, "skills": ["grammar"], "topic": "delivery",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "お客様とお約束した納期ですから、こちらの都合で遅らせる＿＿＿。",
+      "options": ["わけにはいかない", "わけではない", "はずだ", "ことになる"],
+      "answer": 0,
+      "explanation": "Because it is a promise to the customer, the speaker cannot (socially, morally) delay it for their own convenience: 「遅らせるわけにはいかない」.",
+      "whyWrong": ["", "わけではない means 'it doesn't mean that we delay', a partial denial that does not follow from 'because it was a promise'.", "はずだ means 'it is expected that we delay', contradicting the promise.", "ことになる means 'it will turn out that we delay', again contradicting the promise."],
+      "traps": [null, "grammar", "inference", "inference"],
+      "evidence": "お客様とお約束した納期ですから",
+      "vocab": [
+        { "jp": "〜わけにはいかない", "kana": "〜わけにはいかない", "en": "cannot (for social/moral reasons)" },
+        { "jp": "納期", "kana": "のうき", "en": "delivery deadline" },
+        { "jp": "都合", "kana": "つごう", "en": "convenience, circumstances" }
+      ]
+    },
+    {
+      "id": "p3v-026", "section": "vocab", "difficulty": 4, "skills": ["grammar", "intention"], "topic": "meeting",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "今回のご提案に反対している＿＿＿が、費用の面ではもう少し検討が必要だと考えております。",
+      "options": ["わけにはいきません", "に違いありません", "わけではありません", "までもありません"],
+      "answer": 2,
+      "explanation": "The speaker is not against the proposal as such but has reservations about cost. 「反対しているわけではありませんが」 = it's not that I'm opposed, but ~ (partial denial).",
+      "whyWrong": ["わけにはいきません means 'I cannot (be opposed)', expressing an obligation, not a clarification of one's stance.", "に違いありません is a guess ('must surely be opposing'); a speaker does not guess about their own stance, and it clashes with the following が.", "", "までもありません (there is no need even to ~) attaches to verbs like 言う/説明する; 「反対しているまでもありません」 is ungrammatical."],
+      "traps": ["grammar", "grammar", null, "grammar"],
+      "evidence": "反対している＿＿＿が、費用の面では",
+      "vocab": [
+        { "jp": "〜わけではない", "kana": "〜わけではない", "en": "it's not that ~ (partial denial)" },
+        { "jp": "費用の面", "kana": "ひようのめん", "en": "in terms of cost" },
+        { "jp": "検討", "kana": "けんとう", "en": "consideration, examination" }
+      ],
+      "nuance": "わけではない softens disagreement in meetings: it denies the strong reading, then adds a reservation."
+    },
+    {
+      "id": "p3v-027", "section": "vocab", "difficulty": 4, "skills": ["grammar"], "topic": "it",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "新システムの導入により、作業時間が短縮された＿＿＿、入力ミスも大幅に減った。",
+      "options": ["どころか", "わりに", "くせに", "ばかりか"],
+      "answer": 3,
+      "explanation": "Two good results are added together: shorter work time and fewer input errors. 「〜ばかりか…も」 = not only ~ but also.",
+      "whyWrong": ["どころか introduces a contrast with the expected result; both results here are positive.", "わりに means 'considering ~' (unexpectedly), which needs a contrast.", "くせに is a critical 'even though', with a blaming tone that does not fit good news.", ""],
+      "traps": ["grammar", "grammar", "grammar", null],
+      "evidence": "短縮された＿＿＿、入力ミスも大幅に減った",
+      "vocab": [
+        { "jp": "〜ばかりか", "kana": "〜ばかりか", "en": "not only ~ (but also)" },
+        { "jp": "導入", "kana": "どうにゅう", "en": "introduction (of a system)" },
+        { "jp": "入力ミス", "kana": "にゅうりょくミス", "en": "input error" }
+      ],
+      "nuance": "ばかりか adds in the same direction (with も); どころか reverses the expectation."
+    },
+    {
+      "id": "p3v-028", "section": "vocab", "difficulty": 4, "skills": ["vocab"], "topic": "finance",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "10万円以上の備品を購入する場合は、事前に＿＿＿書を提出し、部長の決裁を受けてください。",
+      "options": ["稟議", "請求", "領収", "納品"],
+      "answer": 0,
+      "explanation": "A request circulated in advance to get a manager's approval (決裁) for a purchase is a 稟議書.",
+      "whyWrong": ["", "請求書 is an invoice sent to request payment, not an internal approval request.", "領収書 is a receipt, issued after paying, not before.", "納品書 is a delivery note that comes with goods."],
+      "traps": [null, "vocab", "vocab", "vocab"],
+      "evidence": "事前に／部長の決裁を受けて",
+      "vocab": [
+        { "jp": "稟議書", "kana": "りんぎしょ", "en": "internal approval request" },
+        { "jp": "決裁", "kana": "けっさい", "en": "approval (by a superior)" },
+        { "jp": "備品", "kana": "びひん", "en": "equipment, fixtures" }
+      ]
+    },
+    {
+      "id": "p3v-029", "section": "vocab", "difficulty": 4, "skills": ["vocab", "intention"], "topic": "complaint",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "このように納期の遅れが続くようでは、御社との今後のお取引を＿＿＿ざるを得ません。",
+      "options": ["見落とさ", "見積もら", "見習わ", "見直さ"],
+      "answer": 3,
+      "explanation": "This is a complaint: if delays continue, the writer will have to reconsider the business relationship. 「取引を見直さざるを得ません」 = we will have no choice but to review our dealings.",
+      "whyWrong": ["見落とす (overlook) is an accidental mistake, not something one is forced to do.", "見積もる (estimate) a business relationship makes no sense.", "見習う (follow an example) is positive and contradicts the critical tone.", ""],
+      "traps": ["vocab", "vocab", "inference", null],
+      "evidence": "納期の遅れが続くようでは",
+      "vocab": [
+        { "jp": "見直す", "kana": "みなおす", "en": "to review, reconsider" },
+        { "jp": "取引", "kana": "とりひき", "en": "business dealings" },
+        { "jp": "〜ようでは", "kana": "〜ようでは", "en": "if (this bad situation) continues" }
+      ],
+      "nuance": "「見直さざるを得ません」 is a polite but serious warning; the criticism is carried by 〜ようでは."
+    },
+    {
+      "id": "p3v-030", "section": "vocab", "difficulty": 5, "skills": ["vocab", "grammar"], "topic": "finance",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "主要取引先の経営破綻により、当社も事業の縮小を＿＿＿。",
+      "options": ["余儀なくされた", "余儀なくした", "免れた", "見込まれた"],
+      "answer": 0,
+      "explanation": "A main customer's bankruptcy forced the company to shrink: 「縮小を余儀なくされた」 = was forced to downsize. The passive is required because the company is the one being forced.",
+      "whyWrong": ["", "The active 余儀なくする is used with a cause as subject (破綻が当社に縮小を余儀なくさせた); with 当社も as subject it is ungrammatical.", "免れた (escaped) contradicts 「も」 and the bankruptcy of a main customer.", "見込まれた (was expected) does not take 縮小を with 当社 as subject and loses the 'forced' meaning."],
+      "traps": [null, "grammar", "inference", "grammar"],
+      "evidence": "経営破綻により、当社も",
+      "vocab": [
+        { "jp": "余儀なくされる", "kana": "よぎなくされる", "en": "to be forced to" },
+        { "jp": "経営破綻", "kana": "けいえいはたん", "en": "business failure, bankruptcy" },
+        { "jp": "縮小", "kana": "しゅくしょう", "en": "downsizing, reduction" }
+      ]
+    },
+    {
+      "id": "p3v-031", "section": "vocab", "difficulty": 5, "skills": ["grammar"], "topic": "sales",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "来春オープンする東京店＿＿＿、3年以内に全国10か所への出店を計画している。",
+      "options": ["を皮切りに", "をよそに", "を限りに", "をおいて"],
+      "answer": 0,
+      "explanation": "The Tokyo store is the first in a series of openings: 「東京店を皮切りに」 = starting with the Tokyo store.",
+      "whyWrong": ["", "をよそに means 'ignoring/disregarding' (e.g. 反対をよそに), which does not fit a store.", "を限りに marks the last time something happens (as of ~, it ends), the opposite of a start.", "をおいて means 'apart from/other than' (彼をおいてほかにいない), which does not fit."],
+      "traps": [null, "grammar", "inference", "grammar"],
+      "evidence": "東京店＿＿＿、…全国10か所への出店",
+      "vocab": [
+        { "jp": "〜を皮切りに", "kana": "〜をかわきりに", "en": "starting with ~" },
+        { "jp": "出店", "kana": "しゅってん", "en": "opening a store" },
+        { "jp": "来春", "kana": "らいしゅん", "en": "next spring" }
+      ]
+    },
+    {
+      "id": "p3v-032", "section": "vocab", "difficulty": 5, "skills": ["grammar"], "topic": "finance",
+      "stem": "＿＿＿に入る最も適当なものを選んでください。",
+      "passage": "審査の結果＿＿＿、ご契約をお断りする場合もございますので、あらかじめご了承ください。",
+      "options": ["いかんによらず", "にもかかわらず", "ばかりか", "いかんでは"],
+      "answer": 3,
+      "explanation": "Refusal happens only in some cases, depending on the screening result: 「審査の結果いかんでは」 = depending on the result. 「場合もございます」 confirms the conditional meaning.",
+      "whyWrong": ["いかんによらず means 'regardless of', which contradicts refusal 'in some cases' depending on the screening.", "にもかかわらず means 'despite' and needs a contrast that is not there.", "ばかりか (not only) adds information and does not make a condition.", ""],
+      "traps": ["inference", "grammar", "grammar", null],
+      "evidence": "お断りする場合もございます",
+      "vocab": [
+        { "jp": "〜いかんでは", "kana": "〜いかんでは", "en": "depending on ~" },
+        { "jp": "審査", "kana": "しんさ", "en": "screening, review" },
+        { "jp": "ご了承ください", "kana": "ごりょうしょうください", "en": "please understand / note" }
+      ],
+      "nuance": "いかん (如何) is formal written style; いかんでは = によっては, いかんによらず = にかかわらず."
+    }
+  ]
+}

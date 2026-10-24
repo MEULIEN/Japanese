@@ -153,15 +153,15 @@ async function driveSession(pg, p, max) {
 test('home screen: required layout, hierarchy and no layout defects (3 phone sizes)', async () => {
   for (const ph of Object.keys(PHONES)) {
     const pg = await page(ph);
-    const order = await pg.$$eval('.act-grid .act', els => els.map(e => e.dataset.kind));
-    assert.deepStrictEqual(order, ['morning', 'evening', 'recall', 'training', 'weekly']);
+    const order = await pg.$$eval('.act-grid .act', els => els.map(e => e.dataset.kind || e.dataset.view));
+    assert.deepStrictEqual(order, ['morning', 'evening', 'recall', 'training', 'weekly', 'bjt'], 'BJT Training card after Weekly');
     const r = await pg.$$eval('.act-grid .act', els => els.map(e => { const b = e.getBoundingClientRect(); return [e.dataset.kind, Math.round(b.top), Math.round(b.left)]; }));
     const at = k => r.find(x => x[0] === k);
     assert.ok(at('morning')[1] < at('evening')[1] && at('evening')[1] < at('recall')[1] && at('recall')[1] === at('training')[1] && at('training')[1] < at('weekly')[1], 'Morning / Evening / [Recall Training] / Weekly');
     assert.ok(await pg.$('.act.weekly.locked') || await pg.$('.act.weekly'), 'weekly visible');
     await layoutAudit(pg, 'home ' + ph);
     await shot(pg, 'home-' + ph);
-    for (const v of ['train', 'kanji', 'conj', 'progress', 'words']) { await tapSel(pg, `.tabbar [data-view="${v}"]`); await pg.waitForSelector('.topbar'); await layoutAudit(pg, v + ' ' + ph); await shot(pg, v + '-' + ph); }
+    for (const v of ['bjt', 'train', 'kanji', 'conj', 'progress', 'words']) { await tapSel(pg, `.tabbar [data-view="${v}"]`); await pg.waitForSelector('.topbar'); await layoutAudit(pg, v + ' ' + ph); await shot(pg, v + '-' + ph); }
     await tapSel(pg, '.tabbar [data-view="home"]'); await tapSel(pg, '[data-view="settings"]'); await layoutAudit(pg, 'settings ' + ph); await shot(pg, 'settings-' + ph);
     assert.deepStrictEqual(pg.errors, [], 'no JS errors: ' + pg.errors.join('\n'));
     await pg.ctx.close();
@@ -438,8 +438,8 @@ test('evening: locked at 11:59 with "Available from 12:00", unlocks at 12:00 wit
 test('kanji tab: radical lesson by touch, radical page, own schedule (vocabulary untouched), layout at 320 px', async () => {
   for (const ph of ['small', 'iphone']) {
     const pg = await page(ph);
-    const labels = await pg.$$eval('.tabbar-btn', bs => bs.map(b => { const l = b.querySelector('.t-label'); return { t: l.textContent, clipped: l.scrollWidth > l.clientWidth + 1, w: b.getBoundingClientRect().width }; }));
-    assert.strictEqual(labels.length, 6);
+    const labels = await pg.$$eval('.tabbar-btn', bs => bs.map(b => { const l = [...b.querySelectorAll('.t-label')].find(x => x.offsetWidth > 0); return { t: l.textContent, clipped: l.scrollWidth > l.clientWidth + 1, w: b.getBoundingClientRect().width }; }));
+    assert.strictEqual(labels.length, 7);   // Today · BJT · Train · Kanji · Conjugate · Progress · Words
     assert.ok(labels.every(l => !l.clipped && l.w >= 44), ph + ': tab labels fit ' + JSON.stringify(labels));
     await tapSel(pg, '.tabbar [data-view="kanji"]');
     await pg.waitForSelector('.rgrid');

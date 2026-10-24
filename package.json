@@ -4,17 +4,20 @@
   "private": true,
   "description": "Michi 道 — offline Japanese for life in Kyoto. The app needs NO build step and NO npm; this file only powers the dev tooling.",
   "scripts": {
-    "test": "node tests/core.test.js && node tests/speech.test.js && node tests/engine.test.js && node tests/data.test.js && node tests/kanji.test.js",
+    "test": "node tests/core.test.js && node tests/speech.test.js && node tests/engine.test.js && node tests/data.test.js && node tests/kanji.test.js && node tests/bjt.test.js",
     "test:core": "node tests/core.test.js",
     "test:engine": "node tests/engine.test.js",
     "test:data": "node tests/data.test.js",
     "test:e2e": "node tests/e2e.js",
-    "test:all": "npm test && node tests/e2e.js && node tests/e2e-webkit.js",
+    "test:all": "npm test && node tests/e2e.js && node tests/e2e-bjt.js && node tests/e2e-webkit.js",
     "audit": "node scripts/audit.js",
     "build:index": "node scripts/build_index.js",
     "test:webkit": "node tests/e2e-webkit.js",
     "test:kanji": "node tests/kanji.test.js",
-    "build:kanji": "node scripts/build_kanji.js"
+    "build:kanji": "node scripts/build_kanji.js",
+    "test:bjt": "node tests/bjt.test.js",
+    "test:e2e:bjt": "node tests/e2e-bjt.js",
+    "validate:bjt": "node scripts/validate_bjt.js"
   },
   "devDependencies": {
     "jsdom": "^30.1.3",

@@ -1,0 +1,32 @@
+{
+ "checked": "2026-10-25",
+ "note": "Format facts used by the BJT page and where each comes from. Practice questions are original; none is an official BJT item.",
+ "facts": [
+  { "fact": "Three parts: Part I Listening Comprehension (approx. 45 min), Part II Listening and Reading Comprehension (approx. 30 min), Part III Reading Comprehension (30 min).", "source": "features" },
+  { "fact": "Four-option multiple choice.", "source": "features" },
+  { "fact": "Scores are scaled with Item Response Theory (IRT), not raw totals; there is no pass/fail.", "source": "features" },
+  { "fact": "Score bands: J1+ 600–800, J1 530–599, J2 420–529, J3 320–419, J4 200–319, J5 0–199, with official ability descriptions.", "source": "levels" },
+  { "fact": "CBT format (since April 2017): 80 questions. Part I: 描写/場面把握 5, 表現力/発言聴解 10, 聴解/総合聴解 10 (25). Part II: 状況把握 5, 描写/資料聴読解 10, 聴読解/総合聴読解 10 (25). Part III: 文法語彙 10, 表現力/表現読解 10, 短文読解/総合読解 10 (30).", "source": "cbt_leaflet" },
+  { "fact": "Section formats: scene photo + spoken statements; utterance: picture + spoken situation + spoken options (keigo, relationships); comprehensive listening: illustration + dialogue/interview; situation: photo + conversation, printed options; document: graph/ad + spoken question; integrated: conversation + schedule/table/form/screen; reading: vocabulary/grammar, expression (register), comprehensive reading of emails/articles/reports.", "source": "samples" },
+  { "fact": "CBT screens show remaining time and move forward with a Next button; some questions play audio automatically. The pages consulted do not state how many times audio is played or whether earlier questions can be revisited — the app's mock rules (audio plays once by default, forward-only) are a practice setting, not an official rule.", "source": "cbt_demo" },
+  { "fact": "Total sitting time of about two hours including instructions and questionnaire was given in the learner's brief; the pages consulted only state the part times (45 + 30 + 30 min).", "source": "user" }
+ ],
+ "sources": {
+  "home": { "name": "BJT Business Japanese Proficiency Test (official, English)", "url": "https://www.kanken.or.jp/bjt/english/" },
+  "features": { "name": "BJT — Features of the BJT (official)", "url": "https://www.kanken.or.jp/bjt/english/about/feature.html" },
+  "levels": { "name": "BJT — Level guideline (official)", "url": "https://www.kanken.or.jp/bjt/english/about/levelguide.html" },
+  "samples": { "name": "BJT — Sample questions Part I / II / III (official)", "url": "https://www.kanken.or.jp/bjt/english/sample/sample01.html", "also": ["https://www.kanken.or.jp/bjt/english/sample/sample02.html", "https://www.kanken.or.jp/bjt/english/sample/sample03.html"] },
+  "cbt_leaflet": { "name": "日本漢字能力検定協会「BJTビジネス日本語能力テストは2017年度よりCBT方式で実施します」(2016/7/15版)", "url": "https://www.kanken.or.jp/bjt/topics/data/bjtinfo_cbtr.pdf" },
+  "cbt_demo": { "name": "BJT CBT demo (official)", "url": "https://www.kanken.or.jp/bjt/cbt_demo/" },
+  "keigo": { "name": "文化審議会答申「敬語の指針」(2007)", "url": "https://www.bunka.go.jp/seisaku/bunkashingikai/sokai/sokai_6/pdf/keigo_tousin.pdf" },
+  "user": { "name": "Learner's project brief (not independently confirmed)" }
+ },
+ "levels": [
+  { "band": "J1+", "min": 600, "max": 800, "en": "Able to communicate sufficiently in Japanese in any business situation" },
+  { "band": "J1", "min": 530, "max": 599, "en": "Able to communicate appropriately in Japanese in a wide range of business situations" },
+  { "band": "J2", "min": 420, "max": 529, "en": "Able to communicate appropriately in Japanese in a limited range of business situations" },
+  { "band": "J3", "min": 320, "max": 419, "en": "Able to achieve some degree of communication in Japanese in a limited range of business situations" },
+  { "band": "J4", "min": 200, "max": 319, "en": "Able to achieve minimal degree of communication in Japanese in a limited range of business situations" },
+  { "band": "J5", "min": 0, "max": 199, "en": "Virtually no ability to communicate in Japanese in business situations" }
+ ]
+}

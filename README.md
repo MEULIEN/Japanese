@@ -49,6 +49,51 @@ word (on / kun / special), so the general rule (on-yomi in compounds, kun-yomi a
 okurigana) is visible in real words. Data: KANJIDIC2 (EDRDG, CC BY-SA 4.0) and Kanji alive
 (CC BY 4.0); rebuild with `npm run build:kanji` after the curriculum changes.
 
+## BJT Training (BJT tab)
+
+A separate exam-preparation page for the **BJT Business Japanese Proficiency Test**, with a
+personal target of **400+ by Mon 30 Nov 2026**. Its own data (`state.bjt`) and schedule — it
+never changes the vocabulary or kanji schedules.
+
+- **Format (official sources, `data/bjt/sources.json`)**: 80 four-option questions in three
+  parts — Part I listening (場面把握 5 · 発言聴解 10 · 総合聴解 10, ~45 min), Part II
+  listening & reading (状況把握 5 · 資料聴読解 10 · 総合聴読解 10, ~30 min), Part III reading
+  (語彙・文法 10 · 表現読解 10 · 総合読解 10, 30 min). Scores are IRT-scaled 0–800 (J5–J1+).
+- **Questions**: 210 *original* BJT-style practice items (`data/bjt/questions/`), none official,
+  each with an explanation, a reason for every distractor, the error pattern each distractor
+  targets, key vocabulary and keigo notes. Schema: `data/bjt/SCHEMA.md`; writing rules:
+  `data/bjt/AUTHORING.md`; `npm run validate:bjt` checks them. **260 business words and
+  expressions** (`data/bjt/vocab.json`), each verified against JMdict, Tatoeba or
+  文化審議会「敬語の指針」.
+- **36-day plan** (Oct 26 → Nov 30): five phases (diagnostic & foundations → core competence →
+  target weaknesses → timed exam practice → final consolidation) and a final check on Nov 30.
+  Each day's tasks are generated when you first open the page that day, from your results and
+  the minutes you choose (chips on the page; default in Settings). Listening parts get most of
+  the practice; Sundays are lighter. **Missed days**: routine practice is not piled onto later
+  days; the next plan already targets your weakest areas, plus at most one optional catch-up.
+  The diagnostic, the timed assessment (Nov 13–15) and the two mocks (Nov 19–22, 26–28) carry
+  forward until done or replaced.
+- **Adaptivity**: a 25-question diagnostic across all nine sections (difficulty staircase),
+  then practice aimed at ~65% predicted success, weighted toward the weakest part/section,
+  biased toward your recurring error patterns (missed negation, suggestion vs decision,
+  wrong keigo direction, information split across audio and chart…). Wrong or "not sure"
+  answers return in **Mistake review** (FSRS). A weakness is recomputed from recent results,
+  so it disappears when you improve.
+- **Listening**: dialogues are spoken by the device's Japanese voices — men's and women's
+  roles get different voices when the device has them, otherwise different pitch. Speed rises
+  with item difficulty and in the timed phases. The transcript and spoken options stay hidden
+  until you answer. Replays are free in practice; in mocks each recording plays once (or
+  twice, a setting). Without a Japanese voice, listening can only be read as a transcript and
+  is flagged *assisted* (never counted as listening), and mocks are unavailable.
+- **Scores — what is and isn't shown**: raw accuracy, accuracy by section/skill, change over
+  time, accuracy under time pressure, and a *readiness indicator*: estimated success on the
+  items the authors placed in the target band (difficulty 3), with a 90% range, from a simple
+  item-response model on author-assigned difficulties. It is labelled "insufficient data" until
+  each part has 12+ first-time answers. **No 0–800 score is ever computed**: the official
+  scaling uses item parameters only the test owner has.
+- Tests: `npm run test:bjt` (Node), `npm run test:e2e:bjt` (Chrome, fake speech engine), a
+  WebKit check in `npm run test:webkit`. Manual audio/phone checks: `docs/BJT_MANUAL_TEST.md`.
+
 ## Topic priorities (Settings)
 
 Choose 1–3 topics you need most (e.g. Banking, Post office, City hall) and order them.
@@ -145,5 +190,5 @@ An interrupted lesson resumes where you left it.
 `js/srs.js` FSRS · `js/curriculum.js` loading and validation · `js/exercises.js`
 exercise generators and validation · `js/planner.js` session planning and
 adaptation · `js/store.js` state, migration and isolation · `js/progress.js`
-analytics · `js/speech.js` voices · `js/engine.js` the single façade used by
+analytics · `js/speech.js` voices and dialogues · `js/bjt.js` BJT plan, selection, scoring, mocks · `js/bjtview.js` BJT screens · `js/engine.js` the single façade used by
 the UI and the tests · `js/app.js` UI.

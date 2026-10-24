@@ -61,6 +61,18 @@ const compose = (pg, text) => pg.evaluate(t => {
   i.dispatchEvent(new Event('input', { bubbles: true }));
 }, text);
 
+test('WebKit: BJT page at 320 px — no overflow, a reading question answered by tap shows feedback, progress survives reload', async () => {
+  const pg = await page({ width: 320, now: '2026-10-26T09:00:00+09:00' });
+  await pg.tap('.tabbar [data-view="bjt"]'); await pg.waitForSelector('.bjt-target');
+  assert.ok(await pg.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), 'no horizontal overflow');
+  await pg.tap('[data-action="bjt-mode"][data-kind="reading"]'); await pg.waitForSelector('.bjt-choice');
+  await pg.tap('.bjt-choice[data-k="0"]'); await pg.waitForSelector('.feedback');
+  assert.ok(await pg.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), 'feedback fits');
+  await pg.reload(); await pg.waitForSelector('.act-grid');
+  assert.strictEqual(await pg.evaluate(() => window.__michi.E.state.bjt.responses.length), 1);
+  assert.deepStrictEqual(pg.errors, []);
+  await pg.ctxRef.close();
+});
 test('WebKit: tap the answer zone → the real input is focused; typed text + Check is graded', async () => {
   const pg = await page();
   await typedCard(pg, 'f_menu');

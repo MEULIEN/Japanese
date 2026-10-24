@@ -59,6 +59,7 @@
       milestones: {},      // { [id]: { passed, attempts: [] } }
       practice: { items: {}, log: [], daily: {}, latency: {} },
       kanji: { memory: {}, log: [], sessions: [], latency: [] },   // radicals page (own schedule)
+      bjt: null,           // BJT Training page (own data; see js/bjt.js). Created on first use.
       train: { spanBest: 0, spanHistory: [], recoveryTries: 0, recoveryWins: 0 },
       hooks: {},
       curriculumSeen: []   // curriculum versions seen (annotates progress charts)
@@ -76,6 +77,7 @@
     out.practice = Object.assign(blank().practice, s.practice || {});
     out.train = Object.assign(blank().train, s.train || {});
     out.kanji = Object.assign(blank().kanji, s.kanji || {});
+    if (out.bjt && typeof out.bjt !== 'object') out.bjt = null;
     for (const k of ['memory', 'daily', 'latency', 'weekly', 'milestones', 'hooks']) if (!out[k] || typeof out[k] !== 'object') out[k] = {};
     for (const k of ['log', 'sessions', 'curriculumSeen']) if (!Array.isArray(out[k])) out[k] = [];
     out.schema = SCHEMA;

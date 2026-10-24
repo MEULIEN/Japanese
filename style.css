@@ -258,3 +258,82 @@ button, .act, .chip, .choice, label.answer-zone { -webkit-tap-highlight-color: t
 mark { background: var(--gold-soft); color: inherit; border-radius: 3px; padding: 0 1px; }
 /* six tabs: keep labels on one line on 320 px */
 .tabbar-btn .t-label { font-size: .66rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+/* BJT Training page */
+.act.bjt-home { border-left: 5px solid #2F6B6B; }
+.tabbar-btn { min-width: 0; }
+.bjt-target { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; box-shadow: var(--shadow); }
+.bjt-target p { margin: 6px 0 0; color: var(--ink-2); }
+.bjt-goal { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.bjt-goal .big-n { font-size: 2rem; font-weight: 800; color: var(--gold); line-height: 1; }
+.bjt-tasks { gap: 10px; }
+.bjt-tasks .act { width: 100%; min-height: 0; }
+.act.milestone { border-style: dashed; border-color: var(--gold); }
+.pill.warn { background: var(--bad-soft); color: var(--bad); }
+.pill.big { font-size: .95rem; padding: 5px 12px; }
+.bjt-modes { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.bjt-modes .act { min-height: 76px; padding: 12px; }
+.bjt-modes .mg { font-family: var(--font-jp); color: var(--gold); }
+.bjt-ready { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 10px 12px; }
+.ready-head { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.bjt-rtable td, .bjt-stable td { white-space: normal; }
+table.conj.bjt-rtable th, table.conj.bjt-stable th { min-width: 0; }
+.mbar { display: inline-block; width: 64px; height: 8px; background: var(--paper-2); border-radius: 4px; overflow: hidden; vertical-align: middle; }
+.mbar i { display: block; height: 100%; background: var(--gold); }
+.bjt-weak li, .bjt-hist li { padding: 6px 0; border-bottom: 1px solid var(--line); }
+.bjt-hist li { display: flex; flex-wrap: wrap; gap: 4px 12px; justify-content: space-between; align-items: center; }
+/* runner */
+.bjt-clock { display: flex; justify-content: space-between; align-items: center; font-weight: 600; color: var(--ink-2); margin-bottom: 6px; }
+.bjt-clock .timer { font-variant-numeric: tabular-nums; font-size: 1.1rem; color: var(--ink); }
+.bjt-clock .timer.low { color: var(--bad); }
+.bjt-fig { margin: 0; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-s); padding: 8px; }
+.bjt-fig svg { width: 100%; height: auto; display: block; border-radius: 6px; }
+.bjt-fig.chart-fig svg { background: #fff; }
+.bjt-fig svg.pie { max-width: 220px; margin: 0 auto; }
+.bjt-fig figcaption { font-size: .9rem; margin: 2px 0 6px; }
+.bjt-fig.scene figcaption { margin: 6px 0 0; color: var(--ink-2); }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: .82rem; margin-top: 4px; }
+.legend i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 4px; vertical-align: -1px; }
+.bjt-table td, .bjt-table th { font-size: .9rem; }
+table.conj.bjt-table tbody th { min-width: 5em; }
+.bjt-doc { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-s); padding: 12px 14px; font-size: 1rem; line-height: 1.7; overflow-wrap: anywhere; }
+.bjt-doc h4 { margin: 0 0 6px; font-size: 1.02rem; }
+.bjt-doc p { margin: 4px 0; }
+.bjt-doc .doc-meta { font-size: .85rem; color: var(--ink-2); border-bottom: 1px dashed var(--line); padding-bottom: 6px; margin-bottom: 6px; }
+.bjt-doc.ad, .bjt-doc.notice { border: 2px solid var(--gold); }
+.bjt-audio { display: flex; flex-wrap: wrap; gap: 8px 12px; align-items: center; background: var(--paper-2); border-radius: var(--radius-s); padding: 10px; }
+.bjt-audio .aline { font-weight: 600; color: var(--gold); }
+.bjt-passage { font-size: 1.1rem; line-height: 1.8; }
+.bjt-passage .blank { display: inline-block; min-width: 3em; border-bottom: 2px solid var(--gold); color: transparent; }
+.bjt-stem { font-size: 1.08rem; color: var(--ink); }
+.choices.numgrid { grid-template-columns: repeat(4, 1fr); }
+.choices.numgrid .choice { min-height: 64px; font-size: 1.4rem; font-weight: 700; }
+.bjt-opts .choice, .bjt-choice { text-align: left; display: flex; gap: 10px; align-items: center; }
+.numgrid .bjt-choice { justify-content: center; }
+.bjt-choice .onum { flex: 0 0 auto; width: 28px; height: 28px; border-radius: 50%; display: inline-flex; align-items: center; justify-content: center; background: var(--paper-2); font-weight: 700; font-size: .95rem; }
+.numgrid .bjt-choice .onum { width: auto; height: auto; background: none; font-size: 1.4rem; }
+.choice.picked { border-color: var(--accent); box-shadow: 0 0 0 2px var(--accent) inset; }
+.bjt-actions { justify-content: space-between; }
+.choice.small-dk { min-height: 44px; padding: 8px 14px; flex: 0 0 auto; }
+.bjt-transcript { background: var(--card); border: 1px dashed var(--line); border-radius: var(--radius-s); padding: 8px 12px; margin: 8px 0; line-height: 1.7; }
+.bjt-transcript p { margin: 3px 0; }
+ol.bjt-why { padding-left: 22px; margin: 6px 0; }
+ol.bjt-why li { margin: 6px 0; }
+ol.bjt-why li.ok { color: var(--good); font-weight: 600; }
+ol.bjt-why li.chosen { color: var(--bad); }
+.bjt-vocab { display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0; }
+.bjt-rev { background: var(--card); border: 1px solid var(--line); border-radius: var(--radius-s); padding: 4px 10px; }
+.bjt-rev summary { flex-wrap: wrap; gap: 4px; }
+.plan-days { gap: 4px; }
+.pday { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; padding: 6px 8px; border-radius: 8px; background: var(--card); border: 1px solid var(--line); font-size: .9rem; }
+.pday .pd { min-width: 9.5em; font-weight: 600; }
+.pday.today { border-color: var(--gold); box-shadow: 0 0 0 2px var(--gold-soft); }
+.pday.missed .ps { color: var(--bad); } .pday.done .ps, .pday.practised .ps { color: var(--good); } .pday.partial .ps { color: var(--near); }
+.pday.light { background: var(--paper-2); }
+.bjt-levels li { padding: 6px 8px; border-radius: 8px; }
+.bjt-levels li.here { background: var(--gold-soft); }
+@media (max-width: 360px) { .bjt-modes { grid-template-columns: 1fr; } .choices.numgrid .choice { min-height: 56px; } }
+.bjt-parts li { padding: 8px 0; border-top: 1px solid var(--line); }
+.rp-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; flex-wrap: wrap; }
+/* seven tabs: short labels where two of them would not fit */
+.tabbar-btn .t-short { display: none; }
+@media (max-width: 420px) { .tabbar-btn .t-long { display: none; } .tabbar-btn .t-short { display: inline; } }

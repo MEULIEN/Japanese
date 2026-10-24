@@ -31,7 +31,7 @@
 
     // Default time the learner has for each session (minutes). The learner
     // can change these in Settings; session SIZE is derived from them.
-    availableMinutes: { morning: 20, evening: 15, weekly: 40, kanji: 10 },
+    availableMinutes: { morning: 20, evening: 15, weekly: 40, kanji: 10, bjt: 60 },
 
     morning: {
       // Design preference for a normal morning (not a quota). The planner

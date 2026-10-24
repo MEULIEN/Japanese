@@ -23,6 +23,7 @@
   const P = req('policy.js', 'MichiPolicy');
   const CUR = req('curriculum.js', 'MichiCurriculum');
   const KJ = req('kanji.js', 'MichiKanji');
+  const BJ = req('bjt.js', 'MichiBJT');
 
   /* opts: { C, storage, now: () => ms, rng, audio: () => bool } */
   function create(opts) {
@@ -317,6 +318,70 @@
     };
     if (KX.ready()) KX.resume();
 
+    /* ---------- BJT Training page (own data in state.bjt; never touches
+       the vocabulary memory or the kanji schedule) ---------- */
+    const BSESSION = 'michi_v2_bjtsession';
+    E.BI = opts.B ? BJ.index(opts.B.files, opts.B.vocab) : null;
+    if (E.state.bjt) E.state.bjt = BJ.normalize(E.state.bjt);
+    const BX = E.bjt = {
+      session: null,
+      ready: () => !!(E.BI && E.BI.qs.length),
+      // Created on first use, so existing learners start with untouched data.
+      st: () => E.state.bjt || (E.state.bjt = BJ.blankState()),
+      budget: (date) => { const b = BX.st().budgets || {}; return b[date || E.today()] || E.state.settings.minutes.bjt || P.availableMinutes.bjt; },
+      setBudget: (min) => { const st = BX.st(); st.budgets = st.budgets || {}; st.budgets[E.today()] = Math.max(10, Math.min(240, Math.round(min))); BX.plan(true); E.save(); },
+      plan: (regen) => { const before = JSON.stringify(BX.st().days[E.today()] || null); const d = BJ.dayPlan(E.BI, BX.st(), E.today(), BX.budget(), regen); if (JSON.stringify(d) !== before) E.save(); return d; },
+      dashboard: () => {
+        const st = BX.st(), date = E.today(), day = BX.plan();
+        return { info: BJ.dayInfo(date), day, rec: BJ.recommend(E.BI, st, date, day), readiness: BJ.readiness(E.BI, st, date), profile: BJ.profile(E.BI, st, date), vocab: BJ.vocabStats(E.BI, st, date), mocks: st.mocks.slice().reverse(), trend: BJ.trend(st, date), reviewDue: Object.values(st.review).filter(x => x.due <= date).length, status: t => BJ.taskStatus(st, t) };
+      },
+      save: () => { try { if (BX.session && !BX.session.finished) opts.storage.setItem(BSESSION, JSON.stringify(BX.session)); else opts.storage.removeItem(BSESSION); } catch (e) { } },
+      resume: () => { try { const s = JSON.parse(opts.storage.getItem(BSESSION)); if (s && s.queue && !s.finished) { s.queue = s.queue.filter(c => c.type !== 'q' || E.BI.byId[c.qid]); BX.session = s; s.shownAt = now(); s.answerFrom = null; s._lastTick = null; s.paused = false; } } catch (e) { } return BX.session; },
+      findTask: (id) => { const st = BX.st(); for (const d of Object.values(st.days)) { const t = d.tasks.find(x => x.id === id); if (t) return t; } return null; },
+      start: (spec) => {
+        if (!BX.ready()) return { error: 'no-data' };
+        if (BX.session && !BX.session.finished) return { error: 'running', session: BX.session };
+        const st = BX.st(), date = E.today();
+        if (typeof spec === 'string') { const t = BX.findTask(spec); if (!t) return { error: 'no-task' }; spec = BJ.specForTask(E.BI, st, t, date); }
+        spec = Object.assign({ audio: !!(opts.audio && opts.audio()) }, spec);
+        const s = BJ.startSession(E.BI, st, spec, { rng, date, now });
+        if (!s.queue.length) return { error: s.reason || 'nothing' };
+        BX.session = s; s.shownAt = now(); s.answerFrom = null; BX.save();
+        return { session: s };
+      },
+      current: () => BX.session && !BX.session.finished ? BX.session.queue[BX.session.i] || null : null,
+      q: (id) => E.BI.byId[id],
+      v: (id) => E.BI.vocabById[id],
+      // Listening: the answer window (for timing) starts when the audio has finished.
+      audioEnded: () => { const s = BX.session; if (s && !s.answerFrom) { s.answerFrom = now(); BX.save(); } },
+      answer: (resp) => {
+        const s = BX.session; if (!s) return null;
+        const c = s.queue[s.i]; if (!c) return null;
+        if (c._answered) return c._answered;
+        if (s.exam) BX.tick();
+        const ms = now() - (s.answerFrom || s.shownAt || now());
+        const out = BJ.answer(E.BI, BX.st(), s, resp || {}, { date: E.today(), ms, now: now(), rng });
+        E.save(); BX.save();
+        return out;
+      },
+      next: () => { const s = BX.session; if (!s) return null; s.i++; s.shownAt = now(); s.answerFrom = null; BX.save(); return BX.current(); },
+      tick: () => { const s = BX.session; if (!s || !s.exam) return null; const t = BJ.tick(s, now()); if (t && t.expired) { BJ.expirePart(E.BI, BX.st(), s, { date: E.today(), now: now(), rng }); s.shownAt = now(); E.save(); } BX.save(); return t; },
+      pause: () => { if (BX.session && BX.session.exam) { BX.tick(); BJ.pause(BX.session, now()); BX.save(); } },
+      resumeClock: () => { if (BX.session && BX.session.exam) { BJ.resume(BX.session, now()); BX.save(); } },
+      finish: () => {
+        const s = BX.session; if (!s || s.finished) return s && s.summary;
+        const sum = BJ.finish(E.BI, BX.st(), s, E.today());
+        E.save(); BX.save();
+        return sum;
+      },
+      // Leave the session for later (exam split mode / practice) without finishing it.
+      shelve: () => { const s = BX.session; if (s) { BJ.pause(s, now()); BX.save(); } },
+      discard: () => { if (BX.session && !BX.session.finished) BX.finish(); },   // ends early: never counts as a completed task
+      report: () => BJ.finalReport(E.BI, BX.st(), E.today()),
+      overview: () => BJ.planOverview(E.BI, BX.st(), E.today())
+    };
+    if (BX.ready()) BX.resume();
+
     /* ---------- settings / backup ---------- */
     E.exportJSON = () => JSON.stringify({ app: 'michi', exported: new Date(now()).toISOString(), state: E.state }, null, 1);
     E.importJSON = (text) => {
@@ -325,7 +390,8 @@
       if (raw && raw.schema === ST.SCHEMA) E.state = ST.normalize(raw, E.today());
       else if (raw && raw.items) E.state = ST.migrateV1(raw, E.today());
       else throw new Error('not a Michi backup');
-      E.session = null; E.saveSession(); E.save();
+      if (E.state.bjt) E.state.bjt = BJ.normalize(E.state.bjt);
+      E.session = null; E.saveSession(); BX.session = null; BX.save(); E.save();
       return true;
     };
     E.restoreV1Backup = () => {
@@ -334,7 +400,7 @@
       E.state = ST.migrateV1(JSON.parse(raw), E.today());
       E.save(); return true;
     };
-    E.reset = () => { E.state = ST.blank(E.today()); E.session = null; E.saveSession(); E.save(); };
+    E.reset = () => { E.state = ST.blank(E.today()); E.session = null; E.saveSession(); BX.session = null; BX.save(); E.save(); };
     return E;
   }
 
